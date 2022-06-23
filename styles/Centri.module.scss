@@ -1,0 +1,123 @@
+@import './variables';
+
+
+#titleCentri{
+    padding-top: 4rem;
+    padding-bottom: 4rem;
+
+    .titleTopCentri{
+        .title{
+            color: $titleColor;
+            font-weight: 500;
+            font-size: 2.5rem;
+            line-height: 3rem;
+            margin-top: 2rem;
+            margin-bottom: 2rem;
+        }
+    }
+}
+
+#centriBoxes{
+    padding-bottom: 5.5rem;
+    .boxCity{
+        background: url("../public/images/centri/box-background.png") no-repeat;
+        background-size: auto;
+        background-position: center;
+        position: relative;
+        // box-shadow: 0px 2px 8px rgba(0, 0, 0, 0.12);
+        border-radius: 0.5rem;
+        width: 26.938rem;
+        margin-right: 1.5rem;
+        &:last-child{
+            margin-right: 0;
+        }
+    }
+    .last-city{
+        justify-content: center;
+    }
+    .column{
+        display: flex;
+    }
+    .boxOuter{
+       
+    }
+    .boxInner{
+        padding: 4rem 2rem 2rem 2rem;
+        .centriCityTitle{
+            font-weight: 500;
+            font-size: 2rem;
+            line-height: 2.5rem;
+            color: $titleColor;
+            margin-bottom: 0;
+        }
+        .centriCitySubtitle{
+            font-weight: 500;
+            font-size: 1rem;
+            line-height: 1.5rem;
+            color: $primaryText;
+            padding-top: 0.5rem;
+            padding-bottom: 1rem;
+            margin-bottom: 0;
+        }
+        .cityInfoTitle{
+            font-weight: 400;
+            font-size: 1rem;
+            line-height: 1.5rem;
+            color: $titleColor;
+            margin-bottom: 0.5rem;
+        }
+        .cityInfoContent{
+            font-weight: 700;
+            font-size: 1rem;;
+            line-height: 1.5rem;;
+            color: $primaryGreen;
+            margin-bottom: 0.5rem;
+        }
+        .cityDetailsBtn{
+            margin-bottom: 2rem;
+        }
+
+        .adressInfo{
+            .column{
+                display: block;
+                p{
+                    margin-bottom: 0.5rem;
+                }
+            }
+           
+            padding-bottom: 2.5rem;
+        }
+    }
+
+}
+
+.centriCityTitle{
+    font-weight: 500;
+    font-size: 2rem;
+    line-height: 2.5rem;
+    color: $titleColor;
+    margin-bottom: 0;
+}
+.centriCitySubtitle{
+    font-weight: 500;
+    font-size: 1rem;
+    line-height: 1.5rem;
+    color: $primaryText;
+    padding-top: 0.5rem;
+    padding-bottom: 1rem;
+    margin-bottom: 0;
+}
+.cityInfoTitle{
+    font-weight: 400;
+    font-size: 1rem;
+    line-height: 1.5rem;
+    color: $titleColor;
+    margin-bottom: 0.5rem;
+}
+.cityInfoContent{
+    font-weight: 700;
+    font-size: 1rem;
+    line-height: 1.5rem;
+    color: $primaryGreen;
+    margin-bottom: 0.5rem;
+}

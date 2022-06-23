@@ -1,0 +1,89 @@
+
+.singleBlogCont{
+    display: flex;
+    justify-content: center;
+}
+.singleBlogCol{
+    padding-top: 4rem;
+    padding-bottom: 3.5rem;
+    
+}
+
+.postSingleTitle{
+    font-weight: 500;
+    font-size: 2.5rem;
+    line-height: 3rem;
+    text-align: center;
+    color: $titleColor;
+    width: 41.25rem;
+}
+
+.postSingleDate{
+    font-weight: 400;
+    font-size: 0.875rem;
+    line-height: 1.188rem;
+    text-align: center;
+    color: $primaryGreen;
+    margin-top: 1.156rem;
+    width: 41.25rem;
+}
+
+.postSingleImage{
+    margin-top: 4.156rem;
+    margin-bottom: 3rem;
+}
+
+.postSingleContent{
+    font-weight: 400;
+    font-size: 1rem;
+    line-height: 1.813rem;
+    color: $primaryText;
+    width: 41.25rem;
+}
+
+.titlePost, .datePost, .imgPost, .contentPost{
+    display: flex;
+    justify-content: center;
+}
+
+#shareOnline{ 
+    padding-bottom: 5.281rem;
+    .container{
+        display: flex;
+        justify-content: center;
+        
+        .columns{
+            width: 41.25rem;
+            
+            .column{
+            padding-left: 0;
+            margin-left: 0;
+            
+            .shareOnlinePar{
+                font-weight: 500;
+                font-size: 0.875rem;
+                line-height: 1.381rem;
+                color: #0D2231;
+                display: flex;
+                align-items: center;
+            }
+            
+            .shareFacebook, .shareTwitter{
+                padding: 0.5rem;
+                background-color: $primaryGreen;
+                justify-content: center;
+                display: flex;
+                width: 2rem;
+                height: 2rem;
+                border-radius: 100px;
+            }
+            .shareFacebook{
+                margin-left: 1rem;
+            }
+            .shareTwitter{
+                margin-left: 0.5rem;
+            }
+            }
+        }
+    }
+}

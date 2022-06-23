@@ -1,0 +1,269 @@
+@import '~bulma/bulma.sass';
+@import "./variables.scss";
+@import "./fonts.scss";
+@import "./index.scss";
+@import "./Home.module.scss";
+@import './Slider.module.scss';
+@import './TestimonialCarousel.module.scss';
+@import './footer';
+@import './Faq.module.scss';
+@import './Accordion.module.scss';
+@import './FaqLed.module.scss';
+@import './Centri.module.scss';
+@import './centri/Sarajevo-I.module.scss';
+@import './centri/Sarajevo-II.module.scss';
+@import './centri/Sarajevo-III.module.scss';
+@import './centri/Sarajevo-IV.module.scss';
+@import './centri/Banja-Luka.module.scss';
+@import './centri/Zenica.module.scss';
+@import './centri/Tuzla.module.scss';
+@import './centri/Doboj.module.scss';
+@import './centri/Brcko.module.scss';
+@import './Tehnologije.module.scss';
+@import './tehnologije/LaserTehnologija.module.scss';
+@import './tehnologije/IPLTehnologija.module.scss';
+@import './tehnologije/LedTehnologija.module.scss';
+@import './tehnologije/UltrazvukTehnologija.module.scss';
+@import './tehnologije/SunandsafeTehnologija.module.scss';
+@import './tehnologije/LjekarskaPodrska.module.scss';
+@import './KozmetickiProizvodi.module.scss';
+@import './kozmeticki-proizvodi/kozmetika-za-ciscenje/Kozmetika-Ciscenje.module.scss';
+@import './kozmeticki-proizvodi/kozmetika-za-ciscenje/GelZaCiscenjeVisokeTolerancije.module.scss';
+@import './kozmeticki-proizvodi/kozmetika-za-ciscenje/LiposomskaVoda.module.scss';
+@import './kozmeticki-proizvodi/kozmetika-za-ciscenje/GelZaCiscenjeProtivNesavrsenosti.module.scss';
+@import './LinijaZaRevitalizaciju.module.scss';
+@import './kozmeticki-proizvodi/linija-za-revitalizaciju/AmpuleZaRevitalizaciju.module.scss';
+@import './kozmeticki-proizvodi/linija-za-revitalizaciju/MaskaZaRevitalizaciju.module.scss';
+@import './kozmeticki-proizvodi/linija-za-revitalizaciju/RevitalizirajuciFacijalniFluid.module.scss';
+@import './LinijaZaRegeneraciju.module.scss';
+@import './kozmeticki-proizvodi/linija-za-regeneraciju/HidrozastitnaEmulzija.module.scss';
+@import './kozmeticki-proizvodi/linija-za-regeneraciju/MaskaZaRegeneraciju.module.scss';
+@import './styles/LinijaZaUcvrscivanje.module.scss';
+@import './kozmeticki-proizvodi/linija-za-ucvrscivanje/KremaZaLice.module.scss';
+@import './kozmeticki-proizvodi/linija-za-ucvrscivanje/MaskaZaUcvrscivanje.module.scss';
+@import './kozmeticki-proizvodi/linija-za-ucvrscivanje/AmpuleZaUcvrscivanje.module.scss';
+@import './styles/LinijaProtivNesavrsenosti.module.scss';
+@import './kozmeticki-proizvodi/linija-protiv-nesavrsenosti/AmpuleProtivNesavrsenosti.module.scss';
+@import './kozmeticki-proizvodi/linija-protiv-nesavrsenosti/MaskaProtivNesavrsenosti.module.scss';
+@import './kozmeticki-proizvodi/linija-protiv-nesavrsenosti/KremaProtivNesavrsenosti.module.scss';
+@import './styles/LinijaZaHidrataciju.module.scss';
+@import './kozmeticki-proizvodi/linija-za-hidrataciju/MaskaZaHidrataciju.module.scss';
+@import './kozmeticki-proizvodi/linija-za-hidrataciju/SerumProtivStarenja.module.scss';
+@import './kozmeticki-proizvodi/linija-za-hidrataciju/KremaZaLiceProtivStarenja.module.scss';
+@import './styles/KozmetikaZaTijelo.module.scss';
+@import '../styles/usluge/LaserskaEpilacija.module.scss';
+@import '../styles/usluge/Fotoepilacija.module.scss';
+@import '../styles/usluge/Fotopodmlađivanje.module.scss';
+@import '../styles/usluge/UltrazvučnoČišćenjeLica.module.scss';
+@import '../styles/usluge/FacijalniAntiAge.module.scss';
+@import '../styles/usluge/IzbjeljivanjeZuba.module.scss';
+@import '../styles/usluge/TjelesniUcvrscivac.module.scss';
+@import '../styles/usluge/PersonalizovaniTretmanLica.module.scss';
+@import '../styles/usluge/TretmanAkni.module.scss';
+@import '../styles/Blog.module.scss';
+@import '../styles/blog/[slug].scss';
+@import '../styles/HeadSlider.module.scss';
+@import '../styles/Map.module.scss';
+@import '../styles/Navbar.module.scss';
+
+
+
+
+
+html,
+body {
+  padding: 0;
+  margin: 0;
+  font-family: $mainFont;
+  background: #E5E5E5;
+}
+
+a {
+  color: inherit;
+  text-decoration: none;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+ h1{
+  font-weight: 500;
+  line-height: 3rem;
+}
+
+.isGreen{
+  color: $primaryGreen;
+}
+
+.turqButton{
+  background-color: $primaryTurquoise;
+  padding: 1rem 2rem;
+  color: #fff;
+  font-weight: 700;
+  text-align: center;
+  font-size: 1rem;
+  line-height: 1.5rem;
+  font-family: $mainFont;
+  border-radius: 6px;
+}
+.greenButton{
+  background-color: $primaryGreen;
+  padding: 1rem 2rem;
+  color: #fff;
+  font-weight: 700;
+  text-align: center;
+  font-size: 1rem;
+  line-height: 1.5rem;
+  font-family: $mainFont;
+  border-radius: 6px;
+}
+.greyButton{
+  background-color: $primaryText;
+  padding: 1rem 2.219rem;
+  color: #fff;
+  font-weight: 700;
+  text-align: center;
+  font-size: 1rem;
+  line-height: 1.5rem;
+  font-family: $mainFont;
+  border-radius: 6px;
+}
+.kolekcijaButton{
+  font-weight: 700;
+  font-size: 1rem;
+  line-height: 1.5rem;
+  color: #fff;
+  background-color: $titleColor;
+  border-radius: 6px;
+  padding: 0.75rem 1.5rem;
+  text-align: center;
+  display: inline-flex;
+}
+.defaultGreenTitle{
+  font-weight: 500;
+  font-size: 1.75rem;
+  line-height: 2.25rem;
+  color: $primaryGreen;
+}
+.defaultBlueTitle{
+  font-weight: 500;
+  font-size: 1.75rem;
+  line-height: 2.25rem;
+  color: $titleColor;
+}
+.defaultText{
+  font-weight: 400;
+  font-size: 1rem;
+  line-height: 1.5rem;
+  color: $primaryText;
+}
+.defaultText2{
+  font-weight: 400;
+  font-size: 1rem;
+  line-height: 1.75rem;
+  color: $primaryText;
+}
+.defaultBlueText{
+  font-weight: 400;
+  font-size: 1rem;
+  line-height: 1.5rem;
+  color: $titleColor;
+}
+.kozmetikeDescriptionTitle{
+  font-weight: 700;
+  font-size: 1.5rem;
+  line-height: 2.25rem;
+  text-align: center;
+  color: $titleColor;
+}
+.kozmetikeDescriptionText{
+  font-weight: 400;
+  font-size: 1rem;
+  line-height: 1.75rem;
+  text-align: center;
+  color: $primaryText;
+}
+.middleBlueTitle{
+  font-weight: 700;
+  font-size: 1.5rem;
+  line-height: 2rem;
+  color: $titleColor;
+}
+.middleGreenTitle{
+  font-weight: 700;
+  font-size: 1.5rem;
+  line-height: 2.25rem;
+  color: $primaryGreen;
+}
+.eighteenTitle{
+  font-weight: 700;
+  font-size: 1.125rem;
+  line-height: 1.688rem;
+  color: $titleColor;
+}
+
+
+._2jvtI{
+  list-style-type: none;
+  display: flex;
+  justify-content: center;
+  align-content: center;
+  align-items: center;
+  li{
+    list-style-type: none;
+    margin-top: 0 !important;
+    padding-right: 2rem;
+    &:last-child::after{
+      display: none;
+    }
+    &::after{
+      content: url(../public/images/chevron-rigth.svg);
+      position: relative;
+      padding-left: 1.5rem;
+      
+    }
+    a{
+      text-transform: capitalize;
+      font-weight: 400;
+      font-size: 0.813rem;
+      line-height: 1.219rem;
+      color: $primaryText;
+    }
+    a:hover, a:active{
+      font-weight: 700;
+      font-size: 0.813rem;
+      line-height: 1.219rem;
+      color: $titleColor;
+    }
+  }
+  .content li + li{
+    margin-top: 0;
+  }
+}
+
+.uslugeBtn{
+  font-weight: 700;
+  font-size: 1rem;
+  line-height: 1.5rem;
+  text-align: center;
+  color: #fff;
+  padding: 0.75rem 1.5rem;
+  background-color: $titleColor;
+  border-radius: 6px;
+  display: inline-flex;
+  &:hover{
+    color: #fff;
+  }
+}
+.narudzbaButtonBottom{
+  font-weight: 700;
+  font-size: 1rem;
+  line-height: 1.5rem;
+  color: #fff;
+  padding: 1rem 2rem;
+  background-color: $primaryGreen;
+  border-radius: 6px;
+  display: inline-flex;
+  margin-top: 2rem;
+}

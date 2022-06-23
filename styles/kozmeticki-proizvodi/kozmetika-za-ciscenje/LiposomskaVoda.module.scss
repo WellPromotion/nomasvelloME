@@ -1,0 +1,36 @@
+@import '../../variables';
+
+
+#featuredProduct{
+    .leftColumnLiposomska{
+        display: flex;
+        justify-content: left;
+        padding-right: 3.125rem;
+    }
+    .rightColumnLiposomska{
+        width: 33rem;
+    }
+}
+
+.efektiLiposomskaVoda{
+    .titleInner{
+        display: flex;
+        justify-content: center;
+        // margin-bottom: 1.5rem;
+    }
+    .listInner{
+        display: flex;
+        justify-content: center;
+        .detailsList{
+            padding-right: 1.5rem;
+        }
+        .greenCheckSpacing{
+            flex-grow: 0;
+            height: auto !important;
+            padding-right: 1rem !important;
+        }
+        .odlikeItem{
+            margin-bottom: 0 !important;
+        }
+    }
+}

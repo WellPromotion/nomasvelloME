@@ -1,0 +1,89 @@
+@import '../variables';
+
+.fotopodmladjivanje{
+    background-image: url('../../public/images/usluge/tjelesni-ucvrscivac/header.png') !important;
+}
+
+
+.definicijaTjelesni{
+    
+    .contentGreenTjelesni{
+        font-weight: 500;
+        color: $primaryGreen;
+        font-size: 1rem;
+        line-height: 1.5rem;
+    }
+    .coloredCols{
+        background-color: #E2EEEE;
+        border-radius: 0.5rem;
+        margin-top: 2rem;
+        .txT{
+            font-weight: 700;
+            font-size: 1rem;
+            line-height: 1.5rem;
+            color: $primaryTurquoise;
+        }
+    }
+}
+
+#hrTjelesni{
+    padding-top: 5rem;
+    padding-bottom: 3rem;
+    hr{
+        background-color: #E1E1E1;
+        height: 1px;
+        margin: 0;
+    }
+}
+
+.tretmanTjelesni{
+    .colsHor{
+        justify-content: center;
+    }
+    .colHor{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    .singleItem{
+        .singleItem{
+            text-align: left !important;
+        }
+    }
+    .titleCols{
+        margin-bottom: 2.344rem !important;
+        padding-bottom: 0 !important;
+        .titleCol{
+            padding-bottom: 0 !important;
+        }
+        .tretmanTitle{
+            margin-bottom: 0 !important;
+        }
+    }
+}
+
+.serumTjelesni{
+    
+    .rightColTjelesni{
+        padding-left: 7.563rem;
+    }
+    .whiteBack{
+        display: flex;
+        align-items: center;
+    }
+}
+
+.cijenaTjelesni{
+    .singleItemTop, .upperItem{
+        width: 30.063rem !important;
+    }
+    .priceTagCols{
+        padding-top: 0 !important;
+    }
+}
+
+.naruciteTjelesni{
+    .titleNarudzba{
+        text-transform: uppercase;
+    }
+}

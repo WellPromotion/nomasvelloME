@@ -1,0 +1,242 @@
+@import '../variables';
+
+.facijalni{
+    background-image: url('../../public/images/usluge/facijalni-anti-age/header.png') !important;
+}
+
+
+#ucinkovitost{
+    padding-top: 5.938rem;
+    
+    .leftCol{
+        text-align: left;
+    }
+    .columns{
+        display: flex;
+        justify-content: space-evenly;
+    }
+    .ucinkovitostTitle{
+        font-weight: 500;
+        font-size: 1.75rem;
+        line-height: 2.25rem;
+        color: $primaryGreen;
+        margin-bottom: 1rem;
+    }
+    .ucinkovitostSub{
+        .greenSpan{
+            font-weight: 700;
+            color: $primaryGreen;
+        }
+    }
+}
+
+#tipovi{
+    
+    .blueTipovi{
+        font-weight: 500;
+        font-size: 2rem;
+        color: $titleColor;
+        line-height: 2.8rem;
+    }
+    .tipoviTitle{
+        font-weight: 500;
+        font-size: 1.75rem;
+        line-height: 2.45rem;
+        color: $primaryGreen;
+    }
+    
+    .threeCols{
+        .outter{
+            background-color: #fff;
+            border-radius: 0.5rem;
+            box-shadow: 0px 2px 0.5rem rgba(0, 0, 0, 0.12);
+            height: 17.875rem;
+        }
+        .secondCol{
+            .inner{
+                padding-bottom: 1.625rem !important;
+            }
+        }
+        .inner{
+            padding: 2rem;
+        }
+        .boxTitle{
+            font-weight: 700;
+            color: $titleColor;
+            font-size: 1.5rem;
+            line-height: 2.25rem;
+            margin-bottom: 1rem;
+        }
+        .list{
+            .item{
+                display: flex;
+                margin-bottom: 0.875rem;
+                img{
+                    padding-right: 1rem;
+                }
+                .singleItem{
+                    font-weight: 700;
+                    color: $primaryTurquoise;
+                    font-size: 1rem;
+                    line-height: 1.5rem;
+                }
+            }
+        }
+    }
+}
+
+#sesije{
+    padding-top: 2rem;
+    .container{
+        background-color: #EDEFE5;
+        border-radius: 0.5rem;
+    }
+    .txT{
+        font-weight: 400;
+        font-size: 1rem;
+        color: $primaryText;
+        line-height: 1.5rem;
+        .greenPart{
+            font-weight: 700;
+            color: $primaryGreen;
+        }
+    }
+}
+
+#serum{
+    padding-top: 4.063rem;
+    
+    .imgSerum{
+        padding: 1.813rem 1.75rem 1.813rem 1.75rem;
+        background-color: #fff;
+        border-radius: 0.75rem;
+        box-shadow: 6px 0.625rem 1.563rem rgba(0, 0, 0, 0.1);
+    }
+    .rolonTitle{
+        font-weight: 700;
+        font-size: 1.5rem;
+        color: $primaryGreen;
+        line-height: 2.25rem;
+        margin-bottom: 0.5rem;
+    }
+    .rolonSub{
+        font-weight: 400;
+        font-size: 1rem;
+        color: $primaryText;
+        line-height: 1.75rem;
+        margin-bottom: 2.5rem;
+    }
+    .rolonButton{
+        color: #fff;
+        font-size: 1rem;
+        line-height: 1.5rem;
+        font-weight: 700;
+        padding: 1rem 2rem;
+        border-radius: 6px;
+        background-color: $primaryGreen;
+    }
+    .topCols{
+        justify-content: center;
+    }
+    .principi{
+        padding-top: 4rem;
+        justify-content: center;
+        .principiTitle{
+            font-weight: 700;
+            color: $titleColor;
+            font-size: 1.5rem;
+            line-height: 2.25rem;
+        }
+        .single{
+            display: flex;
+            margin-bottom: 0.875rem;
+        }
+        .greenCheck{
+            padding-right: 1rem;
+        }
+        .singleItem{
+            font-weight: 700;
+            color: $primaryGreen;
+            font-size: 1rem;
+            line-height: 1.5rem;
+        }
+        .listGreenWhite{
+            
+            .line{
+                display: flex;
+                margin-bottom: 0.375rem;
+                .whiteBack{
+                    font-weight: 700;
+                    color: $primaryGreen;
+                    font-size: 1rem;
+                    line-height: 1.5rem;
+                    background-color: #fff;
+                    padding: 0.5rem 0.75rem;
+                    border-radius: 0.75rem;
+                    margin-right: 0.5rem;
+                    margin-bottom: 0;
+                    box-shadow: 6px 0.625rem 1.563rem rgba(0, 0, 0, 0.1);
+                }
+                .greenBack{
+                    font-weight: 700;
+                    color: #fff;
+                    font-size: 1rem;
+                    line-height: 1.5rem;
+                    background-color: $primaryGreen;;
+                    padding: 0.5rem 0.75rem;
+                    border-radius: 0.75rem;
+                    padding-right: 0.5rem;
+                    box-shadow: 6px 0.625rem 1.563rem rgba(0, 0, 0, 0.1);
+                }
+            }
+        }
+    }
+}
+
+.cijenaFacijalni{
+        padding-top: 8rem !important;
+        .container{
+            width: 55.5rem;
+            background-color: #EDEFE5;
+            border-radius: 0.5rem;
+        }
+        .cijenaIcon{
+            // margin-bottom: 1rem;
+        }
+       .titleCijena{
+           font-weight: 700;
+           font-size: 2rem;
+           line-height: 3rem;
+           color: #0F1C49;
+           text-align: center;
+           margin-bottom: 0.5rem;
+       }
+       .subtitleCijena{
+           font-weight: 400;
+           font-size: 1.25rem;
+           line-height: 1.875rem;
+           color: $titleColor;
+       }
+       .contentCijena{
+        font-weight: 400;
+        font-size: 1rem;
+        line-height: 1.75rem;
+        color: $primaryText;
+       }
+       .padMinus{
+           position: relative;
+           top: -3rem;
+           padding-bottom: 0;
+           margin-bottom: 0;
+       }
+       .padMinusCols{
+        margin-bottom: -2rem;
+       }
+       .priceTagCols{
+        padding-bottom: 2.5rem !important;
+        padding-top: 2rem !important;
+           .txtCol{
+               justify-content: center !important;
+           }
+       }
+}

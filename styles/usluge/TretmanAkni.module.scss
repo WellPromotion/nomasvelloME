@@ -1,0 +1,99 @@
+@import '../variables';
+
+.facijalni{
+    background-image: url('../../public/images/usluge/tretman-akni/header.png') !important;
+}
+
+#image{
+    padding-top: 3rem;
+    img{
+        width: auto;
+    }
+    .column{
+        display: flex;
+        justify-content: center;
+    }
+}
+
+#tretmanAkni{
+    padding-top: 3rem;
+    .tretmanAkniTitle{
+        font-weight: 700;
+        color: $primaryGreen;
+        font-size: 2rem;
+        line-height: 3rem;
+    }
+    .colTitle{
+        font-weight: 500;
+        color: $titleColor;
+        font-size: 1.75rem;
+        line-height: 2.45rem;
+        margin-bottom: 0.5rem;
+    }
+    .lastCol{
+        .colTitle{
+            font-size: 1.65rem;
+        }
+    }
+    .colContent{
+    }
+    .listCont{
+        
+        .sinleCont{
+            margin-bottom: 0.75rem;
+            display: flex;
+        }
+        .greenCircle{
+            padding-right: 0.5rem;
+        }
+        .singleTxt{
+            font-size: 1rem;
+            line-height: 1.5rem;
+            color: $titleColor;
+            font-weight: 700;
+        }
+    }
+    .lastCols{
+        padding-top: 4rem;
+        .firstCol{
+            display: flex;
+            justify-content: center;
+            .defaultText{
+                width: 47.75rem;
+                font-weight: 700;
+                color: $primaryGreen;
+                padding: 0.75rem 1.25rem;
+                background-color: #9EBB3133;
+                border-radius: 0.5rem;
+            }
+        }
+    }
+}
+
+#intenzivna{
+    padding-top: 5rem;
+    
+    .titleCols{
+        display: flex;
+        justify-content: center;
+        .titleIntenzivna{
+            font-weight: 500;
+            color: $titleColor;
+            font-size: 1.75rem;
+            line-height: 2.45rem;
+        }
+    }
+    .parIntenzivna{
+        .intenzivnaSmallTitle{
+            text-transform: uppercase;
+            font-weight: 700;
+            color: $primaryGreen;
+        }
+    }
+}
+
+.cijenaTretmanAkni{
+    .upperItem, .singleItemTop{
+        width: 15.688rem !important;
+    }
+}

@@ -1,0 +1,94 @@
+#footer{
+    background-color: #0F1C49;
+    border-top: 4px solid $primaryGreen;
+}
+.footerCopyright{
+    font-weight: 400;
+    font-size: 0.688rem;
+    line-height: 1.5rem;
+    color: rgba(255, 255, 255, 0.8);
+}
+.footerHr{
+    height: 1px;
+    left: 0px;
+    top: 0px;
+    background: rgba(255, 255, 255, 0.1);
+}
+.spaceBetween{
+    justify-content: space-between;
+}
+.firstColumn{
+    color: #fff;
+    font-weight: 400;
+    font-size: 1rem;
+    line-height: 1.5rem;
+}
+.firstRow{
+
+    .footerTitle{
+        font-weight: 400;
+        color: #fff;
+        font-size: 1.25rem;
+        line-height: 2rem;
+        padding-bottom: 1rem;
+    }
+}
+.secondColumn .secondRow{
+    display: inline;
+    span{
+        color: #fff;
+    }
+}
+.footerLink{
+    font-weight: 500;
+    font-size: 1rem;
+    line-height: 1.5rem;
+    &:hover{
+        color: #fff;
+    }
+}
+.thirdRow{
+    padding-top: 2.5rem;
+}
+
+
+.thirdColumn{
+    .firstRow .footerTitle span{
+        font-size: 1.5rem;
+    }
+    span{
+        padding-right: 0.688rem;
+    }
+    a{
+        display: inline-flex;
+    }
+   .secondRow{
+    padding-top: 2.5rem;
+    .footerTitle{
+        font-weight: 400;
+        color: #fff;
+        font-size: 1.25rem;
+        line-height: 2rem;
+    }
+    .technologiesList{
+        margin-left: 0;
+        list-style-type: disc;
+        list-style: inside;
+        a{
+            &:hover{
+                color:#fff;
+            }
+        }
+        li{
+            font-weight: 400;
+            font-size: 1rem;
+            line-height: 1.5rem;
+            color: #fff;
+            &::marker{
+                margin-right: 1rem;
+                color: $primaryTurquoise;
+            }
+        }
+    }
+   }
+}

@@ -1,0 +1,254 @@
+@import '../variables.scss';
+
+
+#titleLjekarska{
+    background: url("../../public/images/tehnologije/ljekarskaPodrska/ljekarskaBackground.png") no-repeat;
+
+    .hero-body{
+        padding: 3rem 1.5rem;
+    }
+    .imgTitleSphere{
+        display: flex;
+        justify-content: center;
+        align-content: center;
+    }
+    .title{
+        font-weight: 500;
+        font-size: 3rem;
+        line-height: 3rem;
+        text-align: center;
+        color: #fff;
+        margin-top: 0.5rem;
+        margin-bottom: 1.5rem;
+    }
+   .pretitle{
+       font-weight: 700;
+       font-size: 1rem;
+       line-height: 1.5rem;
+       text-align: center;
+       color: #fff;
+       text-transform: uppercase;
+       margin-top: 1.25rem;
+       margin-bottom: 0px;
+   }
+}
+
+#ljekarskaStart{
+    padding-top: 3rem;
+
+    .contLjekarska{
+        display: flex;
+        justify-content: center;
+    }
+    .colsLjekarska{
+      width: 32rem;
+    }
+    .ljekarskaPTitle{
+        margin-bottom: 1rem;
+    }
+    .ljekarskaSample{
+        padding-top: 4rem;
+    }
+    .indikacijeTitle{
+        font-weight: 500;
+        font-size: 1.375rem;
+        line-height: 2rem;
+        color: $titleColor;
+    }
+    .colsIndikacije{
+        width: 34.125rem;
+    }
+    .conIndikacije{
+        display: flex;
+        justify-content: center;
+        padding-top: 3rem;
+    }
+    .indikacijeCont{
+        display: flex;
+        justify-content: center;
+        padding-top: 1.5rem;
+    }
+    .indikacijeList{
+        width: 25.5rem;
+    }
+    .indikacijeCol{
+        background: #FFFFFF;
+        box-shadow: 0px 2px 1px rgba(0, 0, 0, 0.05), 0px 0px 1px rgba(66, 71, 76, 0.45);
+        border-radius: 0.5rem;
+        padding: 0;
+    }
+    .indikacijeInner{
+        padding: 1.5rem;
+    }
+    .turqCircle{
+        padding-right: 1.25rem;
+    }
+    .indListItem{
+        text-transform: capitalize;
+    }
+}
+
+#ljekarskaPreporuke{
+    padding-top: 4rem;
+
+    .colsPreporukeLjekarska{
+        padding-top: 3rem;
+    }
+    .preporukeBox{
+        background: rgba(255, 255, 255, 0.95);
+        box-shadow: 0px 2px 0.5rem rgba(0, 0, 0, 0.12);
+        border-radius: 0.5rem;
+        margin-bottom: 2.75rem;
+    }
+    .preporukeInner{
+        padding-bottom: 0.5rem;
+        padding-left: 1.5rem;
+        top: -1.5rem;
+        padding-right: 1rem;
+        position: relative;
+    }
+    .preporukeNumber{
+        font-weight: 700;
+        font-size: 1.25rem;
+        line-height: 2rem;
+        text-align: center;
+        color: #fff;
+        background-color: #43B5B5;
+        padding-top: 0.75rem;
+        padding-left: 1.063rem;
+        padding-bottom: 0.75rem;
+        padding-right: 1.063rem;
+        height: 3.5rem;
+        width: 3.5rem;
+        border-radius: 3rem;
+    }
+    .firstPreporuke{
+        height: 10.25rem;
+    }
+    .secondPreporuke{
+        height: 13.25rem;
+    }
+    .thirdPreporuke{
+        height: 11.75rem;
+    }
+}
+
+#kontraindikacijeLjekarska{
+    padding-top: 2.75rem;
+
+    .pitanjaKontraindikacije{
+        padding-top: 1.375rem;
+        justify-content: center;
+        title{
+            font-weight: normal;
+            font-size: 1rem;
+            line-height: 1.5rem;
+            color: $titleColor;
+        }
+
+        .accordion{
+            box-shadow: 0px 2px 1px rgba(0, 0, 0, 0.05);
+            border-radius: 6px;
+            margin: 0.75rem 0px;
+            p{
+                font-weight: normal;
+                font-size: 1rem;
+                line-height: 1.5rem;
+                color: $titleColor;
+               
+                &::after{
+                    content: url("../../public/images/faq/arrow-down.png");
+                    float: right;
+                    height: 1rem;
+                    position: absolute;
+                    top: 1rem;
+                    right: 1rem;
+                }
+                .inner{
+                    display: block;
+                    // width: 85%;
+                }
+            }
+            content{
+                font-weight: normal;
+                font-size: 1rem;
+                line-height: 1.5rem;
+                color: $primaryText;
+                
+            }
+            .subText{
+                text-align: left !important;
+            }
+        } 
+    }
+}
+
+#ljekarska_Outro{
+    padding-top: 2rem;
+    .container{
+        display: flex;
+        justify-content: center;
+        }
+        .columns{
+            width: 41.25rem;
+        }
+        .column{
+            padding-left: 0;
+            padding-right: 0;
+        }
+        .innerOutro{
+            padding: 1rem;
+            background-color: rgba(67, 181, 181, 0.1);
+            border-radius: 0.5rem;
+        }
+        .outroMessage{
+            font-weight: 700;
+            font-size: 1rem;
+            line-height: 1.5rem;
+            color:#43B5B5;
+        }
+}
+
+#ljekarskaPonuda{
+    padding-top:4.5rem;
+    padding-bottom: 5.5rem;
+    box-shadow: 0px 2px 1px rgba(0, 0, 0, 0.05);
+   
+    .columns{
+        display: flex;
+        justify-content: center;
+        
+    }
+    .ponudaColumn{
+        display: flex;
+        justify-content: center;
+        max-width: 41.25rem;
+        background-color: #fff;
+        border-radius: 6px;
+        padding: 0;
+    }
+    ._inner{
+        padding-top: 1.75rem;
+        padding-bottom: 1.75rem;
+
+        .titlePonuda{
+            font-weight: 400;
+            font-size: 2rem;
+            line-height: 2.5rem;
+            color: $titleColor;
+            margin-bottom: 1rem;
+            max-width: 25.375rem;
+        }
+        .subtitlePonuda{
+            font-weight: 400;
+            font-size: 1rem;
+            line-height: 1.5rem;
+            color: $primaryText;
+            margin-bottom: 0px;
+        }
+        .buttonPonuda{
+            margin-top: 1.5rem;
+            display: inline-flex;
+        }
+    }
+}

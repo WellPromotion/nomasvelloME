@@ -1,0 +1,259 @@
+@import '../variables';
+
+.ultrazvucnoHeader{
+     background-image: url('../../public/images/usluge/ultrazvucno-ciscenje-lica/header.png') !important;
+     background-repeat: no-repeat;
+}
+
+#djelovanje{
+    padding-top: 4rem;
+    
+    .djelovanjeTitle{
+        font-weight: 500;
+        font-size: 1.5rem;
+        line-height: 2.25rem;
+        color: $titleColor;
+        margin-bottom: 2.5rem;
+    }
+    .listCols{
+        display: flex;
+        justify-content: space-around;
+    }
+    .lictCont{
+        display: flex;
+        justify-content: center;
+    }
+    .listCol{
+        
+        .single{
+            display: flex;
+            padding-bottom: 1rem;
+            .greenCheck{
+                padding-right: 1rem;
+            }
+            .singleItem{
+                font-size: 1rem;
+                line-height: 1.5rem;
+                color: $titleColor;
+                font-weight: 700;
+            }
+        }
+    }
+}
+
+#savrsenaKoza{
+    padding-top: 4rem;
+    
+    .kozaTitle{
+        font-size: 2rem;
+        line-height: 2.8rem;
+        font-weight: 500;
+        color: $titleColor;
+        margin-bottom: 4rem;
+    }
+    .korakBroj{
+        font-weight: 700;
+        font-size: 2rem;
+        line-height: 3rem;
+        text-align: center;
+        color: #fff;
+        background-color: #9EBB31;
+        height: 3.5rem;
+        width: 3.5rem;
+        border-radius: 1.875rem;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin: auto;
+        margin-bottom: 1.25rem;
+    }
+    .korakTitle{
+        font-weight: 500;
+        font-size: 1.75rem;
+        line-height: 2.45rem;
+        color: $primaryGreen;
+    }
+    .turqSphere{
+        margin-bottom: 0.75rem;
+    }
+    .koraciTitle{
+        font-weight: 700;
+        font-size: 1.5rem;
+        line-height: 2.25rem;
+        color: $titleColor;
+    }
+    .koraciSub{
+        font-weight: 400;
+        font-size: 1rem;
+        line-height: 1.75rem;
+        color: $primaryText;
+    }
+    .listCols{
+        justify-content: center;
+        padding-top: 4rem;
+    }
+    .verLineCol{
+        display: flex;
+        justify-content: center;
+        padding-top: 1rem;
+        padding-bottom: 1rem;
+    }
+    .verLine{
+        height: 1px;
+        background-color: $primaryGreen;
+        width: 3rem;
+        -webkit-transform:rotate(90deg);
+        transform: rotate(90deg);
+    }
+    .drugiCols{
+        justify-content: center;
+    }
+    .drugiContent{
+        font-weight: 400;
+        font-size: 1rem;
+        line-height: 1.5rem;
+        color: $primaryText;
+        .boldirano{
+            font-weight: 700;
+            color: $titleColor;
+        }
+    }
+    .treciCols{
+        justify-content: center;
+    }
+    .imgCol{
+        padding-top: 2rem;
+    }
+}
+
+
+#cijenaUltra{
+        padding-top: 6.75rem;
+        
+        .container{
+            background-color: #EDEFE5;
+            border-radius: 8px;
+            // width: 92.375rem !important;
+            // max-width: 92.375rem !important;
+        }
+        .cijenaIcon{
+            // margin-bottom: 1rem;
+        }
+       .titleCijena{
+           font-weight: 700;
+           font-size: 2rem;
+           line-height: 3rem;
+           color: #0F1C49;
+           text-align: center;
+           margin-bottom: 0.5rem;
+       }
+       .subtitleCijena{
+           font-weight: 400;
+           font-size: 1.25rem;
+           line-height: 1.875rem;
+           color: $titleColor;
+       }
+       .padMinus{
+           position: relative;
+           top: -3rem;
+           padding-bottom: 0;
+           margin-bottom: 0;
+       }
+       .padMinusCols{
+        margin-bottom: -2rem;
+       }
+       
+      .fourCols{
+          margin-left: 0;
+          margin-right: 0;
+        .column{
+            padding-right: 0.25rem !important;
+            padding-left: 0.25rem !important;
+            display: flex;
+            justify-content: center;
+        }
+        .single{
+            background-color: #fff;
+            border-radius: 0.75rem;
+            height: 27.875rem;
+            width: 19.875rem;
+        }
+        .inner{
+            padding: 1.5rem 1.5rem 1.5rem 2rem;
+        }
+        .titlePart{
+            display: flex;
+            justify-content: space-between;
+            margin-bottom: 1.652rem;
+            .singleTitle{
+                font-weight: 700;
+                font-size: 2.5rem;
+                line-height: 3.25rem;
+                color: $titleColor;
+                margin-bottom: 1rem;
+            }
+            .basicTitle{
+                font-size: 2.25rem !important;
+                line-height: 2.925rem !important;
+            }
+            .singlePrice{
+                font-weight: 700;
+                font-size: 1.25rem;
+                line-height: 1.875rem;
+                color: #fff;
+                background-color: $primaryTurquoise;
+                padding: 1.313rem 0.563rem 1.313rem 0.563rem;
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                border-radius: 3.125rem;
+                height: 4.5rem;
+                width: 4.5rem;
+            }
+        }
+        .greenItem{
+            margin-bottom: 4px;
+            display: flex;
+            .greenTxt{
+                margin-right: 0.5rem;
+                color: #fff;
+                font-size: 1rem;
+                line-height: 1.5rem;
+                font-weight: 700;
+                background-color: $primaryGreen;
+                padding: 0.5rem 0.75rem 0.5rem 0.75rem;
+                border-radius: 0.5rem;
+                box-shadow: 6px 0.625rem 1.563rem rgba(0, 0, 0, 0.1);
+                margin-bottom: 0;
+            }
+            .plusSign{
+                color: $primaryGreen;
+                font-size: 1rem;
+                line-height: 1.5rem;
+                font-weight: 700;
+                background-color: #fff;
+                padding: 0.5rem 0.75rem 0.5rem 0.75rem;
+                border-radius: 0.5rem;
+                box-shadow: 6px 0.625rem 1.563rem rgba(0, 0, 0, 0.1);
+                margin-bottom: 0;
+                display: flex;
+                align-items: center;
+            }
+        }
+        .lowerCol{
+            display: flex;
+            margin-bottom: 3rem;
+            .single{
+                background-color: #fff;
+                border-radius: 0.75rem;
+                height: 15.125rem;
+                width: 41.25rem;
+            }
+            .lowerCols{
+                .column{
+                    display: block;
+                }
+            }
+        }
+      }
+}

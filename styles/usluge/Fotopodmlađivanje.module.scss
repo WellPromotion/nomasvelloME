@@ -1,0 +1,225 @@
+@import '../variables';
+
+.fotopodmladjivanje{
+    background-image: url('../../public/images/usluge/fotopodmladjivanje/header.png') !important;
+}
+
+
+.definicijaFotopodmladjivanje{
+    
+    .starenjeTitle{
+        font-weight: 500;
+        font-size: 1.5rem;
+        line-height: 2.25rem;
+        color: $titleColor;
+        margin-bottom: 1rem !important;
+    }
+    .starenjeItems{
+        
+        .singleStarenje{
+            display: flex;
+            margin-bottom: 0.5rem;
+            img{
+                padding-right: 1rem;
+            }
+            .starenjeTxt{
+                font-weight: 400;
+                font-size: 1rem;
+                line-height: 1.5rem;
+                color: $titleColor;
+            }
+        }
+    }
+}
+
+#principFoto{
+    padding-top: 5.5rem;
+    .leftCol{
+        margin-right: 7.5rem;
+    }
+    .titlePrincipFoto{
+        font-weight: 500;
+        font-size: 1.75rem;
+        line-height: 2.45rem;
+        color: $titleColor;
+        margin-bottom: 1rem;
+    }
+    .subPrincipFoto{
+        font-weight: 400;
+        font-size: 1rem;
+        line-height: 1.5rem;
+        color: $primaryText;
+    }
+}
+
+#rezultati{
+    padding-top: 5.5rem;
+    
+    .columns{
+        display: flex;
+        justify-content: space-around;
+    }
+    .titleRezultati{
+        font-weight: 500;
+        font-size: 1.75rem;
+        line-height: 2.45rem;
+        color: $primaryGreen;
+        margin-bottom: 1rem;
+    }
+    .bluesubRezultati{
+        font-weight: 500;
+        font-size: 1rem;
+        line-height: 1.5rem;
+        color: $titleColor;
+    }
+    .imgCol{
+        img{
+            padding: 2.25rem 2.125rem  2.25rem 2.125rem;
+            background-color: #fff;
+            border-radius: 0.75rem;
+        }
+    }
+}
+
+#hr{
+    hr{
+        height: 1px;
+        background-color: #E1E1E1;
+    }
+}
+
+
+#cijenaFotopod{
+    padding-top: 3.75rem;
+    .container{
+        width: 55.5rem;
+        background-color: #EDEFE5;
+        border-radius: 0.5rem;
+    }
+    .cijenaIcon{
+        // margin-bottom: 1rem;
+    }
+   .titleCijena{
+       font-weight: 700;
+       font-size: 2rem;
+       line-height: 3rem;
+       color: #0F1C49;
+       text-align: center;
+       margin-bottom: 0.5rem;
+   }
+   .subtitleCijena{
+       font-weight: 400;
+       font-size: 1.25rem;
+       line-height: 1.875rem;
+       color: $titleColor;
+   }
+   .padMinus{
+       position: relative;
+       top: -3rem;
+       padding-bottom: 0;
+       margin-bottom: 0;
+   }
+   .padMinusCols{
+    margin-bottom: -2rem;
+   }
+   
+   .priceTagCols{
+       display: flex;
+       justify-content: center;
+       padding-bottom: 3rem;
+       padding-top: 2.5rem;
+       .txtCol{
+           display: flex;
+           justify-content: right;
+        .list{
+            .singleItemTop{
+                background-color: $primaryGreen;
+                width: 19.875rem;
+                height: 3.188rem;
+                margin-bottom: 0;
+                border-radius: 0.5rem 0.5rem 0 0;
+                box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.08);
+                .title{
+                    font-weight: 400;
+                    font-size: 1rem;
+                    line-height: 1.172rem;
+                    color: #fff;
+                    margin-bottom: 0 !important;
+                }
+                .price{
+                    font-weight: 400;
+                    font-size: 1rem;
+                    line-height: 1.172rem;
+                    color: #fff;
+                }
+            }
+            .singleItem{
+                background-color: #fff;
+                width: 19.875rem;
+                height: 3.875rem;
+                margin-bottom: 2px;
+                border-radius: 0.5rem;
+            }
+            .upperItem{
+                border-radius: 0 0 0.5rem 0.5rem !important;
+            }
+            .inner{
+                padding: 1rem 1.5rem 1rem 1.5rem;
+                display: flex;
+                justify-content: space-between;
+            }
+            .title{
+                font-weight: 700;
+                font-size: 1.125rem;
+                line-height: 1.688rem;
+                color: $titleColor;
+                margin-bottom: 0;
+            }
+            .price{
+                font-weight: 700;
+                font-size: 1.125rem;
+                line-height: 1.688rem;
+                color: $primaryGreen;
+            }
+        }
+       }
+       .leftCol{
+        //    display: flex;
+        //    justify-content: left;
+       }
+       .priceBox{
+           background-color: $titleColor;
+           border-radius: 7px;
+           width: 19.875rem;
+        .inner{
+           padding: 2rem;
+        }
+       }
+       .priceTag{
+           margin-bottom: 0.5rem;
+       }
+       .priceTitle{
+           font-weight: 700;
+           color: #fff;
+           font-size: 2.5rem;
+           line-height: 2.93rem;
+           margin-bottom: 0.5rem;
+       }
+       .priceSubtitle{
+        font-weight: 400;
+        color: #fff;
+        font-size: 1.125rem;
+        line-height: 1.625rem;
+       }
+   }
+}
+
+.naruciteFoto{
+    .container{
+        width: 55.5rem;
+    }
+    .inner{
+        padding: 2.75rem 3.563rem 2.75rem 2.5rem !important;
+    }
+   
+}

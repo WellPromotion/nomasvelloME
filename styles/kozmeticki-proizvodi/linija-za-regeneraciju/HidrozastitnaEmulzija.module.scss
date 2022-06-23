@@ -1,0 +1,43 @@
+@import '../../variables';
+
+
+#featuredProduct{
+    .colsHidrozastitnaEmulzija{
+        width: 56.125rem !important;
+    }
+}
+
+.bottomColEmulzija{
+    justify-content: center;
+    .titleInner{
+        display: flex;
+        justify-content: center;
+        // margin-bottom: 1.5rem;
+    }
+    .listInner{
+        display: flex;
+        justify-content: center;
+        .detailsList{
+            padding-right: 1.5rem;
+        }
+        .greenCheckSpacing{
+            flex-grow: 0;
+            height: auto !important;
+            padding-right: 1rem !important;
+        }
+        .odlikeItem{
+            margin-bottom: 0 !important;
+        }
+    }
+    
+}
+
+.featuredProductEmulzija{
+    .textPart{
+        display: flex;
+        justify-content: center;
+    }
+    .eighteenTitle{
+        width: 62.875rem;
+    }
+}

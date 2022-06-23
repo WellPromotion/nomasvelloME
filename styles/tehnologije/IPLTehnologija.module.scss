@@ -1,0 +1,232 @@
+@import '../variables.scss';
+
+#titleIPLTehnologija{
+    background: url("../../public/images/tehnologije/laserTehnologija/laserBackground.png") no-repeat;
+
+    .hero-body{
+        padding: 3rem 1.5rem;
+    }
+    .imgTitleSphere{
+        display: flex;
+        justify-content: center;
+        align-content: center;
+    }
+    .title{
+        font-weight: 500;
+        font-size: 3rem;
+        line-height: 3rem;
+        text-align: center;
+        color: #fff;
+        margin-top: 0.5rem;
+        margin-bottom: 1.5rem;
+    }
+   .pretitle{
+       font-weight: 700;
+       font-size: 1rem;
+       line-height: 1.5rem;
+       text-align: center;
+       color: #fff;
+       text-transform: uppercase;
+       margin-top: 1.25rem;
+       margin-bottom: 0px;
+   }
+}
+
+#iplAbout{
+    display: flex;
+    justify-content: center;   
+    align-items: center;
+    padding-top: 4rem;
+
+    .container{
+        max-width: 69.75rem;
+    }
+    .columns{
+        display: flex;
+        justify-content: center;
+    }
+
+    ._innerImage{
+        display: flex;
+        justify-content: center;
+    }
+    .is-left{
+        // display: flex;
+        // justify-content: right;
+        .laserSubtitle, .laserTitle{
+            text-align: left;
+        }
+        .secondPart{
+            padding-top: 1.5rem;
+
+            .blueTitle{
+                font-weight: 500;
+                font-size: 1.375rem;
+                line-height: 2rem;
+                color: $titleColor;
+                margin-bottom: 1rem;
+            }
+        }
+        .greenCheckSpacing{
+            float: left;
+        }
+        .odlikeItem{
+            font-weight: 400;
+            font-size: 1rem;
+            line-height: 1.5rem;
+            color: $titleColor;
+            display: flex;
+            margin-bottom: 0.75rem;
+        }
+    }
+}
+
+#iplPrincip{
+    padding-top: 6rem;
+    display: flex;
+    justify-content: center;
+    .container{
+        max-width: 41.25rem;
+    }
+    .columns{
+        display: flex;
+        justify-content: center;
+    }
+    .iplTitle{
+        font-weight: 500;
+        font-size: 1.75rem;
+        line-height: 2.25rem;
+        text-align: center;
+        color: $primaryGreen;
+    }
+    .iplPreText{
+        font-weight: 500;
+        font-size: 1.375rem;
+        line-height: 2rem;
+        color: $titleColor;
+        margin-bottom: 1rem;
+        text-align: center;
+    }
+    .iplSubtitle{
+        font-weight: 400;
+        font-size: 1rem;
+        line-height: 1.5rem;
+        text-align: center;
+        color: $primaryText;
+    }
+}
+
+#iplAparati{
+    padding-top: 6rem;
+    .container{
+        max-width: 69.75rem;
+    }
+    .columns{
+        display: flex;
+        justify-content: center;
+    }
+    .iplAparatiTitle{
+        font-weight: 500;
+        font-size: 1.75rem;
+        line-height: 2.25rem;
+        text-align: left;
+        color: $primaryGreen;
+    }
+    .iplAparatiTxt{
+        font-weight: 400;
+        font-size: 1rem;
+        line-height: 1.5rem;
+        text-align: left;
+        color: $primaryText;
+    }
+    ._innerImage{
+        display: flex;
+        justify-content: center;
+    }
+}
+
+#iplVideo{
+    padding-top: 5.75rem;
+
+    .container{
+        display: flex;
+        justify-content: center;
+    }
+    .videoIplInner{
+        border-radius: 6px;
+        iframe{
+            border-radius: 6px;
+        }
+    }
+}
+
+#ipl_Outro{
+    padding-top: 4rem;
+    .container{
+        display: flex;
+        justify-content: center;
+        }
+        .columns{
+            width: 69.75rem;
+        }
+        .column{
+            padding-left: 0;
+            padding-right: 0;
+        }
+        .innerOutro{
+            padding: 1rem;
+            background-color: #EDEFE5;
+            border-radius: 0.5rem;
+        }
+        .outroMessage{
+            font-weight: 700;
+            font-size: 1rem;
+            line-height: 1.5rem;
+            color: $primaryGreen;
+        }
+}
+
+#iplPonuda{
+    padding-top: 4.5rem;
+    padding-bottom: 5.5rem;
+    box-shadow: 0px 2px 1px rgba(0, 0, 0, 0.05);
+   
+    .columns{
+        display: flex;
+        justify-content: center;
+        
+    }
+    .ponudaColumn{
+        display: flex;
+        justify-content: center;
+        max-width: 41.25rem;
+        background-color: #fff;
+        border-radius: 6px;
+        padding: 0;
+    }
+    ._inner{
+        padding-top: 1.75rem;
+        padding-bottom: 1.75rem;
+
+        .titlePonuda{
+            font-weight: 400;
+            font-size: 2rem;
+            line-height: 2.5rem;
+            color: $titleColor;
+            margin-bottom: 1rem;
+            max-width: 25.375rem;
+        }
+        .subtitlePonuda{
+            font-weight: 400;
+            font-size: 1rem;
+            line-height: 1.5rem;
+            color: $primaryText;
+            margin-bottom: 0px;
+        }
+        .buttonPonuda{
+            margin-top: 1.5rem;
+            display: inline-flex;
+        }
+    }
+
+}

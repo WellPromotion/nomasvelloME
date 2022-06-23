@@ -1,0 +1,132 @@
+@import './variables';
+
+#heroTitle{
+    background-image: url("../public/images/faq/laser.png");
+    position: relative;
+    background-size: cover;
+    background-position: center 50%;
+    background-repeat: no-repeat;
+
+    .hero-body .title{
+        text-transform: none;
+        color: #fff;
+        font-weight: 500;
+        font-size: 2.5rem;
+        line-height: 3rem;
+    }
+    
+
+    
+}
+
+#videoPart{
+
+    .videoColumns{
+        display: flex;
+        justify-content: space-between;
+        padding-top: 3rem;
+        padding-bottom: 3rem;
+    }
+
+    .videoInner{
+        width: 27rem;
+        height: 13.813rem;
+        border: 1px solid #E1E1E1;
+        filter: drop-shadow(0px 2px 8px rgba(0, 0, 0, 0.15));
+        border-radius: 6px;
+    }
+}
+
+#pitanja{
+    
+    .pitanjaBody{
+        justify-content: center;
+
+        title{
+            font-weight: normal;
+            font-size: 1rem;
+            line-height: 1.5rem;
+            color: $titleColor;
+        }
+    }
+    .pitanjaTitle h1{
+        font-weight: 500;
+        font-size: 2.5rem;
+        line-height: 3rem;
+        text-align: center;
+        color: $titleColor;
+        text-transform: uppercase;
+        padding-bottom: 2.5rem;
+        margin-bottom: 0;
+    }
+    .accordion{
+        box-shadow: 0px 2px 1px rgba(0, 0, 0, 0.05);
+        border-radius: 6px;
+        margin: 0.75rem 0px;
+        p{
+            font-weight: normal;
+            font-size: 1rem;
+            line-height: 1.5rem;
+            color: $titleColor;
+           
+            &::after{
+                content: url("../public/images/faq/arrow-down.png");
+                float: right;
+                height: 1rem;
+                position: absolute;
+                top: 1rem;
+                right: 1rem;
+            }
+            .inner{
+                display: block;
+                width: 95%;
+            }
+        }
+        content{
+            font-weight: normal;
+            font-size: 1rem;
+            line-height: 1.5rem;
+            color: $primaryText;
+        }
+    }
+
+    .pitanjaBottomColumn{
+        width: 41.188rem;
+        margin-left: auto;
+        margin-right: auto;
+        display: flex;
+        justify-content: center;
+        padding-bottom: 5.5rem;
+        .pitanjaLink{
+            display: inline-flex;
+            box-shadow: 0px 2px 1px rgba(0, 0, 0, 0.05);
+        }
+        .right{
+            background: #FFFFFF;
+            box-shadow: 0px 2px 1px rgba(0, 0, 0, 0.05);
+            border-radius: 0px 6px 6px 0px;
+            .inner{
+                width: 27rem;
+                padding: 2.5rem;
+            }
+            .title{
+                font-weight: 400;
+                font-size: 2rem;
+                line-height: 2.5rem;
+                color: $titleColor;
+            }
+            .subTitle{
+                font-weight: 400;
+                font-size: 1rem;
+                line-height: 1.5rem;
+                color: $primaryText;
+                padding-bottom: 2rem;
+            }
+        }
+        .left{
+            img{
+                height: 100%;
+            }
+        }
+    }
+}

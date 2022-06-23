@@ -1,0 +1,210 @@
+@import '../../variables';
+
+
+.breadcrumbsGel{
+    &::before{
+        content: url('../../../public/images/kozmeticki-proizvodi/kozmetikaCiscenje/gel-za-ciscenje-visoke-tolerancije/greenLeft.svg');
+        position: absolute;
+        left: 14.188rem;
+        top: 0rem;
+        @media only screen and (min-width: 1024px) and (max-width: 1919px) {
+            left: 0rem;
+        }
+    }
+    &::after{
+        content: url('../../../public/images/kozmeticki-proizvodi/kozmetikaCiscenje/gel-za-ciscenje-visoke-tolerancije/greenRight.svg');
+        position: absolute;
+        // left: 14.188rem;
+        top: 1rem;
+        right: 15.813rem;
+        @media only screen and (min-width: 1024px) and (max-width: 1919px) {
+            right: 0rem;
+        }
+    }
+}
+
+#featuredProduct{
+    padding-top: 2.75rem;
+
+    .sampleImage{
+        padding: 1.75rem;
+        background-color: #fff;
+        border-radius: 0.5rem;
+    }
+    .leftColumn{
+        display: flex;
+        justify-content: center;
+    }
+
+    .container{
+        display: flex;
+        justify-content: center;
+    }
+    .colummns{
+        width: 55.5rem;
+    }
+    .featuredTitle{
+        font-weight: 700;
+        font-size: 1.5rem;
+        line-height: 2rem;
+        color: $primaryGreen;
+    }
+    .featuredSubtitle{
+        font-weight: 700;
+        font-size: 1.25rem;
+        line-height: 1.875rem;
+        color: $titleColor;
+    }
+    .featuredText{
+        font-weight: 400;
+        font-size: 1rem;
+        line-height: 1.75rem;
+        color: $primaryText;
+    }
+}
+
+#hrFeaturedProduct{
+    hr{
+        background-color: #E1E1E1;
+        height: 1px;
+        margin: 3rem 0;
+    }
+}
+
+#featuredProductProperties{
+    
+    .titleInner{
+        display: flex;
+        align-items: center;
+        .titleIcon{
+            padding-right: 1rem;
+        }
+        .titleFeatures{
+            font-weight: 700;
+            font-size: 1.5rem;
+            line-height: 2rem;
+            color: $titleColor;
+        }
+    }
+    
+    .greenCheckSpacing{
+        float: left;
+        padding-right: 1.5rem;
+    }
+    .odlikeTitle{
+        font-weight: 700;
+        font-size: 1.125rem;
+        line-height: 1.688rem;
+        color: $primaryBlue;
+        margin-bottom: 4px;
+    }
+    .odlikeItem{
+        font-weight: 400;
+        font-size: 1rem;
+        line-height: 1.5rem;
+        color: $primaryText;
+        display: flex;
+        margin-bottom: 0.75rem;
+    }
+    .listInner{
+        padding-top: 1.5rem;
+    }
+    .detailsList{
+        display: flex;
+        align-items: center;
+        .greenCheckSpacing{
+            flex-grow: 0;
+            flex-shrink: 0;
+            height: 100%;
+        }
+    }
+    .rightColumn{
+        .odlikeItem{
+            font-weight: 700;
+            font-size: 1.125rem;
+            line-height: 1.688rem;
+            color: $titleColor;
+        }
+        
+    }
+}
+
+#featuredProductPrimjena{
+    padding-top: 3rem;
+    
+    .colummns{
+        display: flex;
+        justify-content: center;
+    }
+    .column{
+        padding-top: 3rem;
+        padding-bottom: 3rem;
+        background-color: #EDEFE5;
+        border-radius: 0.5rem;
+    }
+    .titlePart{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        margin-bottom: 1.5rem;
+        .primjenaIcon{
+            padding-right: 1rem;
+        }
+    }
+}
+
+#drugeKategorije{
+    
+    
+    .kozmetikaBox{
+        display: grid;
+        justify-items: center;
+
+        .smallerPadding{
+            padding-bottom: 1.5rem;
+        }
+     
+        ._outer{
+            width: 24.375rem;
+            height: 12.5rem;
+            position: relative;
+            top: -6rem;
+        }
+        .smallerPadding{
+            padding-bottom: 1.5rem !important;
+            padding-top: 1.5rem !important; 
+        }
+        .smallerMargin{
+            padding-left: 1.094rem !important;
+            padding-right: 1.094rem !important;
+        }
+        .smallestPadding{
+            padding-top: 1.313rem !important;
+            padding-bottom: 1.313rem !important;
+        }
+        ._inner{
+            padding: 2.188rem 2.5rem 2.188rem 2.5rem;
+            text-align: center;
+            background-color: #fff;
+            border-radius: 0.5rem;
+            box-shadow: 0px 2px 0.5rem rgba(0, 0, 0, 0.12);
+
+        }
+        .kozBoxTitle{
+            font-weight: 500;
+            text-align: center;
+            color: $primaryBlue;
+            font-size: 1.25rem;
+            line-height: 1.75rem;
+            margin-bottom: 0.5rem;
+        }
+        .kozBoxSubtitle{
+            font-weight: 400;
+            text-align: center;
+            color: $primaryText;
+            font-size: 0.875rem;
+            line-height: 1.375rem;
+            margin-bottom: 1.5rem;
+        }
+    }
+}

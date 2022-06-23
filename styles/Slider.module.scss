@@ -1,0 +1,45 @@
+@import './variables';
+
+.slickSlide{
+    height: 23.063rem;
+    width: 13.75rem;
+}
+.sliderImage{
+    margin-bottom: 1rem;
+    height: 15.625rem;
+}
+.sliderTitle{
+    color: #111213;
+    font-weight: 500;
+    font-size: 1.25rem;
+    line-height: 1.465rem;
+    margin-bottom: 0.5rem !important;
+}
+.sliderSubtitle{
+    color: #9EBB31;
+    font-size: 1rem;
+    line-height: 1.5rem;
+    font-weight: 400;
+}
+
+.carouselSlider .kVtMtA, .carouselSlider .bhRnqO{
+    color: $primaryGreen;
+    position: absolute;
+    background: transparent;
+    box-shadow: none;
+    opacity: 1;
+}
+.carouselSlider .kVtMtA::before, .carouselSlider .bhRnqO::before{
+    border-top: 4px solid $primaryGreen;
+    border-right: 4px solid $primaryGreen;
+    height: 0.875rem;
+    width: 0.875rem;
+}
+.carouselSlider .kVtMtA::before{
+    left:-50%;
+    // top: -50%;
+}
+.carouselSlider .bhRnqO::before{
+    // top: -50%;
+    left: 100%;
+}

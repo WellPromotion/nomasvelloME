@@ -1,0 +1,170 @@
+@import './variables';
+
+
+.leftCol{
+    width: 28.5rem;
+    .titleBox{
+      background-color: #0F1C49;
+      width: 28.5rem;
+      border-radius: 8px 0px 0px 0px;
+      p{
+        font-weight: 400;
+        font-size: 2rem;
+        line-height: 2.5rem;
+        color: #F4F4F4;
+        padding-top: 1.5rem;
+        padding-left: 2rem;
+        padding-bottom: 1.5rem;
+      }
+    }
+    .locationBox{
+      width: 28.5rem;
+      .innerLocations{
+        height: 33.438rem;
+        max-height: 33.438rem;
+        overflow: scroll;
+      }
+      .singleLocation,{
+        width: 28.5rem;
+        background-color: #343637;
+        // height: 5rem;
+        padding-top: 1.25rem;
+        padding-bottom: 1.25rem;
+        padding-left: 1.875rem;
+        // display: flex;
+        // align-items: center;
+        border-bottom: #4E4E4E 1px solid;
+        
+        
+        .__content{
+            display: none;
+            &.__active{
+                display: block;
+                padding-top: 1.5rem;
+            }
+        }
+        .__title{
+            display: flex;
+          align-items: center;
+        }
+        
+        .locationName, .titleLocation{
+          font-weight: 500;
+          font-size: 1.25rem;
+          line-height: 1.5rem;
+          color: #FFFFFF;
+          margin-bottom: 0;
+          background-color: transparent;
+          border: none;
+        //   display: flex;
+        //   align-items: center;
+        }
+        .locationIcon{
+          padding-right: 1.25rem;
+        }
+        .downArrow{
+        //   padding-left: 10.063rem;
+          height: 1.25rem;
+        }
+      }
+    }
+  }
+  
+  .rightCol{
+    width: 73.5rem;
+    
+    .innerMap{
+      width: 73.5rem;
+      height: 41.5rem;
+      .iframe{
+        width: 73.5rem !important;
+        height: 41.5rem !important;
+        &:first-child{
+            position: absolute;
+            width: 73.5rem;
+            height: 41.5rem;
+        }
+      }
+    }
+  }
+  
+  
+.titleLocation{
+    font-weight: 500;
+          font-size: 1.25rem;
+          line-height: 1.5rem;
+          color: #FFFFFF;
+          margin-bottom: 0;
+          display: flex;
+          align-items: center;
+          justify-content: space-between;
+          width: 22rem;
+}
+.nameOfLocation{
+    
+}
+
+    // .header{
+    //     display: flex;
+    //     align-items: center;
+    // }
+    
+    .contentMap{
+        width: 24.5rem;
+        color: #FFFFFF;
+        // padding-top: 1rem;
+        margin-bottom: 0;
+    }
+    .exactInfo{
+        font-weight: 700;
+        font-size: 1rem;
+        line-height: 1.5rem;
+        color: $primaryGreen;
+    }
+    .exactMap{
+        font-weight: 700;
+        font-size: .9rem;
+        line-height: 1.5rem;
+        color: $primaryGreen;
+        cursor: pointer;
+        background-color: #FFFFFF;
+        border-radius: 6px;
+        border: none;
+    }
+    
+    
+    .map-marker{
+        width: 30px;
+        height: 30px;
+        background-color: transparent;
+        z-index: 9;
+        border-radius: 100%;
+        position: relative;
+        transition: all 0.2;
+        &.active{
+          background-color: $primaryGreen;
+          transform: scale(1.1);
+          z-index: 11;
+        }
+        &.main{
+          background-color: transparent;
+          z-index: 10;
+          width: 35px;
+          height: 35px;
+          img{
+            filter: invert(0);
+            width: 100px;
+            height: 70px;
+          }
+        }
+        img{
+            width: 100px;
+            height: 70px;
+          object-fit: contain;
+        //   filter: invert(100%);
+          position: absolute;
+          left: 50%;
+          top: 50%;
+          transform: translate(-50%, -50%);
+        }
+      }

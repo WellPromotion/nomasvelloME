@@ -1,0 +1,25 @@
+@import './variables';
+
+
+.colNesavrsenosti{
+    width: 41.25rem !important;
+}
+.nesavrsenostiBottomSpan{
+    color: $primaryGreen !important;
+    font-weight: 700 !important;
+}
+
+.lastParNesavsenosti{
+    padding-top: 2rem;
+}
+
+.nesavrsenostiTitleSpan{
+    color: $primaryGreen !important;
+}
+
+.detailsProtivNesavrsenosti{
+    .blueTitle{
+        margin-bottom: 1rem !important;
+        margin-top: 1.5rem !important;
+    }
+}

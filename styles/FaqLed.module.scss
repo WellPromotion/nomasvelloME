@@ -1,0 +1,130 @@
+@import './variables';
+
+#heroTitle{
+    background-image: url("../public/images/faq/led.png");
+    position: relative;
+    background-size: cover;
+    background-position: center 50%;
+    background-repeat: no-repeat;
+
+    .hero-body .title{
+        text-transform: none;
+        color: #fff;
+        font-weight: 500;
+        font-size: 2.5rem;
+        line-height: 3rem;
+        margin-bottom: 0;
+    }
+}
+#pitanja{
+    padding-top: 4.125rem;
+    .pitanjaColumnLed{
+        padding-bottom: 4rem;
+    }
+    .pitanjaTitleLed h1{
+        font-weight: 500;
+        font-size: 1.75rem;
+        color: $titleColor;
+        line-height: 2.375rem;
+        text-align: center;
+        margin-bottom: 0;
+    }
+    .greenImg{
+        padding-top: 1.813rem;
+        padding-bottom: 2rem;
+        text-align: center;
+    }
+    .pitanjaBodyLed{
+        justify-content: center;
+        title{
+            font-weight: normal;
+            font-size: 1rem;
+            line-height: 1.5rem;
+            color: $titleColor;
+        }
+
+        .accordion{
+            box-shadow: 0px 2px 1px rgba(0, 0, 0, 0.05);
+            border-radius: 6px;
+            margin: 0.75rem 0px;
+            p{
+                font-weight: normal;
+                font-size: 1rem;
+                line-height: 1.5rem;
+                color: $titleColor;
+               
+                &::after{
+                    content: url("../public/images/faq/arrow-down.png");
+                    float: right;
+                    height: 1rem;
+                    position: absolute;
+                    top: 1rem;
+                    right: 1rem;
+                }
+                .inner{
+                    display: block;
+                    // width: 85%;
+                }
+            }
+            content{
+                font-weight: normal;
+                font-size: 1rem;
+                line-height: 1.5rem;
+                color: $primaryText;
+            }
+        } 
+    }
+}
+.buttonLed{
+    display: flex;
+    justify-content: center;
+    padding-top: 0.875rem;
+}
+.linkPitanjaLed{
+    text-transform: uppercase;
+}
+
+
+  
+
+
+
+.pitanjaBottomColumn{
+    width: 41.188rem;
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;
+    justify-content: center;
+    padding-bottom: 5.5rem;
+    .pitanjaLink{
+        display: inline-flex;
+        box-shadow: 0px 2px 1px rgba(0, 0, 0, 0.05);
+    }
+    .right{
+        background: #FFFFFF;
+        box-shadow: 0px 2px 1px rgba(0, 0, 0, 0.05);
+        border-radius: 0px 6px 6px 0px;
+        .inner{
+            width: 27rem;
+            padding: 2.5rem;
+        }
+        .title{
+            font-weight: 400;
+            font-size: 2rem;
+            line-height: 2.5rem;
+            color: $titleColor;
+        }
+        .subTitle{
+            font-weight: 400;
+            font-size: 1rem;
+            line-height: 1.5rem;
+            color: $primaryText;
+            padding-bottom: 2rem;
+        }
+    }
+    .left{
+        img{
+            height: 100%;
+        }
+    }
+}

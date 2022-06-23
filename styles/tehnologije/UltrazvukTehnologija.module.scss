@@ -1,0 +1,126 @@
+@import '../variables.scss';
+
+#titleUltrazvuk{
+    background: url("../../public/images/tehnologije/laserTehnologija/laserBackground.png") no-repeat;
+
+    .hero-body{
+        padding: 3rem 1.5rem;
+    }
+    .imgTitleSphere{
+        display: flex;
+        justify-content: center;
+        align-content: center;
+    }
+    .title{
+        font-weight: 500;
+        font-size: 3rem;
+        line-height: 3rem;
+        text-align: center;
+        color: #fff;
+        margin-top: 0.5rem;
+        margin-bottom: 1.5rem;
+    }
+   .pretitle{
+       font-weight: 700;
+       font-size: 1rem;
+       line-height: 1.5rem;
+       text-align: center;
+       color: #fff;
+       text-transform: uppercase;
+       margin-top: 1.25rem;
+       margin-bottom: 0px;
+   }
+}
+
+#ultrazvukAbout{
+    padding-top: 3rem;
+
+    .container{
+        width: 69.75rem;
+    }
+    .ultrazvukTitle{
+        margin-bottom: 1rem;
+    }
+    .firstPUzv{
+        margin-bottom: 1.5rem;
+    }
+    .imgUltrazvuk{
+        float: right;
+    }
+
+    .secondColUzv{
+        padding-top: 5.5rem; 
+    }
+    .uzvList{
+        display: flex;
+       margin-bottom: 0.75rem;
+
+        span{
+            padding-right: 0.875rem;
+            display: flex;
+            // flex: 1 0 auto;
+           flex-shrink: 0;
+        }
+    }
+    .secColImg{
+        float: right;
+    }
+    .lastItem{
+        margin-bottom: 1.5rem;
+    }
+    .uzvTitle{
+        margin-bottom: 1.5rem;
+    }
+
+    .thirdColUzv{
+        padding-top: 1.5rem;
+        .thirdColImg{
+            float: left;
+        }
+    }
+
+}
+
+#ultrasoundPonuda{
+    padding-top:5.5rem;
+    padding-bottom: 5.5rem;
+    box-shadow: 0px 2px 1px rgba(0, 0, 0, 0.05);
+   
+    .columns{
+        display: flex;
+        justify-content: center;
+        
+    }
+    .ponudaColumn{
+        display: flex;
+        justify-content: center;
+        max-width: 41.25rem;
+        background-color: #fff;
+        border-radius: 6px;
+        padding: 0;
+    }
+    ._inner{
+        padding-top: 1.75rem;
+        padding-bottom: 1.75rem;
+
+        .titlePonuda{
+            font-weight: 400;
+            font-size: 2rem;
+            line-height: 2.5rem;
+            color: $titleColor;
+            margin-bottom: 1rem;
+            max-width: 26rem;
+        }
+        .subtitlePonuda{
+            font-weight: 400;
+            font-size: 1rem;
+            line-height: 1.5rem;
+            color: $primaryText;
+            margin-bottom: 0px;
+        }
+        .buttonPonuda{
+            margin-top: 1.5rem;
+            display: inline-flex;
+        }
+    }
+}

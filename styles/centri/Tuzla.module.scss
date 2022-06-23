@@ -1,0 +1,155 @@
+@import '../variables';
+
+#centriTuzla{
+    background: white;
+    padding-top: 4rem;
+    padding-bottom: 4rem;
+    .singleCentarTitle{
+        font-weight: 500;
+        font-size: 2.5rem;
+        line-height: 3rem;
+        color: $titleColor;
+      }
+
+      .naruciBtn {
+        // margin-top: 48px;
+      }
+      .infoCentar{
+          p{
+              margin-bottom: 0.5rem;
+          }
+      }
+      .radnoVrijeme{
+        padding-bottom: 3rem;
+        .strong{
+            margin-bottom: 4px;
+        }
+      }
+    //   centar slider dots and arrows
+      .kVtMtA{
+        left: 1.875rem;
+      }
+      .bhRnqO{
+        right: 1.875rem;
+      }
+      .jWpUJH{
+        bottom: 0.938rem;
+      }
+      .kNBmiK{
+          margin-right: 0;
+          margin-left: 0;
+      }
+}
+.cityInfoHr{
+    height: 1px;
+    background:#E1E1E1;
+    width: 90%;
+}
+.spacingCentriVrijeme{
+    padding-right: 1.5rem;
+}
+.strong {
+    font-weight: 700;
+}
+.workHours{
+    font-size: 1.125rem;
+}
+.naruciBtnCentri{
+    padding: 1rem 3.781rem !important;
+}
+.centarPonuda{
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+    margin-bottom: 1rem;
+    box-shadow: 0px 2px 0.5rem rgba(0, 0, 0, 0.08);
+    border-radius: 0.5rem;
+}
+.greenCheckSpacing{
+    padding-right: 0.875rem;
+    display: flex;
+    align-items: center; 
+}
+.ponudaTitle{
+    font-weight: 500;
+    font-size: 2rem;
+    line-height: 2.5rem;
+    color: $titleColor;
+}
+.ponudaItem{
+    font-weight: 400;
+    font-size: 1.125rem;
+    line-height: 1.75rem;
+    color: $titleColor;
+    display: flex;
+    align-items: center; 
+}
+.centarPonudaInner{
+    padding: 2rem;
+    .padNone{
+        padding-bottom: 0;
+    }
+}
+
+.mapaCentra{
+    padding-bottom: 0.75rem;
+    iframe{
+        border-radius: 0.5rem;
+    }
+}
+.pogledajMapuBtn{
+    float: right;
+}
+.ostaleLokacijeTitle{
+    font-weight: 400;
+    font-size: 1.75rem;
+    line-height: 2.25rem;
+    color: $titleColor;
+}
+.singleCentarHr{
+    background: #E1E1E1;
+    height: 1px;
+    margin-top: 4rem;
+    margin-bottom: 4rem;
+}
+#ostaleLokacijeSection{
+    background: white;
+}
+.ostaleLokacijeColumns{
+    padding-top: 2.5rem;
+}
+
+.boxCityOstale{
+    background: url("../../public/images/centri/box-background-darker.png") no-repeat;
+    background-size: auto;
+    background-position: center;
+    position: relative;
+    // box-shadow: 0px 2px 8px rgba(0, 0, 0, 0.12);
+    border-radius: 0.5rem;
+    width: 26.938rem;
+    margin-right: 1.5rem;
+    &:last-child{
+        margin-right: 0;
+    }
+    .boxInner{
+        padding: 4rem 2rem 3rem 2rem;
+    }
+    .adressInfo{
+        .column{
+            display: block;
+            p{
+                margin-bottom: 0.5rem;
+            }
+        }
+        padding-bottom: 2.5rem;
+    }
+    .centriCityTitle{
+        font-weight: 500;
+        font-size: 2rem;
+        line-height: 2.5rem;
+        color: $titleColor;
+        margin-bottom: 0 !important;
+    }
+    .centriCitySubtitle{
+        margin-bottom: 0 !important;
+    }
+}

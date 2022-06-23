@@ -1,0 +1,243 @@
+@import '../../variables';
+
+
+#headerKozmetike{
+    padding-top: 0.75rem;
+
+    .container{
+        width: 84.125rem;
+        max-width: 84.125rem;
+        height: 17.375rem;
+        background-image: url('../../../public/images/kozmeticki-proizvodi/kozmetikaCiscenje/header.png');
+        display: flex;
+        justify-content: center;
+        overflow: hidden;
+        &::before{
+            content: url('../../../public/images/kozmeticki-proizvodi/kozmetikaCiscenje/whiteLeft.svg');
+            position: absolute;
+            left: -2.625rem;
+            top: 13.438rem;
+        }
+        &::after{
+            content: url('../../../public/images/kozmeticki-proizvodi/kozmetikaCiscenje/whiteRight.svg');
+            position: absolute;
+            left: 75.619rem;
+            top: -0.5rem;
+        }
+    }
+    .kozmetikeHeadTitle{
+        font-weight: 700;
+        font-size: 2.5rem;
+        line-height: 3.75rem;
+        color: #fff;
+        text-align: center;
+        }
+        .column{
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+}
+
+#kozmetikeDescription{
+    padding-top: 2.5rem;
+
+    .container{
+        display: flex;
+        justify-content: center;
+    }
+    .column{
+        width: 27rem;
+        padding-left: 0;
+        padding-right: 0;
+
+        .kozmetikeDescriptionTitle, .kozmetikeDescriptionText{
+            margin-bottom: 1rem;
+        }
+    }
+}
+
+#hrKozmetike{
+    hr{
+        height: 1px;
+        color: #E1E1E1;
+        background-color: #E1E1E1;;
+    }
+}
+
+#kozmetikeProizvodi{
+
+    .productsContainer{
+        width: 62.625rem;
+        padding-top: 3rem;
+    }
+     
+    .topColumns{
+        display: flex;
+        justify-content: center;
+        }
+        .column{
+            padding-left: 0;
+            padding-right: 0;
+            display: flex;
+            justify-content: center;
+        }
+        .innerOutro{
+            padding: 0.5rem 1rem;
+            background-color: #EDEFE5;
+            border-radius: 0.5rem;
+        }
+        .outroMessage{
+            font-weight: 700;
+            font-size: 1rem;
+            line-height: 1.5rem;
+            color: $primaryGreen;
+        }
+        .threeProductsBox{
+            
+            .kozmetikeProductBox{
+                background-color: #fff;
+                width: 19.875rem;
+                box-shadow: 6px 0.625rem 1.563rem rgba(0, 0, 0, 0.1);
+                border-radius: 0.625rem;
+                ._inner{
+                    padding: 1rem 1rem 1.25rem 1rem;
+
+                    .productImg{
+                        margin-bottom: 1rem;
+                    }
+                    .productBoxTitle{
+                        font-weight: 700;
+                        font-size: 1.5rem;
+                        font-weight: 2.1rem;
+                        color: $titleColor;
+                        text-align: left;
+                        margin-bottom: 6px;
+                    }
+                    .productBoxSubtitle{
+                        font-weight: 500;
+                        font-size: 1rem;
+                        line-height: 1.5rem;
+                        color: $primaryGreen;
+                        text-align: left;
+                        margin-bottom: 1.5rem;
+                    }
+                    .productBoxButton{
+                        span{
+                            padding-right: 0.688rem;
+                            display: flex;
+                        }
+                        font-weight: 700;
+                        font-size: 1rem;
+                        line-height: 1.5rem;
+                        color: #fff;
+                        text-align: center;
+                        background-color: $primaryGreen;
+                        padding: 1rem 3.438rem;
+                        border-radius: 6px;
+                        display: flex;
+                    }
+                }
+            }
+           
+        }
+}
+
+#bottomDetails{
+    .container{
+        width: 84rem;
+    }
+    display: flex;
+    justify-content: center;   
+    align-items: center;
+    padding-top: 4rem;
+
+    .is-right{
+        ._innerImage{
+            float: right;
+        }
+    }
+    .is-left, .is-right{
+        padding-left: 0;
+        padding-right: 0;
+    }
+    .is-left{
+        display: flex;
+        justify-content: left;
+        .laserSubtitle, .laserTitle{
+            text-align: left;
+        }
+        ._inner{
+            width: 28rem;
+        }
+        .secondPart{
+            padding-top: 1.5rem;
+
+            .blueTitle{
+                font-weight: 700;
+                font-size: 2rem;
+                line-height: 3rem;
+                color: $titleColor;
+                margin-bottom: 2rem;
+            }
+        }
+        .greenCheckSpacing{
+            float: left;
+            padding-right: 1.5rem;
+        }
+        .odlikeTitle{
+            font-weight: 700;
+            font-size: 1.125rem;
+            line-height: 1.688rem;
+            color: $primaryGreen;
+            margin-bottom: 4px;
+        }
+        .odlikeItem{
+            font-weight: 400;
+            font-size: 1rem;
+            line-height: 1.5rem;
+            color: $primaryText;
+            display: flex;
+            margin-bottom: 0.75rem;
+        }
+        .detailsList{
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            width: 37.5rem;
+            .greenCheckSpacing{
+                flex-grow: 0;
+                flex-shrink: 0;
+                height: 100%;
+            }
+        }
+    }
+}
+
+#kozmetikaCiscenjeOutro{
+    padding-top: 5rem;
+    padding-bottom: 5.5rem;
+    .topColumns{
+        display: flex;
+        justify-content: center;
+        }
+        .column{
+            padding-left: 0;
+            padding-right: 0;
+            display: flex;
+            justify-content: center;
+            background-color: #E2EEEE;
+            border-radius: 0.5rem;
+        }
+        .innerOutro{
+            padding: 0.5rem 1rem;
+            background-color: #E2EEEE;
+            border-radius: 0.5rem;
+        }
+        .outroMessage{
+            font-weight: 700;
+            font-size: 1rem;
+            line-height: 1.5rem;
+            color: $primaryBlue;
+        }
+}

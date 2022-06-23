@@ -1,0 +1,278 @@
+@import '../variables';
+
+.fotoepilacijaHeader{
+     background-image: url('../../public/images/usluge/fotoepilacija/header.png') !important;
+     background-repeat: no-repeat;
+}
+
+#definicijaFotoepilacija{
+    padding-top: 2rem;
+    
+    .titleDefinicijaFotoepilacija{
+        font-size: 2rem;
+        line-height: 3rem;
+        color: $primaryGreen;
+        font-weight: 700;
+        margin-bottom: 1rem;
+    }
+    .contentDefinicijaFotoepilacija{
+        font-weight: 400;
+        font-size: 1rem;
+        line-height: 1.75rem;
+        color: $primaryText;
+    }
+    .videoCol{
+        display: flex;
+        justify-content: right;
+    }
+}
+
+#prijePoslije{
+    padding-top: 4rem;
+    
+    .column{
+        padding: 0;
+    }
+    .leftCol{
+        background-color: #EBEBEB;
+        border-radius: 0.5rem;
+        margin-right: 1.5rem;
+    }
+    .rightCol{
+        background-color: #EDEFE5;
+        border-radius: 0.5rem;
+    }
+    .inner{
+        padding: 2rem 5.125rem 4rem 3rem;
+        .prijeTitle{
+            font-weight: 700;
+            font-size: 2rem;
+            line-height: 3rem;
+            color: $titleColor;
+            margin-bottom: 1.688rem;
+        }
+        .singleItem{
+           display: flex;
+           padding-bottom: 0.5rem;
+           .turqCircle{
+               padding-right: 1rem;
+           }
+            .singleText{
+                font-weight: 400;
+                font-size: 1rem;
+                line-height: 1.5rem;
+                color: $titleColor;
+            }
+            .grenSpan{
+                font-weight: 700;
+                color: $primaryGreen;
+            }
+        }
+    }
+}
+
+#ljekarskaFotoepilacija{
+    padding-top: 3rem;
+    .column{
+        padding: 0;
+    }
+    .leftCol{
+        .upitnik{
+            font-weight: 700;
+            font-size: 2rem;
+            line-height: 3rem;
+            color: #fff;
+            background-color: #43B5B5;
+            width: 3.5rem;
+            height: 3.5rem;
+            text-align: center;
+            border-radius: 1.875rem;
+            align-items: center;
+            margin-bottom: 0.75rem;
+            display: flex;
+            justify-content: center;
+        }
+        .upitnikTitle{
+            font-weight: 700;
+            font-size: 1.5rem;
+            line-height: 2.25rem;
+            color: #0F1C49;
+            margin-bottom: 0.5rem;
+        }
+        .upitnikSub{
+            font-weight: 400;
+            font-size: 1rem;
+            line-height: 1.75rem;
+            color: $primaryText;
+        }
+    }
+    .rightCol{
+        
+        .lokacijeBox{
+            background-color: #fff;
+            border-radius: 0.75rem;
+            height: 17.375rem;
+            
+            .doctorImg{
+                display: inline-flex;
+                float: right;
+                position: absolute;
+                right: 0;
+                bottom: 0;
+            }
+        }
+        .inner{
+            padding: 2rem 10.25rem 2rem 2rem;
+            .top{
+                display: flex;
+                margin-bottom: 1rem;
+                .doctorIcon{
+                    padding-right: 1.5rem;
+                }
+                .podrskaTitle{
+                    font-weight: 400;
+                    font-size: 1.5rem;
+                    line-height: 1.95rem;
+                    color: $primaryGreen;
+                }
+            }
+            .topSub{
+                font-weight: 400;
+                font-size: 1rem;
+                line-height: 1.5rem;
+                color: $titleColor;
+                margin-bottom: 2rem;
+            }
+            .bottom{
+                .lokacijeButton{
+                    font-weight: 700;
+                    font-size: 1rem;
+                    line-height: 1.5rem;
+                    color: #fff;
+                    background-color: $primaryGreen;
+                    padding: 1rem 2rem;
+                    border-radius: 6px;
+                    display: inline-flex;
+                    float: left;
+                }
+               
+            }
+        }
+    }
+}
+
+#uklanjanjeDlacica{
+    padding-top: 5rem;
+    
+    .topCols{
+        display: flex;
+        justify-content: center;
+    }
+    .dlaciceTitle{
+        font-weight: 500;
+        font-size: 1.75rem;
+        line-height: 2.25rem;
+        color: $primaryGreen;
+        margin-bottom: 1rem;
+    }
+    .dlaciceSub{
+        font-weight: 400;
+        font-size: 1rem;
+        line-height: 1.5rem;
+        color: $primaryText;
+    }
+    .secondRow{
+        padding-top: 3rem;
+    }
+    .txtCols{
+        display: flex;
+        justify-content: center;
+    }
+}
+
+#koraciFotoepilacije{
+    padding-top: 4rem;
+    
+    .topCols{
+        margin-bottom: 0;
+        padding-bottom: 0;
+        .column{
+            margin-bottom: 0;
+            padding-bottom: 0;
+        }
+    }
+    .koraciTitle{
+        font-weight: 500;
+        font-size: 1.75rem;
+        line-height: 2.25rem;
+        color: $primaryGreen;
+        margin-bottom: 0;
+    }
+    .triKoraka{
+        padding-top: 4rem;
+        display: flex;
+        justify-content: center;
+    }
+    .korakBroj{
+        font-weight: 700;
+        font-size: 2rem;
+        line-height: 3rem;
+        color: #fff;
+        background-color: #43B5B5;
+        width: 3.5rem;
+        height: 3.5rem;
+        text-align: center;
+        border-radius: 1.875rem;
+        align-items: center;
+        margin-bottom: 0.75rem;
+        display: flex;
+        justify-content: center;
+    }
+    .korakTitle{
+        font-weight: 700;
+        font-size: 1.5rem;
+        line-height: 2.25rem;
+        color: $titleColor;
+        margin-bottom: 0.5rem;
+    }
+    .korakContent{
+        font-weight: 400;
+        font-size: 1rem;
+        line-height: 1.75rem;
+        color: $primaryText;
+    }
+}
+
+#preporuke{
+    padding-top: 5.5rem;
+    
+    .txtBox{
+        background-color: #EDEFE5;
+        border-radius: 0.5rem;
+        .inner{
+            padding: 4rem 7.125rem 4rem 4rem;
+            
+            .preporukeTitle{
+                font-weight: 700;
+                font-size: 1.5rem;
+                line-height: 2.25rem;
+                color: $titleColor;
+                margin-bottom: 0.5rem;
+            }
+            .preporukeContent{
+                margin-bottom: 0;
+            }
+        }
+    }
+}
+#hR{
+    hr{
+        height: 1px;
+        background-color: #E1E1E1;
+        color: #E1E1E1;
+    }
+}
+
+.fotoepilacijaZone{
+    padding-top: 3rem;
+}

@@ -1,0 +1,102 @@
+import { SchemaMetaFieldDef } from 'graphql'
+import React from 'react'
+import navLogo from '../public/images/logoMainMenu.svg'
+import dropDown from '../public/images/dropDownIcon.svg'
+import youtubeIcon from '../public/images/youtubeIcon.svg'
+import instagramIcon from '../public/images/instagramIcon.svg'
+import twitterIcon from '../public/images/twitterIcon.svg'
+import facebookIcon from '../public/images/facebookIcon.svg'
+
+
+export const Navbar = () => {
+    return (
+        <div>
+            
+            
+            <nav id='navbarTop' className='navbarTop'>
+                <div className="navbarTopWrap">
+                    
+                    <div className="centriWrap">
+                    <ul className="centriList">
+                        <a href="/centri/sarajevo-i">
+                            <li>Sarajevo</li>
+                        </a>
+                        <a href="/centri/mostar">
+                            <li>Mostar</li>
+                        </a>
+                        <a href="/centri/banja-luka">
+                            <li>Banja Luka</li>
+                        </a>
+                        <a href="/centri/zenica">
+                            <li>Zenica</li>
+                        </a>
+                        <a href="/centri/tuzla">
+                            <li>Tuzla</li>
+                        </a>
+                        <a href="/centri/doboj">
+                            <li>Doboj</li>
+                        </a>
+                        <a href="/centri/brcko">
+                            <li>Brčko</li>
+                            </a>
+                            <a href="/centri/teslic">
+                            <li>Teslić</li>
+                            </a>
+                            <a href="/centri/doboj">
+                            <li>Doboj</li>
+                        </a>
+                    </ul>
+                    </div>
+                    
+                    <div className="mediaWrap">
+                        <ul className='mediaIconsList'>
+                            <a href="">
+                                <li><img src={youtubeIcon} alt="" /></li>
+                            </a>
+                            <a href="">
+                                <li><img src={instagramIcon} alt="" /></li>
+                            </a>
+                            <a href="">
+                                <li><img src={twitterIcon} alt="" /></li>
+                            </a>
+                            <a href="">
+                                <li><img src={facebookIcon} alt="" /></li>
+                            </a>
+                        </ul>
+                    </div>
+                </div>
+            </nav>
+            
+            <nav id="navbar" className="navbar">
+                <div className="navWrap">
+                    <a href="/">
+                        <div className="navImg">
+                            <img src={navLogo} alt="" />
+                        </div>
+                    </a>
+                    
+                    <ul className="menuList">
+                        <a href="/">
+                            <li>Početna</li>
+                        </a>
+                        <a href="/usluge/laserska-epilacija">
+                            <li>Usluge</li>
+                        </a>
+                        <a href="/centri">
+                            <li>Centri</li>
+                        </a>
+                        <a href="/tehnologije">
+                            <li>Tehnologija</li>
+                        </a>
+                        <a href="/kozmeticki-proizvodi">
+                            <li>Kozmetički proizvodi</li>
+                        </a>
+                    </ul>
+                </div>
+           </nav>
+
+
+        </div>
+    )
+}
+

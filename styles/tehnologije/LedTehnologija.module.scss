@@ -1,0 +1,376 @@
+@import '../variables.scss';
+
+
+#titleLedTehnologija{
+    background: url("../../public/images/tehnologije/laserTehnologija/laserBackground.png") no-repeat;
+
+    .hero-body{
+        padding: 3rem 1.5rem;
+    }
+    .imgTitleSphere{
+        display: flex;
+        justify-content: center;
+        align-content: center;
+    }
+    .title{
+        font-weight: 500;
+        font-size: 3rem;
+        line-height: 3rem;
+        text-align: center;
+        color: #fff;
+        margin-top: 0.5rem;
+        margin-bottom: 1.5rem;
+    }
+   .pretitle{
+       font-weight: 700;
+       font-size: 1rem;
+       line-height: 1.5rem;
+       text-align: center;
+       color: #fff;
+       text-transform: uppercase;
+       margin-top: 1.25rem;
+       margin-bottom: 0px;
+   }
+}
+
+#ledAbout{
+    padding-top: 3rem;
+    .container{
+        max-width: 69.75rem;
+    }
+    .columns{
+        display: flex;
+        justify-content: center;
+    }
+    .iplAparatiTitle{
+        font-weight: 500;
+        font-size: 1.75rem;
+        line-height: 2.25rem;
+        text-align: left;
+        color: $primaryGreen;
+    }
+    .iplAparatiTxt{
+        font-weight: 400;
+        font-size: 1rem;
+        line-height: 1.5rem;
+        text-align: left;
+        color: $primaryText;
+    }
+    ._innerImage{
+        display: flex;
+        justify-content: center;
+    }
+}
+
+#ledColors{
+    padding-top: 6rem;
+
+    .ledColorsHeaderColumn{
+       display: flex;
+       justify-content: center;
+    }
+    .ledColorsHeader{
+        font-weight: 400;
+        font-size: 1.375rem;
+        line-height: 1.875rem;
+        text-align: center;
+        color: $titleColor;
+        width: 41.25rem;
+    }
+
+    .ledColorsContainer{
+        padding-top: 3rem;
+        width: 84.125rem;
+
+        .innerZelenaLed{
+            margin-bottom: 1rem;
+        }
+        ._innerLeft{
+            width: 27rem;
+            height: 18.563rem;
+            border-radius: 0.5rem;
+            background-color:  rgba(255, 255, 255, 0.95);
+            text-align: center;
+            box-shadow: 0px 2px 0.5rem rgba(0, 0, 0, 0.12);
+
+            .colorBgLedZelena{
+                background-color: #A8CC59;
+                height: 6.5rem;
+                border-radius: 0.5rem 0.5rem 0 0;
+            }
+            .colorBgLedPlava{
+                background-color: #2E3371;
+                height: 6.5rem;
+                border-radius: 0.5rem 0.5rem 0 0;
+            }
+           
+            .contentZelena, .contentPlava{
+                position: relative;
+                top: -25%;
+            }
+        }
+        .titleLedColors{
+            color: $titleColor;
+            font-weight: 500;
+            font-size: 2rem;
+            line-height: 2.5rem;
+            text-align: center;
+            margin-bottom: 0.5rem;
+        }
+        .contentLedColors{
+            font-weight: 400;
+            font-size: 1rem;
+            line-height: 1.5rem;
+            text-align: center;
+            color: $primaryText;
+            padding-left: 2rem;
+            padding-right: 2rem;
+            padding-bottom: 2.5rem;
+        }
+
+        ._innerRight{
+            width: 55.5rem;
+            height: 26.063rem;
+            border-radius: 0.5rem;
+            background-color:  rgba(255, 255, 255, 0.95);
+            text-align: center;
+            box-shadow: 0px 2px 0.5rem rgba(0, 0, 0, 0.12);
+
+            .colorBgLedCrvena{
+                background-color: #C74750;
+                height: 6.5rem;
+                border-radius: 0.5rem 0.5rem 0 0;
+            }
+            .contentCrvena{
+                position: relative;
+                top: -18%;
+            }
+           
+        }
+        .innerRightDown{
+            width: 55.5rem;
+            height: 10.563rem;
+            background-color: #EBEBEB;
+            border-radius: 0.5rem;
+            text-align: center;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            .textContent{
+                color: $titleColor;
+                font-weight: 400;
+                font-size: 1rem;
+                line-height: 1.5rem;
+                padding-left: 2.438rem;
+                padding-right: 2.438rem;
+                padding-top: 3.031rem;
+                padding-bottom: 3.031rem;
+            }
+        }
+    }
+}
+
+#elektromagnetskaEnergija{
+    padding-top: 7.125rem;
+
+    .container{
+        width: 69.75rem;
+        display: flex;
+        justify-content: center;
+    }
+}
+
+#tretmaniLed{
+    padding-top: 5rem;
+
+    .tretmaniFourColumns{
+        padding-top: 3.438rem;
+       .column{
+        padding-right: 5rem;
+       }
+
+        .tretmaniSingleTitle{
+            font-size: 1.125rem;
+            line-height: 1.75rem;
+            font-weight: 700;
+            color: $titleColor;
+            padding-bottom: 4px;
+            margin-bottom: 0;
+        }
+        .innerTretmaniSingle p{
+            width: 16.375rem;
+        }
+        .innerTretmaniSingle img{
+            padding-bottom: 1rem;
+        }
+        .prviTretman::after{
+            position: absolute;
+            content: url(../../public/images/tehnologije/ledTehnologija/tretmaniLine1.svg);
+            top: 30%;
+            left: 10%;
+        }
+        .drugiTretman::after{
+            position: absolute;
+            content: url(../../public/images/tehnologije/ledTehnologija/tretmaniLine2.svg);
+            top: 25%;
+            left: 35%;
+        }
+        .treciTretman::after{
+            position: absolute;
+            content: url(../../public/images/tehnologije/ledTehnologija/tretmaniLine1.svg);
+            top: 30%;
+            left: 60%;
+        }
+        
+    }
+}
+
+#korisniciTretmana{
+    padding-top: 6rem;
+
+    .container{
+        display: flex;
+        justify-content: center;
+    }
+    .columnsKorisnici{
+        width: 55.5rem;
+    }
+}
+
+#tarifeLed{
+    padding-top: 5rem;
+
+    .colTarife{
+        display: flex;
+        justify-content: center;
+    }
+    .subtitleTarife{
+        font-weight: 500;
+        font-size: 1.25rem;
+        line-height: 1.75rem;
+        color: $titleColor;
+        text-align: center;
+    }
+
+    .containTarife{
+        display: flex;
+        justify-content: center;
+    }
+    .tarifeCol{
+        width: 41.25rem;
+
+        .leftCol{
+            padding-left: 0;
+        }
+    }
+    .leftTarife, .rightTarife{
+        width: 19.875rem;
+        border-radius: 7px;
+        background-color: $titleColor;
+    }
+    .innerTarife{
+        padding: 2rem;
+        .is-right{
+            float: right;
+        }
+        .tarifePrice{
+            font-weight: 700;
+            font-size: 2.5rem;
+            line-height: 2.93rem;
+            color: #fff;
+            margin-bottom: 0;
+        }
+        .tarifeDesc{
+            font-weight: 400;
+            font-size: 1.125rem;
+            line-height: 1.625rem;
+            color: #fff;
+        }
+    }
+}
+
+#ledTeh_Outro{
+    padding-top: 1.5rem;
+    .container{
+        display: flex;
+        justify-content: center;
+        }
+        .columns{
+            width: 41.25rem;
+        }
+        .column{
+            padding-left: 0;
+            padding-right: 0;
+        }
+        .innerOutro{
+            padding: 1rem;
+            background-color: #EDEFE5;
+            border-radius: 0.5rem;
+        }
+        .outroMessage{
+            font-weight: 700;
+            font-size: 1rem;
+            line-height: 1.5rem;
+            color: $primaryGreen;
+        }
+}
+
+#ledVideo{
+    padding-top: 5rem;
+
+    .container{
+        display: flex;
+        justify-content: center;
+    }
+    .videoLedInner{
+        border-radius: 6px;
+        iframe{
+            border-radius: 6px;
+        }
+    }
+}
+
+#ledPonuda{
+    padding-top:4.5rem;
+    padding-bottom: 5.5rem;
+    box-shadow: 0px 2px 1px rgba(0, 0, 0, 0.05);
+   
+    .columns{
+        display: flex;
+        justify-content: center;
+        
+    }
+    .ponudaColumn{
+        display: flex;
+        justify-content: center;
+        max-width: 41.25rem;
+        background-color: #fff;
+        border-radius: 6px;
+        padding: 0;
+    }
+    ._inner{
+        padding-top: 1.75rem;
+        padding-bottom: 1.75rem;
+
+        .titlePonuda{
+            font-weight: 400;
+            font-size: 2rem;
+            line-height: 2.5rem;
+            color: $titleColor;
+            margin-bottom: 1rem;
+            max-width: 25.375rem;
+        }
+        .subtitlePonuda{
+            font-weight: 400;
+            font-size: 1rem;
+            line-height: 1.5rem;
+            color: $primaryText;
+            margin-bottom: 0px;
+        }
+        .buttonPonuda{
+            margin-top: 1.5rem;
+            display: inline-flex;
+        }
+    }
+
+}

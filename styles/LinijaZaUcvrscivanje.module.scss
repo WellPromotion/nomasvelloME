@@ -1,0 +1,63 @@
+@import './variables';
+
+
+.colTopUcvrscivanje{
+    width: 41.25rem !important;
+    .kozmetikeDescriptionTitle, .kozmetikeDescriptionText{
+        
+    }
+   
+}
+.colTopUcvrscivanje1{
+    width: 24.125rem !important;
+}
+.listInnerUcvrscivanje{
+    .greenCheckSpacing{
+        float: left;
+        padding-right: 1.5rem;
+    }
+    .odlikeTitle{
+        font-weight: 700;
+        font-size: 1.125rem;
+        line-height: 1.688rem;
+        color: $primaryGreen;
+        margin-bottom: 4px !important;
+    }
+    .odlikeItem{
+        font-weight: 400;
+        font-size: 1rem;
+        line-height: 1.5rem;
+        color: $primaryText;
+        display: flex;
+        margin-bottom: 12px;
+    }
+    .detailsList{
+        display: flex;
+        // justify-content: center;
+        align-items: center;
+        width: 24.125rem;
+        .greenCheckSpacing{
+            flex-grow: 0;
+            flex-shrink: 0;
+            height: 100%;
+        }
+    }
+    
+}
+
+.detailsLinijaUcvrscivanja{
+    .smallGreenTitle{
+        font-weight: 700;
+        font-size: 1.125rem;
+        line-height: 1.688rem;
+        color: $primaryGreen;
+        margin-bottom: 4px !important;
+    }
+    .blueTitle{
+        margin-bottom: 1rem !important;
+    }
+    .firstParUcvrscivanje{
+        margin-bottom: 1.5rem !important;
+    }
+}
+

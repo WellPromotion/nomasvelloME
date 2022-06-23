@@ -1,0 +1,89 @@
+@import './variables';
+
+#firstKozmetika{
+    
+    .imgCol{
+        width: 27rem;
+    }
+    .rightCol{
+        padding-left: 3rem;
+    }
+    .sampleImage{
+        padding: 1.5rem 1.188rem 1.625rem 1.188rem;
+        background-color: #fff;
+        border-radius: 10px;
+    }
+    .reduktorTitle{
+        font-weight: 700;
+        font-size: 2rem;
+        line-height: 3rem;
+        color: $primaryGreen;
+    }
+    .reduktorSubtitle{
+        font-weight: 700;
+        font-size: 1.5rem;
+        line-height: 2.25rem;
+        color: $titleColor;
+    }
+    .listInner{
+        .detailsList{
+            display: flex;
+            padding-bottom: 0.5rem;
+            &:last-child{
+                padding-bottom: 0;
+            }
+            .turqCheckSpacing{
+                padding-right: 1.5rem;
+            }
+            .odlikeItem{
+                font-weight: 700;
+                font-size: 1rem;
+                line-height: 1.5rem;
+                color: $titleColor;
+            }
+        }
+    }
+    
+    .scndSection{
+        padding-top: 2rem;
+        
+        .listInner{
+            .detailsList{
+                display: flex;
+                padding-bottom: 0.5rem;
+                .turqCheckSpacing{
+                    padding-right: 1.5rem;
+                }
+                .odlikeItem{
+                    font-weight: 700;
+                    font-size: 1.125rem;
+                    line-height: 1.688rem;
+                    color: $primaryTurquoise;
+                    margin-bottom: 4px;
+                }
+                .odlikeSub{
+                    font-weight: 400;
+                    font-size: 0.875rem;
+                    line-height: 1.313rem;
+                    color: $primaryText;
+                }
+            }
+        }
+    }
+}
+
+.firstKozmetika2{
+    padding-top: 3rem;
+    padding-bottom: 5.5rem;
+    
+    .parTjel{
+        width:  46.438rem;
+        padding-bottom: 1.5rem;
+    }
+   .reduktorTitle2{
+       margin-bottom: 0.5rem !important;
+   }
+   .reduktorSubtitle{
+       margin-bottom: 1rem !important;
+   }
+}

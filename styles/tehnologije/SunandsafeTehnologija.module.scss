@@ -1,0 +1,101 @@
+@import '../variables.scss';
+
+#titleSunandsafe{
+    background: url("../../public/images/tehnologije/laserTehnologija/laserBackground.png") no-repeat;
+
+    .hero-body{
+        padding: 3rem 1.5rem;
+    }
+    .imgTitleSphere{
+        display: flex;
+        justify-content: center;
+        align-content: center;
+    }
+    .title{
+        font-weight: 500;
+        font-size: 3rem;
+        line-height: 3rem;
+        text-align: center;
+        color: #fff;
+        margin-top: 0.5rem;
+        margin-bottom: 1.5rem;
+    }
+   .pretitle{
+       font-weight: 700;
+       font-size: 1rem;
+       line-height: 1.5rem;
+       text-align: center;
+       color: #fff;
+       text-transform: uppercase;
+       margin-top: 1.25rem;
+       margin-bottom: 0px;
+   }
+}
+
+#mainSun{
+    padding-top: 2rem;
+    .container{
+        width: 84rem;
+    }
+    .sunTitlePar{
+        font-weight: 500;
+        font-size: 1.5rem;
+        line-height: 2rem;
+        color: $primaryGreen;
+
+
+    }
+}
+
+#bottomSun{
+    padding-top: 4.5rem;
+    padding-bottom: 5.5rem;
+    box-shadow: 0px 2px 1px rgba(0, 0, 0, 0.05);
+   
+    .columns{
+        display: flex;
+        justify-content: center;
+        max-width: 84rem;
+    }
+    .ponudaColumn{
+        display: flex;
+        justify-content: left;
+        // max-width: 660px;
+        background-color: #fff;
+        border-radius: 0px 6px 6px 0px;
+        padding: 0;
+        width: 58.433%;
+    }
+    ._inner{
+        padding-top: 1.75rem;
+        padding-bottom: 1.75rem;
+        padding-left: 3rem;
+
+        .titlePonuda{
+            font-weight: 400;
+            font-size: 2rem;
+            line-height: 40px;
+            color: $titleColor;
+            margin-bottom: 1rem;
+            max-width: 37.563rem;
+        }
+        .subtitlePonuda{
+            font-weight: 400;
+            font-size: 1rem;
+            line-height: 1.5rem;
+            color: $primaryText;
+            margin-bottom: 0px;
+        }
+        .buttonPonuda{
+            margin-top: 1.5rem;
+            display: inline-flex;
+        }
+    }
+    .imgCol{
+        padding-right: 0;
+
+        img::after{
+            background-color: #fff;
+        }
+    }
+}

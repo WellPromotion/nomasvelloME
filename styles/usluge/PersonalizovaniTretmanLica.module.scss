@@ -1,0 +1,222 @@
+@import '../variables';
+
+.personalizovaniTretman{
+     background-image: url('../../public/images/usluge/personalizovani-tretman-lica/header.png') !important;
+     background-repeat: no-repeat;
+}
+
+#subHeader{
+    padding-top: 4rem;
+    
+    .subHeaderCols{
+        justify-content: center;
+    }
+    .subHeaderTitle{
+        font-weight: 500;
+        color: $titleColor;
+        font-size: 1.75rem;
+        line-height: 2.45rem;
+        margin-bottom: 1.5rem;
+    }
+    .subHeaderSub{
+        font-weight: 400;
+        color: $primaryText;
+        font-size: 1rem;
+        line-height: 1.5rem;
+    }
+}
+
+#njegaKoze{
+    padding-top: 4rem;
+    
+    .njegaKozeCols{
+        justify-content: center;
+    }
+    .singleCols{
+        padding-top: 3rem;
+        justify-content: center;
+        .singlePar{
+            font-weight: 400;
+            color: $primaryText;
+            font-size: 1rem;
+            line-height: 1.75rem;
+            margin-bottom: 0.5rem;
+        }
+    }
+    .imgCol{
+        display: flex;
+        justify-content: center;
+        img{
+            padding: 1.875rem 1.75rem;
+            background-color: #fff;
+            border-radius: 0.75rem;
+            box-shadow: 6px 0.625rem 1.563rem rgba(0, 0, 0, 0.1);
+        }
+    }
+    .txtCol{
+        .njegakozeTitle{
+            font-weight: 700;
+            color: $primaryGreen;
+            font-size: 1.5rem;
+            line-height: 2.25rem;
+            margin-bottom: 0.5rem;
+        }
+        .njegakozeSub{
+            font-weight: 400;
+            color: $primaryText;
+            font-size: 1rem;
+            line-height: 1.75rem;
+            margin-bottom: 0.5rem;
+        }
+    }
+}
+
+#threeCols{
+    padding-top: 3rem;
+    
+    .columns{
+        justify-content: center;
+    }
+    .turqSphere{
+        margin-bottom: 0.75rem;
+    }
+    .threeTitle{
+        font-weight: 700;
+        color: $titleColor;
+        font-size: 1.5rem;
+        line-height: 2.25rem;
+        margin-bottom: 0.5rem;
+    }
+    .threeContent{
+        font-weight: 400;
+        color: $primaryText;
+        font-size: 1rem;
+        line-height: 1.75rem;
+    }
+}
+
+#threePars{
+    padding-top: 4rem;
+    .firstCol{
+        display: flex;
+        justify-content: center;
+        .defaultText{
+            width: 40.25rem;
+            font-weight: 700;
+            color: $primaryGreen;
+            padding: 0.75rem 1.25rem;
+            background-color: #9EBB3133;
+            border-radius: 0.5rem;
+        }
+    }
+    
+    .singlePar{
+        padding-top: 2rem;
+        justify-content: center;
+        .defaultText{
+            color: #59636C;
+            line-height: 1.75rem;
+        }
+    }
+    .imgCols{
+        padding-top: 3rem;
+    }
+}
+
+#threeColsGreen{
+    padding-top: 3rem;
+    
+    .titleCols{
+        .threeColsGreenTitle{
+            font-weight: 500;
+            color: $primaryGreen;
+            font-size: 1.75rem;
+            line-height: 2.25rem;
+        }
+    }
+    .columns{
+        justify-content: center;
+    }
+    .greenSphere{
+        margin-bottom: 0.75rem;
+    }
+    .threeTitle{
+        font-weight: 700;
+        color: $titleColor;
+        font-size: 1.5rem;
+        line-height: 2.25rem;
+        margin-bottom: 0.5rem;
+    }
+    .threeContent{
+        font-weight: 400;
+        color: $primaryText;
+        font-size: 1rem;
+        line-height: 1.75rem;
+    }
+}
+
+#pozivamoVas{
+    padding-top: 5.5rem;
+    
+    .boxCols{
+        border-radius: 0.75rem;
+        justify-content: center;
+        .imgCol{
+           img{
+            box-shadow: 6px 0.625rem 1.563rem rgba(0, 0, 0, 0.1);
+           }
+            display: flex;
+            justify-content: center;
+            width: inherit;
+        }
+        .txtCol{
+            background-color: #fff;
+            border-radius: 0 0.75rem 0.75rem 0;
+            box-shadow: 6px 0.625rem 1.563rem rgba(0, 0, 0, 0.1);
+            .inner{
+               padding: 2rem 2.75rem 2rem 2rem;
+                .titlePart{
+                    display: flex;
+                    margin-bottom: 1rem;
+                    .doctorIcon{
+                        padding-right: 1.5rem;
+                    }
+                }
+                .doctorTitle{
+                    font-weight: 400;
+                    color: $primaryGreen;
+                    font-size: 1.5rem;
+                    line-height: 1.95rem;
+                }
+                .doctorSub{
+                    font-weight: 400;
+                    color: $titleColor;
+                    font-size: 1rem;
+                    line-height: 1.5rem;
+                    margin-bottom: 2rem;
+                }
+                .doctorButton{
+                    font-weight: 700;
+                    color: $titleColor;
+                    font-size: 1rem;
+                    line-height: 1.5rem;
+                    color: #fff;
+                    background-color: $primaryGreen;
+                    padding: 1rem 2rem;
+                    border-radius: 6px;
+                    display: inline-flex;
+                }
+            }
+        }
+    }
+}
+
+.cijenaPersonalizovani{
+    .pozivamoVas{
+        font-weight: 400;
+        color: $titleColor;
+        font-size: 1.25rem;
+        line-height: 1.875rem;
+        text-align: center;
+    }
+}

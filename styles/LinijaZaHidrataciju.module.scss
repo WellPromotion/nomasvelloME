@@ -1,0 +1,55 @@
+@import './variables';
+
+.productsContainerHidratacija{
+    width: auto !important;
+}
+
+.hidratacijaBottomPar{
+    display: flex;
+    justify-content: center;
+}
+.innerHidratacijaBott{
+    width: 36.75rem;
+}
+.detailsHidratacija{
+    padding-top: 5rem !important;
+    padding-bottom: 0 !important;
+}
+
+.hidratacijaSpacing{
+    padding-top: 4.5rem;
+    .secondPart{
+        width: 31.875rem;
+    }
+}
+
+.colBottHidratacija{
+    .singleDetail{
+        width: 33.625rem;
+    }
+    .detailsList{
+        padding-bottom: 1.5rem;
+        display: flex;
+        img{
+            float: left;
+            padding-right: 1.5rem;
+        }
+        .odlikeTitle{
+            font-weight: 700;
+            font-size: 1.125rem;
+            line-height: 1.688rem;
+            color: $primaryGreen;
+            margin-bottom: 4px;
+        }
+    }
+    .singleDetailImg{
+        flex-shrink: 0;
+    }
+}
+.defaultTextHidratacija{
+    line-height: 1.75rem !important;
+}
+
+.hidratacijaOutro{
+    padding-top: 3.5rem !important;
+}

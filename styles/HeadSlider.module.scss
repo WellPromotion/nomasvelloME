@@ -1,0 +1,88 @@
+@import './variables';
+
+.singleHeaderSlide{
+    background-image: url('../public/images/headerSliderImg.png');
+    height: 53.25rem;
+    
+}
+.headerColTxt{
+    padding-top: 10.625rem;
+}
+.preTitleHeaderSlider{
+    font-weight: 300;
+    font-size: 4rem;
+    line-height: 4.5rem;
+    text-align: center;
+    color: #fff;
+    margin-bottom: 1rem !important;
+}
+.titleHeaderSlider{
+    font-weight: 900;
+    font-size: 8rem;
+    line-height: 9.375rem;
+    text-align: center;
+    color: #fff;
+    margin-bottom: 5.25rem !important;
+}
+.vidiViseBtn{
+    font-weight: 700;
+    font-size: 1.125rem;
+    line-height: 1.5rem;
+    text-align: center;
+    color: #fff;
+    background-color: $primaryGreen;
+    padding: 1rem 3rem;
+    border-radius: 6px;
+    text-transform: uppercase;
+}
+
+.slick-dots{
+    margin-left: 0 !important;
+    bottom: 1.863rem !important;
+    
+    .slick-active{
+        width: 2.188rem;
+        height: 1.375rem;
+        background-color: $primaryGreen;
+        border-radius: 100px;
+    }
+}
+.slick-dots li{
+    height: 1.375rem;
+    width: 1.375rem;
+    background: rgba(255, 255, 255, 0.75);
+    border-radius: 100px;
+}
+.slick-dots li.slick-active button::before{
+    color: transparent !important;
+}
+.slick-dots li button::before{
+    color: transparent !important;
+}
+
+.slick-prev, .slick-next{
+    top: 95% !important;
+    display: flex !important;
+    justify-content: center;
+    align-content: center;
+    align-items: center;
+    z-index: 999;
+}
+.slick-next{
+    right: 39.688rem !important;
+}
+.slick-prev{
+    left: 39.688rem !important;
+}
+.slick-prev::before{
+    content: url('../public/images/slick-left.svg') !important;
+}
+.slick-next::before{
+    content: url('../public/images/slick-right.svg') !important;
+}
+
+.slick-prev::before, .slick-next::before{
+    color: #fff;
+    opacity: 1 !important;
+    
+}
