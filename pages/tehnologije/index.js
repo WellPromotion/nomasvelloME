@@ -8,7 +8,6 @@ import ledHeaderImg from '../../public/images/tehnologije/imgs/led.png'
 import ultrazvucnaHeaderImg from '../../public/images/tehnologije/imgs/ultrazvucna.png'
 import sunHeaderImg from '../../public/images/tehnologije/imgs/sun.png'
 import ljekarskaHeaderImg from '../../public/images/tehnologije/imgs/ljekarska.png'
-
 import laserIconImg from '../../public/images/tehnologije/icons/svg/laser.svg'
 import iplIconImg from '../../public/images/tehnologije/icons/svg/ipl.svg'
 import ledIconImg from '../../public/images/tehnologije/icons/svg/led.svg'
