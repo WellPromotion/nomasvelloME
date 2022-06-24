@@ -1,7 +1,7 @@
 import { SchemaMetaFieldDef } from 'graphql'
 import React from 'react'
 import navLogo from '../public/images/logoMainMenu.svg'
-import dropDown from '../public/images/dropDownIcon.svg'
+import dropDown from '../public/images/dropdownIcon.svg'
 import youtubeIcon from '../public/images/youtubeIcon.svg'
 import instagramIcon from '../public/images/instagramIcon.svg'
 import twitterIcon from '../public/images/twitterIcon.svg'
