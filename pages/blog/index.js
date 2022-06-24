@@ -1,7 +1,7 @@
 import Head from 'next/head'
 import GET_TEST from '../../Querries/test'
 import client from '../../Components/AppolloClient'
-import NextLink from 'next/Link'
+import Link from 'next/link'
 import greenLines from '../../public/images/greenLinesTogether.svg'
 
 export default function Test(props) {
