@@ -254,7 +254,7 @@ VELIKE SNAGE</p>
                         </div>
                     </div>
                     <div className="column">
-                        <img src={priceTwo} alt="" />
+                        <img className='diodniIMG' src={priceTwo} alt="" />
                     </div>
                     </div>
                     

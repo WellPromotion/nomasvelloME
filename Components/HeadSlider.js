@@ -26,7 +26,7 @@ export default function HeadSlider() {
                 13 centara <br />
                 u BiH!
               </p>
-              <a href="https://google.com" className="vidiViseBtn">vidi više</a>
+              <a href="/centri" className="vidiViseBtn">vidi više</a>
             </div>
           </div>
         </div>
@@ -43,7 +43,7 @@ export default function HeadSlider() {
                 13 centara <br />
                 u BiH!
               </p>
-              <a href="https://google.com" className="vidiViseBtn">vidi više</a>
+              <a href="/centri" className="vidiViseBtn">vidi više</a>
             </div>
           </div>
         </div>
@@ -60,7 +60,7 @@ export default function HeadSlider() {
                 13 centara <br />
                 u BiH!
               </p>
-              <a href="https://google.com" className="vidiViseBtn">vidi više</a>
+              <a href="/centri" className="vidiViseBtn">vidi više</a>
             </div>
           </div>
         </div>

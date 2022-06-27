@@ -57,7 +57,7 @@ const KozmetickiProizvodi = () => {
                                                 kože
                                             </p>
                                             <a className='ctaKolekcijaBox kolekcijaButton'
-                                                href="https://www.figma.com">Pogledaj kolekciju</a>
+                                                href="/kozmeticki-proizvodi/kozmetika-za-ciscenje">Pogledaj kolekciju</a>
                                         </div>
                                     </div>
                                 </div>
@@ -75,7 +75,7 @@ const KozmetickiProizvodi = () => {
 Revitalizuje, umiruje i regeneriše kožu.
                                             </p>
                                             <a className='ctaKolekcijaBox kolekcijaButton'
-                                                href="https://www.figma.com">Pogledaj kolekciju</a>
+                                                href="/kozmeticki-proizvodi/linija-za-ucvrscivanje">Pogledaj kolekciju</a>
                                         </div>
                                     </div>
                                 </div>
@@ -96,7 +96,7 @@ Revitalizuje, umiruje i regeneriše kožu.
 ugašenu kožu i kožu sa prvim znacima starenja.
                                             </p>
                                             <a className='ctaKolekcijaBox kolekcijaButton'
-                                                href="https://www.figma.com">Pogledaj kolekciju</a>
+                                                href="/kozmeticki-proizvodi/linija-za-revitalizaciju">Pogledaj kolekciju</a>
                                         </div>
                                     </div>
                                 </div>
@@ -114,7 +114,7 @@ ugašenu kožu i kožu sa prvim znacima starenja.
                                             <p className='kozBoxSubtitle'>Specifična linija za masnu kožu.
                                             </p>
                                             <a className='ctaKolekcijaBox kolekcijaButton'
-                                                href="https://www.figma.com">Pogledaj kolekciju</a>
+                                                href="/kozmeticki-proizvodi/linija-protiv-nesavrsenosti-na-kozi">Pogledaj kolekciju</a>
                                         </div>
                                     </div>
                                 </div>
@@ -131,7 +131,7 @@ ugašenu kožu i kožu sa prvim znacima starenja.
                                             <p className='kozBoxSubtitle'>Anticelulitni reduktor i tjelesni učvršćivač
                                             </p>
                                             <a className='ctaKolekcijaBox kolekcijaButton'
-                                                href="https://www.figma.com">Pogledaj kolekciju</a>
+                                                href="/kozmeticki-proizvodi/kozmetika-za-tijelo">Pogledaj kolekciju</a>
                                         </div>
                                     </div>
                                 </div>
@@ -152,7 +152,7 @@ ugašenu kožu i kožu sa prvim znacima starenja.
 hidratacije, potrebno je da kožu zaštitimo i regenerišemo.
                                             </p>
                                             <a className='ctaKolekcijaBox kolekcijaButton'
-                                                href="https://www.figma.com">Pogledaj kolekciju</a>
+                                                href="/kozmeticki-proizvodi/linija-za-regeneraciju">Pogledaj kolekciju</a>
                                         </div>
                                     </div>
                                 </div>
@@ -169,7 +169,7 @@ hidratacije, potrebno je da kožu zaštitimo i regenerišemo.
                                             <p className='kozBoxSubtitle'>Hidratizuje kožu i održava je mladom.
                                             </p>
                                             <a className='ctaKolekcijaBox kolekcijaButton'
-                                                href="https://www.figma.com">Pogledaj kolekciju</a>
+                                                href="/kozmeticki-proizvodi/linija-za-hidrataciju">Pogledaj kolekciju</a>
                                         </div>
                                     </div>
                                 </div>

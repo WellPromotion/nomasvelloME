@@ -51,7 +51,7 @@ const Centri = () => {
                                             </div>
                                         </div>
 
-                                        <Link href="https://nextjs.org/docs/api-reference/next/link">
+                                        <Link href="/centri/sarajevo-i">
                                         <a className="cityDetailsBtn turqButton">Vidi sve detalje</a>
                                         </Link>
                                     </div>
@@ -78,7 +78,7 @@ const Centri = () => {
                                                 </div>
                                             </div>
                                         </div>
-                                        <Link href="https://nextjs.org/docs/api-reference/next/link">
+                                        <Link href="/centri/sarajevo-ii">
                                         <a className="cityDetailsBtn turqButton">Vidi sve detalje</a>
                                         </Link>
                                     </div>
@@ -89,7 +89,7 @@ const Centri = () => {
                                     <div className="boxInner">
                                         <img src={greenSphere} alt="" />
                                         <p className="centriCityTitle">Sarajevo - III</p>
-                                        <p className="centriCitySubtitle">Centar na Ilidzi</p>
+                                        <p className="centriCitySubtitle">Centar na Dobrinji</p>
                                         <div className="adressInfo">
                                             <div className="columns">
                                                 <div className="column">
@@ -106,7 +106,7 @@ const Centri = () => {
                                                 </div>
                                             </div>
                                         </div>
-                                        <Link href="https://nextjs.org/docs/api-reference/next/link">
+                                        <Link href="/centri/sarajevo-iii">
                                         <a className="cityDetailsBtn turqButton">Vidi sve detalje</a>
                                         </Link>
                                     </div>
@@ -119,7 +119,7 @@ const Centri = () => {
                                     <div className="boxInner">
                                         <img src={greenSphere} alt="" />
                                         <p className="centriCityTitle">Sarajevo - IV</p>
-                                        <p className="centriCitySubtitle">Centar na Ilidzi</p>
+                                        <p className="centriCitySubtitle">Centar na Ilidži</p>
                                         <div className="adressInfo">
                                             <div className="columns">
                                                 <div className="column">
@@ -136,46 +136,19 @@ const Centri = () => {
                                                 </div>
                                             </div>
                                         </div>
-                                        <Link href="https://nextjs.org/docs/api-reference/next/link">
+                                        <Link href="/centri/sarajevo-iv">
                                         <a className="cityDetailsBtn turqButton">Vidi sve detalje</a>
                                         </Link>
                                     </div>
                                 </div>
                             </div>
+                          
                             <div className="boxCity">
                                 <div className="boxOuter">
                                     <div className="boxInner">
                                         <img src={greenSphere} alt="" />
-                                        <p className="centriCityTitle">Mostar</p>
-                                        <p className="centriCitySubtitle">Centar na Ilidzi</p>
-                                        <div className="adressInfo">
-                                            <div className="columns">
-                                                <div className="column">
-                                                    <p className="cityInfoTitle">Adresa: </p>
-                                                    <p className="cityInfoTitle">Telefon:</p>
-                                                    <p className="cityInfoTitle">Email: </p>
-                                                </div>
-                                                <div className="column is-10">
-                                                    <p><span className="cityInfoContent">Butmirska
-                                                            cesta 14-Grand centar</span></p>
-                                                    <p> <span className="cityInfoContent">+033 620
-                                                            077</span></p>
-                                                    <p><span className="cityInfoContent">ilidza@nomasvello.ba</span></p>
-                                                </div>
-                                            </div>
-                                        </div>
-                                        <Link href="https://nextjs.org/docs/api-reference/next/link">
-                                        <a className="cityDetailsBtn turqButton">Vidi sve detalje</a>
-                                        </Link>
-                                    </div>
-                                </div>
-                            </div>
-                            <div className="boxCity">
-                                <div className="boxOuter">
-                                    <div className="boxInner">
-                                        <img src={greenSphere} alt="" />
-                                        <p className="centriCityTitle">Banja Luka - I</p>
-                                        <p className="centriCitySubtitle">Centar na ?</p>
+                                        <p className="centriCityTitle">Banja Luka</p>
+                                        <p className="centriCitySubtitle">Centar u Banja Luci</p>
                                         <div className="adressInfo">
                                             <div className="columns">
                                                 <div className="column">
@@ -193,38 +166,7 @@ const Centri = () => {
                                                 </div>
                                             </div>
                                         </div>
-                                        <Link href="https://nextjs.org/docs/api-reference/next/link">
-                                        <a className="cityDetailsBtn turqButton">Vidi sve detalje</a>
-                                        </Link>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                        <div className="column">
-                            <div className="boxCity">
-                                <div className="boxOuter">
-                                    <div className="boxInner">
-                                        <img src={greenSphere} alt="" />
-                                        <p className="centriCityTitle">Banja Luka - II</p>
-                                        <p className="centriCitySubtitle">Centar na Ilidzi</p>
-                                        <div className="adressInfo">
-                                            <div className="columns">
-                                                <div className="column">
-                                                    <p className="cityInfoTitle">Adresa: </p>
-                                                    <p className="cityInfoTitle">Telefon:</p>
-                                                    <p className="cityInfoTitle">Email: </p>
-                                                </div>
-                                                <div className="column is-10">
-                                                    <p><span className="cityInfoContent">Bulevar cara Dušana 15</span>
-                                                    </p>
-                                                    <p> <span className="cityInfoContent">+051 258 150</span> | <span
-                                                            className="cityInfoContent">066 486 645</span></p>
-                                                    <p><span className="cityInfoContent">banjaluka@nomasvello.ba</span>
-                                                    </p>
-                                                </div>
-                                            </div>
-                                        </div>
-                                        <Link href="https://nextjs.org/docs/api-reference/next/link">
+                                        <Link href="/centri/banja-luka">
                                         <a className="cityDetailsBtn turqButton">Vidi sve detalje</a>
                                         </Link>
                                     </div>
@@ -251,12 +193,16 @@ const Centri = () => {
                                                 </div>
                                             </div>
                                         </div>
-                                        <Link href="https://nextjs.org/docs/api-reference/next/link">
+                                        <Link href="/centri/zenica">
                                         <a className="cityDetailsBtn turqButton">Vidi sve detalje</a>
                                         </Link>
                                     </div>
                                 </div>
                             </div>
+                        </div>
+                        <div className="column">
+                           
+                            
                             <div className="boxCity">
                                 <div className="boxOuter">
                                     <div className="boxInner">
@@ -277,14 +223,12 @@ const Centri = () => {
                                                 </div>
                                             </div>
                                         </div>
-                                        <Link href="https://nextjs.org/docs/api-reference/next/link">
+                                        <Link href="/centri/tuzla">
                                         <a className="cityDetailsBtn turqButton">Vidi sve detalje</a>
                                         </Link>
                                     </div>
                                 </div>
                             </div>
-                        </div>
-                        <div className="column">
                             <div className="boxCity">
                                 <div className="boxOuter">
                                     <div className="boxInner">
@@ -306,7 +250,7 @@ const Centri = () => {
                                                 </div>
                                             </div>
                                         </div>
-                                        <Link href="https://nextjs.org/docs/api-reference/next/link">
+                                        <Link href="/centri/doboj">
                                         <a className="cityDetailsBtn turqButton">Vidi sve detalje</a>
                                         </Link>
                                     </div>
@@ -317,7 +261,7 @@ const Centri = () => {
                                     <div className="boxInner">
                                         <img src={greenSphere} alt="" />
                                         <p className="centriCityTitle">Brčko</p>
-                                        <p className="centriCitySubtitle">Centar na Ilidzi</p>
+                                        <p className="centriCitySubtitle">Centar u Brčkom</p>
                                         <div className="adressInfo">
                                             <div className="columns">
                                                 <div className="column">
@@ -332,18 +276,22 @@ const Centri = () => {
                                                 </div>
                                             </div>
                                         </div>
-                                        <Link href="https://nextjs.org/docs/api-reference/next/link">
+                                        <Link href="/centri/brcko">
                                         <a className="cityDetailsBtn turqButton">Vidi sve detalje</a>
                                         </Link>
                                     </div>
                                 </div>
                             </div>
-                            <div className="boxCity">
+                        </div>
+                        
+                
+                        <div className="column last-city">
+                        <div className="boxCity">
                                 <div className="boxOuter">
                                     <div className="boxInner">
                                         <img src={greenSphere} alt="" />
                                         <p className="centriCityTitle">Teslić</p>
-                                        <p className="centriCitySubtitle">Centar na Ilidzi</p>
+                                        <p className="centriCitySubtitle">Centar u Tesliću</p>
                                         <div className="adressInfo">
                                             <div className="columns">
                                                 <div className="column">
@@ -358,37 +306,7 @@ const Centri = () => {
                                                 </div>
                                             </div>
                                         </div>
-                                        <Link href="https://nextjs.org/docs/api-reference/next/link">
-                                        <a className="cityDetailsBtn turqButton">Vidi sve detalje</a>
-                                        </Link>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                        <div className="column last-city">
-                            <div className="boxCity">
-                                <div className="boxOuter">
-                                    <div className="boxInner">
-                                        <img src={greenSphere} alt="" />
-                                        <p className="centriCityTitle">Ljubuški</p>
-                                        <p className="centriCitySubtitle">Centar na Ilidzi</p>
-                                        <div className="adressInfo">
-                                            <div className="columns">
-                                                <div className="column">
-                                                    <p className="cityInfoTitle">Adresa: </p>
-                                                    <p className="cityInfoTitle">Telefon:</p>
-                                                    <p className="cityInfoTitle">Email: </p>
-                                                </div>
-                                                <div className="column is-10">
-                                                    <p><span className="cityInfoContent">Butmirska
-                                                            cesta 14-Grand centar</span></p>
-                                                    <p> <span className="cityInfoContent">+033 620
-                                                            077</span></p>
-                                                    <p><span className="cityInfoContent">ilidza@nomasvello.ba</span></p>
-                                                </div>
-                                            </div>
-                                        </div>
-                                        <Link href="https://nextjs.org/docs/api-reference/next/link">
+                                        <Link href="/centri/teslic">
                                         <a className="cityDetailsBtn turqButton">Vidi sve detalje</a>
                                         </Link>
                                     </div>

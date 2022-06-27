@@ -315,7 +315,7 @@ Fotoepilacija pulsirajućom svjetlošću predstavlja praktično bezbolan tretman
                         </div>
                     </div>
                     <div className="column">
-                        <img src={priceTwo} alt="" />
+                        <img className='diodniIMG' src={priceTwo} alt="" />
                     </div>
                     </div>
                     

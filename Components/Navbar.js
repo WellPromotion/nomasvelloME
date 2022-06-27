@@ -21,9 +21,6 @@ export const Navbar = () => {
                         <a href="/centri/sarajevo-i">
                             <li>Sarajevo</li>
                         </a>
-                        <a href="/centri/mostar">
-                            <li>Mostar</li>
-                        </a>
                         <a href="/centri/banja-luka">
                             <li>Banja Luka</li>
                         </a>
@@ -42,24 +39,21 @@ export const Navbar = () => {
                             <a href="/centri/teslic">
                             <li>Teslić</li>
                             </a>
-                            <a href="/centri/doboj">
-                            <li>Doboj</li>
-                        </a>
                     </ul>
                     </div>
                     
                     <div className="mediaWrap">
                         <ul className='mediaIconsList'>
-                            <a href="">
+                            <a href="https://www.youtube.com/user/NomasVelloBiH/featured">
                                 <li><img src={youtubeIcon} alt="" /></li>
                             </a>
-                            <a href="">
+                            <a href="https://www.instagram.com/nomasvello.ba/?hl=en">
                                 <li><img src={instagramIcon} alt="" /></li>
                             </a>
-                            <a href="">
+                            <a href="https://twitter.com/novellobih">
                                 <li><img src={twitterIcon} alt="" /></li>
                             </a>
-                            <a href="">
+                            <a href="https://www.facebook.com/NomasvelloBiH/">
                                 <li><img src={facebookIcon} alt="" /></li>
                             </a>
                         </ul>

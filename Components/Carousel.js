@@ -13,7 +13,7 @@ export const Gallery = () => {
     <Carousel cols={3} rows={1} gap={10} loop>
         <Carousel.Item>
             <div className="slickSlide">
-                <a href="">
+                <a href="/kozmeticki-proizvodi/linija-za-revitalizaciju">
                 <img className="sliderImage" src={sliderImage1} alt="" />
                 <p className="sliderTitle">Linija za revitalizaciju</p>
                 <p className="sliderSubtitle">Specijalna linija za osjetljivu i oštećenu kožu.</p>
@@ -22,7 +22,7 @@ export const Gallery = () => {
         </Carousel.Item>
         <Carousel.Item>
                 <div className="slickSlide">
-                <a href="">
+                <a href="/kozmeticki-proizvodi/kozmetika-za-ciscenje">
                 <img className="sliderImage" src={sliderImage2} alt="" />
                 <p className="sliderTitle">Kozmetika za čišćenje</p>
                 <p className="sliderSubtitle">Ispravno čišćenje kože je osnova uspjeha svakog tretmana lica.</p>
@@ -31,7 +31,7 @@ export const Gallery = () => {
         </Carousel.Item>
         <Carousel.Item>
                 <div className="slickSlide">
-                <a href="">
+                <a href="/kozmeticki-proizvodi/linija-za-ucvrscivanje">
                 <img className="sliderImage" src={sliderImage1} alt="" />
                 <p className="sliderTitle">Linija za učvršćivanje</p>
                 <p className="sliderSubtitle">Direktno djeluje protiv mlitavosti kože na licu.</p>
@@ -40,7 +40,7 @@ export const Gallery = () => {
         </Carousel.Item>
         <Carousel.Item>
                 <div className="slickSlide">
-                <a href="">
+                <a href="/kozmeticki-proizvodi/linija-za-revitalizaciju">
                 <img className="sliderImage" src={sliderImage2} alt="" />
                 <p className="sliderTitle">Linija za revitalizaciju</p>
                 <p className="sliderSubtitle">Specijalna linija za osjetljivu i oštećenu kožu.</p>

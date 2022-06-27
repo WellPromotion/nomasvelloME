@@ -80,7 +80,7 @@ const KozmetikaCiscenje = () => {
                                     <img className='productImg' src={sampleImage1} alt="" />
                                     <p className='productBoxTitle'>Gel za Ciscenje Visoke tolerancije</p>
                                     <p className='productBoxSubtitle'>Svakodnevno čišćenje za sve tipove kože.</p>
-                                    <a className='productBoxButton' href=""><span><img src={eyeIcon} alt="" /></span>Pogledaj detaljnije</a>
+                                    <a className='productBoxButton' href="/kozmeticki-proizvodi/kozmetika-za-ciscenje/gel-za-ciscenje-visoke-tolerancije"><span><img src={eyeIcon} alt="" /></span>Pogledaj detaljnije</a>
                                 </div>
                             </div>
                         </div>
@@ -88,9 +88,9 @@ const KozmetikaCiscenje = () => {
                         <div className="kozmetikeProductBox">
                                 <div className="_inner">
                                     <img className='productImg' src={sampleImage2} alt="" />
-                                    <p className='productBoxTitle'>Gel za Ciscenje Visoke tolerancije</p>
-                                    <p className='productBoxSubtitle'>Svakodnevno čišćenje za sve tipove kože.</p>
-                                    <a className='productBoxButton' href=""><span><img src={eyeIcon} alt="" /></span>Pogledaj detaljnije</a>
+                                    <p className='productBoxTitle'>Liposomska voda za skidanje šminke</p>
+                                    <p className='productBoxSubtitle'>Sredstvo za skidanje šminke za sve tipove kože, čak i za osjetljivu kožu.</p>
+                                    <a className='productBoxButton' href="/kozmeticki-proizvodi/kozmetika-za-ciscenje/liposomska-voda-za-skidanje-sminke"><span><img src={eyeIcon} alt="" /></span>Pogledaj detaljnije</a>
                                 </div>
                             </div>
                         </div>
@@ -98,9 +98,9 @@ const KozmetikaCiscenje = () => {
                         <div className="kozmetikeProductBox">
                                 <div className="_inner">
                                     <img className='productImg' src={sampleImage3} alt="" />
-                                    <p className='productBoxTitle'>Gel za Ciscenje Visoke tolerancije</p>
-                                    <p className='productBoxSubtitle'>Svakodnevno čišćenje za sve tipove kože.</p>
-                                    <a className='productBoxButton' href=""><span><img src={eyeIcon} alt="" /></span>Pogledaj detaljnije</a>
+                                    <p className='productBoxTitle'>Gel za čišćenje sa salicilnom kiselinom</p>
+                                    <p className='productBoxSubtitle'>Dubinski čisti kožu, skida masnoću i čisti pore.</p>
+                                    <a className='productBoxButton' href="/kozmeticki-proizvodi/kozmetika-za-ciscenje/gel-za-ciscenje-sa-salicilnom-kiselinom"><span><img src={eyeIcon} alt="" /></span>Pogledaj detaljnije</a>
                                 </div>
                             </div>
                         </div>

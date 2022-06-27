@@ -35,15 +35,14 @@ export const Footer = () => {
                                 </p>
                             </div>
                             <div className="secondRow">
-                                <a href="" className="footerLink isGreen">Laserska Epilacija</a> <span> – </span>
-                                <a href="" className="footerLink isGreen">Fotoepilacija IPL SHR</a><span> – </span>
-                                <a href="" className="footerLink isGreen">Fotopodmlađivanje</a><span> – </span>
-                                <a href="" className="footerLink isGreen">Ultrazvučno čišćenje lica</a><span> – </span>
-                                <a href="" className="footerLink isGreen">Tretman akni</a><span> – </span>
-                                <a href="" className="footerLink isGreen">Facijalni anti-age</a><span> – </span>
-                                <a href="" className="footerLink isGreen">Izbjeljivanje zuba</a><span> – </span>
-                                <a href="" className="footerLink isGreen">Tjelesni učvršćivač</a><span> – </span>
-                                <a href="" className="footerLink isGreen">Anticelulitni reduktor</a>
+                                <a href="/usluge/laserska-epilacija" className="footerLink isGreen">Laserska Epilacija</a> <span> – </span>
+                                <a href="/usluge/fotoepilacija" className="footerLink isGreen">Fotoepilacija IPL SHR</a><span> – </span>
+                                <a href="/usluge/fotopodmladjivanje" className="footerLink isGreen">Fotopodmlađivanje</a><span> – </span>
+                                <a href="/usluge/ultrazvucno-ciscenje-lica" className="footerLink isGreen">Ultrazvučno čišćenje lica</a><span> – </span>
+                                <a href="/usluge/tretman-akni" className="footerLink isGreen">Tretman akni</a><span> – </span>
+                                <a href="/usluge/facijalni-anti-age" className="footerLink isGreen">Facijalni anti-age</a><span> – </span>
+                                <a href="/usluge/izbjeljivanje-zuba" className="footerLink isGreen">Izbjeljivanje zuba</a><span> – </span>
+                                <a href="/usluge/tjelesni-ucvrscivac" className="footerLink isGreen">Tjelesni učvršćivač</a>
                             </div>
                             <div className="firstRow thirdRow">
                                 <p className="footerTitle">
@@ -51,15 +50,13 @@ export const Footer = () => {
                                 </p>
                             </div>
                             <div className="secondRow">
-                                <a href="" className="footerLink isGreen">Sarajevo</a> <span> / </span>
-                                <a href="" className="footerLink isGreen">Mostar</a><span> / </span>
-                                <a href="" className="footerLink isGreen">Banja Luka</a><span> / </span>
-                                <a href="" className="footerLink isGreen">Tuzla</a><span> / </span>
-                                <a href="" className="footerLink isGreen">Zenica</a><span> / </span>
-                                <a href="" className="footerLink isGreen">Doboj</a><span> / </span>
-                                <a href="" className="footerLink isGreen">Brčko</a><span> / </span>
-                                <a href="" className="footerLink isGreen">Teslić</a><span> / </span>
-                                <a href="" className="footerLink isGreen">Ljubuški</a>
+                                <a href="/centri/sarajevo-i" className="footerLink isGreen">Sarajevo</a> <span> / </span>
+                                <a href="/centri/banja-luka" className="footerLink isGreen">Banja Luka</a><span> / </span>
+                                <a href="/centri/tuzla" className="footerLink isGreen">Tuzla</a><span> / </span>
+                                <a href="/centri/zenica" className="footerLink isGreen">Zenica</a><span> / </span>
+                                <a href="/centri/doboj" className="footerLink isGreen">Doboj</a><span> / </span>
+                                <a href="/centri/brcko" className="footerLink isGreen">Brčko</a><span> / </span>
+                                <a href="/centri/teslic" className="footerLink isGreen">Teslić</a>
                             </div>
                         </div>
                         <div className="column thirdColumn is-2">
@@ -68,11 +65,11 @@ export const Footer = () => {
                                     Kontakt
                                 </p>
                                 <p>
-                                    <a href="" className="kontaktLinks isGreen footerLink"> <span><img src={phoneLogo}
-                                                alt="" /></span> +1 844 2311 0113</a>
+                                    <a href="tel:+38733718555" className="kontaktLinks isGreen footerLink"> <span><img src={phoneLogo}
+                                                alt="" /></span> 033 718 555</a>
                                 </p>
                                 <p>
-                                    <a href="" className="kontaktLinks isGreen footerLink"> <span><img src={inboxLogo}
+                                    <a href="mail:bih@nomasvello.com" className="kontaktLinks isGreen footerLink"> <span><img src={inboxLogo}
                                                 alt="" /></span> bih@nomasvello.com</a>
                                 </p>
                             </div>
@@ -81,10 +78,10 @@ export const Footer = () => {
                                     Naše tehnologije
                                 </p>
                                 <ul className="technologiesList">
-                                    <li><a href="">IPL Technology</a></li>
-                                    <li><a href="">Laser Technology</a></li>
-                                    <li><a href="">Sun & Safe</a></li>
-                                    <li><a href="">LED Technology</a></li>
+                                    <li><a href="/tehnologije/ipl-tehnologija">IPL Technology</a></li>
+                                    <li><a href="/tehnologije/laser-tehnologija">Laser Technology</a></li>
+                                    <li><a href="/tehnologije/sun-and-safe">Sun & Safe</a></li>
+                                    <li><a href="/tehnologije/led-tehnologija">LED Technology</a></li>
                                 </ul>
                             </div>
                         </div>
