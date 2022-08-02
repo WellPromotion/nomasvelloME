@@ -1,38 +1,96 @@
 import React, { useState, useEffect } from "react";
+import Tippy from "@tippyjs/react";
+import { followCursor } from "tippy.js";
+import "tippy.js/dist/tippy.css"; // optional
 import styles from "./Main.module.css";
 
 export default function Main(props) {
-  const [gender, setGender] = useState(true);
+  const [gender, setGender] = useState(false);
   const [services, setServices] = useState([
     {
       id: 0,
-      title: "Lice",
+      title: "Lice + Naušnice",
       price: 49,
       selected: false,
+      sidebar: false,
     },
-    { id: 1, title: "Vrat", price: 49, selected: false },
-    { id: 2, title: "Grudi", price: 49, selected: false },
-    { id: 3, title: "Stomak", price: 49, selected: false },
-    { id: 4, title: "Bikini", price: 49, selected: false },
-    { id: 5, title: "Noge", price: 98, selected: false },
-    { id: 6, title: "Stopala", price: 25, selected: false },
-    { id: 7, title: "Ramena", price: 49, selected: false },
-    { id: 8, title: "Ruke", price: 98, selected: false },
-    { id: 9, title: "Šake", price: 25, selected: false },
-    { id: 10, title: "Potiljak", price: 49, selected: false },
-    { id: 11, title: "Gornji dio leđa", price: 49, selected: false },
-    { id: 12, title: "Donji dio leđa", price: 49, selected: false },
-    { id: 13, title: "Zadnjica", price: 49, selected: false },
-    { id: 14, title: "Nausnice", price: 25, selected: false },
-    { id: 15, title: "Između obrva", price: 25, selected: false },
-    { id: 16, title: "Pazusi", price: 49, selected: false },
-    { id: 17, title: "Oko bradavica", price: 25, selected: false },
-    { id: 18, title: "Između grudi", price: 25, selected: false },
-    { id: 19, title: "Trbušna linija", price: 25, selected: false },
-    { id: 20, title: "Između stražnjice", price: 25, selected: false },
+    { id: 1, title: "Vrat", price: 49, selected: false, sidebar: false },
+    {
+      id: 2,
+      title: "Grudi + Između grudi + Trbušna linija",
+      price: 49,
+      selected: false,
+      sidebar: false,
+    },
+    { id: 3, title: "Stomak", price: 49, selected: false, sidebar: false },
+    { id: 4, title: "Bikini", price: 49, selected: false, sidebar: false },
+    { id: 5, title: "Noge", price: 98, selected: false, sidebar: false },
+    { id: 6, title: "Stopala", price: 25, selected: false, sidebar: false },
+    { id: 7, title: "Ramena", price: 49, selected: false, sidebar: false },
+    { id: 8, title: "Ruke", price: 98, selected: false, sidebar: false },
+    { id: 9, title: "Šake", price: 25, selected: false, sidebar: false },
+    { id: 10, title: "Potiljak", price: 49, selected: false, sidebar: false },
+    {
+      id: 11,
+      title: "Gornji dio leđa",
+      price: 49,
+      selected: false,
+      sidebar: false,
+    },
+    {
+      id: 12,
+      title: "Donji dio leđa",
+      price: 49,
+      selected: false,
+      sidebar: false,
+    },
+    {
+      id: 13,
+      title: "Zadnjica + Između stražnjice",
+      price: 49,
+      selected: false,
+      sidebar: false,
+    },
+    { id: 14, title: "Naušnice", price: 25, selected: false, sidebar: false },
+    {
+      id: 15,
+      title: "Između obrva",
+      price: 25,
+      selected: false,
+      sidebar: false,
+    },
+    { id: 16, title: "Pazusi", price: 49, selected: false, sidebar: false },
+    {
+      id: 17,
+      title: "Oko bradavica",
+      price: 25,
+      selected: false,
+      sidebar: false,
+    },
+    {
+      id: 18,
+      title: "Između grudi",
+      price: 25,
+      selected: false,
+      sidebar: false,
+    },
+    {
+      id: 19,
+      title: "Trbušna linija",
+      price: 25,
+      selected: false,
+      sidebar: false,
+    },
+    {
+      id: 20,
+      title: "Između stražnjice",
+      price: 25,
+      selected: false,
+      sidebar: false,
+    },
   ]);
 
-  const filterData = services.filter((service) => service.selected);
+  const filterData = services.filter((service) => service.sidebar);
   const totalPrice = filterData.reduce(
     (total, currentValue) => (total = total + currentValue.price),
     0
@@ -41,24 +99,6 @@ export default function Main(props) {
   return (
     <section id={styles.selector__wrap}>
       <div className={styles.nav__gender}>
-        <button
-          className={gender ? styles.btn__gender : styles.btn__gender__not}
-          onClick={() => setGender(true)}
-        >
-          <svg
-            height="17"
-            width="17"
-            fill="none"
-            viewBox="0 0 17 17"
-            xmlns="http://www.w3.org/2000/svg"
-          >
-            <path
-              d="M10.3216 1.21426C10.1606 1.21426 10.0061 1.15029 9.89227 1.03643C9.77842 0.922575 9.71445 0.76815 9.71445 0.607129C9.71445 0.446108 9.77842 0.291683 9.89227 0.177824C10.0061 0.0639652 10.1606 0 10.3216 0H16.3929C16.5539 0 16.7083 0.0639652 16.8222 0.177824C16.936 0.291683 17 0.446108 17 0.607129V6.67842C17 6.83944 16.936 6.99387 16.8222 7.10772C16.7083 7.22158 16.5539 7.28555 16.3929 7.28555C16.2318 7.28555 16.0774 7.22158 15.9636 7.10772C15.8497 6.99387 15.7857 6.83944 15.7857 6.67842V2.07274L10.7721 7.08641C11.7578 8.2924 12.2424 9.83112 12.1255 11.3843C12.0086 12.9375 11.2992 14.3864 10.1441 15.4313C8.98894 16.4761 7.4764 17.0371 5.91929 16.9981C4.36219 16.9591 2.87963 16.3231 1.77824 15.2218C0.676856 14.1204 0.0409 12.6378 0.00190495 11.0807C-0.0370901 9.5236 0.523858 8.01106 1.56873 6.85593C2.61361 5.70079 4.06248 4.99142 5.61568 4.87454C7.16888 4.75765 8.7076 5.24218 9.91359 6.22793L14.9273 1.21426H10.3216ZM6.07168 6.07129C4.78351 6.07129 3.54811 6.58301 2.63724 7.49388C1.72637 8.40475 1.21465 9.64016 1.21465 10.9283C1.21465 12.2165 1.72637 13.4519 2.63724 14.3628C3.54811 15.2736 4.78351 15.7854 6.07168 15.7854C7.35984 15.7854 8.59525 15.2736 9.50612 14.3628C10.417 13.4519 10.9287 12.2165 10.9287 10.9283C10.9287 9.64016 10.417 8.40475 9.50612 7.49388C8.59525 6.58301 7.35984 6.07129 6.07168 6.07129Z"
-              fill="black"
-              fillRule="evenodd"
-            />
-          </svg>
-        </button>
         <button
           className={gender ? styles.btn__gender__not : styles.btn__gender}
           onClick={() => setGender(false)}
@@ -72,6 +112,24 @@ export default function Main(props) {
           >
             <path
               d="M6.5 1.18743C5.22696 1.18743 4.00606 1.68788 3.10589 2.57868C2.20571 3.46948 1.7 4.67767 1.7 5.93745C1.7 7.19723 2.20571 8.40542 3.10589 9.29622C4.00606 10.187 5.22696 10.6875 6.5 10.6875C7.77304 10.6875 8.99394 10.187 9.89411 9.29622C10.7943 8.40542 11.3 7.19723 11.3 5.93745C11.3 4.67767 10.7943 3.46948 9.89411 2.57868C8.99394 1.68788 7.77304 1.18743 6.5 1.18743ZM0.5 5.93745C0.500015 4.78844 0.836926 3.66411 1.46987 2.70083C2.10282 1.73755 3.00461 0.976702 4.06587 0.510562C5.12713 0.0444206 6.30227 -0.106986 7.44877 0.0747057C8.59526 0.256397 9.66386 0.76338 10.525 1.53417C11.386 2.30495 12.0026 3.30643 12.3 4.41713C12.5973 5.52784 12.5625 6.70005 12.2 7.79161C11.8374 8.88316 11.1626 9.84717 10.2573 10.5667C9.35206 11.2862 8.25528 11.7304 7.1 11.8453V14.25H9.5C9.65913 14.25 9.81174 14.3125 9.92426 14.4239C10.0368 14.5352 10.1 14.6863 10.1 14.8437C10.1 15.0012 10.0368 15.1522 9.92426 15.2636C9.81174 15.3749 9.65913 15.4375 9.5 15.4375H7.1V18.4062C7.1 18.5637 7.03679 18.7147 6.92426 18.8261C6.81174 18.9374 6.65913 19 6.5 19C6.34087 19 6.18826 18.9374 6.07574 18.8261C5.96321 18.7147 5.9 18.5637 5.9 18.4062V15.4375H3.5C3.34087 15.4375 3.18826 15.3749 3.07574 15.2636C2.96321 15.1522 2.9 15.0012 2.9 14.8437C2.9 14.6863 2.96321 14.5352 3.07574 14.4239C3.18826 14.3125 3.34087 14.25 3.5 14.25H5.9V11.8453C4.42002 11.6981 3.04805 11.0121 2.05026 9.92051C1.05246 8.82888 0.499981 7.4094 0.5 5.93745Z"
+              fill="black"
+              fillRule="evenodd"
+            />
+          </svg>
+        </button>
+        <button
+          className={gender ? styles.btn__gender : styles.btn__gender__not}
+          onClick={() => setGender(true)}
+        >
+          <svg
+            height="17"
+            width="17"
+            fill="none"
+            viewBox="0 0 17 17"
+            xmlns="http://www.w3.org/2000/svg"
+          >
+            <path
+              d="M10.3216 1.21426C10.1606 1.21426 10.0061 1.15029 9.89227 1.03643C9.77842 0.922575 9.71445 0.76815 9.71445 0.607129C9.71445 0.446108 9.77842 0.291683 9.89227 0.177824C10.0061 0.0639652 10.1606 0 10.3216 0H16.3929C16.5539 0 16.7083 0.0639652 16.8222 0.177824C16.936 0.291683 17 0.446108 17 0.607129V6.67842C17 6.83944 16.936 6.99387 16.8222 7.10772C16.7083 7.22158 16.5539 7.28555 16.3929 7.28555C16.2318 7.28555 16.0774 7.22158 15.9636 7.10772C15.8497 6.99387 15.7857 6.83944 15.7857 6.67842V2.07274L10.7721 7.08641C11.7578 8.2924 12.2424 9.83112 12.1255 11.3843C12.0086 12.9375 11.2992 14.3864 10.1441 15.4313C8.98894 16.4761 7.4764 17.0371 5.91929 16.9981C4.36219 16.9591 2.87963 16.3231 1.77824 15.2218C0.676856 14.1204 0.0409 12.6378 0.00190495 11.0807C-0.0370901 9.5236 0.523858 8.01106 1.56873 6.85593C2.61361 5.70079 4.06248 4.99142 5.61568 4.87454C7.16888 4.75765 8.7076 5.24218 9.91359 6.22793L14.9273 1.21426H10.3216ZM6.07168 6.07129C4.78351 6.07129 3.54811 6.58301 2.63724 7.49388C1.72637 8.40475 1.21465 9.64016 1.21465 10.9283C1.21465 12.2165 1.72637 13.4519 2.63724 14.3628C3.54811 15.2736 4.78351 15.7854 6.07168 15.7854C7.35984 15.7854 8.59525 15.2736 9.50612 14.3628C10.417 13.4519 10.9287 12.2165 10.9287 10.9283C10.9287 9.64016 10.417 8.40475 9.50612 7.49388C8.59525 6.58301 7.35984 6.07129 6.07168 6.07129Z"
               fill="black"
               fillRule="evenodd"
             />
@@ -107,7 +165,7 @@ export default function Main(props) {
         </div>
         <div className={styles.sidebar__body}>
           {services
-            .filter((service) => service.selected)
+            .filter((service) => service.sidebar)
             .map((service) => (
               <div className={styles.box__elem} key={service.id}>
                 <span>{service.title}</span>
@@ -125,7 +183,7 @@ export default function Main(props) {
             onClick={() =>
               setServices((current) =>
                 current.map((obj) => {
-                  return { ...obj, selected: false };
+                  return { ...obj, sidebar: false };
                 })
               )
             }
@@ -152,386 +210,606 @@ export default function Main(props) {
             xmlSpace="preserve"
           >
             <g>
-              <path
-                id="Lice"
-                className={
-                  services[0].selected
-                    ? styles.active__elem
-                    : styles.service__elem
-                }
-                onClick={() =>
-                  setServices((current) =>
-                    current.map((obj) => {
-                      if (obj.id === 0) {
-                        return { ...obj, selected: !obj.selected };
-                      }
-                      return obj;
-                    })
-                  )
-                }
-                style={{ fill: "#fff" }}
-                d="M199.238,193.184c-0,0 -33.542,-68.739 -14.886,-138.184c18.655,-69.446 83.118,-54.593 110.886,-44.818c27.769,9.775 40.05,75.504 36.68,109.317c-3.37,33.813 -16.576,65.953 -22.54,75.765c-5.963,9.813 -28.284,22.315 -28.284,22.315l-23.898,6.809l-35.865,-12.221l-15.785,-8.669l-6.308,-10.314Z"
-              />
-              <path
-                id="Vrat"
-                className={
-                  services[1].selected
-                    ? styles.active__elem
-                    : styles.service__elem
-                }
-                onClick={() =>
-                  setServices((current) =>
-                    current.map((obj) => {
-                      if (obj.id === 1) {
-                        return { ...obj, selected: !obj.selected };
-                      }
-                      return obj;
-                    })
-                  )
-                }
-                style={{ fill: "#fff" }}
-                d="M207.69,204.807l-2.661,63.885c-0,0 43.861,4.721 64.209,4.656c20.348,-0.065 37.959,-6.321 37.959,-6.321l-3.172,-61.071l-46.829,18.432l-49.506,-19.581Z"
-              />
-              <path
-                id="Grudi"
-                className={
-                  services[2].selected
-                    ? styles.active__elem
-                    : styles.service__elem
-                }
-                onClick={() =>
-                  setServices((current) =>
-                    current.map((obj) => {
-                      if (obj.id === 2) {
-                        return { ...obj, selected: !obj.selected };
-                      }
-                      return obj;
-                    })
-                  )
-                }
-                style={{ fill: "#fff" }}
-                d="M96.853,316.95c-0,0 -4.033,55.064 -1.876,79.629c2.156,24.565 9.406,63.385 9.406,63.385l15.911,47.211l17.305,70.956c-0,0 122.312,2.536 154.723,3.383c32.412,0.847 82.867,-2.428 82.867,-2.428l14.922,-59.379l17.203,-49.385c0,-0 14.752,-76.308 14.309,-104.984c-0.443,-28.675 -5.083,-47.796 -5.083,-47.796l-46.5,-16.169l-48.314,-25.394l-14.529,-9.105c-0,0 -18.696,5.179 -34.257,5.61c-22.805,0.632 -67.911,-4.671 -67.911,-4.671l-44.878,21.903l-63.298,27.234Z"
-              />
-              <path
-                id="Stomak"
-                className={
-                  services[3].selected
-                    ? styles.active__elem
-                    : styles.service__elem
-                }
-                onClick={() =>
-                  setServices((current) =>
-                    current.map((obj) => {
-                      if (obj.id === 3) {
-                        return { ...obj, selected: !obj.selected };
-                      }
-                      return obj;
-                    })
-                  )
-                }
-                style={{ fill: "#fff" }}
-                d="M136.276,577.705l6.12,39.191l-0.479,38.728l-8.616,50.315l-12.2,33.721c-0,0 174.067,19.038 211.361,15.506c37.295,-3.531 59.548,-7.95 59.548,-7.95l-14.597,-42.609l-7.242,-50.244l1.354,-46.314l5.266,-29.177c0,0 -32.52,1.433 -69.594,1.515c-37.074,0.083 -170.921,-2.682 -170.921,-2.682Z"
-              />
-              <path
-                id="Bikini"
-                className={
-                  services[4].selected
-                    ? styles.active__elem
-                    : styles.service__elem
-                }
-                onClick={() =>
-                  setServices((current) =>
-                    current.map((obj) => {
-                      if (obj.id === 4) {
-                        return { ...obj, selected: !obj.selected };
-                      }
-                      return obj;
-                    })
-                  )
-                }
-                style={{ fill: "#fff" }}
-                d="M121.612,739.007l-16.413,98.371l-5.773,80.71l3.798,48.161l144.214,3.033l-4.609,-35.467l-5.531,-20.335l36.15,-2.231l-4.264,38.638l-0.459,19.395l113.834,-0l5.94,-14.105l25.52,-30.029l-6.711,-90.926l-15.298,-87.355c-0,-0 -37.588,4.409 -66.64,6.517c-29.053,2.108 -203.758,-14.377 -203.758,-14.377Z"
-              />
-              <path
-                id="Noge"
-                className={
-                  services[5].selected
-                    ? styles.active__elem
-                    : styles.service__elem
-                }
-                onClick={() =>
-                  setServices((current) =>
-                    current.map((obj) => {
-                      if (obj.id === 5) {
-                        return { ...obj, selected: !obj.selected };
-                      }
-                      return obj;
-                    })
-                  )
-                }
-                style={{ fill: "#fff" }}
-                d="M104.006,965.653l12.948,99.553l46.993,185.561l8.354,40.379l3.614,43.103l-5.618,67.967l2.725,69.226l5.683,49.442l15.417,52.319l34.971,113.336l7.971,45.904l49.132,-8.768l-5.102,-30.229l-3.957,-47.689l-1.712,-123.411l-6.118,-118.465l-2.086,-51.359l4.982,-74.708l-8.491,-53.047l-13.862,-102.654l-2.412,-86.059l-0,-68.514l-143.432,-1.887Zm163.671,1.781l5.833,49.862l20.061,136.324l3.688,36.261l-1.682,67.396l4.524,32.954l-5.173,283.703l-3.067,35.055l42.991,10.305l13.126,-49.617l20.69,-61.554l17.77,-63.974l5.572,-47.953l-0,-37.329l-5.01,-32.458l-4.96,-38.594l2.902,-32.741l9.589,-50.017l5.277,-55.993l8.051,-61.55l2.477,-32.08l-6.937,6.21l-24.493,14.614l-25.579,3.204l-0.402,-6.636l-1.91,-5.295l-0.416,-5.935l1.926,-3.043l-0.706,-7.612l5.469,-6.745l-1.779,-6.456l9.017,-18.378l8.046,-14.019l11.066,-37.5l-115.961,-0.409Zm111.146,66.799l13.061,-28.906l8.409,-11.992c-0,0 5.769,-3.574 7.401,0.126c1.632,3.701 -2.578,17.972 -2.578,17.972l-6.024,13.778l-21.307,12.254l1.038,-3.232Z"
-              />
-              <path
-                id="Stopala"
-                className={
-                  services[6].selected
-                    ? styles.active__elem
-                    : styles.service__elem
-                }
-                onClick={() =>
-                  setServices((current) =>
-                    current.map((obj) => {
-                      if (obj.id === 6) {
-                        return { ...obj, selected: !obj.selected };
-                      }
-                      return obj;
-                    })
-                  )
-                }
-                style={{ fill: "#fff" }}
-                d="M236.067,1732.27l49.531,-10.148l-4.504,-26.772l-3.424,-36.35l-0.13,-10.72l11.927,-25.457l2.593,-16.33l42.465,11.142l-2.063,26.822l5.844,15.971l-1.8,12.162l-6.651,11.387l6.908,30.996l11.866,46.413l0.35,24.753l-7.644,16.063l-15.903,10.048l-20.223,2.771l4.479,29.412l8.758,41.465l-1.515,26.059l-13.006,17.658l-22.831,5.818l-24.539,-7.236l-23.257,-16.079l-4.48,-9.87l-0.566,-23.607l7.197,-42.521l6.829,-41.883l0.756,-9.771l-9.736,-9.536l-2.55,-7.973l7.078,-15.346l-1.759,-19.341Z"
-              />
-              <path
-                id="Ramena"
-                className={
-                  services[7].selected
-                    ? styles.active__elem
-                    : styles.service__elem
-                }
-                onClick={() =>
-                  setServices((current) =>
-                    current.map((obj) => {
-                      if (obj.id === 7) {
-                        return { ...obj, selected: !obj.selected };
-                      }
-                      return obj;
-                    })
-                  )
-                }
-                style={{ fill: "#fff" }}
-                d="M416.925,317.916l22.702,9.022l17.138,12.931l18.455,29.316l6.178,19.474l4.565,51.746l-2.016,23.712l0.016,31.224l-81.687,-14.208c0,0 16.167,-65.895 18.35,-111.481c0.829,-17.297 -3.701,-51.736 -3.701,-51.736Zm-318.97,-3.904l-36.918,18.425l-23.311,32.183l-9.155,18.916l-3.453,40.728l3.684,50.485l78.527,-4.876c0,0 -9.453,-49.842 -10.964,-74.887c-1.473,-24.428 1.59,-80.974 1.59,-80.974Z"
-              />
-              <path
-                id="Ruke"
-                className={
-                  services[8].selected
-                    ? styles.active__elem
-                    : styles.service__elem
-                }
-                onClick={() =>
-                  setServices((current) =>
-                    current.map((obj) => {
-                      if (obj.id === 8) {
-                        return { ...obj, selected: !obj.selected };
-                      }
-                      return obj;
-                    })
-                  )
-                }
-                style={{ fill: "#fff" }}
-                d="M402.823,478.759l-13.693,39.39l28.446,111.959l-5.13,81.191l6.473,46.911l7.163,51.781l1.466,66.536l-2.957,35.299l-10.572,13.298l46.035,23.055l8.315,-31.099l3.284,-18.323l4.863,-58.66l15.546,-148.428l-2.336,-51.011l-7.445,-148.5l-79.458,-13.399Zm-372.867,-7.355l-7.953,147.507l-0.847,30.04l-12.704,63.064l-1.095,47.566l-3.702,100.459l-0.798,66.406l45.036,-6.512l-0.687,-25.388l5.947,-40.402l10.336,-40.566l17.379,-67.863l10.036,-42.032l3.438,-52.35l2.554,-28.937l26.194,-106.153l-17.031,-48.697l-76.103,3.858Z"
-              />
-              <path
-                id="Sake"
-                className={
-                  services[9].selected
-                    ? styles.active__elem
-                    : styles.service__elem
-                }
-                onClick={() =>
-                  setServices((current) =>
-                    current.map((obj) => {
-                      if (obj.id === 9) {
-                        return { ...obj, selected: !obj.selected };
-                      }
-                      return obj;
-                    })
-                  )
-                }
-                style={{ fill: "#fff" }}
-                d="M3.777,924.788l1.001,39.739l4.712,47.553l25.062,39.813l9.193,13.73l32.372,21.561l15.356,2.397l1.323,-7.359l3.848,-9.507l-2.302,-4.601l2.717,-7.36l-4.874,-6.521l2.157,-11.776l-12.216,-27.992l-8.094,-48.812l-22.225,-32.831l-4.004,-14.168l-44.026,6.134Zm411.848,-0.237l43.609,22.742l-11.328,60.194l-5.868,11.011l-28.019,30.763l-12.283,14.226l-21.505,12.451l-25.763,4.24l-2.722,-3.387l2.218,-5.725l-4.985,-5.675l3.09,-7.09l0.338,-6.655l4.835,-7.699l-1.523,-7.09l10.143,-18.843l7.095,-13.897l5.828,-21.746l8.492,-25.455l4.733,-6.826l23.615,-25.539Zm-367.687,75.68l0.409,11.398l5.091,17.552l20.676,17.275l-5.301,-15.638l-5.841,-19.695l-5.501,-11.183l-4.879,-3.924l-3.549,1.073l-1.105,3.142Zm329.881,34.869l12.014,-25.746l10.642,-16.175l5.598,-0.768l1.888,6.14l-5.377,19.833l-6.137,8.048l-21.179,11.876l2.551,-3.208Z"
-              />
-              <path
-                id="Potiljak"
-                className={
-                  services[10].selected
-                    ? styles.active__elem
-                    : styles.service__elem
-                }
-                onClick={() =>
-                  setServices((current) =>
-                    current.map((obj) => {
-                      if (obj.id === 10) {
-                        return { ...obj, selected: !obj.selected };
-                      }
-                      return obj;
-                    })
-                  )
-                }
-                style={{ fill: "#fff" }}
-                d="M852.678,204.652l-2.764,63.892l101.96,0.001l-1.959,-63.738l-20.865,5.19c-0,0 -34.559,2.56 -54.759,0.746c-20.201,-1.813 -21.613,-6.091 -21.613,-6.091Z"
-              />
-              <path
-                id="Gornji-dio-ledja"
-                className={
-                  services[11].selected
-                    ? styles.active__elem
-                    : styles.service__elem
-                }
-                onClick={() =>
-                  setServices((current) =>
-                    current.map((obj) => {
-                      if (obj.id === 11) {
-                        return { ...obj, selected: !obj.selected };
-                      }
-                      return obj;
-                    })
-                  )
-                }
-                style={{ fill: "#fff" }}
-                d="M849.776,267.368l101.963,-0l49.902,25.318l57.114,22.658l-4.502,145.852l-22.382,62.32l-11.092,49.316l-240.143,0l-12.248,-52.819l-21.177,-58.817l-9.863,-142.012l44.121,-14.913l68.307,-36.903Z"
-              />
-              <path
-                id="Donji-dio-ledja"
-                className={
-                  services[12].selected
-                    ? styles.active__elem
-                    : styles.service__elem
-                }
-                onClick={() =>
-                  setServices((current) =>
-                    current.map((obj) => {
-                      if (obj.id === 12) {
-                        return { ...obj, selected: !obj.selected };
-                      }
-                      return obj;
-                    })
-                  )
-                }
-                style={{ fill: "#fff" }}
-                d="M780.617,571.711l6.824,52.433l-2.094,42.51l-6.697,41.208l-10.754,24.403l-7.99,43.789l283.262,2.524l-8.991,-46.025l-14.493,-46.523l-4.159,-41.573l0.232,-45.636l5.2,-27.703l-240.34,0.593Z"
-              />
-              <path
-                id="Zadnjica"
-                className={
-                  services[13].selected
-                    ? styles.active__elem
-                    : styles.service__elem
-                }
-                onClick={() =>
-                  setServices((current) =>
-                    current.map((obj) => {
-                      if (obj.id === 13) {
-                        return { ...obj, selected: !obj.selected };
-                      }
-                      return obj;
-                    })
-                  )
-                }
-                style={{ fill: "#fff" }}
-                d="M760.232,774.527l-14.347,89.555l-2.238,61.675l142,0l-0.728,-14.289l34.282,0.785l-4.177,14.216l141.36,0l-1.213,-39.818l-5.374,-61.929l-6.629,-48.051l-282.936,-2.144Z"
-              />
-              <path
-                id="Ramena1"
-                className={
-                  services[7].selected
-                    ? styles.active__elem
-                    : styles.service__elem
-                }
-                onClick={() =>
-                  setServices((current) =>
-                    current.map((obj) => {
-                      if (obj.id === 7) {
-                        return { ...obj, selected: !obj.selected };
-                      }
-                      return obj;
-                    })
-                  )
-                }
-                style={{ fill: "#fff" }}
-                d="M1057.25,313.691l-4.265,149.29l75.448,9.903l3.02,-52.784l-4.195,-39.509l-15.904,-32.486l-15.954,-17.447l-38.15,-16.967Zm-319.048,5.208l-27.394,13.19l-23.604,26.062l-11.653,26.138l-4.549,31.476l2.982,51.781l74.726,-6.35l-10.508,-142.297Z"
-              />
-              <path
-                id="Ruke1"
-                className={
-                  services[8].selected
-                    ? styles.active__elem
-                    : styles.service__elem
-                }
-                onClick={() =>
-                  setServices((current) =>
-                    current.map((obj) => {
-                      if (obj.id === 8) {
-                        return { ...obj, selected: !obj.selected };
-                      }
-                      return obj;
-                    })
-                  )
-                }
-                style={{ fill: "#fff" }}
-                d="M673.635,466.084l-0.365,51.543l-2.271,35.841l-2.788,65.109l-3.311,67.72l9.827,94.332l7.252,73.515l4.155,33.006l-0,16.497l8.955,29.188l39.482,-21.78l-4.463,-36.717l-1.127,-41.733l8.367,-69.204l6.299,-46.158l0,-37.826l-3.45,-49.9l14.633,-58.399l12.851,-52.937l-19.977,-58.908l-74.069,6.811Zm380.377,-6.116l-19.886,57.398l16.171,60.339l11.09,51.841l2.012,45.302l6.254,43.413l12.389,51.622l15.643,54.38l8.318,43.583l3.167,36.881l-2.159,20.487l46.909,7.621l0.456,-60.768l-4.117,-52.572l-1.079,-54.5l-2.761,-51.79l-4.763,-46.551l-7.441,-30.759l-2.765,-71.242l-3.346,-94.243l-74.092,-10.442Z"
-              />
-              <path
-                id="Sake1"
-                className={
-                  services[9].selected
-                    ? styles.active__elem
-                    : styles.service__elem
-                }
-                onClick={() =>
-                  setServices((current) =>
-                    current.map((obj) => {
-                      if (obj.id === 9) {
-                        return { ...obj, selected: !obj.selected };
-                      }
-                      return obj;
-                    })
-                  )
-                }
-                style={{ fill: "#fff" }}
-                d="M1107.38,922.675l46.008,8.312l-1.131,45.067l-4.042,37.82l-15.013,18.239l-17.067,30.887l-26.672,19.559l-24.303,7.022l-0.783,-8.491l-5.618,-7.245l3.065,-6.313l-0.942,-8.42l2.834,-5.561l0.543,-13.777l12.056,-30.061l7.68,-47.848l15.816,-22.549l7.569,-16.641Zm-413.627,9.319l41.324,-22.463l8.574,16.938l1.74,124.592l-12.421,-14.379l-20.942,-22.831l-5.513,-24.107l-12.762,-57.75Zm389.729,112.505l7.335,-22.23l4.823,-15.784l7.8,-10.5l5.551,3.167l-0.307,12.046l-4.188,16.778l-14.522,13.341l-6.492,3.182Z"
-              />
-              <path
-                id="Noge1"
-                className={
-                  services[5].selected
-                    ? styles.active__elem
-                    : styles.service__elem
-                }
-                onClick={() =>
-                  setServices((current) =>
-                    current.map((obj) => {
-                      if (obj.id === 5) {
-                        return { ...obj, selected: !obj.selected };
-                      }
-                      return obj;
-                    })
-                  )
-                }
-                style={{ fill: "#fff" }}
-                d="M916.176,924.205l-6.455,44.264l-0.083,70.569l-2.828,98.235l-14.408,96.028l-8.776,42.631l5.327,78.418l-1.874,47.886l-4.193,82.996l-1.323,60.671l-1.537,101.937l4.448,9.418l-3.324,17.354l-1.141,16.267l8.944,38.954l31.908,6.629l6.828,-41.41l21.536,-76.6l23.492,-82.907l9.275,-43.848l4.987,-67.577l-4.125,-75.072l-1.08,-26.741l4.509,-48.998l13.236,-46.205l22.842,-85.87l14.124,-59.564l9.659,-61.4l10.24,-95.506l-140.208,-0.559Zm-172.757,0.559l142.612,0.475l2.922,40.414l-10.176,87.169l-15.858,103.533l-1.384,31.46l1.59,60.288l-6.12,38.902l2.275,58.517l1.918,73.985l-0.305,99.705l2.4,68.158l5.09,34.416l-44.766,5.315l-7.603,-40.346l-27.19,-73.898c-0,0 -27.67,-84.206 -25.759,-129.165c1.91,-44.96 9.899,-78.172 9.899,-78.172c0,0 1.32,-31.101 -3.224,-60.891c-4.545,-29.791 -23.403,-188.781 -23.403,-188.781l-0.689,-68.224l-2.229,-62.86Z"
-              />
-              <path
-                id="Stopala1"
-                className={
-                  services[6].selected
-                    ? styles.active__elem
-                    : styles.service__elem
-                }
-                onClick={() =>
-                  setServices((current) =>
-                    current.map((obj) => {
-                      if (obj.id === 6) {
-                        return { ...obj, selected: !obj.selected };
-                      }
-                      return obj;
-                    })
-                  )
-                }
-                style={{ fill: "#fff" }}
-                d="M823.047,1624.5l0.961,20.96l-4.898,15.745l3.073,12.914l4.832,8.093l-8.637,43.513l-9.037,29.798l-2.822,20.31l4.768,18.47l12.657,14.498l18.636,6.823l8.903,-1.617l-9.266,47.399l-4.201,38.802l6.099,20.167l12.332,10.563l19.564,5.612l26.175,-10.717l24.547,-18.642l2.577,-25.977l-4.868,-38.312l-10.387,-56.157l7.459,-11.237l4.654,-10.577l-6.304,-14.948l0.664,-14.699l-32.364,-7.273l-8.311,-39.44l1.379,-13.934l3.373,-12.101l-3.983,-13.859l-12.778,-28.18l-44.797,4.003Z"
-              />
+              <Tippy
+                content="Lice + Naušnice"
+                followCursor={true}
+                plugins={[followCursor]}
+              >
+                <path
+                  id="Lice"
+                  className={
+                    services[0].selected
+                      ? styles.active__elem
+                      : styles.service__elem
+                  }
+                  onClick={() =>
+                    setServices((current) =>
+                      current.map((obj) => {
+                        if (obj.id === 0) {
+                          return {
+                            ...obj,
+                            selected: !obj.selected,
+                            sidebar: !obj.sidebar,
+                          };
+                        }
+                        if (obj.id === 14) {
+                          return {
+                            ...obj,
+                            selected: !obj.selected,
+                          };
+                        }
+                        if (obj.id === 15) {
+                          return {
+                            ...obj,
+                            selected: !obj.selected,
+                          };
+                        }
+                        return obj;
+                      })
+                    )
+                  }
+                  style={{ fill: "#fff" }}
+                  d="M199.238,193.184c-0,0 -33.542,-68.739 -14.886,-138.184c18.655,-69.446 83.118,-54.593 110.886,-44.818c27.769,9.775 40.05,75.504 36.68,109.317c-3.37,33.813 -16.576,65.953 -22.54,75.765c-5.963,9.813 -28.284,22.315 -28.284,22.315l-23.898,6.809l-35.865,-12.221l-15.785,-8.669l-6.308,-10.314Z"
+                />
+              </Tippy>
+              <Tippy
+                content="Vrat"
+                followCursor={true}
+                plugins={[followCursor]}
+              >
+                <path
+                  id="Vrat"
+                  className={
+                    services[1].selected
+                      ? styles.active__elem
+                      : styles.service__elem
+                  }
+                  onClick={() =>
+                    setServices((current) =>
+                      current.map((obj) => {
+                        if (obj.id === 1) {
+                          return {
+                            ...obj,
+                            selected: !obj.selected,
+                            sidebar: !obj.sidebar,
+                          };
+                        }
+                        return obj;
+                      })
+                    )
+                  }
+                  style={{ fill: "#fff" }}
+                  d="M207.69,204.807l-2.661,63.885c-0,0 43.861,4.721 64.209,4.656c20.348,-0.065 37.959,-6.321 37.959,-6.321l-3.172,-61.071l-46.829,18.432l-49.506,-19.581Z"
+                />
+              </Tippy>
+              <Tippy
+                content="Grudi + Između grudi + Trbušna linija"
+                followCursor={true}
+                plugins={[followCursor]}
+              >
+                <path
+                  id="Grudi"
+                  className={
+                    services[2].selected
+                      ? styles.active__elem
+                      : styles.service__elem
+                  }
+                  onClick={() =>
+                    setServices((current) =>
+                      current.map((obj) => {
+                        if (obj.id === 2) {
+                          return {
+                            ...obj,
+                            selected: !obj.selected,
+                            sidebar: !obj.sidebar,
+                          };
+                        }
+                        if (obj.id === 18) {
+                          return {
+                            ...obj,
+                            selected: !obj.selected,
+                          };
+                        }
+                        if (obj.id === 19) {
+                          return {
+                            ...obj,
+                            selected: !obj.selected,
+                          };
+                        }
+                        return obj;
+                      })
+                    )
+                  }
+                  style={{ fill: "#fff" }}
+                  d="M96.853,316.95c-0,0 -4.033,55.064 -1.876,79.629c2.156,24.565 9.406,63.385 9.406,63.385l15.911,47.211l17.305,70.956c-0,0 122.312,2.536 154.723,3.383c32.412,0.847 82.867,-2.428 82.867,-2.428l14.922,-59.379l17.203,-49.385c0,-0 14.752,-76.308 14.309,-104.984c-0.443,-28.675 -5.083,-47.796 -5.083,-47.796l-46.5,-16.169l-48.314,-25.394l-14.529,-9.105c-0,0 -18.696,5.179 -34.257,5.61c-22.805,0.632 -67.911,-4.671 -67.911,-4.671l-44.878,21.903l-63.298,27.234Z"
+                />
+              </Tippy>
+              <Tippy
+                content="Stomak"
+                followCursor={true}
+                plugins={[followCursor]}
+              >
+                <path
+                  id="Stomak"
+                  className={
+                    services[3].selected
+                      ? styles.active__elem
+                      : styles.service__elem
+                  }
+                  onClick={() =>
+                    setServices((current) =>
+                      current.map((obj) => {
+                        if (obj.id === 3) {
+                          return {
+                            ...obj,
+                            selected: !obj.selected,
+                            sidebar: !obj.sidebar,
+                          };
+                        }
+                        return obj;
+                      })
+                    )
+                  }
+                  style={{ fill: "#fff" }}
+                  d="M136.276,577.705l6.12,39.191l-0.479,38.728l-8.616,50.315l-12.2,33.721c-0,0 174.067,19.038 211.361,15.506c37.295,-3.531 59.548,-7.95 59.548,-7.95l-14.597,-42.609l-7.242,-50.244l1.354,-46.314l5.266,-29.177c0,0 -32.52,1.433 -69.594,1.515c-37.074,0.083 -170.921,-2.682 -170.921,-2.682Z"
+                />
+              </Tippy>
+              <Tippy
+                content="Bikini"
+                followCursor={true}
+                plugins={[followCursor]}
+              >
+                <path
+                  id="Bikini"
+                  className={
+                    services[4].selected
+                      ? styles.active__elem
+                      : styles.service__elem
+                  }
+                  onClick={() =>
+                    setServices((current) =>
+                      current.map((obj) => {
+                        if (obj.id === 4) {
+                          return {
+                            ...obj,
+                            selected: !obj.selected,
+                            sidebar: !obj.sidebar,
+                          };
+                        }
+                        return obj;
+                      })
+                    )
+                  }
+                  style={{ fill: "#fff" }}
+                  d="M121.612,739.007l-16.413,98.371l-5.773,80.71l3.798,48.161l144.214,3.033l-4.609,-35.467l-5.531,-20.335l36.15,-2.231l-4.264,38.638l-0.459,19.395l113.834,-0l5.94,-14.105l25.52,-30.029l-6.711,-90.926l-15.298,-87.355c-0,-0 -37.588,4.409 -66.64,6.517c-29.053,2.108 -203.758,-14.377 -203.758,-14.377Z"
+                />
+              </Tippy>
+              <Tippy
+                content="Noge"
+                followCursor={true}
+                plugins={[followCursor]}
+              >
+                <path
+                  id="Noge"
+                  className={
+                    services[5].selected
+                      ? styles.active__elem
+                      : styles.service__elem
+                  }
+                  onClick={() =>
+                    setServices((current) =>
+                      current.map((obj) => {
+                        if (obj.id === 5) {
+                          return {
+                            ...obj,
+                            selected: !obj.selected,
+                            sidebar: !obj.sidebar,
+                          };
+                        }
+                        return obj;
+                      })
+                    )
+                  }
+                  style={{ fill: "#fff" }}
+                  d="M104.006,965.653l12.948,99.553l46.993,185.561l8.354,40.379l3.614,43.103l-5.618,67.967l2.725,69.226l5.683,49.442l15.417,52.319l34.971,113.336l7.971,45.904l49.132,-8.768l-5.102,-30.229l-3.957,-47.689l-1.712,-123.411l-6.118,-118.465l-2.086,-51.359l4.982,-74.708l-8.491,-53.047l-13.862,-102.654l-2.412,-86.059l-0,-68.514l-143.432,-1.887Zm163.671,1.781l5.833,49.862l20.061,136.324l3.688,36.261l-1.682,67.396l4.524,32.954l-5.173,283.703l-3.067,35.055l42.991,10.305l13.126,-49.617l20.69,-61.554l17.77,-63.974l5.572,-47.953l-0,-37.329l-5.01,-32.458l-4.96,-38.594l2.902,-32.741l9.589,-50.017l5.277,-55.993l8.051,-61.55l2.477,-32.08l-6.937,6.21l-24.493,14.614l-25.579,3.204l-0.402,-6.636l-1.91,-5.295l-0.416,-5.935l1.926,-3.043l-0.706,-7.612l5.469,-6.745l-1.779,-6.456l9.017,-18.378l8.046,-14.019l11.066,-37.5l-115.961,-0.409Zm111.146,66.799l13.061,-28.906l8.409,-11.992c-0,0 5.769,-3.574 7.401,0.126c1.632,3.701 -2.578,17.972 -2.578,17.972l-6.024,13.778l-21.307,12.254l1.038,-3.232Z"
+                />
+              </Tippy>
+              <Tippy
+                content="Stopala"
+                followCursor={true}
+                plugins={[followCursor]}
+              >
+                <path
+                  id="Stopala"
+                  className={
+                    services[6].selected
+                      ? styles.active__elem
+                      : styles.service__elem
+                  }
+                  onClick={() =>
+                    setServices((current) =>
+                      current.map((obj) => {
+                        if (obj.id === 6) {
+                          return {
+                            ...obj,
+                            selected: !obj.selected,
+                            sidebar: !obj.sidebar,
+                          };
+                        }
+                        return obj;
+                      })
+                    )
+                  }
+                  style={{ fill: "#fff" }}
+                  d="M236.067,1732.27l49.531,-10.148l-4.504,-26.772l-3.424,-36.35l-0.13,-10.72l11.927,-25.457l2.593,-16.33l42.465,11.142l-2.063,26.822l5.844,15.971l-1.8,12.162l-6.651,11.387l6.908,30.996l11.866,46.413l0.35,24.753l-7.644,16.063l-15.903,10.048l-20.223,2.771l4.479,29.412l8.758,41.465l-1.515,26.059l-13.006,17.658l-22.831,5.818l-24.539,-7.236l-23.257,-16.079l-4.48,-9.87l-0.566,-23.607l7.197,-42.521l6.829,-41.883l0.756,-9.771l-9.736,-9.536l-2.55,-7.973l7.078,-15.346l-1.759,-19.341Z"
+                />
+              </Tippy>
+              <Tippy
+                content="Ramena"
+                followCursor={true}
+                plugins={[followCursor]}
+              >
+                <path
+                  id="Ramena"
+                  className={
+                    services[7].selected
+                      ? styles.active__elem
+                      : styles.service__elem
+                  }
+                  onClick={() =>
+                    setServices((current) =>
+                      current.map((obj) => {
+                        if (obj.id === 7) {
+                          return {
+                            ...obj,
+                            selected: !obj.selected,
+                            sidebar: !obj.sidebar,
+                          };
+                        }
+                        return obj;
+                      })
+                    )
+                  }
+                  style={{ fill: "#fff" }}
+                  d="M416.925,317.916l22.702,9.022l17.138,12.931l18.455,29.316l6.178,19.474l4.565,51.746l-2.016,23.712l0.016,31.224l-81.687,-14.208c0,0 16.167,-65.895 18.35,-111.481c0.829,-17.297 -3.701,-51.736 -3.701,-51.736Zm-318.97,-3.904l-36.918,18.425l-23.311,32.183l-9.155,18.916l-3.453,40.728l3.684,50.485l78.527,-4.876c0,0 -9.453,-49.842 -10.964,-74.887c-1.473,-24.428 1.59,-80.974 1.59,-80.974Z"
+                />
+              </Tippy>
+              <Tippy
+                content="Ruke"
+                followCursor={true}
+                plugins={[followCursor]}
+              >
+                <path
+                  id="Ruke"
+                  className={
+                    services[8].selected
+                      ? styles.active__elem
+                      : styles.service__elem
+                  }
+                  onClick={() =>
+                    setServices((current) =>
+                      current.map((obj) => {
+                        if (obj.id === 8) {
+                          return {
+                            ...obj,
+                            selected: !obj.selected,
+                            sidebar: !obj.sidebar,
+                          };
+                        }
+                        return obj;
+                      })
+                    )
+                  }
+                  style={{ fill: "#fff" }}
+                  d="M402.823,478.759l-13.693,39.39l28.446,111.959l-5.13,81.191l6.473,46.911l7.163,51.781l1.466,66.536l-2.957,35.299l-10.572,13.298l46.035,23.055l8.315,-31.099l3.284,-18.323l4.863,-58.66l15.546,-148.428l-2.336,-51.011l-7.445,-148.5l-79.458,-13.399Zm-372.867,-7.355l-7.953,147.507l-0.847,30.04l-12.704,63.064l-1.095,47.566l-3.702,100.459l-0.798,66.406l45.036,-6.512l-0.687,-25.388l5.947,-40.402l10.336,-40.566l17.379,-67.863l10.036,-42.032l3.438,-52.35l2.554,-28.937l26.194,-106.153l-17.031,-48.697l-76.103,3.858Z"
+                />
+              </Tippy>
+              <Tippy
+                content="Šake"
+                followCursor={true}
+                plugins={[followCursor]}
+              >
+                <path
+                  id="Sake"
+                  className={
+                    services[9].selected
+                      ? styles.active__elem
+                      : styles.service__elem
+                  }
+                  onClick={() =>
+                    setServices((current) =>
+                      current.map((obj) => {
+                        if (obj.id === 9) {
+                          return {
+                            ...obj,
+                            selected: !obj.selected,
+                            sidebar: !obj.sidebar,
+                          };
+                        }
+                        return obj;
+                      })
+                    )
+                  }
+                  style={{ fill: "#fff" }}
+                  d="M3.777,924.788l1.001,39.739l4.712,47.553l25.062,39.813l9.193,13.73l32.372,21.561l15.356,2.397l1.323,-7.359l3.848,-9.507l-2.302,-4.601l2.717,-7.36l-4.874,-6.521l2.157,-11.776l-12.216,-27.992l-8.094,-48.812l-22.225,-32.831l-4.004,-14.168l-44.026,6.134Zm411.848,-0.237l43.609,22.742l-11.328,60.194l-5.868,11.011l-28.019,30.763l-12.283,14.226l-21.505,12.451l-25.763,4.24l-2.722,-3.387l2.218,-5.725l-4.985,-5.675l3.09,-7.09l0.338,-6.655l4.835,-7.699l-1.523,-7.09l10.143,-18.843l7.095,-13.897l5.828,-21.746l8.492,-25.455l4.733,-6.826l23.615,-25.539Zm-367.687,75.68l0.409,11.398l5.091,17.552l20.676,17.275l-5.301,-15.638l-5.841,-19.695l-5.501,-11.183l-4.879,-3.924l-3.549,1.073l-1.105,3.142Zm329.881,34.869l12.014,-25.746l10.642,-16.175l5.598,-0.768l1.888,6.14l-5.377,19.833l-6.137,8.048l-21.179,11.876l2.551,-3.208Z"
+                />
+              </Tippy>
+              <Tippy
+                content="Potiljak"
+                followCursor={true}
+                plugins={[followCursor]}
+              >
+                <path
+                  id="Potiljak"
+                  className={
+                    services[10].selected
+                      ? styles.active__elem
+                      : styles.service__elem
+                  }
+                  onClick={() =>
+                    setServices((current) =>
+                      current.map((obj) => {
+                        if (obj.id === 10) {
+                          return {
+                            ...obj,
+                            selected: !obj.selected,
+                            sidebar: !obj.sidebar,
+                          };
+                        }
+                        return obj;
+                      })
+                    )
+                  }
+                  style={{ fill: "#fff" }}
+                  d="M852.678,204.652l-2.764,63.892l101.96,0.001l-1.959,-63.738l-20.865,5.19c-0,0 -34.559,2.56 -54.759,0.746c-20.201,-1.813 -21.613,-6.091 -21.613,-6.091Z"
+                />
+              </Tippy>
+              <Tippy
+                content="Gornji dio leđa"
+                followCursor={true}
+                plugins={[followCursor]}
+              >
+                <path
+                  id="Gornji-dio-ledja"
+                  className={
+                    services[11].selected
+                      ? styles.active__elem
+                      : styles.service__elem
+                  }
+                  onClick={() =>
+                    setServices((current) =>
+                      current.map((obj) => {
+                        if (obj.id === 11) {
+                          return {
+                            ...obj,
+                            selected: !obj.selected,
+                            sidebar: !obj.sidebar,
+                          };
+                        }
+                        return obj;
+                      })
+                    )
+                  }
+                  style={{ fill: "#fff" }}
+                  d="M849.776,267.368l101.963,-0l49.902,25.318l57.114,22.658l-4.502,145.852l-22.382,62.32l-11.092,49.316l-240.143,0l-12.248,-52.819l-21.177,-58.817l-9.863,-142.012l44.121,-14.913l68.307,-36.903Z"
+                />
+              </Tippy>
+              <Tippy
+                content="Donji dio leđa"
+                followCursor={true}
+                plugins={[followCursor]}
+              >
+                <path
+                  id="Donji-dio-ledja"
+                  className={
+                    services[12].selected
+                      ? styles.active__elem
+                      : styles.service__elem
+                  }
+                  onClick={() =>
+                    setServices((current) =>
+                      current.map((obj) => {
+                        if (obj.id === 12) {
+                          return {
+                            ...obj,
+                            selected: !obj.selected,
+                            sidebar: !obj.sidebar,
+                          };
+                        }
+                        return obj;
+                      })
+                    )
+                  }
+                  style={{ fill: "#fff" }}
+                  d="M780.617,571.711l6.824,52.433l-2.094,42.51l-6.697,41.208l-10.754,24.403l-7.99,43.789l283.262,2.524l-8.991,-46.025l-14.493,-46.523l-4.159,-41.573l0.232,-45.636l5.2,-27.703l-240.34,0.593Z"
+                />
+              </Tippy>
+              <Tippy
+                content="Zadnjica + Između stražnjice"
+                followCursor={true}
+                plugins={[followCursor]}
+              >
+                <path
+                  id="Zadnjica"
+                  className={
+                    services[13].selected
+                      ? styles.active__elem
+                      : styles.service__elem
+                  }
+                  onClick={() =>
+                    setServices((current) =>
+                      current.map((obj) => {
+                        if (obj.id === 13) {
+                          return {
+                            ...obj,
+                            selected: !obj.selected,
+                            sidebar: !obj.sidebar,
+                          };
+                        }
+                        if (obj.id === 20) {
+                          return {
+                            ...obj,
+                            selected: !obj.selected,
+                          };
+                        }
+                        return obj;
+                      })
+                    )
+                  }
+                  style={{ fill: "#fff" }}
+                  d="M760.232,774.527l-14.347,89.555l-2.238,61.675l142,0l-0.728,-14.289l34.282,0.785l-4.177,14.216l141.36,0l-1.213,-39.818l-5.374,-61.929l-6.629,-48.051l-282.936,-2.144Z"
+                />
+              </Tippy>
+              <Tippy
+                content="Ramena"
+                followCursor={true}
+                plugins={[followCursor]}
+              >
+                <path
+                  id="Ramena1"
+                  className={
+                    services[7].selected
+                      ? styles.active__elem
+                      : styles.service__elem
+                  }
+                  onClick={() =>
+                    setServices((current) =>
+                      current.map((obj) => {
+                        if (obj.id === 7) {
+                          return {
+                            ...obj,
+                            selected: !obj.selected,
+                            sidebar: !obj.sidebar,
+                          };
+                        }
+                        return obj;
+                      })
+                    )
+                  }
+                  style={{ fill: "#fff" }}
+                  d="M1057.25,313.691l-4.265,149.29l75.448,9.903l3.02,-52.784l-4.195,-39.509l-15.904,-32.486l-15.954,-17.447l-38.15,-16.967Zm-319.048,5.208l-27.394,13.19l-23.604,26.062l-11.653,26.138l-4.549,31.476l2.982,51.781l74.726,-6.35l-10.508,-142.297Z"
+                />
+              </Tippy>
+              <Tippy
+                content="Ruke"
+                followCursor={true}
+                plugins={[followCursor]}
+              >
+                <path
+                  id="Ruke1"
+                  className={
+                    services[8].selected
+                      ? styles.active__elem
+                      : styles.service__elem
+                  }
+                  onClick={() =>
+                    setServices((current) =>
+                      current.map((obj) => {
+                        if (obj.id === 8) {
+                          return {
+                            ...obj,
+                            selected: !obj.selected,
+                            sidebar: !obj.sidebar,
+                          };
+                        }
+                        return obj;
+                      })
+                    )
+                  }
+                  style={{ fill: "#fff" }}
+                  d="M673.635,466.084l-0.365,51.543l-2.271,35.841l-2.788,65.109l-3.311,67.72l9.827,94.332l7.252,73.515l4.155,33.006l-0,16.497l8.955,29.188l39.482,-21.78l-4.463,-36.717l-1.127,-41.733l8.367,-69.204l6.299,-46.158l0,-37.826l-3.45,-49.9l14.633,-58.399l12.851,-52.937l-19.977,-58.908l-74.069,6.811Zm380.377,-6.116l-19.886,57.398l16.171,60.339l11.09,51.841l2.012,45.302l6.254,43.413l12.389,51.622l15.643,54.38l8.318,43.583l3.167,36.881l-2.159,20.487l46.909,7.621l0.456,-60.768l-4.117,-52.572l-1.079,-54.5l-2.761,-51.79l-4.763,-46.551l-7.441,-30.759l-2.765,-71.242l-3.346,-94.243l-74.092,-10.442Z"
+                />
+              </Tippy>
+              <Tippy
+                content="Šake"
+                followCursor={true}
+                plugins={[followCursor]}
+              >
+                <path
+                  id="Sake1"
+                  className={
+                    services[9].selected
+                      ? styles.active__elem
+                      : styles.service__elem
+                  }
+                  onClick={() =>
+                    setServices((current) =>
+                      current.map((obj) => {
+                        if (obj.id === 9) {
+                          return {
+                            ...obj,
+                            selected: !obj.selected,
+                            sidebar: !obj.sidebar,
+                          };
+                        }
+                        return obj;
+                      })
+                    )
+                  }
+                  style={{ fill: "#fff" }}
+                  d="M1107.38,922.675l46.008,8.312l-1.131,45.067l-4.042,37.82l-15.013,18.239l-17.067,30.887l-26.672,19.559l-24.303,7.022l-0.783,-8.491l-5.618,-7.245l3.065,-6.313l-0.942,-8.42l2.834,-5.561l0.543,-13.777l12.056,-30.061l7.68,-47.848l15.816,-22.549l7.569,-16.641Zm-413.627,9.319l41.324,-22.463l8.574,16.938l1.74,124.592l-12.421,-14.379l-20.942,-22.831l-5.513,-24.107l-12.762,-57.75Zm389.729,112.505l7.335,-22.23l4.823,-15.784l7.8,-10.5l5.551,3.167l-0.307,12.046l-4.188,16.778l-14.522,13.341l-6.492,3.182Z"
+                />
+              </Tippy>
+              <Tippy
+                content="Noge"
+                followCursor={true}
+                plugins={[followCursor]}
+              >
+                <path
+                  id="Noge1"
+                  className={
+                    services[5].selected
+                      ? styles.active__elem
+                      : styles.service__elem
+                  }
+                  onClick={() =>
+                    setServices((current) =>
+                      current.map((obj) => {
+                        if (obj.id === 5) {
+                          return {
+                            ...obj,
+                            selected: !obj.selected,
+                            sidebar: !obj.sidebar,
+                          };
+                        }
+                        return obj;
+                      })
+                    )
+                  }
+                  style={{ fill: "#fff" }}
+                  d="M916.176,924.205l-6.455,44.264l-0.083,70.569l-2.828,98.235l-14.408,96.028l-8.776,42.631l5.327,78.418l-1.874,47.886l-4.193,82.996l-1.323,60.671l-1.537,101.937l4.448,9.418l-3.324,17.354l-1.141,16.267l8.944,38.954l31.908,6.629l6.828,-41.41l21.536,-76.6l23.492,-82.907l9.275,-43.848l4.987,-67.577l-4.125,-75.072l-1.08,-26.741l4.509,-48.998l13.236,-46.205l22.842,-85.87l14.124,-59.564l9.659,-61.4l10.24,-95.506l-140.208,-0.559Zm-172.757,0.559l142.612,0.475l2.922,40.414l-10.176,87.169l-15.858,103.533l-1.384,31.46l1.59,60.288l-6.12,38.902l2.275,58.517l1.918,73.985l-0.305,99.705l2.4,68.158l5.09,34.416l-44.766,5.315l-7.603,-40.346l-27.19,-73.898c-0,0 -27.67,-84.206 -25.759,-129.165c1.91,-44.96 9.899,-78.172 9.899,-78.172c0,0 1.32,-31.101 -3.224,-60.891c-4.545,-29.791 -23.403,-188.781 -23.403,-188.781l-0.689,-68.224l-2.229,-62.86Z"
+                />
+              </Tippy>
+              <Tippy
+                content="Stopala"
+                followCursor={true}
+                plugins={[followCursor]}
+              >
+                <path
+                  id="Stopala1"
+                  className={
+                    services[6].selected
+                      ? styles.active__elem
+                      : styles.service__elem
+                  }
+                  onClick={() =>
+                    setServices((current) =>
+                      current.map((obj) => {
+                        if (obj.id === 6) {
+                          return {
+                            ...obj,
+                            selected: !obj.selected,
+                            sidebar: !obj.sidebar,
+                          };
+                        }
+                        return obj;
+                      })
+                    )
+                  }
+                  style={{ fill: "#fff" }}
+                  d="M823.047,1624.5l0.961,20.96l-4.898,15.745l3.073,12.914l4.832,8.093l-8.637,43.513l-9.037,29.798l-2.822,20.31l4.768,18.47l12.657,14.498l18.636,6.823l8.903,-1.617l-9.266,47.399l-4.201,38.802l6.099,20.167l12.332,10.563l19.564,5.612l26.175,-10.717l24.547,-18.642l2.577,-25.977l-4.868,-38.312l-10.387,-56.157l7.459,-11.237l4.654,-10.577l-6.304,-14.948l0.664,-14.699l-32.364,-7.273l-8.311,-39.44l1.379,-13.934l3.373,-12.101l-3.983,-13.859l-12.778,-28.18l-44.797,4.003Z"
+                />
+              </Tippy>
               <g id="Blank-Body">
                 <g>
                   <path
@@ -766,29 +1044,43 @@ export default function Main(props) {
                   />
                 </g>
               </g>
-              <circle
-                id="Nausnice"
-                className={
-                  services[14].selected
-                    ? styles.active__elem__2nd
-                    : styles.service__elem__2nd
-                }
-                onClick={() =>
-                  setServices((current) =>
-                    current.map((obj) => {
-                      if (obj.id === 14) {
-                        return { ...obj, selected: !obj.selected };
-                      }
-                      return obj;
-                    })
-                  )
-                }
-                style={{ fill: "#bbb", stroke: "#636363", strokeWidth: "4px" }}
-                cx="257.196"
-                cy="171.367"
-                r="23.898"
-              />
-              <circle
+              <Tippy
+                content="Naušnice"
+                followCursor={true}
+                plugins={[followCursor]}
+              >
+                <circle
+                  id="Nausnice"
+                  className={
+                    services[14].selected
+                      ? styles.active__elem__2nd
+                      : styles.service__elem__2nd
+                  }
+                  onClick={() =>
+                    setServices((current) =>
+                      current.map((obj) => {
+                        if (obj.id === 14) {
+                          return {
+                            ...obj,
+                            selected: !obj.selected,
+                            sidebar: !obj.sidebar,
+                          };
+                        }
+                        return obj;
+                      })
+                    )
+                  }
+                  style={{
+                    fill: "#bbb",
+                    stroke: "#636363",
+                    strokeWidth: "4px",
+                  }}
+                  cx="257.196"
+                  cy="171.367"
+                  r="23.898"
+                />
+              </Tippy>
+              {/* <circle
                 id="Izmedju-obrva"
                 className={
                   services[15].selected
@@ -799,7 +1091,11 @@ export default function Main(props) {
                   setServices((current) =>
                     current.map((obj) => {
                       if (obj.id === 15) {
-                        return { ...obj, selected: !obj.selected };
+                        return {
+                          ...obj,
+                          selected: !obj.selected,
+                          sidebar: !obj.sidebar,
+                        };
                       }
                       return obj;
                     })
@@ -809,163 +1105,261 @@ export default function Main(props) {
                 cx="257.196"
                 cy="97.441"
                 r="23.898"
-              />
-              <circle
-                id="Pazusi"
-                className={
-                  services[16].selected
-                    ? styles.active__elem__2nd
-                    : styles.service__elem__2nd
-                }
-                onClick={() =>
-                  setServices((current) =>
-                    current.map((obj) => {
-                      if (obj.id === 16) {
-                        return { ...obj, selected: !obj.selected };
-                      }
-                      return obj;
-                    })
-                  )
-                }
-                style={{ fill: "#bbb", stroke: "#636363", strokeWidth: "4px" }}
-                cx="104.006"
-                cy="461.196"
-                r="30.247"
-              />
-              <circle
-                id="Pazusi1"
-                className={
-                  services[16].selected
-                    ? styles.active__elem__2nd
-                    : styles.service__elem__2nd
-                }
-                onClick={() =>
-                  setServices((current) =>
-                    current.map((obj) => {
-                      if (obj.id === 16) {
-                        return { ...obj, selected: !obj.selected };
-                      }
-                      return obj;
-                    })
-                  )
-                }
-                style={{ fill: "#bbb", stroke: "#636363", strokeWidth: "4px" }}
-                cx="410.336"
-                cy="461.196"
-                r="30.247"
-              />
-              <circle
-                id="Oko-bradavica"
-                className={
-                  services[17].selected
-                    ? styles.active__elem__2nd
-                    : styles.service__elem__2nd
-                }
-                onClick={() =>
-                  setServices((current) =>
-                    current.map((obj) => {
-                      if (obj.id === 17) {
-                        return { ...obj, selected: !obj.selected };
-                      }
-                      return obj;
-                    })
-                  )
-                }
-                style={{ fill: "#bbb", stroke: "#636363", strokeWidth: "4px" }}
-                cx="193.686"
-                cy="491.443"
-                r="23.898"
-              />
-              <circle
-                id="Oko-bradavica1"
-                className={
-                  services[17].selected
-                    ? styles.active__elem__2nd
-                    : styles.service__elem__2nd
-                }
-                onClick={() =>
-                  setServices((current) =>
-                    current.map((obj) => {
-                      if (obj.id === 17) {
-                        return { ...obj, selected: !obj.selected };
-                      }
-                      return obj;
-                    })
-                  )
-                }
-                style={{ fill: "#bbb", stroke: "#636363", strokeWidth: "4px" }}
-                cx="320.656"
-                cy="491.443"
-                r="23.898"
-              />
-              <ellipse
-                id="Izmedju-grudi"
-                className={
-                  services[18].selected
-                    ? styles.active__elem__2nd
-                    : styles.service__elem__2nd
-                }
-                onClick={() =>
-                  setServices((current) =>
-                    current.map((obj) => {
-                      if (obj.id === 18) {
-                        return { ...obj, selected: !obj.selected };
-                      }
-                      return obj;
-                    })
-                  )
-                }
-                style={{ fill: "#bbb", stroke: "#636363", strokeWidth: "4px" }}
-                cx="256.113"
-                cy="553.468"
-                rx="23.898"
-                ry="58.127"
-              />
-              <ellipse
-                id="Trbusna-linija"
-                className={
-                  services[19].selected
-                    ? styles.active__elem__2nd
-                    : styles.service__elem__2nd
-                }
-                onClick={() =>
-                  setServices((current) =>
-                    current.map((obj) => {
-                      if (obj.id === 19) {
-                        return { ...obj, selected: !obj.selected };
-                      }
-                      return obj;
-                    })
-                  )
-                }
-                style={{ fill: "#bbb", stroke: "#636363", strokeWidth: "4px" }}
-                cx="256.113"
-                cy="755.603"
-                rx="23.898"
-                ry="58.127"
-              />
-              <circle
-                id="Izmedju-straznjice"
-                className={
-                  services[20].selected
-                    ? styles.active__elem__2nd
-                    : styles.service__elem__2nd
-                }
-                onClick={() =>
-                  setServices((current) =>
-                    current.map((obj) => {
-                      if (obj.id === 20) {
-                        return { ...obj, selected: !obj.selected };
-                      }
-                      return obj;
-                    })
-                  )
-                }
-                style={{ fill: "#bbb", stroke: "#636363", strokeWidth: "4px" }}
-                cx="900.019"
-                cy="906.012"
-                r="30.247"
-              />
+              /> */}
+              <Tippy
+                content="Pazusi"
+                followCursor={true}
+                plugins={[followCursor]}
+              >
+                <circle
+                  id="Pazusi"
+                  className={
+                    services[16].selected
+                      ? styles.active__elem__2nd
+                      : styles.service__elem__2nd
+                  }
+                  onClick={() =>
+                    setServices((current) =>
+                      current.map((obj) => {
+                        if (obj.id === 16) {
+                          return {
+                            ...obj,
+                            selected: !obj.selected,
+                            sidebar: !obj.sidebar,
+                          };
+                        }
+                        return obj;
+                      })
+                    )
+                  }
+                  style={{
+                    fill: "#bbb",
+                    stroke: "#636363",
+                    strokeWidth: "4px",
+                  }}
+                  cx="104.006"
+                  cy="461.196"
+                  r="30.247"
+                />
+              </Tippy>
+              <Tippy
+                content="Pazusi"
+                followCursor={true}
+                plugins={[followCursor]}
+              >
+                <circle
+                  id="Pazusi1"
+                  className={
+                    services[16].selected
+                      ? styles.active__elem__2nd
+                      : styles.service__elem__2nd
+                  }
+                  onClick={() =>
+                    setServices((current) =>
+                      current.map((obj) => {
+                        if (obj.id === 16) {
+                          return {
+                            ...obj,
+                            selected: !obj.selected,
+                            sidebar: !obj.sidebar,
+                          };
+                        }
+                        return obj;
+                      })
+                    )
+                  }
+                  style={{
+                    fill: "#bbb",
+                    stroke: "#636363",
+                    strokeWidth: "4px",
+                  }}
+                  cx="410.336"
+                  cy="461.196"
+                  r="30.247"
+                />
+              </Tippy>
+              <Tippy
+                content="Oko bradavica"
+                followCursor={true}
+                plugins={[followCursor]}
+              >
+                <circle
+                  id="Oko-bradavica"
+                  className={
+                    services[17].selected
+                      ? styles.active__elem__2nd
+                      : styles.service__elem__2nd
+                  }
+                  onClick={() =>
+                    setServices((current) =>
+                      current.map((obj) => {
+                        if (obj.id === 17) {
+                          return {
+                            ...obj,
+                            selected: !obj.selected,
+                            sidebar: !obj.sidebar,
+                          };
+                        }
+                        return obj;
+                      })
+                    )
+                  }
+                  style={{
+                    fill: "#bbb",
+                    stroke: "#636363",
+                    strokeWidth: "4px",
+                  }}
+                  cx="193.686"
+                  cy="491.443"
+                  r="23.898"
+                />
+              </Tippy>
+              <Tippy
+                content="Oko bradavica"
+                followCursor={true}
+                plugins={[followCursor]}
+              >
+                <circle
+                  id="Oko-bradavica1"
+                  className={
+                    services[17].selected
+                      ? styles.active__elem__2nd
+                      : styles.service__elem__2nd
+                  }
+                  onClick={() =>
+                    setServices((current) =>
+                      current.map((obj) => {
+                        if (obj.id === 17) {
+                          return {
+                            ...obj,
+                            selected: !obj.selected,
+                            sidebar: !obj.sidebar,
+                          };
+                        }
+                        return obj;
+                      })
+                    )
+                  }
+                  style={{
+                    fill: "#bbb",
+                    stroke: "#636363",
+                    strokeWidth: "4px",
+                  }}
+                  cx="320.656"
+                  cy="491.443"
+                  r="23.898"
+                />
+              </Tippy>
+              <Tippy
+                content="Između grudi"
+                followCursor={true}
+                plugins={[followCursor]}
+              >
+                <ellipse
+                  id="Izmedju-grudi"
+                  className={
+                    services[18].selected
+                      ? styles.active__elem__2nd
+                      : styles.service__elem__2nd
+                  }
+                  onClick={() =>
+                    setServices((current) =>
+                      current.map((obj) => {
+                        if (obj.id === 18) {
+                          return {
+                            ...obj,
+                            selected: !obj.selected,
+                            sidebar: !obj.sidebar,
+                          };
+                        }
+                        return obj;
+                      })
+                    )
+                  }
+                  style={{
+                    fill: "#bbb",
+                    stroke: "#636363",
+                    strokeWidth: "4px",
+                  }}
+                  cx="256.113"
+                  cy="553.468"
+                  rx="23.898"
+                  ry="58.127"
+                />
+              </Tippy>
+              <Tippy
+                content="Trbušna linija"
+                followCursor={true}
+                plugins={[followCursor]}
+              >
+                <ellipse
+                  id="Trbusna-linija"
+                  className={
+                    services[19].selected
+                      ? styles.active__elem__2nd
+                      : styles.service__elem__2nd
+                  }
+                  onClick={() =>
+                    setServices((current) =>
+                      current.map((obj) => {
+                        if (obj.id === 19) {
+                          return {
+                            ...obj,
+                            selected: !obj.selected,
+                            sidebar: !obj.sidebar,
+                          };
+                        }
+                        return obj;
+                      })
+                    )
+                  }
+                  style={{
+                    fill: "#bbb",
+                    stroke: "#636363",
+                    strokeWidth: "4px",
+                  }}
+                  cx="256.113"
+                  cy="755.603"
+                  rx="23.898"
+                  ry="58.127"
+                />
+              </Tippy>
+              <Tippy
+                content="Između stražnjice"
+                followCursor={true}
+                plugins={[followCursor]}
+              >
+                <circle
+                  id="Izmedju-straznjice"
+                  className={
+                    services[20].selected
+                      ? styles.active__elem__2nd
+                      : styles.service__elem__2nd
+                  }
+                  onClick={() =>
+                    setServices((current) =>
+                      current.map((obj) => {
+                        if (obj.id === 20) {
+                          return {
+                            ...obj,
+                            selected: !obj.selected,
+                            sidebar: !obj.sidebar,
+                          };
+                        }
+                        return obj;
+                      })
+                    )
+                  }
+                  style={{
+                    fill: "#bbb",
+                    stroke: "#636363",
+                    strokeWidth: "4px",
+                  }}
+                  cx="900.019"
+                  cy="906.012"
+                  r="30.247"
+                />
+              </Tippy>
             </g>
           </svg>
         ) : (
@@ -985,386 +1379,606 @@ export default function Main(props) {
             xmlSpace="preserve"
           >
             <g>
-              <path
-                id="Lice"
-                className={
-                  services[0].selected
-                    ? styles.active__elem
-                    : styles.service__elem
-                }
-                onClick={() =>
-                  setServices((current) =>
-                    current.map((obj) => {
-                      if (obj.id === 0) {
-                        return { ...obj, selected: !obj.selected };
-                      }
-                      return obj;
-                    })
-                  )
-                }
-                style={{ fill: "#fff" }}
-                d="M145.45,76.122l3.417,-28.257c-0,-0 5.893,-34.6 53.718,-43.976c47.825,-9.377 82.373,27.475 81.518,69.058c-0.856,41.583 -10.74,93.062 -17.051,108.027c-6.31,14.966 -32.314,39.714 -32.314,39.714l-16.016,4.443l-21.533,-4.28l-18.233,-13.494c-0,0 -18.38,-25.321 -25.387,-51.131c-7.006,-25.809 -8.119,-80.104 -8.119,-80.104Z"
-              />
-              <path
-                id="Vrat"
-                className={
-                  services[1].selected
-                    ? styles.active__elem
-                    : styles.service__elem
-                }
-                onClick={() =>
-                  setServices((current) =>
-                    current.map((obj) => {
-                      if (obj.id === 1) {
-                        return { ...obj, selected: !obj.selected };
-                      }
-                      return obj;
-                    })
-                  )
-                }
-                style={{ fill: "#fff" }}
-                d="M175.518,202.977l0.032,60.932l-3.582,9.026c0,0 47.501,0.723 62.733,-0.269c15.232,-0.993 21.379,-4.351 21.379,-4.351l-0.915,-25.631l-0.105,-41.262l-18.713,18.343l-15.994,5.366l-14.636,0l-13.777,-8.509l-16.422,-13.645Z"
-              />
-              <path
-                id="Grudi"
-                className={
-                  services[2].selected
-                    ? styles.active__elem
-                    : styles.service__elem
-                }
-                onClick={() =>
-                  setServices((current) =>
-                    current.map((obj) => {
-                      if (obj.id === 2) {
-                        return { ...obj, selected: !obj.selected };
-                      }
-                      return obj;
-                    })
-                  )
-                }
-                style={{ fill: "#fff" }}
-                d="M87.995,303.122l0.436,122.653c-0,0 -1.755,23.881 2.751,34.083c4.505,10.202 14.99,50.806 14.99,50.806c0,0 112.799,7.049 148.298,7.577c35.499,0.528 70.763,-2.116 70.763,-2.116l8.706,-39.628l1.383,-6.178l6.461,-18.138l1.343,-21.569l0.314,-9.152l8.536,-116.643l-42.802,-11.536l-39.433,-13.056l-14.877,-12.906l-82.407,3.729l-50.24,22.419l-34.222,9.655Z"
-              />
-              <path
-                id="Ramena"
-                className={
-                  services[7].selected
-                    ? styles.active__elem
-                    : styles.service__elem
-                }
-                onClick={() =>
-                  setServices((current) =>
-                    current.map((obj) => {
-                      if (obj.id === 7) {
-                        return { ...obj, selected: !obj.selected };
-                      }
-                      return obj;
-                    })
-                  )
-                }
-                style={{ fill: "#fff" }}
-                d="M89.641,301.485c-0,-0 -29.454,6.728 -39.195,23.735c-9.741,17.008 -16.633,97.343 -16.633,97.343l54.76,2.127l1.068,-123.205Zm261.072,3.277l-8.122,117.894l55.082,-1.703l-7.708,-63.309l-9.146,-31.154l-17.195,-17.409l-12.911,-4.319Z"
-              />
-              <path
-                id="Ruke"
-                className={
-                  services[8].selected
-                    ? styles.active__elem
-                    : styles.service__elem
-                }
-                onClick={() =>
-                  setServices((current) =>
-                    current.map((obj) => {
-                      if (obj.id === 8) {
-                        return { ...obj, selected: !obj.selected };
-                      }
-                      return obj;
-                    })
-                  )
-                }
-                style={{ fill: "#fff" }}
-                d="M342.443,420.577l1.463,15.907l-5.697,26.882l-5.014,14.268l4.858,37.598l4.448,43.461l11.943,60.573l5.423,30.886l-0.232,38.867l2.068,50.685l7.705,35.721l7.266,37.97l7.779,55.997l5.46,37.249l29.773,6.065l4.482,-50.761l3.604,-62.73l-0.059,-60.861l-3.235,-34.835l-17.402,-69.471l-4.152,-75.888l-3.095,-79.304l-4.038,-60.805l-53.348,2.526Zm-308.571,1.285l-4.865,94.922l-2.013,89.576l-2.643,34.118l-9.031,32.638l-9.885,40.325l-1.279,44.263l-1.099,42.383l4.534,62.186l3.197,42.825l29.808,6.488l7.036,-51.847l13.115,-83.713l7.919,-33.695l5.082,-74.357l-1.445,-24.129l15.858,-85.146l3.991,-25.865l6.761,-57.643l-6.775,-11.718l-4.311,-22.572l0.726,-17.773l-54.681,-1.266Z"
-              />
-              <path
-                id="Stomak"
-                className={
-                  services[3].selected
-                    ? styles.active__elem
-                    : styles.service__elem
-                }
-                onClick={() =>
-                  setServices((current) =>
-                    current.map((obj) => {
-                      if (obj.id === 3) {
-                        return { ...obj, selected: !obj.selected };
-                      }
-                      return obj;
-                    })
-                  )
-                }
-                style={{ fill: "#fff" }}
-                d="M105.242,509.085l24.096,114.187l0.475,11.46l-35.935,82.109l-8.045,21.421l257.81,-5.332l-11.083,-25.862l-17.218,-39.816l-14.131,-31.827l0,-13.035l19.774,-92.738l3.145,-14.858c-65.391,3.953 -140.614,0.301 -218.888,-5.709Z"
-              />
-              <path
-                id="Bikini-zona"
-                className={
-                  services[4].selected
-                    ? styles.active__elem
-                    : styles.service__elem
-                }
-                onClick={() =>
-                  setServices((current) =>
-                    current.map((obj) => {
-                      if (obj.id === 4) {
-                        return { ...obj, selected: !obj.selected };
-                      }
-                      return obj;
-                    })
-                  )
-                }
-                style={{ fill: "#fff" }}
-                d="M86.283,736.249l-13.643,65.114c52.456,16.392 96.731,41.383 134.983,72.705l16.326,-0.184c39.871,-28.815 84.596,-49.497 132.87,-64.234l-6.082,-40.307l-8.211,-39.88l-256.243,6.786Z"
-              />
-              <path
-                id="Sake"
-                className={
-                  services[9].selected
-                    ? styles.active__elem
-                    : styles.service__elem
-                }
-                onClick={() =>
-                  setServices((current) =>
-                    current.map((obj) => {
-                      if (obj.id === 9) {
-                        return { ...obj, selected: !obj.selected };
-                      }
-                      return obj;
-                    })
-                  )
-                }
-                style={{ fill: "#fff" }}
-                d="M10.084,903.618l-1.462,34.392l-3.67,45.285l-2.57,26.666l15.833,31.758l9.351,19.322l19.302,10.794l8.173,-2.778l-13.74,-11.612l-5.164,-5.293l0.781,-3.507l7.287,3.03l17.205,-4.776l5.52,-4.239l-2.529,-2.739l-20.349,2.832l-3.486,-3.339l17.208,-6.139l4.158,-3.708l-11.421,-1.742l-9.963,1.957l-11.981,-8.337l-0.474,-17.062l4.109,-33.62l4.093,0.395l13.351,35.961l7.089,4.212l-1.896,-23.657l1.18,-25.36l-4.495,-21.447l-11.657,-17.424l-0.079,-13.491l-29.704,-6.334Zm380.533,1.487l0.81,10.179l-5.388,15.23l-9.154,17.143l-1.41,26.981l-2.341,32.749l2.048,3.519l12.68,-17.153l6.503,-22.171l4.078,-0.064l5.52,28.369l-0.338,19.376l-9.683,7.937l-5.564,2.372l-16.179,-1.798l-2.772,2.137l20.914,9.501l-3.211,3.557l-20.801,-2.953l-1.949,3.079l11.145,6.364l10.257,1.877l9.46,-2.444l-18.718,17.016l0.655,5.225l15.798,-4.39l12.209,-7.65l23.219,-51.126l-6.592,-70.986l-2.055,-26.145l-29.141,-5.731Z"
-              />
-              <path
-                id="Noge"
-                className={
-                  services[5].selected
-                    ? styles.active__elem
-                    : styles.service__elem
-                }
-                onClick={() =>
-                  setServices((current) =>
-                    current.map((obj) => {
-                      if (obj.id === 5) {
-                        return { ...obj, selected: !obj.selected };
-                      }
-                      return obj;
-                    })
-                  )
-                }
-                style={{ fill: "#fff" }}
-                d="M72.149,800.093l-6.128,56.553l3.418,62.848l46.501,252.555l17.982,94.269l6.591,65.166l-0.846,33.435l10.941,60.413l35.473,152.649l36.712,152.091l43.553,-6.305l-8.836,-53.59l-6.891,-56.981l-3.389,-80.322l-2.878,-56.233l30.2,-11.465l3.279,-47.129l5.434,-48.148l-3.898,-49.796l-6.382,-39.259l-9.596,-36.941l-2.664,-45.353l12.677,-43.635l43.272,-117.54l17.029,-58.788l17.817,-81.554l5.767,-42.407l1.502,-31.452l-1.907,-16.158c-48.717,15.955 -93.388,36.782 -132.47,64.342l-10.005,56.564l-8.443,-55.676c-41.712,-33.445 -86.429,-57.134 -133.815,-72.153Z"
-              />
-              <path
-                id="Stopala"
-                className={
-                  services[6].selected
-                    ? styles.active__elem
-                    : styles.service__elem
-                }
-                onClick={() =>
-                  setServices((current) =>
-                    current.map((obj) => {
-                      if (obj.id === 6) {
-                        return { ...obj, selected: !obj.selected };
-                      }
-                      return obj;
-                    })
-                  )
-                }
-                style={{ fill: "#fff" }}
-                d="M222.838,1728.4l2.494,14.501l-1.279,11.293l2.831,12.421l6.681,8.426l-13.622,84.298l2.217,30.539l14.379,24.848l18.865,16.928l13.312,3.558l12.984,-3.675l16.197,-24.828l0.512,-22.66l-2.322,-37.489l-12.293,-54.971l-8.059,-24.693l3.956,-12.747l-8.559,-10.676l-6.027,-22.416l-42.267,7.343Zm37.698,-36.004l17.282,-19.093l9.885,-26.838l-3.409,-27.197l-3.609,-30.628l3.489,-23.086l-11.923,-26.618l1.226,-18.534l2.664,-9.182l-4.984,-11.945l2.608,-35.193l-29.054,11.448l3.296,73.444l2.785,70.574l7.297,57.649l2.447,15.199Z"
-              />
-              <path
-                id="Potiljak"
-                className={
-                  services[10].selected
-                    ? styles.active__elem
-                    : styles.service__elem
-                }
-                onClick={() =>
-                  setServices((current) =>
-                    current.map((obj) => {
-                      if (obj.id === 10) {
-                        return { ...obj, selected: !obj.selected };
-                      }
-                      return obj;
-                    })
-                  )
-                }
-                style={{ fill: "#fff" }}
-                d="M771.037,201.124l-0.677,63.019l-8.774,13.886l95.523,-2.233l-6.581,-12.979l1.27,-59.548c-25.581,-18.775 -52.557,-18.73 -80.761,-2.145Z"
-              />
-              <path
-                id="Gornji-dio-ledja"
-                className={
-                  services[11].selected
-                    ? styles.active__elem
-                    : styles.service__elem
-                }
-                onClick={() =>
-                  setServices((current) =>
-                    current.map((obj) => {
-                      if (obj.id === 11) {
-                        return { ...obj, selected: !obj.selected };
-                      }
-                      return obj;
-                    })
-                  )
-                }
-                style={{ fill: "#fff" }}
-                d="M684.615,302.081l0.489,117.552l11.965,65.588l7.75,35.237l9.346,43.66l194.406,-1.007l18.749,-84.905l10.45,-61.074l8.64,-114.721l-58.069,-14.937l-33.025,-13.772l-92.193,2.548l-47.226,17.387l-31.282,8.444Z"
-              />
-              <path
-                id="Donji-dio-ledja"
-                className={
-                  services[12].selected
-                    ? styles.active__elem
-                    : styles.service__elem
-                }
-                onClick={() =>
-                  setServices((current) =>
-                    current.map((obj) => {
-                      if (obj.id === 12) {
-                        return { ...obj, selected: !obj.selected };
-                      }
-                      return obj;
-                    })
-                  )
-                }
-                style={{ fill: "#fff" }}
-                d="M712.797,562.208l9.971,48.622l3.241,16.448l-12.604,32.47l-17.678,41.957l-8.218,18.95l251.11,6.24l-30.515,-65.17l-12.55,-28.455l4.689,-24.377l8.98,-47.551l-196.426,0.866Z"
-              />
-              <path
-                id="Zadnjica"
-                className={
-                  services[13].selected
-                    ? styles.active__elem
-                    : styles.service__elem
-                }
-                onClick={() =>
-                  setServices((current) =>
-                    current.map((obj) => {
-                      if (obj.id === 13) {
-                        return { ...obj, selected: !obj.selected };
-                      }
-                      return obj;
-                    })
-                  )
-                }
-                style={{ fill: "#fff" }}
-                d="M687.688,718.306l-15.086,50.075l-4.621,32.892l-0.804,42.118l5.009,40.922l139.024,10.785l-5.162,-22.487l17.56,0.057l-1.334,22.415l136.928,-4.355l0.552,-47.574l-3.728,-42.102l-18.837,-75.894l-249.501,-6.852Z"
-              />
-              <path
-                id="Noge1"
-                className={
-                  services[5].selected
-                    ? styles.active__elem
-                    : styles.service__elem
-                }
-                onClick={() =>
-                  setServices((current) =>
-                    current.map((obj) => {
-                      if (obj.id === 5) {
-                        return { ...obj, selected: !obj.selected };
-                      }
-                      return obj;
-                    })
-                  )
-                }
-                style={{ fill: "#fff" }}
-                d="M671.787,882.979l16.637,82.885l17.333,62.014l35.227,93.279l21.267,65.88l2.029,22.069l-1.281,26.973l-5.193,31.438l-10.708,54.873l-4.435,24.562l2.665,50.69l6.202,61.342l2.012,34.339l42.872,7.961l1.534,7.369l2.766,6.705l-4.763,10.955l-2.326,17.563l-0.433,16.721l0.756,15.097l3.005,22.674l4.205,11.41l5.91,19.968l3.551,9.592l2.41,14.23l-0.795,18.36l-4.952,11.389l-16.332,19.175l-7.806,4.229l-14.14,-2.429l-6.13,-3.716l-3.518,23.013l43.838,7.823l8.889,-39.259l8.969,-31.163l17.626,-72.904l14.537,-59.459l22.577,-102.548l10.863,-57.789l-1.418,-41.634l11.901,-87.97l34.37,-174.077l21.733,-132.182l5.59,-44.216l-135.435,4.283l-3.541,24.677l-4.576,-0.371l-5.188,-23.335l-138.304,-10.486Z"
-              />
-              <path
-                id="Stopala1"
-                className={
-                  services[3].selected
-                    ? styles.active__elem
-                    : styles.service__elem
-                }
-                onClick={() =>
-                  setServices((current) =>
-                    current.map((obj) => {
-                      if (obj.id === 3) {
-                        return { ...obj, selected: !obj.selected };
-                      }
-                      return obj;
-                    })
-                  )
-                }
-                style={{ fill: "#fff" }}
-                d="M761.034,1720.57l-5.171,19.348l-6.533,8.383l2.185,14.561l-15.501,57.898l-16.437,55.655l4.672,29.072l16.162,21.731l12.732,8.527l18.195,-2.249l23.773,-22.36l9.941,-18.606l-0.455,-24.691l-1.64,-40.866l-2.191,-58.633l7.017,-10.473l-6.428,-13.608l1.98,-14.558l-42.301,-9.131Zm-8.032,-229.135l1.479,14.51l-4.488,7.778l3.131,9.767l0.446,17.911l-11.281,21.685l3.509,22.377l-4.391,40.607l-0.383,37.101l8.197,20.392l14.274,17.564l13.601,5.853l14.823,-5.113l11.498,-13.371l6.654,-10.629l3.951,-16.693l-1.619,-16.241l-7.669,-23.134l-8.221,-27.806l-2.436,-14.653l-0.181,-26.219l0.255,-17.507l3.094,-11.951l3.677,-10.228l-4.487,-8.06l-0.116,-5.139l-43.317,-8.801Z"
-              />
-              <path
-                id="Ruke1"
-                className={
-                  services[8].selected
-                    ? styles.active__elem
-                    : styles.service__elem
-                }
-                onClick={() =>
-                  setServices((current) =>
-                    current.map((obj) => {
-                      if (obj.id === 8) {
-                        return { ...obj, selected: !obj.selected };
-                      }
-                      return obj;
-                    })
-                  )
-                }
-                style={{ fill: "#fff" }}
-                d="M685.698,416.586l-55.565,-3.073l-2.449,49.328l-2.264,53.246l-1.727,72.31l-2.788,35.194l-4.559,25.292l-8.925,33.545l-5.801,28.537l-1.791,29.637l-0.649,50.369l2.654,54.675l4.303,49.832l31.237,7.727l11.529,-79.537l13.945,-72.893l3.992,-39.097l1.873,-46.829l-1.056,-20.76l12.21,-66.731l6.133,-33.538l8.705,-68.713l-6.213,-31.06l-2.794,-27.461Zm252.139,-0.128l-10.383,63.91l8.58,66.036l15.12,74.406l2.866,28.703l0.882,64.342l5.01,37.451l10.085,50.848l10.52,68.079l4.953,31.264l31.908,-5.592l4.615,-107.669l0.116,-76.169l-15.098,-60.949l-5.19,-22.02l-4.068,-45.545l-1.769,-83.109l-4.062,-88.426l-54.085,4.44Z"
-              />
-              <path
-                id="Ramena1"
-                className={
-                  services[7].selected
-                    ? styles.active__elem
-                    : styles.service__elem
-                }
-                onClick={() =>
-                  setServices((current) =>
-                    current.map((obj) => {
-                      if (obj.id === 7) {
-                        return { ...obj, selected: !obj.selected };
-                      }
-                      return obj;
-                    })
-                  )
-                }
-                style={{ fill: "#fff" }}
-                d="M685.932,301.446l-28.544,12.615l-15.53,19.364l-7.484,30.129l-3.347,51.628l54.65,1.752l0.255,-115.488Zm259.242,2.573l-7.962,112.904l54.132,-4.081l-5.525,-61.887l-11.378,-28.231l-21.786,-17.077l-7.481,-1.628Z"
-              />
-              <path
-                id="Sake1"
-                className={
-                  services[9].selected
-                    ? styles.active__elem
-                    : styles.service__elem
-                }
-                onClick={() =>
-                  setServices((current) =>
-                    current.map((obj) => {
-                      if (obj.id === 9) {
-                        return { ...obj, selected: !obj.selected };
-                      }
-                      return obj;
-                    })
-                  )
-                }
-                style={{ fill: "#fff" }}
-                d="M605.621,893.587l-0,21.094l-3.656,43.204l-1.747,44.62l9.818,30.932l8.285,18.023l9.119,9.928l19.258,8.025l3.967,-3.899l-19.227,-16.669l15.134,0.296l16.387,-8.626l-6.56,-2.414l-16.211,1.134l14.876,-7.8l0.63,-4.628l-18.614,1.247l-14.101,-10.453l5.002,-48.578l4.484,1.708l8.366,25.486l8.176,13.195l4.988,-2.845l-3.27,-23.32l-0.811,-37.141l-6.598,-13.461l-8.849,-15.827l2.16,-15.132l-31.006,-8.099Zm379.498,7.207l2.218,13.309l-5.742,12.626l-9.639,15.869l-1.946,15.129l1.188,26.218l-2.749,21.928l3.726,1.159l10.521,-14.495l7.964,-27.157l3.274,3.916l3.909,47.569l-14.407,9.889l-17.296,-1.326l2.578,4.313l12.671,6.611l-21.283,1.554l3.005,6.735l25.971,3.424l-14.271,11.682l-3.845,6.79l10.497,1.006l20.034,-12.985l20.834,-52.362l-4.348,-48.109l-2.701,-59.048l-30.163,5.755Z"
-              />
+              <Tippy
+                content="Lice + Naušnice"
+                followCursor={true}
+                plugins={[followCursor]}
+              >
+                <path
+                  id="Lice"
+                  className={
+                    services[0].selected
+                      ? styles.active__elem
+                      : styles.service__elem
+                  }
+                  onClick={() =>
+                    setServices((current) =>
+                      current.map((obj) => {
+                        if (obj.id === 0) {
+                          return {
+                            ...obj,
+                            selected: !obj.selected,
+                            sidebar: !obj.sidebar,
+                          };
+                        }
+                        if (obj.id === 14) {
+                          return {
+                            ...obj,
+                            selected: !obj.selected,
+                          };
+                        }
+                        if (obj.id === 15) {
+                          return {
+                            ...obj,
+                            selected: !obj.selected,
+                          };
+                        }
+                        return obj;
+                      })
+                    )
+                  }
+                  style={{ fill: "#fff" }}
+                  d="M145.45,76.122l3.417,-28.257c-0,-0 5.893,-34.6 53.718,-43.976c47.825,-9.377 82.373,27.475 81.518,69.058c-0.856,41.583 -10.74,93.062 -17.051,108.027c-6.31,14.966 -32.314,39.714 -32.314,39.714l-16.016,4.443l-21.533,-4.28l-18.233,-13.494c-0,0 -18.38,-25.321 -25.387,-51.131c-7.006,-25.809 -8.119,-80.104 -8.119,-80.104Z"
+                />
+              </Tippy>
+              <Tippy
+                content="Vrat"
+                followCursor={true}
+                plugins={[followCursor]}
+              >
+                <path
+                  id="Vrat"
+                  className={
+                    services[1].selected
+                      ? styles.active__elem
+                      : styles.service__elem
+                  }
+                  onClick={() =>
+                    setServices((current) =>
+                      current.map((obj) => {
+                        if (obj.id === 1) {
+                          return {
+                            ...obj,
+                            selected: !obj.selected,
+                            sidebar: !obj.sidebar,
+                          };
+                        }
+                        return obj;
+                      })
+                    )
+                  }
+                  style={{ fill: "#fff" }}
+                  d="M175.518,202.977l0.032,60.932l-3.582,9.026c0,0 47.501,0.723 62.733,-0.269c15.232,-0.993 21.379,-4.351 21.379,-4.351l-0.915,-25.631l-0.105,-41.262l-18.713,18.343l-15.994,5.366l-14.636,0l-13.777,-8.509l-16.422,-13.645Z"
+                />
+              </Tippy>
+              <Tippy
+                content="Grudi + Između grudi + Trbušna linija"
+                followCursor={true}
+                plugins={[followCursor]}
+              >
+                <path
+                  id="Grudi"
+                  className={
+                    services[2].selected
+                      ? styles.active__elem
+                      : styles.service__elem
+                  }
+                  onClick={() =>
+                    setServices((current) =>
+                      current.map((obj) => {
+                        if (obj.id === 2) {
+                          return {
+                            ...obj,
+                            selected: !obj.selected,
+                            sidebar: !obj.sidebar,
+                          };
+                        }
+                        if (obj.id === 18) {
+                          return {
+                            ...obj,
+                            selected: !obj.selected,
+                          };
+                        }
+                        if (obj.id === 19) {
+                          return {
+                            ...obj,
+                            selected: !obj.selected,
+                          };
+                        }
+                        return obj;
+                      })
+                    )
+                  }
+                  style={{ fill: "#fff" }}
+                  d="M87.995,303.122l0.436,122.653c-0,0 -1.755,23.881 2.751,34.083c4.505,10.202 14.99,50.806 14.99,50.806c0,0 112.799,7.049 148.298,7.577c35.499,0.528 70.763,-2.116 70.763,-2.116l8.706,-39.628l1.383,-6.178l6.461,-18.138l1.343,-21.569l0.314,-9.152l8.536,-116.643l-42.802,-11.536l-39.433,-13.056l-14.877,-12.906l-82.407,3.729l-50.24,22.419l-34.222,9.655Z"
+                />
+              </Tippy>
+              <Tippy
+                content="Ramena"
+                followCursor={true}
+                plugins={[followCursor]}
+              >
+                <path
+                  id="Ramena"
+                  className={
+                    services[7].selected
+                      ? styles.active__elem
+                      : styles.service__elem
+                  }
+                  onClick={() =>
+                    setServices((current) =>
+                      current.map((obj) => {
+                        if (obj.id === 7) {
+                          return {
+                            ...obj,
+                            selected: !obj.selected,
+                            sidebar: !obj.sidebar,
+                          };
+                        }
+                        return obj;
+                      })
+                    )
+                  }
+                  style={{ fill: "#fff" }}
+                  d="M89.641,301.485c-0,-0 -29.454,6.728 -39.195,23.735c-9.741,17.008 -16.633,97.343 -16.633,97.343l54.76,2.127l1.068,-123.205Zm261.072,3.277l-8.122,117.894l55.082,-1.703l-7.708,-63.309l-9.146,-31.154l-17.195,-17.409l-12.911,-4.319Z"
+                />
+              </Tippy>
+              <Tippy
+                content="Ruke"
+                followCursor={true}
+                plugins={[followCursor]}
+              >
+                <path
+                  id="Ruke"
+                  className={
+                    services[8].selected
+                      ? styles.active__elem
+                      : styles.service__elem
+                  }
+                  onClick={() =>
+                    setServices((current) =>
+                      current.map((obj) => {
+                        if (obj.id === 8) {
+                          return {
+                            ...obj,
+                            selected: !obj.selected,
+                            sidebar: !obj.sidebar,
+                          };
+                        }
+                        return obj;
+                      })
+                    )
+                  }
+                  style={{ fill: "#fff" }}
+                  d="M342.443,420.577l1.463,15.907l-5.697,26.882l-5.014,14.268l4.858,37.598l4.448,43.461l11.943,60.573l5.423,30.886l-0.232,38.867l2.068,50.685l7.705,35.721l7.266,37.97l7.779,55.997l5.46,37.249l29.773,6.065l4.482,-50.761l3.604,-62.73l-0.059,-60.861l-3.235,-34.835l-17.402,-69.471l-4.152,-75.888l-3.095,-79.304l-4.038,-60.805l-53.348,2.526Zm-308.571,1.285l-4.865,94.922l-2.013,89.576l-2.643,34.118l-9.031,32.638l-9.885,40.325l-1.279,44.263l-1.099,42.383l4.534,62.186l3.197,42.825l29.808,6.488l7.036,-51.847l13.115,-83.713l7.919,-33.695l5.082,-74.357l-1.445,-24.129l15.858,-85.146l3.991,-25.865l6.761,-57.643l-6.775,-11.718l-4.311,-22.572l0.726,-17.773l-54.681,-1.266Z"
+                />
+              </Tippy>
+              <Tippy
+                content="Stomak"
+                followCursor={true}
+                plugins={[followCursor]}
+              >
+                <path
+                  id="Stomak"
+                  className={
+                    services[3].selected
+                      ? styles.active__elem
+                      : styles.service__elem
+                  }
+                  onClick={() =>
+                    setServices((current) =>
+                      current.map((obj) => {
+                        if (obj.id === 3) {
+                          return {
+                            ...obj,
+                            selected: !obj.selected,
+                            sidebar: !obj.sidebar,
+                          };
+                        }
+                        return obj;
+                      })
+                    )
+                  }
+                  style={{ fill: "#fff" }}
+                  d="M105.242,509.085l24.096,114.187l0.475,11.46l-35.935,82.109l-8.045,21.421l257.81,-5.332l-11.083,-25.862l-17.218,-39.816l-14.131,-31.827l0,-13.035l19.774,-92.738l3.145,-14.858c-65.391,3.953 -140.614,0.301 -218.888,-5.709Z"
+                />
+              </Tippy>
+              <Tippy
+                content="Bikini zona"
+                followCursor={true}
+                plugins={[followCursor]}
+              >
+                <path
+                  id="Bikini-zona"
+                  className={
+                    services[4].selected
+                      ? styles.active__elem
+                      : styles.service__elem
+                  }
+                  onClick={() =>
+                    setServices((current) =>
+                      current.map((obj) => {
+                        if (obj.id === 4) {
+                          return {
+                            ...obj,
+                            selected: !obj.selected,
+                            sidebar: !obj.sidebar,
+                          };
+                        }
+                        return obj;
+                      })
+                    )
+                  }
+                  style={{ fill: "#fff" }}
+                  d="M86.283,736.249l-13.643,65.114c52.456,16.392 96.731,41.383 134.983,72.705l16.326,-0.184c39.871,-28.815 84.596,-49.497 132.87,-64.234l-6.082,-40.307l-8.211,-39.88l-256.243,6.786Z"
+                />
+              </Tippy>
+              <Tippy
+                content="Šake"
+                followCursor={true}
+                plugins={[followCursor]}
+              >
+                <path
+                  id="Sake"
+                  className={
+                    services[9].selected
+                      ? styles.active__elem
+                      : styles.service__elem
+                  }
+                  onClick={() =>
+                    setServices((current) =>
+                      current.map((obj) => {
+                        if (obj.id === 9) {
+                          return {
+                            ...obj,
+                            selected: !obj.selected,
+                            sidebar: !obj.sidebar,
+                          };
+                        }
+                        return obj;
+                      })
+                    )
+                  }
+                  style={{ fill: "#fff" }}
+                  d="M10.084,903.618l-1.462,34.392l-3.67,45.285l-2.57,26.666l15.833,31.758l9.351,19.322l19.302,10.794l8.173,-2.778l-13.74,-11.612l-5.164,-5.293l0.781,-3.507l7.287,3.03l17.205,-4.776l5.52,-4.239l-2.529,-2.739l-20.349,2.832l-3.486,-3.339l17.208,-6.139l4.158,-3.708l-11.421,-1.742l-9.963,1.957l-11.981,-8.337l-0.474,-17.062l4.109,-33.62l4.093,0.395l13.351,35.961l7.089,4.212l-1.896,-23.657l1.18,-25.36l-4.495,-21.447l-11.657,-17.424l-0.079,-13.491l-29.704,-6.334Zm380.533,1.487l0.81,10.179l-5.388,15.23l-9.154,17.143l-1.41,26.981l-2.341,32.749l2.048,3.519l12.68,-17.153l6.503,-22.171l4.078,-0.064l5.52,28.369l-0.338,19.376l-9.683,7.937l-5.564,2.372l-16.179,-1.798l-2.772,2.137l20.914,9.501l-3.211,3.557l-20.801,-2.953l-1.949,3.079l11.145,6.364l10.257,1.877l9.46,-2.444l-18.718,17.016l0.655,5.225l15.798,-4.39l12.209,-7.65l23.219,-51.126l-6.592,-70.986l-2.055,-26.145l-29.141,-5.731Z"
+                />
+              </Tippy>
+              <Tippy
+                content="Noge"
+                followCursor={true}
+                plugins={[followCursor]}
+              >
+                <path
+                  id="Noge"
+                  className={
+                    services[5].selected
+                      ? styles.active__elem
+                      : styles.service__elem
+                  }
+                  onClick={() =>
+                    setServices((current) =>
+                      current.map((obj) => {
+                        if (obj.id === 5) {
+                          return {
+                            ...obj,
+                            selected: !obj.selected,
+                            sidebar: !obj.sidebar,
+                          };
+                        }
+                        return obj;
+                      })
+                    )
+                  }
+                  style={{ fill: "#fff" }}
+                  d="M72.149,800.093l-6.128,56.553l3.418,62.848l46.501,252.555l17.982,94.269l6.591,65.166l-0.846,33.435l10.941,60.413l35.473,152.649l36.712,152.091l43.553,-6.305l-8.836,-53.59l-6.891,-56.981l-3.389,-80.322l-2.878,-56.233l30.2,-11.465l3.279,-47.129l5.434,-48.148l-3.898,-49.796l-6.382,-39.259l-9.596,-36.941l-2.664,-45.353l12.677,-43.635l43.272,-117.54l17.029,-58.788l17.817,-81.554l5.767,-42.407l1.502,-31.452l-1.907,-16.158c-48.717,15.955 -93.388,36.782 -132.47,64.342l-10.005,56.564l-8.443,-55.676c-41.712,-33.445 -86.429,-57.134 -133.815,-72.153Z"
+                />
+              </Tippy>
+              <Tippy
+                content="Stopala"
+                followCursor={true}
+                plugins={[followCursor]}
+              >
+                <path
+                  id="Stopala"
+                  className={
+                    services[6].selected
+                      ? styles.active__elem
+                      : styles.service__elem
+                  }
+                  onClick={() =>
+                    setServices((current) =>
+                      current.map((obj) => {
+                        if (obj.id === 6) {
+                          return {
+                            ...obj,
+                            selected: !obj.selected,
+                            sidebar: !obj.sidebar,
+                          };
+                        }
+                        return obj;
+                      })
+                    )
+                  }
+                  style={{ fill: "#fff" }}
+                  d="M222.838,1728.4l2.494,14.501l-1.279,11.293l2.831,12.421l6.681,8.426l-13.622,84.298l2.217,30.539l14.379,24.848l18.865,16.928l13.312,3.558l12.984,-3.675l16.197,-24.828l0.512,-22.66l-2.322,-37.489l-12.293,-54.971l-8.059,-24.693l3.956,-12.747l-8.559,-10.676l-6.027,-22.416l-42.267,7.343Zm37.698,-36.004l17.282,-19.093l9.885,-26.838l-3.409,-27.197l-3.609,-30.628l3.489,-23.086l-11.923,-26.618l1.226,-18.534l2.664,-9.182l-4.984,-11.945l2.608,-35.193l-29.054,11.448l3.296,73.444l2.785,70.574l7.297,57.649l2.447,15.199Z"
+                />
+              </Tippy>
+              <Tippy
+                content="Potiljak"
+                followCursor={true}
+                plugins={[followCursor]}
+              >
+                <path
+                  id="Potiljak"
+                  className={
+                    services[10].selected
+                      ? styles.active__elem
+                      : styles.service__elem
+                  }
+                  onClick={() =>
+                    setServices((current) =>
+                      current.map((obj) => {
+                        if (obj.id === 10) {
+                          return {
+                            ...obj,
+                            selected: !obj.selected,
+                            sidebar: !obj.sidebar,
+                          };
+                        }
+                        return obj;
+                      })
+                    )
+                  }
+                  style={{ fill: "#fff" }}
+                  d="M771.037,201.124l-0.677,63.019l-8.774,13.886l95.523,-2.233l-6.581,-12.979l1.27,-59.548c-25.581,-18.775 -52.557,-18.73 -80.761,-2.145Z"
+                />
+              </Tippy>
+              <Tippy
+                content="Gornji dio leđa"
+                followCursor={true}
+                plugins={[followCursor]}
+              >
+                <path
+                  id="Gornji-dio-ledja"
+                  className={
+                    services[11].selected
+                      ? styles.active__elem
+                      : styles.service__elem
+                  }
+                  onClick={() =>
+                    setServices((current) =>
+                      current.map((obj) => {
+                        if (obj.id === 11) {
+                          return {
+                            ...obj,
+                            selected: !obj.selected,
+                            sidebar: !obj.sidebar,
+                          };
+                        }
+                        return obj;
+                      })
+                    )
+                  }
+                  style={{ fill: "#fff" }}
+                  d="M684.615,302.081l0.489,117.552l11.965,65.588l7.75,35.237l9.346,43.66l194.406,-1.007l18.749,-84.905l10.45,-61.074l8.64,-114.721l-58.069,-14.937l-33.025,-13.772l-92.193,2.548l-47.226,17.387l-31.282,8.444Z"
+                />
+              </Tippy>
+              <Tippy
+                content="Donji dio leđa"
+                followCursor={true}
+                plugins={[followCursor]}
+              >
+                <path
+                  id="Donji-dio-ledja"
+                  className={
+                    services[12].selected
+                      ? styles.active__elem
+                      : styles.service__elem
+                  }
+                  onClick={() =>
+                    setServices((current) =>
+                      current.map((obj) => {
+                        if (obj.id === 12) {
+                          return {
+                            ...obj,
+                            selected: !obj.selected,
+                            sidebar: !obj.sidebar,
+                          };
+                        }
+                        return obj;
+                      })
+                    )
+                  }
+                  style={{ fill: "#fff" }}
+                  d="M712.797,562.208l9.971,48.622l3.241,16.448l-12.604,32.47l-17.678,41.957l-8.218,18.95l251.11,6.24l-30.515,-65.17l-12.55,-28.455l4.689,-24.377l8.98,-47.551l-196.426,0.866Z"
+                />
+              </Tippy>
+              <Tippy
+                content="Zadnjica + Između stražnjice"
+                followCursor={true}
+                plugins={[followCursor]}
+              >
+                <path
+                  id="Zadnjica"
+                  className={
+                    services[13].selected
+                      ? styles.active__elem
+                      : styles.service__elem
+                  }
+                  onClick={() =>
+                    setServices((current) =>
+                      current.map((obj) => {
+                        if (obj.id === 13) {
+                          return {
+                            ...obj,
+                            selected: !obj.selected,
+                            sidebar: !obj.sidebar,
+                          };
+                        }
+                        if (obj.id === 20) {
+                          return {
+                            ...obj,
+                            selected: !obj.selected,
+                          };
+                        }
+                        return obj;
+                      })
+                    )
+                  }
+                  style={{ fill: "#fff" }}
+                  d="M687.688,718.306l-15.086,50.075l-4.621,32.892l-0.804,42.118l5.009,40.922l139.024,10.785l-5.162,-22.487l17.56,0.057l-1.334,22.415l136.928,-4.355l0.552,-47.574l-3.728,-42.102l-18.837,-75.894l-249.501,-6.852Z"
+                />
+              </Tippy>
+              <Tippy
+                content="Noge"
+                followCursor={true}
+                plugins={[followCursor]}
+              >
+                <path
+                  id="Noge1"
+                  className={
+                    services[5].selected
+                      ? styles.active__elem
+                      : styles.service__elem
+                  }
+                  onClick={() =>
+                    setServices((current) =>
+                      current.map((obj) => {
+                        if (obj.id === 5) {
+                          return {
+                            ...obj,
+                            selected: !obj.selected,
+                            sidebar: !obj.sidebar,
+                          };
+                        }
+                        return obj;
+                      })
+                    )
+                  }
+                  style={{ fill: "#fff" }}
+                  d="M671.787,882.979l16.637,82.885l17.333,62.014l35.227,93.279l21.267,65.88l2.029,22.069l-1.281,26.973l-5.193,31.438l-10.708,54.873l-4.435,24.562l2.665,50.69l6.202,61.342l2.012,34.339l42.872,7.961l1.534,7.369l2.766,6.705l-4.763,10.955l-2.326,17.563l-0.433,16.721l0.756,15.097l3.005,22.674l4.205,11.41l5.91,19.968l3.551,9.592l2.41,14.23l-0.795,18.36l-4.952,11.389l-16.332,19.175l-7.806,4.229l-14.14,-2.429l-6.13,-3.716l-3.518,23.013l43.838,7.823l8.889,-39.259l8.969,-31.163l17.626,-72.904l14.537,-59.459l22.577,-102.548l10.863,-57.789l-1.418,-41.634l11.901,-87.97l34.37,-174.077l21.733,-132.182l5.59,-44.216l-135.435,4.283l-3.541,24.677l-4.576,-0.371l-5.188,-23.335l-138.304,-10.486Z"
+                />
+              </Tippy>
+              <Tippy
+                content="Stopala"
+                followCursor={true}
+                plugins={[followCursor]}
+              >
+                <path
+                  id="Stopala1"
+                  className={
+                    services[6].selected
+                      ? styles.active__elem
+                      : styles.service__elem
+                  }
+                  onClick={() =>
+                    setServices((current) =>
+                      current.map((obj) => {
+                        if (obj.id === 6) {
+                          return {
+                            ...obj,
+                            selected: !obj.selected,
+                            sidebar: !obj.sidebar,
+                          };
+                        }
+                        return obj;
+                      })
+                    )
+                  }
+                  style={{ fill: "#fff" }}
+                  d="M761.034,1720.57l-5.171,19.348l-6.533,8.383l2.185,14.561l-15.501,57.898l-16.437,55.655l4.672,29.072l16.162,21.731l12.732,8.527l18.195,-2.249l23.773,-22.36l9.941,-18.606l-0.455,-24.691l-1.64,-40.866l-2.191,-58.633l7.017,-10.473l-6.428,-13.608l1.98,-14.558l-42.301,-9.131Zm-8.032,-229.135l1.479,14.51l-4.488,7.778l3.131,9.767l0.446,17.911l-11.281,21.685l3.509,22.377l-4.391,40.607l-0.383,37.101l8.197,20.392l14.274,17.564l13.601,5.853l14.823,-5.113l11.498,-13.371l6.654,-10.629l3.951,-16.693l-1.619,-16.241l-7.669,-23.134l-8.221,-27.806l-2.436,-14.653l-0.181,-26.219l0.255,-17.507l3.094,-11.951l3.677,-10.228l-4.487,-8.06l-0.116,-5.139l-43.317,-8.801Z"
+                />
+              </Tippy>
+              <Tippy
+                content="Ruke"
+                followCursor={true}
+                plugins={[followCursor]}
+              >
+                <path
+                  id="Ruke1"
+                  className={
+                    services[8].selected
+                      ? styles.active__elem
+                      : styles.service__elem
+                  }
+                  onClick={() =>
+                    setServices((current) =>
+                      current.map((obj) => {
+                        if (obj.id === 8) {
+                          return {
+                            ...obj,
+                            selected: !obj.selected,
+                            sidebar: !obj.sidebar,
+                          };
+                        }
+                        return obj;
+                      })
+                    )
+                  }
+                  style={{ fill: "#fff" }}
+                  d="M685.698,416.586l-55.565,-3.073l-2.449,49.328l-2.264,53.246l-1.727,72.31l-2.788,35.194l-4.559,25.292l-8.925,33.545l-5.801,28.537l-1.791,29.637l-0.649,50.369l2.654,54.675l4.303,49.832l31.237,7.727l11.529,-79.537l13.945,-72.893l3.992,-39.097l1.873,-46.829l-1.056,-20.76l12.21,-66.731l6.133,-33.538l8.705,-68.713l-6.213,-31.06l-2.794,-27.461Zm252.139,-0.128l-10.383,63.91l8.58,66.036l15.12,74.406l2.866,28.703l0.882,64.342l5.01,37.451l10.085,50.848l10.52,68.079l4.953,31.264l31.908,-5.592l4.615,-107.669l0.116,-76.169l-15.098,-60.949l-5.19,-22.02l-4.068,-45.545l-1.769,-83.109l-4.062,-88.426l-54.085,4.44Z"
+                />
+              </Tippy>
+              <Tippy
+                content="Ramena"
+                followCursor={true}
+                plugins={[followCursor]}
+              >
+                <path
+                  id="Ramena1"
+                  className={
+                    services[7].selected
+                      ? styles.active__elem
+                      : styles.service__elem
+                  }
+                  onClick={() =>
+                    setServices((current) =>
+                      current.map((obj) => {
+                        if (obj.id === 7) {
+                          return {
+                            ...obj,
+                            selected: !obj.selected,
+                            sidebar: !obj.sidebar,
+                          };
+                        }
+                        return obj;
+                      })
+                    )
+                  }
+                  style={{ fill: "#fff" }}
+                  d="M685.932,301.446l-28.544,12.615l-15.53,19.364l-7.484,30.129l-3.347,51.628l54.65,1.752l0.255,-115.488Zm259.242,2.573l-7.962,112.904l54.132,-4.081l-5.525,-61.887l-11.378,-28.231l-21.786,-17.077l-7.481,-1.628Z"
+                />
+              </Tippy>
+              <Tippy
+                content="Šake"
+                followCursor={true}
+                plugins={[followCursor]}
+              >
+                <path
+                  id="Sake1"
+                  className={
+                    services[9].selected
+                      ? styles.active__elem
+                      : styles.service__elem
+                  }
+                  onClick={() =>
+                    setServices((current) =>
+                      current.map((obj) => {
+                        if (obj.id === 9) {
+                          return {
+                            ...obj,
+                            selected: !obj.selected,
+                            sidebar: !obj.sidebar,
+                          };
+                        }
+                        return obj;
+                      })
+                    )
+                  }
+                  style={{ fill: "#fff" }}
+                  d="M605.621,893.587l-0,21.094l-3.656,43.204l-1.747,44.62l9.818,30.932l8.285,18.023l9.119,9.928l19.258,8.025l3.967,-3.899l-19.227,-16.669l15.134,0.296l16.387,-8.626l-6.56,-2.414l-16.211,1.134l14.876,-7.8l0.63,-4.628l-18.614,1.247l-14.101,-10.453l5.002,-48.578l4.484,1.708l8.366,25.486l8.176,13.195l4.988,-2.845l-3.27,-23.32l-0.811,-37.141l-6.598,-13.461l-8.849,-15.827l2.16,-15.132l-31.006,-8.099Zm379.498,7.207l2.218,13.309l-5.742,12.626l-9.639,15.869l-1.946,15.129l1.188,26.218l-2.749,21.928l3.726,1.159l10.521,-14.495l7.964,-27.157l3.274,3.916l3.909,47.569l-14.407,9.889l-17.296,-1.326l2.578,4.313l12.671,6.611l-21.283,1.554l3.005,6.735l25.971,3.424l-14.271,11.682l-3.845,6.79l10.497,1.006l20.034,-12.985l20.834,-52.362l-4.348,-48.109l-2.701,-59.048l-30.163,5.755Z"
+                />
+              </Tippy>
               <g id="Blank-body">
                 <g>
                   <path
@@ -1559,51 +2173,79 @@ export default function Main(props) {
                   />
                 </g>
               </g>
-              <circle
-                id="Između-stražnjice"
-                className={
-                  services[20].selected
-                    ? styles.active__elem__2nd
-                    : styles.service__elem__2nd
-                }
-                onClick={() =>
-                  setServices((current) =>
-                    current.map((obj) => {
-                      if (obj.id === 20) {
-                        return { ...obj, selected: !obj.selected };
-                      }
-                      return obj;
-                    })
-                  )
-                }
-                style={{ fill: "#bbb", stroke: "#636363", strokeWidth: "4px" }}
-                cx="814.022"
-                cy="882.979"
-                r="30.247"
-              />
-              <circle
-                id="Nausnice"
-                className={
-                  services[14].selected
-                    ? styles.active__elem__2nd
-                    : styles.service__elem__2nd
-                }
-                onClick={() =>
-                  setServices((current) =>
-                    current.map((obj) => {
-                      if (obj.id === 14) {
-                        return { ...obj, selected: !obj.selected };
-                      }
-                      return obj;
-                    })
-                  )
-                }
-                style={{ fill: "#bbb", stroke: "#636363", strokeWidth: "4px" }}
-                cx="215.935"
-                cy="173.194"
-                r="23.898"
-              />
-              <circle
+              <Tippy
+                content="Između stražnjice"
+                followCursor={true}
+                plugins={[followCursor]}
+              >
+                <circle
+                  id="Između-stražnjice"
+                  className={
+                    services[20].selected
+                      ? styles.active__elem__2nd
+                      : styles.service__elem__2nd
+                  }
+                  onClick={() =>
+                    setServices((current) =>
+                      current.map((obj) => {
+                        if (obj.id === 20) {
+                          return {
+                            ...obj,
+                            selected: !obj.selected,
+                            sidebar: !obj.sidebar,
+                          };
+                        }
+                        return obj;
+                      })
+                    )
+                  }
+                  style={{
+                    fill: "#bbb",
+                    stroke: "#636363",
+                    strokeWidth: "4px",
+                  }}
+                  cx="814.022"
+                  cy="882.979"
+                  r="30.247"
+                />
+              </Tippy>
+              <Tippy
+                content="Naušnice"
+                followCursor={true}
+                plugins={[followCursor]}
+              >
+                <circle
+                  id="Nausnice"
+                  className={
+                    services[14].selected
+                      ? styles.active__elem__2nd
+                      : styles.service__elem__2nd
+                  }
+                  onClick={() =>
+                    setServices((current) =>
+                      current.map((obj) => {
+                        if (obj.id === 14) {
+                          return {
+                            ...obj,
+                            selected: !obj.selected,
+                            sidebar: !obj.sidebar,
+                          };
+                        }
+                        return obj;
+                      })
+                    )
+                  }
+                  style={{
+                    fill: "#bbb",
+                    stroke: "#636363",
+                    strokeWidth: "4px",
+                  }}
+                  cx="215.935"
+                  cy="173.194"
+                  r="23.898"
+                />
+              </Tippy>
+              {/* <circle
                 id="Izmedju-obrva"
                 className={
                   services[15].selected
@@ -1614,7 +2256,11 @@ export default function Main(props) {
                   setServices((current) =>
                     current.map((obj) => {
                       if (obj.id === 15) {
-                        return { ...obj, selected: !obj.selected };
+                        return {
+                          ...obj,
+                          selected: !obj.selected,
+                          sidebar: !obj.sidebar,
+                        };
                       }
                       return obj;
                     })
@@ -1624,141 +2270,225 @@ export default function Main(props) {
                 cx="215.935"
                 cy="99.268"
                 r="23.898"
-              />
-              <circle
-                id="Pazusi"
-                className={
-                  services[16].selected
-                    ? styles.active__elem__2nd
-                    : styles.service__elem__2nd
-                }
-                onClick={() =>
-                  setServices((current) =>
-                    current.map((obj) => {
-                      if (obj.id === 16) {
-                        return { ...obj, selected: !obj.selected };
-                      }
-                      return obj;
-                    })
-                  )
-                }
-                style={{ fill: "#bbb", stroke: "#636363", strokeWidth: "4px" }}
-                cx="87.652"
-                cy="424.654"
-                r="30.247"
-              />
-              <circle
-                id="Pazusi1"
-                className={
-                  services[16].selected
-                    ? styles.active__elem__2nd
-                    : styles.service__elem__2nd
-                }
-                onClick={() =>
-                  setServices((current) =>
-                    current.map((obj) => {
-                      if (obj.id === 16) {
-                        return { ...obj, selected: !obj.selected };
-                      }
-                      return obj;
-                    })
-                  )
-                }
-                style={{ fill: "#bbb", stroke: "#636363", strokeWidth: "4px" }}
-                cx="343.643"
-                cy="424.654"
-                r="30.247"
-              />
-              <circle
-                id="Oko-bradavica"
-                className={
-                  services[17].selected
-                    ? styles.active__elem__2nd
-                    : styles.service__elem__2nd
-                }
-                onClick={() =>
-                  setServices((current) =>
-                    current.map((obj) => {
-                      if (obj.id === 17) {
-                        return { ...obj, selected: !obj.selected };
-                      }
-                      return obj;
-                    })
-                  )
-                }
-                style={{ fill: "#bbb", stroke: "#636363", strokeWidth: "4px" }}
-                cx="152.426"
-                cy="463.083"
-                r="23.898"
-              />
-              <circle
-                id="Oko-bradavica1"
-                className={
-                  services[17].selected
-                    ? styles.active__elem__2nd
-                    : styles.service__elem__2nd
-                }
-                onClick={() =>
-                  setServices((current) =>
-                    current.map((obj) => {
-                      if (obj.id === 17) {
-                        return { ...obj, selected: !obj.selected };
-                      }
-                      return obj;
-                    })
-                  )
-                }
-                style={{ fill: "#bbb", stroke: "#636363", strokeWidth: "4px" }}
-                cx="279.395"
-                cy="463.083"
-                r="23.898"
-              />
-              <ellipse
-                id="Izmedju-grudi"
-                className={
-                  services[18].selected
-                    ? styles.active__elem__2nd
-                    : styles.service__elem__2nd
-                }
-                onClick={() =>
-                  setServices((current) =>
-                    current.map((obj) => {
-                      if (obj.id === 18) {
-                        return { ...obj, selected: !obj.selected };
-                      }
-                      return obj;
-                    })
-                  )
-                }
-                style={{ fill: "#bbb", stroke: "#636363", strokeWidth: "4px" }}
-                cx="214.852"
-                cy="525.108"
-                rx="23.898"
-                ry="58.127"
-              />
-              <ellipse
-                id="Trbusna-linija"
-                className={
-                  services[19].selected
-                    ? styles.active__elem__2nd
-                    : styles.service__elem__2nd
-                }
-                onClick={() =>
-                  setServices((current) =>
-                    current.map((obj) => {
-                      if (obj.id === 19) {
-                        return { ...obj, selected: !obj.selected };
-                      }
-                      return obj;
-                    })
-                  )
-                }
-                style={{ fill: "#bbb", stroke: "#636363", strokeWidth: "4px" }}
-                cx="214.852"
-                cy="727.243"
-                rx="23.898"
-                ry="58.127"
-              />
+              /> */}
+              <Tippy
+                content="Pazusi"
+                followCursor={true}
+                plugins={[followCursor]}
+              >
+                <circle
+                  id="Pazusi"
+                  className={
+                    services[16].selected
+                      ? styles.active__elem__2nd
+                      : styles.service__elem__2nd
+                  }
+                  onClick={() =>
+                    setServices((current) =>
+                      current.map((obj) => {
+                        if (obj.id === 16) {
+                          return {
+                            ...obj,
+                            selected: !obj.selected,
+                            sidebar: !obj.sidebar,
+                          };
+                        }
+                        return obj;
+                      })
+                    )
+                  }
+                  style={{
+                    fill: "#bbb",
+                    stroke: "#636363",
+                    strokeWidth: "4px",
+                  }}
+                  cx="87.652"
+                  cy="424.654"
+                  r="30.247"
+                />
+              </Tippy>
+              <Tippy
+                content="Pazusi"
+                followCursor={true}
+                plugins={[followCursor]}
+              >
+                <circle
+                  id="Pazusi1"
+                  className={
+                    services[16].selected
+                      ? styles.active__elem__2nd
+                      : styles.service__elem__2nd
+                  }
+                  onClick={() =>
+                    setServices((current) =>
+                      current.map((obj) => {
+                        if (obj.id === 16) {
+                          return {
+                            ...obj,
+                            selected: !obj.selected,
+                            sidebar: !obj.sidebar,
+                          };
+                        }
+                        return obj;
+                      })
+                    )
+                  }
+                  style={{
+                    fill: "#bbb",
+                    stroke: "#636363",
+                    strokeWidth: "4px",
+                  }}
+                  cx="343.643"
+                  cy="424.654"
+                  r="30.247"
+                />
+              </Tippy>
+              <Tippy
+                content="Oko bradavica"
+                followCursor={true}
+                plugins={[followCursor]}
+              >
+                <circle
+                  id="Oko-bradavica"
+                  className={
+                    services[17].selected
+                      ? styles.active__elem__2nd
+                      : styles.service__elem__2nd
+                  }
+                  onClick={() =>
+                    setServices((current) =>
+                      current.map((obj) => {
+                        if (obj.id === 17) {
+                          return {
+                            ...obj,
+                            selected: !obj.selected,
+                            sidebar: !obj.sidebar,
+                          };
+                        }
+                        return obj;
+                      })
+                    )
+                  }
+                  style={{
+                    fill: "#bbb",
+                    stroke: "#636363",
+                    strokeWidth: "4px",
+                  }}
+                  cx="152.426"
+                  cy="463.083"
+                  r="23.898"
+                />
+              </Tippy>
+              <Tippy
+                content="Oko bradavica"
+                followCursor={true}
+                plugins={[followCursor]}
+              >
+                <circle
+                  id="Oko-bradavica1"
+                  className={
+                    services[17].selected
+                      ? styles.active__elem__2nd
+                      : styles.service__elem__2nd
+                  }
+                  onClick={() =>
+                    setServices((current) =>
+                      current.map((obj) => {
+                        if (obj.id === 17) {
+                          return {
+                            ...obj,
+                            selected: !obj.selected,
+                            sidebar: !obj.sidebar,
+                          };
+                        }
+                        return obj;
+                      })
+                    )
+                  }
+                  style={{
+                    fill: "#bbb",
+                    stroke: "#636363",
+                    strokeWidth: "4px",
+                  }}
+                  cx="279.395"
+                  cy="463.083"
+                  r="23.898"
+                />
+              </Tippy>
+              <Tippy
+                content="Između grudi"
+                followCursor={true}
+                plugins={[followCursor]}
+              >
+                <ellipse
+                  id="Izmedju-grudi"
+                  className={
+                    services[18].selected
+                      ? styles.active__elem__2nd
+                      : styles.service__elem__2nd
+                  }
+                  onClick={() =>
+                    setServices((current) =>
+                      current.map((obj) => {
+                        if (obj.id === 18) {
+                          return {
+                            ...obj,
+                            selected: !obj.selected,
+                            sidebar: !obj.sidebar,
+                          };
+                        }
+                        return obj;
+                      })
+                    )
+                  }
+                  style={{
+                    fill: "#bbb",
+                    stroke: "#636363",
+                    strokeWidth: "4px",
+                  }}
+                  cx="214.852"
+                  cy="525.108"
+                  rx="23.898"
+                  ry="58.127"
+                />
+              </Tippy>
+              <Tippy
+                content="Trbušna linija"
+                followCursor={true}
+                plugins={[followCursor]}
+              >
+                <ellipse
+                  id="Trbusna-linija"
+                  className={
+                    services[19].selected
+                      ? styles.active__elem__2nd
+                      : styles.service__elem__2nd
+                  }
+                  onClick={() =>
+                    setServices((current) =>
+                      current.map((obj) => {
+                        if (obj.id === 19) {
+                          return {
+                            ...obj,
+                            selected: !obj.selected,
+                            sidebar: !obj.sidebar,
+                          };
+                        }
+                        return obj;
+                      })
+                    )
+                  }
+                  style={{
+                    fill: "#bbb",
+                    stroke: "#636363",
+                    strokeWidth: "4px",
+                  }}
+                  cx="214.852"
+                  cy="727.243"
+                  rx="23.898"
+                  ry="58.127"
+                />
+              </Tippy>
             </g>
           </svg>
         )}
