@@ -82,7 +82,7 @@ const LinijaProtivNesavrsenosti = () => {
                                     <p className='productBoxTitle'>AMPULE PROTIV NESAVRŠENOSTI
 NA KOŽI</p>
                                     <p className='productBoxSubtitle'>Sadrže aloe veru i kamilicu</p>
-                                    <a className='productBoxButton' href=""><span><img src={eyeIcon} alt="" /></span>Pogledaj detaljnije</a>
+                                    <a className='productBoxButton' href="/kozmeticki-proizvodi/linija-protiv-nesavrsenosti-na-kozi/ampule-protiv-nesavrsenosti-na-kozi"><span><img src={eyeIcon} alt="" /></span>Pogledaj detaljnije</a>
                                 </div>
                             </div>
                         </div>
@@ -93,7 +93,7 @@ NA KOŽI</p>
                                     <p className='productBoxTitle'>MASKA PROTIV NESAVRŠENOSTI
 NA KOŽI</p>
                                     <p className='productBoxSubtitle'>Reguliše lučenje sebuma</p>
-                                    <a className='productBoxButton' href=""><span><img src={eyeIcon} alt="" /></span>Pogledaj detaljnije</a>
+                                    <a className='productBoxButton' href="/kozmeticki-proizvodi/linija-protiv-nesavrsenosti-na-kozi/maska-protiv-nesavrsenosti-na-kozi"><span><img src={eyeIcon} alt="" /></span>Pogledaj detaljnije</a>
                                 </div>
                             </div>
                         </div>
@@ -104,7 +104,7 @@ NA KOŽI</p>
                                     <p className='productBoxTitle'>KREMA PROTIV NESAVRŠENOSTI
 NA KOŽI</p>
                                     <p className='productBoxSubtitle'>Hidratantna nemasna krema</p>
-                                    <a className='productBoxButton' href=""><span><img src={eyeIcon} alt="" /></span>Pogledaj detaljnije</a>
+                                    <a className='productBoxButton' href="/kozmeticki-proizvodi/linija-protiv-nesavrsenosti-na-kozi/krema-protiv-nesavrsenosti-na-kozi"><span><img src={eyeIcon} alt="" /></span>Pogledaj detaljnije</a>
                                 </div>
                             </div>
                         </div>

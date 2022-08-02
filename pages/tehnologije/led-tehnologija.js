@@ -174,7 +174,7 @@ const LedTehnologija = () => {
                            </p>
                        </div>
                        <div className="column rightElektromagnetska">
-                           <img src={ledSampleImage1} alt="" />
+                           <img src={ledSampleImage1} alt="led_tehnologija" />
                        </div>
                    </div>
                </div>
@@ -245,7 +245,7 @@ const LedTehnologija = () => {
                                potrebe i karakteristike klijenta.</p>
                        </div>
                        <div className="column rightKorisniciTretmana">
-                           <img src={tretmanKorisnici} alt="" />
+                           <img src={tretmanKorisnici} alt="led_tehnologija" />
                        </div>
                    </div>
                </div>
@@ -345,7 +345,7 @@ const LedTehnologija = () => {
 
                                <div className="buttonPonuda">
 
-                                   <a href="" className='turqButton buttPonuda'>
+                                   <a href="/usluge/izbjeljivanje-zuba" className='turqButton buttPonuda'>
                                        Pogledaj naše usluge
                                    </a>
 

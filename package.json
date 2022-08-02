@@ -16,6 +16,7 @@
     "next-images": "^1.8.1",
     "nextjs-breadcrumbs": "^1.1.9",
     "react": "17.x",
+    "react-burger-menu": "^3.0.8",
     "react-collapsed": "^3.3.2",
     "react-dom": "17.x",
     "react-grid-carousel": "^1.0.1",
@@ -24,6 +25,7 @@
     "react-player": "^2.9.0",
     "react-responsive-carousel": "^3.2.21",
     "react-slick": "^0.29.0",
+    "reactjs-popup": "^2.0.5",
     "sass": "^1.32.12",
     "slick-carousel": "^1.8.1"
   }

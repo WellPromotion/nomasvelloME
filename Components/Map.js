@@ -31,7 +31,7 @@ export default function lokacija(props) {
     const projectInformation = [
         {
             id: "sarajevo-1",
-            name: "Sarajevo I - Detalji",
+            name: "Novo Sarajevo - Detalji",
             class: "_sarajevo-i",
             img: mapLogo, 
             lat: 43.85421427202709, 
@@ -42,7 +42,7 @@ export default function lokacija(props) {
         },
         {
             id: "sarajevo-2",
-            name: "Sarajevo II - Detalji",
+            name: "Stari Grad - Detalji",
             class: "_sarajevo-2",
             img: mapLogo,
             lat: 43.860144599935474, 
@@ -53,7 +53,7 @@ export default function lokacija(props) {
         },
         {
             id: "sarajevo-3",
-            name: "Sarajevo III - Detalji",
+            name: "Novi Grad - Detalji",
             class: "_sarajevo3",
             img: mapLogo, 
             lat: 43.826073680387616, 
@@ -64,7 +64,7 @@ export default function lokacija(props) {
         },
         {
             id: "sarajevo-4",
-            name: "Sarajevo IV - Detalji",
+            name: "Ilidža - Detalji",
             class: "_sarajevo-4",
             img: mapLogo, 
             lat: 43.83108391485479, 
@@ -74,31 +74,9 @@ export default function lokacija(props) {
             email: "ilidza@nomasvello.ba",
         },
         {
-            id: "mostar",
-            name: "Mostar - Detalji",
-            class: "_mostar",
-            img: mapLogo, 
-            lat: 43.84465257958662,
-            long: 18.340645331563096,
-            address: "Kolodvorska 3B",
-            phone: "+033 718 555",
-            email: "info@nomasvello.ba",
-        },
-        {
             id: "banjaluka-1",
-            name: "Banja Luka I - Detalji",
+            name: "Banja Luka - Detalji",
             class: "_banjaluka-1",
-            img: mapLogo, 
-            lat: 44.769029076816324, 
-            long: 17.185361934757125,
-            address: "Bulevar cara Dušana 15",
-            phone: " +051 258 150 | 066 486 645",
-            email: "banjaluka@nomasvello.ba",
-        },
-        {
-            id: "banjaluka-2",
-            name: "Banja Luka II - Detalji",
-            class: "_banjaluka-2",
             img: mapLogo, 
             lat: 44.769029076816324, 
             long: 17.185361934757125,
@@ -150,28 +128,6 @@ export default function lokacija(props) {
             phone: "066 326 505",
             email: "brcko@nomasvello.ba",
       },
-      {
-        id: "teslic",
-        name: "Teslić - Detalji",
-        class: "_teslic",
-        img: mapLogo, 
-        lat: 44.60554046386607, 
-        long: 17.860812423860988,
-        address: "Stevana Sinđelića bb",
-            phone: "066 398 638",
-            email: "teslic@nomasvello.ba",
-      },
-      {
-        id: "ljubuski",
-        name: "Ljubuški - Detalji",
-        class: "_ljubuski",
-        img: mapLogo, 
-        lat: 43.19045416625464, 
-        long: 17.53954675669427,
-        address: "Antuna Gustava Matoša",
-            phone: "063 854 554",
-            email: "ljubuski@nomasvello.ba",
-    },
     ]
 
     const projectSettings = {

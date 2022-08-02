@@ -30,7 +30,7 @@ const SunandsafeTehnologija = () => {
                 <div className="container">
                     <div className="columns">
                         <div className="column">
-                            <img src={sunSample} alt="" />
+                            <img src={sunSample} alt="fotoepilacija_preplanule_koze" />
                             <p className='defaultGreenTitle'>No+Vello© je dizajnirao učinkovit i siguran tretman koji dugotrajno uklanja dlake na koži koja je bila izložena suncu ili UV zračenju.</p>
                             <p className='sunSubtitlePar defaultText'>No+Vello©, svjetski lider u tretmanima za fotoepilaciju sa više od 1000 centara u svijetu, predstavlja SUN&SAFE, novu tehnologiju IPL fotoepilacije koja omogućava dugotrajno i učinkovito uklanjanje dlačica na preplanuloj koži. No+Vello© je patentirao (broj patenta: P201131087) ovu revolucionarnu tehnologiju koja omogućuje fotoepilaciju čak i ljeti.
 <br /><br />
@@ -39,7 +39,7 @@ Istraživanja provedena od strane ureda za R&D (Odjel za istraživanje i razvoj)
 Zahvaljujući ovom inovativnom sistemu, centri No+Vello nude sistem depilacije putem Intenzivne pulsirajuće svjetlosti (IPL) koja je sigurna za kožu preplanulu od sunca ili UV zračenja.</p>
                         </div>
                         <div className="column">
-                        <img src={sunSample1} alt="" />
+                        <img src={sunSample1} alt="sun_safe" />
                             <p className='sunTitlePar'>Zahvaljujući ovom inovativnom sistemu, centri No+Vello nude sistem depilacije putem Intenzivne pulsirajuće svjetlosti (IPL) koja je sigurna za kožu preplanulu od sunca ili UV zračenja.</p>
                             <p className='sunSubtitlePar defaultText'>Sun&Safe značajno smanjuje vrijeme čekanja za izlaganje sunčevim ili UVA zrakama: od 15 dana na 2 dana prije i poslije tretmana; što znači da omogućava da imamo depiliranu kožu tokom čitave godine, čak i ljeti.
 <br /><br />
@@ -70,7 +70,7 @@ No+Vello© zadržava svoju jedinstvenu uniseks tarifu od 49 KM po zoni/sesiji.</
                                </p>
 
                                <div className="buttonPonuda">
-                                   <a href="" className='turqButton buttPonuda'>
+                                   <a href="/usluge/fotoepilacija" className='turqButton buttPonuda'>
                                        Pogledaj naše usluge
                                    </a>
                                </div>

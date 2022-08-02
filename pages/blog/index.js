@@ -39,13 +39,14 @@ export default function Test(props) {
                           <img className='postImage' src={post.featuredImage !== null ? post.featuredImage.node.sourceUrl : ""} alt="" />
                           
                           <p className='postTitle'>
-                              {post.title}
+                              {post.title.length > 74 ?
+    `${ post.title.substring(0, 50) }...` : post.title }
                           </p>
                           <p className='postDate'>
                               {post.date.split("T").shift()}
                           </p>
                           <div
-                              dangerouslySetInnerHTML={{ __html: post.excerpt }} className="postExcerpt" >
+                              dangerouslySetInnerHTML={{ __html: post.excerpt.substring(0, 100) + '...' }} className="postExcerpt" >
                               
                           </div>
                           
@@ -68,29 +69,30 @@ export default function Test(props) {
                               Naše tehnologije
                               </p>
                               <img className='greenLinesRight' src={greenLines} alt="" />
-                              <a className='singleTehn' href="https://google.com">IPL Tehnologija</a>
-                              <a className='singleTehn' href="https://google.com">Laser Tehnologija</a>
-                              <a className='singleTehn' href="https://google.com">LED Tehnologija</a>
-                              <a className='singleTehn' href="https://google.com">Ultrazvučna Tehnologija</a>
-                              <a className='singleTehn' href="https://google.com">Sun & Safe</a>
-                              <a className='singleTehn' href="https://google.com">Ljekarska Podrška</a>
+                              <a className='singleTehn' href="/tehnologije/ipl-tehnologija">IPL Tehnologija</a>
+                              <a className='singleTehn' href="/tehnologije/laser-tehnologija">Laser Tehnologija</a>
+                              <a className='singleTehn' href="/tehnologije/led-tehnologija">LED Tehnologija</a>
+                              <a className='singleTehn' href="/tehnologije/ultrazvucna-tehnologija">Ultrazvučna Tehnologija</a>
+                              <a className='singleTehn' href="/tehnologije/sun-and-safe">Sun & Safe</a>
+                              <a className='singleTehn' href="/tehnologije/ljekarska-podrska">Ljekarska Podrška</a>
                           </div>
                           <div className="nasiCentri">
                               <p className="titleTehn">
-                              Naši Centri
+                                  Naši Centri
                               </p>
                               <img className='greenLinesRight' src={greenLines} alt="" />
                               <div className="listCentri">
-                              <a className='singleCent' href="https://google.com">Sarajevo</a>
-                              <a className='singleCent' href="https://google.com">Mostar</a>
-                              <a className='singleCent' href="https://google.com">Banja Luka</a> <br />
-                              <a className='singleCent' href="https://google.com">Zenica</a>
-                              <a className='singleCent' href="https://google.com">Tuzla</a>
-                              <a className='singleCent' href="https://google.com">Doboj</a>
-                              <a className='singleCent' href="https://google.com">Brčko</a> <br />
-                              <a className='singleCent' href="https://google.com">Teslić</a>
-                              <a className='singleCent' href="https://google.com">Ljubuški</a>
-                             </div>
+                                  <a className='singleCent' href="/centri/sarajevo-i">Novo Sarajevo</a>
+                                  <a className='singleCent' href="/centri/sarajevo-ii">Stari Grad</a>
+                                  <a className='singleCent' href="/centri/sarajevo-iii">Dobrinja</a>
+                                  <a className='singleCent' href="/centri/sarajevo-iv">Ilidža</a>
+                                  <a className='singleCent' href="/centri/banja-luka">Banja Luka</a> 
+                                  <a className='singleCent' href="/centri/zenica">Zenica</a>
+                                  <a className='singleCent' href="/centri/tuzla">Tuzla</a>
+                                  <a className='singleCent' href="/centri/doboj">Doboj</a>
+                                  <a className='singleCent' href="/centri/brcko">Brčko</a>
+                                  <a className='singleCent' href="/centri/teslic">Teslić</a>
+                              </div>
                           </div>
                       </div>
                       

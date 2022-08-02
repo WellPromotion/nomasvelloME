@@ -8,6 +8,8 @@ import cijenaIcon from '../../public/images/usluge/cijenaIcon.svg'
 import priceTag from '../../public/images/usluge/priceIcon.svg'
 import priceTwo from '../../public/images/usluge/diodniLaser.png'
 import naruciteSe from '../../public/images/usluge/naruciteSe.png'
+import LaserskaEpilacijaPopup from '../../Components/popups/LaserskaEpilacijaPopup';
+import LaserskaEpilacijaPopupBottom from '../../Components/popups/LaserskaEpilacijaPopupBottom';
 
 const Example = () => {
     return <Breadcrumbs useDefaultStyle rootLabel="Početna"
@@ -36,7 +38,8 @@ const LaserskaEpilacija = () => {
                             <p className="titleUsluge">LASERSKA EPILACIJA <br />
                                 DIODNIM LASEROM</p>
                             <p className="subtitleUsluge">Efikasna, sigurna i povoljna epilacija</p>
-                            <a href="https://www.figma.com" className="uslugeBtn">Naručite se</a>
+                            {/* <a href="https://www.figma.com" className="uslugeBtn">Naručite se</a> */}
+                            <LaserskaEpilacijaPopup />
                         </div>
                     </div>
                 </div>
@@ -67,7 +70,7 @@ const LaserskaEpilacija = () => {
                 <div className="container">
                     <div className="columns">
                         <div className="column has-text-centered">
-                            <img src={sample1} alt="" />
+                            <img src={sample1} alt="Tretman laserskom epilacijom u NO+VELLO centru u Sarajevu" />
                             <p className="metodeTitleGreen">
                             KORISTIMO NAJSAVREMENIJU <br />
 METODU LASERSKE EPILACIJE
@@ -116,7 +119,7 @@ METODU LASERSKE EPILACIJE
                 <div className="container">
                     <div className="columns level">
                         <div className="column imgCol is-8">
-                            <img src={sample2} alt="" />
+                            <img src={sample2} alt="Diodni laser u za tretman laserskom epilacijom u NO+VELLO centru u Sarajevu" />
                         </div>
                         <div className="column is-4">
                             <p className="titleDiodni middleGreenTitle">Naš diodni laser</p>
@@ -163,7 +166,7 @@ METODU LASERSKE EPILACIJE
                     <div className="columns prednostiCols">
                         <div className="column">
                             <div className="inner">
-                                <img src={turqSphere} className="turqSphere" alt="" />
+                                <img src={turqSphere} className="turqSphere" alt="PERSONALIZOVAN PREGLED" />
                                 <p className="prednostiTitle">PERSONALIZOVAN PREGLED</p>
                                 <p className='prednostiContent'>Kao prvi korak, vaš No+Vello® centar će uraditi procjenu na osnovu upitnika i besplatnog probnog tretmana sa laser aparatom. Ovako će se procijeniti adekvatnost tretmana, odredit će se zone koje će se tretirati, fototip kože i boja, dubina i debljina dlake, a sve u cilju osiguranja optimalnih rezultata.</p>
                             </div>
@@ -171,7 +174,7 @@ METODU LASERSKE EPILACIJE
                         </div>
                         <div className="column">
                         <div className="inner">
-                                <img src={turqSphere} className="turqSphere" alt="" />
+                                <img src={turqSphere} className="turqSphere" alt="DIODNI LASER" />
                                 <p className="prednostiTitle">DIODNI LASER</p>
                                 <p className='prednostiContent'>To je najučinkovitiji laser kod većine tretmana laserske epilacije jer prodire dublje od drugih tipova lasera (Alexandrite) i omogućava tretman na preplanuloj koži.</p>
                             </div>
@@ -179,7 +182,7 @@ METODU LASERSKE EPILACIJE
                         </div>
                         <div className="column">
                         <div className="inner">
-                                <img src={turqSphere} className="turqSphere" alt="" />
+                                <img src={turqSphere} className="turqSphere" alt="SISTEM KONTROLE TOPLOTE" />
                                 <p className="prednostiTitle">SISTEM KONTROLE TOPLOTE</p>
                                 <p className='prednostiContent'>To je sistem hlađenja dermisa putem sonde koja štiti kožu i čini tretman laserske epilacije ugodnijim..</p>
                             </div>
@@ -188,7 +191,7 @@ METODU LASERSKE EPILACIJE
                     <div className="columns prednostiCols prednostiColsLower">
                         <div className="column">
                         <div className="inner">
-                                <img src={turqSphere} className="turqSphere" alt="" />
+                                <img src={turqSphere} className="turqSphere" alt="BRŽI APARAT" />
                                 <p className="prednostiTitle">BRŽI APARAT</p>
                                 <p className='prednostiContent'>No+Vello® diodni laser raspolaže sondom velike površine putem koje se emituje svjetlost. To omogućava smanjenje vremena trajanja tretmana na svim zonama.</p>
                         </div>
@@ -196,7 +199,7 @@ METODU LASERSKE EPILACIJE
                   
                         <div className="column">
                         <div className="inner">
-                                <img src={turqSphere} className="turqSphere" alt="" />
+                                <img src={turqSphere} className="turqSphere" alt="No+Vello® DIODNI LASER VELIKE SNAGE" />
                                 <p className="prednostiTitle">No+Vello® DIODNI LASER <br />
 VELIKE SNAGE</p>
                                 <p className='prednostiContent'>Diodni laser je aparat velike snage (10 Hz) koji omogućava da tretman bude učinkovit, brz i siguran za kožu.</p>
@@ -206,7 +209,7 @@ VELIKE SNAGE</p>
                         <div className="column">
                             
                         <div className="inner">
-                                <img src={turqSphere} className="turqSphere" alt="" />
+                                <img src={turqSphere} className="turqSphere" alt="UGODAN TRETMAN" />
                                 <p className="prednostiTitle">UGODAN TRETMAN</p>
                                 <p className='prednostiContent'>To je sistem hlađenja dermisa putem sonde koja štiti kožu i čini tretman laserske epilacije ugodnijim.</p>
                             </div>
@@ -254,7 +257,7 @@ VELIKE SNAGE</p>
                         </div>
                     </div>
                     <div className="column">
-                        <img className='diodniIMG' src={priceTwo} alt="" />
+                        <img className='diodniIMG' src={priceTwo} alt="49 KM - Cijena laserske epilacije po zoni" />
                     </div>
                     </div>
                     
@@ -282,7 +285,8 @@ VELIKE SNAGE</p>
                                 <div className="inner">
                                     <p className="titleNarudzba">UŽIVAJTE U NAJBOLJOJ LASERSKOJ EPILACIJI</p>
                                     <p className="subtitleNarudzba">U SVOM No+Vello® CENTRU!</p>
-                                    <a href="https://google.com" className="narudzbaButtonBottom">Naručite se</a>
+                                    {/* <a href="https://google.com" className="narudzbaButtonBottom">Naručite se</a> */}
+                                    <LaserskaEpilacijaPopupBottom/>
                                 </div>
                             </div>
                         </div>

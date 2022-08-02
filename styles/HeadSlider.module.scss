@@ -3,10 +3,15 @@
 .singleHeaderSlide{
     background-image: url('../public/images/headerSliderImg.png');
     height: 53.25rem;
-    
+    @media only screen and (min-device-width : 320px) and (max-device-width : 480px) {
+        height: 38.25rem;
+        }
 }
 .headerColTxt{
     padding-top: 10.625rem;
+    @media only screen and (min-device-width : 320px) and (max-device-width : 480px) {
+        padding-top: 7.625rem;
+        }
 }
 .preTitleHeaderSlider{
     font-weight: 300;
@@ -28,6 +33,7 @@
     margin-bottom: 5.25rem !important;
     @media only screen and (min-device-width : 320px) and (max-device-width : 480px) {
         font-size: 4rem;
+        line-height: 4.375rem;
         }
 }
 .vidiViseBtn{

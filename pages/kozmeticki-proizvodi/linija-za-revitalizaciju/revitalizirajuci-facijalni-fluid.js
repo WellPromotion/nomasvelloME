@@ -162,7 +162,7 @@ kako bi proizvodile veću količinu kolagena i elastina i tako spriječile pojav
 Revitalizuje, umiruje i regeneriše kožu.
                                             </p>
                                             <a className='ctaKolekcijaBox kolekcijaButton'
-                                                href="https://www.figma.com">Pogledaj kolekciju</a>
+                                                href="/kozmeticki-proizvodi/linija-za-ucvrscivanje">Pogledaj kolekciju</a>
                                         </div>
                                     </div>
                                 </div>
@@ -181,7 +181,7 @@ Revitalizuje, umiruje i regeneriše kožu.
                                             <p className='kozBoxSubtitle'>Specifična linija za masnu kožu.
                                             </p>
                                             <a className='ctaKolekcijaBox kolekcijaButton'
-                                                href="https://www.figma.com">Pogledaj kolekciju</a>
+                                                href="/kozmeticki-proizvodi/linija-protiv-nesavrsenosti-na-kozi">Pogledaj kolekciju</a>
                                         </div>
                                     </div>
                                 </div>
@@ -199,7 +199,7 @@ Revitalizuje, umiruje i regeneriše kožu.
                                             <p className='kozBoxSubtitle'>Hidratizuje kožu i održava je mladom.
                                             </p>
                                             <a className='ctaKolekcijaBox kolekcijaButton'
-                                                href="https://www.figma.com">Pogledaj kolekciju</a>
+                                                href="/kozmeticki-proizvodi/linija-za-hidrataciju">Pogledaj kolekciju</a>
                                         </div>
                                     </div>
                                 </div>

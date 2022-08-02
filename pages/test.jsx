@@ -2,11 +2,13 @@ import Head from 'next/head'
 import { gql, useQuery } from '@apollo/client'
 import GET_TEST from '../Querries/test'
 import client from '../Components/AppolloClient'
+import GET_MSG from '../Querries/message'
+
 
 export default function Test(props) {
     
-    const { posts } = props
-    console.log(posts)
+    const { forms } = props
+    console.log(forms)
 
   return (
 
@@ -31,10 +33,10 @@ export default function Test(props) {
 }
 
 export async function getStaticProps() {
-    const result = await client.query( { query: GET_TEST } )
+    const result = await client.query( { query: GET_MSG } )
       return{
         props: {
-          posts: result.data.posts.nodes,
+          forms: result.data
         },
         revalidate: 10,
       }

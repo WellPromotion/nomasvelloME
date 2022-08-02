@@ -11,6 +11,9 @@
     box-shadow: 0px 1.875rem 2.5rem rgba(212, 217, 232, 0.2);
     border-radius: 0.625rem;
     padding: 2rem 1.938rem;
+    height: 17rem;
+    display: table-cell;
+    vertical-align: middle;
 }
 .testimonialTitle{
     font-family: $mainFont;
@@ -46,6 +49,7 @@
     line-height: 1.75rem;
     text-align: center;
     color: $titleColor;
+    margin-bottom: 0 !important;
 }
 .testimonialTown{
     color: $primaryGreen;
@@ -60,4 +64,38 @@
 }
 .kVtMtA, .bhRnqO{
     top: 30% !important;
+}
+
+.bVoXXg{
+    display: flex;
+    align-items: end;
+    justify-content: center;
+    @media only screen and (min-device-width : 320px) and (max-device-width : 480px) {
+        justify-content: flex-start;
+        
+        }
+}
+
+.etbmwA{
+    position: absolute;
+    top: 50%;
+    left: 0%;
+    @media only screen and (min-device-width : 320px) and (max-device-width : 480px) {
+        // display: block !important;
+        // left: 3%;
+        }
+}
+.etbmwA{
+    position: absolute;
+    top: 50%;
+    right: 0%;
+    @media only screen and (min-device-width : 320px) and (max-device-width : 480px) {
+        // display: block !important;
+        }
+}
+
+.bXvhnh{
+    @media only screen and (min-device-width : 320px) and (max-device-width : 480px) {
+        width: 16.75rem;
+        }
 }

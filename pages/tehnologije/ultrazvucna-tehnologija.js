@@ -40,7 +40,7 @@ const UltrazvukTehnologija = () => {
 Galvanska energija aktivira stimulaciju proizvodnje kolagena i elastina, stimuliše regeneraciju ćelija i pomaže pri apsorpciji aktivnih principa korištenih tokom tretmana.</p>
                         </div>
                         <div className="column">
-                        <img className='imgUltrazvuk' src={sampleUltrazvuk} alt="" />
+                        <img className='imgUltrazvuk' src={sampleUltrazvuk} alt="ultrazvuk_aparat" />
                         </div>
                     </div>
 
@@ -61,14 +61,14 @@ Galvanska energija aktivira stimulaciju proizvodnje kolagena i elastina, stimuli
                             <p className='defaultBlueText uzvList'> <span><img src={turqCheck} alt="" /></span>Omogućava bolje upijanje aktivnih sastojaka iz preparata.</p>
                         </div>
                         <div className="column">
-                            <img className='secColImg' src={sampleUltrazvuk1} alt="" />
+                            <img className='secColImg' src={sampleUltrazvuk1} alt="ultrazvuk_01" />
                         </div>
                     </div>
 
 
                     <div className="columns thirdColUzv level">
                     <div className="column">
-                            <img className='thirdColImg' src={sampleUltrazvuk2} alt="" />
+                            <img className='thirdColImg' src={sampleUltrazvuk2} alt="ultrazvuk_02" />
                         </div>
                         <div className="column">
                             <p className='uzvTitle defaultBlueTitle'>Prednosti u odnosu na klasično čišćenje lica:</p>
@@ -104,7 +104,7 @@ Galvanska energija aktivira stimulaciju proizvodnje kolagena i elastina, stimuli
 
                                <div className="buttonPonuda">
 
-                                   <a href="" className='turqButton buttPonuda'>
+                                   <a href="/usluge/ultrazvucno-ciscenje-lica" className='turqButton buttPonuda'>
                                        Pogledaj naše usluge
                                    </a>
 

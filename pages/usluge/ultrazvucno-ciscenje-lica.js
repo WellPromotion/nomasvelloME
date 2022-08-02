@@ -12,7 +12,8 @@ import naruciteSe from '../../public/images/usluge/naruciteSe.png'
 import ReactPlayer from 'react-player';
 import greenCircle from '../../public/images/usluge/fotoepilacija/greenCircle.svg'
 import turqCircle from '../../public/images/usluge/fotoepilacija/turqCircle.svg'
-
+import UltrazvucnoCiscenjeLicaPopup from '../../Components/popups/UltrazvucnoCiscenjeLicaPopup';
+import UltrazvucnoCiscenjeLicaPopupBottom from '../../Components/popups/UltrazvucnoCiscenjeLicaPopupBottom';
 
 
 const Example = () => {
@@ -39,7 +40,8 @@ const UltrazvučnoČišćenjeLica = () => {
                     <div className="columns headerColsUsluge">
                         <div className="column titlePart has-text-centered">
                             <p className="titleUsluge">Ultrazvučno čišćenje lica</p>
-                            <a href="https://www.figma.com" className="uslugeBtn">Naručite se</a>
+                            {/* <a href="https://www.figma.com" className="uslugeBtn">Naručite se</a> */}
+                            <UltrazvucnoCiscenjeLicaPopup />
                         </div>
                     </div>
                 </div>
@@ -463,7 +465,8 @@ sa C vitaminom</p>
                                     <p className="titleNarudzba">UŽIVAJTE U 
 NAJBOLJOJ USLUZI ULTRAZVUČNOG ČIŠĆENJA LICA</p>
                                     <p className="subtitleNarudzba">U SVOM No+Vello® CENTRU!</p>
-                                    <a href="https://google.com" className="narudzbaButtonBottom">Naručite se</a>
+                                    {/* <a href="https://google.com" className="narudzbaButtonBottom">Naručite se</a> */}
+                                    <UltrazvucnoCiscenjeLicaPopupBottom/>
                                 </div>
                             </div>
                         </div>

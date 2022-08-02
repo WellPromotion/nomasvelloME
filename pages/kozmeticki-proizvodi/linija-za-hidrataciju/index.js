@@ -99,7 +99,7 @@ Liposomska formula ovih proizvoda potiče prodiranje hijaluronske kiseline u ko�
                                     <p className='productBoxTitle'>MASKA ZA <br />
 HIDRATACIJU</p>
                                     <p className='productBoxSubtitle'>Dubinska hidratacija</p>
-                                    <a className='productBoxButton' href=""><span><img src={eyeIcon} alt="" /></span>Pogledaj detaljnije</a>
+                                    <a className='productBoxButton' href="/kozmeticki-proizvodi/linija-za-hidrataciju/maska-za-hidrataciju"><span><img src={eyeIcon} alt="" /></span>Pogledaj detaljnije</a>
                                 </div>
                             </div>
                         </div>
@@ -109,7 +109,7 @@ HIDRATACIJU</p>
                                     <img className='productImg' src={sampleImage3} alt="" />
                                     <p className='productBoxTitle'>SERUM PROTIV STARENJA</p>
                                     <p className='productBoxSubtitle'>Podmlađivanje kože</p>
-                                    <a className='productBoxButton' href=""><span><img src={eyeIcon} alt="" /></span>Pogledaj detaljnije</a>
+                                    <a className='productBoxButton' href="/kozmeticki-proizvodi/linija-za-hidrataciju/serum-protiv-starenja"><span><img src={eyeIcon} alt="" /></span>Pogledaj detaljnije</a>
                                 </div>
                             </div>
                         </div>
@@ -119,7 +119,7 @@ HIDRATACIJU</p>
                                     <img className='productImg' src={sampleImage4} alt="" />
                                     <p className='productBoxTitle'>KREMA PROTIV STARENJA</p>
                                     <p className='productBoxSubtitle'>Sprečava pojavu bora</p>
-                                    <a className='productBoxButton' href=""><span><img src={eyeIcon} alt="" /></span>Pogledaj detaljnije</a>
+                                    <a className='productBoxButton' href="/kozmeticki-proizvodi/linija-za-hidrataciju/krema-za-lice-protiv-starenja"><span><img src={eyeIcon} alt="" /></span>Pogledaj detaljnije</a>
                                 </div>
                             </div>
                         </div>

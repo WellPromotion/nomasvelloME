@@ -41,7 +41,7 @@ const LjekarskaPodrska = () => {
                 <div className="container">
                 <div className="columns">
                         <div className="column has-text-centered">
-                        <img className='ljekarskaSample' src={ljekarskaSample} alt="" />
+                        <img className='ljekarskaSample' src={ljekarskaSample} alt="Ljekarska podrška" />
                         </div>
                     </div>
                 </div>
@@ -163,14 +163,13 @@ kremama protiv bora). </p>
                             <img src={greenLines} alt="" />
                             <div className="pitanjaKontraindikacije">
                             <Accordion title="Kakve su kontraindikacije za LED terapiju??"
-                            content="this is content 1" />
+                                    content="trudnoća, dojenje, fotosenzitivni lijekovi, aktivna infekcija, upala kože."     />
                         <Accordion
                             title="Kakve su kontraindikacije za izbjeljivanje zubi?"
-                            content="this is content 2" />
+                            content="trudnoća i dojenje, alergija na plastiku, oralne lezije i bolesti, upala desni." />
                         <Accordion
                             title="Kakve su kontraindikacije za dubinsko čišćenje kože?"
-                                    content="Content"
-                                    content1="adsas"
+                                    content="trudnoća, problemi sa srcem (elektrosimulacija srca, aritmija), 5 godina od preboljenog raka, čišćenje se ne izvodi na vratu, 3 mjeseca od zadnje hemoterapije ili radioterapije."
                                        />
                             </div>
                         </div>
@@ -207,7 +206,7 @@ kremama protiv bora). </p>
 
                                <div className="buttonPonuda">
 
-                                   <a href="" className='turqButton buttPonuda'>
+                                   <a href="/usluge/fotopodmladjivanje" className='turqButton buttPonuda'>
                                        Pogledaj naše usluge
                                    </a>
 

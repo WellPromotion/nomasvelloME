@@ -14,7 +14,8 @@ import greenCircle from '../../public/images/usluge/fotoepilacija/greenCircle.sv
 import turqCircle from '../../public/images/usluge/fotoepilacija/turqCircle.svg'
 import doctorIcon from '../../public/images/usluge/fotoepilacija/doctorIcon.svg'
 import doctorImg from '../../public/images/usluge/fotoepilacija/doctorImg.png'
-
+import IzbjeljivanjeZubaPopup from '../../Components/popups/IzbjeljivanjeZubaPopup';
+import IzbjeljivanjeZubaPopupBottom from '../../Components/popups/IzbjeljivanjeZubaPopupBottom';
 
 
 const Example = () => {
@@ -42,7 +43,8 @@ const IzbjeljivanjeZuba = () => {
                     <div className="columns headerColsUsluge">
                         <div className="column titlePart has-text-centered">
                             <p className="titleUsluge">Izbjeljivanje zuba</p>
-                            <a href="https://www.figma.com" className="uslugeBtn">Naručite se</a>
+                            {/* <a href="https://www.figma.com" className="uslugeBtn">Naručite se</a> */}
+                            <IzbjeljivanjeZubaPopup />
                         </div>
                     </div>
                 </div>
@@ -96,7 +98,7 @@ const IzbjeljivanjeZuba = () => {
                             <div className="ledEstGreen">Sa samo 3 aplikacije od 20 minuta na jednoj sesiji možete postići izbjeljivanje do 8 nijansi.</div>
                         </div>
                         <div className="column imgCol">
-                            <img src={sample1} alt="" />
+                            <img src={sample1} alt="uredjaj_izbjeljivanje_zuba" />
                         </div>
                     </div>
                 </div>
@@ -154,7 +156,7 @@ const IzbjeljivanjeZuba = () => {
                     </div>
                     <div className="columns imgCols">
                         <div className="column has-text-centered">
-                            <img src={sample2} alt="" />
+                            <img src={sample2} alt="izbjeljivanje_zuba" />
                         </div>
                     </div>
                 </div>
@@ -174,7 +176,7 @@ const IzbjeljivanjeZuba = () => {
                 <div className="container">
                     <div className="columns level">
                         <div className="column imgCol is-4">
-                            <img src={sample3} alt="" />
+                            <img src={sample3} alt="izbjeljivanje_zuba" />
                         </div>
                         <div className="column rigtCol is-4">
                             <p className="rezultTitle">Pojačaj rezultate</p>
@@ -257,7 +259,8 @@ kafe i pića sa kolorantima.</p>
                                     <p className="titleNarudzba">UŽIVAJTE U <br />
 NAJBOLJOJ USLUZI IZBJELJIVANJA ZUBA</p>
                                     <p className="subtitleNarudzba">U SVOM No+Vello® CENTRU!</p>
-                                    <a href="https://google.com" className="narudzbaButtonBottom">Naručite se</a>
+                                    {/* <a href="https://google.com" className="narudzbaButtonBottom">Naručite se</a> */}
+                                    <IzbjeljivanjeZubaPopupBottom/>
                                 </div>
                             </div>
                         </div>

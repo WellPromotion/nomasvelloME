@@ -5,14 +5,22 @@
     background-color: #ACC76E;
     height: 19.75rem;
     
+    display: flex;
+    align-items: center;
+    
     .blogHeaderTitle{
         font-weight: 500;
         font-size: 2.5rem;
         line-height: 3rem;
         text-align: center;
         color: #fff;
-        padding-top: 4.25rem;
+        // padding-top: 4.25rem;
     }
+}
+
+#blogsListed{
+    padding-top: 5rem;
+    padding-bottom: 5rem;
 }
 
 .postTitle{
@@ -40,10 +48,12 @@
 }
 
 .postImage{
-    width: 17.875rem;
+    // width: 17.875rem;
     height: 14.063rem;
     border-radius: 4px;
     margin-bottom: 1rem;
+    object-fit: cover;
+    width: 100%;
 }
 
 .postButton{

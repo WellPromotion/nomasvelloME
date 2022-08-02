@@ -130,7 +130,7 @@ sa laserskom tehnologijom?
                                
                                 <div className="buttonPonuda">
                                    
-                                <a href="" className='turqButton buttPonuda'>
+                                <a href="/usluge/laserska-epilacija" className='turqButton buttPonuda'>
                                         Pogledaj naše usluge
                                         </a>
                                    

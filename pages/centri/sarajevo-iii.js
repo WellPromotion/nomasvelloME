@@ -1,10 +1,10 @@
 import React from 'react'
 import Link from 'next/link';
 import pointImg from '../../public/images/centri/point.png';
-import { MostarGallery } from '../../Components/centri/MostarGallery';
+import { SarajevoIIIGallery } from '../../Components/centri/SarajevoIIIGallery';
 import checkGreen from '../../public/images/centri/check.png';
 import greenSphere from '../../public/images/centri/sphere.png';
-
+import Popup from '../../Components/popups/NoviGradPopup'
 
 const SarajevoIII = () => {
     return (
@@ -48,13 +48,14 @@ const SarajevoIII = () => {
                                     </div>
                                 </div>
                             </div>
-                            <Link href="https://nextjs.org/docs/api-reference/next/link">
+                            {/* <Link href="https://nextjs.org/docs/api-reference/next/link">
                             <a className="naruciBtnCentri greenButton">Naručite se</a>
-                            </Link>
+                            </Link> */}
+                            <Popup />
                         </div>
                         <div className="column is-8">
                             <div className="sliderCentar">
-                           <MostarGallery />
+                           <SarajevoIIIGallery />
                             </div>
                             <div className="centarPonuda">
                                 <div className="centarPonudaInner">
@@ -121,7 +122,7 @@ const SarajevoIII = () => {
                                             </div>
                                         </div>
 
-                                        <Link href="https://nextjs.org/docs/api-reference/next/link">
+                                        <Link href="/centri/sarajevo-i">
                                         <a className="cityDetailsBtn turqButton">Vidi sve detalje</a>
                                         </Link>
                                     </div>
@@ -150,7 +151,7 @@ const SarajevoIII = () => {
                                                 </div>
                                             </div>
                                         </div>
-                                        <Link href="https://nextjs.org/docs/api-reference/next/link">
+                                        <Link href="/centri/sarajevo-ii">
                                         <a className="cityDetailsBtn turqButton">Vidi sve detalje</a>
                                         </Link>
                                     </div>
@@ -180,7 +181,7 @@ const SarajevoIII = () => {
                                                 </div>
                                             </div>
                                         </div>
-                                        <Link href="https://nextjs.org/docs/api-reference/next/link">
+                                        <Link href="/centri/sarajevo-iii">
                                         <a className="cityDetailsBtn turqButton">Vidi sve detalje</a>
                                         </Link>
                                     </div>

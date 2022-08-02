@@ -48,7 +48,7 @@ const KozmetickiProizvodi = () => {
                             <div className="colInner">
                                 <div className="kozmetikaBox">
                                     <div className="imgKozmetika">
-                                        <img src={kozmetikaCiscenje} alt="" />
+                                        <img src={kozmetikaCiscenje} alt="KOZMETIKA ZA ČIŠĆENJE" />
                                     </div>
                                     <div className="_outer">
                                         <div className="_inner">
@@ -66,7 +66,7 @@ const KozmetickiProizvodi = () => {
                             <div className="colInner secCol">
                                 <div className="kozmetikaBox">
                                     <div className="imgKozmetika">
-                                        <img src={linijaUcvrscivanje} alt="" />
+                                        <img src={linijaUcvrscivanje} alt="LINIJA ZA UČVRŠĆIVANJE" />
                                     </div>
                                     <div className="_outer">
                                         <div className="_inner smallerPadding">
@@ -87,7 +87,7 @@ Revitalizuje, umiruje i regeneriše kožu.
                        <div className="colInner">
                                 <div className="kozmetikaBox">
                                     <div className="imgKozmetika">
-                                        <img src={linijaRevitalizacija} alt="" />
+                                        <img src={linijaRevitalizacija} alt="LINIJA ZA REVITALIZACIJU" />
                                     </div>
                                     <div className="_outer">
                                         <div className="_inner smallerPadding">
@@ -105,7 +105,7 @@ ugašenu kožu i kožu sa prvim znacima starenja.
                             <div className="colInner secCol">
                                 <div className="kozmetikaBox">
                                     <div className="imgKozmetika">
-                                        <img src={linijaProtivNesavrsenosti} alt="" />
+                                        <img src={linijaProtivNesavrsenosti} alt="LINIJA PROTIV NESAVRŠENOSTI NA KOŽI" />
                                     </div>
                                     <div className="_outer">
                                         <div className="_inner smallestPadding">
@@ -123,7 +123,7 @@ ugašenu kožu i kožu sa prvim znacima starenja.
                             <div className="colInner thirdCol">
                                 <div className="kozmetikaBox">
                                     <div className="imgKozmetika">
-                                        <img src={kozmetikaTijelo} alt="" />
+                                        <img src={kozmetikaTijelo} alt="KOZMETIKA ZA TIJELO" />
                                     </div>
                                     <div className="_outer">
                                         <div className="_inner">
@@ -143,7 +143,7 @@ ugašenu kožu i kožu sa prvim znacima starenja.
                         <div className="colInner">
                                 <div className="kozmetikaBox">
                                     <div className="imgKozmetika">
-                                        <img src={linijaRegeneracija} alt="" />
+                                        <img src={linijaRegeneracija} alt="LINIJA ZA REGENERACIJU" />
                                     </div>
                                     <div className="_outer">
                                         <div className="_inner smallerPadding smallerMargin">
@@ -161,7 +161,7 @@ hidratacije, potrebno je da kožu zaštitimo i regenerišemo.
                             <div className="colInner secCol">
                                 <div className="kozmetikaBox">
                                     <div className="imgKozmetika">
-                                        <img src={linijaHidratacija} alt="" />
+                                        <img src={linijaHidratacija} alt="LINIJA ZA HIDRATACIJU" />
                                     </div>
                                     <div className="_outer">
                                         <div className="_inner">

@@ -110,7 +110,7 @@ const LinijaZaUcvrscivanje = () => {
                                     <img className='productImg' src={sampleImage1} alt="" />
                                     <p className='productBoxTitle'>KREMA ZA LICE ZA UČVRŠĆIVANJE</p>
                                     <p className='productBoxSubtitle'>Krema za učvršćivanje namijenjena je za tretiranje mlitave kože.</p>
-                                    <a className='productBoxButton' href=""><span><img src={eyeIcon} alt="" /></span>Pogledaj detaljnije</a>
+                                    <a className='productBoxButton' href="/kozmeticki-proizvodi/linija-za-ucvrscivanje/krema-za-lice-za-ucvrscivanje"><span><img src={eyeIcon} alt="" /></span>Pogledaj detaljnije</a>
                                 </div>
                             </div>
                         </div>
@@ -120,7 +120,7 @@ const LinijaZaUcvrscivanje = () => {
                                     <img className='productImg' src={sampleImage2} alt="" />
                                     <p className='productBoxTitle'>MASKA ZA UČVRŠĆIVANJE</p>
                                     <p className='productBoxSubtitle'>Namijenjena za tretiranje i njegu mlitave kože.</p>
-                                    <a className='productBoxButton' href=""><span><img src={eyeIcon} alt="" /></span>Pogledaj detaljnije</a>
+                                    <a className='productBoxButton' href="/kozmeticki-proizvodi/linija-za-ucvrscivanje/maska-za-ucvrscivanje"><span><img src={eyeIcon} alt="" /></span>Pogledaj detaljnije</a>
                                 </div>
                             </div>
                         </div>
@@ -130,7 +130,7 @@ const LinijaZaUcvrscivanje = () => {
                                     <img className='productImg' src={sampleImage3} alt="" />
                                     <p className='productBoxTitle'>AMPULE ZA UČVRŠĆIVANJE</p>
                                     <p className='productBoxSubtitle'>Anti-age tretman čiji je efekat odmah vidljiv.</p>
-                                    <a className='productBoxButton' href=""><span><img src={eyeIcon} alt="" /></span>Pogledaj detaljnije</a>
+                                    <a className='productBoxButton' href="/kozmeticki-proizvodi/linija-za-ucvrscivanje/ampule-za-ucvrscivanje"><span><img src={eyeIcon} alt="" /></span>Pogledaj detaljnije</a>
                                 </div>
                             </div>
                         </div>

@@ -83,7 +83,7 @@ Prepustite se moćima vitamina C. Osjetite njegov trostruki efekat: antioksidati
                                     <img className='productImg' src={sampleImage1} alt="" />
                                     <p className='productBoxTitle'>AMPULE ZA REVITALIZACIJU</p>
                                     <p className='productBoxSubtitle'>Postižu ujednačavanje tena kože.</p>
-                                    <a className='productBoxButton' href=""><span><img src={eyeIcon} alt="" /></span>Pogledaj detaljnije</a>
+                                    <a className='productBoxButton' href="/kozmeticki-proizvodi/linija-za-revitalizaciju/ampule-za-revitalizaciju"><span><img src={eyeIcon} alt="" /></span>Pogledaj detaljnije</a>
                                 </div>
                             </div>
                         </div>
@@ -93,7 +93,7 @@ Prepustite se moćima vitamina C. Osjetite njegov trostruki efekat: antioksidati
                                     <img className='productImg' src={sampleImage2} alt="" />
                                     <p className='productBoxTitle'>MASKA ZA REVITALIZACIJU</p>
                                     <p className='productBoxSubtitle'>Postižu ujednačavanje tena kože.</p>
-                                    <a className='productBoxButton' href=""><span><img src={eyeIcon} alt="" /></span>Pogledaj detaljnije</a>
+                                    <a className='productBoxButton' href="/kozmeticki-proizvodi/linija-za-revitalizaciju/maska-za-revitalizaciju"><span><img src={eyeIcon} alt="" /></span>Pogledaj detaljnije</a>
                                 </div>
                             </div>
                         </div>
@@ -103,7 +103,7 @@ Prepustite se moćima vitamina C. Osjetite njegov trostruki efekat: antioksidati
                                     <img className='productImg' src={sampleImage3} alt="" />
                                     <p className='productBoxTitle'>REVITALIZIRAJUĆI FACIJALNI FLUID</p>
                                     <p className='productBoxSubtitle'>Koži pruža blistavost i vitalnost.</p>
-                                    <a className='productBoxButton' href=""><span><img src={eyeIcon} alt="" /></span>Pogledaj detaljnije</a>
+                                    <a className='productBoxButton' href="/kozmeticki-proizvodi/linija-za-revitalizaciju/revitalizirajuci-facijalni-fluid"><span><img src={eyeIcon} alt="" /></span>Pogledaj detaljnije</a>
                                 </div>
                             </div>
                         </div>

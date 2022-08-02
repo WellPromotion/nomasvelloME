@@ -14,7 +14,8 @@ import greenCircle from '../../public/images/usluge/fotoepilacija/greenCircle.sv
 import turqCircle from '../../public/images/usluge/fotoepilacija/turqCircle.svg'
 import doctorIcon from '../../public/images/usluge/fotoepilacija/doctorIcon.svg'
 import doctorImg from '../../public/images/usluge/fotoepilacija/doctorImg.png'
-
+import FacijalniAntiAgePopup from '../../Components/popups/FacijalniAntiAgePopup';
+import FacijalniAntiAgePopupBottom from '../../Components/popups/FacijalniAntiAgePopupBottom';
 
 
 const Example = () => {
@@ -42,7 +43,8 @@ const FacijalniAntiAge = () => {
                     <div className="columns headerColsUsluge">
                         <div className="column titlePart has-text-centered">
                             <p className="titleUsluge">Facijalni Anti Age</p>
-                            <a href="https://www.figma.com" className="uslugeBtn">Naručite se</a>
+                            {/* <a href="https://www.figma.com" className="uslugeBtn">Naručite se</a> */}
+                            <FacijalniAntiAgePopup />
                         </div>
                     </div>
                 </div>
@@ -79,7 +81,7 @@ Facijalni anti-age tretman se može sprovesti na sljedećim zonama: lice, vrat i
                             <p className='ucinkovitostSub defaultText'>Ovaj tretman je učinkovit za usporavanje starenja kože, djeluje na ćelijskom nivou i stimuliše sistem apsorpcije svjetlosne energije koji posjeduje dermis. Svjetlost koju proizvode LED diode djeluje na mikroskopskom nivou što potiče obnavljanje ćelije i stimuliše <span className="greenSpan">proizvodnju kolagena i elastina, koji su odgovorni za nedostatak elastičnosti kože.</span></p>
                         </div>
                         <div className="column is-4">
-                            <img src={sample1} alt="" />
+                            <img src={sample1} alt="facijalni_anti_age" />
                         </div>
                     </div>
                 </div>
@@ -223,7 +225,7 @@ Broj sesija će zavisiti od nekoliko faktora, kao što su: starosna dob, tretira
                             <p className="rolonSub">
                             Uz LED svjetlost se koristi roll-on Serum protiv starenja koji sadrži kolagen zbog svog efekta zatezanja i fleksibilizacije kože. Lokalna primjena smanjuje naboranost kože povećavajući hidratiziranost i obnavljajući elastičnost svojstvenu kožnim tkivima. Ima antioksidantni efekat pri čemu se uništavaju slobodni radikali i hijaluronsku kiselinu koja ima hidratizirajuću funkciju.
                             </p>
-                            <a href="https://google.com" className="rolonButton">Pogledaj detalje</a>
+                            <a href="/kozmeticki-proizvodi/linija-za-hidrataciju/serum-protiv-starenja" className="rolonButton">Pogledaj detalje</a>
                         </div>
                     </div>
                     <div className="columns principi">
@@ -339,7 +341,8 @@ Broj sesija će zavisiti od nekoliko faktora, kao što su: starosna dob, tretira
                                     <p className="titleNarudzba">UŽIVAJTE U
 NAJBOLJOJ USLUZI FACIJALNOG ANTI AGE TRETMANA</p>
                                     <p className="subtitleNarudzba">U SVOM No+Vello® CENTRU!</p>
-                                    <a href="https://google.com" className="narudzbaButtonBottom">Naručite se</a>
+                                    {/* <a href="https://google.com" className="narudzbaButtonBottom">Naručite se</a> */}
+                                    <FacijalniAntiAgePopupBottom/>
                                 </div>
                             </div>
                         </div>

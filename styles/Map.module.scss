@@ -3,10 +3,17 @@
 
 .leftCol{
     width: 28.5rem;
+    @media only screen and (min-device-width : 320px) and (max-device-width : 480px) {
+      width: 24.5rem;
+      padding-bottom: 0;
+    }
     .titleBox{
       background-color: #0F1C49;
       width: 28.5rem;
       border-radius: 8px 0px 0px 0px;
+      @media only screen and (min-device-width : 320px) and (max-device-width : 480px) {
+        width: 24.5rem;
+      }
       p{
         font-weight: 400;
         font-size: 2rem;
@@ -19,6 +26,9 @@
     }
     .locationBox{
       width: 28.5rem;
+      @media only screen and (min-device-width : 320px) and (max-device-width : 480px) {
+        width: 24.5rem;
+      }
       .innerLocations{
         height: 33.438rem;
         max-height: 33.438rem;
@@ -72,17 +82,30 @@
   
   .rightCol{
     width: 73.5rem;
+    @media only screen and (min-device-width : 320px) and (max-device-width : 480px) {
+      width: 24.5rem;
+      padding-top: 0;
+    }
     
     .innerMap{
       width: 73.5rem;
       height: 41.5rem;
+      @media only screen and (min-device-width : 320px) and (max-device-width : 480px) {
+        width: 24.5rem;
+      }
       .iframe{
-        width: 73.5rem !important;
+        width: 73.5rem;
         height: 41.5rem !important;
+        @media only screen and (min-device-width : 320px) and (max-device-width : 480px) {
+          width: 24.5rem;
+        }
         &:first-child{
             position: absolute;
             width: 73.5rem;
             height: 41.5rem;
+            @media only screen and (min-device-width : 320px) and (max-device-width : 480px) {
+              width: 24.5rem;
+            }
         }
       }
     }
@@ -99,6 +122,9 @@
           align-items: center;
           justify-content: space-between;
           width: 22rem;
+          @media only screen and (min-device-width : 320px) and (max-device-width : 480px) {
+            width: 18rem;
+          }
 }
 
 

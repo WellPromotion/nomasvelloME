@@ -48,11 +48,11 @@ const Tehnologije = () => {
                                         Laser tehnologija
                                         </p>
                                         <p className='textSingleTeh'>
-                                        Iaculis arcu at maecenas vel, venenatis habitant id eget. Et lectus elit, scelerisque tortor diam. Egestas amet consectetur purus, tempus amet arcu. Est tempus pulvinar malesuada sed sit cras.
+                                        Laser je aparat koji radi na principu emitovanja svjetlosti na određenoj talasnoj dužini. Riječ laser je skraćenica od Light Amplification by Stimulated Emission of Radiation.
                                         </p>
                                     </div>
                                     <div className="linkTehnologije">
-                                    <Link href="https://nextjs.org/docs/api-reference/next/link"><a className="detaljnijeTehnologije greenButton">Pogledaj detaljnije</a></Link>
+                                    <Link href="/tehnologije/laser-tehnologija"><a className="detaljnijeTehnologije greenButton">Pogledaj detaljnije</a></Link>
                                     </div>
                                 </div>
                             </div>
@@ -66,11 +66,11 @@ const Tehnologije = () => {
                                         Ultrazvučna tehnologija
                                         </p>
                                         <p className='textSingleTeh'>
-                                        Iaculis arcu at maecenas vel, venenatis habitant id eget. Et lectus elit, scelerisque tortor diam. Egestas amet consectetur purus, tempus amet arcu. Est tempus pulvinar malesuada sed sit cras.
+                                        Ultrazvuk je emitovanje zvučnog talasa nečujnog za ljudsko uho, koji proizvodi termičke, mehaničke i hemijske promjene koje imaju korisne efekte za kožu. 
                                         </p>
                                     </div>
                                     <div className="linkTehnologije">
-                                    <Link href="https://nextjs.org/docs/api-reference/next/link"><a className="detaljnijeTehnologije greenButton">Pogledaj detaljnije</a></Link>
+                                    <Link href="/tehnologije/ultrazvucna-tehnologija"><a className="detaljnijeTehnologije greenButton">Pogledaj detaljnije</a></Link>
                                     </div>
                                 </div>
                             </div>
@@ -86,11 +86,11 @@ const Tehnologije = () => {
                                         IPL tehnologija
                                         </p>
                                         <p className='textSingleTeh'>
-                                        Iaculis arcu at maecenas vel, venenatis habitant id eget. Et lectus elit, scelerisque tortor diam. Egestas amet consectetur purus, tempus amet arcu. Est tempus pulvinar malesuada sed sit cras.
+                                        IPL (Intenzivna pulsirajuća svjetlost) je najmoderniji i najinovativniji sistem dugotrajne depilacije. Fotoepilacija ili fotopodmlađivanje se izvodi putem korištenja svjetlosti.
                                         </p>
                                     </div>
                                     <div className="linkTehnologije">
-                                    <Link href="https://nextjs.org/docs/api-reference/next/link"><a className="detaljnijeTehnologije greenButton">Pogledaj detaljnije</a></Link>
+                                    <Link href="/tehnologije/ipl-tehnologija"><a className="detaljnijeTehnologije greenButton">Pogledaj detaljnije</a></Link>
                                     </div>
                                 </div>
                             </div>
@@ -104,11 +104,11 @@ const Tehnologije = () => {
                                         Sun & Safe
                                         </p>
                                         <p className='textSingleTeh'>
-                                        Iaculis arcu at maecenas vel, venenatis habitant id eget. Et lectus elit, scelerisque tortor diam. Egestas amet consectetur purus, tempus amet arcu. Est tempus pulvinar malesuada sed sit cras.
+                                        Sun&Safe značajno smanjuje vrijeme čekanja za izlaganje sunčevim ili UVA zrakama: od 15 dana na 2 dana prije i poslije tretmana i omogućava da imamo depiliranu kožu tokom čitave godine.
                                         </p>
                                     </div>
                                     <div className="linkTehnologije">
-                                    <Link href="https://nextjs.org/docs/api-reference/next/link"><a className="detaljnijeTehnologije greenButton">Pogledaj detaljnije</a></Link>
+                                    <Link href="/tehnologije/sun-and-safe"><a className="detaljnijeTehnologije greenButton">Pogledaj detaljnije</a></Link>
                                     </div>
                                 </div>
                             </div>
@@ -124,11 +124,11 @@ const Tehnologije = () => {
                                         LED tehnologija
                                         </p>
                                         <p className='textSingleTeh'>
-                                        Iaculis arcu at maecenas vel, venenatis habitant id eget. Et lectus elit, scelerisque tortor diam. Egestas amet consectetur purus, tempus amet arcu. Est tempus pulvinar malesuada sed sit cras.
+                                        LED uređaj djeluje kombinovano: fototerapija, fotoporacija i aktivni proizvod koji udruženo održavaju osnovne kvalitete kože, hidratizuje i hrane kožu, smanjuju probleme masne kože...
                                         </p>
                                     </div>
                                     <div className="linkTehnologije">
-                                    <Link href="https://nextjs.org/docs/api-reference/next/link"><a className="detaljnijeTehnologije greenButton">Pogledaj detaljnije</a></Link>
+                                    <Link href="/tehnologije/led-tehnologija"><a className="detaljnijeTehnologije greenButton">Pogledaj detaljnije</a></Link>
                                     </div>
                                 </div>
                             </div>
@@ -142,11 +142,11 @@ const Tehnologije = () => {
                                         Ljekarska podrška
                                         </p>
                                         <p className='textSingleTeh'>
-                                        Iaculis arcu at maecenas vel, venenatis habitant id eget. Et lectus elit, scelerisque tortor diam. Egestas amet consectetur purus, tempus amet arcu. Est tempus pulvinar malesuada sed sit cras.
+                                        No+Vello centri sudjeluju s kvalificiranim stručnjacima i ljekarima na području svjetlosne terapije, estetike i dermatologije te tako pružaju centrima svu stručnu pomoć i podršku.
                                         </p>
                                     </div>
                                     <div className="linkTehnologije">
-                                    <Link href="https://nextjs.org/docs/api-reference/next/link"><a className="detaljnijeTehnologije greenButton">Pogledaj detaljnije</a></Link>
+                                    <Link href="/tehnologije/ljekarska-podrska"><a className="detaljnijeTehnologije greenButton">Pogledaj detaljnije</a></Link>
                                     </div>
                                 </div>
                             </div>

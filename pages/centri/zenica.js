@@ -1,10 +1,10 @@
 import React from 'react'
 import Link from 'next/link';
 import pointImg from '../../public/images/centri/point.png';
-import { MostarGallery } from '../../Components/centri/MostarGallery';
+import { ZenicaGallery } from '../../Components/centri/ZenicaGallery';
 import checkGreen from '../../public/images/centri/check.png';
 import greenSphere from '../../public/images/centri/sphere.png';
-
+import ZenicaPopup from '../../Components/popups/ZenicaPopup';
 
 const Zenica = () => {
     return (
@@ -48,13 +48,14 @@ const Zenica = () => {
                                     </div>
                                 </div>
                             </div>
-                            <Link href="https://nextjs.org/docs/api-reference/next/link">
+                            {/* <Link href="https://nextjs.org/docs/api-reference/next/link">
                             <a className="naruciBtnCentri greenButton">Naručite se</a>
-                            </Link>
+                            </Link> */}
+                            <ZenicaPopup />
                         </div>
                         <div className="column is-8">
                             <div className="sliderCentar">
-                           <MostarGallery />
+                           <ZenicaGallery />
                             </div>
                             <div className="centarPonuda">
                                 <div className="centarPonudaInner">
@@ -122,7 +123,7 @@ const Zenica = () => {
                                             </div>
                                         </div>
 
-                                        <Link href="https://nextjs.org/docs/api-reference/next/link">
+                                        <Link href="/centri/sarajevo-i">
                                         <a className="cityDetailsBtn turqButton">Vidi sve detalje</a>
                                         </Link>
                                     </div>
@@ -151,7 +152,7 @@ const Zenica = () => {
                                                 </div>
                                             </div>
                                         </div>
-                                        <Link href="https://nextjs.org/docs/api-reference/next/link">
+                                        <Link href="/centri/sarajevo-ii">
                                         <a className="cityDetailsBtn turqButton">Vidi sve detalje</a>
                                         </Link>
                                     </div>
@@ -181,7 +182,7 @@ const Zenica = () => {
                                                 </div>
                                             </div>
                                         </div>
-                                        <Link href="https://nextjs.org/docs/api-reference/next/link">
+                                        <Link href="/centri/sarajevo-iii">
                                         <a className="cityDetailsBtn turqButton">Vidi sve detalje</a>
                                         </Link>
                                     </div>

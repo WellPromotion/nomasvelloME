@@ -28,8 +28,8 @@ export const TestimonialCarousel = () => {
         <Carousel.Item>
             <div className="testimonialSlide">
                 <div className="testimonialInner">
-                    <p className="testimonialTitle">Toplo preporucujem!</p>
-                    <p className="testimonialSubtitle">Imala sam problema sa rastom dlaka kao i sa urastanjem, a sve je to nestalo redovnim tretmanima u No-Vellu. Sada nakon što sam postigla željeni rezultat, idem samo 1 ili 2 puta godišnje na održavanje. Osim što je na duže staze ekonomičnija opcija, mogu iskreno reći da je tretman fotoepilacijom i dosta manje bolan od običnih depilacija. Toplo preporučujem!</p>
+                    <p className="testimonialTitle">Mogu samo dalje da preporučim</p>
+                    <p className="testimonialSubtitle">Nakon 6 tretmana fotoepilacije – komplet nogu i bikini zone, ovako nešto mogu samo dalje da preporučim svakome želi efikasno i povoljno da se riješi dlaka. Vjerujte mi, sada tek vidim koliko sam uštedjela novaca i vremena kroz tretmane kod No+Vello.</p>
                 </div>
                 <div className="testimonialBellow">
                     <img className="testionialImg" src={testionialImg} alt="" />
@@ -41,26 +41,26 @@ export const TestimonialCarousel = () => {
             <Carousel.Item>
             <div className="testimonialSlide">
                 <div className="testimonialInner">
-                    <p className="testimonialTitle">Toplo preporucujem!</p>
-                    <p className="testimonialSubtitle">Imala sam problema sa rastom dlaka kao i sa urastanjem, a sve je to nestalo redovnim tretmanima u No-Vellu. Sada nakon što sam postigla željeni rezultat, idem samo 1 ili 2 puta godišnje na održavanje. Osim što je na duže staze ekonomičnija opcija, mogu iskreno reći da je tretman fotoepilacijom i dosta manje bolan od običnih depilacija. Toplo preporučujem!</p>
+                    <p className="testimonialTitle">Stručno i ljubazno osoblje</p>
+                    <p className="testimonialSubtitle">Stručno i ljubazno osoblje koje ima odgovor na sva moja pitanja; konsultacija s dermatologom; ugodan, moderan i relaksirajući ambijent.</p>
                 </div>
                 <div className="testimonialBellow">
                     <img className="testionialImg" src={testionialImg} alt="" />
-                    <p className="testimonialName">Majda Vuk</p>
-                    <p className="testimonialTown">Mostar</p>
+                    <p className="testimonialName">Eldina Zukić</p>
+                    <p className="testimonialTown">Sarajevo</p>
                 </div>
             </div>
             </Carousel.Item>
             <Carousel.Item>
             <div className="testimonialSlide">
                 <div className="testimonialInner">
-                    <p className="testimonialTitle">Toplo preporucujem!</p>
+                    <p className="testimonialTitle">Toplo preporučujem!</p>
                     <p className="testimonialSubtitle">Imala sam problema sa rastom dlaka kao i sa urastanjem, a sve je to nestalo redovnim tretmanima u No-Vellu. Sada nakon što sam postigla željeni rezultat, idem samo 1 ili 2 puta godišnje na održavanje. Osim što je na duže staze ekonomičnija opcija, mogu iskreno reći da je tretman fotoepilacijom i dosta manje bolan od običnih depilacija. Toplo preporučujem!</p>
                 </div>
                 <div className="testimonialBellow">
                     <img className="testionialImg" src={testionialImg} alt="" />
-                    <p className="testimonialName">Majda Vuk</p>
-                    <p className="testimonialTown">Mostar</p>
+                    <p className="testimonialName">Ivana Vujaković</p>
+                    <p className="testimonialTown">Banja Luka</p>
                 </div>
             </div>
             </Carousel.Item>

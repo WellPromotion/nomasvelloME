@@ -55,8 +55,7 @@ export const Footer = () => {
                                 <a href="/centri/tuzla" className="footerLink isGreen">Tuzla</a><span> / </span>
                                 <a href="/centri/zenica" className="footerLink isGreen">Zenica</a><span> / </span>
                                 <a href="/centri/doboj" className="footerLink isGreen">Doboj</a><span> / </span>
-                                <a href="/centri/brcko" className="footerLink isGreen">Brčko</a><span> / </span>
-                                <a href="/centri/teslic" className="footerLink isGreen">Teslić</a>
+                                <a href="/centri/brcko" className="footerLink isGreen">Brčko</a>
                             </div>
                         </div>
                         <div className="column thirdColumn is-2">
@@ -78,10 +77,10 @@ export const Footer = () => {
                                     Naše tehnologije
                                 </p>
                                 <ul className="technologiesList">
-                                    <li><a href="/tehnologije/ipl-tehnologija">IPL Technology</a></li>
-                                    <li><a href="/tehnologije/laser-tehnologija">Laser Technology</a></li>
+                                    <li><a href="/tehnologije/ipl-tehnologija">IPL Tehnologija</a></li>
+                                    <li><a href="/tehnologije/laser-tehnologija">Laser Tehnologija</a></li>
                                     <li><a href="/tehnologije/sun-and-safe">Sun & Safe</a></li>
-                                    <li><a href="/tehnologije/led-tehnologija">LED Technology</a></li>
+                                    <li><a href="/tehnologije/led-tehnologija">LED Tehnologija</a></li>
                                 </ul>
                             </div>
                         </div>

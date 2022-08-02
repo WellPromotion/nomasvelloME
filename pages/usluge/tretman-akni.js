@@ -15,8 +15,8 @@ import turqCircle from '../../public/images/usluge/fotoepilacija/turqCircle.svg'
 import doctorIcon from '../../public/images/usluge/fotoepilacija/doctorIcon.svg'
 import doctorImg from '../../public/images/usluge/fotoepilacija/doctorImg.png'
 import Breadcrumbs from 'nextjs-breadcrumbs';
-
-
+import TretmanAkniPopup from '../../Components/popups/TretmanAkniPopup';
+import TretmanAkniPopupBottom from '../../Components/popups/TretmanAkniPopupBottom';
 
 const Example = () => {
     return <Breadcrumbs useDefaultStyle rootLabel="Početna"
@@ -42,7 +42,8 @@ const TretmanAkni = () => {
                     <div className="columns headerColsUsluge">
                         <div className="column titlePart has-text-centered">
                             <p className="titleUsluge">Tretman akni</p>
-                            <a href="https://www.figma.com" className="uslugeBtn">Naručite se</a>
+                            {/* <a href="https://www.figma.com" className="uslugeBtn">Naručite se</a> */}
+                            <TretmanAkniPopup/>
                         </div>
                     </div>
                 </div>
@@ -149,7 +150,7 @@ potpuno besplatan pregled lica</p>
                                         </div>
                                         <p className='doctorSub'>Radi vase sigurnosti, Centri No+Vello <br />
                                             raspolazu ljekarskom podrskom</p>
-                                        <a href="https://google.com" className="doctorButton">Pogledaj lokacije centara</a>
+                                        <a href="/centri" className="doctorButton">Pogledaj lokacije centara</a>
                                     </div>
                                 </div>
                             </div>
@@ -183,7 +184,7 @@ potpuno besplatan pregled lica</p>
                             <div className="singleItemTop">
                                     <div className="inner">
                                         <p className="title">Zona</p>
-                                        <p className="price">Cijene</p>
+                                        <p className="price">Cijena</p>
                                     </div>
                                 </div>
                             <div className="singleItem upperItem">
@@ -212,7 +213,8 @@ potpuno besplatan pregled lica</p>
                                     <p className="titleNarudzba">UŽIVAJTE U
 NAJBOLJOJ USLUZI TRETMANA AKNI</p>
                                     <p className="subtitleNarudzba">U SVOM No+Vello® CENTRU!</p>
-                                    <a href="https://google.com" className="narudzbaButtonBottom">Naručite se</a>
+                                    {/* <a href="https://google.com" className="narudzbaButtonBottom">Naručite se</a> */}
+                                    <TretmanAkniPopupBottom/>
                                 </div>
                             </div>
                         </div>

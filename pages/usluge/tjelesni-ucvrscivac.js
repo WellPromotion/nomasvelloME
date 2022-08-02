@@ -13,7 +13,8 @@ import greenCircle from '../../public/images/usluge/fotoepilacija/greenCircle.sv
 import turqCircle from '../../public/images/usluge/fotoepilacija/turqCircle.svg'
 import doctorIcon from '../../public/images/usluge/fotoepilacija/doctorIcon.svg'
 import doctorImg from '../../public/images/usluge/fotoepilacija/doctorImg.png'
-
+import TjelesniUcvrscivacPopup from '../../Components/popups/TjelesniUcvrscivacPopup';
+import TjelesniUcvrscivacPopupBottom from '../../Components/popups/TjelesniUcvrscivacPopupBottom';
 
 
 const Example = () => {
@@ -41,7 +42,8 @@ const TjelesniUcvrscivac = () => {
                     <div className="columns headerColsUsluge">
                         <div className="column titlePart has-text-centered">
                             <p className="titleUsluge">Tjelesni učvršćivač</p>
-                            <a href="https://www.figma.com" className="uslugeBtn">Naručite se</a>
+                            {/* <a href="https://www.figma.com" className="uslugeBtn">Naručite se</a> */}
+                            <TjelesniUcvrscivacPopup/>
                         </div>
                     </div>
                 </div>
@@ -179,7 +181,7 @@ No+Vello Hidrozaštitnom emulzijom za lice i tijelo.</p>
                             <p className="rolonSub">
                             Uz LED svjetlost se koristi Gel anticelulitni reduktor CountourActif. Njegova ekskluzivna formula na bazi fukus algi, karnitina, guarane i mentola, stimuliše sagorijevanje masnoća i sprečava nagomilavanje adipoznog tkiva. Uz nanošenje dva puta dnevno, pomaže pri smanjivanju obima na lokalizovanim zonama, tonificira i daje čvrstoću koži.
                             </p>
-                            <a href="https://google.com" className="rolonButton">Pogledaj detalje</a>
+                            <a href="/kozmeticki-proizvodi/kozmetika-za-tijelo" className="rolonButton">Pogledaj detalje</a>
                         </div>
                     </div>
                     <div className="columns principi">
@@ -299,7 +301,8 @@ lokalizovanih masnih naslaga.</p>
                                     <p className="titleNarudzba">UŽIVAJTE U
 NAJBOLJOJ USLUZI TJELESNOG učvršćivanja</p>
                                     <p className="subtitleNarudzba">U SVOM No+Vello® CENTRU!</p>
-                                    <a href="https://google.com" className="narudzbaButtonBottom">Naručite se</a>
+                                    {/* <a href="https://google.com" className="narudzbaButtonBottom">Naručite se</a> */}
+                                    <TjelesniUcvrscivacPopupBottom/>
                                 </div>
                             </div>
                         </div>

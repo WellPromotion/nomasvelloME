@@ -16,7 +16,8 @@ import turqCircle from '../../public/images/usluge/fotoepilacija/turqCircle.svg'
 import doctorIcon from '../../public/images/usluge/fotoepilacija/doctorIcon.svg'
 import doctorImg from '../../public/images/usluge/fotoepilacija/doctorImg.png'
 import Breadcrumbs from 'nextjs-breadcrumbs';
-
+import PersonalizovaniTretmanLicaPopup from '../../Components/popups/PersonalizovaniTretmanLicaPopup';
+import PersonalizovaniTretmanLicaPopupBottom from '../../Components/popups/PersonalizovaniTretmanLicaPopupBottom';
 
 
 const Example = () => {
@@ -44,7 +45,8 @@ const PersonalizovaniTretmanLica = () => {
                     <div className="columns headerColsUsluge">
                         <div className="column titlePart has-text-centered">
                             <p className="titleUsluge">Personalizovani tretmani lica</p>
-                            <a href="https://www.figma.com" className="uslugeBtn">Naručite se</a>
+                            {/* <a href="https://www.figma.com" className="uslugeBtn">Naručite se</a> */}
+                            <PersonalizovaniTretmanLicaPopup/>
                         </div>
                     </div>
                 </div>
@@ -70,7 +72,7 @@ potpuno besplatne profesionalne procjene!
                 <div className="container">
                     <div className="columns njegaKozeCols level">
                         <div className="column imgCol is-4">
-                            <img src={sample1} alt="" />
+                            <img src={sample1} alt="personalizovani_tretmani_lica_uredjaj" />
                         </div>
                         <div className="column txtCol is-5">
                             <p className="njegakozeTitle">Njega kože od samog početka je najbolja
@@ -125,7 +127,7 @@ osnova da se održimo mladima u budućnosti. </p>
                     </div>
                     <div className="columns imgCols">
                         <div className="column has-text-centered">
-                           <img src={sample2} alt="" />
+                           <img src={sample2} alt="personalizovani_tretmani_lica" />
                         </div>
                     </div>
                 </div>
@@ -167,18 +169,18 @@ osnova da se održimo mladima u budućnosti. </p>
                         <div className="column">
                             <div className="columns is-gapless boxCols">
                                 <div className="column imgCol is-3">
-                                <img src={sample3} alt="" />
+                                <img src={sample3} alt="besplatan_pregled_lica" />
                                 </div>
                                 <div className="column txtCol is-5">
                                     <div className="inner">
                                         <div className="titlePart">
-                                            <img src={doctorIcon} className="doctorIcon" alt="" />
+                                            <img src={doctorIcon} className="doctorIcon" alt="besplatan_pregled_lica" />
                                             <p className="doctorTitle">Pozivamo vas da dodjete u nas centar na
 potpuno besplatan pregled lica</p>
                                         </div>
                                         <p className='doctorSub'>Radi vase sigurnosti, Centri No+Vello <br />
                                             raspolazu ljekarskom podrskom</p>
-                                        <a href="https://google.com" className="doctorButton">Pogledaj lokacije centara</a>
+                                        <a href="/centri" className="doctorButton">Pogledaj lokacije centara</a>
                                     </div>
                                 </div>
                             </div>
@@ -203,7 +205,7 @@ potpuno besplatan pregled lica</p>
                     <div className="columns priceTagCols level">
                         <div className="column txtCol">
                             <p className="pozivamoVas">
-                            Pozivamo vas da dodjete u nas Centar na potpuno <br /> besplatan probni tretman
+                            Pozivamo vas da dođete u naš Centar na potpuno <br /> besplatan probni tretman
                             </p>
                         </div>
                     </div>
@@ -222,7 +224,8 @@ potpuno besplatan pregled lica</p>
                                     <p className="titleNarudzba">UŽIVAJTE U
 NAJBOLJOJ USLUZI PERSONALIZOVANOG TRETMANA LICA</p>
                                     <p className="subtitleNarudzba">U SVOM No+Vello® CENTRU!</p>
-                                    <a href="https://google.com" className="narudzbaButtonBottom">Naručite se</a>
+                                    {/* <a href="https://google.com" className="narudzbaButtonBottom">Naručite se</a> */}
+                                    <PersonalizovaniTretmanLicaPopupBottom/>
                                 </div>
                             </div>
                         </div>

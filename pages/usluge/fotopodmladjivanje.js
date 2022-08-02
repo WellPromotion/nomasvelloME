@@ -12,8 +12,8 @@ import greenCircle from '../../public/images/usluge/fotoepilacija/greenCircle.sv
 import turqCircle from '../../public/images/usluge/fotoepilacija/turqCircle.svg'
 import doctorIcon from '../../public/images/usluge/fotoepilacija/doctorIcon.svg'
 import doctorImg from '../../public/images/usluge/fotoepilacija/doctorImg.png'
-
-
+import FotopodmladjivanjePopup from '../../Components/popups/FotopodmladjivanjePopup';
+import FotopodmladjivanjePopupBottom from '../../Components/popups/FotopodmladjivanjePopupBottom';
 
 const Example = () => {
     return <Breadcrumbs useDefaultStyle rootLabel="Početna"
@@ -40,7 +40,8 @@ const Fotopodmlađivanje = () => {
                     <div className="columns headerColsUsluge">
                         <div className="column titlePart has-text-centered">
                             <p className="titleUsluge">Fotopodmlađivanje</p>
-                            <a href="https://www.figma.com" className="uslugeBtn">Naručite se</a>
+                            {/* <a href="https://www.figma.com" className="uslugeBtn">Naručite se</a> */}
+                            <FotopodmladjivanjePopup />
                         </div>
                     </div>
                 </div>
@@ -239,7 +240,8 @@ Ne postoji ni minimalna ni maksimalna dobna starost za ovu vrstu tretmana.</p>
                                     <p className="titleNarudzba">UŽIVAJTE U <br />
 NAJBOLJOJ USLUZI FOTOPODMLAĐIVANJA</p>
                                     <p className="subtitleNarudzba">U SVOM No+Vello® CENTRU!</p>
-                                    <a href="https://google.com" className="narudzbaButtonBottom">Naručite se</a>
+                                    {/* <a href="https://google.com" className="narudzbaButtonBottom">Naručite se</a> */}
+                                    <FotopodmladjivanjePopupBottom/>
                                 </div>
                             </div>
                         </div>

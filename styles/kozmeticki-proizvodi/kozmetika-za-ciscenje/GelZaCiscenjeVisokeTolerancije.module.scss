@@ -2,6 +2,7 @@
 
 
 .breadcrumbsGel{
+    position: relative;
     &::before{
         content: url('../../../public/images/kozmeticki-proizvodi/kozmetikaCiscenje/gel-za-ciscenje-visoke-tolerancije/greenLeft.svg');
         position: absolute;

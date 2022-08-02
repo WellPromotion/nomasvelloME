@@ -78,9 +78,9 @@ const LinijaZaRegeneraciju = () => {
                             <div className="kozmetikeProductBox">
                                 <div className="_inner">
                                     <img className='productImg' src={sampleImage1} alt="" />
-                                    <p className='productBoxTitle'>AMPULE ZA REVITALIZACIJU</p>
-                                    <p className='productBoxSubtitle'>Postižu ujednačavanje tena kože.</p>
-                                    <a className='productBoxButton' href=""><span><img src={eyeIcon} alt="" /></span>Pogledaj detaljnije</a>
+                                    <p className='productBoxTitle'>HIDROZAŠTITNA EMULZIJA</p>
+                                    <p className='productBoxSubtitle'>Sa visokom koncentracijom aloe vera i ulja ploda čileanske ruže.</p>
+                                    <a className='productBoxButton' href="/kozmeticki-proizvodi/linija-za-regeneraciju/hidrozastitna-emulzija-za-lice-i-tijelo"><span><img src={eyeIcon} alt="" /></span>Pogledaj detaljnije</a>
                                 </div>
                             </div>
                         </div>
@@ -88,9 +88,9 @@ const LinijaZaRegeneraciju = () => {
                         <div className="kozmetikeProductBox">
                                 <div className="_inner">
                                     <img className='productImg' src={sampleImage2} alt="" />
-                                    <p className='productBoxTitle'>MASKA ZA REVITALIZACIJU</p>
-                                    <p className='productBoxSubtitle'>Postižu ujednačavanje tena kože.</p>
-                                    <a className='productBoxButton' href=""><span><img src={eyeIcon} alt="" /></span>Pogledaj detaljnije</a>
+                                    <p className='productBoxTitle'>MASKA ZA REGENERACIJU</p>
+                                    <p className='productBoxSubtitle'>Aloe vera maska umiruje, hidratizira i regeneriše kožu.</p>
+                                    <a className='productBoxButton' href="/kozmeticki-proizvodi/linija-za-regeneraciju/maska-za-regeneraciju"><span><img src={eyeIcon} alt="" /></span>Pogledaj detaljnije</a>
                                 </div>
                             </div>
                         </div>

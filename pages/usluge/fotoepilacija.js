@@ -12,8 +12,8 @@ import greenCircle from '../../public/images/usluge/fotoepilacija/greenCircle.sv
 import turqCircle from '../../public/images/usluge/fotoepilacija/turqCircle.svg'
 import doctorIcon from '../../public/images/usluge/fotoepilacija/doctorIcon.svg'
 import doctorImg from '../../public/images/usluge/fotoepilacija/doctorImg.png'
-
-
+import FotoepilacijaPopup from '../../Components/popups/FotoepilacijaPopup';
+import FotoepilacijaPopupBottom from '../../Components/popups/FotoepilacijaPopupBottom';
 
 const Example = () => {
     return <Breadcrumbs useDefaultStyle rootLabel="Početna"
@@ -40,7 +40,8 @@ const Fotoepilacija = () => {
                         <div className="column titlePart has-text-centered">
                             <p className="titleUsluge">FOTOEPILACIJA</p>
                             <p className="subtitleUsluge">Aparati sa tehnologijom posljednje generacije</p>
-                            <a href="https://www.figma.com" className="uslugeBtn">Naručite se</a>
+                            {/* <a href="https://www.figma.com" className="uslugeBtn">Naručite se</a> */}
+                            <FotoepilacijaPopup />
                         </div>
                     </div>
                 </div>
@@ -182,17 +183,17 @@ const Fotoepilacija = () => {
                             <div className="lokacijeBox">
                                 <div className="inner">
                                     <div className="top">
-                                        <img src={doctorIcon} className="doctorIcon" alt="" />
+                                        <img src={doctorIcon} className="doctorIcon" alt="fotoepilacija-ljekarska-podrska" />
                                         <p className="podrskaTitle">Radi vaše sigurnosti, Centri No+Vello
 raspolažu ljekarskom podrškom</p>
                                     </div>
                                     <p className="topSub">Posjetite NO+VELLO CENTRE i posavjetujte se <br />
                                         sa našim stručnim timom</p>
                                     <div className="bottom">
-                                        <a href="https://google.com" className='lokacijeButton'>Pogledaj lokacije centara</a>
+                                        <a href="/centri" className='lokacijeButton'>Pogledaj lokacije centara</a>
                                     </div>
                                 </div>
-                                <img src={doctorImg} className="doctorImg" alt="" />
+                                <img src={doctorImg} className="doctorImg" alt="fotoepilacija-ljekarska-podrska" />
                             </div>
                         </div>
                     </div>
@@ -304,7 +305,7 @@ Fotoepilacija pulsirajućom svjetlošću predstavlja praktično bezbolan tretman
                     <div className="column leftCol">
                         <div className="priceBox">
                             <div className="inner">
-                                <img src={priceTag} className="priceTag" alt="" />
+                                <img src={priceTag} className="priceTag" alt="49 KM - Cijena laserske epilacije po zoni" />
                                 <p className="priceTitle">
                                 49KM Zona
                                 </p>
@@ -315,7 +316,7 @@ Fotoepilacija pulsirajućom svjetlošću predstavlja praktično bezbolan tretman
                         </div>
                     </div>
                     <div className="column">
-                        <img className='diodniIMG' src={priceTwo} alt="" />
+                        <img className='diodniIMG' src={priceTwo} alt="49 KM - Cijena laserske epilacije po zoni" />
                     </div>
                     </div>
                     
@@ -342,7 +343,8 @@ Fotoepilacija pulsirajućom svjetlošću predstavlja praktično bezbolan tretman
                                 <div className="inner">
                                     <p className="titleNarudzba">UŽIVAJTE U NAJBOLJOJ FOTOEPILACIJI</p>
                                     <p className="subtitleNarudzba">U SVOM No+Vello® CENTRU!</p>
-                                    <a href="https://google.com" className="narudzbaButtonBottom">Naručite se</a>
+                                    {/* <a href="https://google.com" className="narudzbaButtonBottom">Naručite se</a> */}
+                                    <FotoepilacijaPopupBottom/>
                                 </div>
                             </div>
                         </div>

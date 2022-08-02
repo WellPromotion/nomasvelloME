@@ -64,7 +64,7 @@ const IPLTehnologija = () => {
                         </div>
                         <div className="column is-right">
                             <div className="_innerImage">
-                                <img src={diodniLaserSampleImg} alt="" />
+                                <img src={diodniLaserSampleImg} alt="ipl_tehnologija_1" />
                             </div>
                         </div>
                     </div>
@@ -109,7 +109,7 @@ const IPLTehnologija = () => {
                         </div>
                         <div className="column is-right">
                             <div className="_innerImage">
-                                <img src={aparatiIPLImg} alt="" />
+                                <img src={aparatiIPLImg} alt="ipl_tehnologija_2" />
                             </div>
                         </div>
                     </div>
@@ -158,7 +158,7 @@ sa IPL tehnologijom?
                                
                                 <div className="buttonPonuda">
                                    
-                                <a href="" className='turqButton buttPonuda'>
+                                <a href="/usluge/fotoepilacija" className='turqButton buttPonuda'>
                                         Pogledaj naše usluge
                                         </a>
                                    
