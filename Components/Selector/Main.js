@@ -105,7 +105,13 @@ export default function Main(props) {
       selected: false,
       sidebar: false,
     },
-    { id: 14, title: "Nausnice", price: 25, selected: false, sidebar: false },
+    {
+      id: 14,
+      title: "Nausnice (25 KM)",
+      price: 25,
+      selected: false,
+      sidebar: false,
+    },
     {
       id: 15,
       title: "Između obrva (25 KM)",
