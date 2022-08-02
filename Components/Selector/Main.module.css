@@ -1,0 +1,251 @@
+#selector__wrap {
+  position: relative;
+  background: radial-gradient(
+    38.05% 65.81% at 36.24% 50%,
+    #ffffff 0%,
+    #eef2f3 100%
+  );
+  border: 2px solid #f1f2f4;
+  border-radius: 20px;
+  width: 100%;
+}
+
+.nav__gender {
+  position: absolute;
+  left: 0;
+  top: 0;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  margin: 36px 40px;
+}
+
+.btn__gender {
+  background-color: #000000;
+  border: 1px solid #000000;
+  border-radius: 8px;
+  margin: 0;
+  padding: 0;
+  width: 45px;
+  height: 40px;
+  cursor: pointer;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-right: 6px;
+  transition: cubic-bezier(0.19, 1, 0.22, 1) all 0.2s;
+}
+
+.btn__gender svg path {
+  fill: #ffffff;
+}
+
+.btn__gender__not {
+  background-color: transparent;
+  border: 1px solid #000000;
+  border-radius: 8px;
+  margin: 0;
+  padding: 0;
+  width: 45px;
+  height: 40px;
+  cursor: pointer;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-right: 6px;
+  transition: cubic-bezier(0.19, 1, 0.22, 1) all 0.2s;
+}
+
+.btn__gender:hover {
+  background-color: #000000;
+}
+
+.btn__gender:hover svg path {
+  fill: #ffffff;
+}
+
+.sidebar__wrap {
+  position: absolute;
+  right: 0;
+  top: 0;
+  height: calc(100% - 72px);
+  margin: 36px 40px;
+  padding: 16px;
+  width: 270px;
+  background: #ffffff;
+  border: 1px solid #f5f5f5;
+  border-radius: 8px;
+  overflow: hidden;
+}
+
+.sidebar__head {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 24px;
+}
+
+.sidebar__head span {
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 24px;
+  color: #000000;
+}
+
+.box__elem {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background: #f5f5f5;
+  border-radius: 8px;
+  padding: 12px 16px;
+  margin-bottom: 6px;
+}
+
+.box__elem span:first-child {
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 20px;
+  color: #000000;
+  width: 70%;
+}
+
+.box__elem span:last-child {
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 20px;
+  color: #000000;
+}
+
+.total__elem {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background: #43b5b5;
+  border-radius: 8px;
+  padding: 12px 16px;
+  margin-bottom: 6px;
+}
+
+.total__elem span {
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 24px;
+  color: #ffffff;
+}
+
+.total__elem span:last-child {
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 24px;
+  color: #ffffff;
+}
+
+.btn__reset {
+  background: #000000;
+  border-radius: 8px;
+  padding: 12px 16px;
+  border: 0;
+  margin-bottom: 6px;
+  width: 100%;
+  cursor: pointer;
+  transition: cubic-bezier(0.215, 0.61, 0.355, 1) all 0.2s;
+}
+
+.btn__reset:hover {
+  background: #9ebb31;
+}
+
+.btn__reset span {
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 24px;
+  color: #ffffff;
+}
+
+.sidebar__footer {
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  width: 100%;
+  padding: 16px;
+  background-color: #ffffff;
+}
+
+.main__selector {
+  height: 46rem;
+  width: 23rem;
+  margin-left: 24%;
+  padding-top: 60px;
+  padding-bottom: 60px;
+}
+
+.service__elem {
+  transition: cubic-bezier(0.445, 0.05, 0.55, 0.95) all 0.2s;
+  cursor: pointer;
+}
+
+.active__elem {
+  fill: #9ebb31 !important;
+  cursor: pointer;
+  transition: cubic-bezier(0.445, 0.05, 0.55, 0.95) all 0.2s;
+}
+
+.service__elem:hover {
+  fill: #9ebb31 !important;
+}
+
+.service__elem__2nd {
+  transition: cubic-bezier(0.445, 0.05, 0.55, 0.95) all 0.2s;
+  cursor: pointer;
+}
+
+.active__elem__2nd {
+  fill: #43b5b5 !important;
+  cursor: pointer;
+  transition: cubic-bezier(0.445, 0.05, 0.55, 0.95) all 0.2s;
+}
+
+.service__elem__2nd:hover {
+  fill: #43b5b5 !important;
+}
+
+.sidebar__body {
+  height: calc(100% - 11rem);
+  overflow-y: scroll;
+}
+
+@media only screen and (max-width: 1000px) {
+  .sidebar__wrap {
+    position: relative;
+    width: 100%;
+    margin: 0;
+    height: 40rem;
+  }
+  .main__selector {
+    margin-left: 0;
+    width: 100%;
+    padding-left: 1.5rem;
+    padding-right: 1.5rem;
+    margin-top: 2rem;
+  }
+  #selector__wrap {
+    width: 100%;
+    display: flex;
+    flex-direction: column-reverse;
+  }
+  .nav__gender {
+    margin-left: 1.5rem;
+    margin-top: 2rem;
+  }
+}
+
+.tooltip {
+  border-radius: 4px;
+  padding: 0.5rem 1rem;
+  background-color: #43b5b5;
+  color: #fff;
+  backface-visibility: hidden;
+  visibility: visible;
+  transition: transform 0.3s, opacity 0.2s 0.1s;
+}
