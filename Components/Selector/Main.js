@@ -183,7 +183,7 @@ export default function Main(props) {
             onClick={() =>
               setServices((current) =>
                 current.map((obj) => {
-                  return { ...obj, sidebar: false };
+                  return { ...obj, selected: false, sidebar: false };
                 })
               )
             }
