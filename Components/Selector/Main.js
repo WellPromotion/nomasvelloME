@@ -9,81 +9,141 @@ export default function Main(props) {
   const [services, setServices] = useState([
     {
       id: 0,
-      title: "Lice + Naušnice",
+      title: "Lice + Nausnice (49 KM)",
       price: 49,
       selected: false,
       sidebar: false,
     },
-    { id: 1, title: "Vrat", price: 49, selected: false, sidebar: false },
+    {
+      id: 1,
+      title: "Vrat (49 KM)",
+      price: 49,
+      selected: false,
+      sidebar: false,
+    },
     {
       id: 2,
-      title: "Grudi + Između grudi + Trbušna linija",
+      title: "Grudi + Između grudi + Trbušna linija (49 KM)",
       price: 49,
       selected: false,
       sidebar: false,
     },
-    { id: 3, title: "Stomak", price: 49, selected: false, sidebar: false },
-    { id: 4, title: "Bikini", price: 49, selected: false, sidebar: false },
-    { id: 5, title: "Noge", price: 98, selected: false, sidebar: false },
-    { id: 6, title: "Stopala", price: 25, selected: false, sidebar: false },
-    { id: 7, title: "Ramena", price: 49, selected: false, sidebar: false },
-    { id: 8, title: "Ruke", price: 98, selected: false, sidebar: false },
-    { id: 9, title: "Šake", price: 25, selected: false, sidebar: false },
-    { id: 10, title: "Potiljak", price: 49, selected: false, sidebar: false },
+    {
+      id: 3,
+      title: "Stomak (49 KM)",
+      price: 49,
+      selected: false,
+      sidebar: false,
+    },
+    {
+      id: 4,
+      title: "Bikini (49 KM)",
+      price: 49,
+      selected: false,
+      sidebar: false,
+    },
+    {
+      id: 5,
+      title: "Noge (49 KM)",
+      price: 98,
+      selected: false,
+      sidebar: false,
+    },
+    {
+      id: 6,
+      title: "Stopala (25 KM)",
+      price: 25,
+      selected: false,
+      sidebar: false,
+    },
+    {
+      id: 7,
+      title: "Ramena (49 KM)",
+      price: 49,
+      selected: false,
+      sidebar: false,
+    },
+    {
+      id: 8,
+      title: "Ruke (98 KM)",
+      price: 98,
+      selected: false,
+      sidebar: false,
+    },
+    {
+      id: 9,
+      title: "Šake (25 KM)",
+      price: 25,
+      selected: false,
+      sidebar: false,
+    },
+    {
+      id: 10,
+      title: "Potiljak (49 KM)",
+      price: 49,
+      selected: false,
+      sidebar: false,
+    },
     {
       id: 11,
-      title: "Gornji dio leđa",
+      title: "Gornji dio leđa (49 KM)",
       price: 49,
       selected: false,
       sidebar: false,
     },
     {
       id: 12,
-      title: "Donji dio leđa",
+      title: "Donji dio leđa (49 KM)",
       price: 49,
       selected: false,
       sidebar: false,
     },
     {
       id: 13,
-      title: "Zadnjica + Između stražnjice",
+      title: "Zadnjica + Između stražnjice (49 KM)",
       price: 49,
       selected: false,
       sidebar: false,
     },
-    { id: 14, title: "Naušnice", price: 25, selected: false, sidebar: false },
+    { id: 14, title: "Nausnice", price: 25, selected: false, sidebar: false },
     {
       id: 15,
-      title: "Između obrva",
+      title: "Između obrva (25 KM)",
       price: 25,
       selected: false,
       sidebar: false,
     },
-    { id: 16, title: "Pazusi", price: 49, selected: false, sidebar: false },
+    {
+      id: 16,
+      title: "Pazusi (49 KM)",
+      price: 49,
+      selected: false,
+      sidebar: false,
+    },
     {
       id: 17,
-      title: "Oko bradavica",
+      title: "Oko bradavica (25 KM)",
       price: 25,
       selected: false,
       sidebar: false,
     },
     {
       id: 18,
-      title: "Između grudi",
+      title: "Između grudi (25 KM)",
       price: 25,
       selected: false,
       sidebar: false,
     },
     {
       id: 19,
-      title: "Trbušna linija",
+      title: "Trbušna linija (25 KM)",
       price: 25,
       selected: false,
       sidebar: false,
     },
     {
       id: 20,
-      title: "Između stražnjice",
+      title: "Između stražnjice (25 KM)",
       price: 25,
       selected: false,
       sidebar: false,
@@ -211,7 +271,7 @@ export default function Main(props) {
           >
             <g>
               <Tippy
-                content="Lice + Naušnice"
+                content="Lice + Nausnice"
                 followCursor={true}
                 plugins={[followCursor]}
               >
@@ -1045,7 +1105,7 @@ export default function Main(props) {
                 </g>
               </g>
               <Tippy
-                content="Naušnice"
+                content="Nausnice"
                 followCursor={true}
                 plugins={[followCursor]}
               >
@@ -1380,7 +1440,7 @@ export default function Main(props) {
           >
             <g>
               <Tippy
-                content="Lice + Naušnice"
+                content="Lice + Nausnice"
                 followCursor={true}
                 plugins={[followCursor]}
               >
@@ -2210,7 +2270,7 @@ export default function Main(props) {
                 />
               </Tippy>
               <Tippy
-                content="Naušnice"
+                content="Nausnice"
                 followCursor={true}
                 plugins={[followCursor]}
               >
