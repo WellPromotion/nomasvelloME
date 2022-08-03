@@ -285,7 +285,7 @@ const Centri = () => {
                         </div>
                         
                 
-                        <div className="column last-city">
+                        {/* <div className="column last-city">
                         <div className="boxCity">
                                 <div className="boxOuter">
                                     <div className="boxInner">
@@ -312,7 +312,9 @@ const Centri = () => {
                                     </div>
                                 </div>
                             </div>
-                        </div>
+                        </div> */}
+                        
+                        
                     </div>
                 </div>
             </section>
