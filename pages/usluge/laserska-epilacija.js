@@ -220,7 +220,16 @@ VELIKE SNAGE</p>
                     </div>
 
                 </div>
-
+        </section>
+        
+        <section id="hR" className="hR">
+                <div className="container">
+                    <div className="columns">
+                        <div className="column">
+                            <hr />
+                        </div>
+                    </div>
+                </div>
             </section>
             
             <section id="diodniZone" className="diodniZone">

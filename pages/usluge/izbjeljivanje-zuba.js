@@ -29,7 +29,7 @@ const IzbjeljivanjeZuba = () => {
         <>
             
         
-            <section id="uslugeHeader" className="uslugeHeader fotopodmladjivanje">
+            <section id="uslugeHeader" className="uslugeHeader izbjeljivanje-zubaUsl">
                 <div id='breacdcrumbs' className='breadcrumbs breadcrumbsUsluge'>
                     <div className="container">
                         <div className="columns">
