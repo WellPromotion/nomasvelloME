@@ -220,12 +220,6 @@ VELIKE SNAGE</p>
                     </div>
 
                 </div>
-                <div className="inner">
-                  <img src={greenCheck} className="greenCheck" alt="" />
-                  <p className="oneLinerItem">
-                    Tretmani su ugodniji i bezbolni.
-                  </p>
-                </div>
 
             </section>
             
