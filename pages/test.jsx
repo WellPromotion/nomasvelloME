@@ -1,43 +1,43 @@
-import Head from 'next/head'
-import { gql, useQuery } from '@apollo/client'
-import GET_TEST from '../Querries/test'
-import client from '../Components/AppolloClient'
-import GET_MSG from '../Querries/message'
+// import Head from 'next/head'
+// import { gql, useQuery } from '@apollo/client'
+// import GET_TEST from '../Querries/test'
+// import client from '../Components/AppolloClient'
+// import GET_MSG from '../Querries/message'
 
 
-export default function Test(props) {
+// export default function Test(props) {
     
-    const { forms } = props
-    console.log(forms)
+//     const { forms } = props
+//     console.log(forms)
 
-  return (
+//   return (
 
-    <>
+//     <>
       
-      <div>
-          <p>
+//       <div>
+//           <p>
              
-          </p>
+//           </p>
 
-      </div>
+//       </div>
 
      
      
      
           
       
-      </> 
+//       </> 
      
    
-  )
-}
+//   )
+// }
 
-export async function getStaticProps() {
-    const result = await client.query( { query: GET_MSG } )
-      return{
-        props: {
-          forms: result.data
-        },
-        revalidate: 10,
-      }
-  }
+// export async function getStaticProps() {
+//     const result = await client.query( { query: GET_MSG } )
+//       return{
+//         props: {
+//           forms: result.data
+//         },
+//         revalidate: 10,
+//       }
+//   }
