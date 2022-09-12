@@ -1,6 +1,6 @@
 import React from 'react';
 import Popup from 'reactjs-popup';
-import { NagradeComp } from '../fransizeComp/nagradeComp';
+import { NagradeComp } from '../fransizeComp/NagradeComp';
 
 
 export default () => (
