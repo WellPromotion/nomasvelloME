@@ -1,6 +1,6 @@
 import React from 'react';
 import Popup from 'reactjs-popup';
-import { UsloviComp } from '../fransizeComp/usloviComp';
+import { UsloviComp } from '../fransizeComp/UsloviComp';
 
 export default () => (
   <Popup
