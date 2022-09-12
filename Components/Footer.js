@@ -57,6 +57,15 @@ export const Footer = () => {
                                 <a href="/centri/doboj" className="footerLink isGreen">Doboj</a><span> / </span>
                                 <a href="/centri/brcko" className="footerLink isGreen">Brčko</a>
                             </div>
+                            
+                            <div className="firstRow thirdRow">
+                                <p className="footerTitle">
+                                    Naručite se:
+                                </p>
+                            </div>
+                            <div className="secondRow">
+                                <a href="/besplatan-probni-tretman" className="footerLink isGreen">Besplatan probni tretman</a>
+                            </div>
                         </div>
                         <div className="column thirdColumn is-2">
                             <div className="firstRow">
@@ -85,12 +94,15 @@ export const Footer = () => {
                             </div>
                         </div>
                     </div>
-
+                    <hr className="footerHr" />
                     <div className="columns">
-                        <div className="column">
-                            <hr className="footerHr" />
+                        <div className="column colCredits">
+                            
                             <p className="footerCopyright">
                                 Copyright <span>{today.getFullYear()}</span> Nomasvello Bosna i Hercegovina | Sva prava pridržana
+                            </p>
+                            <p className="footerCopyright createdBy">
+                                Created by <a href="https://wellpromotion.ba" target="_blank">Well Business Promotion</a>
                             </p>
                         </div>
                     </div>

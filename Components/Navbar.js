@@ -136,6 +136,9 @@ export const Navbar = () => {
                         <a href="/faq/laserska-epilacija-fotoepilacija-ipl-shr">
                             <li>FAQ</li>
                         </a>
+                        <a href="/besplatan-probni-tretman" className='bespButtonTop'>
+                            <li>Besplatan probni tretman</li>
+                        </a>
                     </ul>
                 </div>
            </nav>

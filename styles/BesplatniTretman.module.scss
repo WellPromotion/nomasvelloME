@@ -1,0 +1,102 @@
+@import './variables';
+
+
+#bespTop{
+    padding-top: 5rem;
+    .titleCol{
+        display: flex;
+        text-align: center;
+        justify-content: center;
+        align-items: center;
+        flex-direction:row;
+        
+        .bespHR{
+            flex-grow:1;
+        }
+        .bespTopTitle{
+            flex-grow:0;
+            margin-bottom: 0;
+            padding-left: 3rem;
+            padding-right: 3rem;
+            text-transform: uppercase;
+        }
+    }
+    .imgColBesp{
+        padding-top: 1rem;
+        display: flex;
+        justify-content: center;
+        img{
+            height: 50%;
+        }
+    }
+}
+
+#bespMid{
+    
+    .titlebespMid{
+        text-align: center;
+        padding-bottom: 2rem;
+    }
+    
+    .rightmidCols{
+        .singlePro{
+            background: rgba(255, 255, 255, 0.95);
+        box-shadow: 0px 2px 8px rgba(0, 0, 0, 0.12);
+        border-radius: 8px;
+        margin-bottom: 1rem;
+        .inner{
+            padding: 1rem;
+        }
+            .titlePro{
+                font-weight: 500;
+        font-size: 1.5rem;
+        // line-height: 3rem;
+        color: $titleColor;
+            }
+            .subtitlePro{
+                font-weight: 400;
+                font-size: 1rem;
+                line-height: 1.75rem;
+                color: $primaryText;
+            }
+        }
+    }
+}
+
+.kontaktBesplatni{
+    padding-top: 4rem;
+    padding-bottom: 5rem;
+    
+    .columns{
+        display: flex;
+        justify-content: center;
+    }
+    
+    .select:not(.is-multiple){
+        height: auto;
+    }
+    .form .terminKontakta {
+        margin-top: 0;
+      }
+      .info-wrap{
+        text-align: center;
+        color: $titleColor;
+        padding-bottom: 1rem;
+      }
+     .submit-form{
+        background-color: $primaryGreen;
+        color: #fff;
+        font-weight: 700;
+        font-size: 1rem;
+        line-height: 1.5rem;
+        text-align: center;
+        padding: 0.75rem 1.5rem;
+        border-radius: 6px;
+        display: inline-flex;
+    }
+    .formCol{
+        background-color: #fff;
+        padding: 2rem;
+        border-radius: 6px;
+    }
+}

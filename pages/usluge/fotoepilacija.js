@@ -93,7 +93,7 @@ const Fotoepilacija = () => {
                         </div>
                         <div className="column videoCol">
                             <div className="videoInner">
-                                <ReactPlayer url="https://www.youtube.com/watch?v=ayP3TLmiWyA&ab_channel=NomasVelloBiH"
+                                <ReactPlayer className="videoPl" url="https://www.youtube.com/watch?v=ayP3TLmiWyA&ab_channel=NomasVelloBiH"
                                     width='641px' height='368px' controls />
                             </div>
                         </div>

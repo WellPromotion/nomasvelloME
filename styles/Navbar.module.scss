@@ -279,3 +279,16 @@
  
 
 }
+
+.bespButtonTop{
+    background-color: $primaryGreen;
+    font-weight: 600 !important;
+    text-transform: uppercase;
+    color: #fff !important;
+    padding: .5rem;
+    border-radius: 6px;
+    padding-right: .5rem !important;
+    &:hover{
+        background-color: #fff;
+    }
+}

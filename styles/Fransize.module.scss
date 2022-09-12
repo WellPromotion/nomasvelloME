@@ -1,0 +1,221 @@
+@import './variables';
+
+
+#fransizeTop{
+    padding-top: 5rem;
+    
+    .fransBox{
+        background: rgba(255, 255, 255, 0.95);
+        box-shadow: 0px 2px 8px rgba(0, 0, 0, 0.12);
+        border-radius: 8px;
+        .inner{
+            text-align: center;
+            display: block;
+            justify-content: center;
+            align-items: center;
+            padding: 2rem;
+            .fransBroj{
+                font-size: 3rem;
+                color: $primaryGreen;
+                line-height: 4rem;
+                margin-bottom: 0;
+                font-weight: 500;
+            }
+            .fransSub{
+                font-size: 1rem;
+                color: $primaryText;
+                line-height: 1rem;
+            }
+        }
+    }
+}
+
+#fransizeMid{
+    padding-top: 5rem;
+    .parTitle{
+        font-weight: 700;
+        font-size: 2rem;
+        line-height: 3rem;
+        color: $primaryGreen;
+    }
+    .parHigh{
+        font-weight: 700;
+        font-size: 1rem;
+        line-height: 1.75rem;
+        color: $primaryGreen;
+    }
+    .parTxt{
+        font-weight: 400;
+        font-size: 1rem;
+        line-height: 1.75rem;
+        color: $primaryText;
+    }
+}
+
+#fransizeBot{
+    padding-top: 5rem;
+    padding-bottom: 10rem;
+    .singleBox{
+        background: rgba(255, 255, 255, 0.95);
+        box-shadow: 0px 2px 8px rgba(0, 0, 0, 0.12);
+        border-radius: 8px;
+        height: 7rem;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        .inner{
+            text-align: center;
+            .titleInner{
+                font-weight: 400;
+        font-size: 1.5rem;
+        line-height: 1.75rem;
+        color: $primaryGreen;
+        margin-bottom: 0;
+        margin-top: 5rem;
+margin-bottom: 0rem;
+padding-bottom: 1rem;
+            }
+        }
+    }
+}
+
+#nagradeSection{
+    padding: 2rem;
+    
+    #popup-root{
+        .popup-content{
+            position: absolute !important;
+            top: 25%;
+            left: 25%;
+        }
+    }
+    
+    .titlePart{
+        .titleNagrade{
+            text-transform: uppercase;
+            color: $primaryGreen;
+            font-size: 1.5rem;
+            font-weight: 500;
+            text-align: center;
+            
+        }
+    }
+    .bodyPart{
+        ul{
+            list-style: disc;
+            
+            li{
+                font-weight: 400;
+                font-size: 1rem;
+                line-height: 1.75rem;
+                color: #59636C;
+                &::marker{
+                    color: #9EBB31;
+                }
+            }
+        }
+    }
+}
+.modalNagrade{
+    background-color: #E5E5E5;
+    position: absolute;
+    left: -15rem;
+    width: 60rem;
+    border-radius: 6px;
+    .close{
+        position: absolute;
+        right: 0;
+    }
+}
+
+#trzisteSection{
+    padding: 2rem;
+    
+    .titlePart{
+        .titleTrziste{
+            text-transform: uppercase;
+            color: $primaryGreen;
+            font-size: 1.5rem;
+            font-weight: 500;
+            text-align: center;
+        }
+    }
+    .bodyPart{
+        .preText{
+            font-weight: 600;
+            color: $primaryGreen;
+            font-size: 1.1rem;
+        }
+        .greenSub{
+            color: $primaryGreen;
+            font-weight: 500;
+        }
+        ul{
+            list-style: disc;
+            padding-left: 2rem;
+            li{
+                font-weight: 400;
+                font-size: 1rem;
+                line-height: 1.75rem;
+                color: #59636C;
+                &::marker{
+                    color: #9EBB31;
+                }
+            }
+        }
+        .trzisteIMG{
+            text-align: center;
+            padding-top: 2rem;
+            display: flex;
+            margin: auto;
+        }
+    }
+    
+    
+}
+.modalTrziste{
+    background-color: #E5E5E5;
+    position: absolute;
+    left: -15rem;
+    width: 60rem;
+    border-radius: 6px;
+    .close{
+        position: absolute;
+        right: 0;
+    }
+}
+.popup-overlay {
+    overflow: scroll;
+}
+
+
+#usloviSection{
+    padding: 2rem;
+    
+    .titlePart{
+        .titleUslovi{
+            text-transform: uppercase;
+            color: $primaryGreen;
+            font-size: 1.5rem;
+            font-weight: 500;
+            text-align: center;
+        }
+    }
+    .bodyPart{
+        .greenTitle{
+            font-weight: 500;
+            color: $primaryGreen;
+        }
+    }
+}
+.modalUslovi{
+    background-color: #E5E5E5;
+    position: absolute;
+    left: -15rem;
+    width: 60rem;
+    border-radius: 6px;
+    .close{
+        position: absolute;
+        right: 0;
+    }
+}

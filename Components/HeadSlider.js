@@ -32,7 +32,7 @@ export default function HeadSlider() {
         </div>
       </div>
       
-      <div className='singleHeaderSlide'>
+      <div className='singleHeaderSlide1'>
         <div className="container">
           <div className="columns">
             <div className="column headerColTxt has-text-centered">
@@ -40,16 +40,16 @@ export default function HeadSlider() {
                 NO+VELLO
               </p>
               <p className="titleHeaderSlider">
-                13 centara <br />
-                u BiH!
+               Laserska  <br />
+                epilacija
               </p>
-              <a href="/centri" className="vidiViseBtn">vidi više</a>
+              <a href="/usluge/laserska-epilacija" className="vidiViseBtn">vidi više</a>
             </div>
           </div>
         </div>
       </div>
       
-      <div className='singleHeaderSlide'>
+      <div className='singleHeaderSlide2'>
         <div className="container">
           <div className="columns">
             <div className="column headerColTxt has-text-centered">
@@ -57,10 +57,10 @@ export default function HeadSlider() {
                 NO+VELLO
               </p>
               <p className="titleHeaderSlider">
-                13 centara <br />
-                u BiH!
+              Fotoepilacija <br />
+               IPL SHR
               </p>
-              <a href="/centri" className="vidiViseBtn">vidi više</a>
+              <a href="/usluge/fotoepilacija" className="vidiViseBtn">vidi više</a>
             </div>
           </div>
         </div>

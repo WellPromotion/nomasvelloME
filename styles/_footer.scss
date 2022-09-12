@@ -1,6 +1,7 @@
 #footer{
     background-color: #0F1C49;
     border-top: 4px solid $primaryGreen;
+    padding-bottom: 1.5rem;
 }
 .footerCopyright{
     font-weight: 400;
@@ -91,4 +92,18 @@
         }
     }
    }
+}
+
+.createdBy{
+    a{
+        &:hover{
+            color: $primaryGreen;
+        }
+    }
+}
+
+.colCredits{
+    display: flex;
+    justify-content: space-between;
+    padding-top: 1rem;
 }

@@ -289,11 +289,11 @@ VELIKE SNAGE</p>
             
             <section id="naruciteBottom" className="naruciteBottom">
                 <div className="container">
-                    <div className="columns is-gapless">
+                    <div className="columns">
                         <div className="column imgCol">
                             <img src={naruciteSe} alt="" />
                         </div>
-                        <div className="column">
+                        <div className="column gapCol">
                             <div className="txtPart">
                                 <div className="inner">
                                     <p className="titleNarudzba">UŽIVAJTE U NAJBOLJOJ LASERSKOJ EPILACIJI</p>

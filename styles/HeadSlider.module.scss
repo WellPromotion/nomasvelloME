@@ -2,21 +2,43 @@
 
 .singleHeaderSlide{
     background-image: url('../public/images/headerSliderImg.png');
-    height: 53.25rem;
+    height: 33.25rem;
+    @media only screen and (min-device-width : 320px) and (max-device-width : 480px) {
+        height: 38.25rem;
+        }
+}
+.singleHeaderSlide1{
+    // background-image: url('../public/images/laserskaepilacijaheader.jpg');
+    height: 33.25rem;
+    background: linear-gradient(0deg, rgba(107, 221, 209, 0.8), rgba(107, 221, 209, 0.8)), url('../public/images/laserskaepilacijaheader.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: bottom;
+    @media only screen and (min-device-width : 320px) and (max-device-width : 480px) {
+        height: 38.25rem;
+        }
+}
+.singleHeaderSlide2{
+    // background-image: url('../public/images/headerSliderImg.png');
+    height: 33.25rem;
+    background: linear-gradient(0deg, rgba(107, 221, 209, 0.8), rgba(107, 221, 209, 0.8)), url('../public/images/fotoepilacijaheader.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: bottom;
     @media only screen and (min-device-width : 320px) and (max-device-width : 480px) {
         height: 38.25rem;
         }
 }
 .headerColTxt{
-    padding-top: 10.625rem;
+    padding-top: 5.625rem;
     @media only screen and (min-device-width : 320px) and (max-device-width : 480px) {
         padding-top: 7.625rem;
         }
 }
 .preTitleHeaderSlider{
     font-weight: 300;
-    font-size: 4rem;
-    line-height: 4.5rem;
+    font-size: 2.5rem;
+    line-height: 2.5rem;
     text-align: center;
     color: #fff;
     margin-bottom: 1rem !important;
@@ -26,11 +48,11 @@
 }
 .titleHeaderSlider{
     font-weight: 900;
-    font-size: 8rem;
-    line-height: 9.375rem;
+    font-size: 5rem;
+    line-height: 6.375rem;
     text-align: center;
     color: #fff;
-    margin-bottom: 5.25rem !important;
+    margin-bottom: 3.25rem !important;
     @media only screen and (min-device-width : 320px) and (max-device-width : 480px) {
         font-size: 4rem;
         line-height: 4.375rem;
@@ -73,7 +95,7 @@
 }
 
 .slick-prev, .slick-next{
-    top: 95% !important;
+    top: 91.5% !important;
     display: flex !important;
     justify-content: center;
     align-content: center;

@@ -23,12 +23,18 @@
         position: absolute;
         left: -2.625rem;
         top: 26.938rem;
+        @media only screen and (min-device-width : 320px) and (max-device-width : 480px) {
+           display: none;
+          }
     }
     &::after{
         content: url('../../public/images/usluge/whiteRight.svg');
         position: absolute;
         right: -0.935rem;
         top: 7.95rem;
+        @media only screen and (min-device-width : 320px) and (max-device-width : 480px) {
+            display: none;
+           }
     }
     
     .headerColsUsluge{
@@ -36,6 +42,9 @@
     }
     .titlePart{
         padding-top: 4.75rem;
+        @media only screen and (min-device-width : 320px) and (max-device-width : 480px) {
+            padding-top: 3.75rem;
+          }
         .titleUsluge{
             font-weight: 700;
             font-size: 2.5rem;
@@ -44,6 +53,9 @@
             text-align: center;
             text-transform: uppercase;
             margin-bottom: 0.5rem;
+            @media only screen and (min-device-width : 320px) and (max-device-width : 480px) {
+                font-size: 2rem;
+               }
         }
         .subtitleUsluge{
             font-weight: 400;
@@ -79,6 +91,10 @@
 }
 
 #savremeneMetode{
+    @media only screen and (min-device-width : 320px) and (max-device-width : 480px) {
+        padding-right: 1rem;
+        padding-left: 1rem;
+       }
     
     .metodeTitleGreen{
         font-weight: 700;
@@ -90,6 +106,9 @@
     .colsSavremeneMetode{
         .inner{
             padding-right: 4rem;
+            @media only screen and (min-device-width : 320px) and (max-device-width : 480px) {
+               padding-right: 0;
+               }
             .metodeMediumBlue{
                 color: $titleColor;
                 font-size: 1.5rem;
@@ -97,6 +116,9 @@
                 font-weight: 700;
                 text-align: center;
                 margin-bottom: 0.5rem;
+                @media only screen and (min-device-width : 320px) and (max-device-width : 480px) {
+                    font-size: 1.2rem;
+                    }
             }
             .metodeListContent{
                 color: $primaryText;
@@ -126,14 +148,23 @@
 }
 
 #nasDiodniLaser{
-    
+    @media only screen and (min-device-width : 320px) and (max-device-width : 480px) {
+       padding-right: 1rem;
+       padding-left: 1rem;
+       }
     .columns{
         display: flex;
         justify-content: center;
+        @media only screen and (min-device-width : 320px) and (max-device-width : 480px) {
+            display: block;
+           }
     }
     .imgCol{
         width: fit-content;
         margin-right: 6.25rem;
+        @media only screen and (min-device-width : 320px) and (max-device-width : 480px) {
+            margin-right: 0;
+           }
     }
     .titleDiodni{
         margin-bottom: 0.5rem;
@@ -144,19 +175,26 @@
         line-height: 1.875rem;
         font-weight: 700;
         margin-bottom: 2rem;
+        @media only screen and (min-device-width : 320px) and (max-device-width : 480px) {
+            font-size: 1rem;
+           }
     }
     .innerList{
         margin-bottom: 2rem;
         .inner{
             display: flex;
-            
+            padding-bottom: 1rem;
         }
         .oneLinerItem{
             font-weight: 700;
             color: $titleColor;
             font-size: 1.125rem;
             line-height: 1.688rem;
-            padding-bottom: 1rem;
+            padding-bottom: 0;
+             font-size: 1.25rem;
+             @media only screen and (min-device-width : 320px) and (max-device-width : 480px) {
+                font-size: 1rem;
+               }
         }
         .greenCheck{
             padding-right: 1rem;
@@ -166,9 +204,16 @@
 }
 
 #prednostNovello{
+    @media only screen and (min-device-width : 320px) and (max-device-width : 480px) {
+        padding-left: 1rem;
+        padding-right: 1rem;
+       }
     
     .prednostiGreenTitle{
         padding-bottom: 4rem;
+        @media only screen and (min-device-width : 320px) and (max-device-width : 480px) {
+            padding-bottom: 1rem;
+           }
     }
     .turqSphere{
         margin-bottom: 1rem;
@@ -179,6 +224,9 @@
                 line-height: 2rem;
                 font-weight: 700;
                 margin-bottom: 0.5rem;
+                @media only screen and (min-device-width : 320px) and (max-device-width : 480px) {
+                    font-size: 1rem;
+                   }
     }
     .prednostiContent{
         color: $primaryText;
@@ -191,6 +239,9 @@
         padding-bottom: 0;
         .inner{
             padding-bottom: 2.5rem;
+            @media only screen and (min-device-width : 320px) and (max-device-width : 480px) {
+                padding-bottom: 0;
+               }
         }
     }
     .prednostiColsLower{
@@ -207,10 +258,17 @@
     height: 100%;
 }
 #diodniZone{
+    padding-top: 3rem;
+    
+  
     
     .container{
         background-color: #EDEFE5;
         border-radius: 0.5rem;
+        @media only screen and (min-device-width : 320px) and (max-device-width : 480px) {
+            margin-right: 1rem;
+            margin-left: 1rem;
+            }
     }
     .cijenaIcon{
         // margin-bottom: 1rem;
@@ -222,12 +280,20 @@
        color: #0F1C49;
        text-align: center;
        margin-bottom: 0.5rem;
+       @media only screen and (min-device-width : 320px) and (max-device-width : 480px) {
+        font-size: 1.7rem;
+        }
    }
    .subtitleCijena{
        font-weight: 400;
        font-size: 1.25rem;
        line-height: 1.875rem;
        color: $titleColor;
+       @media only screen and (min-device-width : 320px) and (max-device-width : 480px) {
+        font-size: 1.1rem;
+        // padding-left: 0.5rem;
+        // padding-right: 0.5rem;
+        }
    }
    .padMinus{
        position: relative;
@@ -242,10 +308,20 @@
    .priceTagCols{
        display: flex;
        justify-content: center;
+       @media only screen and (min-device-width : 320px) and (max-device-width : 480px) {
+       display: block;
+       margin: auto;
+       text-align: center;
+        }
        
        .leftCol{
            display: flex;
            justify-content: right;
+           @media only screen and (min-device-width : 320px) and (max-device-width : 480px) {
+            display: flex;
+            justify-content: center;
+            padding-left: 0;
+            }
        }
        .priceBox{
            background-color: $titleColor;
@@ -275,6 +351,9 @@
    .txtCols{
        display: flex;
        justify-content: center;
+       @media only screen and (min-device-width : 320px) and (max-device-width : 480px) {
+        display: block;
+        }
    }
    .txtCol{
     max-width: 34rem;
@@ -284,23 +363,55 @@
         color: $titleColor;
         font-size: 1rem;
         line-height: 1.5rem;
+        @media only screen and (min-device-width : 320px) and (max-device-width : 480px) {
+            
+            padding-left: 0.5rem;
+            padding-right: 0.5rem;
+            }
     }
 }
 
 #naruciteBottom{
     padding-top: 2.5rem;
     padding-bottom: 5.5rem;
-    
+    @media only screen and (min-device-width : 320px) and (max-device-width : 480px) {
+       
+        padding-left: 1rem;
+        padding-right: 1rem;
+        }
     .imgCol{
         display: flex;
         justify-content: right;
+        padding-right: 0;
+        @media only screen and (min-device-width : 320px) and (max-device-width : 480px) {
+       padding-bottom: 0;
+       padding-right: 1rem;
+       padding-left: 1rem;
+            }
+    }
+    .gapCol{
+        padding-left: 0;
+        @media only screen and (min-device-width : 320px) and (max-device-width : 480px) {
+       
+            padding-left: 1rem;
+            padding-right: 1rem;
+            padding-top: 0;
+            }
     }
     .txtPart{
         width: 28.5rem;
         background-color: #fff;
         border-radius: 0 6px 6px 0;
+        @media only screen and (min-device-width : 320px) and (max-device-width : 480px) {
+            width: auto;
+            border-radius: 0;
+            }
+            
         .inner{
             padding: 4rem 3.563rem 4rem 2.5rem;
+            @media only screen and (min-device-width : 320px) and (max-device-width : 480px) {
+                padding: 3rem 2.563rem 3rem 1.5rem;
+                }
         }
     }
     .titleNarudzba{
@@ -309,6 +420,9 @@
         font-size: 2rem;
         line-height: 2.5rem;
         margin-bottom: 1rem;
+        @media only screen and (min-device-width : 320px) and (max-device-width : 480px) {
+            font-size: 1.7rem;
+            }
     }
     .subtitleNarudzba{
         font-weight: 700;

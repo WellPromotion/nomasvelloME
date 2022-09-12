@@ -41,6 +41,11 @@
     padding-left: 1rem;
     padding-right: 1rem;
     }
+    .videoInner{
+      iframe{
+        border-radius: 0.5rem;
+      }
+    }
 }
 .textStaNovello{
   font-family: $mainFont;
@@ -86,6 +91,7 @@
 .depilacijaBox ul{
   padding-left: 1.5rem;
   padding-right: 1.5rem;
+  margin-top: 0;
   @media only screen and (min-device-width : 320px) and (max-device-width : 480px) {
     padding-left: 0;
     padding-right: 1rem;
@@ -130,8 +136,8 @@
   }
 }
 .depilacijaBox{
-  padding-top: 1.5rem;
-  padding-bottom: 1.5rem;
+  padding-top: 0.8rem;
+  padding-bottom: 0.8rem;
   @media only screen and (min-device-width : 320px) and (max-device-width : 480px) {
     padding-top: 0.8rem;
     padding-bottom: 0.8rem;
@@ -162,6 +168,7 @@
     line-height: 3rem;
     padding-top: 0.875rem;
     padding-bottom: 0.875rem;
+    margin-bottom: 0 !important;
   }
   .firstText{
     font-family: $mainFont;
@@ -204,7 +211,7 @@
     font-size: 2.5rem;
     line-height: 3rem;
     color: white;
-    
+    margin-bottom: 0 !important;
   }
   .secondTitlePart{
     font-family: $mainFont;
@@ -232,6 +239,7 @@
     line-height: 3rem;
     padding-top: 0.875rem;
     padding-bottom: 0.875rem;
+    margin-bottom: 0 !important;
   }
   .firstText{
     font-family: $mainFont;

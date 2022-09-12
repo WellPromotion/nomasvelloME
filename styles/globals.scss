@@ -67,7 +67,8 @@
 @import '../styles/Navbar.module.scss';
 @import '../styles/PopupModule.scss';
 @import '../styles/Burger.scss';
-
+@import '../styles/Fransize.module.scss';
+@import '../styles/BesplatniTretman.module.scss';
 
 
 
@@ -274,4 +275,7 @@ a {
   margin-top: 2rem;
   border: none;
   height: auto;
+  @media only screen and (min-device-width : 320px) and (max-device-width : 480px) {
+    padding: 0.8rem 1.5rem;
+    }
 }

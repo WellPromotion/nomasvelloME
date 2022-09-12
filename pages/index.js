@@ -13,6 +13,7 @@ import HeadSlider from '../Components/HeadSlider';
 import locationIcon from '../public/images/locationIcon.svg'
 import downArrow from '../public/images/down-arrow.svg'
 import MapSection from '../Components/Map.js';
+import ReactPlayer from 'react-player';
 
 
 import "slick-carousel/slick/slick.css";
@@ -31,7 +32,9 @@ export default function Home() {
         <link rel="icon" href="/favicon.ico" />
         {/* <meta name="viewport" content="width=device-width"/> */}
         {/* <meta name="viewport" content="width=970, maximum-scale=1.0"></meta> */}
-        <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no"/>
+        <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
+        {/* <meta name="viewport" content="width=device-width"/> */}
+        {/* <meta name="viewport" content="width=device-width, initial-scale=1.0"></meta> */}
       </Head>
 
     <section id="sliderIntro" className="sIntro">
@@ -73,7 +76,11 @@ export default function Home() {
         <div className="container">
           <div className="columns">
             <div className="column level-left">
-              <img src={womanImg} alt="" />
+              {/* <img src={womanImg} alt="" /> */}
+              <div className="videoInner">
+                                <ReactPlayer
+                                    url="https://www.youtube.com/watch?v=Egq-DgaikLQ" width='570px' height='330px' controls />
+                            </div>
             </div>
             <div className="column level-right is-6">
             <div className="titlePart">
@@ -86,7 +93,9 @@ export default function Home() {
               </div>
               <div className="textStaNovello">
                 <p>
-                Lectus imperdiet amet quis ac diam quam aenean nulla. Maecenas vitae bibendum metus, egestas aliquam amet amet tellus. Duis ac faucibus sit molestie mattis adipiscing ante.
+                No+Vello© je svjetski lider u estetskim centrima specijalizovanim za lasersku epilaciju, fotoepilaciju i fotopodmlađivanje. Kompanija je osnovana u novembru 2007. i ima preko 1.000 centara u 16 zemalja. Mi smo firma koja je posvećena svijetu depilacije i koju čini veliki broj profesionalaca, sa velikim iskustvom u sektoru ljepote i lične njege.
+ <br /> <br />
+Br. 1 u svijetu među centrima za lasersku epilaciju.
                 </p>
               </div>
             </div>
@@ -119,8 +128,8 @@ export default function Home() {
                   <ul>
                     <li className="listTitle extraMargin">Depilacija - moderne, visoko efikasne metode depilacije poput:</li>
                       <ul>
-                        <li className="listItem">Laserske epilacije</li>
-                        <li className="listItem">Fotoepilacije putem IPL tehnologije.</li>
+                        <li className="listItem"><a href="/usluge/laserska-epilacija">Laserske epilacije.</a></li>
+                        <li className="listItem"><a href="/usluge/fotoepilacija">Fotoepilacije putem IPL tehnologije.</a></li>
                       </ul>
                   </ul>
                 </div>
@@ -129,39 +138,59 @@ export default function Home() {
                 <ul>
                     <li className="listTitle extraMargin">Anti age tretmani</li>
                       <ul>
-                        <li className="listItem">Fotopodmlađivanje – savremena anti age metoda koja se primjenjuje pretežno na licu, vratu, dekolteu i šakama.</li>
-                        <li className="listItem">Facijalni anti age – Aktivna njega lica kao kombinacija profesionalnih kozmetičkih proizvoda i LED svjetlosne terapije, efikasno vraća svježinu i sjaj kože</li>
+                        <li className="listItem"><a href="/usluge/fotopodmladjivanje">Fotopodmlađivanje</a> – savremena anti age metoda koja se primjenjuje pretežno na licu, vratu, dekolteu i šakama.</li>
+                        <li className="listItem"><a href="/usluge/facijalni-anti-age">Facijalni anti age</a> – Aktivna njega lica kao kombinacija profesionalnih kozmetičkih proizvoda i LED svjetlosne terapije, efikasno vraća svježinu i sjaj kože</li>
                       </ul>
                   </ul>
                 </div>
                 <hr />
                 <div className="depilacijaBox">
                 <ul>
-                    <li className="listTitle">Izbjeljivanje zuba – Kombinacija LED svjetlosti i prirodnih supstanci. Blag, brz, ugodan i efikasan tretman za izvornu bjelinu zuba.</li>
+                    <li className="listTitle"><a href="/usluge/izbjeljivanje-zuba">Izbjeljivanje zuba</a></li>
+                    <ul>
+                        <li className="listItem">Kombinacija LED svjetlosti i prirodnih supstanci.</li>
+                        <li className="listItem">Blag, brz, ugodan i efikasan tretman za izvornu bjelinu zuba.</li>
+                      </ul>
                   </ul>
                 </div>
                 <hr />
                 <div className="depilacijaBox">
                 <ul>
-                    <li className="listTitle">Tjelesni učvršćivač – Kombinacijom specifičnih receptura i LED uređaja potičemo proizvodnju kolagena i elastina za elastičnost i glatkoću kože.</li>
+                    <li className="listTitle"><a href="/usluge/tjelesni-ucvrscivac">Tjelesni učvršćivač</a></li>
+                    <ul>
+                        <li className="listItem">Kombinacija specifičnih receptura i LED uređaja.</li>
+                        <li className="listItem">Proizvodnja kolagena i elastina za elastičnost i glatkoću kože.</li>
+                      </ul>
                   </ul>
                 </div>
                 <hr />
                 <div className="depilacijaBox">
                 <ul>
-                    <li className="listTitle">Anticelulitni reduktor – Tretman sa anti-celulitnim reduktorom pruža nehiruršku alternativu za efikasno tretiranje celulita.</li>
+                    <li className="listTitle">Anticelulitni reduktor</li>
+                    <ul>
+                        <li className="listItem">Tretman sa anti-celulitnim reduktorom.</li>
+                        <li className="listItem">Nehirurška alternativa za efikasno tretiranje celulita.</li>
+                      </ul>
                   </ul>
                 </div>
                 <hr />
                 <div className="depilacijaBox">
                 <ul>
-                    <li className="listTitle">Tretmani za čišćenje kože lica i tijela – Blago i efikasno dubinsko čišćenje i uklanjanje nečistoća sa kože uz upotrebu najinovativnijih tehnologija (ultrazvuk i galvanska energija) i kozmetičkih preparata sa vlastitim recepturama.</li>
+                    <li className="listTitle"><a href="/usluge/ultrazvucno-ciscenje-lica">Tretmani za čišćenje kože lica i tijela</a></li>
+                    <ul>
+                        <li className="listItem">Blago i efikasno dubinsko čišćenje i uklanjanje nečistoća sa kože.</li>
+                        <li className="listItem">Upotreba najinovativnijih tehnologija (ultrazvuk i galvanska energija) i kozmetičkih preparata sa vlastitim recepturama.</li>
+                      </ul>
                   </ul>
                 </div>
                 <hr />
                 <div className="depilacijaBox">
                 <ul>
-                    <li className="listTitle">Tretmani akni (bubuljica) IPL tehnologijom – više od 70% uspjelih tretmana akni (bubuljica) u svijetu ostvareno je IPL tehnologijom.</li>
+                    <li className="listTitle"><a href="http://localhost:3000/usluge/tretman-akni">Tretmani akni (bubuljica)</a></li>
+                    <ul>
+                        <li className="listItem">radi se IPL tehnologijom.</li>
+                        <li className="listItem">više od 70% uspjelih tretmana akni (bubuljica) u svijetu.</li>
+                      </ul>
                   </ul>
                 </div>
               </div>
@@ -169,27 +198,28 @@ export default function Home() {
             <div className="column is-4 level-right">
               <div className="threeBoxes">
                 <div className="firstBox">
-                  <div className="inner">
+                  <a href="/centri"><div className="inner">
                     <img src={threeHeads} alt="" />
                     <p className="numberEleven">11</p>
                     <p className="firstText">NO+VELLO centara za savremenu depilaciju i epilaciiju u BiH</p>
-                  </div>
+                  </div></a>
                 </div>
                 <div className="secondBox">
-                <div className="innerOverlay"></div>
+                  <a href="/fransize">
+                  <div className="innerOverlay"></div>
                   <div className="inner">
                     <p className="firstTitlePart">Postanite</p>
                     <img src={logoWhite} alt="" />
                     <p className="secondTitlePart">partner.</p>
-
                   </div>
+                </a>
                 </div>
                 <div className="thirdBox">
-                  <div className="inner">
+                  <a href="/usluge/laserska-epilacija"><div className="inner">
                     <img src={priceTag} alt="" />
                     <p className="numberEleven">49KM</p>
                     <p className="firstText">Cijena po zoni i sesiji</p>
-                  </div>
+                  </div></a>
                 </div>
               </div>
             </div>
