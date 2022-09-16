@@ -3,12 +3,12 @@ import Link from 'next/link';
 import belowTitleImg from '../../public/images/belowTitleWhite.svg'
 import belowTitleImgGreen from '../../public/images/belowTitleGreen.svg'
 import kozmetikaCiscenje from '../../public/images/kozmeticki-proizvodi/kozmetikaCiscenje.png'
-import linijaUcvrscivanje from '../../public/images/kozmeticki-proizvodi/linijaUcvrscivanje.png'
-import linijaRevitalizacija from '../../public/images/kozmeticki-proizvodi/linijaRevitalizacija.png'
-import linijaProtivNesavrsenosti from '../../public/images/kozmeticki-proizvodi/linijaProtivNesavrsenosti.png'
-import kozmetikaTijelo from '../../public/images/kozmeticki-proizvodi/kozmetikaTijelo.png'
-import linijaRegeneracija from '../../public/images/kozmeticki-proizvodi/linijaRegeneracija.png'
-import linijaHidratacija from '../../public/images/kozmeticki-proizvodi/linijaHidratacija.png'
+import linijaUcvrscivanje from '../../public/images/kozmeticki-proizvodi/linijaUcvrscivanje.jpg'
+import linijaRevitalizacija from '../../public/images/kozmeticki-proizvodi/linija_za_revitalizaciju_01.jpg'
+import linijaProtivNesavrsenosti from '../../public/images/kozmeticki-proizvodi/linijaProtivNesavrsenosti.jpg'
+import kozmetikaTijelo from '../../public/images/kozmeticki-proizvodi/kozmetikaTijelo.jpg'
+import linijaRegeneracija from '../../public/images/kozmeticki-proizvodi/linijaRegeneracija.jpg'
+import linijaHidratacija from '../../public/images/kozmeticki-proizvodi/linijaHidratacija.jpg'
 
 
 
@@ -122,7 +122,7 @@ ugašenu kožu i kožu sa prvim znacima starenja.
 
                             <div className="colInner thirdCol">
                                 <div className="kozmetikaBox">
-                                    <div className="imgKozmetika">
+                                    <div className="imgKozmetika lastimgKozmetika">
                                         <img src={kozmetikaTijelo} alt="KOZMETIKA ZA TIJELO" />
                                     </div>
                                     <div className="_outer">

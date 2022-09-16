@@ -13,6 +13,7 @@ export default function BesplatniForm(props) {
         3: "",
         4: "",
         5: "",
+        6: "",
   };
 
   const [ input, setInput ] = useState( initialState );
@@ -27,7 +28,7 @@ export default function BesplatniForm(props) {
 
             {id : 1, value: contactInfo[1] },
             {id : 3, value: contactInfo[2] },
-            {id : 5, value: contactInfo[3] },
+            {id : 9, value: contactInfo[3] },
             {id : 6, value: contactInfo[4] },
             {id : 7, value: contactInfo[5] },
             {id : 8, value: contactInfo[6] }

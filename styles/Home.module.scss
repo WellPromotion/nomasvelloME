@@ -120,6 +120,11 @@
     font-size: 1.05rem;
     line-height: 1.6rem;
   }
+  a{
+    &:hover{
+      color: $primaryGreen;
+    }
+  }
 }
 .extraMargin{
   margin-bottom: 1rem;
@@ -128,16 +133,27 @@
   color: $titleColor;
   font-family: $mainFont;
   font-weight: 400;
-  font-size: 1.125rem;
+  font-size: 1rem;
   line-height: 1.318rem;
   margin-bottom: 0.75rem;
   &:last-child{
     margin-bottom: 0;
   }
+  a{
+    &:hover{
+      color: $primaryGreen;
+    }
+  }
 }
 .depilacijaBox{
   padding-top: 0.8rem;
   padding-bottom: 0.8rem;
+  &:first-child{
+    padding-top: 2rem;
+  }
+  &:last-child{
+    padding-bottom: 2rem;
+  }
   @media only screen and (min-device-width : 320px) and (max-device-width : 480px) {
     padding-top: 0.8rem;
     padding-bottom: 0.8rem;

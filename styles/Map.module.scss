@@ -1,8 +1,12 @@
 @import './variables';
 
+#mapPage{
+  
 
 .leftCol{
     width: 28.5rem;
+    max-width: 28.5rem;
+    padding-right: 0;
     @media only screen and (min-device-width : 320px) and (max-device-width : 480px) {
       width: 24.5rem;
       padding-bottom: 0;
@@ -81,27 +85,29 @@
   }
   
   .rightCol{
-    width: 73.5rem;
+    width: 56.5rem; 
+    padding-left: 0;
+    padding-right: 0;
     @media only screen and (min-device-width : 320px) and (max-device-width : 480px) {
       width: 24.5rem;
       padding-top: 0;
     }
     
     .innerMap{
-      width: 73.5rem;
+      width: 56.5rem; 
       height: 41.5rem;
       @media only screen and (min-device-width : 320px) and (max-device-width : 480px) {
         width: 24.5rem;
       }
       .iframe{
-        width: 73.5rem;
+        width: 56.5rem; 
         height: 41.5rem !important;
         @media only screen and (min-device-width : 320px) and (max-device-width : 480px) {
           width: 24.5rem;
         }
         &:first-child{
             position: absolute;
-            width: 73.5rem;
+            width: 56.5rem; 
             height: 41.5rem;
             @media only screen and (min-device-width : 320px) and (max-device-width : 480px) {
               width: 24.5rem;
@@ -189,3 +195,6 @@
           transform: translate(-50%, -50%);
         }
       }
+      
+      
+    }

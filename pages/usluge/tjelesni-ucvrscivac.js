@@ -28,7 +28,7 @@ const TjelesniUcvrscivac = () => {
         <>
         
             
-        <section id="uslugeHeader" className="uslugeHeader facijalni">
+        <section id="uslugeHeader" className="uslugeHeader tjelesniUcvrscivacHeader">
                 <div id='breacdcrumbs' className='breadcrumbs breadcrumbsUsluge'>
                     <div className="container">
                         <div className="columns">

@@ -166,30 +166,30 @@ Br. 1 u svijetu među centrima za lasersku epilaciju.
                 <hr />
                 <div className="depilacijaBox">
                 <ul>
-                    <li className="listTitle">Anticelulitni reduktor</li>
+                    <li className="listTitle"><a href="/usluge/tjelesni-ucvrscivac">Anticelulitni reduktor</a></li>
                     <ul>
-                        <li className="listItem">Tretman sa anti-celulitnim reduktorom.</li>
-                        <li className="listItem">Nehirurška alternativa za efikasno tretiranje celulita.</li>
+                        <li className="listItem"><a href="/usluge/tjelesni-ucvrscivac">Tretman sa anti-celulitnim reduktorom.</a></li>
+                        <li className="listItem">Nehirurška alternativa za <a href="/usluge/tjelesni-ucvrscivac">efikasno tretiranje celulita.</a></li>
+                      </ul>
+                  </ul>    
+                </div>
+                <hr />
+                <div className="depilacijaBox">
+                <ul>
+                    <li className="listTitle"><a href="/usluge/ultrazvucno-ciscenje-lica">Tretmani za čišćenje kože lica i tijela</a></li> 
+                    <ul>
+                        <li className="listItem">Blago i efikasno <a href="/usluge/ultrazvucno-ciscenje-lica">dubinsko čišćenje i uklanjanje nečistoća sa kože.</a></li>
+                        <li className="listItem">Upotreba <a href="/tehnologije/ultrazvucna-tehnologija">najinovativnijih tehnologija (ultrazvuk i galvanska energija)</a> i <a href="/kozmeticki-proizvodi">kozmetičkih preparata</a> sa vlastitim recepturama.</li>
                       </ul>
                   </ul>
                 </div>
                 <hr />
                 <div className="depilacijaBox">
                 <ul>
-                    <li className="listTitle"><a href="/usluge/ultrazvucno-ciscenje-lica">Tretmani za čišćenje kože lica i tijela</a></li>
+                    <li className="listTitle"><a href="/usluge/tretman-akni">Tretmani akni (bubuljica)</a></li>
                     <ul>
-                        <li className="listItem">Blago i efikasno dubinsko čišćenje i uklanjanje nečistoća sa kože.</li>
-                        <li className="listItem">Upotreba najinovativnijih tehnologija (ultrazvuk i galvanska energija) i kozmetičkih preparata sa vlastitim recepturama.</li>
-                      </ul>
-                  </ul>
-                </div>
-                <hr />
-                <div className="depilacijaBox">
-                <ul>
-                    <li className="listTitle"><a href="http://localhost:3000/usluge/tretman-akni">Tretmani akni (bubuljica)</a></li>
-                    <ul>
-                        <li className="listItem">radi se IPL tehnologijom.</li>
-                        <li className="listItem">više od 70% uspjelih tretmana akni (bubuljica) u svijetu.</li>
+                        <li className="listItem">radi se <a href="/tehnologije/ipl-tehnologija">IPL tehnologijom.</a></li>
+                        <li className="listItem">više od 70% uspjelih <a href="/usluge/tretman-akni">tretmana akni (bubuljica) u svijetu.</a></li>
                       </ul>
                   </ul>
                 </div>
@@ -215,7 +215,7 @@ Br. 1 u svijetu među centrima za lasersku epilaciju.
                 </a>
                 </div>
                 <div className="thirdBox">
-                  <a href="/usluge/laserska-epilacija"><div className="inner">
+                  <a href="/usluge/laserska-epilacija#laserskaEpContainer"><div className="inner">
                     <img src={priceTag} alt="" />
                     <p className="numberEleven">49KM</p>
                     <p className="firstText">Cijena po zoni i sesiji</p>

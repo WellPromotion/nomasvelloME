@@ -1,7 +1,11 @@
 @import './variables';
 
 .singleHeaderSlide{
-    background-image: url('../public/images/headerSliderImg.png');
+    // background-image: linear-gradient(0deg, rgba(107, 221, 209, 0.8), rgba(107, 221, 209, 0.8)), url('../public/images/firstSlideHeader.jpg');
+    background-image: url('../public/images/firstSlideHeader.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
     height: 33.25rem;
     @media only screen and (min-device-width : 320px) and (max-device-width : 480px) {
         height: 38.25rem;
@@ -10,7 +14,8 @@
 .singleHeaderSlide1{
     // background-image: url('../public/images/laserskaepilacijaheader.jpg');
     height: 33.25rem;
-    background: linear-gradient(0deg, rgba(107, 221, 209, 0.8), rgba(107, 221, 209, 0.8)), url('../public/images/laserskaepilacijaheader.jpg');
+    // background: linear-gradient(0deg, rgba(107, 221, 209, 0.8), rgba(107, 221, 209, 0.8)), url('../public/images/laserskaepilacijaheader.jpg');
+    background: url('../public/images/laserskaepilacijaheader.jpg');
     background-repeat: no-repeat;
     background-size: cover;
     background-position: bottom;
@@ -21,7 +26,8 @@
 .singleHeaderSlide2{
     // background-image: url('../public/images/headerSliderImg.png');
     height: 33.25rem;
-    background: linear-gradient(0deg, rgba(107, 221, 209, 0.8), rgba(107, 221, 209, 0.8)), url('../public/images/fotoepilacijaheader.jpg');
+    // background: linear-gradient(0deg, rgba(107, 221, 209, 0.8), rgba(107, 221, 209, 0.8)), url('../public/images/fotoepilacijaheader.jpg');
+    background:  url('../public/images/fotoepilacijaheader.jpg');
     background-repeat: no-repeat;
     background-size: cover;
     background-position: bottom;
@@ -30,7 +36,7 @@
         }
 }
 .headerColTxt{
-    padding-top: 5.625rem;
+    padding-top: 2.625rem;
     @media only screen and (min-device-width : 320px) and (max-device-width : 480px) {
         padding-top: 7.625rem;
         }
@@ -58,6 +64,28 @@
         line-height: 4.375rem;
         }
 }
+.postTitleHeaderSlider{
+    font-weight: 400;
+    font-size: 2.5rem;
+    line-height: 2.5rem;
+    text-align: center;
+    color: #fff;
+    margin-bottom: 1rem !important;
+    text-align: left;
+    @media only screen and (min-device-width : 320px) and (max-device-width : 480px) {
+        font-size: 2rem;
+        }
+}
+.headerColTxt{
+    .inner{
+        background: linear-gradient(0deg, rgba(107, 221, 209, 0.9), rgba(107, 221, 209, 0.9));
+        padding: 2rem;
+        margin: auto;
+        width: fit-content;
+        border-radius: .5rem;
+    }
+}
+
 .vidiViseBtn{
     font-weight: 700;
     font-size: 1.125rem;
@@ -68,6 +96,8 @@
     padding: 1rem 3rem;
     border-radius: 6px;
     text-transform: uppercase;
+    display: inline-flex;
+    margin-top: 1rem;
 }
 
 .slick-dots{

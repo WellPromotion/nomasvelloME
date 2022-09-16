@@ -25,7 +25,7 @@ const LaserskaEpilacija = () => {
         <>
             
             
-            <section id="uslugeHeader" className="uslugeHeader">
+            <section id="uslugeHeader" className="uslugeHeader laserskaEpilacijaHeader">
                 <div id='breacdcrumbs' className='breadcrumbs breadcrumbsUsluge'>
                     <div className="container">
                         <div className="columns">
@@ -275,17 +275,21 @@ VELIKE SNAGE</p>
                     </div>
                     
                 </div>
-            </section>
-            
-            <section id="selector__section" className="section">
-        <div className="container">
+                
+                <div id='laserskaEpContainer' className="container">
           <div className="columns">
-            <div className="column is-12">
+                        <div className="column is-12">
+                        <p className="titleCijena titleCijenaPad">Izaberite zone koje želite tretirati</p>
               <Main />
             </div>
           </div>
-        </div>
-      </section>
+                </div>
+                
+            </section>
+            
+            {/* <section id="selector__section" className="section">
+        
+      </section> */}
             
             <section id="naruciteBottom" className="naruciteBottom">
                 <div className="container">

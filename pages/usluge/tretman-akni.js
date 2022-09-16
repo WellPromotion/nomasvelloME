@@ -28,7 +28,7 @@ const TretmanAkni = () => {
         
         <>
         
-        <section id="uslugeHeader" className="uslugeHeader personalizovaniTretman">
+        <section id="uslugeHeader" className="uslugeHeader tretmanAkniHeader">
             <div id='breacdcrumbs' className='breadcrumbs breadcrumbsUsluge'>
                     <div className="container">
                         <div className="columns">

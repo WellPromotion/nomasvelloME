@@ -99,10 +99,59 @@
             .uslugeDropdown, .centriDropdown, .tehnologijeDropdown {
                 display: block;
                 position: absolute;
-                margin-top: 28rem;
+                margin-top: 25rem;
                 z-index: 999;
                 background: white;
-                width: 13rem;
+                width: 15rem;
+                margin-left: 0;
+                list-style-type: none;
+                border-radius: 4px;
+                box-shadow: 1px 2px 1px rgba(0, 0, 0, 0.05);
+               
+                a {
+                    background-color: white;
+                    border-radius: 0;
+                    margin: 0.5rem;
+                    padding: 0;
+                    // border-bottom: 1px solid black;
+                    
+                    li {
+                        color: $primaryGreen;
+                        font-weight: 500;
+                        line-height: 1rem !important;
+                        padding-left: 0.8rem;
+                        padding-right: 0.8rem;
+                        &:hover{
+                            color: $titleColor;
+                            // font-size: 1.1rem;
+                        }
+                    }
+                }
+            }
+            .tehnologijeDropdown{
+                margin-top: 18rem;
+            }
+        }
+        // &:hover{
+        //     .tehnologijeDropdown{
+        //         margin-top: 19rem;
+        //     }
+        // }
+    }
+    
+    .oNamaDropdown{
+        display: none;
+    }
+    .oNamaDrop{
+        
+        &:hover{
+            .oNamaDropdown{
+                display: block;
+                position: absolute;
+                margin-top: 10rem;
+                z-index: 999;
+                background: white;
+                width: 15rem;
                 margin-left: 0;
                 list-style-type: none;
                 border-radius: 4px;
@@ -128,13 +177,48 @@
                 }
             }
         }
+    }
+    .cijeneDropdown{
+        display: none;
+    }
+    .cijeneDrop{
         &:hover{
-            .tehnologijeDropdown{
-                margin-top: 19rem;
+            .cijeneDropdown{
+                display: block;
+                position: absolute;
+                margin-top: 20rem;
+                z-index: 999;
+                background: white;
+                width: 15rem;
+                margin-left: 0;
+                list-style-type: none;
+                border-radius: 4px;
+                box-shadow: 1px 2px 1px rgba(0, 0, 0, 0.05);
+                a {
+                    background-color: white;
+                    border-radius: 0;
+                    margin: 0.5rem;
+                    padding: 0;
+                    // border-bottom: 1px solid black;
+
+                    li {
+                        color: $primaryGreen;
+                        font-weight: 500;
+                        line-height: 1rem !important;
+                        padding-left: 0.8rem;
+                        padding-right: 0.8rem;
+                        &:hover{
+                            color: $titleColor;
+                            // font-size: 1.1rem;
+                        }
+                    }
+                }
             }
         }
     }
+    
 
+    
     .downCarretMenu {
         padding-left: .5rem;
         display: flex;
@@ -235,10 +319,10 @@
             .sarajevoDropdown{
                 display: block;
                 position: absolute;
-                margin-top: 12.5rem;
+                margin-top: 9rem;
                 z-index: 999;
                 background: white;
-                width: 7rem;
+                width: 9rem;
                 margin-left: 0;
                 list-style-type: none;
                 border-radius: 4px;
@@ -249,9 +333,7 @@
                     margin: 0.5rem;
                     padding: 0;
                     // border-bottom: 1px solid black;
-                    &:hover{
-                        // font-size: 1.1rem;
-                    }
+                  
 
                     li {
                         color: $primaryGreen;
@@ -280,14 +362,35 @@
 
 }
 
+.besplatniWrap{
+    ul{
+        margin-top: 0;
+        a{
+            background-color: transparent !important;
+            li{
+                background-color: $primaryGreen !important;
+                font-weight: 600 !important;
+                text-transform: uppercase;
+                color: #fff !important;
+                padding: .5rem;
+                border-radius: 6px;
+            }
+           
+        }
+    }
+    .buttonWrap{
+        display: flex;
+        align-items: center;
+        margin-bottom: 0;
+        list-style: none;
+        margin-left: 0;
+        margin-top: 0;
+    }
+}
 .bespButtonTop{
-    background-color: $primaryGreen;
-    font-weight: 600 !important;
-    text-transform: uppercase;
-    color: #fff !important;
-    padding: .5rem;
-    border-radius: 6px;
-    padding-right: .5rem !important;
+   
+    // padding-right: .5rem !important;
+   
     &:hover{
         background-color: #fff;
     }

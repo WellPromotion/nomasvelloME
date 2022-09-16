@@ -14,6 +14,8 @@ import doctorIcon from '../../public/images/usluge/fotoepilacija/doctorIcon.svg'
 import doctorImg from '../../public/images/usluge/fotoepilacija/doctorImg.png'
 import FotoepilacijaPopup from '../../Components/popups/FotoepilacijaPopup';
 import FotoepilacijaPopupBottom from '../../Components/popups/FotoepilacijaPopupBottom';
+import Main from "../../Components/Selector/Main";
+
 
 const Example = () => {
     return <Breadcrumbs useDefaultStyle rootLabel="Početna"
@@ -330,6 +332,16 @@ Fotoepilacija pulsirajućom svjetlošću predstavlja praktično bezbolan tretman
                     </div>
                     
                 </div>
+                
+                <div className="container">
+          <div className="columns">
+                        <div className="column is-12">
+                        <p className="titleCijena titleCijenaPad">Izaberite zone koje želite tretirati</p>
+              <Main />
+            </div>
+          </div>
+                </div>
+                
             </section>
             
             <section id="naruciteBottom" className="naruciteBottom">

@@ -171,7 +171,7 @@ export default function lokacija(props) {
 
             {/* MAP MAIN */}
 
-            <section className="map-page">
+            <section id='mapPage' className="map-page">
                <div className="map-page-wrap container">
             <div className="columns">
               

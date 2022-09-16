@@ -99,7 +99,7 @@ export default function Fransize() {
                                     <p className="titleInner">
                                        O nama
                                     </p>
-                                    {/* <a href={prezentacijaPdf} target="_blank">Pogledajte prezentaciju</a> */}
+                                    {/* <a className='naruciBtnCentri greenButton' href={prezentacijaPdf} target="_blank">Pogledajte prezentaciju</a> */}
                                     <TrzistePop/>
                                 </div>
                         </div>

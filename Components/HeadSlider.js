@@ -19,14 +19,21 @@ export default function HeadSlider() {
         <div className="container">
           <div className="columns">
             <div className="column headerColTxt has-text-centered">
-              <p className="preTitleHeaderSlider">
+              {/* <p className="preTitleHeaderSlider">
                 NO+VELLO
-              </p>
+              </p> */}
+              <div className="inner">
               <p className="titleHeaderSlider">
-                13 centara <br />
-                u BiH!
+                13 centara u BiH!
               </p>
-              <a href="/centri" className="vidiViseBtn">vidi više</a>
+              <p className="postTitleHeaderSlider">
+                - sa najsavremenijom opremom <br />
+                - pod nadzorom medicinskog osoblja <br />
+                - sa najboljim cijenama <br />
+                </p>
+                <a href="/centri" className="vidiViseBtn">vidi više</a>
+             </div>
+             
             </div>
           </div>
         </div>
@@ -36,14 +43,21 @@ export default function HeadSlider() {
         <div className="container">
           <div className="columns">
             <div className="column headerColTxt has-text-centered">
-              <p className="preTitleHeaderSlider">
+              {/* <p className="preTitleHeaderSlider">
                 NO+VELLO
-              </p>
+              </p> */}
+             <div className="inner">
               <p className="titleHeaderSlider">
-               Laserska  <br />
-                epilacija
+               Laserska epilacija
               </p>
-              <a href="/usluge/laserska-epilacija" className="vidiViseBtn">vidi više</a>
+              <p className="postTitleHeaderSlider">
+                - laserska epilacija diodnim laserom <br />
+                - fusion sistem <br />
+                - efikasan, brz, siguran <br />
+                </p>
+                <a href="/usluge/laserska-epilacija" className="vidiViseBtn">vidi više</a>
+             </div>
+              
             </div>
           </div>
         </div>
@@ -53,14 +67,21 @@ export default function HeadSlider() {
         <div className="container">
           <div className="columns">
             <div className="column headerColTxt has-text-centered">
-              <p className="preTitleHeaderSlider">
+              {/* <p className="preTitleHeaderSlider">
                 NO+VELLO
-              </p>
+              </p> */}
+              <div className="inner">
               <p className="titleHeaderSlider">
-              Fotoepilacija <br />
-               IPL SHR
+               Fotoepilacija IPL SHR
               </p>
-              <a href="/usluge/fotoepilacija" className="vidiViseBtn">vidi više</a>
+              <p className="postTitleHeaderSlider">
+                - aparati posljednje generacije <br />
+                - putem lasera ili Intense Pulsed Light (IPL) <br />
+                - efikasan, brz, siguran <br />
+                </p>
+                <a href="/usluge/fotoepilacija" className="vidiViseBtn">vidi više</a>
+             </div>
+             
             </div>
           </div>
         </div>

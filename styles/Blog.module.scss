@@ -2,7 +2,9 @@
 
 
 #blogHeader{
-    background-color: #ACC76E;
+    background: linear-gradient(0deg, rgba(172, 199, 110, 0.6), rgba(172, 199, 110, 0.6)), url('../public/images/blogBackground.jpg');
+    background-position: center;
+    background-size: cover;
     height: 19.75rem;
     
     display: flex;

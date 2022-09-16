@@ -68,9 +68,7 @@ export const TestimonialCarousel = () => {
             <div className="testimonialSlide">
                 <div className="testimonialInner">
                 <p className="testimonialTitle">Pozitivni utisci!</p>
-                    <p className="testimonialSubtitle">Poštovani, želim samo da vam prenesem pozitivne utiske koje imam vec godinama, prvo ja, a sada i moja kćerka. Profesionalnost, usluga, ljubaznost, bas sve je na zavidnom nivou. Koristim bas svaku priliku da vas pohvalim i prenesem moje zadovoljstvo i pozitivno iskustvo, kako na prijatelje, tako i na forume i grupe na društvenim mrežama. Posebna pohvala djevojkama iz poslovnice na Dobrinji. 
-Samo tako nastavite, najbolji ste. 😊
-Srdačan pozdrav</p>
+                    <p className="testimonialSubtitle">Želim da vam prenesem pozitivne utiske koje imam već godinama, prvo ja, a sada i moja kćerka. Profesionalnost, usluga, ljubaznost, baš sve je na zavidnom nivou. Koristim svaku priliku da vas pohvalim i prenesem moje zadovoljstvo i pozitivno iskustvo, kako na prijatelje, tako i na forume i grupe na društvenim mrežama.😊</p>
                 </div>
                 <div className="testimonialBellow">
                     <img className="testionialImg" src={testionialImg} alt="" />
