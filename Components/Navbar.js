@@ -17,6 +17,9 @@ return (
     <nav id='navbarTop' className='navbarTop'>
         <div className="navbarTopWrap">
 
+                <div className="leftWrap">
+                    
+                
             <div className="centriWrap">
                 <ul className="centriList">
                     <a href="/centri/sarajevo-i" className='sarajevoDrop'>
@@ -53,8 +56,11 @@ return (
                         <li>Brčko</li>
                     </a>
                 </ul>
+                    </div>
                 </div>
                 
+                
+                <div className="rightWrap">
                 <div className="besplatniWrap">
                     <ul className='buttonWrap'>
                     <a href="/besplatan-probni-tretman" className='bespButtonTop'>
@@ -79,7 +85,10 @@ return (
                         <li><img src={facebookIcon} alt="" /></li>
                     </a>
                 </ul>
-            </div>
+                    </div>
+                </div>
+                
+                
         </div>
     </nav>
 

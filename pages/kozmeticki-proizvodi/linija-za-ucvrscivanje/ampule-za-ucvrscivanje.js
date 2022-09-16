@@ -6,9 +6,9 @@ import listIcon from '../../../public/images/kozmeticki-proizvodi/kozmetikaCisce
 import turqCheck from '../../../public/images/turqCheck.svg'
 import greenCheck from '../../../public/images/greenCheck.svg'
 import primjenaIcon from '../../../public/images/kozmeticki-proizvodi/kozmetikaCiscenje/gel-za-ciscenje-visoke-tolerancije/primjenaIcon.svg'
-import linijaUcvrscivanje from '../../../public/images/kozmeticki-proizvodi/linijaUcvrscivanje.png'
-import linijaProtivNesavrsenosti from '../../../public/images/kozmeticki-proizvodi/linijaProtivNesavrsenosti.png'
-import linijaHidratacija from '../../../public/images/kozmeticki-proizvodi/linijaHidratacija.png'
+import linijaUcvrscivanje from '../../../public/images/kozmeticki-proizvodi/linijaUcvrscivanje.jpg'
+import linijaProtivNesavrsenosti from '../../../public/images/kozmeticki-proizvodi/linijaProtivNesavrsenosti.jpg'
+import linijaHidratacija from '../../../public/images/kozmeticki-proizvodi/linijaHidratacija.jpg'
 
 
 const Example = () => {

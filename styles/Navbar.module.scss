@@ -30,6 +30,8 @@
              }
          }
     }
+    
+   
 
     ul {
         list-style: none;
@@ -247,6 +249,11 @@
         justify-content: space-between;
         -webkit-transition: all .25s;
         transition: all .25s;
+        
+        .rightWrap{
+            display: flex;
+            align-items: center;
+        }
     }
 
     .centriList {
@@ -363,6 +370,7 @@
 }
 
 .besplatniWrap{
+    margin-right: 1rem;
     ul{
         margin-top: 0;
         a{
