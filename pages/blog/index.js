@@ -91,7 +91,6 @@ export default function Test(props) {
                                   <a className='singleCent' href="/centri/tuzla">Tuzla</a>
                                   <a className='singleCent' href="/centri/doboj">Doboj</a>
                                   <a className='singleCent' href="/centri/brcko">Brčko</a>
-                                  <a className='singleCent' href="/centri/teslic">Teslić</a>
                               </div>
                           </div>
                       </div>

@@ -81,13 +81,21 @@ Idealan tretman epilacije za one koji pate od uraslih dlaka, proširenih vena i 
                 </div>
             </section>
             
+            {/* <section id="koraciBesplatni" className="section">
+                <div className="container">
+                    <div className="columns">
+                        .column
+                    </div>
+                </div>
+            </section> */}
+            
             <section id="besplatniForm" className="besplatniForm">
                 <div className="container">
                     <BesplatniForm/>
                 </div>
             </section>
         
-        
+         
         </>
     );
 }

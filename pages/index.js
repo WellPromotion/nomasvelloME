@@ -14,6 +14,7 @@ import locationIcon from '../public/images/locationIcon.svg'
 import downArrow from '../public/images/down-arrow.svg'
 import MapSection from '../Components/Map.js';
 import ReactPlayer from 'react-player';
+import novelloTehnologija from '../public/images/novello-tehnologija.jpg';
 
 
 import "slick-carousel/slick/slick.css";
@@ -74,13 +75,13 @@ export default function Home() {
 
       <section id="staNovello" className="staNovello">
         <div className="container">
-          <div className="columns">
+          <div className="columns level">
             <div className="column level-left">
-              {/* <img src={womanImg} alt="" /> */}
-              <div className="videoInner">
+              <img src={novelloTehnologija} alt="" />
+              {/* <div className="videoInner">
                                 <ReactPlayer
                                     url="https://www.youtube.com/watch?v=Egq-DgaikLQ" width='570px' height='330px' controls />
-                            </div>
+                            </div> */}
             </div>
             <div className="column level-right is-6">
             <div className="titlePart">

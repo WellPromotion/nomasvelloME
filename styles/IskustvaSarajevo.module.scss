@@ -1,0 +1,14 @@
+@import './variables';
+
+
+#iskustvaSaSection{
+    .singleIskustvo{
+        background-color: #fff;
+        padding: 1rem;
+        border-radius: .5rem;
+        box-shadow: 0px 2px 8px rgba(0, 0, 0, 0.12);
+    }
+    img{
+        border-radius: .5rem;
+    }
+}

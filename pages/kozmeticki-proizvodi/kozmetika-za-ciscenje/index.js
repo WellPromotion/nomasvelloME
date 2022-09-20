@@ -78,7 +78,7 @@ const KozmetikaCiscenje = () => {
                             <div className="kozmetikeProductBox">
                                 <div className="_inner">
                                     <img className='productImg' src={sampleImage1} alt="" />
-                                    <p className='productBoxTitle'>Gel za Ciscenje Visoke tolerancije</p>
+                                    <p className='productBoxTitle'>Gel za čišćenje visoke tolerancije</p>
                                     <p className='productBoxSubtitle'>Svakodnevno čišćenje za sve tipove kože.</p>
                                     <a className='productBoxButton' href="/kozmeticki-proizvodi/kozmetika-za-ciscenje/gel-za-ciscenje-visoke-tolerancije"><span><img src={eyeIcon} alt="" /></span>Pogledaj detaljnije</a>
                                 </div>

@@ -69,7 +69,7 @@
 @import '../styles/Burger.scss';
 @import '../styles/Fransize.module.scss';
 @import '../styles/BesplatniTretman.module.scss';
-
+@import '../styles/IskustvaSarajevo.module.scss';
 
 
 
@@ -144,6 +144,9 @@ a {
   padding: 0.75rem 1.5rem;
   text-align: center;
   display: inline-flex;
+  &:hover{
+    color: $primaryGreen;
+  }
 }
 .defaultGreenTitle{
   font-weight: 500;

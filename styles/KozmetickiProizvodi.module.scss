@@ -1,14 +1,16 @@
 @import './variables';
 
 #headerKozmetika{
-    background: url("../public/images/kozmeticki-proizvodi/kozmetikaBackground.png") no-repeat;
-    height: 14rem;
+    background: linear-gradient(180deg, rgba(67, 181, 180, 0.67) 0%, rgba(7, 104, 103, 0.84) 100%), url("../public/images/kozmeticki-proizvodi/kozmetika_novello.jpg") no-repeat;
+    height: auto;
+    background-size: cover;
+    background-position: center;
 
     .hero-body{
         display: flex;
         justify-content: center;
         position: relative;
-        top: 30%;
+        top: 13rem;
         .innerTitle{
             padding-top: 3.188rem;
             padding-left: 4.563rem;
@@ -56,15 +58,15 @@
 
 #kozmetikaBoxes{
     padding-top: 4rem;
-
+    padding-bottom: 6rem;
    
     .secCol{
         position: relative;
-        top: -5rem;
+        top: 2rem;
     }
     .thirdCol{
         position: relative;
-        top: -10rem;
+        top: 4rem;
     }
     .colInnerPad{
         position: relative;
@@ -84,7 +86,7 @@
             width: 24.375rem;
             height: 12.5rem;
             position: relative;
-            top: -6rem;
+            top: -1rem;
         }
         .smallerPadding{
             padding-bottom: 1.5rem !important;

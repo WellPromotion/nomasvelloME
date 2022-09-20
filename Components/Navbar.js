@@ -210,8 +210,12 @@ return (
                             </a>
                             <a href="/faq/laserska-epilacija-fotoepilacija-ipl-shr">
                                 <li>FAQ</li>
-                            </a>
-                            <a href="">
+                            </a>  
+                        </ul>
+                    </li>
+                    </a>
+                    
+                    <a href="">
                                 <li className='cijeneDrop'>Cijene<span className='downCarretMenu'><img
                                             src={dropDownGrey} alt="" /></span>
                                     <ul className='cijeneDropdown'>
@@ -244,10 +248,8 @@ return (
                                         </a>
                                     </ul>
                                 </li>
-                            </a>
-                        </ul>
-                    </li>
-                    </a>
+                                </a>
+                    
                     
                     <a href="/kozmeticki-proizvodi">
                     <li>Kozmetički proizvodi</li>
