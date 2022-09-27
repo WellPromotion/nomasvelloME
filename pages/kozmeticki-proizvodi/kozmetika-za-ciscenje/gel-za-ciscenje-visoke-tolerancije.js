@@ -1,7 +1,7 @@
 import styles from '../../../styles/kozmeticki-proizvodi/kozmetika-za-ciscenje/Kozmetika-Ciscenje.module.scss';
 import Link from 'next/link';
 import Breadcrumbs from 'nextjs-breadcrumbs';
-import sample1 from '../../../public/images/kozmeticki-proizvodi/kozmetikaCiscenje/gel-za-ciscenje-visoke-tolerancije/sample1.png'
+import sample1 from '../../../public/images/kozmeticki-proizvodi/kozmetikaCiscenje/gel-za-ciscenje-visoke-tolerancije/gel-za-ciscenje-visoke-tolerancije.jpg'
 import elipseIcon from '../../../public/images/kozmeticki-proizvodi/kozmetikaCiscenje/gel-za-ciscenje-visoke-tolerancije/elipseIcon.svg'
 import listIcon from '../../../public/images/kozmeticki-proizvodi/kozmetikaCiscenje/gel-za-ciscenje-visoke-tolerancije/listIcon.svg'
 import turqCheck from '../../../public/images/turqCheck.svg'
@@ -33,8 +33,8 @@ const GelZaCiscenjeVisokeTolerancije = () => {
 
             <section id="featuredProduct" className="featuredProduct">
                 <div className="container">
-                    <div className="columns level">
-                        <div className="column leftColumn">
+                    <div className="columns level colsGelVisokeTol">
+                        <div className="column leftColumn leftColumnGelVis">
                             <img className='sampleImage' src={sample1} alt="" />
                         </div>
                         <div className="column">

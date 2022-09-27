@@ -1,14 +1,14 @@
 import styles from '../../styles/usluge/IzbjeljivanjeZuba.module.scss';
 import Breadcrumbs from 'nextjs-breadcrumbs';
 import greenCheck from '../../public/images/greenCheck.svg';
-import sample1 from '../../public/images/usluge/izbjeljivanje-zuba/sample1.png'
+import sample1 from '../../public/images/usluge/izbjeljivanje-zuba/sample1.jpg'
 import sample2 from '../../public/images/usluge/izbjeljivanje-zuba/sample2.png'
-import sample3 from '../../public/images/usluge/izbjeljivanje-zuba/sample3.png'
+import sample3 from '../../public/images/usluge/izbjeljivanje-zuba/sample3.jpg'
 import turqSphere from '../../public/images/usluge/turqSphere.svg'
 import cijenaIcon from '../../public/images/usluge/cijenaIcon.svg'
 import priceTag from '../../public/images/usluge/priceIcon.svg'
 import priceTwo from '../../public/images/usluge/diodniLaser.png'
-import naruciteSe from '../../public/images/usluge/naruciteSe.png'
+import naruciteSe from '../../public/images/usluge/izbjeljivanje-zuba/izbjeljivanje-zuba.jpg'
 import ReactPlayer from 'react-player';
 import greenCircle from '../../public/images/usluge/fotoepilacija/greenCircle.svg'
 import turqCircle from '../../public/images/usluge/fotoepilacija/turqCircle.svg'
@@ -114,7 +114,7 @@ const IzbjeljivanjeZuba = () => {
                 </div>
             </section>
             
-            <section id="tretman" className="tretman">
+            <section id="tretman" className="tretman"> 
                 <div className="container">
                     <div className="columns has-text-centered titleCols">
                         <div className="column is-4 titleCol">
@@ -212,9 +212,9 @@ kafe i pića sa kolorantima.</p>
                     <div className="columns">
                         <div className="column has-text-centered">
                             <p className="titleCijena">Cijene izbjeljivanja zuba</p>
-                            <p className="subtitleCijena">Želimo da se istaknete! <br />
+                            {/* <p className="subtitleCijena">Želimo da se istaknete! <br />
                                 Savršena koža i najbolji osmijeh po najboljoj cijeni!</p>
-                                <p className="contentCijena">A ako ste već naš klijent, uživajte uz nevjerovatan popust!</p>
+                                <p className="contentCijena">A ako ste već naš klijent, uživajte uz nevjerovatan popust!</p> */}
                         </div>
                     </div>
                     
@@ -224,7 +224,7 @@ kafe i pića sa kolorantima.</p>
                             <div className="singleItemTop">
                                     <div className="inner">
                                         <p className="title">Cijene po sesiji</p>
-                                        <p className="price">KM</p>
+                                        <p className="price"></p>
                                     </div>
                                 </div>
                             <div className="singleItem middleItem">

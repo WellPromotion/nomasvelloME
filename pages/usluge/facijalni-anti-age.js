@@ -3,12 +3,12 @@ import Breadcrumbs from 'nextjs-breadcrumbs';
 import greenCheck from '../../public/images/greenCheck.svg';
 import turqCheck from '../../public/images/turqCheck.svg';
 import sample1 from '../../public/images/usluge/facijalni-anti-age/sample1.png'
-import sample2 from '../../public/images/usluge/facijalni-anti-age/sample2.png'
+import sample2 from '../../public/images/usluge/facijalni-anti-age/sample2.jpg'
 import turqSphere from '../../public/images/usluge/turqSphere.svg'
 import cijenaIcon from '../../public/images/usluge/cijenaIcon.svg'
 import priceTag from '../../public/images/usluge/priceIcon.svg'
 import priceTwo from '../../public/images/usluge/diodniLaser.png'
-import naruciteSe from '../../public/images/usluge/naruciteSe.png'
+import naruciteSe from '../../public/images/usluge/facijalni-anti-age/facijalni-anti-age.jpg'
 import ReactPlayer from 'react-player';
 import greenCircle from '../../public/images/usluge/fotoepilacija/greenCircle.svg'
 import turqCircle from '../../public/images/usluge/fotoepilacija/turqCircle.svg'
@@ -17,7 +17,7 @@ import doctorImg from '../../public/images/usluge/fotoepilacija/doctorImg.png'
 import FacijalniAntiAgePopup from '../../Components/popups/FacijalniAntiAgePopup';
 import FacijalniAntiAgePopupBottom from '../../Components/popups/FacijalniAntiAgePopupBottom';
 
-
+ 
 const Example = () => {
     return <Breadcrumbs useDefaultStyle rootLabel="Početna"
     />;
@@ -297,10 +297,10 @@ Broj sesija će zavisiti od nekoliko faktora, kao što su: starosna dob, tretira
                     </div>
                     <div className="columns">
                         <div className="column has-text-centered">
-                            <p className="titleCijena">Cijene facijalnog Anti-Age tretmana</p>
-                            <p className="subtitleCijena">Želimo da se istaknete! <br />
-                                Savršena koža i najbolji osmijeh po najboljoj cijeni!</p>
-                            <p className="contentCijena">A ako ste već naš klijent, uživajte uz nevjerovatan popust!</p>
+                            <p className="titleCijena">Cijena facijalnog Anti-Age tretmana</p>
+                            {/* <p className="subtitleCijena">Želimo da se istaknete! <br />
+                                Savršena koža i najbolji osmijeh po najboljoj cijeni!</p> */}
+                            {/* <p className="contentCijena">A ako ste već naš klijent, uživajte uz nevjerovatan popust!</p> */}
                         </div>
                     </div>
                     
@@ -310,7 +310,7 @@ Broj sesija će zavisiti od nekoliko faktora, kao što su: starosna dob, tretira
                             <div className="singleItemTop">
                                     <div className="inner">
                                         <p className="title">Cijena po sesiji</p>
-                                        <p className="price">Klijenti No+Vello *</p>
+                                        {/* <p className="price">Klijenti No+Vello *</p> */}
                                     </div>
                                 </div>
                             <div className="singleItem upperItem">

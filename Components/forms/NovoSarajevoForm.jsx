@@ -124,7 +124,7 @@ const handleOnChange = ( event ) => {
                         </div>
                         <div className="select column is-12">
                         <select onChange={ handleOnChange } required name="4">
-                            <option className="first">Odaberite željeni termin</option>
+                            <option className="first">Odaberite željeni tretman</option>
                             <option value="Laserska epilacija diodnim laserom">Laserska epilacija diodnim laserom</option>
                             <option value="Facijalni anti-age">Facijalni anti-age</option>
                             <option value="Anticelulitni reduktor">Anticelulitni reduktor</option>

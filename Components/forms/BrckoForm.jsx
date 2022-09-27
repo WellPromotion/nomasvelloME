@@ -124,7 +124,7 @@ const handleOnChange = ( event ) => {
                         </div>
                         <div className="select column is-12">
                         <select onChange={ handleOnChange } required name="4">
-                            <option className="first">Odaberite željeni termin</option>
+                            <option className="first">Odaberite željeni tretman</option>
                             <option value="Fotoepilacija">Fotoepilacija</option>
                             <option value="Fotopodmlađivanje">Fotopodmlađivanje</option>
                             <option value="Ultrazvučno čišćenje lica">Ultrazvučno čišćenje lica</option>

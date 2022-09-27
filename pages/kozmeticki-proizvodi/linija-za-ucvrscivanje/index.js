@@ -6,7 +6,7 @@ import sampleImage2 from '../../../public/images/kozmeticki-proizvodi/linija-za-
 import sampleImage3 from '../../../public/images/kozmeticki-proizvodi/linija-za-ucvrscivanje/sample3.png'
 import eyeIcon from '../../../public/images/eyeIcon.svg'
 import checkGreen from '../../../public/images/greenCheckmark.svg';
-import sampleBottom from '../../../public/images/kozmeticki-proizvodi/linija-za-ucvrscivanje/sampleBottom.png'
+import sampleBottom from '../../../public/images/kozmeticki-proizvodi/linija-za-ucvrscivanje/sampleBottom.jpg'
 
 const Example = () => {
     return <Breadcrumbs useDefaultStyle rootLabel="Početna"
@@ -162,7 +162,7 @@ const LinijaZaUcvrscivanje = () => {
                                     </p>
                                     <p className="odlikeItem">je aktivni sastojak koji ima najveći kapacitet hidratacije, te čini da ista bude odmah vidljiva. Formira hidratantni i zaštitni površinski sloj, te tako smanjuje upaljenost kože i poboljšava obnavljanje ćelija.</p>
                                     <br />
-                                    <p className="odlikeItem">Kozmetički proizvodi ove linije su posebno namijenjeni za korištenje kod osoba poslije 35 godina starosti kao rješenje za prve bore, a nakon 45 godina starosti su namijenjeni za tretiranje dubljih bora, izjednačavanje boje kože i za poboljšanje teksture kože.</p>
+                                    <p className="odlikeItem odlikeItemBold">Kozmetički proizvodi ove linije su posebno namijenjeni za korištenje kod osoba poslije 35 godina starosti kao rješenje za prve bore, a nakon 45 godina starosti su namijenjeni za tretiranje dubljih bora, izjednačavanje boje kože i za poboljšanje teksture kože.</p>
                                 </div>
                             </div>
                         </div>

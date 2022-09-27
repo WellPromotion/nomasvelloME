@@ -5,7 +5,7 @@ import Accordion from '../../Components/Accordion';
 import iconDown from '../../public/images/faq/arrow-down.png';
 import faceImg from '../../public/images/faq/face.png';
 import Link from 'next/link';
-
+import LaserskaEpilacijaPopupFAQ from '../../Components/popups/LaserskaEpilacijaPopupFAQ';
 
 
 export default function FaqLaserskaEpilacija() {
@@ -50,15 +50,19 @@ export default function FaqLaserskaEpilacija() {
                 </div>
             </section>
             
-            <section id="pitanja" className="pitanja">
+            <section id="pitanjaLas" className="pitanja">
                 <div className="container">
                     <div className="columns">
                         <div className="column pitanjaColumn">
-                            <div className="pitanjaTitle">
+                            {/* <div className="pitanjaTitle">
                                 <h1>
                                     Pitanja
                                 </h1>
+                            </div> */}
+                            <div className="buttonLaserEpFAQ">
+                            <LaserskaEpilacijaPopupFAQ/>
                             </div>
+                            
                             <div className="pitanjaBody">
                                 
                                 <Accordion className="accordion" title="Koje su prednosti laserske depilacije i fotoepilacije IPL SHR?" content="Svi znamo kako neprijatne mogu ponekad biti neželjene dlake, i kako naporno može da bude depilirati se svako malo vremena. I kako ponekad, postojanje dlaka na nekim veoma vidnim zonama kao što je na licu kod žena ili na leđima kod muškaraca, može izazvati nelagodnosti kod istih. 
@@ -112,6 +116,8 @@ export default function FaqLaserskaEpilacija() {
                               
                                 <Accordion title="Šta može ponuditi No+Vello?" content="No+Vello© Vam nudi dokazani sistem sa zagarantovanim rezultatima. U našim centrima raspolažemo sa najjačim aparatima za lasersku epilaciju (810nm) i fotoepilaciju IPL SHR (60 džula/cm2) i najbržim na tržištu. Naš sistem fotoepilacije, zasnovan na laserskoj epilaciji i IPL tehnologiji, daje odlične rezultate na različitim dijelovima tijela, a krajnji rezultat je depilacija koja je efektna, trajna, superiorna i ni u čemu slična metodama depilacije koje su nam bile poznate do sada." />
                             </div>
+                            
+                            
                         </div>
                     </div>
                     <div className="container">

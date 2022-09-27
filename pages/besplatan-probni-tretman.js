@@ -8,15 +8,15 @@ export default function BesplatniTretman() {
     
         <>
         
-        <section id="heroTitle" className="hero is-medium">
-        <div className="hero-body">
-            <div className="container has-text-centered">
-                <h1 className=" title">
-                    Besplatan probni tretman
-                </h1>
+        <section id="heroTitleBesplatni" className="hero is-medium">
+            <div className="hero-body">
+                <div className="container has-text-centered">
+                    <h1 className=" title">
+                        Besplatan probni tretman
+                    </h1>
+                </div>
             </div>
-        </div>
-    </section>
+        </section>
             
             
             <section id="bespTop" className='bespTop'>

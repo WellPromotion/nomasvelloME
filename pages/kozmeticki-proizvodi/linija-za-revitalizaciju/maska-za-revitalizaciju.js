@@ -1,6 +1,6 @@
 import styles from '../../../styles/kozmeticki-proizvodi/linija-za-revitalizaciju/AmpuleZaRevitalizaciju.module.scss';
 import Breadcrumbs from 'nextjs-breadcrumbs';
-import sample1 from '../../../public/images/kozmeticki-proizvodi/linija-za-revitalizaciju/maska-za-revitalizaciju/sample1.png'
+import sample1 from '../../../public/images/kozmeticki-proizvodi/linija-za-revitalizaciju/maska-za-revitalizaciju/sample1.jpg'
 import maskeIcon from '../../../public/images/kozmeticki-proizvodi/maskeIcon.svg'
 import listIcon from '../../../public/images/kozmeticki-proizvodi/kozmetikaCiscenje/gel-za-ciscenje-visoke-tolerancije/listIcon.svg'
 import turqCheck from '../../../public/images/turqCheck.svg'

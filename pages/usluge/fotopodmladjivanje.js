@@ -6,7 +6,7 @@ import turqSphere from '../../public/images/usluge/turqSphere.svg'
 import cijenaIcon from '../../public/images/usluge/cijenaIcon.svg'
 import priceTag from '../../public/images/usluge/priceIcon.svg'
 import priceTwo from '../../public/images/usluge/diodniLaser.png'
-import naruciteSe from '../../public/images/usluge/naruciteSe.png'
+import naruciteSe from '../../public/images/usluge/fotopodmladjivanje/fotopodmladjivanje.jpg'
 import ReactPlayer from 'react-player';
 import greenCircle from '../../public/images/usluge/fotoepilacija/greenCircle.svg'
 import turqCircle from '../../public/images/usluge/fotoepilacija/turqCircle.svg'
@@ -14,6 +14,9 @@ import doctorIcon from '../../public/images/usluge/fotoepilacija/doctorIcon.svg'
 import doctorImg from '../../public/images/usluge/fotoepilacija/doctorImg.png'
 import FotopodmladjivanjePopup from '../../Components/popups/FotopodmladjivanjePopup';
 import FotopodmladjivanjePopupBottom from '../../Components/popups/FotopodmladjivanjePopupBottom';
+import smanjujeBore from '../../public/images/usluge/fotopodmladjivanje/smanjuje-bore.jpg';
+import oblikuje from '../../public/images/usluge/fotopodmladjivanje/oblikuje.jpg';
+import sjaj from '../../public/images/usluge/fotopodmladjivanje/sjaj.jpg';
 
 const Example = () => {
     return <Breadcrumbs useDefaultStyle rootLabel="Početna"
@@ -35,7 +38,7 @@ const Fotopodmlađivanje = () => {
                             </div>
                         </div>
                     </div>
-                </div>
+                </div> 
                 <div className="container">
                     <div className="columns headerColsUsluge">
                         <div className="column titlePart has-text-centered">
@@ -135,7 +138,7 @@ Putem svjetlosti se prenosi toplota na kožu što dovodi do stvaranja novih vlak
             
             <section id="rezultati" className="rezultati">
                 <div className="container">
-                    <div className="columns level">
+                    {/* <div className="columns level">
                         <div className="column is-5">
                             <p className="titleRezultati">Rezultati</p>
                             <p className="subRezultati defaultText">Smanjuje bore i izražajne linije, oblikuje lice, ujednačava ten, daje sjaj i efekat zatezanja kože, te u konačnici pruža zdraviji i podmlađen izgled. Iako se poboljšanja i rezultati mogu primijetiti nakon prvih sesija, potpuni učinci tretmana postaju vidljivi nakon završetka istog.</p>
@@ -145,6 +148,41 @@ Ne postoji ni minimalna ni maksimalna dobna starost za ovu vrstu tretmana.</p>
                         </div>
                         <div className="column is-5 imgCol">
                             <img src={sample1} alt="" />
+                        </div>
+                    </div> */}
+                    <div className="coumns">
+                    <div className="column">
+                            <h3 className="rezultatiTitleFotopod">Rezultati
+                            </h3>
+                        </div>
+                    </div>
+                    <div className="columns">
+                        <div className="column">
+                            <div className="_innerCol">
+                                <img src={smanjujeBore} alt="" />
+                                <h3 className="rezultatiSingleTitle">Smanjuje bore</h3>
+                                <p className="defaultText">
+                                Smanjuje bore i izražajne linije, dajući <br /> nam vidljive rezultate nakon prve sesije.
+                                </p>
+                            </div>
+                        </div>
+                        <div className="column">
+                            <div className="_innerCol">
+                                <img src={oblikuje} alt="" />
+                                <h3 className="rezultatiSingleTitle">Oblikuje</h3>
+                                <p className="defaultText">
+                                Oblikuje lice i ujednačava ten pružajući <br /> zdraviji izgled.
+                                </p>
+                            </div>
+                        </div>
+                        <div className="column">
+                            <div className="_innerCol">
+                                <img src={sjaj} alt="" />
+                                <h3 className="rezultatiSingleTitle">Sjaj</h3>
+                                <p className="defaultText">
+                                Vraća sjaj umornoj koži i daje efekat <br /> zatezanja i podmlađen izgled lica.
+                                </p>
+                            </div>
                         </div>
                     </div>
                 </div>
@@ -170,7 +208,7 @@ Ne postoji ni minimalna ni maksimalna dobna starost za ovu vrstu tretmana.</p>
                     <div className="columns">
                         <div className="column has-text-centered">
                             <p className="titleCijena">Cijena</p>
-                            <p className="subtitleCijena">Pozivamo vas da dodjete u nas Centar na potpuno <br /> besplatan probni tretman</p>
+                            {/* <p className="subtitleCijena">Pozivamo vas da dodjete u nas Centar na potpuno <br /> besplatan probni tretman</p> */}
                         </div>
                     </div>
                     

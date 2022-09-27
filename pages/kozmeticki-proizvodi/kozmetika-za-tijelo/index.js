@@ -1,7 +1,8 @@
 import styles from '../../../styles/KozmetikaZaTijelo.module.scss';
 import Link from 'next/link';
 import Breadcrumbs from 'nextjs-breadcrumbs';
-import sampleImage1 from '../../../public/images/kozmeticki-proizvodi/kozmetika-za-tijelo/sample1.png'
+import sampleImage1 from '../../../public/images/kozmeticki-proizvodi/kozmetika-za-tijelo/sample1.jpg'
+import sampleImage2 from '../../../public/images/kozmeticki-proizvodi/kozmetika-za-tijelo/sample2.jpg'
 import checkGreen from '../../../public/images/greenCheckmark.svg';
 import turqCheck from '../../../public/images/turqCheck.svg';
 
@@ -181,7 +182,7 @@ specijalizovanim kozmetičkim proizvodima.</p>
                 <div className="container">
                     <div className="columns level">
                         <div className="column imgCol">
-                            <img src={sampleImage1} alt="" className="sampleImage" />
+                            <img src={sampleImage2} alt="" className="sampleImage" />
                         </div>
                         <div className="column is-8 rightCol">
                             <p className="reduktorTitle reduktorTitle2">TJELESNI UČVRŠĆIVAČ</p>

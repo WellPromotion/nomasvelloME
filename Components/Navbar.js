@@ -240,9 +240,9 @@ return (
                                         <a href="/usluge/tjelesni-ucvrscivac#cijenaFotopod">
                                             <li>Tjelesni učvrščivać</li>
                                         </a>
-                                        <a href="/usluge/personalizovani-tretmani-lica#cijenaFotopod">
+                                        {/* <a href="/usluge/personalizovani-tretmani-lica#cijenaFotopod">
                                             <li>Personalizovani tretman lica</li>
-                                        </a>
+                                        </a> */}
                                         <a href="/usluge/tretman-akni#cijenaFotopod">
                                             <li>Tretman akni</li>
                                         </a>

@@ -10,7 +10,7 @@ import checkGreen from '../../../public/images/greenCheckmark.svg';
 import hijaluronskaIcon from '../../../public/images/kozmeticki-proizvodi/linija-za-hidrataciju/hijaluronskaIcon.svg';
 import glikolnaIcon from '../../../public/images/kozmeticki-proizvodi/linija-za-hidrataciju/glikolnaIcon.svg';
 import aloeveraIcon from '../../../public/images/kozmeticki-proizvodi/linija-za-hidrataciju/aloeveraIcon.svg';
-
+import LinijaZaHidratacijuImg from '../../../public/images/kozmeticki-proizvodi/linijaHidratacija.jpg'
 
 const Example = () => {
     return <Breadcrumbs useDefaultStyle rootLabel="Početna"
@@ -88,7 +88,7 @@ Liposomska formula ovih proizvoda potiče prodiranje hijaluronske kiseline u ko�
                                     <img className='productImg' src={sampleImage1} alt="" />
                                     <p className='productBoxTitle'>AMPULE ZA HIDRATACIJU</p>
                                     <p className='productBoxSubtitle'>Trenutna hidratacija</p>
-                                    <a className='productBoxButton' href=""><span><img src={eyeIcon} alt="" /></span>Pogledaj detaljnije</a>
+                                    <a className='productBoxButton' href="/kozmeticki-proizvodi/linija-za-hidrataciju/ampule-za-hidrataciju"><span><img src={eyeIcon} alt="" /></span>Pogledaj detaljnije</a>
                                 </div>
                             </div>
                         </div>
@@ -139,17 +139,8 @@ HIDRATACIJU</p>
                                 </div>
                         </div>
                     </div>
-                    <div className="columns hidratacijaSpacing">
-                        <div className="column is-left">
-                            <div className="_inner">
-                                <div className="secondPart">
-                                <p className="defaultText defaultTextHidratacija">Bitno je znati da do dehidratacije dolazi kada tijelo gubi više vode nego što unosi, te je zbog toga potrebno održavati adekvatnu svakodnevnu hidrataciju. Bez obzira da li se radi o suhoj, mješovitoj ili masnoj koži, koža može dehidrirati usljed djelovanja vanjskih negativnih faktora.
-<br /><br /> 
-Zrela koža je obično u većoj mjeri dehidrirana usljed smanjenja količine hijaluronske kiseline ključne za hidrataciju kože. Zbog toga je hijaluronska kiselina, zajedno sa glikolnom kiselinom i aloe verom, jedan od osnovnih aktivnih sastojaka ove kozmetičke linije.</p>
-                                </div>
-                            </div>
-                        </div>
-                        <div className="column is-right colBottHidratacija">
+                    <div className="columns hidratacijaSpacing level">
+                    <div className="column colBottHidratacija">
                         <div className="listInner">
                                 <div className="detailsList">
                                 <div className="singleDetailImg">
@@ -178,6 +169,24 @@ Zrela koža je obično u većoj mjeri dehidrirana usljed smanjenja količine hij
                                         <p className="odlikeItem defaultText">je sredstvo koje daje koži veliku vlažnost. Kada se koristi kao maska, bolje prodire u duboke slojeve kože, a rezultat je vidljiv odmah. Postiže da lice bude blistavo, a koža hidratizirana i svježa.</p>
                                         </div>
                                     </div>
+                            </div>
+                           
+                        </div>
+                        <div className="column is-right">
+                        <img src={LinijaZaHidratacijuImg} alt="" />
+                           
+                        </div>
+                        
+                    </div>
+                    <div className="columns">
+                        <div className="column">
+                        <div className="_inner">
+                                <div className="secondPart">
+                                <p className="defaultText defaultTextHidratacija">Bitno je znati da do dehidratacije dolazi kada tijelo gubi više vode nego što unosi, te je zbog toga potrebno održavati adekvatnu svakodnevnu hidrataciju. Bez obzira da li se radi o suhoj, mješovitoj ili masnoj koži, koža može dehidrirati usljed djelovanja vanjskih negativnih faktora.
+
+                                        Zrela koža je obično u većoj mjeri dehidrirana usljed smanjenja količine hijaluronske kiseline ključne za hidrataciju kože. Zbog toga je hijaluronska kiselina, zajedno sa glikolnom kiselinom i aloe verom, jedan od osnovnih aktivnih sastojaka ove kozmetičke linije.</p>
+                                    
+                                </div>
                             </div>
                         </div>
                     </div>

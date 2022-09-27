@@ -90,6 +90,7 @@ export const Footer = () => {
                                     <li><a href="/tehnologije/laser-tehnologija">Laser Tehnologija</a></li>
                                     <li><a href="/tehnologije/sun-and-safe">Sun & Safe</a></li>
                                     <li><a href="/tehnologije/led-tehnologija">LED Tehnologija</a></li>
+                                    <li><a href="/tehnologije/ultrazvucna-tehnologija">Ultrazvučna Tehnologija</a></li>
                                 </ul>
                             </div>
                         </div>

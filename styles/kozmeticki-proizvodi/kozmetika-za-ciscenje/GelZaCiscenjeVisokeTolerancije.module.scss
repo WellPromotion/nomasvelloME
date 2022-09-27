@@ -26,6 +26,15 @@
 
 #featuredProduct{
     padding-top: 2.75rem;
+    
+    // .leftColumnGelVis{
+    //    img{
+    //     width: 60%;
+    //    }
+    // }
+    .colsGelVisokeTol{
+        width: 57rem;
+    }
 
     .sampleImage{
         padding: 1.75rem;
@@ -43,6 +52,8 @@
     }
     .colummns{
         width: 55.5rem;
+        display: flex;
+        justify-content: center;
     }
     .featuredTitle{
         font-weight: 700;
@@ -155,7 +166,7 @@
 }
 
 #drugeKategorije{
-    
+    padding-bottom: 5rem;
     
     .kozmetikaBox{
         display: grid;
@@ -169,7 +180,7 @@
             width: 24.375rem;
             height: 12.5rem;
             position: relative;
-            top: -6rem;
+            top: -1rem;
         }
         .smallerPadding{
             padding-bottom: 1.5rem !important;

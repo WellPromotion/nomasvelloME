@@ -62,7 +62,7 @@ const SarajevoIII = () => {
                                 <p className="ponudaTitle">U ovom centru nudimo:</p>
                                 <div className="columns">
                                     <div className="column padNone is-6">
-                                            <p className="ponudaItem"> <span className="greenCheckSpacing"><img src={checkGreen} alt="" /></span>Fotoepilacija</p>
+                                            <p className="ponudaItem"> <span className="greenCheckSpacing"><img src={checkGreen} alt="" /></span>Fotoepilacija IPL SHR</p>
                                             <p className="ponudaItem"> <span className="greenCheckSpacing"><img src={checkGreen} alt="" /></span>Fotopodmlađivanje</p>
                                             <p className="ponudaItem"> <span className="greenCheckSpacing"><img src={checkGreen} alt="" /></span>Tjelesni učvršćivač</p>
                                             <p className="ponudaItem"> <span className="greenCheckSpacing"><img src={checkGreen} alt="" /></span>Anticelulitni reduktor</p>
@@ -163,7 +163,7 @@ const SarajevoIII = () => {
                                 <div className="boxOuter">
                                     <div className="boxInner">
                                         <img src={greenSphere} alt="" />
-                                        <p className="centriCityTitle">Sarajevo - III</p>
+                                        <p className="centriCityTitle">Sarajevo - IV</p>
                                         <p className="centriCitySubtitle">Centar u Novom Gradu</p>
                                         <div className="adressInfo">
                                             <div className="columns">
@@ -173,15 +173,15 @@ const SarajevoIII = () => {
                                                     <p className="cityInfoTitle">Email: </p>
                                                 </div>
                                                 <div className="column is-10">
-                                                    <p><span className="cityInfoContent">Hamdije Kapidžića 11-12</span>
+                                                    <p><span className="cityInfoContent">Butmirska cesta 14-Grand centar</span>
                                                     </p>
-                                                    <p> <span className="cityInfoContent">+033 766 130</span></p>
-                                                    <p><span className="cityInfoContent">dobrinja@nomasvello.ba</span>
+                                                    <p> <span className="cityInfoContent">+033 620 077</span></p>
+                                                    <p><span className="cityInfoContent">ilidza@nomasvello.ba</span>
                                                     </p>
                                                 </div>
                                             </div>
                                         </div>
-                                        <Link href="/centri/sarajevo-iii">
+                                        <Link href="/centri/sarajevo-iv">
                                         <a className="cityDetailsBtn turqButton">Vidi sve detalje</a>
                                         </Link>
                                     </div>

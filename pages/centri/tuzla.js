@@ -62,7 +62,7 @@ const Tuzla = () => {
                                 <p className="ponudaTitle">U ovom centru nudimo:</p>
                                 <div className="columns">
                                     <div className="column padNone is-6">
-                                            <p className="ponudaItem"> <span className="greenCheckSpacing"><img src={checkGreen} alt="" /></span>Fotoepilacija</p>
+                                            <p className="ponudaItem"> <span className="greenCheckSpacing"><img src={checkGreen} alt="" /></span>Fotoepilacija IPL SHR</p>
                                             <p className="ponudaItem"> <span className="greenCheckSpacing"><img src={checkGreen} alt="" /></span>Fotopodmlađivanje</p>
                                             <p className="ponudaItem"> <span className="greenCheckSpacing"><img src={checkGreen} alt="" /></span>Tjelesni učvršćivač</p>
                                             <p className="ponudaItem"> <span className="greenCheckSpacing"><img src={checkGreen} alt="" /></span>Anticelulitni reduktor</p>
@@ -79,9 +79,9 @@ const Tuzla = () => {
                                 </div>
                             </div>
                             <div className="mapaCentra">
-                            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2844.0695923492467!2d18.680036815794466!3d44.53420760303182!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x475ead3ad3d68905%3A0x24f50608e57dd52b!2sMar%C5%A1ala%20Tita%202%2C%20Tuzla%2075000!5e0!3m2!1sen!2sba!4v1643962195467!5m2!1sen!2sba" width="888" height="340" allowfullscreen="" loading="lazy"></iframe>
+                            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d177.7535267104337!2d18.681964871233806!3d44.53447716787852!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x475ead2259e4f5c1%3A0x59ad8b52b7473761!2sNo%2BVello%C2%AE%20Tuzla%20-%20Svjetski%20lider%20u%20laserskoj%20epilaciji!5e0!3m2!1sen!2sba!4v1663758831731!5m2!1sen!2sba" width="888" height="340" allowfullscreen="" loading="lazy"></iframe>
                             </div>
-                            <Link href="https://www.google.com/maps/place/Mar%C5%A1ala+Tita+2,+Tuzla+75000/@44.5342076,18.6800368,17z/data=!3m1!4b1!4m5!3m4!1s0x475ead3ad3d68905:0x24f50608e57dd52b!8m2!3d44.5342038!4d18.6822255">
+                            <Link href="https://www.google.com/maps/place/No%2BVello%C2%AE+Tuzla+-+Svjetski+lider+u+laserskoj+epilaciji/@44.5344772,18.6819649,21z/data=!4m5!3m4!1s0x475ead2259e4f5c1:0x59ad8b52b7473761!8m2!3d44.5345729!4d18.681979">
                             <a className="pogledajMapuBtn greyButton">Pogledaj na Google Maps</a>
                             </Link>
                         </div>
@@ -105,8 +105,8 @@ const Tuzla = () => {
                                 <div className="boxOuter">
                                     <div className="boxInner">
                                         <img src={greenSphere} alt="" />
-                                        <p className="centriCityTitle">Sarajevo - I</p>
-                                        <p className="centriCitySubtitle">Centar u Novom Sarajevu</p>
+                                        <p className="centriCityTitle">Brčko</p>
+                                        <p className="centriCitySubtitle">Centar u Brčkom</p>
                                         <div className="adressInfo">
                                             <div className="columns">
                                                 <div className="column">
@@ -115,14 +115,14 @@ const Tuzla = () => {
                                                     <p className="cityInfoTitle">Email: </p>
                                                 </div>
                                                 <div className="column is-10">
-                                                    <p><span className="cityInfoContent">Kolodvorska 3B</span></p>
-                                                    <p> <span className="cityInfoContent">+033 718 555</span></p>
-                                                    <p><span className="cityInfoContent">info@nomasvello.ba</span></p>
+                                                    <p><span className="cityInfoContent">Studentska 3</span></p>
+                                                    <p> <span className="cityInfoContent">066 326 505</span></p>
+                                                    <p><span className="cityInfoContent">brcko@nomasvello.ba</span></p>
                                                 </div>
                                             </div>
                                         </div>
 
-                                        <Link href="/centri/sarajevo-i">
+                                        <Link href="/centri/brcko">
                                         <a className="cityDetailsBtn turqButton">Vidi sve detalje</a>
                                         </Link>
                                     </div>
@@ -134,8 +134,8 @@ const Tuzla = () => {
                                 <div className="boxOuter">
                                     <div className="boxInner">
                                         <img src={greenSphere} alt="" />
-                                        <p className="centriCityTitle">Sarajevo - II</p>
-                                        <p className="centriCitySubtitle">Centar u Starom Gradu</p>
+                                        <p className="centriCityTitle">Banja Luka</p>
+                                        <p className="centriCitySubtitle">Centar u Banja Luci</p>
                                         <div className="adressInfo">
                                             <div className="columns">
                                                 <div className="column">
@@ -144,14 +144,14 @@ const Tuzla = () => {
                                                     <p className="cityInfoTitle">Email: </p>
                                                 </div>
                                                 <div className="column is-10">
-                                                    <p><span className="cityInfoContent">Edhema Mulabdića 2</span></p>
-                                                    <p> <span className="cityInfoContent">+033 447 351</span></p>
-                                                    <p><span className="cityInfoContent">starigrad@nomasvello.ba</span>
+                                                    <p><span className="cityInfoContent">Bulevar cara Dušana 15</span></p>
+                                                    <p> <span className="cityInfoContent"> +051 258 150 | 066 486 645</span></p>
+                                                    <p><span className="cityInfoContent">banjaluka@nomasvello.ba</span>
                                                     </p>
                                                 </div>
                                             </div>
                                         </div>
-                                        <Link href="/centri/sarajevo-ii">
+                                        <Link href="/centri/banja-luka">
                                         <a className="cityDetailsBtn turqButton">Vidi sve detalje</a>
                                         </Link>
                                     </div>
@@ -163,8 +163,8 @@ const Tuzla = () => {
                                 <div className="boxOuter">
                                     <div className="boxInner">
                                         <img src={greenSphere} alt="" />
-                                        <p className="centriCityTitle">Sarajevo - III</p>
-                                        <p className="centriCitySubtitle">Centar u Novom Gradu</p>
+                                        <p className="centriCityTitle">Doboj</p>
+                                        <p className="centriCitySubtitle">Centar u Frizersko Kozmetickom Studiju “Mia”</p>
                                         <div className="adressInfo">
                                             <div className="columns">
                                                 <div className="column">
@@ -173,15 +173,15 @@ const Tuzla = () => {
                                                     <p className="cityInfoTitle">Email: </p>
                                                 </div>
                                                 <div className="column is-10">
-                                                    <p><span className="cityInfoContent">Hamdije Kapidžića 11-12</span>
+                                                    <p><span className="cityInfoContent">Makljenovac b.b.</span>
                                                     </p>
-                                                    <p> <span className="cityInfoContent">+033 766 130</span></p>
-                                                    <p><span className="cityInfoContent">dobrinja@nomasvello.ba</span>
+                                                    <p> <span className="cityInfoContent">061 888 595</span></p>
+                                                    <p><span className="cityInfoContent">doboj@nomasvello.ba</span>
                                                     </p>
                                                 </div>
                                             </div>
                                         </div>
-                                        <Link href="/centri/sarajevo-iii">
+                                        <Link href="/centri/doboj">
                                         <a className="cityDetailsBtn turqButton">Vidi sve detalje</a>
                                         </Link>
                                     </div>

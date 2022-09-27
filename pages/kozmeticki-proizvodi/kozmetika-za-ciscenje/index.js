@@ -6,7 +6,7 @@ import sampleImage2 from '../../../public/images/kozmeticki-proizvodi/kozmetikaC
 import sampleImage3 from '../../../public/images/kozmeticki-proizvodi/kozmetikaCiscenje/sample3.png'
 import eyeIcon from '../../../public/images/eyeIcon.svg'
 import checkGreen from '../../../public/images/greenCheckmark.svg';
-import sampleBottom from '../../../public/images/kozmeticki-proizvodi/kozmetikaCiscenje/sampleBottom.png'
+import sampleBottom from '../../../public/images/kozmeticki-proizvodi/kozmetikaCiscenje/sampleBottom.jpg';
 
 const Example = () => {
     return <Breadcrumbs useDefaultStyle rootLabel="Početna"

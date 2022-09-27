@@ -2,7 +2,7 @@ import styles from '../../styles/KozmetickiProizvodi.module.scss';
 import Link from 'next/link';
 import belowTitleImg from '../../public/images/belowTitleWhite.svg'
 import belowTitleImgGreen from '../../public/images/belowTitleGreen.svg'
-import kozmetikaCiscenje from '../../public/images/kozmeticki-proizvodi/kozmetikaCiscenje.png'
+import kozmetikaCiscenje from '../../public/images/kozmeticki-proizvodi/kozmetikaCiscenje.jpg'
 import linijaUcvrscivanje from '../../public/images/kozmeticki-proizvodi/linijaUcvrscivanje.jpg'
 import linijaRevitalizacija from '../../public/images/kozmeticki-proizvodi/linija_za_revitalizaciju_01.jpg'
 import linijaProtivNesavrsenosti from '../../public/images/kozmeticki-proizvodi/linijaProtivNesavrsenosti.jpg'

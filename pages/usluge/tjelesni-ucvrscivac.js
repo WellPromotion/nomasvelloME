@@ -7,7 +7,7 @@ import turqSphere from '../../public/images/usluge/turqSphere.svg'
 import cijenaIcon from '../../public/images/usluge/cijenaIcon.svg'
 import priceTag from '../../public/images/usluge/priceIcon.svg'
 import priceTwo from '../../public/images/usluge/diodniLaser.png'
-import naruciteSe from '../../public/images/usluge/naruciteSe.png'
+import naruciteSe from '../../public/images/usluge/tjelesni-ucvrscivac/naruciteSe.jpg'
 import ReactPlayer from 'react-player';
 import greenCircle from '../../public/images/usluge/fotoepilacija/greenCircle.svg'
 import turqCircle from '../../public/images/usluge/fotoepilacija/turqCircle.svg'
@@ -258,10 +258,10 @@ lokalizovanih masnih naslaga.</p>
                         </div>
                     </div>
                     <div className="columns">
-                        <div className="column has-text-centered">
+                        {/* <div className="column has-text-centered">
                             <p className="titleCijena">Želimo da se istaknete! <br />
                                 Savršena koža i najbolji osmijeh po najboljoj cijeni!</p>
-                        </div>
+                        </div> */}
                     </div>
                     
                     <div className="columns priceTagCols level">
@@ -270,7 +270,7 @@ lokalizovanih masnih naslaga.</p>
                             <div className="singleItemTop">
                                     <div className="inner">
                                         <p className="title">Cijena po sesiji</p>
-                                        <p className="price">KM</p>
+                                        <p className="price"></p>
                                     </div>
                                 </div>
                             <div className="singleItem upperItem">

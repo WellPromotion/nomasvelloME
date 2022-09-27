@@ -79,6 +79,27 @@
             border-radius: 0.75rem;
         }
     }
+    .rezultatiTitleFotopod{
+        font-size: 2rem;
+        line-height: 3rem;
+        color: #9EBB31;
+        font-weight: 700;
+        margin-bottom: 1rem;
+    }
+    .rezultatiSingleTitle{
+        font-weight: 600;
+        font-size: 1.5rem;
+        line-height: 2rem;
+        color: #9EBB31;
+        margin-bottom: 1rem;
+        text-transform: uppercase;
+    }
+    ._innerCol{
+        text-align: center;
+        img{
+            border-radius: .5rem;
+        }
+    }
 }
 
 #hr{

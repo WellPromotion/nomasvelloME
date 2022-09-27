@@ -1,14 +1,14 @@
 import styles from '../../styles/usluge/UltrazvučnoČišćenjeLica.module.scss';
 import Breadcrumbs from 'nextjs-breadcrumbs';
 import greenCheck from '../../public/images/greenCheck.svg';
-import sample1 from '../../public/images/usluge/ultrazvucno-ciscenje-lica/sample1.png'
+import sample1 from '../../public/images/usluge/ultrazvucno-ciscenje-lica/sample1.jpg'
 import proskin from '../../public/images/usluge/ultrazvucno-ciscenje-lica/proskin.png'
 import greenLines from '../../public/images/usluge/ultrazvucno-ciscenje-lica/greenlines.svg'
 import turqSphere from '../../public/images/usluge/turqSphere.svg'
 import cijenaIcon from '../../public/images/usluge/cijenaIcon.svg'
 import priceTag from '../../public/images/usluge/priceIcon.svg'
 import priceTwo from '../../public/images/usluge/diodniLaser.png'
-import naruciteSe from '../../public/images/usluge/naruciteSe.png'
+import naruciteSe from '../../public/images/usluge/ultrazvucno-ciscenje-lica/ultrazvucno-ciscenje-lica.jpg'
 import ReactPlayer from 'react-player';
 import greenCircle from '../../public/images/usluge/fotoepilacija/greenCircle.svg'
 import turqCircle from '../../public/images/usluge/fotoepilacija/turqCircle.svg'
@@ -271,8 +271,8 @@ No+Vello vam nudi visoko kvalitetnu kozmetiku za vašu kožu. Otkrijte naše pro
                     <div className="columns">
                         <div className="column has-text-centered">
                             <p className="titleCijena">Cijene ultrazvučnog čiščenja lica</p>
-                            <p className="subtitleCijena">Doživite iskustvo tehnologije Proskin: <br />
-5 novih tretmana osmišljenih upravo za vaše lice</p>
+                            {/* <p className="subtitleCijena">Doživite iskustvo tehnologije Proskin: <br />
+5 novih tretmana osmišljenih upravo za vaše lice</p> */}
                         </div>
                     </div>
                     <div className="columns">

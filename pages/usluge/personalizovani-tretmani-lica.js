@@ -9,7 +9,7 @@ import greenSphere from '../../public/images/greenSphere.svg'
 import cijenaIcon from '../../public/images/usluge/cijenaIcon.svg'
 import priceTag from '../../public/images/usluge/priceIcon.svg'
 import priceTwo from '../../public/images/usluge/diodniLaser.png'
-import naruciteSe from '../../public/images/usluge/naruciteSe.png'
+import naruciteSePersonalizovaniTretmani from '../../public/images/usluge/personalizovani-tretman-lica/personalizovani-tretmani-lica.jpg'
 import ReactPlayer from 'react-player';
 import greenCircle from '../../public/images/usluge/fotoepilacija/greenCircle.svg'
 import turqCircle from '../../public/images/usluge/fotoepilacija/turqCircle.svg'
@@ -216,7 +216,7 @@ potpuno besplatan pregled lica</p>
                 <div className="container">
                     <div className="columns is-gapless">
                         <div className="column imgCol">
-                            <img src={naruciteSe} alt="" />
+                            <img src={naruciteSePersonalizovaniTretmani} alt="" />
                         </div>
                         <div className="column">
                             <div className="txtPart">

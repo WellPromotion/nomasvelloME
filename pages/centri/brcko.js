@@ -62,7 +62,7 @@ const Brcko = () => {
                                 <p className="ponudaTitle">U ovom centru nudimo:</p>
                                 <div className="columns">
                                     <div className="column padNone is-6">
-                                            <p className="ponudaItem"> <span className="greenCheckSpacing"><img src={checkGreen} alt="" /></span>Fotoepilacija</p>
+                                            <p className="ponudaItem"> <span className="greenCheckSpacing"><img src={checkGreen} alt="" /></span>Fotoepilacija IPL SHR</p>
                                             <p className="ponudaItem"> <span className="greenCheckSpacing"><img src={checkGreen} alt="" /></span>Fotopodmlađivanje</p>
                                             <p className="ponudaItem"> <span className="greenCheckSpacing"><img src={checkGreen} alt="" /></span>Ultrazvučno čišćenje lica</p>
                                             <p className="ponudaItem"> <span className="greenCheckSpacing"><img src={checkGreen} alt="" /></span>Čišćenje lica galvanskom energijom</p>
@@ -99,8 +99,8 @@ const Brcko = () => {
                                 <div className="boxOuter">
                                     <div className="boxInner">
                                         <img src={greenSphere} alt="" />
-                                        <p className="centriCityTitle">Sarajevo - I</p>
-                                        <p className="centriCitySubtitle">Centar u Novom Sarajevu</p>
+                                        <p className="centriCityTitle">Tuzla</p>
+                                        <p className="centriCitySubtitle">Centar u zgradi Avaza</p>
                                         <div className="adressInfo">
                                             <div className="columns">
                                                 <div className="column">
@@ -109,14 +109,14 @@ const Brcko = () => {
                                                     <p className="cityInfoTitle">Email: </p>
                                                 </div>
                                                 <div className="column is-10">
-                                                    <p><span className="cityInfoContent">Kolodvorska 3B</span></p>
-                                                    <p> <span className="cityInfoContent">+033 718 555</span></p>
-                                                    <p><span className="cityInfoContent">info@nomasvello.ba</span></p>
+                                                    <p><span className="cityInfoContent">Maršala Tita br. 2</span></p>
+                                                    <p> <span className="cityInfoContent">061 75 20 20</span></p>
+                                                    <p><span className="cityInfoContent">tuzla@nomasvello.ba</span></p>
                                                 </div>
                                             </div>
                                         </div>
 
-                                        <Link href="/centri/sarajevo-i">
+                                        <Link href="/centri/tuzla">
                                         <a className="cityDetailsBtn turqButton">Vidi sve detalje</a>
                                         </Link>
                                     </div>
@@ -128,8 +128,8 @@ const Brcko = () => {
                                 <div className="boxOuter">
                                     <div className="boxInner">
                                         <img src={greenSphere} alt="" />
-                                        <p className="centriCityTitle">Sarajevo - II</p>
-                                        <p className="centriCitySubtitle">Centar u Starom Gradu</p>
+                                        <p className="centriCityTitle">Doboj</p>
+                                        <p className="centriCitySubtitle">Centar u Frizersko Kozmetickom Studiju “Mia”</p>
                                         <div className="adressInfo">
                                             <div className="columns">
                                                 <div className="column">
@@ -138,14 +138,14 @@ const Brcko = () => {
                                                     <p className="cityInfoTitle">Email: </p>
                                                 </div>
                                                 <div className="column is-10">
-                                                    <p><span className="cityInfoContent">Edhema Mulabdića 2</span></p>
-                                                    <p> <span className="cityInfoContent">+033 447 351</span></p>
-                                                    <p><span className="cityInfoContent">starigrad@nomasvello.ba</span>
+                                                    <p><span className="cityInfoContent">Makljenovac b.b.</span></p>
+                                                    <p> <span className="cityInfoContent">061 888 595</span></p>
+                                                    <p><span className="cityInfoContent">doboj@nomasvello.ba</span>
                                                     </p>
                                                 </div>
                                             </div>
                                         </div>
-                                        <Link href="/centri/sarajevo-ii">
+                                        <Link href="/centri/doboj">
                                         <a className="cityDetailsBtn turqButton">Vidi sve detalje</a>
                                         </Link>
                                     </div>
@@ -157,8 +157,8 @@ const Brcko = () => {
                                 <div className="boxOuter">
                                     <div className="boxInner">
                                         <img src={greenSphere} alt="" />
-                                        <p className="centriCityTitle">Sarajevo - III</p>
-                                        <p className="centriCitySubtitle">Centar u Novom Gradu</p>
+                                        <p className="centriCityTitle">Banja Luka</p>
+                                        <p className="centriCitySubtitle">Centar u Banja Luci</p>
                                         <div className="adressInfo">
                                             <div className="columns">
                                                 <div className="column">
@@ -167,15 +167,15 @@ const Brcko = () => {
                                                     <p className="cityInfoTitle">Email: </p>
                                                 </div>
                                                 <div className="column is-10">
-                                                    <p><span className="cityInfoContent">Hamdije Kapidžića 11-12</span>
+                                                    <p><span className="cityInfoContent">Bulevar cara Dušana 15</span>
                                                     </p>
-                                                    <p> <span className="cityInfoContent">+033 766 130</span></p>
-                                                    <p><span className="cityInfoContent">dobrinja@nomasvello.ba</span>
+                                                    <p> <span className="cityInfoContent">+051 258 150 | 066 486 645</span></p>
+                                                    <p><span className="cityInfoContent">banjaluka@nomasvello.ba</span>
                                                     </p>
                                                 </div>
                                             </div>
                                         </div>
-                                        <Link href="/centri/sarajevo-iii">
+                                        <Link href="/centri/banja-luka">
                                         <a className="cityDetailsBtn turqButton">Vidi sve detalje</a>
                                         </Link>
                                     </div>

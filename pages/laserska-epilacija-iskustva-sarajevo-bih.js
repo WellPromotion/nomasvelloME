@@ -10,7 +10,7 @@ export default function IskustvaSarajevo() {
     
     <>
     
-    <section id="heroTitle" className="hero is-medium">
+    <section id="heroTitleIskustva" className="hero is-medium">
         <div className="hero-body">
             <div className="container has-text-centered">
                 <h1 className=" title">

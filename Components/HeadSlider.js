@@ -24,7 +24,7 @@ export default function HeadSlider() {
               </p> */}
               <div className="inner">
               <p className="titleHeaderSlider">
-                13 centara u BiH!
+                9 centara u BiH!
               </p>
               <p className="postTitleHeaderSlider">
                 - sa najsavremenijom opremom <br />

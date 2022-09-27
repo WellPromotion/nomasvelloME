@@ -172,7 +172,38 @@ const Centri = () => {
                                     </div>
                                 </div>
                             </div>
+                            
                             <div className="boxCity">
+                                <div className="boxOuter">
+                                    <div className="boxInner">
+                                        <img src={greenSphere} alt="" />
+                                        <p className="centriCityTitle">Brčko</p>
+                                        <p className="centriCitySubtitle">Centar u Brčkom</p>
+                                        <div className="adressInfo">
+                                            <div className="columns">
+                                                <div className="column">
+                                                    <p className="cityInfoTitle">Adresa: </p>
+                                                    <p className="cityInfoTitle">Telefon:</p>
+                                                    <p className="cityInfoTitle">Email: </p>
+                                                </div>
+                                                <div className="column is-10">
+                                                    <p><span className="cityInfoContent">Studentska 3</span></p>
+                                                    <p> <span className="cityInfoContent">066 326 505</span></p>
+                                                    <p><span className="cityInfoContent">brcko@nomasvello.ba</span></p>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <Link href="/centri/brcko">
+                                        <a className="cityDetailsBtn turqButton">Vidi sve detalje</a>
+                                        </Link>
+                                    </div>
+                                </div>
+                            </div>
+                           
+                        </div>
+                        <div className="column">
+                           
+                        <div className="boxCity">
                                 <div className="boxOuter">
                                     <div className="boxInner">
                                         <img src={greenSphere} alt="" />
@@ -199,9 +230,6 @@ const Centri = () => {
                                     </div>
                                 </div>
                             </div>
-                        </div>
-                        <div className="column">
-                           
                             
                             <div className="boxCity">
                                 <div className="boxOuter">
@@ -256,32 +284,7 @@ const Centri = () => {
                                     </div>
                                 </div>
                             </div>
-                            <div className="boxCity">
-                                <div className="boxOuter">
-                                    <div className="boxInner">
-                                        <img src={greenSphere} alt="" />
-                                        <p className="centriCityTitle">Brčko</p>
-                                        <p className="centriCitySubtitle">Centar u Brčkom</p>
-                                        <div className="adressInfo">
-                                            <div className="columns">
-                                                <div className="column">
-                                                    <p className="cityInfoTitle">Adresa: </p>
-                                                    <p className="cityInfoTitle">Telefon:</p>
-                                                    <p className="cityInfoTitle">Email: </p>
-                                                </div>
-                                                <div className="column is-10">
-                                                    <p><span className="cityInfoContent">Studentska 3</span></p>
-                                                    <p> <span className="cityInfoContent">066 326 505</span></p>
-                                                    <p><span className="cityInfoContent">brcko@nomasvello.ba</span></p>
-                                                </div>
-                                            </div>
-                                        </div>
-                                        <Link href="/centri/brcko">
-                                        <a className="cityDetailsBtn turqButton">Vidi sve detalje</a>
-                                        </Link>
-                                    </div>
-                                </div>
-                            </div>
+                           
                         </div>
                         
                 

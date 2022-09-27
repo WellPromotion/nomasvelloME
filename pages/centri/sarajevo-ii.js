@@ -62,13 +62,14 @@ const SarajevoII = () => {
                                 <div className="centarPonudaInner">
                                 <p className="ponudaTitle">U ovom centru nudimo:</p>
                                 <div className="columns">
-                                    <div className="column padNone is-6">
+                                        <div className="column padNone is-6">
+                                        <p className="ponudaItem"> <span className="greenCheckSpacing"><img src={checkGreen} alt="" /></span>Laserska epilacija diodnim laserom</p>
                                             <p className="ponudaItem"> <span className="greenCheckSpacing"><img src={checkGreen} alt="" /></span>Fotoepilacija IPL SHR</p>
                                             <p className="ponudaItem"> <span className="greenCheckSpacing"><img src={checkGreen} alt="" /></span>Fotopodmlađivanje</p>
                                             <p className="ponudaItem"> <span className="greenCheckSpacing"><img src={checkGreen} alt="" /></span>Tjelesni učvršćivač</p>
                                             <p className="ponudaItem"> <span className="greenCheckSpacing"><img src={checkGreen} alt="" /></span>Anticelulitni reduktor</p>
                                             <p className="ponudaItem"> <span className="greenCheckSpacing"><img src={checkGreen} alt="" /></span>Facijalni anti-age</p>
-                                            <p className="ponudaItem"> <span className="greenCheckSpacing"><img src={checkGreen} alt="" /></span>Laserska epilacija diodnim laserom</p>
+                                            
                                     </div>
                                     <div className="column padNone">
                                             <p className="ponudaItem"> <span className="greenCheckSpacing"><img src={checkGreen} alt="" /></span>Izbjeljivanje zuba</p>
@@ -136,35 +137,6 @@ const SarajevoII = () => {
                                 <div className="boxOuter">
                                     <div className="boxInner">
                                         <img src={greenSphere} alt="" />
-                                        <p className="centriCityTitle">Sarajevo - II</p>
-                                        <p className="centriCitySubtitle">Centar u Starom Gradu</p>
-                                        <div className="adressInfo">
-                                            <div className="columns">
-                                                <div className="column">
-                                                    <p className="cityInfoTitle">Adresa: </p>
-                                                    <p className="cityInfoTitle">Telefon:</p>
-                                                    <p className="cityInfoTitle">Email: </p>
-                                                </div>
-                                                <div className="column is-10">
-                                                    <p><span className="cityInfoContent">Edhema Mulabdića 2</span></p>
-                                                    <p> <span className="cityInfoContent">+033 447 351</span></p>
-                                                    <p><span className="cityInfoContent">starigrad@nomasvello.ba</span>
-                                                    </p>
-                                                </div>
-                                            </div>
-                                        </div>
-                                        <Link href="/centri/sarajevo-ii">
-                                        <a className="cityDetailsBtn turqButton">Vidi sve detalje</a>
-                                        </Link>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                        <div className="column">
-                        <div className="boxCityOstale">
-                                <div className="boxOuter">
-                                    <div className="boxInner">
-                                        <img src={greenSphere} alt="" />
                                         <p className="centriCityTitle">Sarajevo - III</p>
                                         <p className="centriCitySubtitle">Centar u Novom Gradu</p>
                                         <div className="adressInfo">
@@ -184,6 +156,35 @@ const SarajevoII = () => {
                                             </div>
                                         </div>
                                         <Link href="/centri/sarajevo-iii">
+                                        <a className="cityDetailsBtn turqButton">Vidi sve detalje</a>
+                                        </Link>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div className="column">
+                        <div className="boxCityOstale">
+                                <div className="boxOuter">
+                                    <div className="boxInner">
+                                        <img src={greenSphere} alt="" />
+                                        <p className="centriCityTitle">Sarajevo - IV</p>
+                                        <p className="centriCitySubtitle">Centar u Starom Gradu</p>
+                                        <div className="adressInfo">
+                                            <div className="columns">
+                                                <div className="column">
+                                                    <p className="cityInfoTitle">Adresa: </p>
+                                                    <p className="cityInfoTitle">Telefon:</p>
+                                                    <p className="cityInfoTitle">Email: </p>
+                                                </div>
+                                                <div className="column is-10">
+                                                    <p><span className="cityInfoContent">Butmirska cesta 14-Grand centar</span></p>
+                                                    <p> <span className="cityInfoContent">+033 620 077</span></p>
+                                                    <p><span className="cityInfoContent">ilidza@nomasvello.ba</span>
+                                                    </p>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <Link href="/centri/sarajevo-iv">
                                         <a className="cityDetailsBtn turqButton">Vidi sve detalje</a>
                                         </Link>
                                     </div>

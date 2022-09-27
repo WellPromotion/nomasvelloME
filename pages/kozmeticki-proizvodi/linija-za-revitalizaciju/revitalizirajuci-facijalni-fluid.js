@@ -1,6 +1,6 @@
 import styles from '../../../styles/kozmeticki-proizvodi/linija-za-revitalizaciju/RevitalizirajuciFacijalniFluid.module.scss';
 import Breadcrumbs from 'nextjs-breadcrumbs';
-import sample1 from '../../../public/images/kozmeticki-proizvodi/linija-za-revitalizaciju/revitalizirajuci-facijalni-fluid/sample1.png'
+import sample1 from '../../../public/images/kozmeticki-proizvodi/linija-za-revitalizaciju/revitalizirajuci-facijalni-fluid/sample1.jpg'
 import maskeIcon from '../../../public/images/kozmeticki-proizvodi/maskeIcon.svg'
 import listIcon from '../../../public/images/kozmeticki-proizvodi/kozmetikaCiscenje/gel-za-ciscenje-visoke-tolerancije/listIcon.svg'
 import turqCheck from '../../../public/images/turqCheck.svg'
@@ -34,7 +34,7 @@ const RevitalizirajuciFacijalniFluid = () => {
             <section id="featuredProduct" className="featuredProduct">
                 <div className="container">
                     <div className="columns level colsProtivNesavrsenosti">
-                        <div className="column leftColumn">
+                        <div className="column leftColumn imgColRevitaliz">
                             <img className='sampleImage' src={sample1} alt="" />
                         </div>
                         <div className="column">

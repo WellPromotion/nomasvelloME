@@ -5,7 +5,7 @@ import sampleImage1 from '../../../public/images/kozmeticki-proizvodi/linija-za-
 import sampleImage2 from '../../../public/images/kozmeticki-proizvodi/linija-za-regeneraciju/sample2.png'
 import eyeIcon from '../../../public/images/eyeIcon.svg'
 import checkGreen from '../../../public/images/greenCheckmark.svg';
-import sampleBottom from '../../../public/images/kozmeticki-proizvodi/linija-za-regeneraciju/sampleBottom.png'
+import sampleBottom from '../../../public/images/kozmeticki-proizvodi/linija-za-regeneraciju/sampleBottom.jpg'
 
 const Example = () => {
     return <Breadcrumbs useDefaultStyle rootLabel="Početna"

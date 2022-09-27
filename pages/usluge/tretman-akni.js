@@ -126,7 +126,7 @@ IPL tehnologija, također, raspolaže još jednom prednošću jer pospješuje pi
                         <p className="parIntenzivna defaultText">
                         Prednosti tretmana akni IPL tehnologijom su: jednostavnost, bezbolnost i bezbjednost tretmana, koji je finansijski prihvatljiv, a rezultati su vidljivi već nakon nekoliko tretmana.
  <br /><br />
-Centri No+Vello nude tretmane akni vulgaris po jedinstvenoj cijeni od 45 KM. Ovi tretmani su pod nadzorom ljekara-dermatologa. Tretman se radi svakih 15 dana tokom 4 mjeseca, a rezultati su vidljivi već nakon prvih sesija.
+ Centri No+Vello nude tretmane akni vulgaris po jedinstvenoj cijeni od 49 KM. Ovi tretmani su pod nadzorom ljekara-dermatologa. Tretman se radi svakih 15 dana tokom 4 mjeseca, a rezultati su vidljivi već nakon prvih sesija.
                             </p>
                         </div>
                     </div>
@@ -172,12 +172,12 @@ potpuno besplatan pregled lica</p>
                         </div>
                     </div>
                     
-                    <div className="columns priceTagCols level">
+                    {/* <div className="columns priceTagCols level">
                         <div className="column txtCol">
                             <p className="pozivamoVas">Tretman akni
                             </p>
                         </div>
-                    </div>
+                    </div> */}
                     <div className="columns priceTagCols level">
                         <div className="column txtCol">
                             <div className="list">

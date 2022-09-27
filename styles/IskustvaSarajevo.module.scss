@@ -1,6 +1,23 @@
 @import './variables';
 
 
+#heroTitleIskustva{
+    background-image: url("../public/images/faq/laser.png");
+    position: relative;
+    background-size: cover;
+    background-position: center 50%;
+    background-repeat: no-repeat;
+
+    .hero-body .title{
+        text-transform: none;
+        color: #fff;
+        font-weight: 500;
+        font-size: 2.5rem;
+        line-height: 3rem;
+        margin-bottom: 0;
+    }
+}
+
 #iskustvaSaSection{
     .singleIskustvo{
         background-color: #fff;

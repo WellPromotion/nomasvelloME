@@ -61,13 +61,14 @@ const Zenica = () => {
                                 <div className="centarPonudaInner">
                                 <p className="ponudaTitle">U ovom centru nudimo:</p>
                                 <div className="columns">
-                                    <div className="column padNone is-6">
+                                        <div className="column padNone is-6">
+                                        <p className="ponudaItem"> <span className="greenCheckSpacing"><img src={checkGreen} alt="" /></span>Laserska epilacija diodnim laserom</p>
                                             <p className="ponudaItem"> <span className="greenCheckSpacing"><img src={checkGreen} alt="" /></span>Fotoepilacija IPL SHR</p>
                                             <p className="ponudaItem"> <span className="greenCheckSpacing"><img src={checkGreen} alt="" /></span>Fotopodmlađivanje</p>
                                             <p className="ponudaItem"> <span className="greenCheckSpacing"><img src={checkGreen} alt="" /></span>Tjelesni učvršćivač</p>
                                             <p className="ponudaItem"> <span className="greenCheckSpacing"><img src={checkGreen} alt="" /></span>Anticelulitni reduktor</p>
                                             <p className="ponudaItem"> <span className="greenCheckSpacing"><img src={checkGreen} alt="" /></span>Facijalni anti-age</p>
-                                            <p className="ponudaItem"> <span className="greenCheckSpacing"><img src={checkGreen} alt="" /></span>Laserska epilacija diodnim laserom</p>
+                                            
                                     </div>
                                     <div className="column padNone">
                                             <p className="ponudaItem"> <span className="greenCheckSpacing"><img src={checkGreen} alt="" /></span>Izbjeljivanje zuba</p>
@@ -80,9 +81,9 @@ const Zenica = () => {
                                 </div>
                             </div>
                             <div className="mapaCentra">
-                            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2860.1866024023657!2d17.909846615786808!3d44.203223024707036!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x475ee2470967863f%3A0xa7bc1d7b68a4b14c!2sTr%C5%BEni%20Centar%20%22Shopping%20City%22!5e0!3m2!1sbs!2sba!4v1643961813497!5m2!1sbs!2sba" width="888" height="340" allowfullscreen="" loading="lazy"></iframe>
+                            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2860.1797228271644!2d17.910856615786727!3d44.203364724697735!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x475ee240ee6a6ee5%3A0xe3f83cfa2ca8b972!2sNo%2BVello%C2%AE%20Zenica%20-%20Svjetski%20lider%20u%20laserskoj%20epilaciji!5e0!3m2!1sen!2sba!4v1663759096485!5m2!1sen!2sba" width="888" height="340" allowfullscreen="" loading="lazy"></iframe>
                             </div>
-                            <Link href="https://www.google.ba/maps/search/Shopping+City,+Kamberovića+čikma,+Zenica+72000/@44.7690391,17.1831102,17z">
+                            <Link href="https://www.google.com/maps/place/No%2BVello%C2%AE+Zenica+-+Svjetski+lider+u+laserskoj+epilaciji/@44.2033647,17.9108566,17z/data=!3m1!4b1!4m5!3m4!1s0x475ee240ee6a6ee5:0xe3f83cfa2ca8b972!8m2!3d44.2033609!4d17.9130453">
                             <a className="pogledajMapuBtn greyButton">Pogledaj na Google Maps</a>
                             </Link>
                         </div>
@@ -135,8 +136,8 @@ const Zenica = () => {
                                 <div className="boxOuter">
                                     <div className="boxInner">
                                         <img src={greenSphere} alt="" />
-                                        <p className="centriCityTitle">Sarajevo - II</p>
-                                        <p className="centriCitySubtitle">Centar u Starom Gradu</p>
+                                        <p className="centriCityTitle">Doboj</p>
+                                        <p className="centriCitySubtitle">Centar u Frizersko Kozmetičkom Studiju “Mia”</p>
                                         <div className="adressInfo">
                                             <div className="columns">
                                                 <div className="column">
@@ -145,14 +146,14 @@ const Zenica = () => {
                                                     <p className="cityInfoTitle">Email: </p>
                                                 </div>
                                                 <div className="column is-10">
-                                                    <p><span className="cityInfoContent">Edhema Mulabdića 2</span></p>
-                                                    <p> <span className="cityInfoContent">+033 447 351</span></p>
-                                                    <p><span className="cityInfoContent">starigrad@nomasvello.ba</span>
+                                                    <p><span className="cityInfoContent">Makljenovac b.b.</span></p>
+                                                    <p> <span className="cityInfoContent">061 888 595</span></p>
+                                                    <p><span className="cityInfoContent">doboj@nomasvello.ba</span>
                                                     </p>
                                                 </div>
                                             </div>
                                         </div>
-                                        <Link href="/centri/sarajevo-ii">
+                                        <Link href="/centri/doboj">
                                         <a className="cityDetailsBtn turqButton">Vidi sve detalje</a>
                                         </Link>
                                     </div>
@@ -164,8 +165,8 @@ const Zenica = () => {
                                 <div className="boxOuter">
                                     <div className="boxInner">
                                         <img src={greenSphere} alt="" />
-                                        <p className="centriCityTitle">Sarajevo - III</p>
-                                        <p className="centriCitySubtitle">Centar u Novom Gradu</p>
+                                        <p className="centriCityTitle">Tuzla</p>
+                                        <p className="centriCitySubtitle">Centar u zgradi Avaza</p>
                                         <div className="adressInfo">
                                             <div className="columns">
                                                 <div className="column">
@@ -174,15 +175,15 @@ const Zenica = () => {
                                                     <p className="cityInfoTitle">Email: </p>
                                                 </div>
                                                 <div className="column is-10">
-                                                    <p><span className="cityInfoContent">Hamdije Kapidžića 11-12</span>
+                                                    <p><span className="cityInfoContent">Maršala Tita br. 2</span>
                                                     </p>
-                                                    <p> <span className="cityInfoContent">+033 766 130</span></p>
-                                                    <p><span className="cityInfoContent">dobrinja@nomasvello.ba</span>
+                                                    <p> <span className="cityInfoContent">061 75 20 20</span></p>
+                                                    <p><span className="cityInfoContent">tuzla@nomasvello.ba</span>
                                                     </p>
                                                 </div>
                                             </div>
                                         </div>
-                                        <Link href="/centri/sarajevo-iii">
+                                        <Link href="/centri/tuzla">
                                         <a className="cityDetailsBtn turqButton">Vidi sve detalje</a>
                                         </Link>
                                     </div>
