@@ -6,7 +6,7 @@ import turqSphere from '../../public/images/usluge/turqSphere.svg'
 import cijenaIcon from '../../public/images/usluge/cijenaIcon.svg'
 import priceTag from '../../public/images/usluge/priceIcon.svg'
 import priceTwo from '../../public/images/usluge/diodniLaser.png'
-import naruciteSe from '../../public/images/usluge/naruciteSe.png'
+import naruciteSe from '../../public/images/usluge/fotoepilacija/fotoepilacija.jpg'
 import ReactPlayer from 'react-player';
 import greenCircle from '../../public/images/usluge/fotoepilacija/greenCircle.svg'
 import turqCircle from '../../public/images/usluge/fotoepilacija/turqCircle.svg'
@@ -40,7 +40,7 @@ const Fotoepilacija = () => {
                 <div className="container">
                     <div className="columns headerColsUsluge">
                         <div className="column titlePart has-text-centered">
-                            <p className="titleUsluge">FOTOEPILACIJA</p>
+                            <p className="titleUsluge">FOTOEPILACIJA IPL SHR</p>
                             <p className="subtitleUsluge">Aparati sa tehnologijom posljednje generacije</p>
                             {/* <a href="https://www.figma.com" className="uslugeBtn">Naručite se</a> */}
                             <FotoepilacijaPopup />
@@ -250,7 +250,7 @@ Fotoepilacija pulsirajućom svjetlošću predstavlja praktično bezbolan tretman
                         <div className="column is-3">
                         <p className="korakBroj">2</p>
                             <p className="korakTitle">Drugi korak</p>
-                            <p className="korakContent">Klijent dobiva preporuke i potrebne mjere koje se moraju uzeti u obzir. Popunit će upitnik i informisani pristanak gdje se navodi da je ispravno informisan.</p>
+                            <p className="korakContent">Klijent dobija preporuke i potrebne mjere koje se moraju uzeti u obzir. Popunit će upitnik i informisani pristanak gdje se navodi da je ispravno informisan.</p>
                         </div>
                         <div className="column is-3">
                         <p className="korakBroj">3</p>
@@ -322,14 +322,14 @@ Fotoepilacija pulsirajućom svjetlošću predstavlja praktično bezbolan tretman
                     </div>
                     </div>
                     
-                    <div className="columns txtCols">
+                    {/* <div className="columns txtCols">
                         <div className="column txtCol">
                             <p className='txtPar'>U No+Vello centrima raspolažemo jedinstvenim uniseks cijenama po zoni, a to je 49 KM jednako za žene i muškarce. Predstavljamo vam prvi virtuelni kalkulator za izračunavanje cijena tretmana laserske epilacije i fotoepilacije IPL SHR tehnologijom.</p>
                         </div>
                         <div className="column txtCol">
                             <p className='txtPar'>U cilju prilgođavanja željama naših klijenata uvodimo još povoljnije cijene za sve one koji imaju problematične dlačice na malim površinama. Predstavljamo vam nove MINI zone po cijeni od 25 KM.</p>
                         </div>
-                    </div>
+                    </div> */}
                     
                 </div>
                 
@@ -353,7 +353,7 @@ Fotoepilacija pulsirajućom svjetlošću predstavlja praktično bezbolan tretman
                         <div className="column">
                             <div className="txtPart">
                                 <div className="inner">
-                                    <p className="titleNarudzba">UŽIVAJTE U NAJBOLJOJ FOTOEPILACIJI</p>
+                                    <p className="titleNarudzba">UŽIVAJTE U NAJBOLJOJ FOTOEPILACIJI IPL SHR</p>
                                     <p className="subtitleNarudzba">U SVOM No+Vello® CENTRU!</p>
                                     {/* <a href="https://google.com" className="narudzbaButtonBottom">Naručite se</a> */}
                                     <FotoepilacijaPopupBottom/>

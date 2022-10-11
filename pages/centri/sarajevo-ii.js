@@ -177,7 +177,7 @@ const SarajevoII = () => {
                                                     <p className="cityInfoTitle">Email: </p>
                                                 </div>
                                                 <div className="column is-10">
-                                                    <p><span className="cityInfoContent">Butmirska cesta 14-Grand centar</span></p>
+                                                    <p><span className="cityInfoContent">Rustempašina 1 – TC SARA</span></p>
                                                     <p> <span className="cityInfoContent">+033 620 077</span></p>
                                                     <p><span className="cityInfoContent">ilidza@nomasvello.ba</span>
                                                     </p>

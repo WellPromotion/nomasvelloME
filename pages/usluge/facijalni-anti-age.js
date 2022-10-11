@@ -3,7 +3,7 @@ import Breadcrumbs from 'nextjs-breadcrumbs';
 import greenCheck from '../../public/images/greenCheck.svg';
 import turqCheck from '../../public/images/turqCheck.svg';
 import sample1 from '../../public/images/usluge/facijalni-anti-age/sample1.png'
-import sample2 from '../../public/images/usluge/facijalni-anti-age/sample2.jpg'
+import sample2 from '../../public/images/usluge/facijalni-anti-age/roll-on-serum.png'
 import turqSphere from '../../public/images/usluge/turqSphere.svg'
 import cijenaIcon from '../../public/images/usluge/cijenaIcon.svg'
 import priceTag from '../../public/images/usluge/priceIcon.svg'

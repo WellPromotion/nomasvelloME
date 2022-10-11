@@ -1,14 +1,14 @@
 import styles from '../../styles/usluge/TretmanAkni.module.scss';
 import greenCheck from '../../public/images/greenCheck.svg';
 import turqCheck from '../../public/images/turqCheck.svg';
-import sample1 from '../../public/images/usluge/tretman-akni/sample1.png';
+import sample1 from '../../public/images/usluge/tretman-akni/ljekarska-podrska-img.jpg';
 import sample3 from '../../public/images/usluge/personalizovani-tretman-lica/sample3.png';
 import turqSphere from '../../public/images/usluge/turqSphere.svg'
 import greenSphere from '../../public/images/greenSphere.svg'
 import cijenaIcon from '../../public/images/usluge/cijenaIcon.svg'
 import priceTag from '../../public/images/usluge/priceIcon.svg'
 import priceTwo from '../../public/images/usluge/diodniLaser.png'
-import naruciteSe from '../../public/images/usluge/naruciteSe.png'
+import naruciteSe from '../../public/images/usluge/tretman-akni/tretman-akni-usluga.jpg'
 import ReactPlayer from 'react-player';
 import greenCircle from '../../public/images/usluge/fotoepilacija/greenCircle.svg'
 import turqCircle from '../../public/images/usluge/fotoepilacija/turqCircle.svg'
@@ -53,7 +53,7 @@ const TretmanAkni = () => {
                 <div className="container">
                     <div className="columns has-text-centered">
                         <div className="column has-text-centered">
-                            <img src={sample1} alt="" />
+                            <img className='ljekarskapodrskaIMG' src={sample1} alt="" />
                         </div>
                     </div>
                 </div>
@@ -145,11 +145,11 @@ IPL tehnologija, također, raspolaže još jednom prednošću jer pospješuje pi
                                     <div className="inner">
                                         <div className="titlePart">
                                             <img src={doctorIcon} className="doctorIcon" alt="" />
-                                            <p className="doctorTitle">Pozivamo vas da dodjete u nas centar na
+                                            <p className="doctorTitle">Pozivamo vas da dođete u naš centar na
 potpuno besplatan pregled lica</p>
                                         </div>
-                                        <p className='doctorSub'>Radi vase sigurnosti, Centri No+Vello <br />
-                                            raspolazu ljekarskom podrskom</p>
+                                        <p className='doctorSub'>Radi vaše sigurnosti, Centri No+Vello <br />
+                                            raspolažu ljekarskom podrškom</p>
                                         <a href="/centri" className="doctorButton">Pogledaj lokacije centara</a>
                                     </div>
                                 </div>

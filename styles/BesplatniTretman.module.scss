@@ -2,7 +2,8 @@
 
 
 #heroTitleBesplatni{
-    background-image: url("../public/images/faq/laser.png");
+    // background-image: url("../public/images/faq/laser.png");
+    background-image: linear-gradient(0deg, rgba(172, 199, 110, 0.6), rgba(172, 199, 110, 0.6)), url("../public/images/probni-tretman.jpg");
     position: relative;
     background-size: cover;
     background-position: center 50%;
@@ -43,39 +44,55 @@
         display: flex;
         justify-content: center;
         img{
-            height: 50%;
+            height: 15rem;
         }
     }
 }
 
 #bespMid{
+    padding-top: 5rem;
     
     .titlebespMid{
         text-align: center;
-        padding-bottom: 2rem;
+        // padding-bottom: 2rem;
+        color: #fff;
+        font-weight: 600;
+    }
+    .greenbackColTitle{
+        color: $titleColor;
+    }
+    .bespmidCols{
+        display: flex;
+        justify-content: center;
+    }
+    .greenbackCol{
+        background-color: $primaryGreen;
+        border-radius: 5rem;
     }
     
-    .rightmidCols{
-        .singlePro{
-            background: rgba(255, 255, 255, 0.95);
-        box-shadow: 0px 2px 8px rgba(0, 0, 0, 0.12);
-        border-radius: 8px;
-        margin-bottom: 1rem;
-        .inner{
-            padding: 1rem;
+}
+
+.rightmidCols{
+    padding-top: 2rem;
+    .singlePro{
+        background: rgba(255, 255, 255, 0.95);
+    box-shadow: 0px 2px 8px rgba(0, 0, 0, 0.12);
+    border-radius: 8px;
+    margin-bottom: 1rem;
+    .inner{
+        padding: 1rem;
+    }
+        .titlePro{
+            font-weight: 500;
+    font-size: 1.5rem;
+    // line-height: 3rem;
+    color: $titleColor;
         }
-            .titlePro{
-                font-weight: 500;
-        font-size: 1.5rem;
-        // line-height: 3rem;
-        color: $titleColor;
-            }
-            .subtitlePro{
-                font-weight: 400;
-                font-size: 1rem;
-                line-height: 1.75rem;
-                color: $primaryText;
-            }
+        .subtitlePro{
+            font-weight: 400;
+            font-size: 1rem;
+            line-height: 1.75rem;
+            color: $primaryText;
         }
     }
 }

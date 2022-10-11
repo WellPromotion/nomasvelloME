@@ -1,8 +1,8 @@
 import styles from '../../../styles/KozmetikaZaTijelo.module.scss';
 import Link from 'next/link';
 import Breadcrumbs from 'nextjs-breadcrumbs';
-import sampleImage1 from '../../../public/images/kozmeticki-proizvodi/kozmetika-za-tijelo/sample1.jpg'
-import sampleImage2 from '../../../public/images/kozmeticki-proizvodi/kozmetika-za-tijelo/sample2.jpg'
+import sampleImage1 from '../../../public/images/kozmeticki-proizvodi/kozmetika-za-tijelo/anticelulitni-reduktor.png'
+import sampleImage2 from '../../../public/images/kozmeticki-proizvodi/kozmetika-za-tijelo/tjelesni-ucvrscivac.png'
 import checkGreen from '../../../public/images/greenCheckmark.svg';
 import turqCheck from '../../../public/images/turqCheck.svg';
 

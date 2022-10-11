@@ -86,8 +86,8 @@ export const Footer = () => {
                                     Naše tehnologije
                                 </p>
                                 <ul className="technologiesList">
-                                    <li><a href="/tehnologije/ipl-tehnologija">IPL Tehnologija</a></li>
                                     <li><a href="/tehnologije/laser-tehnologija">Laser Tehnologija</a></li>
+                                    <li><a href="/tehnologije/ipl-tehnologija">IPL Tehnologija</a></li>
                                     <li><a href="/tehnologije/sun-and-safe">Sun & Safe</a></li>
                                     <li><a href="/tehnologije/led-tehnologija">LED Tehnologija</a></li>
                                     <li><a href="/tehnologije/ultrazvucna-tehnologija">Ultrazvučna Tehnologija</a></li>

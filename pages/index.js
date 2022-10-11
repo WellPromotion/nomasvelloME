@@ -36,6 +36,7 @@ export default function Home() {
         <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
         {/* <meta name="viewport" content="width=device-width"/> */}
         {/* <meta name="viewport" content="width=device-width, initial-scale=1.0"></meta> */}
+        <link href="//db.onlinewebfonts.com/c/aad1dafbe5df4c78ab2f1396cf213de3?family=BowlingScriptW01-Regular" rel="stylesheet" type="text/css"/> 
       </Head>
 
     <section id="sliderIntro" className="sIntro">
@@ -218,7 +219,7 @@ Br. 1 u svijetu među centrima za lasersku epilaciju.
                 <div className="thirdBox">
                   <a href="/usluge/laserska-epilacija#laserskaEpContainer"><div className="inner">
                     <img src={priceTag} alt="" />
-                    <p className="numberEleven">49KM</p>
+                    <p className="numberEleven">59KM</p>
                     <p className="firstText">Cijena po zoni i sesiji</p>
                   </div></a>
                 </div>

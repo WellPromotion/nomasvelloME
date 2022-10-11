@@ -277,7 +277,7 @@ No+Vello vam nudi visoko kvalitetnu kozmetiku za vašu kožu. Otkrijte naše pro
                     </div>
                     <div className="columns">
                         <div className="column has-text-centered">
-                        <img src={proskin} alt="" />
+                        <img className='proskinLogo' src={proskin} alt="proskin-logo" />
                         </div>
                     </div>
                     <div className="columns fourCols">
@@ -315,7 +315,7 @@ i hijaluronskom kiselinom</p>
                         </div>
                         <div className="column">
                         <div className="single">
-                                <div className="inner">
+                                <div className="inner basicPlus">
                                     <div className="titlePart">
                                         <div className="left">
                                         <p className="singleTitle basicTitle">Basic Plus</p>

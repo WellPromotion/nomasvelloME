@@ -1,6 +1,6 @@
 import styles from '../../../styles/kozmeticki-proizvodi/kozmetika-za-ciscenje/LiposomskaVoda.module.scss';
 import Breadcrumbs from 'nextjs-breadcrumbs';
-import sample1 from '../../../public/images/kozmeticki-proizvodi/kozmetikaCiscenje/liposomska-voda/sample1.jpg'
+import sample1 from '../../../public/images/kozmeticki-proizvodi/kozmetikaCiscenje/liposomska-voda/sample11.png'
 import efektiIcon from '../../../public/images/kozmeticki-proizvodi/kozmetikaCiscenje/liposomska-voda/efektiIcon.svg'
 import greenCheck from '../../../public/images/greenCheck.svg'
 import primjenaIcon from '../../../public/images/kozmeticki-proizvodi/kozmetikaCiscenje/gel-za-ciscenje-visoke-tolerancije/primjenaIcon.svg'

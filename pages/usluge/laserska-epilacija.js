@@ -8,11 +8,11 @@ import sample2 from '../../public/images/usluge/laserska-epilacija/sample2.png'
 import cijenaIcon from '../../public/images/usluge/cijenaIcon.svg'
 import priceTag from '../../public/images/usluge/priceIcon.svg'
 import priceTwo from '../../public/images/usluge/diodniLaser.png'
-import naruciteSe from '../../public/images/usluge/naruciteSe.png'
+import naruciteSe from '../../public/images/usluge/laserska-epilacija/laserska-epilacija.png'
 import LaserskaEpilacijaPopup from '../../Components/popups/LaserskaEpilacijaPopup';
 import LaserskaEpilacijaPopupBottom from '../../Components/popups/LaserskaEpilacijaPopupBottom';
 
-import Main from "../../Components/Selector/Main";
+import Main1 from "../../Components/Selector/Main1";
 
 const Example = () => {
   return <Breadcrumbs useDefaultStyle rootLabel="Početna" />;
@@ -252,7 +252,7 @@ VELIKE SNAGE</p>
                             <div className="inner">
                                 <img src={priceTag} className="priceTag" alt="" />
                                 <p className="priceTitle">
-                                49KM Zona
+                                59KM Zona
                                 </p>
                                 <p className="priceSubtitle">
                                 Unisex tarifa
@@ -261,18 +261,18 @@ VELIKE SNAGE</p>
                         </div>
                     </div>
                     <div className="column">
-                        <img className='diodniIMG' src={priceTwo} alt="49 KM - Cijena laserske epilacije po zoni" />
+                        <img className='diodniIMG' src={priceTwo} alt="59 KM - Cijena laserske epilacije po zoni" />
                     </div>
                     </div>
                     
-                    <div className="columns txtCols">
+                    {/* <div className="columns txtCols">
                         <div className="column txtCol">
                             <p className='txtPar'>U No+Vello centrima raspolažemo jedinstvenim uniseks cijenama po zoni, a to je 49 KM jednako za žene i muškarce. Predstavljamo vam prvi virtuelni kalkulator za izračunavanje cijena tretmana laserske epilacije i fotoepilacije IPL SHR tehnologijom.</p>
                         </div>
                         <div className="column txtCol">
                             <p className='txtPar'>U cilju prilgođavanja željama naših klijenata uvodimo još povoljnije cijene za sve one koji imaju problematične dlačice na malim površinama. Predstavljamo vam nove MINI zone po cijeni od 25 KM.</p>
                         </div>
-                    </div>
+                    </div> */}
                     
                 </div>
                 
@@ -280,7 +280,7 @@ VELIKE SNAGE</p>
           <div className="columns">
                         <div className="column is-12">
                         <p className="titleCijena titleCijenaPad">Izaberite zone koje želite tretirati</p>
-              <Main />
+              <Main1 />
             </div>
           </div>
                 </div>

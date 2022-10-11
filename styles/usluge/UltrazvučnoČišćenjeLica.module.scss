@@ -1,4 +1,5 @@
 @import '../variables';
+@font-face {font-family: "BowlingScriptW01-Regular"; src: url("//db.onlinewebfonts.com/t/aad1dafbe5df4c78ab2f1396cf213de3.eot"); src: url("//db.onlinewebfonts.com/t/aad1dafbe5df4c78ab2f1396cf213de3.eot?#iefix") format("embedded-opentype"), url("//db.onlinewebfonts.com/t/aad1dafbe5df4c78ab2f1396cf213de3.woff2") format("woff2"), url("//db.onlinewebfonts.com/t/aad1dafbe5df4c78ab2f1396cf213de3.woff") format("woff"), url("//db.onlinewebfonts.com/t/aad1dafbe5df4c78ab2f1396cf213de3.ttf") format("truetype"), url("//db.onlinewebfonts.com/t/aad1dafbe5df4c78ab2f1396cf213de3.svg#BowlingScriptW01-Regular") format("svg"); } 
 
 .ultrazvucnoHeader{
      background-image: url('../../public/images/usluge/ultrazvucno-ciscenje-lica/header.png') !important;
@@ -179,7 +180,14 @@
             width: 19.875rem;
         }
         .inner{
-            padding: 1.5rem 1.5rem 1.5rem 2rem;
+            padding: 1.5rem 1.5rem 1.5rem 1.5rem;
+        }
+        .basicPlus{
+            padding-right: 0.3rem;
+            .titlePart .singleTitle{
+                font-size: 1.95rem !important;
+                line-height: 2.925rem !important;
+            }
         }
         .titlePart{
             display: flex;
@@ -189,8 +197,9 @@
                 font-weight: 700;
                 font-size: 2.5rem;
                 line-height: 3.25rem;
-                color: $titleColor;
+                color: #EC268E;
                 margin-bottom: 1rem;
+                font-family: BowlingScriptW01-Regular;
             }
             .basicTitle{
                 font-size: 2.25rem !important;
@@ -198,10 +207,10 @@
             }
             .singlePrice{
                 font-weight: 700;
-                font-size: 1.25rem;
+                font-size: 1.45rem;
                 line-height: 1.875rem;
                 color: #fff;
-                background-color: $primaryTurquoise;
+                background-color: #EC268E;
                 padding: 1.313rem 0.563rem 1.313rem 0.563rem;
                 display: flex;
                 justify-content: center;
@@ -209,6 +218,7 @@
                 border-radius: 3.125rem;
                 height: 4.5rem;
                 width: 4.5rem;
+                
             }
         }
         .greenItem{
@@ -255,5 +265,8 @@
                 }
             }
         }
+      }
+      .proskinLogo{
+        height: 8rem;
       }
 }

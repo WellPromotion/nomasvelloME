@@ -12,7 +12,7 @@ export default function BesplatniTretman() {
             <div className="hero-body">
                 <div className="container has-text-centered">
                     <h1 className=" title">
-                        Besplatan probni tretman
+                        Besplatan probni tretman 
                     </h1>
                 </div>
             </div>
@@ -40,21 +40,9 @@ export default function BesplatniTretman() {
                             <img src={logofusion} alt="" />
                         </div>
                     </div>
-                </div>
-            </section>
-            
-            <section id="bespMid" className='bespMid'>
-                <div className="container">
-                    <div className="columns">
-                        <div className="column">
-                        <p className="defaultGreenTitle titlebespMid">Ispunite obrazac i prijavite se odmah na BESPLATAN PROBNI TRETMAN</p>
-                       </div>
-                    </div>
+                    
                     <div className="columns midColsBesp">
-                        <div className="column leftmidCols is-9">
-                            <img src={besplatnitretman} alt="" />
-                        </div>
-                        <div className="column rightmidCols">
+                    <div className="column rightmidCols">
                             <div className="singlePro">
                                 <div className="inner">
                                     <p className="titlePro">Dugotrajna</p>
@@ -62,22 +50,47 @@ export default function BesplatniTretman() {
 Rezultati su vidljivi već od prve sesije. Djeluje se direktno na korijen dlake.</p>
                                 </div>
                             </div>
-                            <div className="singlePro">
+                           
+                           
+                        </div>
+                        <div className="column rightmidCols">
+                        <div className="singlePro">
                                 <div className="inner">
                                     <p className="titlePro">Bezbolna</p>
                                     <p className="subtitlePro">
 Naš inovativni sistem hlađenja minimizuje osjećaj intezivne toplote.</p>
                                 </div>
                             </div>
-                            <div className="singlePro">
+                        </div>
+                        <div className="column rightmidCols">
+                        <div className="singlePro">
                                 <div className="inner">
-                                    <p className="titlePro">Delikatna</p>
+                                    <p className="titlePro">Personalizovana</p>
                                     <p className="subtitlePro">
-Idealan tretman epilacije za one koji pate od uraslih dlaka, proširenih vena i folikulitisa.</p>
+                                    Tretman prilagođavamo vašim potrebama, uzimajući u obzir fototip vaše kože, tip dlake i kože.</p>
                                 </div>
                             </div>
                         </div>
                     </div>
+                </div>
+            </section>
+            
+            <section id="bespMid" className='bespMid'>
+                <div className="container">
+                    <div className="columns bespmidCols">
+                        <div className="column greenbackCol is-8">
+                        <p className="defaultGreenTitle titlebespMid">Ispunite obrazac i prijavite se odmah na <br /> <span className='greenbackColTitle'>BESPLATAN PROBNI TRETMAN</span></p>
+                       </div>
+                    </div>
+                    {/* <div className="columns midColsBesp">
+                        <div className="column leftmidCols is-9">
+                            <img src={besplatnitretman} alt="" />
+                        </div>
+                      
+                    </div> */}
+                </div>
+                <div className="container">
+                    <BesplatniForm/>
                 </div>
             </section>
             
@@ -90,9 +103,7 @@ Idealan tretman epilacije za one koji pate od uraslih dlaka, proširenih vena i 
             </section> */}
             
             <section id="besplatniForm" className="besplatniForm">
-                <div className="container">
-                    <BesplatniForm/>
-                </div>
+               
             </section>
         
          

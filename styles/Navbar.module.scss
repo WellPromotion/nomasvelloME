@@ -42,6 +42,7 @@
         align-items: center;
         margin-bottom: 0;
         list-style: none;
+        margin-top: 0;
         
         @media only screen and (min-device-width : 320px) and (max-device-width : 480px) {
             display: none;
@@ -402,4 +403,11 @@
     &:hover{
         background-color: #fff;
     }
+}
+
+.navImg{
+    img{
+        height: 5rem;
+    }
+    
 }

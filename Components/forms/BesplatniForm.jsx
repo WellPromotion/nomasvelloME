@@ -90,7 +90,7 @@ const handleOnChange = ( event ) => {
                         <div className="column formCol is-6">
                             
                         <div className="info-wrap">
-                        <h2 className='naruciteTermin'>Naručite se - Besplatan probni tretman</h2>
+                        {/* <h2 className='naruciteTermin'>Naručite se - Besplatan probni tretman</h2> */}
                         
                     </div>
 
@@ -132,7 +132,7 @@ const handleOnChange = ( event ) => {
                                         </div>
                         <div className="select column is-12">
                         <select onChange={ handleOnChange } required name="4">
-                            <option className="first">Odaberite besplatan probni tretman</option>
+                            <option className="first">Odaberite besplatan probni tretman*</option>
                             <option value="Fotoepilacija">Laserska epilacija diodnim laserom</option>
                             <option value="Fotopodmlađivanje">Fotoepilacija sa IPL SHR</option>
                             <option value="Fotopodmlađivanje">Pregled lica Woodovom lampom</option>
@@ -140,7 +140,7 @@ const handleOnChange = ( event ) => {
                         </div>
                         <div className="select column is-12">
                         <select onChange={ handleOnChange } required name="5">
-                            <option className="first">Odaberite željeni centar</option>
+                            <option className="first">Odaberite željeni centar*</option>
                             <option value="Sarajevo - Novo Sarajevo">Sarajevo - Novo Sarajevo</option>
                             <option value="Sarajevo - Stari Grad">Sarajevo - Stari Grad</option>
                             <option value="Sarajevo - Novi Grad">Sarajevo - Novi Grad</option>
