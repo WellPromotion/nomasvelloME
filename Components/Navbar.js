@@ -1,6 +1,6 @@
 import { SchemaMetaFieldDef } from 'graphql'
 import React from 'react'
-import navLogo from '../public/images/Nomasvello-Logo1.jpg'
+import navLogo from '../public/images/Nomasvello-Logo.png'
 import dropDown from '../public/images/dropdownIconWhite.svg'
 import dropDownGrey from '../public/images/dropdownIcon.svg'
 import youtubeIcon from '../public/images/youtubeIcon.svg'
@@ -42,6 +42,9 @@ return (
                     </a>
                     <a href="/centri/banja-luka">
                         <li>Banja Luka</li>
+                            </a>
+                    <a href="/centri/brcko">
+                        <li>Brčko</li>
                     </a>
                     <a href="/centri/zenica">
                         <li>Zenica</li>
@@ -52,9 +55,7 @@ return (
                     <a href="/centri/doboj">
                         <li>Doboj</li>
                     </a>
-                    <a href="/centri/brcko">
-                        <li>Brčko</li>
-                    </a>
+                    
                 </ul>
                     </div>
                 </div>
@@ -103,9 +104,9 @@ return (
             <HamburgerMenu />
 
             <ul className="menuList">
-                <a href="/">
+                {/* <a href="/">
                     <li>Početna</li>
-                </a>
+                </a> */}
                 <a href="/usluge/laserska-epilacija" className='uslugeDrop'>
                     <li>Usluge <span className='downCarretMenu'><img src={dropDownGrey} alt="" /></span>
                         <ul className='uslugeDropdown'>
@@ -113,7 +114,7 @@ return (
                                 <li>Laserska epilacija</li>
                             </a>
                             <a href="/usluge/fotoepilacija">
-                                <li>Fotoepilacija</li>
+                                <li>Fotoepilacija IPL SHR</li>
                             </a>
                             <a href="/usluge/fotopodmladjivanje">
                                 <li>Fotopodmlađivanje</li>
@@ -176,8 +177,9 @@ return (
 
                     </li>
                 </a>
-                <a href="/tehnologije" className='tehnologijeDrop'>
-                    <li>Tehnologija<span className='downCarretMenu'><img src={dropDownGrey} alt="" /></span>
+                    <a href="/tehnologije" className='tehnologijeDrop'>
+                        <li>Tehnologija</li>
+                    {/* <li>Tehnologija<span className='downCarretMenu'><img src={dropDownGrey} alt="" /></span>
                         <ul className='tehnologijeDropdown'>
                             <a href="/tehnologije/laser-tehnologija">
                                 <li>Laser tehnologija</li>
@@ -199,7 +201,7 @@ return (
                             </a>
                         </ul>
 
-                    </li>
+                    </li> */}
                 </a>
                 
                 <a href="/" className='oNamaDrop'>
@@ -207,10 +209,13 @@ return (
                         <ul className='oNamaDropdown'>
                             <a href="/blog">
                                 <li>Blog</li>
-                            </a>
+                                </a>
                             <a href="/faq/laserska-epilacija-fotoepilacija-ipl-shr">
                                 <li>FAQ</li>
-                            </a>  
+                                </a>  
+                                <a href="/kozmeticki-proizvodi">
+                                    <li>Kozmetički proizvodi</li>
+                                 </a>   
                         </ul>
                     </li>
                     </a>
@@ -223,7 +228,7 @@ return (
                                             <li>Laserska epilacija</li>
                                         </a>
                                         <a href="/usluge/fotoepilacija#diodniZone">
-                                            <li>Fotoepilacija</li>
+                                            <li>Fotoepilacija IPL SHR</li>
                                         </a>
                                         <a href="/usluge/fotopodmladjivanje#cijenaFotopod">
                                             <li>Fotopodmlađivanje</li>
@@ -251,8 +256,8 @@ return (
                                 </a>
                     
                     
-                    <a href="/kozmeticki-proizvodi">
-                    <li>Kozmetički proizvodi</li>
+                    <a href="/otkrijte-nase-ponude-i-promocije">
+                    <li>Promocije</li>
                     </a>
                     
                 {/* <a href="/blog">

@@ -14,6 +14,14 @@ import greenCircle from '../../public/images/usluge/fotoepilacija/greenCircle.sv
 import turqCircle from '../../public/images/usluge/fotoepilacija/turqCircle.svg'
 import UltrazvucnoCiscenjeLicaPopup from '../../Components/popups/UltrazvucnoCiscenjeLicaPopup';
 import UltrazvucnoCiscenjeLicaPopupBottom from '../../Components/popups/UltrazvucnoCiscenjeLicaPopupBottom';
+import efikasnoImg from '../../public/images/usluge/ultrazvucno-ciscenje-lica/efikasan-tretman-mitisera.png';
+import ekonomicnoImg from '../../public/images/usluge/ultrazvucno-ciscenje-lica/ekonomicno.png';
+import brzoImg from '../../public/images/usluge/ultrazvucno-ciscenje-lica/brzo.png';
+import crveniloImg from '../../public/images/usluge/ultrazvucno-ciscenje-lica/bez-crvenila.png';
+import necistoceImg from '../../public/images/usluge/ultrazvucno-ciscenje-lica/uklanjanje-necistoca-sa-lica.png';
+import stresImg from '../../public/images/usluge/ultrazvucno-ciscenje-lica/uklanjanje-stresa-sa-lica.png';
+import bottomImage from '../../public/images/usluge/ultrazvucno-ciscenje-lica/Proskin_last_Aggiornato.jpg';
+
 
 
 const Example = () => {
@@ -68,7 +76,7 @@ const UltrazvučnoČišćenjeLica = () => {
                 </div>
             </section>
        
-            <section id="definicijaFotoepilacija" className="definicijaFotoepilacija definicijaFotopodmladjivanje">
+            <section id="definicijaFotoepilacija" className="definicijaFotoepilacija definicijaFotopodmladjivanje definicijaUltrazvucno">
                 <div className="container">
                     <div className="columns level">
                         <div className="column">
@@ -82,12 +90,12 @@ Postiže da koža bude čista na brz i efikasan način.
                             </p>
                            
                         </div>
-                        <div className="column videoCol">
+                        {/* <div className="column videoCol">
                             <div className="videoInner">
                                 <ReactPlayer url="https://www.youtube.com/watch?v=Egq-DgaikLQ&ab_channel=NomasVelloBiH"
                                     width='641px' height='368px' controls />
                             </div>
-                        </div>
+                        </div> */}
                     </div>
                 </div>
             </section>
@@ -178,7 +186,7 @@ i ostale nečistoće,</p>
             </section>
             
             
-            <section id="savrsenaKoza" className="savrsenaKoza">
+            {/* <section id="savrsenaKoza" className="savrsenaKoza">
                 <div className="container">
                     <div className="columns">
                         <div className="column has-text-centered">
@@ -258,6 +266,77 @@ No+Vello vam nudi visoko kvalitetnu kozmetiku za vašu kožu. Otkrijte naše pro
                         </div>
                     </div>
                 </div>
+            </section> */}
+            
+            <section id="imgsSection" className="imgsSection section">
+                <div className="container">
+                    <div className="columns">
+                        <div className="column">
+                            <div className="singleImage">
+                                <img src={efikasnoImg} alt="" />
+                                <h4 className="imgTitle">Efikasno</h4>
+                                <p className="defaultText">
+                                Ultrazvučna tehnologija djeluje dubinski uklanjajući već u prvih 10 minuta tretmana mitesere i nečistoće.
+                                </p>
+                            </div>
+                           
+                        </div>
+                        <div className="column">
+                            <div className="singleImage">
+                                <img src={ekonomicnoImg} alt="" />
+                                <h4 className="imgTitle">EKONOMIČNO</h4>
+                                <p className="defaultText">
+                                Sa 40KM za Basic tretman uživaj u svim ProSkin pogodnostima
+                                </p>
+                            </div>
+                           
+                        </div>
+                        <div className="column">
+                            <div className="singleImage">
+                                <img src={brzoImg} alt="" />
+                                <h4 className="imgTitle">Brzo</h4>
+                                <p className="defaultText">
+                                Ultrazvučna tehnologija djeluje dubinski ukljanjajući već u prvih 10 minuta tretmana mitesere i nečistoće.
+                                </p>
+                            </div>
+                           
+                        </div>
+                    </div>
+                    <div className="columns secondCols">
+                        <div className="column">
+                            <div className="singleImage">
+                                <img src={crveniloImg} alt="" />
+                                <h4 className="imgTitle">Crvenilo</h4>
+                                <p className="defaultText">
+                                Zahvaljući ultrazvučnoj tehnologiji nećete imati nikakvo crvenilo ili upalu kao što je uobičajeno tehnikom «istiskanja».
+                                </p>
+                            </div></div>
+                        <div className="column">
+                        <div className="singleImage">
+                                <img src={necistoceImg} alt="" />
+                                <h4 className="imgTitle">NEČISTOĆE</h4>
+                                <p className="defaultText">
+                                ProSkin djeluje dubinski i brzo, efikasno a neinvazivno i bezbolno, uklanjajući sve nečistoće na vašem licu.
+                                </p>
+                            </div>
+                        </div>
+                        <div className="column">
+                        <div className="singleImage">
+                                <img src={stresImg} alt="" />
+                                <h4 className="imgTitle">STRESS NA LICU</h4>
+                                <p className="defaultText">
+                                Nakon našeg tretmana, umor nestaje a vaše lice će zasluženo blistati!
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <div className="columns imgCols">
+                        <div className="column">
+                            <img src={bottomImage} alt="" />
+                        </div>
+                    </div>
+                </div>
             </section>
             
             
@@ -270,7 +349,7 @@ No+Vello vam nudi visoko kvalitetnu kozmetiku za vašu kožu. Otkrijte naše pro
                     </div>
                     <div className="columns">
                         <div className="column has-text-centered">
-                            <p className="titleCijena">Cijene ultrazvučnog čiščenja lica</p>
+                            <p className="titleCijena">Cijene ultrazvučnog čišćenja lica</p>
                             {/* <p className="subtitleCijena">Doživite iskustvo tehnologije Proskin: <br />
 5 novih tretmana osmišljenih upravo za vaše lice</p> */}
                         </div>
@@ -449,6 +528,16 @@ sa C vitaminom</p>
                             </div>
                         </div>
                        
+                    </div>
+                </div>
+            </section>
+            
+            <section id="pogledajtePromocije" className="section">
+                <div className="container">
+                <div className="columns promocijeCols">
+                        <div className="column">
+                        <a href="/otkrijte-nase-ponude-i-promocije" className="button pogledajtePromocije promocijeButton">Otkrijte naše ponude i promocije</a>
+                        </div>
                     </div>
                 </div>
             </section>

@@ -15,6 +15,7 @@ import doctorImg from '../../public/images/usluge/fotoepilacija/doctorImg.png'
 import FotoepilacijaPopup from '../../Components/popups/FotoepilacijaPopup';
 import FotoepilacijaPopupBottom from '../../Components/popups/FotoepilacijaPopupBottom';
 import Main from "../../Components/Selector/Main";
+import pravaKlijenata from '../../public/images/prava-klijenata1.png'
 
 
 const Example = () => {
@@ -342,7 +343,162 @@ Fotoepilacija pulsirajućom svjetlošću predstavlja praktično bezbolan tretman
           </div>
                 </div>
                 
+                <div className="container pricingTable">
+                <div className="columns priceTagCols level">
+                        <div className="column txtCol">
+                            <div className="list">
+                            <div className="singleItemTop">
+                                    <div className="inner">
+                                        <p className="title">Zona</p>
+                                        <p className="price">Cijena</p>
+                                    </div>
+                                </div>
+                                <div className="singleItem upperItem">
+                                    <div className="inner">
+                                        <p className="title">Lice (nausnica+brada+obrazi)</p>
+                                        <p className="price">49 KM</p>
+                                    </div>
+                                </div>
+                                <div className="singleItem upperItem">
+                                    <div className="inner">
+                                        <p className="title">Vrat</p>
+                                        <p className="price">49 KM</p>
+                                    </div>
+                                </div>
+                                <div className="singleItem upperItem">
+                                    <div className="inner">
+                                        <p className="title">Ramena (oba ramena)</p>
+                                        <p className="price">49 KM</p>
+                                    </div>
+                                </div>
+                                <div className="singleItem upperItem">
+                                    <div className="inner">
+                                        <p className="title">Pazuh (oba pazuha)</p>
+                                        <p className="price">49 KM</p>
+                                    </div>
+                                </div>
+                                <div className="singleItem upperItem">
+                                    <div className="inner">
+                                        <p className="title">Ruke (svaka ruka, pola ili cijele)</p>
+                                        <p className="price">49 KM</p>
+                                    </div>
+                                </div>
+                                <div className="singleItem upperItem">
+                                    <div className="inner">
+                                        <p className="title">Zatiljak</p>
+                                        <p className="price">49 KM</p>
+                                    </div>
+                                </div>
+                                <div className="singleItem upperItem">
+                                    <div className="inner">
+                                        <p className="title">Leđa (dorzal) (od završetka vrata do pola leđa)</p>
+                                        <p className="price">49 KM</p>
+                                    </div>
+                                </div>
+                                <div className="singleItem upperItem">
+                                    <div className="inner">
+                                        <p className="title">Lumbago (krsta) (od pola leđa do početka stražnjice)</p>
+                                        <p className="price">49 KM</p>
+                                    </div>
+                                </div>
+                                <div className="singleItem upperItem">
+                                    <div className="inner">
+                                        <p className="title">Stražnjica</p>
+                                        <p className="price">49 KM</p>
+                                    </div>
+                                </div>
+                                <div className="singleItem upperItem">
+                                    <div className="inner">
+                                        <p className="title">Prsa (od kraja vrata do ispod prsa)</p>
+                                        <p className="price">49 KM</p>
+                                    </div>
+                                </div>
+                                <div className="singleItem upperItem">
+                                    <div className="inner">
+                                        <p className="title">Stomak</p>
+                                        <p className="price">49 KM</p>
+                                    </div>
+                                </div>
+                                <div className="singleItem upperItem">
+                                    <div className="inner">
+                                        <p className="title">Bikini</p>
+                                        <p className="price">49 KM</p>
+                                    </div>
+                                </div>
+                                <div className="singleItem upperItem">
+                                    <div className="inner">
+                                        <p className="title">Noge (svaka noga, pola noge ili kompletna)</p>
+                                        <p className="price">49 KM</p>
+                                    </div>
+                                </div>
+                                <div className="singleItem upperItem">
+                                    <div className="inner">
+                                        <p className="title">Nausnice</p>
+                                        <p className="price">25 KM</p>
+                                    </div>
+                                </div>
+                                <div className="singleItem upperItem">
+                                    <div className="inner">
+                                        <p className="title">Stopala (oba stopala)</p>
+                                        <p className="price">25 KM</p>
+                                    </div>
+                                </div>
+                                <div className="singleItem upperItem">
+                                    <div className="inner">
+                                        <p className="title">Između grudi</p>
+                                        <p className="price">25 KM</p>
+                                    </div>
+                                </div>
+                                <div className="singleItem upperItem">
+                                    <div className="inner">
+                                        <p className="title">Oko bradavica</p>
+                                        <p className="price">25 KM</p>
+                                    </div>
+                                </div>
+                                <div className="singleItem upperItem">
+                                    <div className="inner">
+                                        <p className="title">Trbušna linija</p>
+                                        <p className="price">25 KM</p>
+                                    </div>
+                                </div>
+                                <div className="singleItem upperItem">
+                                    <div className="inner">
+                                        <p className="title">Šake (obje šake)</p>
+                                        <p className="price">25 KM</p>
+                                    </div>
+                                </div>
+                                <div className="singleItem upperItem">
+                                    <div className="inner">
+                                        <p className="title">Perianalna zona</p>
+                                        <p className="price">25 KM</p>
+                                    </div>
+                                </div>
+                                
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <div className="columns promocijeCols">
+                        <div className="column">
+                        <a href="/otkrijte-nase-ponude-i-promocije" className="button pogledajtePromocije promocijeButton">otkrijte naše ponude i promocije</a>
+                        </div>
+                    </div>
+                    
+                   </div>
+                
             </section>
+            
+            <section id="besplatTretmanButton" className="section">
+                <div className="container">
+                    <div className="columns">
+                        <div className="column">
+                            <a href="/besplatan-probni-tretman" className="bespTretmanButton button">
+                                Želite li  <span className="bespBig">  besplatan probni tretman?</span>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+          </section>
             
             <section id="naruciteBottom" className="naruciteBottom">
                 <div className="container">
@@ -363,6 +519,19 @@ Fotoepilacija pulsirajućom svjetlošću predstavlja praktično bezbolan tretman
                     </div>
                 </div>
             </section>
+            
+            <section id="pravaBottom" className="section">
+                <div className="container">
+                    <div className="columns">
+                        <div className="column">
+                            <a href="/prava-novello-klijenta/">
+                            <img src={pravaKlijenata} alt="" />
+                           </a>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            
 
         </>
 

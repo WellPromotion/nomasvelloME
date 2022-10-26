@@ -2,9 +2,15 @@
 
 #titleSunandsafe{
     background: url("../../public/images/tehnologije/laserTehnologija/laserBackground.png") no-repeat;
-
+    // background-image: linear-gradient(0deg, rgba(172, 199, 110, 0.6), rgba(172, 199, 110, 0.6)), url("../../public/images/tehnologije/sunandsafeTehnologija/sun-safe-header.jpg");
+    // position: relative;
+    // background-size: cover;
+    // background-position: center;
+    // background-repeat: no-repeat;
+    // background-position-y: 50%;
+    
     .hero-body{
-        padding: 3rem 1.5rem;
+        padding: 3rem 1.5rem; 
     }
     .imgTitleSphere{
         display: flex;
@@ -44,6 +50,12 @@
         color: $primaryGreen;
 
 
+    }
+    .imgColsSun{
+        display: flex;
+        justify-content: center;
+        text-align: center;
+        max-height: 70%;
     }
 }
 

@@ -1,0 +1,150 @@
+@import './variables';
+
+
+#heroTitlePromocije{
+    // background-image: url("../public/images/faq/laser.png");
+    background-image: linear-gradient(0deg, rgba(172, 199, 110, 0.7), rgba(172, 199, 110, 0.7)), url("../public/images/ponude-promocije.jpg");
+    position: relative;
+    background-size: cover;
+    background-position: center 50%;
+    background-repeat: no-repeat;
+
+    .hero-body .title{
+        text-transform: none;
+        color: #fff;
+        font-weight: 600;
+        font-size: 2.5rem;
+        line-height: 3rem;
+        margin-bottom: 0;
+    }
+    .preTitle{
+        color: #fff;
+    }
+}
+
+#promocijeMid{
+    
+    .promocijaWrap{
+        margin-bottom: 1.5rem;
+        display: inline-flex;
+    }
+    
+    .singlePromocija{
+        background-color: #fff;
+        border-radius: .5rem;
+        transition: all .2s ease-in-out; 
+        &:hover{
+            box-shadow: 5px 5px 5px 5px rgba(0, 0, 0, 0.07);
+            transform: scale(1.01);
+        }
+        
+        .inner{
+            padding: 1rem;
+            
+            text-align: center;
+            .titlePromocija{
+                font-weight: 500;
+                font-size: 2rem;
+                color: $primaryPink;
+                text-align: center;
+                text-transform: uppercase;
+                margin-bottom: 1rem;
+                margin-top: 1rem;
+            }
+            .imgPromocija{
+                border-radius: .5rem;
+            }
+            .promocijaButt{
+                font-weight: 600;
+                font-size: 1rem;
+                background-color: $primaryGreen;
+                color: #fff;
+                padding: 1.5rem 5rem;
+                margin-top: 1rem;
+                margin-bottom: 1rem;
+                text-transform: uppercase;
+            }
+        }
+    }
+}
+
+
+#planovieMid{
+    .planoviTitle{
+        color: $primaryGreen;
+        
+    }
+    .planoviItems{
+        display: flex;
+        color: $primaryText;
+        font-size: 1rem;
+        span{
+            display: flex;
+            padding-right: 1rem;
+           }
+    }
+}
+
+#dovediPrijateljaMid{
+    
+    
+    .buttonWrap{
+        display: flex;
+        justify-content: center;
+    }
+  
+        .popup-content{
+            left: 25% !important;
+        }
+        
+    .midCols{
+        .bespLjepota{
+            color: $primaryGreen;
+            font-weight: 600;
+            text-transform: uppercase;
+        }
+    }
+       
+    .botCols{
+        .ucestvujteTitle{
+            color: $primaryGreen;
+            text-transform: uppercase;
+            text-align: center;
+        }
+    }
+    .botSteps{
+        padding-top: 1rem;
+        .singleItem{
+            display: flex;
+            align-items: center;
+            padding-bottom: 2rem;
+            
+            .numberGreen{
+                padding: .5rem 1.6rem;
+                border-radius: 100px;
+                background-color: $primaryGreen;
+                color: #fff;
+                font-size: 2.5rem;
+                margin-right: 1rem;
+                font-weight: 900;
+                margin-bottom: 0;
+            }
+        }
+    }
+    
+}
+
+#popup-root .outerPravilaPromocije{
+    .modal{
+        display: block;
+        position: relative;
+        width: auto;
+        height: auto;
+        background-color: transparent;
+        border-radius: 0.5rem;
+        padding: 0rem;
+    }
+}
+.pravilaPromocijeB{
+    text-transform: uppercase;
+}

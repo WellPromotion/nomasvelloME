@@ -10,7 +10,7 @@ export default function Main1(props) {
     {
       id: 0,
       title: "Lice + Nausnice",
-      price: 59,
+      price: 49,
       selected: false,
       sidebar: false,
     },
@@ -51,7 +51,7 @@ export default function Main1(props) {
       selected: false,
       sidebar: false,
     },
-    { id: 14, title: "Nausnice", price: 30, selected: false, sidebar: false },
+    { id: 14, title: "Nausnice", price: 25, selected: false, sidebar: false },
     {
       id: 15,
       title: "Između obrva",
@@ -211,7 +211,7 @@ export default function Main1(props) {
           >
             <g>
               <Tippy
-                content="Lice + Nausnice (59 KM)"
+                content="Lice (49 KM)"
                 followCursor={true}
                 plugins={[followCursor]}
               >
@@ -1044,8 +1044,8 @@ export default function Main1(props) {
                   />
                 </g>
               </g>
-              <Tippy
-                content="Nausnice (30 KM)"
+              {/* <Tippy
+                content="Nausniceeee (25 KM)"
                 followCursor={true}
                 plugins={[followCursor]}
               >
@@ -1079,7 +1079,7 @@ export default function Main1(props) {
                   cy="171.367"
                   r="23.898"
                 />
-              </Tippy>
+              </Tippy> */}
               {/* <circle
                 id="Izmedju-obrva"
                 className={
@@ -1380,7 +1380,7 @@ export default function Main1(props) {
           >
             <g>
               <Tippy
-                content="Lice + Nausnice (59 KM)"
+                content="Lice + Nausnice 49 KM)"
                 followCursor={true}
                 plugins={[followCursor]}
               >
@@ -2210,7 +2210,7 @@ export default function Main1(props) {
                 />
               </Tippy>
               <Tippy
-                content="Nausnice (30 KM)"
+                content="Nausnice (25 KM)"
                 followCursor={true}
                 plugins={[followCursor]}
               >

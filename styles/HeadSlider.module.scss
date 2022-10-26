@@ -49,8 +49,8 @@
 }
 .titleHeaderSlider{
     font-weight: 900;
-    font-size: 4rem;
-    line-height: 4.375rem;
+    font-size: 3rem;
+    line-height: 3.375rem;
     text-align: center;
     color: $primaryGreen;
     margin-bottom: 2rem !important;
@@ -61,12 +61,12 @@
 }
 .postTitleHeaderSlider{
     font-weight: 400;
-    font-size: 2rem;
-    line-height: 2.5rem;
+    font-size: 1.7rem;
+    line-height: 2.2rem;
     text-align: center;
     color: $primaryGreen;
     margin-bottom: 1rem !important;
-    text-align: left;
+    text-align: center;
     @media only screen and (min-device-width : 320px) and (max-device-width : 480px) {
         font-size: 2rem;
         }
@@ -88,7 +88,7 @@
     text-align: center;
     color: #fff;
     background-color: $primaryGreen;
-    padding: 1rem 3rem;
+    padding: 1rem 2rem;
     border-radius: 6px;
     text-transform: uppercase;
     display: inline-flex;
@@ -96,6 +96,10 @@
     &:hover{
         color: $titleColor;
     }
+}
+
+.bulletPoint{
+    display: inline !important;
 }
 
 .slick-dots{

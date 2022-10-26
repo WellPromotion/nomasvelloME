@@ -71,8 +71,9 @@
 @import '../styles/Fransize.module.scss';
 @import '../styles/BesplatniTretman.module.scss';
 @import '../styles/IskustvaSarajevo.module.scss';
-
-
+@import '../styles/PonudePromocije.module.scss';
+@import '../styles/PokloniteLjepotu.module.scss';
+@import '../styles/PravaKlijenta.module.scss';
 
 html,
 body {
@@ -148,6 +149,16 @@ a {
   &:hover{
     color: $primaryGreen;
   }
+}
+.promocijeButton{
+  font-weight: 700;
+  background-color: #EC268E;
+  color: #fff;
+  font-size: 1.2rem;
+  line-height: 1.5rem;
+  border-radius: 5rem;
+  padding: 1rem 2.219rem;
+  text-transform: uppercase;
 }
 .defaultGreenTitle{
   font-weight: 500;

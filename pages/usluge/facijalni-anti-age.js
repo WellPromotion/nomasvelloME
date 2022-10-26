@@ -17,7 +17,7 @@ import doctorImg from '../../public/images/usluge/fotoepilacija/doctorImg.png'
 import FacijalniAntiAgePopup from '../../Components/popups/FacijalniAntiAgePopup';
 import FacijalniAntiAgePopupBottom from '../../Components/popups/FacijalniAntiAgePopupBottom';
 
- 
+  
 const Example = () => {
     return <Breadcrumbs useDefaultStyle rootLabel="Početna"
     />;

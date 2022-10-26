@@ -46,7 +46,7 @@ export default function Fransize() {
                         <div className="column">
                         <div className="fransBox">
                                 <div className="inner">
-                                    <p className="fransBroj">13</p>
+                                    <p className="fransBroj">9</p>
                                     <p className="fransSub">centara u BiH</p>
                                 </div>
                             </div>

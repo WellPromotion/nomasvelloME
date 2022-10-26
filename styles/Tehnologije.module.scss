@@ -60,3 +60,27 @@
     }
 
 }
+
+.headerImgTehn{
+    // height: 104px;
+    height: 135px;
+}
+.ljekarskaWrap{
+    img{
+        width: 100%;
+    }
+}
+.tehnImgWrap{
+    display: flex;
+    justify-content: center;
+}
+.headerImgTehnUzv{
+    display: flex;
+    justify-content: end;
+    // padding-left: 4rem;
+}
+.tehnImgWrapSun{
+    display: flex;
+    justify-content: center;
+    padding-left: 3rem;
+}

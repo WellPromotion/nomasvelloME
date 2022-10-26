@@ -1,5 +1,6 @@
 import React from 'react'
-import logoFooter from '../public/images/footer/logoGreen.svg'
+// import logoFooter from '../public/images/footer/logoGreen.svg'
+import logoFooter from '../public/images/Nomasvello-Logo.png'
 import phoneLogo from '../public/images/footer/icons/phone.svg'
 import inboxLogo from '../public/images/footer/icons/inbox.svg'
 

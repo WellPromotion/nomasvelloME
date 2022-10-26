@@ -1,0 +1,27 @@
+@import './variables';
+
+
+.pokloniteLjepotuBottom{
+    padding-bottom: 5rem;
+}
+
+#pokloniteMid{
+    .pokloniteTitle{
+        font-size: 2rem;
+        font-weight: 600;
+        color: $primaryPink;
+        line-height: 2.5rem;
+        
+    }
+    .greenLine{
+        font-size: 1.1rem;
+        color: $primaryGreen;
+        font-weight: 500;
+    }
+    .imgCol img{
+        width: 80%;
+    }
+    .poklonBon{
+        padding-top: 2rem;
+    }
+}

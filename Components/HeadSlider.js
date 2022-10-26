@@ -1,5 +1,6 @@
 import React from 'react'
 import Slider from "react-slick";
+import bullet from '../public/images/bulletPoint.svg';
 
 
 export default function HeadSlider() {
@@ -27,9 +28,9 @@ export default function HeadSlider() {
                 9 centara u BiH!
               </p>
               <p className="postTitleHeaderSlider">
-                - sa najsavremenijom opremom <br />
-                - pod nadzorom medicinskog osoblja <br />
-                - sa najboljim cijenama <br />
+                <img className='bulletPoint' src={bullet} alt="" /> sa najsavremenijom opremom <br />
+                <img className='bulletPoint' src={bullet} alt="" /> pod nadzorom medicinskog osoblja <br />
+                <img className='bulletPoint' src={bullet} alt="" /> sa najboljim cijenama <br />
                 </p>
                 <a href="/centri" className="vidiViseBtn">vidi više</a>
              </div>
@@ -51,9 +52,9 @@ export default function HeadSlider() {
                Laserska epilacija
               </p>
               <p className="postTitleHeaderSlider">
-                - laserska epilacija diodnim laserom <br />
-                - fusion sistem <br />
-                - efikasan, brz, siguran <br />
+              <img className='bulletPoint' src={bullet} alt="" /> laserska epilacija diodnim laserom <br />
+              <img className='bulletPoint' src={bullet} alt="" /> fusion sistem <br />
+              <img className='bulletPoint' src={bullet} alt="" /> efikasan, brz, siguran <br />
                 </p>
                 <a href="/usluge/laserska-epilacija" className="vidiViseBtn">vidi više</a>
              </div>
@@ -75,9 +76,9 @@ export default function HeadSlider() {
                Fotoepilacija IPL SHR
               </p>
               <p className="postTitleHeaderSlider">
-                - aparati posljednje generacije <br />
-                - putem lasera ili Intense Pulsed Light (IPL) <br />
-                - efikasan, brz, siguran <br />
+              <img className='bulletPoint' src={bullet} alt="" /> aparati posljednje generacije <br />
+              <img className='bulletPoint' src={bullet} alt="" /> putem lasera ili Intense Pulsed Light (IPL) <br />
+              <img className='bulletPoint' src={bullet} alt="" /> efikasan, brz, siguran <br />
                 </p>
                 <a href="/usluge/fotoepilacija" className="vidiViseBtn">vidi više</a>
              </div>

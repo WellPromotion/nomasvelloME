@@ -15,6 +15,8 @@ import downArrow from '../public/images/down-arrow.svg'
 import MapSection from '../Components/Map.js';
 import ReactPlayer from 'react-player';
 import novelloTehnologija from '../public/images/novello-tehnologija.jpg';
+import poklonVauceri from '../public/images/homepage/poklon-vauceri.jpg'
+import specijalnePonude from '../public/images/homepage/specijalne-ponude.jpg'
 
 
 import "slick-carousel/slick/slick.css";
@@ -73,6 +75,35 @@ export default function Home() {
           </div>
         </div>
       </section>
+      
+      <section id="twoBoxes" className="section">
+        <div className="container">
+          <div className="columns">
+            <div className="column">
+              <a href="/poklonite-ljepotu">
+              <div className="singleBox">
+                <div className="inner">
+                <img src={poklonVauceri} alt="" />
+                <p className="boxTitle">NO+VELLO Poklon vaučeri</p>
+                <p className="boxText defaultText"> Za svaki poklon vaučer No+Vello Vam daje 20% nižu cijenu. Posjetite naše centre i poklonite Ljepotu.</p>
+               </div>
+              </div>
+              </a>
+            </div>
+            <div className="column">
+              <a href="/otkrijte-nase-ponude-i-promocije">
+              <div className="singleBox">
+                <div className="inner">
+                <img src={specijalnePonude} alt="" />
+                <p className="boxTitle">NO+VELLO – specijalne ponude i promocije</p>
+                <p className="boxText defaultText">Iskoristite mnogobrojne ponude i promocije, omogućite si još povoljnije tretmane u Vašim No+Vello® centrima.</p>
+               </div>
+              </div>
+             </a>
+            </div>
+          </div>
+        </div>
+      </section>
 
       <section id="staNovello" className="staNovello">
         <div className="container">
@@ -87,7 +118,7 @@ export default function Home() {
             <div className="column level-right is-6">
             <div className="titlePart">
                 <h1 className={styles.title}>
-                ŠTA JE NO+VELLO<br /> TEHNOLOGIJA?
+                Najbolje cijene najveće franšize za dugotrajno uklanjanje dlačica na svijetu!
                 </h1>
               </div>
               <div className={styles.bellowTitle}>
@@ -95,9 +126,12 @@ export default function Home() {
               </div>
               <div className="textStaNovello">
                 <p>
-                No+Vello© je svjetski lider u estetskim centrima specijalizovanim za lasersku epilaciju, fotoepilaciju i fotopodmlađivanje. Kompanija je osnovana u novembru 2007. i ima preko 1.000 centara u 16 zemalja. Mi smo firma koja je posvećena svijetu depilacije i koju čini veliki broj profesionalaca, sa velikim iskustvom u sektoru ljepote i lične njege.
- <br /> <br />
-Br. 1 u svijetu među centrima za lasersku epilaciju.
+                <b>No+Vello®</b>  je prva i globalno najuspješnija franšiza na području dugotrajne epilacije, čemu svjedoči više od 1000 centara i više od 1.000.000 zadovoljnih korisnika u 16 zemalja.
+                  <br />
+                  Dio ove uspješne priče je i No+Vello® Bosna i Hercegovina, koji se može pohvaliti sa <b>9 centara u Bosni i Hercegovini</b>, <u>specijaliziranih za područje laserske epilacije i fotoepilacije</u> - dugotrajnog uklanjanja dlačica uz pomoć svjetla. 
+                  <br /><br />
+                  Naša inovativna i pristupačna <b>unisex cijena od 49KM po zoni i sesiji</b> napravila je revoluciju na tržištu u području dugotrajnog uklanjanja dlačica. Ključ našeg uspjeha je <b>najsavremenija tehnologija</b> i najbolji protokoli rada koji nam zahvaljujući globalnoj prisutnosti omogućuju <b>pružanje visokokvalitetnih usluga epilacije po vrlo pristupačnoj cijeni.</b>
+                  
                 </p>
               </div>
             </div>
@@ -202,8 +236,8 @@ Br. 1 u svijetu među centrima za lasersku epilaciju.
                 <div className="firstBox">
                   <a href="/centri"><div className="inner">
                     <img src={threeHeads} alt="" />
-                    <p className="numberEleven">11</p>
-                    <p className="firstText">NO+VELLO centara za savremenu depilaciju i epilaciiju u BiH</p>
+                    <p className="numberEleven">9</p>
+                    <p className="firstText">NO+VELLO centara za savremenu depilaciju i epilaciiju u Bosni i Hercegovini</p>
                   </div></a>
                 </div>
                 <div className="secondBox">
@@ -217,15 +251,15 @@ Br. 1 u svijetu među centrima za lasersku epilaciju.
                 </a>
                 </div>
                 <div className="thirdBox">
-                  <a href="/usluge/laserska-epilacija#laserskaEpContainer"><div className="inner">
+                  <a href="/usluge/fotoepilacija#diodniZone"><div className="inner">
                     <img src={priceTag} alt="" />
-                    <p className="numberEleven">59KM</p>
+                    <p className="numberEleven">49KM</p>
                     <p className="firstText">Cijena po zoni i sesiji</p>
                   </div></a>
                 </div>
               </div>
             </div>
-          </div>
+          </div> 
         </div>
       </section>
 

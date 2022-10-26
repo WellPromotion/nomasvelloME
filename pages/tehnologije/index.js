@@ -2,12 +2,12 @@ import styles from '../../styles/Tehnologije.module.scss';
 import Link from 'next/link';
 import belowTitleImg from '../../public/images/belowTitleWhite.svg'
 import aboveTitleImg from '../../public/images/tehnologije/headerIcon.svg'
-import laserHeaderImg from '../../public/images/tehnologije/imgs/laser.png'
-import iplHeaderImg from '../../public/images/tehnologije/imgs/ipl.png'
-import ledHeaderImg from '../../public/images/tehnologije/imgs/led.png'
-import ultrazvucnaHeaderImg from '../../public/images/tehnologije/imgs/ultrazvucna.png'
-import sunHeaderImg from '../../public/images/tehnologije/imgs/sun.png'
-import ljekarskaHeaderImg from '../../public/images/tehnologije/imgs/ljekarska.png'
+import laserHeaderImg from '../../public/images/tehnologije/imgs/laser.jpg'
+import iplHeaderImg from '../../public/images/tehnologije/imgs/laser.jpg'
+import ledHeaderImg from '../../public/images/tehnologije/imgs/led.jpg'
+import ultrazvucnaHeaderImg from '../../public/images/tehnologije/imgs/ultrazvucna.jpg'
+import sunHeaderImg from '../../public/images/tehnologije/imgs/sun.jpg'
+import ljekarskaHeaderImg from '../../public/images/tehnologije/imgs/ljekarskap.jpg'
 import laserIconImg from '../../public/images/tehnologije/icons/svg/laser.svg'
 import iplIconImg from '../../public/images/tehnologije/icons/svg/ipl.svg'
 import ledIconImg from '../../public/images/tehnologije/icons/svg/led.svg'
@@ -40,7 +40,9 @@ const Tehnologije = () => {
                     <div className="columns">
                         <div className="column">
                             <div className="singleTehnologija">
-                            <img src={laserHeaderImg} alt="" />
+                                <div className="tehnImgWrap">
+                                <img className='headerImgTehn' src={laserHeaderImg} alt="" />
+                           </div>
                                 <div className="inner">
                                     <img singleTehnologijaIkona src={laserIconImg} alt="" />
                                     <div className="contentTehnologije">
@@ -58,7 +60,10 @@ const Tehnologije = () => {
                             </div>
 
                             <div className="singleTehnologija">
-                            <img src={ultrazvucnaHeaderImg} alt="" />
+                            <div className="tehnImgWrap headerImgTehnUzv">
+                            <img className='headerImgTehn' src={ultrazvucnaHeaderImg} alt="" />
+                           </div>
+                          
                                 <div className="inner">
                                     <img singleTehnologijaIkona src={ultrazvucnaIconImg} alt="" />
                                     <div className="contentTehnologije">
@@ -77,8 +82,11 @@ const Tehnologije = () => {
                         </div>
 
                         <div className="column">
-                        <div className="singleTehnologija">
-                            <img src={iplHeaderImg} alt="" />
+                            <div className="singleTehnologija">
+                            <div className="tehnImgWrap">
+                            <img className='headerImgTehn' src={iplHeaderImg} alt="" />
+                           </div>
+                           
                                 <div className="inner">
                                     <img singleTehnologijaIkona src={iplIconImg} alt="" />
                                     <div className="contentTehnologije">
@@ -96,7 +104,10 @@ const Tehnologije = () => {
                             </div>
 
                             <div className="singleTehnologija">
-                            <img src={sunHeaderImg} alt="" />
+                            <div className="tehnImgWrap tehnImgWrapSun">
+                            <img className='headerImgTehn' src={sunHeaderImg} alt="" />
+                           </div>
+                           
                                 <div className="inner">
                                     <img singleTehnologijaIkona src={sunIconImg} alt="" />
                                     <div className="contentTehnologije">
@@ -115,8 +126,11 @@ const Tehnologije = () => {
                         </div>
 
                         <div className="column">
-                        <div className="singleTehnologija">
-                            <img src={ledHeaderImg} alt="" />
+                            <div className="singleTehnologija">
+                            <div className="tehnImgWrap">
+                            <img className='headerImgTehn'src={ledHeaderImg} alt="" />
+                           </div>
+                           
                                 <div className="inner">
                                     <img singleTehnologijaIkona src={ledIconImg} alt="" />
                                     <div className="contentTehnologije">
@@ -134,7 +148,10 @@ const Tehnologije = () => {
                             </div>
                             
                             <div className="singleTehnologija">
-                            <img src={ljekarskaHeaderImg} alt="" />
+                            <div className="tehnImgWrap ljekarskaWrap">
+                            <img className='headerImgTehn' src={ljekarskaHeaderImg} alt="" />
+                           </div>
+                          
                                 <div className="inner">
                                     <img singleTehnologijaIkona src={ljekarskaIconImg} alt="" />
                                     <div className="contentTehnologije">

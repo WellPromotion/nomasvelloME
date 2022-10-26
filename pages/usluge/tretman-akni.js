@@ -201,6 +201,16 @@ potpuno besplatan pregled lica</p>
                 </div>
             </section>
             
+            <section id="pogledajtePromocije" className="section">
+                <div className="container">
+                <div className="columns promocijeCols">
+                        <div className="column">
+                        <a href="/otkrijte-nase-ponude-i-promocije" className="button pogledajtePromocije promocijeButton">Otkrijte naše ponude i promocije</a>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            
             <section id="naruciteBottom" className="naruciteBottom naruciteFoto naruciteTjelesni">
                 <div className="container">
                     <div className="columns is-gapless">

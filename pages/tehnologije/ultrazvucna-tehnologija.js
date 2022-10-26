@@ -21,7 +21,7 @@ const UltrazvukTehnologija = () => {
                    </div>
                    <div className="container has-text-centered">
                        <p className="pretitle">naše tehnologije</p>
-                       <h1 className="title">Ultrasound</h1>
+                       <h1 className="title">Ultrazvučna tehnologija</h1>
                    </div>
                    <div className="imgIcon has-text-centered">
                        <img src={belowTitleImg} alt="" />
@@ -80,10 +80,10 @@ Galvanska energija aktivira stimulaciju proizvodnje kolagena i elastina, stimuli
                             <p className='defaultBlueText uzvList lastItem'> <span><img src={greenCheck} alt="" /></span>Vrsta čišćenja se određuje prema tipu i stanju kože</p>
                             <p className='defaultBlueText uzvList lastItem'> <span><img src={greenCheck} alt="" /></span>Pospješuje rezultate LED i IPL tretmana.</p>
 
-                            <p className='uzvTitle defaultBlueTitle'>Vrste čišćenja:</p>
+                            {/* <p className='uzvTitle defaultBlueTitle'>Vrste čišćenja:</p>
                             <p className='defaultBlueText uzvList'> <span><img src={greenCheck} alt="" /></span>Esencijalno čišćenje lica: preporučuje se svim tipovima kože</p>
                             <p className='defaultBlueText uzvList'> <span><img src={greenCheck} alt="" /></span>Nutritivno čišćenje lica: suzbija suhoću i poboljšava sjaj kože. Preporučuje se dehidriranoj koži, sprečava pojavu bora.</p>
-                            <p className='defaultBlueText uzvList'> <span><img src={greenCheck} alt="" /></span>Regenerativno čišćenje lica: povećava gustoću kože, daje sjaj koži. Preporučuje se osjetljivoj koži zbog svog umirujućeg i regenerativnog efekta.</p>
+                            <p className='defaultBlueText uzvList'> <span><img src={greenCheck} alt="" /></span>Regenerativno čišćenje lica: povećava gustoću kože, daje sjaj koži. Preporučuje se osjetljivoj koži zbog svog umirujućeg i regenerativnog efekta.</p> */}
                         </div>
                     </div>
                 </div>
@@ -96,11 +96,11 @@ Galvanska energija aktivira stimulaciju proizvodnje kolagena i elastina, stimuli
                            <div className="_inner">
                                <p className="titlePonuda">
                                    Zainteresovani ste za usluge
-                                   sa Ultrasound tehnologijom?
+                                   sa Ultrazvučnom tehnologijom?
                                </p>
-                               <p className="subtitlePonuda">
+                               {/* <p className="subtitlePonuda">
                                    Ovog ljeta uživajte u savršenoj koži.
-                               </p>
+                               </p> */}
 
                                <div className="buttonPonuda">
 

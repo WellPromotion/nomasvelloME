@@ -17,6 +17,7 @@ import tretmanKorisnici from '../../public/images/tehnologije/ledTehnologija/led
 import tarifeDollar from '../../public/images/tehnologije/ledTehnologija/tarifeDollar.svg'
 import tarifeZubi from '../../public/images/tehnologije/ledTehnologija/tarifeZubi.svg'
 import tarifeLice from '../../public/images/tehnologije/ledTehnologija/tarifeLice.svg'
+import greenCheck from '../../public/images/greenCheck.svg'
 
 
 
@@ -191,7 +192,7 @@ const LedTehnologija = () => {
                        <div className="column">
                            <div className="innerTretmaniSingle prviTretman">
                                <img src={tretmanFacijalni} alt="" />
-                               <p className='tretmaniSingleTitle'>FACIJALNI ANTI-AGE</p>
+                               <a href='/usluge/facijalni-anti-age' className='tretmaniSingleTitle'>FACIJALNI ANTI-AGE</a>
                                <p className="tretmaniSingleText defaultText">Kombinuje efekte stimulacije i
                                    vazodilatacije i, zajedno sa proizvodima kozmetičke linije No+Vello, djeluje na
                                    nekoliko polja na personaliziran način prema potrebama svakog klijenta: tretman
@@ -202,7 +203,7 @@ const LedTehnologija = () => {
                        <div className="column">
                            <div className="innerTretmaniSingle drugiTretman">
                                <img src={tretmanAnticelulitni} alt="" />
-                               <p className='tretmaniSingleTitle'>ANTICELULITNI REDUKTOR</p>
+                                <a href='/usluge/tjelesni-ucvrscivac' className='tretmaniSingleTitle'>ANTICELULITNI REDUKTOR</a>
                                <p className="tretmaniSingleText defaultText">Vrlo je tražen zbog svog trenutačnog
                                    djelovanja, smanjuje lokalizirane masne naslage i djeluje na celulit čak i na
                                    najkonfliktivnijim zonama: abdomen, bedra i bokovi. Na samo jednoj sesiji moguće je
@@ -211,8 +212,8 @@ const LedTehnologija = () => {
                        </div>
                        <div className="column">
                            <div className="innerTretmaniSingle treciTretman">
-                               <img src={tretmanTjelesni} alt="" />
-                               <p className='tretmaniSingleTitle'>TJELESNI UČVRŠĆIVAČ</p>
+                                <img src={tretmanTjelesni} alt="" />
+                                <a href='/usluge/tjelesni-ucvrscivac' className='tretmaniSingleTitle'>TJELESNI UČVRŠĆIVAČ</a>
                                <p className="tretmaniSingleText defaultText">Omogućuje uživanje u glatkoj, čvrstoj i
                                    elastičnoj koži. Glavne zone na kojima se primjenjuje su: ruke, abdomen, prsa, bedra
                                    i stražnjica.</p>
@@ -220,8 +221,8 @@ const LedTehnologija = () => {
                        </div>
                        <div className="column">
                            <div className="innerTretmaniSingle cetvrtiTretman">
-                               <img src={tretmanIzbjeljivanje} alt="" />
-                               <p className='tretmaniSingleTitle'>IZBJELJIVANJE ZUBA</p>
+                                <img src={tretmanIzbjeljivanje} alt="" />
+                                <a href='/usluge/izbjeljivanje-zuba' className='tretmaniSingleTitle'>IZBJELJIVANJE ZUBA</a>
                                <p className="tretmaniSingleText defaultText">Vraća do 8 nijansi prema paleti boja za
                                    zube i postiže izvornu bjelinu zuba. Preporučuje se da usta budu sanirana prije
                                    tretmana, te da se ukloni zubni kamenac ukoliko ga ima. Također se preporučuje
@@ -289,7 +290,7 @@ const LedTehnologija = () => {
                                            <img className='is-right' src={tarifeZubi} alt="" />
                                        </div>
                                        <p className='tarifePrice'>
-                                           50KM
+                                           59KM
                                        </p>
                                        <p className='tarifeDesc'>
                                            Izbjeljivanje zuba
@@ -335,21 +336,74 @@ const LedTehnologija = () => {
                    <div className="columns">
                        <div className="column ponudaColumn has-text-centered">
                            <div className="_inner">
-                               <p className="titlePonuda">
+                                <div className="columns titleCols">
+                                    <div className="column">
+                                    <p className="titlePonuda">
                                    Zainteresovani ste za usluge
                                    sa LED tehnologijom?
                                </p>
-                               <p className="subtitlePonuda">
-                                   Ovog ljeta uživajte u savršenoj koži.
-                               </p>
-
-                               <div className="buttonPonuda">
-
-                                   <a href="/usluge/izbjeljivanje-zuba" className='turqButton buttPonuda'>
-                                       Pogledaj naše usluge
-                                   </a>
-
+                                    </div>
                                </div>
+                               {/* <p className="subtitlePonuda">
+                                   Ovog ljeta uživajte u savršenoj koži.
+                               </p> */}
+                                
+                                <div className="columns ledList">
+                                    <div className="column">
+                                        <div className="singleItem">
+                                        <span><img src={greenCheck} alt="" /></span>
+                                            <a href='/usluge/facijalni-anti-age' className='singleLedLead'>
+                                                Facijalni anti-age
+                                            </a>
+                                        </div>
+                                        <div className="singleItem">
+                                        <span><img src={greenCheck} alt="" /></span>
+                                            <a href='/usluge/tjelesni-ucvrscivac' className='singleLedLead'>
+                                                Anticelulitni reduktor
+                                            </a>
+                                        </div>
+                                        <div className="singleItem">
+                                        <span><img src={greenCheck} alt="" /></span>
+                                            <a href='/usluge/tjelesni-ucvrscivac' className='singleLedLead'>
+                                               Tjelesni učvršćivač
+                                            </a>
+                                        </div>
+                                        <div className="singleItem">
+                                        <span><img src={greenCheck} alt="" /></span>
+                                            <a href='/usluge/izbjeljivanje-zuba' className='singleLedLead'>
+                                               Izbjeljivanje zuba
+                                            </a>
+                                        </div>
+                                    </div>
+                                </div>
+
+                               {/* <div className="buttonPonuda columns">
+                                    <div className="column">
+                                    <a href="/usluge/facijalni-anti-age" className='turqButton buttPonuda'>
+                                       Facijalni anti-age
+                                   </a>
+                                    </div>
+                                    <div className="column">
+                                    <a href="/usluge/izbjeljivanje-zuba" className='turqButton buttPonuda'>
+                                       Izbjeljivanje zuba
+                                   </a>
+                                    </div>
+
+                                </div> */}
+                                {/* <div className="buttonPonuda columns">
+                                    <div className="column">
+                                    <a href="/usluge/tjelesni-ucvrscivac" className='turqButton buttPonuda'>
+                                       Tjelesni učvršćivač
+                                   </a>
+                                    </div>
+                                    
+                                    <div className="column">
+                                    <a href="/usluge/tjelesni-ucvrscivac" className='turqButton buttPonuda'>
+                                       Anticelulitni reduktor
+                                   </a>
+                                    </div>
+
+                               </div> */}
                            </div>
                        </div>
                    </div>

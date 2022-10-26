@@ -6,6 +6,12 @@
      background-repeat: no-repeat;
 }
 
+.definicijaUltrazvucno{
+    .titleDefinicijaFotoepilacija, .starenjeTitle{
+        text-align: center;
+    }
+}
+
 #djelovanje{
     padding-top: 4rem;
     
@@ -269,4 +275,27 @@
       .proskinLogo{
         height: 8rem;
       }
+}
+
+#imgsSection{
+    
+    .singleImage{
+        .imgTitle{
+            text-transform: uppercase;
+            color: $primaryGreen;
+            text-align: center;
+            margin-bottom: 1rem;
+            margin-top: 1rem;
+        }
+        .defaultText{
+            width: 80%;
+            text-align: center;
+        }
+    }
+    .secondCols{
+        padding-top: 3rem;
+    }
+    .imgCols{
+        padding-top: 3rem;
+    }
 }
