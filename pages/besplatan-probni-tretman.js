@@ -2,10 +2,15 @@ import styles from '../styles/BesplatniTretman.module.scss'
 import logofusion from '../public/images/logofusion.png'
 import besplatnitretman from '../public/images/probnitretman.jpg'
 import BesplatniForm from '../Components/forms/BesplatniForm';
+import korak1 from '../public/images/Novello-korak-1.png'
+import korak2 from '../public/images/Novello-korak-2.png'
+import korak3 from '../public/images/Novello-korak-3.png'
+import korak4 from '../public/images/Novello-korak-4.png'
+
 
 export default function BesplatniTretman() {
     return (
-    
+     
         <>
         
         <section id="heroTitleBesplatni" className="hero is-medium">
@@ -102,8 +107,39 @@ Naš inovativni sistem hlađenja minimizuje osjećaj intezivne toplote.</p>
                 </div>
             </section> */}
             
-            <section id="besplatniForm" className="besplatniForm">
-               
+            <section id="besplatniFormKoraci" className="besplatniForm section">
+                <div className="container">
+                    <div className="columns">
+                        <div className="column">
+                            <img src={korak1} alt="" />
+                            <p className="brojKoraka">01.</p>
+                            <p className="opisKoraka defaultText">
+                            Naručite se na probni test tako što ćete ispuniti obrazac iznad "BESPLATAN PROBNI TRETMAN".
+                            </p>
+                        </div>
+                        <div className="column">
+                            <img src={korak2} alt="" />
+                            <p className="brojKoraka">02.</p>
+                            <p className="opisKoraka defaultText">
+                            Svaki probni test je individualan, što znači da ćete kroz razgovor moći pitati sve što vas zanima o tretmanu.
+                            </p>
+                        </div>
+                        <div className="column">
+                            <img src={korak3} alt="" />
+                            <p className="brojKoraka">03.</p>
+                            <p className="opisKoraka defaultText">
+                            Po dolasku ispunjavate kartoteku klijenata te s vama obavljamo informativni razgovor.
+                            </p>
+                        </div>
+                        <div className="column">
+                            <img src={korak4} alt="" />
+                            <p className="brojKoraka">04.</p>
+                            <p className="opisKoraka defaultText">
+                            Test u kabini od 6-8 svjetlosnih klikova na koži zbog prevencije eventualne alergijske reakcije.
+                            </p>
+                        </div>
+                    </div>
+               </div>
             </section>
         
          

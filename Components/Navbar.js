@@ -215,6 +215,9 @@ return (
                                 </a>  
                                 <a href="/kozmeticki-proizvodi">
                                     <li>Kozmetički proizvodi</li>
+                                </a>   
+                                <a href="/sta-je-fotoepilacija">
+                                    <li>Šta je fotoepilacija?</li>
                                  </a>   
                         </ul>
                     </li>

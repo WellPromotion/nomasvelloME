@@ -6,7 +6,7 @@
 }
 
 #definicijaFotoepilacija{
-    padding-top: 2rem;
+    padding-top: 4.5rem;
     
     @media only screen and (min-device-width : 320px) and (max-device-width : 480px) {
         padding-left: 1rem;
@@ -315,7 +315,7 @@
 
 #preporuke{
     padding-top: 5.5rem;
-    
+    padding-bottom: 5.5rem;
     .txtBox{
         background-color: #EDEFE5;
         border-radius: 0.5rem;
@@ -347,3 +347,75 @@
     padding-top: 3rem;
 }
 
+
+#scndTitle{
+    
+    .scnTitle{
+        color: $primaryGreen;
+        font-size: 4rem;
+        font-weight: 400;
+        line-height: 5.5rem;
+    }
+    .blueSub{
+        font-size: 1.75rem;
+        line-height: 2.5rem;
+        font-weight: 500;
+        color: $titleColor;
+    }
+}
+
+#greenWhite{
+    
+    .whiteCol{
+        background-color: #fff;
+        border-radius: .5rem;
+        text-align: center;
+        padding-top: 2rem;
+        padding-bottom: 2rem;
+        .titleGreen{
+            font-size: 4rem;
+            font-weight: 500;
+            color: $primaryGreen;
+            line-height: 4.5rem;
+            margin-bottom: 0;
+        }
+    }
+    .greenCol{
+        background-color: $primaryGreen;
+        border-radius: .5rem;
+        text-align: center;
+        padding-top: 2rem;
+        padding-bottom: 2rem;
+        .titleGreen{
+            font-size: 4rem;
+            font-weight: 500;
+            color: #fff;
+            line-height: 4.5rem;
+            margin-bottom: 0;
+        }
+    }
+    .defaultWhitegreen{
+        font-size: 1.25rem;
+        line-height: 2rem;
+        color: black;
+    }
+}
+.imgSection{
+    img{
+        border-radius: .5rem;
+    }
+}
+#seguro{
+    
+    .imgCol{
+        img{
+            border-radius: .5rem;
+        }
+    }
+    .blueSub{
+        font-size: 2.75rem;
+        line-height: 3.5rem;
+        font-weight: 500;
+        color: $titleColor;
+    }
+}
