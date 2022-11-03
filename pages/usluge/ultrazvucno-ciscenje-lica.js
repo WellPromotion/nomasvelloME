@@ -20,7 +20,8 @@ import brzoImg from '../../public/images/usluge/ultrazvucno-ciscenje-lica/brzo.p
 import crveniloImg from '../../public/images/usluge/ultrazvucno-ciscenje-lica/bez-crvenila.png';
 import necistoceImg from '../../public/images/usluge/ultrazvucno-ciscenje-lica/uklanjanje-necistoca-sa-lica.png';
 import stresImg from '../../public/images/usluge/ultrazvucno-ciscenje-lica/uklanjanje-stresa-sa-lica.png';
-import bottomImage from '../../public/images/usluge/ultrazvucno-ciscenje-lica/Proskin_last_Aggiornato.jpg';
+// import bottomImage from '../../public/images/usluge/ultrazvucno-ciscenje-lica/Proskin_last_Aggiornato.jpg';
+import bottomImage from '../../public/images/usluge/ultrazvucno-ciscenje-lica/10minuta-pregled.jpg';
 
 
 
@@ -333,7 +334,9 @@ No+Vello vam nudi visoko kvalitetnu kozmetiku za vašu kožu. Otkrijte naše pro
                     
                     <div className="columns imgCols">
                         <div className="column">
+                            <a href="/besplatan-probni-tretman">
                             <img src={bottomImage} alt="" />
+                            </a>
                         </div>
                     </div>
                 </div>

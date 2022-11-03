@@ -155,4 +155,11 @@
         height: 4rem;
         margin-bottom: 1rem;
     }
+    .titleCols{
+        display: flex;
+        justify-content: center;
+        .greenbackCol{
+            margin-bottom: 1.5rem;
+        }
+    }
 }

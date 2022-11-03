@@ -297,5 +297,24 @@
     }
     .imgCols{
         padding-top: 3rem;
+        
+        .column{
+            display: flex;
+        justify-content: center;
+        a{
+            display: flex;
+            justify-content: center;
+            &:hover{
+                img{
+                    box-shadow: 0px 2px 1px rgba(0, 0, 0, 0.05);
+                    transform: scale(1.01);
+                }
+               
+            }
+        }
+        img{
+            width: 90%;
+        }
+        }
     }
 }

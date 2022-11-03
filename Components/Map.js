@@ -83,7 +83,18 @@ export default function lokacija(props) {
             address: "Bulevar cara Dušana 15",
             phone: " +051 258 150 | 066 486 645",
             email: "banjaluka@nomasvello.ba",
-        },
+      },
+      {
+        id: "brcko",
+        name: "Brčko - Detalji",
+        class: "_brcko",
+        img: mapLogo, 
+        lat: 44.87005873701408, 
+        long: 18.809639424178854,
+        address: "Studentska 3",
+            phone: "066 326 505",
+            email: "brcko@nomasvello.ba",
+      },
         {
             id: "zenica",
             name: "Zenica - Detalji",
@@ -117,17 +128,7 @@ export default function lokacija(props) {
             phone: "061 888 595",
             email: "doboj@nomasvello.ba",
       },
-      {
-        id: "brcko",
-        name: "Brčko - Detalji",
-        class: "_brcko",
-        img: mapLogo, 
-        lat: 44.87005873701408, 
-        long: 18.809639424178854,
-        address: "Studentska 3",
-            phone: "066 326 505",
-            email: "brcko@nomasvello.ba",
-      },
+      
     ]
 
     const projectSettings = {

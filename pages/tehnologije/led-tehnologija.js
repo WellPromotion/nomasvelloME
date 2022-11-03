@@ -258,7 +258,7 @@ const LedTehnologija = () => {
                        <div className="column txtTarife is-6">
                            <p className='titleTarife defaultGreenTitle'>TARIFE:</p>
                            <p className="subtitleTarife">
-                               U skladu sa No+Vello politikom, nastavlja se sa jedinstvenom tarifom koja je od njih
+                               U skladu sa No+Vello politikom, nastavlja se sa jedinstvenom tarifom koja je od nas
                                napravila lidere.
                            </p>
                        </div>

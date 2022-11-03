@@ -109,6 +109,11 @@ Naš inovativni sistem hlađenja minimizuje osjećaj intezivne toplote.</p>
             
             <section id="besplatniFormKoraci" className="besplatniForm section">
                 <div className="container">
+                    <div className="columns titleCols">
+                    <div className="column greenbackCol is-8">
+                        <p className="defaultGreenTitle titlebespMid">Kako funkcionira besplatni probni tretman fotoepilacije?</p>
+                       </div>
+                    </div>
                     <div className="columns">
                         <div className="column">
                             <img src={korak1} alt="" />
@@ -128,14 +133,14 @@ Naš inovativni sistem hlađenja minimizuje osjećaj intezivne toplote.</p>
                             <img src={korak3} alt="" />
                             <p className="brojKoraka">03.</p>
                             <p className="opisKoraka defaultText">
-                            Po dolasku ispunjavate kartoteku klijenata te s vama obavljamo informativni razgovor.
+                            Upitnikom ćemo provjeriti moguće medicinske kontraindikacije i stanje kože.
                             </p>
                         </div>
                         <div className="column">
                             <img src={korak4} alt="" />
                             <p className="brojKoraka">04.</p>
                             <p className="opisKoraka defaultText">
-                            Test u kabini od 6-8 svjetlosnih klikova na koži zbog prevencije eventualne alergijske reakcije.
+                            Napravit ćemo probni tretman na manjoj površini željene zone (ccc 3x3cm).
                             </p>
                         </div>
                     </div>
