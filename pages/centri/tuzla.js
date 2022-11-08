@@ -79,9 +79,9 @@ const Tuzla = () => {
                                 </div>
                             </div>
                             <div className="mapaCentra">
-                            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d177.7535267104337!2d18.681964871233806!3d44.53447716787852!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x475ead2259e4f5c1%3A0x59ad8b52b7473761!2sNo%2BVello%C2%AE%20Tuzla%20-%20Svjetski%20lider%20u%20laserskoj%20epilaciji!5e0!3m2!1sen!2sba!4v1663758831731!5m2!1sen!2sba" width="888" height="340" allowfullscreen="" loading="lazy"></iframe>
+                            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2844.0678965631914!2d18.68188331025438!3d44.53424232584796!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0xf4c7aa87a7548b95!2zNDTCsDMyJzAzLjMiTiAxOMKwNDAnNTkuNiJF!5e0!3m2!1sen!2sba!4v1667856444120!5m2!1sen!2sba" width="888" height="340" allowfullscreen="" loading="lazy"></iframe>
                             </div>
-                            <Link href="https://www.google.com/maps/place/No%2BVello%C2%AE+Tuzla+-+Svjetski+lider+u+laserskoj+epilaciji/@44.5344772,18.6819649,21z/data=!4m5!3m4!1s0x475ead2259e4f5c1:0x59ad8b52b7473761!8m2!3d44.5345729!4d18.681979">
+                            <Link href="https://www.google.com/maps/place/44%C2%B032'03.3%22N+18%C2%B040'59.6%22E/@44.5342423,18.6818833,17z/data=!3m1!4b1!4m6!3m5!1s0x0:0xf4c7aa87a7548b95!7e2!8m2!3d44.5342403!4d18.6832191">
                             <a className="pogledajMapuBtn greyButton">Pogledaj na Google Maps</a>
                             </Link>
                         </div>

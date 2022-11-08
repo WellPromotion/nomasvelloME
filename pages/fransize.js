@@ -5,6 +5,10 @@ import TrzistePop from '../Components/fransizePop/TrzistePop';
 import OnamaPop from '../Components/fransizePop/OnamaPop';
 import UsloviPop from '../Components/fransizePop/UsloviPop';
 
+import priceTwo from '../public/images/usluge/laserskaCijene.png'
+import priceThree from '../public/images/usluge/diodniLaser.png'
+
+
 
 // import prezentacijaPdf from '../public/pdf/prezentacija.pdf';
 
@@ -30,7 +34,7 @@ export default function Fransize() {
                         <div className="column">
                             <div className="fransBox">
                                 <div className="inner">
-                                    <p className="fransBroj">14</p>
+                                    <p className="fransBroj">16</p>
                                     <p className="fransSub">zemalja u svijetu</p>
                                 </div>
                             </div>
@@ -38,7 +42,7 @@ export default function Fransize() {
                         <div className="column">
                         <div className="fransBox">
                                 <div className="inner">
-                                    <p className="fransBroj">1300+</p>
+                                    <p className="fransBroj">1000+</p>
                                     <p className="fransSub">centara u svijetu</p>
                                 </div>
                             </div>
@@ -52,7 +56,10 @@ export default function Fransize() {
                             </div>
                         </div>
                         <div className="column">
-                            <img src={naljepnicaImg} alt="" />
+                            <img src={priceTwo} alt="" />
+                        </div>
+                        <div className="column">
+                            <img src={priceThree} alt="" />
                         </div>
                     </div>
                 </div>
@@ -75,7 +82,7 @@ export default function Fransize() {
                                 Također, postoje i drugi aspekti koji su bez sumnje pomogli tom rastu: tržište u porastu, mala ulaganja i jednostavnost upravljanja, visoka profitabilnost, period otplate investicije u prosjeku između 8 mjeseci i jedne godine, te djelatnosti vezane za estetiku i kult tijela koje su u stalnom porastu.
                             </p>
                             <p className="parHigh">
-                            Zbog svega toga, sa više od 1300 centara, možemo reći da je No+Vello svjetski lider u laserskoj epilaciji i fotoepilaciji.
+                            Zbog svega toga, sa više od 1000 centara, možemo reći da je No+Vello svjetski lider u laserskoj epilaciji i fotoepilaciji.
                             </p>
                         </div>
                     </div>

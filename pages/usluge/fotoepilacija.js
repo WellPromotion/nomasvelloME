@@ -215,7 +215,7 @@ svjetlost
                             </div>
                         </div>
                     </div>
-                    <div className="column">
+                    <div className="column diodniCol">
                         <img className='diodniIMG' src={priceTwo} alt="49 KM - Cijena laserske epilacije po zoni" />
                     </div>
                     </div>

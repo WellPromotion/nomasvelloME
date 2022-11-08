@@ -264,10 +264,14 @@
 .diodniIMG{
     height: 100%;
 }
+.diodniZone{
+    .diodniIMG{
+        max-width: 19.875rem;
+        max-height: 15.063rem;
+    }
+}
 #diodniZone{
     padding-top: 3rem;
-    
-  
     
     .container{
         background-color: #EDEFE5;

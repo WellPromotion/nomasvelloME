@@ -16,7 +16,7 @@ import MapSection from '../Components/Map.js';
 import ReactPlayer from 'react-player';
 import novelloTehnologija from '../public/images/novello-tehnologija.jpg';
 import poklonVauceri from '../public/images/homepage/poklon-vauceri.jpg'
-import specijalnePonude from '../public/images/homepage/specijalne-ponude.jpg'
+import specijalnePonude from '../public/images/homepage/ponude.jpg'
 
 
 import "slick-carousel/slick/slick.css";
@@ -84,8 +84,8 @@ export default function Home() {
               <div className="singleBox">
                 <div className="inner">
                 <img src={poklonVauceri} alt="" />
-                <p className="boxTitle">NO+VELLO Poklon vaučeri</p>
-                <p className="boxText defaultText"> Za svaki poklon vaučer No+Vello Vam daje 20% nižu cijenu. Posjetite naše centre i poklonite Ljepotu.</p>
+                <p className="boxTitle">NO+VELLO Poklon bonovi</p>
+                <p className="boxText defaultText">Poklonite ljepotu! Tretman trajne epilacije ili tretman lica ili tijela su uvijek savršen poklon Vama najdražoj dami.</p>
                </div>
               </div>
               </a>

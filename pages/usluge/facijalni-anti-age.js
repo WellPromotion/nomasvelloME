@@ -203,7 +203,8 @@ poboljšavajući tako elastičnost.</p>
                     <div className="columns">
                         <div className="column has-text-centered">
                             <p className="txT">
-                      <span className='greenPart'>Potrebno je obaviti 2 sesije sedmično.</span>       <br />
+                                {/* <span className='greenPart'>Potrebno je obaviti 2 sesije sedmično.</span> */}
+                                {/* <br /> */}
 Broj sesija će zavisiti od nekoliko faktora, kao što su: starosna dob, tretirana zona, stanje kože, itd.
                             </p>
                         </div>
