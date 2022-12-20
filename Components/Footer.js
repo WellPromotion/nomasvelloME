@@ -53,10 +53,11 @@ export const Footer = () => {
                             <div className="secondRow">
                                 <a href="/centri/sarajevo-i" className="footerLink isGreen">Sarajevo</a> <span> / </span>
                                 <a href="/centri/banja-luka" className="footerLink isGreen">Banja Luka</a><span> / </span>
+                                <a href="/centri/brcko" className="footerLink isGreen">Brčko</a> <span> / </span>
                                 <a href="/centri/tuzla" className="footerLink isGreen">Tuzla</a><span> / </span>
                                 <a href="/centri/zenica" className="footerLink isGreen">Zenica</a><span> / </span>
-                                <a href="/centri/doboj" className="footerLink isGreen">Doboj</a><span> / </span>
-                                <a href="/centri/brcko" className="footerLink isGreen">Brčko</a>
+                                <a href="/centri/doboj" className="footerLink isGreen">Doboj</a>
+                                
                             </div>
                             
                             <div className="firstRow thirdRow">

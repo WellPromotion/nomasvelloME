@@ -22,6 +22,7 @@
         
         @media only screen and (min-device-width : 320px) and (max-device-width : 480px) {
             height: 4rem;
+            width: 100vw;
          }
          
          .navImg{
@@ -250,6 +251,9 @@
         justify-content: space-between;
         -webkit-transition: all .25s;
         transition: all .25s;
+        @media only screen and (min-device-width : 320px) and (max-device-width : 480px) {
+           width: 100vw;
+        }
         
         .rightWrap{
             display: flex;
@@ -292,7 +296,7 @@
 
     .mediaWrap {
         @media only screen and (min-device-width : 320px) and (max-device-width : 480px) {
-               padding-left: 1rem;
+               padding-right: 1rem;
             }
             
         .mediaIconsList {

@@ -7,8 +7,11 @@
     // background-size: cover;
     // background-position: center 50%;
     // background-repeat: no-repeat; 
+    @media only screen and (min-device-width : 320px) and (max-device-width : 480px) {
+       background-position-x: 30%;
+        }
 }
-
+ 
 
 #ucinkovitost{
     padding-top: 5.938rem;
@@ -19,6 +22,9 @@
     .columns{
         display: flex;
         justify-content: space-evenly;
+        @media only screen and (min-device-width : 320px) and (max-device-width : 480px) {
+           display: block;
+            }
     }
     .ucinkovitostTitle{
         font-weight: 500;
@@ -56,6 +62,9 @@
             border-radius: 0.5rem;
             box-shadow: 0px 2px 0.5rem rgba(0, 0, 0, 0.12);
             height: 17.875rem;
+            @media only screen and (min-device-width : 320px) and (max-device-width : 480px) {
+               height: auto;
+                }
         }
         .secondCol{
             .inner{

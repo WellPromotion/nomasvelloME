@@ -66,7 +66,7 @@ export default function DovediPrijatelja() {
                     </div>
                     
                     <hr />
-                    
+                     
                     <div className="columns botCols">
                         <div className="column">
                             <h3 className="ucestvujteTitle">
@@ -89,27 +89,42 @@ export default function DovediPrijatelja() {
                                 <p className="numberGreen">1</p>
                                 <p className="defaultText">Preuzmite svoju specijalnu karticu “Dovedi prijatelja” u vašem lokalnom No+Vello centru.</p>
                             </div>
-                            <div className="singleItem">
-                                <p className="numberGreen">3</p>
-                                <p className="defaultText">Svaki prijatelj koji dođe mora postati No+Vello klijent kupovinom jedne sesije laserske epilacije ili epilacije IPL tehnologijom od 49 KM. Tako automatski dobija kupon za popust od 50% za drugu sesiju.</p>
-                            </div>
-                            <div className="singleItem">
-                                <p className="numberGreen">5</p>
-                                <p className="defaultText">Otiđite u svoj centar ili kontaktirajte isti putem telefona da rezervišete termin za sesiju koju ste dobili na poklon.</p>
-                            </div>
+                           
+                            
                         </div>
                         <div className="column">
                         <div className="singleItem">
                                 <p className="numberGreen">2</p>
                                 <p className="defaultText">Angažujte svoje prijatelje i pozovite ih da se pojave s vašim kuponom u vašem No+Vello centru.</p>
                             </div>
-                            <div className="singleItem">
+                          
+                        </div>
+                    </div>
+                    <div className="columns botSteps">
+                        <div className="column">
+                        <div className="singleItem">
+                                <p className="numberGreen">3</p>
+                                <p className="defaultText">Svaki prijatelj koji dođe mora postati No+Vello klijent kupovinom jedne sesije laserske epilacije ili epilacije IPL tehnologijom od 49 KM. Tako automatski dobija kupon za popust od 50% za drugu sesiju.</p>
+                            </div>
+                        </div>
+                        <div className="column">
+                        <div className="singleItem">
                                 <p className="numberGreen">4</p>
                                 <p className="defaultText">Provjerite svoju elektronsku poštu. Primit ćete poruku čim vaš prijatelj kupi svoju prvu sesiju.</p>
                             </div>
                         </div>
                     </div>
-                    
+                    <div className="columns botSteps">
+                        <div className="column">
+                        <div className="singleItem">
+                                <p className="numberGreen">5</p>
+                                <p className="defaultText">Otiđite u svoj centar ili kontaktirajte isti putem telefona da rezervišete termin za sesiju koju ste dobili na poklon.</p>
+                            </div>
+                        </div>
+                        <div className="column blankCol">
+                            
+                        </div>
+                    </div>
                 </div>
             </section>
             

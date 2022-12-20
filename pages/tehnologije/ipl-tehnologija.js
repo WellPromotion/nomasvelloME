@@ -26,10 +26,10 @@ const IPLTehnologija = () => {
                         <img src={belowTitleImg} alt="" />
                     </div>
                </div>
-            </section>
+            </section> 
 
      
-            <section id="iplAbout" className="iplAbout">
+            <section id="iplAbout" className="iplAbout section">
                 <div className="container">
                     <div className="columns iplFirstColumn level">
                         <div className="column is-left">
@@ -71,7 +71,7 @@ const IPLTehnologija = () => {
                 </div>
             </section>
 
-            <section id="iplPrincip" className="iplPrincip">
+            <section id="iplPrincip" className="iplPrincip section">
                 <div className="container">
                     <div className="columns">
                         <div className="column">
@@ -89,7 +89,7 @@ const IPLTehnologija = () => {
                 </div>
             </section>
 
-            <section id="iplAparati" className="iplAparati">
+            <section id="iplAparati" className="iplAparati section">
                 <div className="container">
                     <div className="columns iplFirstColumn level">
                         <div className="column is-left">
@@ -129,7 +129,7 @@ const IPLTehnologija = () => {
                 </div>
             </section>
 
-            <section id="ipl_Outro" className='ipl_Outro'>
+            <section id="ipl_Outro" className='ipl_Outro section'>
                 <div className="container">
                     <div className="columns">
                         <div className="column">
@@ -143,7 +143,7 @@ const IPLTehnologija = () => {
                 </div>
             </section>
 
-            <section id="iplPonuda" className="iplPonuda">
+            <section id="iplPonuda" className="iplPonuda section">
                 <div className="container">
                     <div className="columns">
                         <div className="column ponudaColumn has-text-centered">

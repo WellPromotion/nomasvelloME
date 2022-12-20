@@ -12,7 +12,7 @@ const Centri = () => {
         
         <>
             
-            <section id="titleCentri" className="titleCentri">
+            <section id="titleCentri" className="titleCentri section">
                 <div className="container has-text-centered">
                     <div className="columns">
                         <div className="column">
@@ -26,7 +26,7 @@ const Centri = () => {
                 </div>
             </section>
 
-            <section id="centriBoxes" className="centriBoxes">
+            <section id="centriBoxes" className="centriBoxes section">
                 <div className="container">
                     <div className="coolumns">
                         <div className="column">

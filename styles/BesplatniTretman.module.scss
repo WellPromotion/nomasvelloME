@@ -8,6 +8,10 @@
     background-size: cover;
     background-position: center 50%;
     background-repeat: no-repeat;
+    
+    @media only screen and (min-device-width : 320px) and (max-device-width : 480px) {
+        bottom: 0.2rem !important;
+        }
 
     .hero-body .title{
         text-transform: none;
@@ -21,6 +25,9 @@
 
 #bespTop{
     padding-top: 5rem;
+    @media only screen and (min-device-width : 320px) and (max-device-width : 480px) {
+       padding-top: 2rem;
+        }
     .titleCol{
         display: flex;
         text-align: center;
@@ -45,18 +52,24 @@
         justify-content: center;
         img{
             height: 15rem;
+            @media only screen and (min-device-width : 320px) and (max-device-width : 480px) {
+                height: 10rem;
+                }
         }
     }
 }
 
 #bespMid{
-    padding-top: 5rem;
+    padding-top: 2rem;
     
     .titlebespMid{
         text-align: center;
         // padding-bottom: 2rem;
         color: #fff;
         font-weight: 600;
+        @media only screen and (min-device-width : 320px) and (max-device-width : 480px) {
+            padding-top: 1rem;
+            }
     }
     .greenbackColTitle{
         color: $titleColor;
@@ -74,6 +87,9 @@
 
 .rightmidCols{
     padding-top: 2rem;
+    @media only screen and (min-device-width : 320px) and (max-device-width : 480px) {
+       padding-top: 0;
+        }
     .singlePro{
         background: rgba(255, 255, 255, 0.95);
     box-shadow: 0px 2px 8px rgba(0, 0, 0, 0.12);
@@ -101,9 +117,17 @@
     padding-top: 4rem;
     padding-bottom: 2rem;
     
+    @media only screen and (min-device-width : 320px) and (max-device-width : 480px) {
+       padding-left: 0;
+       padding-right: 0;
+        }
+    
     .columns{
         display: flex;
         justify-content: center;
+        @media only screen and (min-device-width : 320px) and (max-device-width : 480px) {
+           display: block;
+            }
     }
     
     .select:not(.is-multiple){
@@ -150,6 +174,10 @@
         background-color: #fff;
         border-radius: .5rem;
         margin-right: 1rem;
+        @media only screen and (min-device-width : 320px) and (max-device-width : 480px) {
+           margin-right: 0;
+           margin-bottom: .7rem;
+            }
     }
     img{
         height: 4rem;

@@ -17,7 +17,7 @@ const Example = () => {
     />;
 };
   
-const KremaZaLiceProtivStarenja = () => {
+const KremaZaLiceProtivStarenja = () => { 
     return (
         
         <>
@@ -32,7 +32,7 @@ const KremaZaLiceProtivStarenja = () => {
                 </div>
             </section>
 
-            <section id="featuredProduct" className="featuredProduct">
+            <section id="featuredProduct" className="featuredProduct section">
                 <div className="container">
                     <div className="columns level colsHidrozastitnaEmulzija">
                         <div className="column leftColumn">
@@ -57,7 +57,7 @@ const KremaZaLiceProtivStarenja = () => {
                 </div>
             </section>
             
-            <section id="featuredProductProperties" className="featuredProductProperties featuredProductPropertiesKrema featuredProductPropertiesAmpuleNesavrsenost">
+            <section id="featuredProductProperties" className="featuredProductProperties featuredProductPropertiesKrema featuredProductPropertiesAmpuleNesavrsenost section">
                 <div className="container">
                     <div className="columns">
                         <div className="column">
@@ -91,7 +91,7 @@ const KremaZaLiceProtivStarenja = () => {
                                 </div>
                             </div>
                         </div>
-                        <div className="column rightColumn rightColumnMaskaProtStar">
+                        <div className="column rightColumn rightColumnMaskaProtStar rightColumnMaskaProtStar2">
                             <div className="listInner">
                                     <div className="detailsList">
                                   <img className="greenCheckSpacing" src={greenCheck} alt="" />
@@ -106,7 +106,7 @@ const KremaZaLiceProtivStarenja = () => {
                 </div>
             </section>
             
-            <section id="featuredProductPrimjena" className="featuredProductPrimjena featuredProductEmulzija">
+            <section id="featuredProductPrimjena" className="featuredProductPrimjena featuredProductEmulzija section">
                 <div className="container">
                     <div className="columns">
                         <div className="column has-text-centered">

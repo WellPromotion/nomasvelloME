@@ -49,7 +49,7 @@ const TretmanAkni = () => {
                 </div>
             </section>
             
-            <section id="image" className="image">
+            <section id="image" className="image section">
                 <div className="container">
                     <div className="columns has-text-centered">
                         <div className="column has-text-centered">
@@ -59,7 +59,7 @@ const TretmanAkni = () => {
                 </div>
             </section>
             
-            <section id="tretmanAkni" className="tretmanAkni">
+            <section id="tretmanAkni" className="tretmanAkni section">
                 <div className="container">
                     <div className="columns">
                         <div className="column has-text-centered">
@@ -105,7 +105,7 @@ papulo-pustuloznim promjenama</p>
                 </div>
             </section>
             
-            <section id="intenzivna" className="intenzivna">
+            <section id="intenzivna" className="intenzivna section">
                 <div className="container">
                     <div className="columns titleCols has-text-centered">
                         <div className="column is-6">
@@ -133,7 +133,7 @@ IPL tehnologija, također, raspolaže još jednom prednošću jer pospješuje pi
                 </div>
             </section>
             
-            <section id="pozivamoVas" className="pozivamoVas">
+            <section id="pozivamoVas" className="pozivamoVas section">
                 <div className="container">
                     <div className="columns">
                         <div className="column">
@@ -199,7 +199,7 @@ potpuno besplatan pregled lica</p>
                         
                     </div>
                 </div>
-            </section>
+            </section> 
             
             <section id="pogledajtePromocije" className="section">
                 <div className="container">

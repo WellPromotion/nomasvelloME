@@ -13,7 +13,7 @@ import linijaHidratacija from '../../../public/images/kozmeticki-proizvodi/linij
 
 const Example = () => {
     return <Breadcrumbs useDefaultStyle rootLabel="Početna"
-    />;
+    />; 
 };
   
 const GelZaCiscenjeVisokeTolerancije = () => {
@@ -31,7 +31,7 @@ const GelZaCiscenjeVisokeTolerancije = () => {
                 </div>
             </section>
 
-            <section id="featuredProduct" className="featuredProduct">
+            <section id="featuredProduct" className="featuredProduct section">
                 <div className="container">
                     <div className="columns level colsGelVisokeTol">
                         <div className="column leftColumn leftColumnGelVis">
@@ -56,7 +56,7 @@ const GelZaCiscenjeVisokeTolerancije = () => {
                 </div>
             </section>
             
-            <section id="featuredProductProperties" className="featuredProductProperties">
+            <section id="featuredProductProperties" className="featuredProductProperties section">
                 <div className="container">
                     <div className="columns">
                         <div className="column">
@@ -113,7 +113,7 @@ const GelZaCiscenjeVisokeTolerancije = () => {
                 </div>
             </section>
             
-            <section id="featuredProductPrimjena" className="featuredProductPrimjena">
+            <section id="featuredProductPrimjena" className="featuredProductPrimjena section">
                 <div className="container">
                     <div className="columns">
                         <div className="column has-text-centered">

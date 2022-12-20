@@ -11,7 +11,7 @@ const BanjaLuka = () => {
         <>
             
 
-            <section id="centriBanjaLuka" className="centriBanjaLuka">
+            <section id="centriBanjaLuka" className="centriBanjaLuka section">
                 <div className="container">
                     <div className="columns">
                         <div className="column is-4">
@@ -20,8 +20,8 @@ const BanjaLuka = () => {
                                 <h1 className="title singleCentarTitle">Centar u Banja Luci</h1>
                             </div>
                             <div className="infoCentar">
-                                <div className="columns">
-                                    <div className="column">
+                                <div className="columns adressCols">
+                                    <div className="column leftCol">
                                 <p className="cityInfoTitle">Adresa:</p>
                                 <p className="cityInfoTitle">Telefon:</p>
                                 <p className="cityInfoTitle">Email:</p>

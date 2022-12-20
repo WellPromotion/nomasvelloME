@@ -55,7 +55,7 @@ export default function PravaKlijenta() {
                           
                         </div>
                      </div>
-                </div>  
+                </div>   
         </section>
             
             

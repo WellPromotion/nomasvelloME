@@ -11,7 +11,7 @@ const Doboj = () => {
         <>
             
 
-            <section id="centriDoboj" className="centriDoboj">
+            <section id="centriDoboj" className="centriDoboj section">
                 <div className="container">
                     <div className="columns">
                         <div className="column is-4">
@@ -20,8 +20,8 @@ const Doboj = () => {
                                 <h1 className="title singleCentarTitle">Centar u Doboju</h1>
                             </div>
                             <div className="infoCentar">
-                                <div className="columns">
-                                    <div className="column">
+                                <div className="columns adressCols">
+                                    <div className="column leftCol">
                                         <p className="cityInfoTitle">Adresa:</p>
                                         <br />
                                 <p className="cityInfoTitle">Telefon:</p>

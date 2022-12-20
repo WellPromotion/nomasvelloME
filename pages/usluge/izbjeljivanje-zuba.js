@@ -28,7 +28,7 @@ const IzbjeljivanjeZuba = () => {
         
         <>
             
-        
+         
             <section id="uslugeHeader" className="uslugeHeader izbjeljivanje-zubaUsl">
                 <div id='breacdcrumbs' className='breadcrumbs breadcrumbsUsluge'>
                     <div className="container">
@@ -89,7 +89,7 @@ const IzbjeljivanjeZuba = () => {
                 </div>
             </section>
 
-            <section id="led" className="led">
+            <section id="led" className="led section">
                 <div className="container">
                     <div className="columns level">
                         <div className="column is-5">
@@ -114,7 +114,7 @@ const IzbjeljivanjeZuba = () => {
                 </div>
             </section>
             
-            <section id="tretman" className="tretman"> 
+            <section id="tretman" className="tretman section"> 
                 <div className="container">
                     <div className="columns has-text-centered titleCols">
                         <div className="column is-4 titleCol">
@@ -172,7 +172,7 @@ const IzbjeljivanjeZuba = () => {
                 </div>
             </section>
             
-            <section id="pojacaj" className="pojacaj">
+            <section id="pojacaj" className="pojacaj section">
                 <div className="container">
                     <div className="columns level">
                         <div className="column imgCol is-4">

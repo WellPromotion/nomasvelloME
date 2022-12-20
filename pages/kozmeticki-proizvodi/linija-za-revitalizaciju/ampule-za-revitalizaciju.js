@@ -31,7 +31,7 @@ const AmpuleZaRevitalizaciju = () => {
                 </div>
             </section>
             
-            <section id="featuredProduct" className="featuredProduct">
+            <section id="featuredProduct" className="featuredProduct section">
                 <div className="container">
                     <div className="columns level colsProtivNesavrsenosti">
                         <div className="column leftColumn">
@@ -56,7 +56,7 @@ const AmpuleZaRevitalizaciju = () => {
                 </div>
             </section>
             
-            <section id="featuredProductProperties" className="featuredProductProperties">
+            <section id="featuredProductProperties" className="featuredProductProperties section">
                 <div className="container">
                     <div className="columns">
                         <div className="column">
@@ -100,7 +100,7 @@ Ove ampule su obično tečne/uljne teksture koja se lako nanosi i odmah prodire 
                 </div>
             </section>
             
-            <section id="featuredProductPrimjena" className="featuredProductPrimjena">
+            <section id="featuredProductPrimjena" className="featuredProductPrimjena section">
                 <div className="container">
                     <div className="columns">
                         <div className="column has-text-centered">

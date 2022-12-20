@@ -13,7 +13,7 @@ export default function Test(props) {
 
       <>
           
-          <section id="blogHeader" className="blogHeader">
+          <section id="blogHeader" className="blogHeader"> 
               <div className="container">
                   <div className="columns">
                       <div className="column">
@@ -26,7 +26,7 @@ export default function Test(props) {
           </section>
     
           
-          <section id="blogsListed" className="blogsListed">
+          <section id="blogsListed" className="blogsListed section">
               <div className="container blogsContainer">
                   <div className="columns">
                       <div className="column blogsCol is-9">
@@ -39,14 +39,14 @@ export default function Test(props) {
                           <img className='postImage' src={post.featuredImage !== null ? post.featuredImage.node.sourceUrl : ""} alt="" />
                           
                           <p className='postTitle'>
-                              {post.title.length > 74 ?
+                              {post.title.length > 60 ?
     `${ post.title.substring(0, 50) }...` : post.title }
                           </p>
                           <p className='postDate'>
                               {post.date.split("T").shift()}
                           </p>
                           <div
-                              dangerouslySetInnerHTML={{ __html: post.excerpt.substring(0, 100) + '...' }} className="postExcerpt" >
+                              dangerouslySetInnerHTML={{ __html: post.excerpt.substring(0, 90) + '...' }} className="postExcerpt" >
                               
                           </div>
                           
@@ -87,10 +87,10 @@ export default function Test(props) {
                                   <a className='singleCent' href="/centri/sarajevo-iii">Dobrinja</a>
                                   <a className='singleCent' href="/centri/sarajevo-iv">Ilidža</a>
                                   <a className='singleCent' href="/centri/banja-luka">Banja Luka</a> 
+                                  <a className='singleCent' href="/centri/brcko">Brčko</a>
                                   <a className='singleCent' href="/centri/zenica">Zenica</a>
                                   <a className='singleCent' href="/centri/tuzla">Tuzla</a>
                                   <a className='singleCent' href="/centri/doboj">Doboj</a>
-                                  <a className='singleCent' href="/centri/brcko">Brčko</a>
                               </div>
                           </div>
                       </div>

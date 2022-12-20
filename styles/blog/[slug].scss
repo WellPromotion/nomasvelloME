@@ -5,7 +5,11 @@
 }
 .singleBlogCol{
     padding-top: 4rem;
-    padding-bottom: 3.5rem;
+    padding-bottom: 0;
+    @media only screen and (min-device-width : 320px) and (max-device-width : 480px) {
+       padding-bottom: 0;
+       padding-top: 1rem;
+         } 
     
 }
 
@@ -16,6 +20,10 @@
     text-align: center;
     color: $titleColor;
     width: 41.25rem;
+    @media only screen and (min-device-width : 320px) and (max-device-width : 480px) {
+        width: auto;
+        font-size: 2rem;
+         } 
 }
 
 .postSingleDate{
@@ -26,11 +34,18 @@
     color: $primaryGreen;
     margin-top: 1.156rem;
     width: 41.25rem;
+    @media only screen and (min-device-width : 320px) and (max-device-width : 480px) {
+        width: auto;
+        margin-top: 1rem;
+         } 
 }
 
 .postSingleImage{
     margin-top: 4.156rem;
     margin-bottom: 3rem;
+    @media only screen and (min-device-width : 320px) and (max-device-width : 480px) {
+        margin-top: 2rem;
+         } 
 }
 
 .postSingleContent{
@@ -39,6 +54,9 @@
     line-height: 1.813rem;
     color: $primaryText;
     width: 41.25rem;
+    @media only screen and (min-device-width : 320px) and (max-device-width : 480px) {
+        width: auto;
+         } 
 }
 
 .titlePost, .datePost, .imgPost, .contentPost{
@@ -54,6 +72,9 @@
         
         .columns{
             width: 41.25rem;
+            @media only screen and (min-device-width : 320px) and (max-device-width : 480px) {
+                width: auto;
+                 } 
             
             .column{
             padding-left: 0;

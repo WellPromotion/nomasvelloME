@@ -118,7 +118,7 @@ const Fotopodmlađivanje = () => {
                 </div>
             </section>
 
-            <section id="principFoto" className="principFoto">
+            <section id="principFoto" className="principFoto section">
                 <div className="container">
                     <div className="columns">
                         <div className="column is-5 leftCol">

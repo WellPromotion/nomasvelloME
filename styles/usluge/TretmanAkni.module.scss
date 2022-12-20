@@ -4,6 +4,9 @@
     background-image: url('../../public/images/usluge/tretman-akni/header.png') !important;
     background-size: cover;
     background-repeat: no-repeat;
+    @media only screen and (min-device-width : 320px) and (max-device-width : 480px) {
+       background-position-x: 30%;
+        }
 }
 
 #image{

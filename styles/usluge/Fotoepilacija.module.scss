@@ -261,7 +261,7 @@
 }
 
 #koraciFotoepilacije{
-    padding-top: 4rem;
+    padding-top: 2rem;
     
     .topCols{
         margin-bottom: 0;
@@ -279,9 +279,13 @@
         margin-bottom: 0;
     }
     .triKoraka{
-        padding-top: 4rem;
+        padding-top: 3.3rem;
         display: flex;
         justify-content: center;
+        @media only screen and (min-device-width : 320px) and (max-device-width : 480px) {
+            display: block;
+            padding-top: 2rem;
+            }
     }
     .korakBroj{
         font-weight: 700;
@@ -314,13 +318,20 @@
 }
 
 #preporuke{
-    padding-top: 5.5rem;
+    padding-top: 3.5rem;
     padding-bottom: 5.5rem;
+    @media only screen and (min-device-width : 320px) and (max-device-width : 480px) {
+        padding-top: 1.5rem;
+        }
+    
     .txtBox{
         background-color: #EDEFE5;
         border-radius: 0.5rem;
         .inner{
             padding: 4rem 7.125rem 4rem 4rem;
+            @media only screen and (min-device-width : 320px) and (max-device-width : 480px) {
+               padding: 2rem 2rem 2rem 2rem;
+                }
             
             .preporukeTitle{
                 font-weight: 700;
@@ -360,6 +371,11 @@
         font-size: 4rem;
         font-weight: 400;
         line-height: 5.5rem;
+        @media only screen and (min-device-width : 320px) and (max-device-width : 480px) {
+            font-size: 3rem;
+        line-height: 3.5rem;
+        margin-bottom: 0;
+            }
     }
     .blueSub{
         font-size: 1.75rem;
@@ -383,6 +399,9 @@
             color: $primaryGreen;
             line-height: 4.5rem;
             margin-bottom: 0;
+            @media only screen and (min-device-width : 320px) and (max-device-width : 480px) {
+               font-size: 3rem;
+                }
         }
     }
     .greenCol{
@@ -397,6 +416,9 @@
             color: #fff;
             line-height: 4.5rem;
             margin-bottom: 0;
+            @media only screen and (min-device-width : 320px) and (max-device-width : 480px) {
+               font-size: 3rem;
+                }
         }
     }
     .defaultWhitegreen{
@@ -409,6 +431,11 @@
     img{
         border-radius: .5rem;
     }
+}
+.imgSectionFotoep{
+    @media only screen and (min-device-width : 320px) and (max-device-width : 480px) {
+        display: none;
+        }
 }
 #seguro{
     

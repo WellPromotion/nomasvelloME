@@ -9,7 +9,7 @@
     .imgTitleSphere{
         display: flex;
         justify-content: center;
-        align-content: center;
+        align-content: center; 
     }
     .title{
         font-weight: 500;
@@ -31,10 +31,14 @@
        margin-bottom: 0px;
    }
 }
-
+.imgTitleSphere{
+    @media only screen and (min-device-width : 320px) and (max-device-width : 480px) {
+        height: 60px;
+        }
+}
 #laserBody{
     padding-top: 3rem;
-    padding-bottom: 3.5rem;
+    padding-bottom: 1.5rem;
     display: flex;
     justify-content: center;
 
@@ -65,9 +69,15 @@
     .is-left{
         padding-right: 4.25rem;
         text-align: right;
+        @media only screen and (min-device-width : 320px) and (max-device-width : 480px) {
+           padding-right: 0;
+            }
     }
     .is-right{
         padding-left: 0px;
+        @media only screen and (min-device-width : 320px) and (max-device-width : 480px) {
+            padding-left: 0.75rem;
+            }
         .laserTitle{
             margin-bottom: 1rem;
         }
@@ -76,6 +86,9 @@
         }
         ._inner{
             width: 27rem;
+            @media only screen and (min-device-width : 320px) and (max-device-width : 480px) {
+               width: auto;
+                }
         }
     }
 }
@@ -93,7 +106,7 @@
     display: flex;
     justify-content: center;   
     align-items: center;
-    padding-top: 4rem;
+    padding-top: 2rem;
 
     .is-left{
         display: flex;
@@ -103,6 +116,9 @@
         }
         ._inner{
             width: 28rem;
+            @media only screen and (min-device-width : 320px) and (max-device-width : 480px) {
+                width: auto;
+                }
         }
         .secondPart{
             padding-top: 1.5rem;
@@ -131,18 +147,22 @@
 }
 
 #t_Outro{
-    padding-top: 4rem;
+    padding-top: 2rem;
     .container{
     display: flex;
     justify-content: center;
     }
     .columns{
         width: 55.5rem;
+            
     }
     .innerOutro{
         padding: 1rem 10.625rem;
         background-color: #EDEFE5;
         border-radius: 0.5rem;
+        @media only screen and (min-device-width : 320px) and (max-device-width : 480px) {
+           padding: 1rem;
+            }
     }
     .outroMessage{
         font-weight: 700;
@@ -153,7 +173,7 @@
 }
 
 #t_Ponuda{
-    padding-top: 4.5rem;
+    padding-top: 3.5rem;
     padding-bottom: 5.5rem;
     box-shadow: 0px 2px 1px rgba(0, 0, 0, 0.05);
    

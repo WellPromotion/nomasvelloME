@@ -4,9 +4,12 @@
 #featuredProduct{
     .colsProtivNesavrsenosti{
         width: 57rem !important;
+        @media only screen and (min-device-width : 320px) and (max-device-width : 480px) {
+           width: auto !important;
+            }
     }
 }
-
+ 
 .detailsRevitalizacija{
     padding-bottom: 5.5rem;
     .blueTitle{
@@ -28,6 +31,9 @@
     .is-left{
         ._inner{
             width: 37.5rem !important;
+            @media only screen and (min-device-width : 320px) and (max-device-width : 480px) {
+               width: auto !important;
+                }
         }
     }
     

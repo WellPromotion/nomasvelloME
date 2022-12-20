@@ -17,7 +17,7 @@ const Example = () => {
     />;
 };
   
-const MaskaZaRegeneraciju = () => {
+const MaskaZaRegeneraciju = () => { 
     return (
         
         <>
@@ -32,7 +32,7 @@ const MaskaZaRegeneraciju = () => {
                 </div>
             </section>
 
-            <section id="featuredProduct" className="featuredProduct">
+            <section id="featuredProduct" className="featuredProduct section">
                 <div className="container">
                     <div className="columns level colsHidrozastitnaEmulzija">
                         <div className="column leftColumn">
@@ -58,7 +58,7 @@ const MaskaZaRegeneraciju = () => {
                 </div>
             </section>
             
-            <section id="featuredProductProperties" className="featuredProductProperties">
+            <section id="featuredProductProperties" className="featuredProductProperties section">
                 <div className="container">
                     <div className="columns">
                         <div className="column rightColumn bottomColEmulzija">
@@ -93,7 +93,7 @@ const MaskaZaRegeneraciju = () => {
                 </div>
             </section>
             
-            <section id="featuredProductPrimjena" className="featuredProductPrimjena featuredProductEmulzija">
+            <section id="featuredProductPrimjena" className="featuredProductPrimjena featuredProductEmulzija section">
                 <div className="container">
                     <div className="columns">
                         <div className="column has-text-centered">

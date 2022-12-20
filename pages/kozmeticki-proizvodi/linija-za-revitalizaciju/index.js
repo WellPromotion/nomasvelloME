@@ -13,7 +13,7 @@ const Example = () => {
     />;
 };
   
-const LinijaZaRevitalizaciju = () => {
+const LinijaZaRevitalizaciju = () => { 
     return (
         
         <>
@@ -30,7 +30,7 @@ const LinijaZaRevitalizaciju = () => {
                 </div>
             </section>
             
-            <section id="headerKozmetike" className='headerKozmetike hero'>
+            <section id="headerKozmetike" className='headerKozmetike'>
                 <div className="container">
                     <div className="columns">
                         <div className="column">
@@ -40,7 +40,7 @@ const LinijaZaRevitalizaciju = () => {
                 </div>
             </section>
             
-            <section id="kozmetikeDescription" className="kozmetikeDescription">
+            <section id="kozmetikeDescription" className="kozmetikeDescription section">
                 <div className="container">
                     <div className="columns">
                         <div className="column">
@@ -63,7 +63,7 @@ Prepustite se moćima vitamina C. Osjetite njegov trostruki efekat: antioksidati
                 </div>
             </section>
             
-            <section id="kozmetikeProizvodi" className="kozmetikeProizvodi">
+            <section id="kozmetikeProizvodi" className="kozmetikeProizvodi section">
                 <div className="container">
                     <div className="columns topColumns">
                         <div className="column">
@@ -111,7 +111,7 @@ Prepustite se moćima vitamina C. Osjetite njegov trostruki efekat: antioksidati
                 </div>
             </section>
             
-            <section id="bottomDetails" className="bottomeDetails detailsRevitalizacija">
+            <section id="bottomDetails" className="bottomeDetails detailsRevitalizacija section">
             <div className="container">
                     <div className="columns level">
                         <div className="column is-left">

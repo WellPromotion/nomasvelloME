@@ -12,12 +12,13 @@ const HamburgerIcon = () => (<div className='p-1/2'><svg className="w-8 h-8 text
 
 export const Links = () => (<>
     <Link href="/"><a className='font-bold p-4'>Početna</a></Link>
-    <Link href="/usluge"><a className='font-bold p-4'>Usluge</a></Link>
+    <Link href="/usluge/laserska-epilacija"><a className='font-bold p-4'>Usluge</a></Link>
     <Link href="/centri"><a className='font-bold p-4'>Centri</a></Link>
     <Link href="/tehnologije"><a className='font-bold p-4'>Tehnologije</a></Link>
     <Link href="/kozmeticki-proizvodi"><a className='font-bold p-4'>Kozmetički proizvodi</a></Link>
     <Link href="/blog"><a className='font-bold p-4'>Blog</a></Link>
     <Link href="/faq/laserska-epilacija-fotoepilacija-ipl-shr"><a className='font-bold p-4'>FAQ</a></Link>
+    <Link href="/otkrijte-nase-ponude-i-promocije"><a className='font-bold p-4'>Promocije</a></Link>
    
 </>)
 

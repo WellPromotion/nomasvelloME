@@ -29,7 +29,7 @@ const UltrazvukTehnologija = () => {
                </div>
             </section>
             
-            <section id="ultrazvukAbout" className="ultrazvukAbout">
+            <section id="ultrazvukAbout" className="ultrazvukAbout section">
                 <div className="container">
                     <div className="columns">
                         <div className="column">
@@ -89,7 +89,7 @@ Galvanska energija aktivira stimulaciju proizvodnje kolagena i elastina, stimuli
                 </div>
             </section>
 
-            <section id="ultrasoundPonuda" className="ultrasoundPonuda">
+            <section id="ultrasoundPonuda" className="ultrasoundPonuda section">
                <div className="container">
                    <div className="columns">
                        <div className="column ponudaColumn has-text-centered">

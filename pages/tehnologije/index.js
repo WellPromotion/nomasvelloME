@@ -14,7 +14,7 @@ import ledIconImg from '../../public/images/tehnologije/icons/svg/led.svg'
 import ultrazvucnaIconImg from '../../public/images/tehnologije/icons/svg/ultrazvucna.svg'
 import sunIconImg from '../../public/images/tehnologije/icons/svg/sun.svg'
 import ljekarskaIconImg from '../../public/images/tehnologije/icons/svg/ljekarska.svg'
-
+ 
 
 const Tehnologije = () => {
     return (
@@ -35,7 +35,7 @@ const Tehnologije = () => {
                </div>
             </section>
 
-            <section id="tehnologijeBody" className="tehnologijeBody">
+            <section id="tehnologijeBody" className="tehnologijeBody section">
                 <div className="container">
                     <div className="columns">
                         <div className="column">

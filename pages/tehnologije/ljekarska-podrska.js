@@ -29,7 +29,7 @@ const LjekarskaPodrska = () => {
                </div>
             </section>
 
-            <section id="ljekarskaStart" className="ljekarskaStart">
+            <section id="ljekarskaStart" className="ljekarskaStart section"> 
                 <div className="container contLjekarska">
                     <div className="columns colsLjekarska">
                         <div className="column ljekarskaTxt has-text-centered">
@@ -71,25 +71,19 @@ const LjekarskaPodrska = () => {
                     </div>
             </section>
 
-            <section id="ljekarskaPreporuke" className="ljekarskaPreporuke">
+            <section id="ljekarskaPreporuke" className="ljekarskaPreporuke section">
                 <div className="container">
                     <div className="columns">
                         <div className="column has-text-centered">
                             <p className='defaultGreenTitle'>Preporuke prije i poslije tretmana</p>
                         </div>
                     </div>
-                    <div className="columns colsPreporukeLjekarska">
+                    <div className="columns colsPreporukeLjekarska colsPreporukeLjekarskaFirst">
                         <div className="column">
                             <div className="preporukeBox firstPreporuke">
                                 <div className="preporukeInner">
                                 <p className='preporukeNumber'>01</p>
                                     <p className='preporukeTxt defaultText'>Ne upotrebljavajte fotosenzitivne lijekove (osjetljive na svjetlost) prije tretmana. Obavijestite svoj No+Vello © centar o lijekovima koje koristite.</p>
-                                </div>
-                            </div>
-                            <div className="preporukeBox secondPreporuke">
-                                <div className="preporukeInner">
-                                <p className='preporukeNumber'>05</p>
-                                    <p className='preporukeTxt defaultText'>Preporučuje se dolazak na tretman s čistom kožom, bez kreme, deodoransa i šminke. Ne upotrebljavajte proizvode koji sadrže alkohol prva tri dana nakon tretmana (dezodorans).</p>
                                 </div>
                             </div>
                         </div>
@@ -100,18 +94,8 @@ const LjekarskaPodrska = () => {
                                     <p className='preporukeTxt defaultText'>Izbjegavajte izlaganje suncu i UVA zrakama prije tretmana (posavjetujte se u svom centru).</p>
                                 </div>
                             </div>
-                            <div className="preporukeBox secondPreporuke">
-                                <div className="preporukeInner">
-                                <p className='preporukeNumber'>06</p>
-                                    <p className='preporukeTxt defaultText'>Potrebno je izbjegavati uklanjanje dlačica voskom i pincetom ali i hemijsko uklanjanje dlačica mjesec dana prije tretmana. Dlačice možete uklanjati britvicom, ali ne 2 dana prije tretmana.</p>
-                                </div>
-                            </div>
-                            <div className="preporukeBox thirdPreporuke">
-                                <div className="preporukeInner">
-                                <p className='preporukeNumber'>09</p>
-                                    <p className='preporukeTxt defaultText'>Ukoliko osjetite pojavu topline, svrbež ili crvenilo na tretiranom području, hladite ga 20 minuta oblogom namočenom hladnom vodom.</p>
-                                </div>
-                            </div>
+                          
+                          
                         </div>
                         <div className="column">
                         <div className="preporukeBox firstPreporuke">
@@ -122,18 +106,8 @@ ili hemijske kiseline
 mjesec dana prije tretmana.</p>
                                 </div>
                             </div>
-                            <div className="preporukeBox secondPreporuke">
-                                <div className="preporukeInner">
-                                <p className='preporukeNumber'>07</p>
-                                    <p className='preporukeTxt defaultText'>Na dan tretmana se preporučuje izbjegavanje vruće vode na tretiranim predjelima i preporučljivo je tuširanje mlakom vodom.</p>
-                                </div>
-                            </div>
-                            <div className="preporukeBox thirdPreporuke">
-                                <div className="preporukeInner">
-                                <p className='preporukeNumber'>10</p>
-                                    <p className='preporukeTxt defaultText'>Po završetku tretmana koristite hidrozaštitnu No+Vello© emulziju za lice i tijelo 3 do 4 dana (ujutro i navečer). Poslije je dovoljno nanositi kremu jednom dnevno.</p>
-                                </div>
-                            </div>
+                            
+                           
                         </div>
                         <div className="column">
                         <div className="preporukeBox firstPreporuke">
@@ -143,7 +117,37 @@ mjesec dana prije tretmana.</p>
 kremama protiv bora). </p>
                                 </div>
                             </div>
-                            <div className="preporukeBox secondPreporuke">
+                           
+                        </div>
+                    </div>
+                    
+                    <div className="columns colsPreporukeLjekarska">
+                        <div className="column">
+                        <div className="preporukeBox secondPreporuke">
+                                <div className="preporukeInner">
+                                <p className='preporukeNumber'>05</p>
+                                    <p className='preporukeTxt defaultText'>Preporučuje se dolazak na tretman s čistom kožom, bez kreme, deodoransa i šminke. Ne upotrebljavajte proizvode koji sadrže alkohol prva tri dana nakon tretmana (dezodorans).</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div className="column">
+                        <div className="preporukeBox secondPreporuke">
+                                <div className="preporukeInner">
+                                <p className='preporukeNumber'>06</p>
+                                    <p className='preporukeTxt defaultText'>Potrebno je izbjegavati uklanjanje dlačica voskom i pincetom ali i hemijsko uklanjanje dlačica mjesec dana prije tretmana. Dlačice možete uklanjati britvicom, ali ne 2 dana prije tretmana.</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div className="column">
+                        <div className="preporukeBox secondPreporuke">
+                                <div className="preporukeInner">
+                                <p className='preporukeNumber'>07</p>
+                                    <p className='preporukeTxt defaultText'>Na dan tretmana se preporučuje izbjegavanje vruće vode na tretiranim predjelima i preporučljivo je tuširanje mlakom vodom.</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div className="column">
+                        <div className="preporukeBox secondPreporuke">
                                 <div className="preporukeInner">
                                 <p className='preporukeNumber'>08</p>
                                     <p className='preporukeTxt defaultText'>Izbjegavajte nošenje uskih hlača na dan tretmana te izlaganje tretiranih predjela dodatnim izvorima topline ili vlage kao npr. bavljenje sportom.</p>
@@ -151,18 +155,41 @@ kremama protiv bora). </p>
                             </div>
                         </div>
                     </div>
+                    
+                    <div className="columns colsPreporukeLjekarska colsPreporukeLjekarskaLast">
+                        <div className="column blankCol"></div>
+                        <div className="column">
+                        <div className="preporukeBox thirdPreporuke">
+                                <div className="preporukeInner">
+                                <p className='preporukeNumber'>09</p>
+                                    <p className='preporukeTxt defaultText'>Ukoliko osjetite pojavu topline, svrbež ili crvenilo na tretiranom području, hladite ga 20 minuta oblogom namočenom hladnom vodom.</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div className="column">
+                        <div className="preporukeBox thirdPreporuke">
+                                <div className="preporukeInner">
+                                <p className='preporukeNumber'>10</p>
+                                    <p className='preporukeTxt defaultText'>Po završetku tretmana koristite hidrozaštitnu No+Vello© emulziju za lice i tijelo 3 do 4 dana (ujutro i navečer). Poslije je dovoljno nanositi kremu jednom dnevno.</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div className="column blankCol">
+                        </div>
+                  </div>
+                    
                 </div>
             </section>
 
 
-            <section id="kontraindikacijeLjekarska" className="kontraindikacijeLjekarska">
+            <section id="kontraindikacijeLjekarska" className="kontraindikacijeLjekarska section">
                 <div className="container">
                     <div className="columns">
                         <div className="column has-text-centered">
                             <p className='kontraindikacijeTitle defaultBlueTitle'>Kontraindikacije</p>
                             <img src={greenLines} alt="" />
                             <div className="pitanjaKontraindikacije">
-                            <Accordion title="Kakve su kontraindikacije za LED terapiju??"
+                            <Accordion title="Kakve su kontraindikacije za LED terapiju?"
                                     content="trudnoća, dojenje, fotosenzitivni lijekovi, aktivna infekcija, upala kože."     />
                         <Accordion
                             title="Kakve su kontraindikacije za izbjeljivanje zubi?"
@@ -177,7 +204,7 @@ kremama protiv bora). </p>
                 </div>
             </section>
 
-            <section id="ljekarska_Outro" className='ljekarska_Outro'>
+            <section id="ljekarska_Outro" className='ljekarska_Outro section'>
                <div className="container">
                    <div className="columns">
                        <div className="column">
@@ -191,7 +218,7 @@ kremama protiv bora). </p>
                </div>
            </section>
 
-           <section id="ljekarskaPonuda" className="ljekarskaPonuda">
+           <section id="ljekarskaPonuda" className="ljekarskaPonuda section">
                <div className="container">
                    <div className="columns">
                        <div className="column ponudaColumn has-text-centered">

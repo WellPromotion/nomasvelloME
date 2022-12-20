@@ -25,9 +25,9 @@ const KozmetickiProizvodi = () => {
                         <img src={belowTitleImg} alt="" />
                     </div>
                 </div>
-            </section>
+            </section> 
 
-            <section id="kozmetikaBody" className="kozmetikaBody">
+            <section id="kozmetikaBody" className="kozmetikaBody section">
                 <div className="container kozmetikaTitleCol">
                     <div className="columns">
                         <div className="column has-text-centered">
@@ -40,7 +40,7 @@ const KozmetickiProizvodi = () => {
                 </div>
             </section>
 
-            <section id="kozmetikaBoxes" className="kozmetikaBoxes">
+            <section id="kozmetikaBoxes" className="kozmetikaBoxes section">
                 <div className="container">
                     <div className="columns">
                         <div className="column kozmetikaCols">
@@ -160,7 +160,7 @@ hidratacije, potrebno je da kožu zaštitimo i regenerišemo.
 
                             <div className="colInner secCol">
                                 <div className="kozmetikaBox">
-                                    <div className="imgKozmetika">
+                                    <div className="imgKozmetika imgLinijaHidratacija">
                                         <img src={linijaHidratacija} alt="LINIJA ZA HIDRATACIJU" />
                                     </div>
                                     <div className="_outer">

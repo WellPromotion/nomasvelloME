@@ -44,7 +44,7 @@ const LedTehnologija = () => {
                </div>
            </section>
 
-           <section id="ledAbout" className="ledAbout">
+           <section id="ledAbout" className="ledAbout section"> 
                <div className="container">
                    <div className="columns iplFirstColumn level">
                        <div className="column is-left">
@@ -91,7 +91,7 @@ const LedTehnologija = () => {
                </div>
            </section>
 
-           <section id="ledColors" className="ledColors">
+           <section id="ledColors" className="ledColors section">
                <div className="container">
                    <div className="columns">
                        <div className="column ledColorsHeaderColumn">
@@ -159,7 +159,7 @@ const LedTehnologija = () => {
                </div>
            </section>
 
-           <section id="elektromagnetskaEnergija" className="elektromagnetskaEnergija">
+           <section id="elektromagnetskaEnergija" className="elektromagnetskaEnergija section">
                <div className="container">
                    <div className="columns level">
                        <div className="column leftElektromagnetska">
@@ -181,7 +181,7 @@ const LedTehnologija = () => {
                </div>
            </section>
 
-           <section id="tretmaniLed" className="tretmaniLed">
+           <section id="tretmaniLed" className="tretmaniLed section">
                <div className="container">
                    <div className="columns">
                        <div className="column">
@@ -235,7 +235,7 @@ const LedTehnologija = () => {
            </section>
 
 
-           <section id="korisniciTretmana" className="korisniciTretmana">
+           <section id="korisniciTretmana" className="korisniciTretmana section">
                <div className="container">
                    <div className="columns columnsKorisnici level">
                        <div className="column leftKorisniciTretmana">
@@ -252,7 +252,7 @@ const LedTehnologija = () => {
                </div>
            </section>
 
-           <section id="tarifeLed" className="tarifeLed">
+           <section id="tarifeLed" className="tarifeLed section">
                <div className="container">
                    <div className="columns colTarife has-text-centered">
                        <div className="column txtTarife is-6">
@@ -303,7 +303,7 @@ const LedTehnologija = () => {
                </div>
            </section>
 
-           <section id="ledTeh_Outro" className='ledTeh_Outro'>
+           <section id="ledTeh_Outro" className='ledTeh_Outro section'>
                <div className="container">
                    <div className="columns">
                        <div className="column">
@@ -318,7 +318,7 @@ const LedTehnologija = () => {
                </div>
            </section>
 
-           <section id="ledVideo" className="ledVideo">
+           <section id="ledVideo" className="ledVideo section">
                <div className="container">
                    <div className="columns">
                        <div className="column has-text-centered">
@@ -331,7 +331,7 @@ const LedTehnologija = () => {
                </div>
            </section>
 
-           <section id="ledPonuda" className="ledPonuda">
+           <section id="ledPonuda" className="ledPonuda section">
                <div className="container">
                    <div className="columns">
                        <div className="column ponudaColumn has-text-centered">

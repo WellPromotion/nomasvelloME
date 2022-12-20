@@ -10,4 +10,14 @@
 .contAmpuleNesavrsenosti{
     max-width: 57.625rem;
     width: 57.625rem;
-}
+    @media only screen and (min-device-width : 320px) and (max-device-width : 480px) {
+       width: auto;
+         }
+         
+    .rightColumn{
+        @media only screen and (min-device-width : 320px) and (max-device-width : 480px) {
+           padding-top: 0;
+           padding-bottom: 0;
+              }
+    }
+} 

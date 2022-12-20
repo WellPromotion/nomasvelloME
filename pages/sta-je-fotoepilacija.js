@@ -14,7 +14,7 @@ import turqCircle from '../public/images/usluge/fotoepilacija/turqCircle.svg'
 import doctorIcon from '../public/images/usluge/fotoepilacija/doctorIcon.svg'
 import doctorImg from '../public/images/usluge/fotoepilacija/doctorImg.png'
 
-
+ 
 const Example = () => {
     return <Breadcrumbs useDefaultStyle rootLabel="Početna"
     />;
@@ -155,7 +155,7 @@ raspolažu ljekarskom podrškom</p>
     </div>
 </section>
 
-<section id="uklanjanjeDlacica" className="uklanjanjeDlacica">
+<section id="uklanjanjeDlacica" className="uklanjanjeDlacica section">
     <div className="container">
         <div className="columns topCols">
             <div className="column has-text-centered is-5">
@@ -187,7 +187,7 @@ Fotoepilacija pulsirajućom svjetlošću predstavlja praktično bezbolan tretman
     </div>
 </section>
 
-<section id="koraciFotoepilacije" className="koraciFotoepilacije">
+<section id="koraciFotoepilacije" className="koraciFotoepilacije section">
     <div className="container">
         <div className="columns topCols">
             <div className="column has-text-centered">
@@ -214,7 +214,7 @@ Fotoepilacija pulsirajućom svjetlošću predstavlja praktično bezbolan tretman
     </div>
 </section>
 
-<section id="preporuke" className="preporuke">
+<section id="preporuke" className="preporuke section">
     <div className="container">
         <div className="columns">
             <div className="column is-5">

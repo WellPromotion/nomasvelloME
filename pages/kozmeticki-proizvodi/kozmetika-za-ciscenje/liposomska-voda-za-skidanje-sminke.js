@@ -12,7 +12,7 @@ import linijaHidratacija from '../../../public/images/kozmeticki-proizvodi/linij
 
 const Example = () => {
     return <Breadcrumbs useDefaultStyle rootLabel="Početna"
-    />;
+    />; 
 };
   
 const LiposomskaVoda = () => {
@@ -30,7 +30,7 @@ const LiposomskaVoda = () => {
                 </div>
             </section>
             
-            <section id="featuredProduct" className="featuredProduct">
+            <section id="featuredProduct" className="featuredProduct section">
                 <div className="container">
                     <div className="columns level colsLiposomska">
                         <div className="column leftColumn leftColumnLiposomska">
@@ -57,7 +57,7 @@ ZA SKIDANJE ŠMINKE</p>
             </section>
             
             
-            <section id="featuredProductProperties" className="featuredProductProperties efektiLiposomskaVoda">
+            <section id="featuredProductProperties" className="featuredProductProperties efektiLiposomskaVoda section">
                 <div className="container">
                     <div className="columns">
                         <div className="column rightColumn">
@@ -92,7 +92,7 @@ ZA SKIDANJE ŠMINKE</p>
             </section>
             
             
-            <section id="featuredProductPrimjena" className="featuredProductPrimjena">
+            <section id="featuredProductPrimjena" className="featuredProductPrimjena section">
                 <div className="container">
                     <div className="columns">
                         <div className="column has-text-centered">

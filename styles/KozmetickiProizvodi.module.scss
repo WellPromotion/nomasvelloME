@@ -4,13 +4,16 @@
     background: linear-gradient(180deg, rgba(67, 181, 180, 0.67) 0%, rgba(7, 104, 103, 0.84) 100%), url("../public/images/kozmeticki-proizvodi/kozmetika_novello.jpg") no-repeat;
     height: auto;
     background-size: cover;
-    background-position: center;
+    background-position: center; 
 
     .hero-body{
         display: flex;
         justify-content: center;
         position: relative;
         top: 13rem;
+        @media only screen and (min-device-width : 320px) and (max-device-width : 480px) {
+           top: 10rem;
+            }
         .innerTitle{
             padding-top: 3.188rem;
             padding-left: 4.563rem;
@@ -26,12 +29,19 @@
             font-size: 3rem;
             line-height: 3.5rem;
             color: #fff;
+            @media only screen and (min-device-width : 320px) and (max-device-width : 480px) {
+                font-size: 2.4rem !important;
+                }
         }
     }
 }
 
 #kozmetikaBody{
     padding-top: 15.5rem;
+    
+    @media only screen and (min-device-width : 320px) and (max-device-width : 480px) {
+       padding-top: 10rem;
+        }
 
     .kozmetikaTitle{
         font-weight: 500;
@@ -47,6 +57,9 @@
     }
     .kozmetikaTitleCol{
         width: 38.625rem;
+        @media only screen and (min-device-width : 320px) and (max-device-width : 480px) {
+            width: auto;
+            }
     }
     .kozmetikaTitleImg{
         padding-top: 4rem;
@@ -57,7 +70,10 @@
 }
 
 #kozmetikaBoxes{
-    padding-top: 4rem;
+    padding-top: 2rem;
+    @media only screen and (min-device-width : 320px) and (max-device-width : 480px) {
+        padding-top: 2rem;
+        }
     padding-bottom: 6rem;
    
     .secCol{
@@ -67,6 +83,9 @@
     .thirdCol{
         position: relative;
         top: 4rem;
+        @media only screen and (min-device-width : 320px) and (max-device-width : 480px) {
+           top: 2rem;
+            }
     }
     .colInnerPad{
         position: relative;
@@ -77,6 +96,9 @@
     .kozmetikaBox{
         display: grid;
         justify-items: center;
+        @media only screen and (min-device-width : 320px) and (max-device-width : 480px) {
+           display: block;
+            }
 
         .smallerPadding{
             padding-bottom: 1.5rem;
@@ -87,6 +109,10 @@
             height: 12.5rem;
             position: relative;
             top: -1rem;
+            @media only screen and (min-device-width : 320px) and (max-device-width : 480px) {
+                width: 23rem;
+                top: -2rem;
+                }
         }
         .smallerPadding{
             padding-bottom: 1.5rem !important;
@@ -139,4 +165,13 @@
     width: 27rem;
     display: flex;
     justify-content: center;
+    @media only screen and (min-device-width : 320px) and (max-device-width : 480px) {
+       width: auto;
+        }
+}
+
+.imgLinijaHidratacija{
+    @media only screen and (min-device-width : 320px) and (max-device-width : 480px) {
+        height: 13.75rem;
+         }
 }

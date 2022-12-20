@@ -1,10 +1,25 @@
 @import '../../variables';
 
 .rightColumnMaskaProtStar{
+    @media only screen and (min-device-width : 320px) and (max-device-width : 480px) {
+       padding-top: 0;
+       margin-top: 0;
+        }
     .odlikeItem{
         margin-bottom: 0 !important;
     }
     .detailsList{
         margin-bottom: 1rem !important;
+    }
+} 
+
+.featuredProductPropertiesKrema{
+    .rightColumnMaskaProtStar2{
+        .listInner{
+            @media only screen and (min-device-width : 320px) and (max-device-width : 480px) {
+                padding-top: 0 !important;
+                 }
+        }
+       
     }
 }

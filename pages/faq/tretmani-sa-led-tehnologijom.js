@@ -25,7 +25,7 @@ return (
         </div>
     </section>
 
-    <section id="pitanja" className="pitanja">
+    <section id="pitanja" className="pitanja section">
         <div className="container">
             <div className="columns">
                 <div className="column pitanjaColumnLed">
@@ -173,13 +173,7 @@ return (
                 </div>
             </div>
         </div>
-
-    </section>
-
-
-
-
-    <section id="bottomQuestion" className="bottomQuestion">
+        
         <div className="container">
             <div className="columns">
                 <div className="column pitanjaBottomColumn is-centered">
@@ -201,7 +195,35 @@ laserska epilacija i fotoepilacija IPL SHR</p>
                 </div>
             </div>
         </div>
+
     </section>
+
+
+
+
+    {/* <section id="bottomQuestion" className="bottomQuestion pitanjaBottomColumn section">
+        <div className="container">
+            <div className="columns">
+                <div className="column pitanjaBottomColumn is-centered">
+                    <div className="pitanjaLink">
+                        <div className="left">
+                            <img src={faceImg} alt="" />
+                        </div>
+                        <div className="right">
+                            <div className="inner">
+                                <p className="title">Pitanja za tretmane sa IPL SHR tehnologijom</p>
+                                <p className="subTitle">Često postavljana pitanja - 
+laserska epilacija i fotoepilacija IPL SHR</p>
+                                <Link href="/faq/laserska-epilacija-fotoepilacija-ipl-shr">
+                                <a className="linkPitanja turqButton">Pogledaj pitanja</a>
+                                </Link>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section> */}
 
 </>
 );

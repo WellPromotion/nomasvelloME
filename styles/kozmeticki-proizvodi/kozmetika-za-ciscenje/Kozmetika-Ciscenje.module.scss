@@ -3,7 +3,13 @@
 
 #headerKozmetike{
     padding-top: 0.75rem;
-
+    
+    .columns{
+        @media only screen and (min-device-width : 320px) and (max-device-width : 480px) {
+           display: flex;
+           align-items: center;
+            }
+    }
     .container{
         width: 84.125rem;
         max-width: 84.125rem;
@@ -23,7 +29,14 @@
             position: absolute;
             left: 75.619rem;
             top: -0.5rem;
+            @media only screen and (min-device-width : 320px) and (max-device-width : 480px) {
+               left: 17.619rem;
+                }
         }
+        
+        @media only screen and (min-device-width : 320px) and (max-device-width : 480px) {
+            width: auto;
+            }
     }
     .kozmetikeHeadTitle{
         font-weight: 700;
@@ -31,6 +44,9 @@
         line-height: 3.75rem;
         color: #fff;
         text-align: center;
+        @media only screen and (min-device-width : 320px) and (max-device-width : 480px) {
+            font-size: 2rem;
+            }
         }
         .column{
             display: flex;
@@ -41,7 +57,7 @@
 
 #kozmetikeDescription{
     padding-top: 2.5rem;
-
+    padding-bottom: 1rem;
     .container{
         display: flex;
         justify-content: center;
@@ -50,6 +66,9 @@
         width: 27rem;
         padding-left: 0;
         padding-right: 0;
+        @media only screen and (min-device-width : 320px) and (max-device-width : 480px) {
+           width: auto;
+            }
 
         .kozmetikeDescriptionTitle, .kozmetikeDescriptionText{
             margin-bottom: 1rem;
@@ -66,10 +85,15 @@
 }
 
 #kozmetikeProizvodi{
+    
+    padding-top: 1rem;
 
     .productsContainer{
         width: 62.625rem;
         padding-top: 3rem;
+        @media only screen and (min-device-width : 320px) and (max-device-width : 480px) {
+           width: auto;
+            }
     }
      
     .topColumns{
@@ -147,13 +171,17 @@
 }
 
 #bottomDetails{
+    
     .container{
         width: 84rem;
+        @media only screen and (min-device-width : 320px) and (max-device-width : 480px) {
+           width: auto;
+            }
     }
     display: flex;
     justify-content: center;   
     align-items: center;
-    padding-top: 4rem;
+    padding-top: 2rem;
 
     .is-right{
         ._innerImage{
@@ -172,6 +200,9 @@
         }
         ._inner{
             width: 28rem;
+            @media only screen and (min-device-width : 320px) and (max-device-width : 480px) {
+               width: auto;
+                }
         }
         .secondPart{
             padding-top: 1.5rem;
@@ -182,6 +213,9 @@
                 line-height: 3rem;
                 color: $titleColor;
                 margin-bottom: 2rem;
+                @media only screen and (min-device-width : 320px) and (max-device-width : 480px) {
+                    line-height: 2.3rem;
+                    }
             }
         }
         .greenCheckSpacing{
@@ -208,6 +242,9 @@
             justify-content: center;
             align-items: center;
             width: 37.5rem;
+            @media only screen and (min-device-width : 320px) and (max-device-width : 480px) {
+                width: auto;
+                }
             .greenCheckSpacing{
                 flex-grow: 0;
                 flex-shrink: 0;
@@ -218,7 +255,7 @@
 }
 
 #kozmetikaCiscenjeOutro{
-    padding-top: 5rem;
+    padding-top: 2.5rem;
     padding-bottom: 5.5rem;
     .topColumns{
         display: flex;

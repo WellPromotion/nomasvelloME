@@ -99,7 +99,7 @@ svjetlost
                 </div>
             </section>
             
-            <section className="section imgSection">
+            <section className="section imgSection imgSectionFotoep">
                 <div className="container">
                     <div className="columns">
                         <div className="column">
@@ -197,7 +197,7 @@ svjetlost
                     <div className="columns">
                         <div className="column has-text-centered">
                             <p className="titleCijena">Cijena</p>
-                            <p className="subtitleCijena">Cijene laserske epilacije i IPL epilacije su na bazi <br /> jedinstvene tarife za zene i muskarce</p>
+                            <p className="subtitleCijena">Cijene laserske epilacije i IPL epilacije su na bazi <br /> jedinstvene tarife za žene i muškarce.</p>
                         </div>
                     </div>
                     

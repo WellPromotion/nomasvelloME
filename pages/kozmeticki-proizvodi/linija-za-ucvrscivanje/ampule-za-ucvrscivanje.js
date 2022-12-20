@@ -15,7 +15,7 @@ const Example = () => {
     return <Breadcrumbs useDefaultStyle rootLabel="Početna"
     />;
 };
-  
+   
 const AmpuleZaUcvrscivanje = () => {
     return (
         
@@ -31,7 +31,7 @@ const AmpuleZaUcvrscivanje = () => {
                 </div>
             </section>
             
-            <section id="featuredProduct" className="featuredProduct">
+            <section id="featuredProduct" className="featuredProduct section">
                 <div className="container">
                     <div className="columns level colsProtivNesavrsenosti">
                         <div className="column leftColumn">
@@ -57,7 +57,7 @@ Djeluje tako što optimizira privlačenje aktivnih sastojaka u direktnom dodiru 
                 </div>
             </section>
             
-            <section id="featuredProductProperties" className="featuredProductProperties featuredProductPropertiesMaska featuredProductPropertiesAmpuleUcvrsc">
+            <section id="featuredProductProperties" className="featuredProductProperties featuredProductPropertiesMaska featuredProductPropertiesAmpuleUcvrsc section">
                 <div className="container">
                     <div className="columns">
                         <div className="column rightColumn bottomColEmulzija">
@@ -99,7 +99,7 @@ i hidratizuje kožu.</p>
                 </div>
             </section>
             
-            <section id="featuredProductPrimjena" className="featuredProductPrimjena">
+            <section id="featuredProductPrimjena" className="featuredProductPrimjena section">
                 <div className="container">
                     <div className="columns">
                         <div className="column has-text-centered">

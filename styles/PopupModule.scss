@@ -20,22 +20,38 @@
         height: 30rem;
         background-color: #0F1C49;
         border-radius: .5rem;
+        @media only screen and (min-device-width : 320px) and (max-device-width : 480px) {
+            width: 23rem;
+            height: 30rem;
+            }
         .close{
             float: right;
             margin-top: 0;
         }
-        .contact{
+        // .contact{
             
-        }
+        // }
     }
     
     .popup-content{
         position: absolute !important;
         top: 25%;
         left: 35%;
+        @media only screen and (min-device-width : 320px) and (max-device-width : 480px) {
+            top: 5%;
+            left: 5%;
+            }
     }
     .popPromocije-content{
         left: 25%;
+        @media only screen 
+        and (min-width : 1200px) and (max-width : 1600px) {
+        left: 15%;
+        }
+        @media only screen and (min-device-width : 320px) and (max-device-width : 480px) {
+            left: 0% !important;
+            top: 35%;
+            }
     }
     .container-90{
        .columns{

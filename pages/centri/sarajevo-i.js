@@ -12,7 +12,7 @@ const SarajevoI = () => {
         <>
             
 
-            <section id="centriSarajevoI" className="centriSarajevoI">
+            <section id="centriSarajevoI" className="centriSarajevoI section">
                 <div className="container">
                     <div className="columns">
                         <div className="column is-4">
@@ -21,8 +21,8 @@ const SarajevoI = () => {
                                 <h1 className="title singleCentarTitle">Centar u Novom Sarajevu</h1>
                             </div>
                             <div className="infoCentar">
-                                <div className="columns">
-                                    <div className="column">
+                                <div className="columns adressCols">
+                                    <div className="column leftCol">
                                 <p className="cityInfoTitle">Adresa:</p>
                                 <p className="cityInfoTitle">Telefon:</p>
                                 <p className="cityInfoTitle">Email:</p>
@@ -97,7 +97,7 @@ const SarajevoI = () => {
                     </div>
                 </div>
 
-                
+                 
 
                 <div className="container">
                 <hr className="singleCentarHr" />

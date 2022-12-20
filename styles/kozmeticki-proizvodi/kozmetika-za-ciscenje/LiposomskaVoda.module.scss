@@ -6,12 +6,21 @@
         display: flex;
         justify-content: left;
         padding-right: 3.125rem;
+        @media only screen and (min-device-width : 320px) and (max-device-width : 480px) {
+           padding-right: 0.75rem;
+            }
     }
     .rightColumnLiposomska{
         width: 33rem;
-    }
+        @media only screen and (min-device-width : 320px) and (max-device-width : 480px) {
+            width: auto;
+            }
+    } 
     .colsLiposomska{
-        width: 57rem;;
+        width: 57rem;
+        @media only screen and (min-device-width : 320px) and (max-device-width : 480px) {
+            width: auto;
+            }
     }
 }
 
@@ -24,8 +33,15 @@
     .listInner{
         display: flex;
         justify-content: center;
+        @media only screen and (min-device-width : 320px) and (max-device-width : 480px) {
+            display: block;
+            }
         .detailsList{
             padding-right: 1.5rem;
+            @media only screen and (min-device-width : 320px) and (max-device-width : 480px) {
+                padding-right: .75rem;
+                margin-bottom: .75rem;
+                }
         }
         .greenCheckSpacing{
             flex-grow: 0;
@@ -34,6 +50,7 @@
         }
         .odlikeItem{
             margin-bottom: 0 !important;
+           
         }
     }
 }

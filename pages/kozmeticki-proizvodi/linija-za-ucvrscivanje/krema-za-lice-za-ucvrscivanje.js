@@ -14,7 +14,7 @@ import linijaHidratacija from '../../../public/images/kozmeticki-proizvodi/linij
 
 const Example = () => {
     return <Breadcrumbs useDefaultStyle rootLabel="Početna"
-    />;
+    />; 
 };
   
 const KremaZaLice = () => {
@@ -32,7 +32,7 @@ const KremaZaLice = () => {
                 </div>
             </section>
 
-            <section id="featuredProduct" className="featuredProduct">
+            <section id="featuredProduct" className="featuredProduct section">
                 <div className="container">
                     <div className="columns level colsHidrozastitnaEmulzija">
                         <div className="column leftColumn">
@@ -57,7 +57,7 @@ const KremaZaLice = () => {
                 </div>
             </section>
             
-            <section id="featuredProductProperties" className="featuredProductProperties featuredProductPropertiesKrema">
+            <section id="featuredProductProperties" className="featuredProductProperties featuredProductPropertiesKrema section">
                 <div className="container">
                     <div className="columns">
                         <div className="column">
@@ -137,7 +137,7 @@ kombinacijom nekoliko faktora:</p>
                 </div>
             </section>
             
-            <section id="featuredProductPrimjena" className="featuredProductPrimjena featuredProductEmulzija">
+            <section id="featuredProductPrimjena" className="featuredProductPrimjena featuredProductEmulzija section">
                 <div className="container">
                     <div className="columns">
                         <div className="column has-text-centered">

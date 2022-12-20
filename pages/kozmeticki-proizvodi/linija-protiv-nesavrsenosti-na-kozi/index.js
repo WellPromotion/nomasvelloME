@@ -14,7 +14,7 @@ const Example = () => {
 };
   
 const LinijaProtivNesavrsenosti = () => {
-    return (
+    return ( 
         
         <>
         
@@ -30,7 +30,7 @@ const LinijaProtivNesavrsenosti = () => {
                 </div>
             </section>
             
-            <section id="headerKozmetike" className='headerKozmetike hero'>
+            <section id="headerKozmetike" className='headerKozmetike'>
                 <div className="container">
                     <div className="columns">
                         <div className="column">
@@ -40,7 +40,7 @@ const LinijaProtivNesavrsenosti = () => {
                 </div>
             </section>
             
-            <section id="kozmetikeDescription" className="kozmetikeDescription">
+            <section id="kozmetikeDescription" className="kozmetikeDescription section">
                 <div className="container">
                     <div className="columns">
                         <div className="column colNesavrsenosti">
@@ -61,7 +61,7 @@ const LinijaProtivNesavrsenosti = () => {
                 </div>
             </section>
             
-            <section id="kozmetikeProizvodi" className="kozmetikeProizvodi">
+            <section id="kozmetikeProizvodi" className="kozmetikeProizvodi section">
                 <div className="container">
                     <div className="columns topColumns">
                         <div className="column">
@@ -112,7 +112,7 @@ NA KOŽI</p>
                 </div>
             </section>
             
-            <section id="bottomDetails" className="bottomeDetails detailsRevitalizacija detailsProtivNesavrsenosti">
+            <section id="bottomDetails" className="bottomeDetails detailsRevitalizacija detailsProtivNesavrsenosti section">
             <div className="container">
                     <div className="columns level">
                         <div className="column is-left">

@@ -243,7 +243,7 @@ VELIKE SNAGE</p>
                     <div className="columns">
                         <div className="column has-text-centered">
                             <p className="titleCijena">Cijena</p>
-                            <p className="subtitleCijena">Cijene laserske epilacije i IPL epilacije su na bazi <br /> jedinstvene tarife za zene i muskarce</p>
+                            <p className="subtitleCijena">Cijene laserske epilacije i IPL epilacije su na bazi <br /> jedinstvene tarife za žene i muškarce.</p>
                         </div>
                     </div>
                     

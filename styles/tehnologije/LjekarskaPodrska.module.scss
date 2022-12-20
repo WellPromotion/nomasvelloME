@@ -5,7 +5,7 @@
     background: url("../../public/images/tehnologije/ljekarskaPodrska/ljekarskaBackground.png") no-repeat;
 
     .hero-body{
-        padding: 3rem 1.5rem;
+        padding: 3rem 1.5rem; 
     }
     .imgTitleSphere{
         display: flex;
@@ -57,6 +57,9 @@
     }
     .colsIndikacije{
         width: 34.125rem;
+        @media only screen and (min-device-width : 320px) and (max-device-width : 480px) {
+            width: auto;
+            }
     }
     .conIndikacije{
         display: flex;
@@ -70,6 +73,9 @@
     }
     .indikacijeList{
         width: 25.5rem;
+        @media only screen and (min-device-width : 320px) and (max-device-width : 480px) {
+            width: auto;
+            }
     }
     .indikacijeCol{
         background: #FFFFFF;
@@ -89,10 +95,20 @@
 }
 
 #ljekarskaPreporuke{
-    padding-top: 4rem;
+    padding-top: 2rem;
 
-    .colsPreporukeLjekarska{
-        padding-top: 3rem;
+    .colsPreporukeLjekarskaFirst{
+        padding-top: 3rem;      
+    }
+    .colsPreporukeLjekarskaLast{
+        // display: flex;
+        // justify-content: center;
+        
+    }
+    .blankCol{
+        @media only screen and (min-device-width : 320px) and (max-device-width : 480px) {
+           display: none;
+            }
     }
     .preporukeBox{
         background: rgba(255, 255, 255, 0.95);
@@ -133,8 +149,27 @@
     }
 }
 
+.accordion{
+    @media only screen and (min-device-width : 320px) and (max-device-width : 480px) {
+       width: auto !important;
+        }
+        button{
+            p{
+                span{
+                    @media only screen and (min-device-width : 320px) and (max-device-width : 480px) {
+                        width: 95% !important;
+                         } 
+                }
+            }
+           
+        }
+}
+
 #kontraindikacijeLjekarska{
     padding-top: 2.75rem;
+    @media only screen and (min-device-width : 320px) and (max-device-width : 480px) {
+       padding-top: 0;
+        }
 
     .pitanjaKontraindikacije{
         padding-top: 1.375rem;
@@ -184,13 +219,19 @@
 }
 
 #ljekarska_Outro{
-    padding-top: 2rem;
+    padding-top: 0rem;
+    @media only screen and (min-device-width : 320px) and (max-device-width : 480px) {
+       padding-top: 0;
+         } 
     .container{
         display: flex;
         justify-content: center;
         }
         .columns{
             width: 41.25rem;
+            @media only screen and (min-device-width : 320px) and (max-device-width : 480px) {
+                width: auto;
+                 } 
         }
         .column{
             padding-left: 0;
@@ -210,9 +251,13 @@
 }
 
 #ljekarskaPonuda{
-    padding-top:4.5rem;
+    padding-top:1.5rem;
     padding-bottom: 5.5rem;
     box-shadow: 0px 2px 1px rgba(0, 0, 0, 0.05);
+    
+    @media only screen and (min-device-width : 320px) and (max-device-width : 480px) {
+        padding-top: 1rem;
+         } 
    
     .columns{
         display: flex;

@@ -6,7 +6,7 @@
     .hero-body{
         padding: 3rem 1.5rem;
     }
-    .imgTitleSphere{
+    .imgTitleSphere{ 
         display: flex;
         justify-content: center;
         align-content: center;
@@ -37,6 +37,9 @@
 
     .container{
         width: 69.75rem;
+        @media only screen and (min-device-width : 320px) and (max-device-width : 480px) {
+           width: auto;
+            }
     }
     .ultrazvukTitle{
         margin-bottom: 1rem;
@@ -74,6 +77,9 @@
 
     .thirdColUzv{
         padding-top: 1.5rem;
+        @media only screen and (min-device-width : 320px) and (max-device-width : 480px) {
+           padding-top: 3.5rem;
+            }
         .thirdColImg{
             float: left;
         }
@@ -82,7 +88,7 @@
 }
 
 #ultrasoundPonuda{
-    padding-top:5.5rem;
+    padding-top: 3.5rem;
     padding-bottom: 5.5rem;
     box-shadow: 0px 2px 1px rgba(0, 0, 0, 0.05);
    

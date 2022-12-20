@@ -71,7 +71,7 @@ Facijalni anti-age tretman se može sprovesti na sljedećim zonama: lice, vrat i
                 </div>
             </section>
             
-            <section id="ucinkovitost" className="ucinkovitost">
+            <section id="ucinkovitost" className="ucinkovitost section">
                 <div className="container">
                     <div className="columns level">
                         <div className="column is-4 leftCol">
@@ -99,7 +99,7 @@ Facijalni anti-age tretman se može sprovesti na sljedećim zonama: lice, vrat i
             </section>
             
             
-            <section id="tipovi" className="tipovi">
+            <section id="tipovi" className="tipovi section">
                 <div className="container">
                     <div className="columns">
                         <div className="column has-text-centered">
@@ -198,7 +198,7 @@ poboljšavajući tako elastičnost.</p>
                 </div>
             </section>
             
-            <section id="sesije" className="sesije">
+            <section id="sesije" className="sesije section">
                 <div className="container">
                     <div className="columns">
                         <div className="column has-text-centered">
@@ -213,7 +213,7 @@ Broj sesija će zavisiti od nekoliko faktora, kao što su: starosna dob, tretira
             </section>
             
             
-            <section id="serum" className="serum">
+            <section id="serum" className="serum section">
                 <div className="container">
                     <div className="columns topCols level">
                         <div className="column is-4">

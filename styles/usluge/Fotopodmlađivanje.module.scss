@@ -2,6 +2,10 @@
 
 .fotopodmladjivanje{
     background-image: url('../../public/images/usluge/fotopodmladjivanje/header.png') !important;
+    @media only screen and (min-device-width : 320px) and (max-device-width : 480px) {
+        background-position-x: 30%;
+        }
+   
 }
 
 
@@ -30,12 +34,23 @@
             }
         }
     }
+    .videoInner{
+        div{
+            @media only screen and (min-device-width : 320px) and (max-device-width : 480px) {
+                width: 381px !important;
+                }
+        }
+    }
 }
 
 #principFoto{
     padding-top: 5.5rem;
+    
     .leftCol{
         margin-right: 7.5rem;
+        @media only screen and (min-device-width : 320px) and (max-device-width : 480px) {
+           margin-right: auto;
+            }
     }
     .titlePrincipFoto{
         font-weight: 500;
@@ -58,6 +73,9 @@
     .columns{
         display: flex;
         justify-content: space-around;
+        @media only screen and (min-device-width : 320px) and (max-device-width : 480px) {
+            display: block;
+            }
     }
     .titleRezultati{
         font-weight: 500;
@@ -116,6 +134,9 @@
         width: 55.5rem;
         background-color: #EDEFE5;
         border-radius: 0.5rem;
+        @media only screen and (min-device-width : 320px) and (max-device-width : 480px) {
+           width: auto;
+            }
     }
     .cijenaIcon{
         // margin-bottom: 1rem;
@@ -149,9 +170,15 @@
        justify-content: center;
        padding-bottom: 3rem;
        padding-top: 2.5rem;
+       @media only screen and (min-device-width : 320px) and (max-device-width : 480px) {
+        display: block;
+         }
        .txtCol{
            display: flex;
            justify-content: right;
+           @media only screen and (min-device-width : 320px) and (max-device-width : 480px) {
+          justify-content: center;
+             }
         .list{
             .singleItemTop{
                 background-color: $primaryGreen;
@@ -207,6 +234,10 @@
        .leftCol{
         //    display: flex;
         //    justify-content: left;
+        @media only screen and (min-device-width : 320px) and (max-device-width : 480px) {
+            display: flex;
+            justify-content: center;
+             }
        }
        .priceBox{
            background-color: $titleColor;

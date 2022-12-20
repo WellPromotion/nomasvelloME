@@ -1,6 +1,6 @@
 @import './variables';
 
-.detailsRegeneracija{
+.detailsRegeneracija{ 
     .txtLinReg{
         padding-top: 2rem;
     }
@@ -19,6 +19,9 @@
 .kozmetikeRegeneracija{
     .colRegen{
         width: 30.438rem !important;
+        @media only screen and (min-device-width : 320px) and (max-device-width : 480px) {
+           width: auto !important;
+            }
     }
 }
 
@@ -27,6 +30,13 @@
         width: 19.875rem !important;
         max-width: 19.875rem;
         margin-right: 1.5rem;
+        justify-content: space-around;
+        @media only screen and (min-device-width : 320px) and (max-device-width : 480px) {
+           width: auto !important;
+        //    margin-right: .75rem;
+           max-width: 40rem;
+           margin-right: auto;
+            }
     }
     .threeProductsBox{
         justify-content: center;

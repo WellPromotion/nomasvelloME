@@ -11,7 +11,7 @@ const Brcko = () => {
         <>
             
 
-            <section id="centriBrcko" className="centriBrcko">
+            <section id="centriBrcko" className="centriBrcko section">
                 <div className="container">
                     <div className="columns">
                         <div className="column is-4">
@@ -20,8 +20,8 @@ const Brcko = () => {
                                 <h1 className="title singleCentarTitle">Centar u Brčkom</h1>
                             </div>
                             <div className="infoCentar">
-                                <div className="columns">
-                                    <div className="column">
+                                <div className="columns adressCols">
+                                    <div className="column leftCol">
                                 <p className="cityInfoTitle">Adresa:</p>
                                 <p className="cityInfoTitle">Telefon:</p>
                                 <p className="cityInfoTitle">Email:</p>

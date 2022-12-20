@@ -16,7 +16,7 @@ const Example = () => {
     return <Breadcrumbs useDefaultStyle rootLabel="Početna"
     />;
 };
-  
+   
 const LinijaZaHidrataciju = () => {
     return (
         
@@ -34,7 +34,7 @@ const LinijaZaHidrataciju = () => {
                 </div>
             </section>
             
-            <section id="headerKozmetike" className='headerKozmetike hero'>
+            <section id="headerKozmetike" className='headerKozmetike'>
                 <div className="container">
                     <div className="columns">
                         <div className="column">
@@ -44,7 +44,7 @@ const LinijaZaHidrataciju = () => {
                 </div>
             </section>
             
-            <section id="kozmetikeDescription" className="kozmetikeDescription">
+            <section id="kozmetikeDescription" className="kozmetikeDescription section">
                 <div className="container">
                     <div className="columns">
                         <div className="column colNesavrsenosti">
@@ -68,7 +68,7 @@ Liposomska formula ovih proizvoda potiče prodiranje hijaluronske kiseline u ko�
                 </div>
             </section>
             
-            <section id="kozmetikeProizvodi" className="kozmetikeProizvodi">
+            <section id="kozmetikeProizvodi" className="kozmetikeProizvodi section">
                 <div className="container">
                     <div className="columns topColumns">
                         <div className="column">
@@ -127,7 +127,7 @@ HIDRATACIJU</p>
                 </div>
             </section>
             
-            <section id="bottomDetails" className="bottomeDetails detailsRevitalizacija detailsProtivNesavrsenosti detailsHidratacija">
+            <section id="bottomDetails" className="bottomeDetails detailsRevitalizacija detailsProtivNesavrsenosti detailsHidratacija section">
                 <div className="container">
                     <div className="columns hidratacijaBottomParCols">
                         <div className="column hidratacijaBottomPar has-text-centered">
@@ -194,7 +194,7 @@ HIDRATACIJU</p>
             </section>
             
             
-            <section id="kozmetikaCiscenjeOutro" className="kozmetikaCiscenjeOutro hidratacijaOutro">
+            <section id="kozmetikaCiscenjeOutro" className="kozmetikaCiscenjeOutro hidratacijaOutro section">
             <div className="container">
                     <div className="columns topColumns">
                         <div className="column">

@@ -76,7 +76,7 @@ const handleOnChange = ( event ) => {
         <>
             {/* CONTACT */}
 
-            <section className="contact kontaktBesplatni" id="kontakt">
+            <section className="contact kontaktBesplatni section" id="kontakt">
                 <div className="container-90">
                 <div className="columns">
                     {/* <div className="column is-6">

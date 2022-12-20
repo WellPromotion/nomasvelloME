@@ -12,7 +12,7 @@ const Example = () => {
     />;
 };
   
-const KozmetikaZaTijelo = () => {
+const KozmetikaZaTijelo = () => { 
     return (
         
         <>
@@ -29,7 +29,7 @@ const KozmetikaZaTijelo = () => {
                 </div>
             </section>
             
-            <section id="headerKozmetike" className='headerKozmetike hero'>
+            <section id="headerKozmetike" className='headerKozmetike'>
                 <div className="container">
                     <div className="columns">
                         <div className="column">
@@ -39,7 +39,7 @@ const KozmetikaZaTijelo = () => {
                 </div>
             </section>
             
-            <section id="kozmetikeDescription" className="kozmetikeDescription">
+            <section id="kozmetikeDescription" className="kozmetikeDescription section">
                 <div className="container">
                     <div className="columns">
                         <div className="column colNesavrsenosti">
@@ -62,7 +62,7 @@ specijalizovanim kozmetičkim proizvodima.</p>
             </section>
             
      
-            <section id="firstKozmetika" className="firstKozmetika">
+            <section id="firstKozmetika" className="firstKozmetika section">
                 <div className="container">
                     <div className="columns level">
                         <div className="column imgCol">
@@ -178,7 +178,7 @@ specijalizovanim kozmetičkim proizvodima.</p>
             </section>
         
             
-            <section id="firstKozmetika" className="firstKozmetika firstKozmetika2">
+            <section id="firstKozmetika" className="firstKozmetika firstKozmetika2 section">
                 <div className="container">
                     <div className="columns level">
                         <div className="column imgCol">

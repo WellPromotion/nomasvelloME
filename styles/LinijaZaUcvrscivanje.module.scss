@@ -3,13 +3,16 @@
 
 .colTopUcvrscivanje{
     width: 41.25rem !important;
-    .kozmetikeDescriptionTitle, .kozmetikeDescriptionText{
-        
-    }
+    @media only screen and (min-device-width : 320px) and (max-device-width : 480px) {
+       width: auto !important;
+        }
    
 }
 .colTopUcvrscivanje1{
     width: 24.125rem !important;
+    @media only screen and (min-device-width : 320px) and (max-device-width : 480px) {
+        width: auto !important;
+        }
 }
 .listInnerUcvrscivanje{
     .greenCheckSpacing{
@@ -36,6 +39,9 @@
         // justify-content: center;
         align-items: center;
         width: 24.125rem;
+        @media only screen and (min-device-width : 320px) and (max-device-width : 480px) {
+           width: auto;
+            }
         .greenCheckSpacing{
             flex-grow: 0;
             flex-shrink: 0;
@@ -46,6 +52,9 @@
 }
 
 .detailsLinijaUcvrscivanja{
+    @media only screen and (min-device-width : 320px) and (max-device-width : 480px) {
+       width: auto;
+        }
     .smallGreenTitle{
         font-weight: 700;
         font-size: 1.125rem;

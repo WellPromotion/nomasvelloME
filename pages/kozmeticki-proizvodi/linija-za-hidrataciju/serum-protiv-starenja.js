@@ -16,7 +16,7 @@ const Example = () => {
     return <Breadcrumbs useDefaultStyle rootLabel="Početna"
     />;
 };
-  
+   
 const SerumProtivStarenja = () => {
     return (
         
@@ -32,7 +32,7 @@ const SerumProtivStarenja = () => {
                 </div>
             </section>
 
-            <section id="featuredProduct" className="featuredProduct">
+            <section id="featuredProduct" className="featuredProduct section">
                 <div className="container">
                     <div className="columns level colsHidrozastitnaEmulzija">
                         <div className="column leftColumn">
@@ -56,7 +56,7 @@ const SerumProtivStarenja = () => {
                 </div>
             </section>
             
-            <section id="featuredProductProperties" className="featuredProductProperties featuredProductPropertiesKrema">
+            <section id="featuredProductProperties" className="featuredProductProperties featuredProductPropertiesKrema section">
                 <div className="container">
                     <div className="columns">
                         <div className="column leftColMaskaHidratacija">
@@ -96,7 +96,7 @@ Serum ne hidratizuje i nema SPF (faktor zaštite od sunca) zbog čega je neophod
                 </div>
             </section>
             
-            <section id="featuredProductPrimjena" className="featuredProductPrimjena featuredProductEmulzija">
+            <section id="featuredProductPrimjena" className="featuredProductPrimjena featuredProductEmulzija section">
                 <div className="container">
                     <div className="columns">
                         <div className="column has-text-centered">

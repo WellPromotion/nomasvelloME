@@ -117,7 +117,7 @@
         .singleItem{
             display: flex;
             align-items: center;
-            padding-bottom: 2rem;
+            padding-bottom: 0;
             
             .numberGreen{
                 padding: .5rem 1.6rem;
@@ -130,6 +130,11 @@
                 margin-bottom: 0;
             }
         }
+    }
+    .blankCol{
+        @media only screen and (min-device-width : 320px) and (max-device-width : 480px) {
+            display: none;
+            }
     }
     
 }

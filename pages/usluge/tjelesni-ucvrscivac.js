@@ -91,7 +91,7 @@ izgubljenu tokom vremena ili naglih promjena težine. </p>
                 </div>
             </section>
             
-            <section id="tretman" className="tretman tretmanTjelesni">
+            <section id="tretman" className="tretman tretmanTjelesni section">
                 <div className="container">
                     <div className="columns has-text-centered titleCols">
                         <div className="column is-4 titleCol">
@@ -140,7 +140,7 @@ abdomenu, grudima, bedrima i stražnjici.</p>
                 </div>
             </section>
             
-            <section id="tretman" className="tretman tretmanTjelesni">
+            <section id="tretman" className="tretman tretmanTjelesni section">
                 <div className="container">
                     <div className="columns has-text-centered titleCols">
                         <div className="column is-4 titleCol">
@@ -168,7 +168,7 @@ No+Vello Hidrozaštitnom emulzijom za lice i tijelo.</p>
            </section>
             
             
-            <section id="serum" className="serum serumTjelesni">
+            <section id="serum" className="serum serumTjelesni section">
                 <div className="container">
                     <div className="columns topCols level">
                         <div className="column is-4">

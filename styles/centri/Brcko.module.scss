@@ -95,6 +95,9 @@
     padding-bottom: 0.75rem;
     iframe{
         border-radius: 0.5rem;
+        @media only screen and (min-device-width : 320px) and (max-device-width : 480px) {
+            width: 23rem !important;
+            }
     }
 }
 .pogledajMapuBtn{

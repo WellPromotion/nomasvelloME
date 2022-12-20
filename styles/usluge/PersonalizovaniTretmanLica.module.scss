@@ -168,11 +168,16 @@
             display: flex;
             justify-content: center;
             width: inherit;
+            
         }
         .txtCol{
             background-color: #fff;
             border-radius: 0 0.75rem 0.75rem 0;
             box-shadow: 6px 0.625rem 1.563rem rgba(0, 0, 0, 0.1);
+            @media only screen and (min-device-width : 320px) and (max-device-width : 480px) {
+                margin-top: 1rem;
+                border-radius: 0.75rem;
+                }
             .inner{
                padding: 2rem 2.75rem 2rem 2rem;
                 .titlePart{

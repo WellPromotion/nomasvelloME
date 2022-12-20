@@ -12,10 +12,10 @@ export default function blog(props) {
     return (
         <>
             
-            <section id="singleBlog" className="singleBlog">
+            <section id="singleBlog" className="singleBlog section">
                 <div className="container singleBlogCont">
                     <div className="columns singleBlogCols">
-                        <div className="column singleBlogCol">
+                        <div className="column singleBlogCol"> 
 
 
 

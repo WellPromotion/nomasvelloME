@@ -2,6 +2,9 @@
 
 .izbjeljivanje-zubaUsl{
     background-image: url('../../public/images/usluge/izbjeljivanje-zuba/header.png') !important;
+    @media only screen and (min-device-width : 320px) and (max-device-width : 480px) {
+        background-position-x: 20%;
+        }
 }
 
 .definicijaIzbjeljivanje{
@@ -55,6 +58,7 @@
         display: flex;
         justify-content: center;
         margin-bottom: 2.5rem;
+        
     }
     .titleCol{
         .tretmanTitle{
@@ -74,6 +78,14 @@
     .colsHor{
         padding-bottom: 0;
         margin-bottom: 0;
+        @media only screen and (min-device-width : 320px) and (max-device-width : 480px) {
+            text-align: left !important;
+            }
+    }
+    .colHor{
+        @media only screen and (min-device-width : 320px) and (max-device-width : 480px) {
+            text-align: left !important;
+            }
     }
     .imgCols{
         padding-top: 2rem;
@@ -146,9 +158,35 @@
     .priceTagCols{
         .txtCol{
             justify-content: center !important;
+            .list {
+                .inner{
+                    @media only screen and (min-device-width : 320px) and (max-device-width : 480px) {
+                        padding: 1rem !important;
+                        }
+                }
+            }
         }
         .singleItemTop, .singleItem{
             width:  30.063rem !important;
+            @media only screen and (min-device-width : 320px) and (max-device-width : 480px) {
+                width: 24rem !important;
+                height: auto !important;
+                }
+        }
+        .singleItem{
+           
+               .title{
+                @media only screen and (min-device-width : 320px) and (max-device-width : 480px) {
+                    font-size: 1rem !important;
+                }
+               
+                .price{
+                    @media only screen and (min-device-width : 320px) and (max-device-width : 480px) {
+                        font-size: 1rem !important;
+                    }
+                }
+               }
+               
         }
         .middleItem{
             border-radius: 0 !important;

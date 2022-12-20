@@ -1,6 +1,6 @@
 @import './variables';
 
-.productsContainerHidratacija{
+.productsContainerHidratacija{ 
     width: auto !important;
 }
 
@@ -10,6 +10,9 @@
 }
 .innerHidratacijaBott{
     width: 36.75rem;
+    @media only screen and (min-device-width : 320px) and (max-device-width : 480px) {
+       width: auto;
+        }
 }
 .detailsHidratacija{
     padding-top: 5rem !important;
@@ -20,12 +23,18 @@
     padding-top: 1.5rem;
     .secondPart{
         width: 31.875rem;
+        @media only screen and (min-device-width : 320px) and (max-device-width : 480px) {
+            width: auto;
+            }
     }
 }
 
 .colBottHidratacija{
     .singleDetail{
         width: 33.625rem;
+        @media only screen and (min-device-width : 320px) and (max-device-width : 480px) {
+           width: auto;
+            }
     }
     .detailsList{
         padding-bottom: 1.5rem;

@@ -13,7 +13,7 @@ import linijaProtivNesavrsenosti from '../../../public/images/kozmeticki-proizvo
 import linijaHidratacija from '../../../public/images/kozmeticki-proizvodi/linijaHidratacija.jpg'
 
 const Example = () => {
-    return <Breadcrumbs useDefaultStyle rootLabel="Početna"
+    return <Breadcrumbs useDefaultStyle rootLabel="Početna" 
     />;
 };
   
@@ -32,7 +32,7 @@ const HidrozastitnaEmulzija = () => {
                 </div>
             </section>
 
-            <section id="featuredProduct" className="featuredProduct">
+            <section id="featuredProduct" className="featuredProduct section">
                 <div className="container">
                     <div className="columns level colsHidrozastitnaEmulzija">
                         <div className="column leftColumn">
@@ -57,7 +57,7 @@ ZA LICE I TIJELO</p>
                 </div>
             </section>
             
-            <section id="featuredProductProperties" className="featuredProductProperties">
+            <section id="featuredProductProperties" className="featuredProductProperties section">
                 <div className="container">
                     <div className="columns">
                         <div className="column">
@@ -170,7 +170,7 @@ ZA LICE I TIJELO</p>
                 </div>
             </section>
             
-            <section id="featuredProductPrimjena" className="featuredProductPrimjena featuredProductEmulzija">
+            <section id="featuredProductPrimjena" className="featuredProductPrimjena featuredProductEmulzija section">
                 <div className="container">
                     <div className="columns">
                         <div className="column has-text-centered">

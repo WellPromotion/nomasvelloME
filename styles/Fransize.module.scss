@@ -47,7 +47,8 @@
 }
 
 #fransizeMid{
-    padding-top: 5rem;
+    padding-top: 1rem;
+    padding-bottom: 0;
     .parTitle{
         font-weight: 700;
         font-size: 2rem;
@@ -71,6 +72,11 @@
 #fransizeBot{
     padding-top: 5rem;
     padding-bottom: 10rem;
+    .column{
+        @media only screen and (min-device-width : 320px) and (max-device-width : 480px) {
+           padding-bottom: 3.5rem;
+            }
+    }
     .singleBox{
         background: rgba(255, 255, 255, 0.95);
         box-shadow: 0px 2px 8px rgba(0, 0, 0, 0.12);
@@ -138,6 +144,9 @@ padding-bottom: 1rem;
     left: -15rem;
     width: 60rem;
     border-radius: 6px;
+    @media only screen and (min-device-width : 320px) and (max-device-width : 480px) {
+       width: 25rem;
+        }
     .close{
         position: absolute;
         right: 0;
@@ -195,6 +204,9 @@ padding-bottom: 1rem;
     left: -15rem;
     width: 60rem;
     border-radius: 6px;
+    @media only screen and (min-device-width : 320px) and (max-device-width : 480px) {
+        width: 25rem;
+         }
     .close{
         position: absolute;
         right: 0;
@@ -230,6 +242,9 @@ padding-bottom: 1rem;
     left: -15rem;
     width: 60rem;
     border-radius: 6px;
+    @media only screen and (min-device-width : 320px) and (max-device-width : 480px) {
+        width: 25rem;
+         }
     .close{
         position: absolute;
         right: 0;

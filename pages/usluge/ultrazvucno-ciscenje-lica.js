@@ -334,7 +334,7 @@ No+Vello vam nudi visoko kvalitetnu kozmetiku za vašu kožu. Otkrijte naše pro
                     
                     <div className="columns imgCols">
                         <div className="column">
-                            <a href="/besplatan-probni-tretman">
+                            <a href="/besplatan-probni-tretman"> 
                             <img src={bottomImage} alt="" />
                             </a>
                         </div>

@@ -10,6 +10,14 @@
         }
 }
 
+#react-burger-menu-btn{
+  .text-gray-500{
+    background: $titleColor;
+  }
+}
+.text-gray-500{
+  color: $titleColor;
+}
 
 .bm-burger-button {
   
@@ -25,7 +33,7 @@
   }  
 
   .bm-burger-bars-hover {
-    background: #a90000;
+    background: $primaryGreen;
 
   }
   
@@ -35,7 +43,7 @@
   }
   
   .bm-cross {
-    background: #bdc3c7;
+    background: #fff;
   }
   
   .bm-menu-wrap {
@@ -49,7 +57,7 @@
   }
   
   .bm-menu {
-    background: #373a47;
+    background: $titleColor;
     padding: 0.3rem 0.3rem 0;
     font-size: 1.15em;
   }
@@ -60,7 +68,7 @@
   
   .bm-item-list {
 
-    color: #b8b7ad;
+    color: #fff;
     padding: 0.8em;
   }
   

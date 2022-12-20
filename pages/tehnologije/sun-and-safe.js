@@ -17,7 +17,7 @@ const SunandsafeTehnologija = () => {
                    </div>
                    <div className="container has-text-centered">
                        <p className="pretitle">naše tehnologije</p>
-                       <h1 className="title">SUN & SAFE</h1>
+                       <h1 className="title">SUN & SAFE</h1> 
                    </div>
                    <div className="imgIcon has-text-centered">
                        <img src={belowTitleImg} alt="" />
@@ -25,7 +25,7 @@ const SunandsafeTehnologija = () => {
                </div>
             </section>
 
-            <section id="mainSun" className="mainSun">
+            <section id="mainSun" className="mainSun section">
                 <div className="container">
                     <div className="columns imgColsSun">
                         <div className="column">
@@ -57,7 +57,7 @@ No+Vello© zadržava svoju jedinstvenu uniseks tarifu od 49 KM po zoni/sesiji.</
                 </div>
             </section>
 
-            <section id="bottomSun" className="bottomSun">
+            <section id="bottomSun" className="bottomSun section">
             <div className="container">
                     <div className="columns level">
                         <div className="column imgCol">

@@ -2,7 +2,11 @@
 
 
 .breadcrumbsGel{
-    position: relative;
+    position: relative; 
+    @media only screen and (min-device-width : 320px) and (max-device-width : 480px) {
+       display: none;
+        }
+        
     &::before{
         content: url('../../../public/images/kozmeticki-proizvodi/kozmetikaCiscenje/gel-za-ciscenje-visoke-tolerancije/greenLeft.svg');
         position: absolute;
@@ -11,6 +15,9 @@
         @media only screen and (min-width: 1024px) and (max-width: 1919px) {
             left: 0rem;
         }
+        @media only screen and (min-device-width : 320px) and (max-device-width : 480px) {
+            content: "";
+            }
     }
     &::after{
         content: url('../../../public/images/kozmeticki-proizvodi/kozmetikaCiscenje/gel-za-ciscenje-visoke-tolerancije/greenRight.svg');
@@ -21,6 +28,9 @@
         @media only screen and (min-width: 1024px) and (max-width: 1919px) {
             right: 0rem;
         }
+        @media only screen and (min-device-width : 320px) and (max-device-width : 480px) {
+            content: "";
+            }
     }
 }
 
@@ -79,11 +89,12 @@
     hr{
         background-color: #E1E1E1;
         height: 1px;
-        margin: 3rem 0;
+        // margin: 3rem 0;
     }
 }
 
 #featuredProductProperties{
+    padding-top: 1rem;
     
     .titleInner{
         display: flex;
@@ -142,7 +153,7 @@
 }
 
 #featuredProductPrimjena{
-    padding-top: 3rem;
+    padding-top: 1rem;
     
     .colummns{
         display: flex;
@@ -166,6 +177,7 @@
 }
 
 #drugeKategorije{
+    padding-top: 2rem;
     padding-bottom: 5rem;
     
     .kozmetikaBox{

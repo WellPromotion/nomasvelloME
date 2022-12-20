@@ -9,7 +9,7 @@ import checkGreen from '../../public/images/centri/check.png';
 
 const LaserTehnologija = () => {
     return (
-        
+         
         <>
 
             <section id='titleLaserTehnologija' className='titleLaserTehnologija hero is-medium'>
@@ -27,7 +27,7 @@ const LaserTehnologija = () => {
                </div>
             </section>
 
-            <section id="laserBody" className="laserBody">
+            <section id="laserBody" className="laserBody section">
                 <div className="titlePart">
                     <p className='laserTitle'>
                     Šta je laser tehnologija?
@@ -38,7 +38,7 @@ const LaserTehnologija = () => {
                 </div>
             </section>
             
-            <section id="principLaser" className="principLaser">
+            <section id="principLaser" className="principLaser section">
                 <div className="container">
                     <div className="columns level">
                         <div className="column is-left">
@@ -60,7 +60,7 @@ const LaserTehnologija = () => {
                 </div>
             </section>
 
-            <section id="diodniLaser" className="diodniLaser">
+            <section id="diodniLaser" className="diodniLaser section">
                 <div className="container">
                     <div className="columns level">
                         <div className="column is-left">
@@ -101,7 +101,7 @@ const LaserTehnologija = () => {
                 </div>
             </section>
 
-            <section id="t_Outro" className='t_Outro'>
+            <section id="t_Outro" className='t_Outro section'>
                 <div className="container">
                     <div className="columns">
                         <div className="column">
@@ -115,7 +115,7 @@ const LaserTehnologija = () => {
                 </div>
             </section>
 
-            <section id="t_Ponuda" className="t_Ponuda">
+            <section id="t_Ponuda" className="t_Ponuda section">
                 <div className="container">
                     <div className="columns">
                         <div className="column ponudaColumn has-text-centered">

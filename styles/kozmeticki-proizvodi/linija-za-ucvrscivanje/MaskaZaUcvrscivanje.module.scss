@@ -1,9 +1,16 @@
 @import '../../variables';
 
 .featuredProductPropertiesMaska{
+    
    .listInner{
+    @media only screen and (min-device-width : 320px) and (max-device-width : 480px) {
+       display: block;
+        }
        .detailsList{
         flex: 1;
+        @media only screen and (min-device-width : 320px) and (max-device-width : 480px) {
+            margin-bottom: .85rem;
+             }
        }
     
    

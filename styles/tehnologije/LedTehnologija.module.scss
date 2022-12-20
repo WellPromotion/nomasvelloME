@@ -5,7 +5,7 @@
     background: url("../../public/images/tehnologije/laserTehnologija/laserBackground.png") no-repeat;
 
     .hero-body{
-        padding: 3rem 1.5rem;
+        padding: 3rem 1.5rem; 
     }
     .imgTitleSphere{
         display: flex;
@@ -41,6 +41,9 @@
     .columns{
         display: flex;
         justify-content: center;
+        @media only screen and (min-device-width : 320px) and (max-device-width : 480px) {
+           display: block;
+            }
     }
     .iplAparatiTitle{
         font-weight: 500;
@@ -63,7 +66,7 @@
 }
 
 #ledColors{
-    padding-top: 6rem;
+    padding-top: 3rem;
 
     .ledColorsHeaderColumn{
        display: flex;
@@ -76,11 +79,17 @@
         text-align: center;
         color: $titleColor;
         width: 41.25rem;
+        @media only screen and (min-device-width : 320px) and (max-device-width : 480px) {
+           width: auto;
+            }
     }
 
     .ledColorsContainer{
         padding-top: 3rem;
         width: 84.125rem;
+        @media only screen and (min-device-width : 320px) and (max-device-width : 480px) {
+           width: auto;
+            }
 
         .innerZelenaLed{
             margin-bottom: 1rem;
@@ -92,6 +101,11 @@
             background-color:  rgba(255, 255, 255, 0.95);
             text-align: center;
             box-shadow: 0px 2px 0.5rem rgba(0, 0, 0, 0.12);
+            
+            @media only screen and (min-device-width : 320px) and (max-device-width : 480px) {
+              width: auto;
+              height: 20rem;
+                }
 
             .colorBgLedZelena{
                 background-color: #A8CC59;
@@ -135,6 +149,11 @@
             background-color:  rgba(255, 255, 255, 0.95);
             text-align: center;
             box-shadow: 0px 2px 0.5rem rgba(0, 0, 0, 0.12);
+            
+            @media only screen and (min-device-width : 320px) and (max-device-width : 480px) {
+             width: auto;
+             height: 45rem;
+                }
 
             .colorBgLedCrvena{
                 background-color: #C74750;
@@ -144,6 +163,9 @@
             .contentCrvena{
                 position: relative;
                 top: -18%;
+                @media only screen and (min-device-width : 320px) and (max-device-width : 480px) {
+                    top: -5rem;
+                    }
             }
            
         }
@@ -156,6 +178,10 @@
             display: flex;
             justify-content: center;
             align-items: center;
+            @media only screen and (min-device-width : 320px) and (max-device-width : 480px) {
+                width: auto;
+                height: auto;
+                }
             .textContent{
                 color: $titleColor;
                 font-weight: 400;
@@ -171,22 +197,31 @@
 }
 
 #elektromagnetskaEnergija{
-    padding-top: 7.125rem;
+    padding-top: 2.125rem;
 
     .container{
         width: 69.75rem;
         display: flex;
         justify-content: center;
+        @media only screen and (min-device-width : 320px) and (max-device-width : 480px) {
+           width: auto;
+            }
     }
 }
 
 #tretmaniLed{
-    padding-top: 5rem;
+    padding-top: 1rem;
 
     .tretmaniFourColumns{
         padding-top: 3.438rem;
+        @media only screen and (min-device-width : 320px) and (max-device-width : 480px) {
+            padding-top: 1rem;
+            }
        .column{
         padding-right: 5rem;
+        @media only screen and (min-device-width : 320px) and (max-device-width : 480px) {
+            padding-right: 0.75rem;
+            }
        }
 
         .tretmaniSingleTitle{
@@ -203,6 +238,9 @@
         }
         .innerTretmaniSingle p{
             width: 16.375rem;
+            @media only screen and (min-device-width : 320px) and (max-device-width : 480px) {
+                width: auto;
+                }
         }
         .innerTretmaniSingle img{
             padding-bottom: 1rem;
@@ -212,25 +250,34 @@
             content: url(../../public/images/tehnologije/ledTehnologija/tretmaniLine1.svg);
             top: 30%;
             left: 10%;
+            @media only screen and (min-device-width : 320px) and (max-device-width : 480px) {
+               display: none;
+                }
         }
         .drugiTretman::after{
             position: absolute;
             content: url(../../public/images/tehnologije/ledTehnologija/tretmaniLine2.svg);
             top: 25%;
             left: 35%;
+            @media only screen and (min-device-width : 320px) and (max-device-width : 480px) {
+               display: none;
+                }
         }
         .treciTretman::after{
             position: absolute;
             content: url(../../public/images/tehnologije/ledTehnologija/tretmaniLine1.svg);
             top: 30%;
             left: 60%;
+            @media only screen and (min-device-width : 320px) and (max-device-width : 480px) {
+                display: none;
+                }
         }
         
     }
 }
 
 #korisniciTretmana{
-    padding-top: 6rem;
+    padding-top: 2rem;
 
     .container{
         display: flex;
@@ -242,11 +289,14 @@
 }
 
 #tarifeLed{
-    padding-top: 5rem;
+    padding-top: 2rem;
 
     .colTarife{
         display: flex;
         justify-content: center;
+        // @media only screen and (min-device-width : 320px) and (max-device-width : 480px) {
+        //    display: block;
+        //     }
     }
     .subtitleTarife{
         font-weight: 500;
@@ -262,9 +312,15 @@
     }
     .tarifeCol{
         width: 41.25rem;
+        @media only screen and (min-device-width : 320px) and (max-device-width : 480px) {
+           width: auto;
+            }
 
         .leftCol{
             padding-left: 0;
+            @media only screen and (min-device-width : 320px) and (max-device-width : 480px) {
+               padding-left: 0.75rem;
+                }
         }
     }
     .leftTarife, .rightTarife{
@@ -294,7 +350,7 @@
 }
 
 #ledTeh_Outro{
-    padding-top: 1.5rem;
+    padding-top: 0;
     .container{
         display: flex;
         justify-content: center;
@@ -320,7 +376,7 @@
 }
 
 #ledVideo{
-    padding-top: 5rem;
+    padding-top: 1rem;
 
     .container{
         display: flex;
@@ -330,12 +386,15 @@
         border-radius: 6px;
         iframe{
             border-radius: 6px;
+            @media only screen and (min-device-width : 320px) and (max-device-width : 480px) {
+                width: 390px;
+                }
         }
     }
 }
 
 #ledPonuda{
-    padding-top:4.5rem;
+    padding-top: 2.5rem;
     padding-bottom: 5.5rem;
     box-shadow: 0px 2px 1px rgba(0, 0, 0, 0.05);
    
@@ -347,6 +406,9 @@
         display: flex;
         justify-content: center;
         width: 30rem;
+        @media only screen and (min-device-width : 320px) and (max-device-width : 480px) {
+            width: auto;
+            }
     }
     .ponudaColumn{
         display: flex;
@@ -360,6 +422,9 @@
         padding-top: 1.75rem;
         padding-bottom: 1.75rem;
         width: 30rem;
+        @media only screen and (min-device-width : 320px) and (max-device-width : 480px) {
+            width: auto;
+            }
         
         .titlePonuda{
             font-weight: 400;
@@ -399,6 +464,10 @@
             // justify-content: center;
             left: 30%;
             position: relative;
+            @media only screen and (min-device-width : 320px) and (max-device-width : 480px) {
+               left: auto;
+               justify-content: center;
+                }
         }
         span{
             padding-right: .6rem;

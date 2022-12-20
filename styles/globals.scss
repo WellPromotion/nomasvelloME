@@ -159,6 +159,9 @@ a {
   border-radius: 5rem;
   padding: 1rem 2.219rem;
   text-transform: uppercase;
+  @media only screen and (min-device-width : 320px) and (max-device-width : 480px) {
+   font-size: 1rem;
+    }
 }
 .defaultGreenTitle{
   font-weight: 500;
@@ -234,6 +237,9 @@ a {
     list-style-type: none;
     margin-top: 0 !important;
     padding-right: 2rem;
+    @media only screen and (min-device-width : 320px) and (max-device-width : 480px) {
+      padding-right: .8rem;
+      }
     &:last-child::after{
       display: none;
     }
@@ -241,7 +247,9 @@ a {
       content: url(../public/images/chevron-rigth.svg);
       position: relative;
       padding-left: 1.5rem;
-      
+      @media only screen and (min-device-width : 320px) and (max-device-width : 480px) {
+        padding-left: .8rem;
+        }
     }
     a{
       text-transform: capitalize;
@@ -249,12 +257,18 @@ a {
       font-size: 0.813rem;
       line-height: 1.219rem;
       color: $primaryText;
+      @media only screen and (min-device-width : 320px) and (max-device-width : 480px) {
+        font-size: .6rem;
+        }
     }
     a:hover, a:active{
       font-weight: 700;
       font-size: 0.813rem;
       line-height: 1.219rem;
       color: $titleColor;
+      @media only screen and (min-device-width : 320px) and (max-device-width : 480px) {
+        font-size: .6rem;
+        }
     }
   }
   .content li + li{

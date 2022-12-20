@@ -2,8 +2,11 @@
 
 #firstKozmetika{
     
-    .imgCol{
+    .imgCol{ 
         width: 27rem;
+        @media only screen and (min-device-width : 320px) and (max-device-width : 480px) {
+            width: auto;
+              }
     }
     .rightCol{
         padding-left: 3rem;
@@ -79,6 +82,9 @@
     .parTjel{
         width:  46.438rem;
         padding-bottom: 1.5rem;
+        @media only screen and (min-device-width : 320px) and (max-device-width : 480px) {
+            width: auto;
+              }
     }
    .reduktorTitle2{
        margin-bottom: 0.5rem !important;

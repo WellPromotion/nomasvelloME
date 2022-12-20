@@ -35,17 +35,19 @@ export default function Home() {
         <link rel="icon" href="/favicon.ico" />
         {/* <meta name="viewport" content="width=device-width"/> */}
         {/* <meta name="viewport" content="width=970, maximum-scale=1.0"></meta> */}
-        <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
+       
         {/* <meta name="viewport" content="width=device-width"/> */}
         {/* <meta name="viewport" content="width=device-width, initial-scale=1.0"></meta> */}
-        <link href="//db.onlinewebfonts.com/c/aad1dafbe5df4c78ab2f1396cf213de3?family=BowlingScriptW01-Regular" rel="stylesheet" type="text/css"/> 
+        <link href="//db.onlinewebfonts.com/c/aad1dafbe5df4c78ab2f1396cf213de3?family=BowlingScriptW01-Regular" rel="stylesheet" type="text/css" /> 
+        {/* <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" /> */}
+        <meta name="viewport" content="width=device-width"/>
       </Head>
 
     <section id="sliderIntro" className="sIntro">
       <div className="heroSlider">
       <HeadSlider/>
       </div>
-      </section>
+      </section> 
       
       <section id="homeSubslider" className="subSlider">
         <div className="container">

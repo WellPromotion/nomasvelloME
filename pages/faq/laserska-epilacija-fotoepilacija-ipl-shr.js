@@ -25,7 +25,7 @@ export default function FaqLaserskaEpilacija() {
             </section>
 
 
-            <section id="videoPart" className="videoPart">
+            <section id="videoPart" className="videoPart section">
                 <div className="container">
                     <div className="columns videoColumns">
                         <div className="colummn is-3">
@@ -50,7 +50,7 @@ export default function FaqLaserskaEpilacija() {
                 </div>
             </section>
             
-            <section id="pitanjaLas" className="pitanja">
+            <section id="pitanjaLas" className="pitanja section">
                 <div className="container">
                     <div className="columns">
                         <div className="column pitanjaColumn">

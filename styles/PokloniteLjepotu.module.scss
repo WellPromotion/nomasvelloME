@@ -20,6 +20,9 @@
     }
     .imgCol img{
         width: 80%;
+        @media only screen and (min-device-width : 320px) and (max-device-width : 480px) {
+            width: 100%;
+            }
     }
     .poklonBon{
         padding-top: 2rem;

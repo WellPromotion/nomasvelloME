@@ -12,7 +12,7 @@ const Example = () => {
     />;
 };
   
-const LinijaZaRegeneraciju = () => {
+const LinijaZaRegeneraciju = () => { 
     return (
         
         <>
@@ -29,7 +29,7 @@ const LinijaZaRegeneraciju = () => {
                 </div>
             </section>
             
-            <section id="headerKozmetike" className='headerKozmetike hero'>
+            <section id="headerKozmetike" className='headerKozmetike'>
                 <div className="container">
                     <div className="columns">
                         <div className="column">
@@ -39,7 +39,7 @@ const LinijaZaRegeneraciju = () => {
                 </div>
             </section>
             
-            <section id="kozmetikeDescription" className="kozmetikeDescription kozmetikeRegeneracija">
+            <section id="kozmetikeDescription" className="kozmetikeDescription kozmetikeRegeneracija section">
                 <div className="container">
                     <div className="columns">
                         <div className="column colRegen">
@@ -60,7 +60,7 @@ const LinijaZaRegeneraciju = () => {
                 </div>
             </section>
             
-            <section id="kozmetikeProizvodi" className="kozmetikeProizvodi kozmetikeProizvodiRegen">
+            <section id="kozmetikeProizvodi" className="kozmetikeProizvodi kozmetikeProizvodiRegen section">
                 <div className="container">
                     <div className="columns topColumns">
                         <div className="column">
@@ -98,7 +98,7 @@ const LinijaZaRegeneraciju = () => {
                 </div>
             </section>
             
-            <section id="bottomDetails" className="bottomeDetails detailsRevitalizacija detailsRegeneracija">
+            <section id="bottomDetails" className="bottomeDetails detailsRevitalizacija detailsRegeneracija section">
             <div className="container">
                     <div className="columns level">
                         <div className="column is-left">

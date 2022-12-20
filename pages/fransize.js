@@ -12,7 +12,7 @@ import priceThree from '../public/images/usluge/diodniLaser.png'
 
 // import prezentacijaPdf from '../public/pdf/prezentacija.pdf';
 
-export default function Fransize() {
+export default function Fransize() { 
     return (
     
     <>
@@ -28,7 +28,7 @@ export default function Fransize() {
     </section>
             
             
-            <section id="fransizeTop" className='fransizeTop'>
+            <section id="fransizeTop" className='fransizeTop section'>
                 <div className="container">
                     <div className="columns level">
                         <div className="column">
@@ -65,7 +65,7 @@ export default function Fransize() {
                 </div>
             </section>
         
-            <section id="fransizeMid" className="fransizeMid">
+            <section id="fransizeMid" className="fransizeMid section">
                 <div className="container">
                     <div className="columns">
                         <div className="column">
@@ -89,7 +89,7 @@ export default function Fransize() {
                 </div>
             </section>
         
-            <section id="fransizeBot" className="fransizeBot">
+            <section id="fransizeBot" className="fransizeBot section">
                 <div className="container">
                     <div className="columns">
                         <div className="column">

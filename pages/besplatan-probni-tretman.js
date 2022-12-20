@@ -10,7 +10,7 @@ import korak4 from '../public/images/Novello-korak-4.png'
 
 export default function BesplatniTretman() {
     return (
-     
+      
         <>
         
         <section id="heroTitleBesplatni" className="hero is-medium">
@@ -24,7 +24,7 @@ export default function BesplatniTretman() {
         </section>
             
             
-            <section id="bespTop" className='bespTop'>
+            <section id="bespTop" className='bespTop section'>
                 <div className="container">
                     <div className="columns">
                         <div className="column titleCol">
@@ -80,7 +80,7 @@ Naš inovativni sistem hlađenja minimizuje osjećaj intezivne toplote.</p>
                 </div>
             </section>
             
-            <section id="bespMid" className='bespMid'>
+            <section id="bespMid" className='bespMid section'>
                 <div className="container">
                     <div className="columns bespmidCols">
                         <div className="column greenbackCol is-8">

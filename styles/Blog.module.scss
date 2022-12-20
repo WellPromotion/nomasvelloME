@@ -72,17 +72,24 @@
     box-shadow: 0px 2px 1px rgba(0, 0, 0, 0.05), 0px 0px 1px rgba(66, 71, 76, 0.45);
     border-radius: 8px;
     width: 19.875rem !important;
-    height: 33.313rem;
+    height: 34.313rem;
     margin-right: 1.5rem;
     margin-bottom: 1.5rem;
     .singlePostInner{
         padding: 1rem;
     }
+    @media only screen and (min-device-width : 320px) and (max-device-width : 480px) {
+        width: auto !important;
+        height: auto;
+        margin-right: 0;
+         } 
 }
 
 .blogList{
     display: flex;
-    
+    @media only screen and (min-device-width : 320px) and (max-device-width : 480px) {
+       display: block;
+         } 
 }
 
 
