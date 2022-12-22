@@ -22,7 +22,7 @@ export default function LaserskaEpilacijaForm(props) {
 
   const createContactData = ( contactInfo ) => {
         const contactData = {
-        id: 13,
+        id: 10,
         fieldValues: [
 
             {id : 1, value: contactInfo[1] },

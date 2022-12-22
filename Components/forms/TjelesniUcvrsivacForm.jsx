@@ -22,7 +22,7 @@ export default function TjelesniUcvrsivacForm(props) {
 
   const createContactData = ( contactInfo ) => {
         const contactData = {
-        id: 19,
+        id: 16,
         fieldValues: [
 
             {id : 1, value: contactInfo[1] },

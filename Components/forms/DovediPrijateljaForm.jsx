@@ -22,7 +22,7 @@ export default function DovediPrijateljaForm(props) {
 
   const createContactData = ( contactInfo ) => {
         const contactData = {
-        id: 24,
+        id: 21,
         fieldValues: [
 
             {id : 1, value: contactInfo[1] },

@@ -22,7 +22,7 @@ export default function UltrazvucnoCiscenjeLicaForm(props) {
 
   const createContactData = ( contactInfo ) => {
         const contactData = {
-        id: 16,
+        id: 13,
         fieldValues: [
 
             {id : 1, value: contactInfo[1] },

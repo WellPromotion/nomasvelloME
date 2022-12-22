@@ -6,9 +6,7 @@
     height: 5rem;
     
     @media only screen and (min-device-width : 320px) and (max-device-width : 480px) {
-      
            height: 4rem;
-      
         }
         
     .navWrap {
@@ -20,6 +18,11 @@
         -webkit-transition: all .25s;
         transition: all .25s;
         
+        a{
+            @media only screen and (min-device-width : 320px) and (max-device-width : 480px) {
+                line-height: 1rem;
+             }
+        }
         @media only screen and (min-device-width : 320px) and (max-device-width : 480px) {
             height: 4rem;
             width: 100vw;
@@ -258,6 +261,10 @@
         .rightWrap{
             display: flex;
             align-items: center;
+            @media only screen and (min-device-width : 320px) and (max-device-width : 480px) {
+                width: 100vw;
+                justify-content: space-between;
+             }
         }
     }
 
@@ -403,6 +410,15 @@
 .bespButtonTop{
    
     // padding-right: .5rem !important;
+    
+    @media only screen and (min-device-width : 320px) and (max-device-width : 480px) {
+        font-size: .85rem;
+        margin-right: 0 !important;
+        }
+        @media only screen and (max-device-width : 360px) {
+            font-size: .80rem;
+            margin-right: 0 !important;
+            }
    
     &:hover{
         background-color: #fff;
@@ -412,6 +428,10 @@
 .navImg{
     img{
         height: 5rem;
+        @media only screen and (min-device-width : 320px) and (max-device-width : 480px) {
+            height: 4rem;
+            line-height: auto;
+            }
     }
     
 }

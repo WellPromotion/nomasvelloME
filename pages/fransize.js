@@ -108,7 +108,7 @@ export default function Fransize() {
                                     <p className="titleInner">
                                        O nama
                                     </p>
-                                    <a className='button naruciBtnCentri greenButton fransizeBtn' target="_blank" href="http://app-okuneva.jjjwv99uog-58e601yzv4d7.p.temp-site.link/wp-content/uploads/2022/09/prezentacija_no_vello.pdf">Pogledajte <br /> prezentaciju</a>
+                                    <a className='button naruciBtnCentri greenButton fransizeBtn' target="_blank" href="https://administracija.nomasvello.ba/wp-content/uploads/2022/12/prezentacija_no_vello.pdf">Pogledajte <br /> prezentaciju</a>
                                     {/* <TrzistePop/> */}
                                 </div>
                         </div>

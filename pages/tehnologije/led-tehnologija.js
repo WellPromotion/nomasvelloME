@@ -29,7 +29,7 @@ const LedTehnologija = () => {
         
         <>
            
-           <section id='titleLedTehnologija' className='titleLedTehnologija hero is-medium'>
+           <section id='titleLedTehnologija' className='titleLedTehnologija is-medium'>
                <div className="hero-body">
                    <div className="imgTitleSphere has-text-centered">
                        <img src={aboveTitleImg} alt="" />

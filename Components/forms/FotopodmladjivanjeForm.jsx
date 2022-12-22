@@ -22,7 +22,7 @@ export default function FotopodmladjivanjeForm(props) {
 
   const createContactData = ( contactInfo ) => {
         const contactData = {
-        id: 15,
+        id: 12,
         fieldValues: [
 
             {id : 1, value: contactInfo[1] },

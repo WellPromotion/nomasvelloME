@@ -287,7 +287,7 @@ No+Vello vam nudi visoko kvalitetnu kozmetiku za vašu kožu. Otkrijte naše pro
                                 <img src={ekonomicnoImg} alt="" />
                                 <h4 className="imgTitle">EKONOMIČNO</h4>
                                 <p className="defaultText">
-                                Sa 40KM za Basic tretman uživaj u svim ProSkin pogodnostima
+                                Sa 40KM za Basic tretman uživaj u svim ProSkin pogodnostima.
                                 </p>
                             </div>
                            
@@ -297,7 +297,7 @@ No+Vello vam nudi visoko kvalitetnu kozmetiku za vašu kožu. Otkrijte naše pro
                                 <img src={brzoImg} alt="" />
                                 <h4 className="imgTitle">Brzo</h4>
                                 <p className="defaultText">
-                                Ultrazvučna tehnologija djeluje dubinski ukljanjajući već u prvih 10 minuta tretmana mitesere i nečistoće.
+                                Nemaš vremena? Basic u samo 15min do blistave i svježe kože! Ili Complete kada odlučiš da je vrijeme za tebe.
                                 </p>
                             </div>
                            

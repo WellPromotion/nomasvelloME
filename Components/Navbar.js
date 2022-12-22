@@ -11,7 +11,7 @@ import HamburgerMenu, { Links } from '../Components/Hamburger.js'
 
 export const Navbar = () => {
 return (
-<div>
+<div> 
 
 
     <nav id='navbarTop' className='navbarTop'>

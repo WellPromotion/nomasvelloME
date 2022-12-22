@@ -22,7 +22,7 @@ export default function IzbjeljivanjeZubaForm(props) {
 
   const createContactData = ( contactInfo ) => {
         const contactData = {
-        id: 18,
+        id: 15,
         fieldValues: [
 
             {id : 1, value: contactInfo[1] },

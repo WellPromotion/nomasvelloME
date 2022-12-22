@@ -22,7 +22,7 @@ export default function NajboljiPlanoviForm(props) {
 
   const createContactData = ( contactInfo ) => {
         const contactData = {
-        id: 23,
+        id: 20,
         fieldValues: [
 
             {id : 1, value: contactInfo[1] },

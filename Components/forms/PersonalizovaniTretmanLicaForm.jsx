@@ -22,7 +22,7 @@ export default function PersonalizovaniTretmanLicaForm(props) {
 
   const createContactData = ( contactInfo ) => {
         const contactData = {
-        id: 20,
+        id: 17,
         fieldValues: [
 
             {id : 1, value: contactInfo[1] },
