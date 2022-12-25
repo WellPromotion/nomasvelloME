@@ -5,18 +5,20 @@
 
 .leftCol{
     width: 28.5rem;
-    max-width: 28.5rem;
+    // max-width: 28.5rem;
     padding-right: 0;
     @media only screen and (min-device-width : 320px) and (max-device-width : 480px) {
-      width: 24.5rem;
+      width: 95vw;
       padding-bottom: 0;
+      padding-left: 0;
     }
     .titleBox{
       background-color: #0F1C49;
       width: 28.5rem;
       border-radius: 8px 0px 0px 0px;
       @media only screen and (min-device-width : 320px) and (max-device-width : 480px) {
-        width: 24.5rem;
+        // width: 24.5rem;
+        width: 95vw;
       }
       p{
         font-weight: 400;
@@ -31,7 +33,8 @@
     .locationBox{
       width: 28.5rem;
       @media only screen and (min-device-width : 320px) and (max-device-width : 480px) {
-        width: 24.5rem;
+        // width: 24.5rem;
+        width: 95vw;
       }
       .innerLocations{
         height: 33.438rem;
@@ -48,7 +51,10 @@
         // display: flex;
         // align-items: center;
         border-bottom: #4E4E4E 1px solid;
-        
+        @media only screen and (min-device-width : 320px) and (max-device-width : 480px) {
+          // width: 24.5rem;
+          width: 95vw;
+        }
         
         .__content{
             display: none;
@@ -89,7 +95,8 @@
     padding-left: 0;
     padding-right: 0;
     @media only screen and (min-device-width : 320px) and (max-device-width : 480px) {
-      width: 24.5rem;
+      // width: 24.5rem;
+      width: 95vw;
       padding-top: 0;
     }
     
@@ -97,20 +104,23 @@
       width: 56.5rem; 
       height: 41.5rem;
       @media only screen and (min-device-width : 320px) and (max-device-width : 480px) {
-        width: 25.5rem;
+        // width: 25.5rem;
+        width: 95vw;
       }
       .iframe{
         width: 56.5rem; 
         height: 41.5rem !important;
         @media only screen and (min-device-width : 320px) and (max-device-width : 480px) {
-          width: 25.5rem;
+          // width: 25.5rem;
+          width: 95vw;
         }
         &:first-child{
             position: absolute;
             width: 56.5rem; 
             height: 41.5rem;
             @media only screen and (min-device-width : 320px) and (max-device-width : 480px) {
-              width: 25.5rem;
+              // width: 25.5rem;
+              width: 95vw;
             }
         }
       }
@@ -141,6 +151,11 @@
         color: #FFFFFF;
         // padding-top: 1rem;
         margin-bottom: 0;
+        @media only screen and (min-device-width : 320px) and (max-device-width : 480px) {
+          // width: 25.5rem;
+          width: 95vw;
+          overflow: scroll;
+        }
     }
     .exactInfo{
         font-weight: 700;

@@ -10,7 +10,7 @@
         }
         
     .navWrap {
-        width: 1344px;
+        width: 93vw;
         margin: auto;
         display: flex;
         align-items: center;
@@ -26,6 +26,8 @@
         @media only screen and (min-device-width : 320px) and (max-device-width : 480px) {
             height: 4rem;
             width: 100vw;
+            box-shadow: 0px 2px 8px rgba(0, 0, 0, 0.12);
+    // border-radius: 8px;
          }
          
          .navImg{
@@ -247,7 +249,7 @@
     }
 
     .navbarTopWrap {
-        width: 1344px;
+        width: 93vw;
         margin: auto;
         display: flex;
         align-items: center;
@@ -415,10 +417,19 @@
         font-size: .85rem;
         margin-right: 0 !important;
         }
-        @media only screen and (max-device-width : 360px) {
+        
+    @media only screen and (max-device-width : 360px) {
             font-size: .80rem;
             margin-right: 0 !important;
             }
+            @media only screen and (max-device-width : 375px) {
+                font-size: .80rem;
+                margin-right: 0 !important;
+                }
+                @media only screen and (max-device-width : 385px) {
+                    font-size: .80rem;
+                    margin-right: 0 !important;
+                    }
    
     &:hover{
         background-color: #fff;

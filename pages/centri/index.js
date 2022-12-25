@@ -28,7 +28,7 @@ const Centri = () => {
 
             <section id="centriBoxes" className="centriBoxes section">
                 <div className="container">
-                    <div className="coolumns">
+                    <div className="columns">
                         <div className="column">
                             <div className="boxCity">
                                 <div className="boxOuter">
@@ -113,7 +113,44 @@ const Centri = () => {
                                 </div>
                             </div>
                         </div>
-                        <div className="column">
+                        
+                      
+                        
+                
+                        {/* <div className="column last-city">
+                        <div className="boxCity">
+                                <div className="boxOuter">
+                                    <div className="boxInner">
+                                        <img src={greenSphere} alt="" />
+                                        <p className="centriCityTitle">Teslić</p>
+                                        <p className="centriCitySubtitle">Centar u Tesliću</p>
+                                        <div className="adressInfo">
+                                            <div className="columns">
+                                                <div className="column">
+                                                    <p className="cityInfoTitle">Adresa: </p>
+                                                    <p className="cityInfoTitle">Telefon:</p>
+                                                    <p className="cityInfoTitle">Email: </p>
+                                                </div>
+                                                <div className="column is-10">
+                                                    <p><span className="cityInfoContent">Stevana Sinđelića bb</span></p>
+                                                    <p> <span className="cityInfoContent">066 398 638</span></p>
+                                                    <p><span className="cityInfoContent">teslic@nomasvello.ba</span></p>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <Link href="/centri/teslic">
+                                        <a className="cityDetailsBtn turqButton">Vidi sve detalje</a>
+                                        </Link>
+                                    </div>
+                                </div>
+                            </div>
+                        </div> */}
+                        
+                        
+                    </div>
+                    
+                    <div className="columns">
+                    <div className="column">
                             <div className="boxCity">
                                 <div className="boxOuter">
                                     <div className="boxInner">
@@ -200,124 +237,96 @@ const Centri = () => {
                             </div>
                            
                         </div>
-                        <div className="column">
-                           
-                        <div className="boxCity">
-                                <div className="boxOuter">
-                                    <div className="boxInner">
-                                        <img src={greenSphere} alt="" />
-                                        <p className="centriCityTitle">Zenica</p>
-                                        <p className="centriCitySubtitle">Centar u Tržnom centru Džananović</p>
-                                        <div className="adressInfo">
-                                            <div className="columns">
-                                                <div className="column">
-                                                    <p className="cityInfoTitle">Adresa: </p>
-                                                    <p className="cityInfoTitle">Telefon:</p>
-                                                    <p className="cityInfoTitle">Email: </p>
-                                                </div>
-                                                <div className="column is-10">
-                                                    <p><span className="cityInfoContent">Kamberovića čikma bb</span></p>
-                                                    <p> <span className="cityInfoContent">+032 40 40 50</span> | <span
-                                                            className="cityInfoContent">061 02 67 00</span></p>
-                                                    <p><span className="cityInfoContent">zenica@nomasvello.ba</span></p>
-                                                </div>
-                                            </div>
-                                        </div>
-                                        <Link href="/centri/zenica">
-                                        <a className="cityDetailsBtn turqButton">Vidi sve detalje</a>
-                                        </Link>
-                                    </div>
-                                </div>
-                            </div>
-                            
-                            <div className="boxCity">
-                                <div className="boxOuter">
-                                    <div className="boxInner">
-                                        <img src={greenSphere} alt="" />
-                                        <p className="centriCityTitle">Tuzla</p>
-                                        <p className="centriCitySubtitle">Centar u zgradi Avaza</p>
-                                        <div className="adressInfo">
-                                            <div className="columns">
-                                                <div className="column">
-                                                    <p className="cityInfoTitle">Adresa: </p>
-                                                    <p className="cityInfoTitle">Telefon:</p>
-                                                    <p className="cityInfoTitle">Email: </p>
-                                                </div>
-                                                <div className="column is-10">
-                                                    <p><span className="cityInfoContent">Maršala Tita br. 2</span></p>
-                                                    <p> <span className="cityInfoContent">061 75 20 20</span></p>
-                                                    <p><span className="cityInfoContent">tuzla@nomasvello.ba</span></p>
-                                                </div>
-                                            </div>
-                                        </div>
-                                        <Link href="/centri/tuzla">
-                                        <a className="cityDetailsBtn turqButton">Vidi sve detalje</a>
-                                        </Link>
-                                    </div>
-                                </div>
-                            </div>
-                            <div className="boxCity">
-                                <div className="boxOuter">
-                                    <div className="boxInner">
-                                        <img src={greenSphere} alt="" />
-                                        <p className="centriCityTitle">Doboj</p>
-                                        <p className="centriCitySubtitle">Centar u Frizersko Kozmetickom Studiju “Mia”
-                                        </p>
-                                        <div className="adressInfo">
-                                            <div className="columns">
-                                                <div className="column">
-                                                    <p className="cityInfoTitle">Adresa: </p>
-                                                    <p className="cityInfoTitle">Telefon:</p>
-                                                    <p className="cityInfoTitle">Email: </p>
-                                                </div>
-                                                <div className="column is-10">
-                                                    <p><span className="cityInfoContent">Makljenovac b.b.</span></p>
-                                                    <p> <span className="cityInfoContent">061 888 595</span></p>
-                                                    <p><span className="cityInfoContent">doboj@nomasvello.ba</span></p>
-                                                </div>
-                                            </div>
-                                        </div>
-                                        <Link href="/centri/doboj">
-                                        <a className="cityDetailsBtn turqButton">Vidi sve detalje</a>
-                                        </Link>
-                                    </div>
-                                </div>
-                            </div>
-                           
-                        </div>
-                        
-                
-                        {/* <div className="column last-city">
-                        <div className="boxCity">
-                                <div className="boxOuter">
-                                    <div className="boxInner">
-                                        <img src={greenSphere} alt="" />
-                                        <p className="centriCityTitle">Teslić</p>
-                                        <p className="centriCitySubtitle">Centar u Tesliću</p>
-                                        <div className="adressInfo">
-                                            <div className="columns">
-                                                <div className="column">
-                                                    <p className="cityInfoTitle">Adresa: </p>
-                                                    <p className="cityInfoTitle">Telefon:</p>
-                                                    <p className="cityInfoTitle">Email: </p>
-                                                </div>
-                                                <div className="column is-10">
-                                                    <p><span className="cityInfoContent">Stevana Sinđelića bb</span></p>
-                                                    <p> <span className="cityInfoContent">066 398 638</span></p>
-                                                    <p><span className="cityInfoContent">teslic@nomasvello.ba</span></p>
-                                                </div>
-                                            </div>
-                                        </div>
-                                        <Link href="/centri/teslic">
-                                        <a className="cityDetailsBtn turqButton">Vidi sve detalje</a>
-                                        </Link>
-                                    </div>
-                                </div>
-                            </div>
-                        </div> */}
-                        
-                        
                     </div>
+                    
+                    <div className="columns">
+                    <div className="column">
+                           
+                           <div className="boxCity">
+                                   <div className="boxOuter">
+                                       <div className="boxInner">
+                                           <img src={greenSphere} alt="" />
+                                           <p className="centriCityTitle">Zenica</p>
+                                           <p className="centriCitySubtitle">Centar u Tržnom centru Džananović</p>
+                                           <div className="adressInfo">
+                                               <div className="columns">
+                                                   <div className="column">
+                                                       <p className="cityInfoTitle">Adresa: </p>
+                                                       <p className="cityInfoTitle">Telefon:</p>
+                                                       <p className="cityInfoTitle">Email: </p>
+                                                   </div>
+                                                   <div className="column is-10">
+                                                       <p><span className="cityInfoContent">Kamberovića čikma bb</span></p>
+                                                       <p> <span className="cityInfoContent">+032 40 40 50</span> | <span
+                                                               className="cityInfoContent">061 02 67 00</span></p>
+                                                       <p><span className="cityInfoContent">zenica@nomasvello.ba</span></p>
+                                                   </div>
+                                               </div>
+                                           </div>
+                                           <Link href="/centri/zenica">
+                                           <a className="cityDetailsBtn turqButton">Vidi sve detalje</a>
+                                           </Link>
+                                       </div>
+                                   </div>
+                               </div>
+                               
+                               <div className="boxCity">
+                                   <div className="boxOuter">
+                                       <div className="boxInner">
+                                           <img src={greenSphere} alt="" />
+                                           <p className="centriCityTitle">Tuzla</p>
+                                           <p className="centriCitySubtitle">Centar u zgradi Avaza</p>
+                                           <div className="adressInfo">
+                                               <div className="columns">
+                                                   <div className="column">
+                                                       <p className="cityInfoTitle">Adresa: </p>
+                                                       <p className="cityInfoTitle">Telefon:</p>
+                                                       <p className="cityInfoTitle">Email: </p>
+                                                   </div>
+                                                   <div className="column is-10">
+                                                       <p><span className="cityInfoContent">Maršala Tita br. 2</span></p>
+                                                       <p> <span className="cityInfoContent">061 75 20 20</span></p>
+                                                       <p><span className="cityInfoContent">tuzla@nomasvello.ba</span></p>
+                                                   </div>
+                                               </div>
+                                           </div>
+                                           <Link href="/centri/tuzla">
+                                           <a className="cityDetailsBtn turqButton">Vidi sve detalje</a>
+                                           </Link>
+                                       </div>
+                                   </div>
+                               </div>
+                               <div className="boxCity">
+                                   <div className="boxOuter">
+                                       <div className="boxInner">
+                                           <img src={greenSphere} alt="" />
+                                           <p className="centriCityTitle">Doboj</p>
+                                           <p className="centriCitySubtitle">Centar u Frizersko Kozmetickom Studiju “Mia”
+                                           </p>
+                                           <div className="adressInfo">
+                                               <div className="columns">
+                                                   <div className="column">
+                                                       <p className="cityInfoTitle">Adresa: </p>
+                                                       <p className="cityInfoTitle">Telefon:</p>
+                                                       <p className="cityInfoTitle">Email: </p>
+                                                   </div>
+                                                   <div className="column is-10">
+                                                       <p><span className="cityInfoContent">Makljenovac b.b.</span></p>
+                                                       <p> <span className="cityInfoContent">061 888 595</span></p>
+                                                       <p><span className="cityInfoContent">doboj@nomasvello.ba</span></p>
+                                                   </div>
+                                               </div>
+                                           </div>
+                                           <Link href="/centri/doboj">
+                                           <a className="cityDetailsBtn turqButton">Vidi sve detalje</a>
+                                           </Link>
+                                       </div>
+                                   </div>
+                               </div>
+                              
+                           </div>
+                    </div>
+                    
                 </div>
             </section>
         </>

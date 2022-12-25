@@ -21,7 +21,7 @@ import greenCheck from '../../public/images/greenCheck.svg'
 
 
 
-
+ 
 
 
 const LedTehnologija = () => {
@@ -94,7 +94,7 @@ const LedTehnologija = () => {
            <section id="ledColors" className="ledColors section">
                <div className="container">
                    <div className="columns">
-                       <div className="column ledColorsHeaderColumn">
+                       <div className="column ledColorsHeaderColumn is-8">
                            <p className='ledColorsHeader'>
                                LED uređaj je namjenjen za fototerapiju lica i tijela pomoću svjetlosnih dioda (LED),
                                čija je glavna karakteristika velika svjetlosna snaga i emitovanje svjetlosti u tri
@@ -161,8 +161,8 @@ const LedTehnologija = () => {
 
            <section id="elektromagnetskaEnergija" className="elektromagnetskaEnergija section">
                <div className="container">
-                   <div className="columns level">
-                       <div className="column leftElektromagnetska">
+                   <div className="columns level colsElektromagnetska">
+                       <div className="column leftElektromagnetska is-4">
                            <p className="titleElektromagnetska defaultGreenTitle">
                                Pojačava učinak elektromagnetske energije
                            </p>
@@ -174,7 +174,7 @@ const LedTehnologija = () => {
                                linija, bora, kože narandžine kore, gojaznosti i izbjeljivanje zuba.
                            </p>
                        </div>
-                       <div className="column rightElektromagnetska">
+                       <div className="column rightElektromagnetska is-4">
                            <img src={ledSampleImage1} alt="led_tehnologija" />
                        </div>
                    </div>
@@ -238,14 +238,14 @@ const LedTehnologija = () => {
            <section id="korisniciTretmana" className="korisniciTretmana section">
                <div className="container">
                    <div className="columns columnsKorisnici level">
-                       <div className="column leftKorisniciTretmana">
+                       <div className="column leftKorisniciTretmana is-4">
                            <p className="korisniciTTitle defaultGreenTitle">KO MOŽE KORISTITI OVE TRETMANE?</p>
                            <p className='textKorisnici defaultText'>Bilo da se radi o zreloj ili mladoj koži, u oba
                                slučaja se može obaviti bilo koji od tretmana, bez obzira na fototip kože i prehrambene
                                navike klijenta, zato što se uvijek radi o tretmanima personaliziranim u odnosu na
                                potrebe i karakteristike klijenta.</p>
                        </div>
-                       <div className="column rightKorisniciTretmana">
+                       <div className="column rightKorisniciTretmana is-4">
                            <img src={tretmanKorisnici} alt="led_tehnologija" />
                        </div>
                    </div>
@@ -339,7 +339,7 @@ const LedTehnologija = () => {
                                 <div className="columns titleCols">
                                     <div className="column">
                                     <p className="titlePonuda">
-                                   Zainteresovani ste za usluge
+                                   Zainteresovani ste za usluge <br />
                                    sa LED tehnologijom?
                                </p>
                                     </div>

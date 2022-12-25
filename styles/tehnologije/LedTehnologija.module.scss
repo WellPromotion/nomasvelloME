@@ -36,7 +36,7 @@
 #ledAbout{
     padding-top: 3rem;
     .container{
-        max-width: 69.75rem;
+        // max-width: 69.75rem;
     }
     .columns{
         display: flex;
@@ -72,13 +72,16 @@
        display: flex;
        justify-content: center;
     }
+    .columns{
+        justify-content: center;
+    }
     .ledColorsHeader{
         font-weight: 400;
         font-size: 1.375rem;
         line-height: 1.875rem;
         text-align: center;
         color: $titleColor;
-        width: 41.25rem;
+        // width: 41.25rem;
         @media only screen and (min-device-width : 320px) and (max-device-width : 480px) {
            width: auto;
             }
@@ -86,7 +89,7 @@
 
     .ledColorsContainer{
         padding-top: 3rem;
-        width: 84.125rem;
+        // width: 84.125rem;
         @media only screen and (min-device-width : 320px) and (max-device-width : 480px) {
            width: auto;
             }
@@ -95,7 +98,7 @@
             margin-bottom: 1rem;
         }
         ._innerLeft{
-            width: 27rem;
+            // width: 27rem;
             height: 18.563rem;
             border-radius: 0.5rem;
             background-color:  rgba(255, 255, 255, 0.95);
@@ -143,7 +146,7 @@
         }
 
         ._innerRight{
-            width: 55.5rem;
+            // width: 55.5rem;
             height: 26.063rem;
             border-radius: 0.5rem;
             background-color:  rgba(255, 255, 255, 0.95);
@@ -152,7 +155,7 @@
             
             @media only screen and (min-device-width : 320px) and (max-device-width : 480px) {
              width: auto;
-             height: 45rem;
+             height: 49rem;
                 }
 
             .colorBgLedCrvena{
@@ -170,14 +173,15 @@
            
         }
         .innerRightDown{
-            width: 55.5rem;
-            height: 10.563rem;
+            // width: 55.5rem;
+            height: 11rem;
             background-color: #EBEBEB;
             border-radius: 0.5rem;
             text-align: center;
             display: flex;
             justify-content: center;
             align-items: center;
+            box-shadow: 0px 2px 0.5rem rgba(0, 0, 0, 0.12);
             @media only screen and (min-device-width : 320px) and (max-device-width : 480px) {
                 width: auto;
                 height: auto;
@@ -200,11 +204,18 @@
     padding-top: 2.125rem;
 
     .container{
-        width: 69.75rem;
+        // width: 69.75rem;
         display: flex;
         justify-content: center;
         @media only screen and (min-device-width : 320px) and (max-device-width : 480px) {
            width: auto;
+            }
+    }
+    .colsElektromagnetska{
+        display: flex;
+        justify-content: center;
+        @media only screen and (min-device-width : 320px) and (max-device-width : 480px) {
+            display: block;
             }
     }
 }
@@ -284,7 +295,12 @@
         justify-content: center;
     }
     .columnsKorisnici{
-        width: 55.5rem;
+        // width: 55.5rem;
+        display: flex;
+        justify-content: center;
+        @media only screen and (min-device-width : 320px) and (max-device-width : 480px) {
+          display: block;
+             }
     }
 }
 
@@ -324,7 +340,8 @@
         }
     }
     .leftTarife, .rightTarife{
-        width: 19.875rem;
+        // width: 19.875rem;
+        width: auto;
         border-radius: 7px;
         background-color: $titleColor;
     }
@@ -357,10 +374,14 @@
         }
         .columns{
             width: 41.25rem;
+            @media only screen and (min-device-width : 320px) and (max-device-width : 480px) {
+                width: auto;
+                 }
         }
         .column{
             padding-left: 0;
             padding-right: 0;
+            
         }
         .innerOutro{
             padding: 1rem;
@@ -387,7 +408,7 @@
         iframe{
             border-radius: 6px;
             @media only screen and (min-device-width : 320px) and (max-device-width : 480px) {
-                width: 390px;
+                width: auto;
                 }
         }
     }
@@ -405,23 +426,25 @@
     .columns{
         display: flex;
         justify-content: center;
-        width: 30rem;
+        width: auto;
+        padding: 1.25rem 3rem;
         @media only screen and (min-device-width : 320px) and (max-device-width : 480px) {
             width: auto;
+            padding: .5rem 1rem;
             }
     }
     .ponudaColumn{
         display: flex;
         justify-content: center;
-        max-width: 41.25rem;
+        // max-width: 41.25rem;
         background-color: #fff;
         border-radius: 6px;
         padding: 0;
     }
     ._inner{
-        padding-top: 1.75rem;
-        padding-bottom: 1.75rem;
-        width: 30rem;
+        // padding-top: 1.75rem;
+        // padding-bottom: 1.75rem;
+        width: auto;
         @media only screen and (min-device-width : 320px) and (max-device-width : 480px) {
             width: auto;
             }
@@ -432,7 +455,10 @@
             line-height: 2.5rem;
             color: $titleColor;
             margin-bottom: 1rem;
-            max-width: 25.375rem;
+            // max-width: 25.375rem;
+            @media only screen and (min-device-width : 320px) and (max-device-width : 480px) {
+                font-size: 1.75rem;
+                 }
         }
         .subtitlePonuda{
             font-weight: 400;
@@ -448,7 +474,7 @@
     }
     
     .titleCols{
-        
+        padding-bottom: 0;
         .column{
             display: flex;
         justify-content: center;
@@ -462,7 +488,7 @@
             display: flex;
             align-items: center;
             // justify-content: center;
-            left: 30%;
+            left: 25%;
             position: relative;
             @media only screen and (min-device-width : 320px) and (max-device-width : 480px) {
                left: auto;

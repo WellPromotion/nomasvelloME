@@ -13,7 +13,7 @@ const IPLTehnologija = () => {
         
         <>
 
-            <section id='titleIPLTehnologija' className='titleIPLTehnologija hero is-medium'>
+            <section id='titleIPLTehnologija' className='titleIPLTehnologija is-medium'>
                 <div className="hero-body">
                 <div className="imgTitleSphere has-text-centered">
                         <img src={aboveTitleImg} alt="" />
@@ -74,7 +74,7 @@ const IPLTehnologija = () => {
             <section id="iplPrincip" className="iplPrincip section">
                 <div className="container">
                     <div className="columns">
-                        <div className="column">
+                        <div className="column is-7">
                         <p className='iplTitle'>
                         Po kojem principu radi IPL?
                             </p>
@@ -146,7 +146,7 @@ const IPLTehnologija = () => {
             <section id="iplPonuda" className="iplPonuda section">
                 <div className="container">
                     <div className="columns">
-                        <div className="column ponudaColumn has-text-centered">
+                        <div className="column ponudaColumn has-text-centered is-5">
                             <div className="_inner">
                                 <p className="titlePonuda">
                                 Zainteresovani ste za usluge
