@@ -172,7 +172,7 @@ const LedTehnologija = () => {
                                <br /> <br />
                                LED uređaj je pogodan za poboljšanje masne kože, mrlja i pigmentacije kože, izražajnih
                                linija, bora, kože narandžine kore, gojaznosti i izbjeljivanje zuba.
-                           </p>
+                           </p> 
                        </div>
                        <div className="column rightElektromagnetska is-4">
                            <img src={ledSampleImage1} alt="led_tehnologija" />

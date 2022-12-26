@@ -10,17 +10,21 @@ import LaserskaEpilacijaPopupFAQ from '../../Components/popups/LaserskaEpilacija
 
 export default function FaqLaserskaEpilacija() {
     return (
-  
+   
         <>
         
-        <section id="heroTitleLaserska" className="hero is-medium">
-            <div className="hero-body">
-                    <div className="container has-text-centered">
+        <section id="heroTitleLaserska" className="section">
+            <div className="hero-b container">
+                    <div className="columns">
+                        <div className="column">
+                        <div className="has-text-centered">
                     <h1 className=" title">
                     Često postavljana pitanja <br />
                     laserska epilacija i fotoepilacija IPL SHR
                         </h1>
                 </div>
+                        </div>
+                   </div>
                </div>
             </section>
 
@@ -120,7 +124,7 @@ export default function FaqLaserskaEpilacija() {
                             
                         </div>
                     </div>
-                    <div className="container">
+                    {/* <div className="container"> */}
                     <div className="columns">
                         <div className="column pitanjaBottomColumn is-centered">
                             <div className="pitanjaLink">
@@ -140,7 +144,7 @@ tretmani sa LED tehnologijom</p>
                             </div>
                         </div>
                     </div>
-                    </div>
+                    {/* </div> */}
                 </div>
             </section>
 

@@ -33,8 +33,11 @@
 }
 
 #hrTjelesni{
-    padding-top: 5rem;
-    padding-bottom: 3rem;
+    padding-top: 4rem;
+    padding-bottom: 1rem;
+    @media only screen and (min-device-width : 320px) and (max-device-width : 480px) {
+        padding-top: 2rem;
+        }
     hr{
         background-color: #E1E1E1;
         height: 1px;

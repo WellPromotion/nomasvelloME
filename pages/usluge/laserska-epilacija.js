@@ -17,7 +17,7 @@ import Main1 from "../../Components/Selector/Main1";
 
 const Example = () => {
   return <Breadcrumbs useDefaultStyle rootLabel="Početna" />;
-};
+}; 
 
 const LaserskaEpilacija = () => {
 

@@ -13,7 +13,7 @@ export default function Test(props) {
 
       <>
           
-          <section id="blogHeader" className="blogHeader"> 
+          <section id="blogHeader" className="blogHeader section"> 
               <div className="container">
                   <div className="columns">
                       <div className="column">
@@ -24,7 +24,7 @@ export default function Test(props) {
                   </div>
               </div>
           </section>
-    
+     
           
           <section id="blogsListed" className="blogsListed section">
               <div className="container blogsContainer">

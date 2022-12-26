@@ -37,7 +37,7 @@
     .videoInner{
         div{
             @media only screen and (min-device-width : 320px) and (max-device-width : 480px) {
-                width: 381px !important;
+                width: 90vw !important;
                 }
         }
     }
@@ -272,6 +272,9 @@
     }
     .inner{
         padding: 2.75rem 3.563rem 2.75rem 2.5rem !important;
+        @media only screen and (min-device-width : 320px) and (max-device-width : 480px) {
+            padding: 2.75rem 2.563rem 2.75rem 2.5rem !important;
+            }
     }
    
 }
