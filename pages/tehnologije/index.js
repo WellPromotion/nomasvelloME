@@ -16,7 +16,7 @@ import sunIconImg from '../../public/images/tehnologije/icons/svg/sun.svg'
 import ljekarskaIconImg from '../../public/images/tehnologije/icons/svg/ljekarska.svg'
  
 
-const Tehnologije = () => {
+const Tehnologije = () => { 
     return (
         
         <>

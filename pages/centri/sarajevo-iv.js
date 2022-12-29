@@ -40,11 +40,11 @@ const SarajevoIV = () => {
                                 <div className="columns">
                                     <div className="column">
                                         <p className="cityInfoTitle strong">Ponedjeljak - petak:</p>
-                                        <p><span className="cityInfoContent strong workHours">09:00 - 21:00h</span></p>
+                                        <p><span className="cityInfoContent strong workHours">09:00 - 20:00h</span></p>
                                     </div>
                                     <div className="column">
                                     <p className="cityInfoTitle strong">Subota:</p>
-                                        <p><span className="cityInfoContent strong workHours">10:00 - 20:00h</span></p>
+                                        <p><span className="cityInfoContent strong workHours">09:00 - 18:00h</span></p>
                                     </div>
                                 </div>
                             </div>

@@ -32,7 +32,7 @@ export default function Home() {
       
       <Head>
         <title>No+Vello - Svjetski lider u fotoepilaciji i fotopodmlađivanju</title>
-        <link rel="icon" href="/favicon.ico" />
+        <link rel="icon" href="/images/favico.png" />
         {/* <meta name="viewport" content="width=device-width"/> */}
         {/* <meta name="viewport" content="width=970, maximum-scale=1.0"></meta> */}
        
