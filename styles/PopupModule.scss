@@ -38,7 +38,7 @@
         top: 25%;
         left: 35%;
         @media only screen and (min-device-width : 320px) and (max-device-width : 480px) {
-            top: 5%;
+            top: 15%;
             left: 5%;
             }
     }
@@ -67,6 +67,16 @@
             h5, p {
                 color: #fff;
             }
+        }
+    }
+    
+    .success-wrap{
+        height: 99vh;
+        h5{
+            font-size: 3rem;
+        }
+        p{
+            font-size: 2rem;
         }
     }
 }

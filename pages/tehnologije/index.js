@@ -41,7 +41,7 @@ const Tehnologije = () => {
                         <div className="column">
                             <div className="singleTehnologija">
                                 <div className="tehnImgWrap">
-                                <img className='headerImgTehn' src={laserHeaderImg} alt="" />
+                                <img className='headerImgTehn fusionRight' src={laserHeaderImg} alt="" />
                            </div>
                                 <div className="inner">
                                     <img singleTehnologijaIkona src={laserIconImg} alt="" />
@@ -84,7 +84,7 @@ const Tehnologije = () => {
                         <div className="column">
                             <div className="singleTehnologija">
                             <div className="tehnImgWrap">
-                            <img className='headerImgTehn' src={iplHeaderImg} alt="" />
+                            <img className='headerImgTehn fusionRight' src={iplHeaderImg} alt="" />
                            </div>
                            
                                 <div className="inner">
@@ -105,7 +105,7 @@ const Tehnologije = () => {
 
                             <div className="singleTehnologija">
                             <div className="tehnImgWrap tehnImgWrapSun">
-                            <img className='headerImgTehn' src={sunHeaderImg} alt="" />
+                            <img className='headerImgTehn fusionRight' src={sunHeaderImg} alt="" />
                            </div>
                            
                                 <div className="inner">

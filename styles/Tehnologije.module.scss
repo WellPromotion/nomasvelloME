@@ -71,6 +71,9 @@
     @media only screen and (min-device-width : 320px) and (max-device-width : 480px) {
         height: 95px;
         }
+        @media only screen and (max-device-width : 376px) {
+            height: 85px;
+            }
 }
 .ljekarskaWrap{
     img{
@@ -91,6 +94,16 @@
     @media only screen and (min-device-width : 320px) and (max-device-width : 480px) {
         justify-content: center;
         margin-left: 23%;
+        }
+        @media only screen and (max-device-width : 376px) {
+            justify-content: center;
+            margin-left: 34%;
+            }
+}
+.fusionRight{
+    @media only screen and (max-device-width : 376px) {
+        justify-content: center;
+        margin-left: 22%;
         }
 }
 .tehnImgWrapSun{

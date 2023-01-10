@@ -99,7 +99,7 @@ const handleOnChange = ( event ) => {
                             success === 1 ? 
                             <div className="success-wrap">
                                 <h5>Hvala vam!</h5>
-                                <p>Vaša je poruka primljena. Neko će vas kontaktirati.</p>
+                                <p>Vaša poruka je primljena. Neko iz našeg tima će vas kontaktirati.</p>
                             </div>
                             :
                             success === 2 ? 
