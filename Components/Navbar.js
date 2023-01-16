@@ -1,5 +1,6 @@
 import { SchemaMetaFieldDef } from 'graphql'
-import React from 'react'
+import React, { useState, useRef } from 'react';
+import { useOnClickOutside } from '../hooks';
 import navLogo from '../public/images/Nomasvello-Logo.png'
 import dropDown from '../public/images/dropdownIconWhite.svg'
 import dropDownGrey from '../public/images/dropdownIcon.svg'
@@ -8,8 +9,21 @@ import instagramIcon from '../public/images/instagramIcon.svg'
 import twitterIcon from '../public/images/twitterIcon.svg'
 import facebookIcon from '../public/images/facebookIcon.svg'
 import HamburgerMenu, { Links } from '../Components/Hamburger.js'
+import HambMenu from './HambMenu'
+import Menu from "./Menu/index"
+
+import  ThemeProvider  from 'styled-components';
+import  GlobalStyles  from '../globals.js';
+import  theme  from '../theme.js';
+import Burger from '../Components/Burger/index.js';
 
 export const Navbar = () => {
+    
+    const [open, setOpen] = useState(false);
+    
+    const node = useRef(); 
+useOnClickOutside(node, () => setOpen(false));
+    
 return (
 <div> 
 
@@ -101,8 +115,14 @@ return (
                 </div>
             </a>
 
-            <HamburgerMenu />
+                {/* <HamburgerMenu /> */}
+                
+                <div ref={node}>
+                    <Burger open={open} setOpen={setOpen} />
+                    <Menu open={open} setOpen={setOpen} />
+                </div>
 
+            {/* <HambMenu/> */}
                 
             <ul className="menuList">
                 {/* <a href="/">

@@ -15,7 +15,7 @@ import doctorIcon from '../public/images/usluge/fotoepilacija/doctorIcon.svg'
 import doctorImg from '../public/images/usluge/fotoepilacija/doctorImg.png'
 
  
-const Example = () => {
+const Example = () => { 
     return <Breadcrumbs useDefaultStyle rootLabel="Početna"
     />;
 };
@@ -25,7 +25,7 @@ const StaFotoepilacija = () => {
         
         <>
 
-    <section id="definicijaFotoepilacija" className="definicijaFotoepilacija">
+    <section id="definicijaFotoepilacija" className="definicijaFotoepilacija section">
     <div className="container">
         <div className="columns level">
             <div className="column">
@@ -57,7 +57,7 @@ const StaFotoepilacija = () => {
 </section>
 
 
-<section id="prijePoslije" className="prijePoslije">
+<section id="prijePoslije" className="prijePoslije section">
     <div className="container">
         <div className="columns">
             <div className="column leftCol">
@@ -126,7 +126,7 @@ const StaFotoepilacija = () => {
     </div>
 </section>
 
-<section id="ljekarskaFotoepilacija" className="ljekarskaFotoepilacija">
+<section id="ljekarskaFotoepilacija" className="ljekarskaFotoepilacija section">
     <div className="container">
         <div className="columns level">
             <div className="column leftCol">

@@ -8,9 +8,11 @@
 #definicijaFotoepilacija{
     padding-top: 4.5rem;
     
+    
     @media only screen and (min-device-width : 320px) and (max-device-width : 480px) {
         padding-left: 1rem;
         padding-right: 1rem;
+        padding-top: 1.5rem;
         } 
     
     .titleDefinicijaFotoepilacija{
@@ -35,7 +37,7 @@
         .videoInner{
             .videoPl{
                 @media only screen and (min-device-width : 320px) and (max-device-width : 480px) {
-                    width: 381px !important;
+                    width: 90vw !important;
                     height: 258px !important;
                      }
             }
@@ -199,7 +201,7 @@
                     line-height: 1.95rem;
                     color: $primaryGreen;
                     @media only screen and (min-device-width : 320px) and (max-device-width : 480px) {
-                        font-size: 1.3rem;
+                        font-size: 1.1rem;
                          }
                 }
             }
@@ -209,9 +211,15 @@
                 line-height: 1.5rem;
                 color: $titleColor;
                 margin-bottom: 2rem;
+                position: relative;
+                z-index: 99;
+                @media only screen and (min-device-width : 320px) and (max-device-width : 480px) {
+                    font-size: 0.9rem;
+                     }
             }
             .bottom{
                 .lokacijeButton{
+                    position: relative;
                     font-weight: 700;
                     font-size: 1rem;
                     line-height: 1.5rem;
@@ -221,6 +229,7 @@
                     border-radius: 6px;
                     display: inline-flex;
                     float: left;
+                    z-index: 999;
                     @media only screen and (min-device-width : 320px) and (max-device-width : 480px) {
                         padding: 0.5rem 1rem;
                          }
@@ -257,6 +266,9 @@
     .txtCols{
         display: flex;
         justify-content: center;
+        @media only screen and (min-device-width : 320px) and (max-device-width : 480px) {
+            display: block;
+             }
     }
 }
 
@@ -425,7 +437,7 @@
         font-size: 1.25rem;
         line-height: 2rem;
         color: black;
-    }
+    } 
 }
 .imgSection{
     img{
