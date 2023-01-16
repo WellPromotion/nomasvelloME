@@ -1,0 +1,71 @@
+@import './variables';
+
+
+.pozivSuccess{
+    padding-top: 3rem;
+    padding-bottom: 3rem;
+    
+    font-size: 2rem;
+    color: $primaryGreen;
+    h5{
+        color: $primaryGreen !important;
+    }
+}
+
+
+.pozivBox{
+    transition: all 2s ease-in-out;
+    transition-duration: 2s;
+    a, span{
+        transition: all 2s ease-in-out;
+        transition-duration: 2s;
+    }
+    .pozivSlide{
+        background-color: #fff;
+        position: fixed;
+        top: 50%;
+        right: 0;
+        z-index: 99999;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        border-radius: .5rem 0 0 .5rem;
+        transition: all 2s ease-in-out;
+        .iconPart{
+            transition: all 2s ease-in-out;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            padding: .5rem;
+            img{
+                transition: all 2s ease-in-out;
+                max-width: 2rem;
+                @media only screen and (min-device-width : 320px) and (max-device-width : 480px) {
+                    max-width: 1rem;
+                    }
+            }
+        }
+        .textPart{
+            transition: all 2s ease-in-out;
+            display: none;
+                font-size: 1.5rem;
+                color: $titleColor;
+                padding: 1rem;
+                font-weight: 500;
+        }
+       
+    }
+    a{
+        &:hover{
+           
+            .iconPart{
+                display: none;
+               
+            }
+            .textPart{
+                display: block;
+               
+            }
+        }
+    }
+}

@@ -1,2 +1,20 @@
+import React from 'react'
+import phoneIcon from '../public/images/phone.png'
+ 
+export const Poziv = () => {
+    
+    return (
+        <>
+            
 
-<a href="">Želite li da vas pozovemo?</a>
+
+
+            <div className="pozivBox">
+                <a className='pozivSlide' href="/da-vas-pozovemo"><span className='iconPart'><img src={phoneIcon} alt="" /></span><span className='textPart'>Želite li da Vas pozovemo?</span></a>
+
+            </div>
+
+
+            </>
+    )
+}
