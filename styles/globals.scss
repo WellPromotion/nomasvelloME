@@ -328,6 +328,7 @@ a {
 
 
 .styledBurger{
+
   position: relative;
   top: 5%;
   right: 2rem;
@@ -355,8 +356,13 @@ a {
     position: relative;
     transform-origin: 1px;
   }
+  display: none;
+  @media only screen and (min-device-width : 320px) and (max-device-width : 480px) {
+    display: flex;
+    }
 }
 .styledMenu{
+  
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -369,6 +375,10 @@ a {
   left: 0;
   transition: transform 0.3s ease-in-out;
   
+  display: none;
+  @media only screen and (min-device-width : 320px) and (max-device-width : 480px) {
+    display: flex;
+    }
  
   @media only screen and (min-device-width : 320px) and (max-device-width : 480px) {
     width: 100%;
