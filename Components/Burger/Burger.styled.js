@@ -15,6 +15,11 @@ export const StyledBurger = styled.button`
   cursor: pointer;
   padding: 0;
   z-index: 10;
+  
+  display: none;
+  @media only screen and (min-device-width : 320px) and (max-device-width : 480px) {
+    display: flex;
+    }
 
   &:focus {
     outline: none;

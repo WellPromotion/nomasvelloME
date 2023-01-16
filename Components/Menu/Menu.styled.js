@@ -14,6 +14,10 @@ export const StyledMenu = styled.nav`
   left: 0;
   transition: transform 0.3s ease-in-out;
   
+  display: none;
+  @media only screen and (min-device-width : 320px) and (max-device-width : 480px) {
+    display: flex;
+    }
  
   @media only screen and (min-device-width : 320px) and (max-device-width : 480px) {
     width: 100%;
@@ -37,7 +41,7 @@ export const StyledMenu = styled.nav`
         }
 
     &:hover {
-      color: red;
+      color: #9EBB31;
     }
   }
   transform: translateX(-100%);
