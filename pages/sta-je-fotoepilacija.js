@@ -69,15 +69,11 @@ const StaFotoepilacija = () => {
                     </div>
                     <div className="singleItem">
                         <img src={turqCircle} className="turqCircle" alt="" />
-                        <p className='singleText'>Izbjegavati izlaganje suncu i UV zračenju prije i poslije tretmana (Posavjetujte se u Vašem centru).</p>
+                        <p className='singleText'>Izbjegavati izlaganje suncu i UV zračenju 48h prije tretmana (Posavjetujte se u Vašem centru).</p>
                     </div>
                     <div className="singleItem">
                         <img src={turqCircle} className="turqCircle" alt="" />
                         <p className='singleText'>Ne koristiti agresivne proizvode na koži, kao što su profesionalni piling ili hemijske kiseline (glikolna ili retinoička), najmanje mjesec dana prije tretmana.</p>
-                    </div>
-                    <div className="singleItem">
-                        <img src={turqCircle} className="turqCircle" alt="" />
-                        <p className='singleText'>Izbjegavati izlaganje suncu i UV zračenju prije i poslije tretmana (Posavjetujte se u Vašem centru).</p>
                     </div>
                     <div className="singleItem">
                         <img src={turqCircle} className="turqCircle" alt="" />
@@ -94,7 +90,8 @@ const StaFotoepilacija = () => {
                     <p className="prijeTitle">Poslije fotoepilacije</p>
                     <div className="singleItem">
                         <img src={greenCircle} className="turqCircle" alt="" />
-                        <p className='singleText'>Izbjegavati izlaganje suncu i UV zračenju prije i poslije tretmana (Posavjetujte se u Vašem centru).</p>
+                        <p className='singleText'>
+Izbjegavati izlaganje suncu i UV zračenju 48 poslije tretmana (Posavjetujte se u Vašem centru).</p>
                     </div>
                     <div className="singleItem">
                         <img src={greenCircle} className="turqCircle" alt="" />
@@ -102,7 +99,8 @@ const StaFotoepilacija = () => {
                     </div>
                     <div className="singleItem">
                         <img src={greenCircle} className="turqCircle" alt="" />
-                        <p className='singleText'>Preporučuje se dolazak u centar sa čistom kožom, što znači, bez krema, dezodoransa, šminke. Ne koristiti proizvode koji u sebi sadrže alkohol prva tri dana (dezodorans).</p>
+                        <p className='singleText'>
+Nakon tretmana, ne koristiti proizvode koji u sebi sadrže alkohol prva tri dana (dezodorans).</p>
                     </div>
                     <div className="singleItem">
                         <img src={greenCircle} className="turqCircle" alt="" />
