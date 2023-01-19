@@ -324,7 +324,7 @@ No+Vello vam nudi visoko kvalitetnu kozmetiku za vašu kožu. Otkrijte naše pro
                         <div className="column">
                         <div className="singleImage">
                                 <img src={stresImg} alt="" />
-                                <h4 className="imgTitle">STRESS NA LICU</h4>
+                                <h4 className="imgTitle">STRES NA LICU</h4>
                                 <p className="defaultText">
                                 Nakon našeg tretmana, umor nestaje a vaše lice će zasluženo blistati!
                                 </p>
@@ -372,7 +372,7 @@ No+Vello vam nudi visoko kvalitetnu kozmetiku za vašu kožu. Otkrijte naše pro
                                         <img src={greenLines} alt="" />
                                        </div>
                                         <div className="right">
-                                        <p className="singlePrice">30KM</p>
+                                        <p className="singlePrice">40KM</p>
                                         </div>
                                     </div>
                                     <div className="greenItem">
@@ -404,7 +404,7 @@ i hijaluronskom kiselinom</p>
                                         <img src={greenLines} alt="" />
                                        </div>
                                         <div className="right">
-                                        <p className="singlePrice">40KM</p>
+                                        <p className="singlePrice">49KM</p>
                                         </div>
                                     </div>
                                     <div className="greenItem">
@@ -441,7 +441,7 @@ galvanskom energijom</p>
                                         <img src={greenLines} alt="" />
                                        </div>
                                         <div className="right">
-                                        <p className="singlePrice">40KM</p>
+                                        <p className="singlePrice">49KM</p>
                                         </div>
                                     </div>
                                     <div className="greenItem">
@@ -468,7 +468,7 @@ galvanskom energijom</p>
                                         <img src={greenLines} alt="" />
                                        </div>
                                         <div className="right">
-                                        <p className="singlePrice">55KM</p>
+                                        <p className="singlePrice">65KM</p>
                                         </div>
                                     </div>
                                     <div className="greenItem">
@@ -502,7 +502,7 @@ sa C vitaminom</p>
                                         <img src={greenLines} alt="" />
                                        </div>
                                         <div className="right">
-                                        <p className="singlePrice">65KM</p>
+                                        <p className="singlePrice">70KM</p>
                                         </div>
                                     </div>
                                     <div className="columns lowerCols">

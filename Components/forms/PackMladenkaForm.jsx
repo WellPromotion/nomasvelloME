@@ -3,7 +3,7 @@ import { useState, useEffect } from 'react';
 import CONTACT_MUTATION from "../../mutations/contact-form";
 import { useMutation } from '@apollo/client';
 
-export default function BesplatniForm(props) {
+export default function PackMladenkaForm(props) {
 
     const { projects, map } = props;
 
@@ -13,7 +13,6 @@ export default function BesplatniForm(props) {
         3: "",
         4: "",
         5: "",
-        6: "", 
   };
 
   const [ input, setInput ] = useState( initialState );
@@ -23,16 +22,14 @@ export default function BesplatniForm(props) {
 
   const createContactData = ( contactInfo ) => {
         const contactData = {
-        id: 19,
+        id: 23,
         fieldValues: [
 
             {id : 1, value: contactInfo[1] },
             {id : 3, value: contactInfo[2] },
-            {id : 9, value: contactInfo[3] },
-            {id : 6, value: contactInfo[4] },
-            {id : 7, value: contactInfo[5] },
-            {id : 8, value: contactInfo[6] }
-            
+            {id : 4, value: contactInfo[3] },
+            {id : 5, value: contactInfo[4] },
+            {id : 6, value: contactInfo[5] }
         ]
     };
 setOrderData(contactData)
@@ -76,28 +73,23 @@ const handleOnChange = ( event ) => {
         <>
             {/* CONTACT */}
 
-            <section className="contact kontaktBesplatni section" id="kontakt">
+            <section className="contact" id="kontakt">
                 <div className="container-90">
                 <div className="columns">
-                    {/* <div className="column is-6">
+                    <div className="column is-6">
                     <div className="info-wrap">
-                        <h2 className='naruciteTermin'>Naručite se - Besplatni termin</h2>
+                        <h2 className='naruciteTermin'>Naručite se</h2>
                         
                     </div>
                     
-                    </div> */}
-
-                        <div className="column formCol is-6">
-                            
-                        <div className="info-wrap">
-                        {/* <h2 className='naruciteTermin'>Naručite se - Besplatan probni tretman</h2> */}
-                        
                     </div>
+
+                    <div className="column is-6">
 
                     <div className="form-wrap">
                         {
                             success === 1 ? 
-                            <div className="success-wrap pozivSuccess">
+                            <div className="success-wrap">
                                 <h5>Hvala vam!</h5>
                                 <p>Vaša poruka je primljena. Neko iz našeg tima će vas kontaktirati.</p>
                             </div>
@@ -129,31 +121,23 @@ const handleOnChange = ( event ) => {
                         </div>
                         <div className="column is-12">
                             <input onChange={ handleOnChange } className="input" type="email" placeholder="Email*" required name="3"/>
-                                        </div>
-                        <div className="select column is-12">
-                        <select onChange={ handleOnChange } required name="4">
-                            <option className="first">Odaberite besplatan probni tretman*</option>
-                            <option value="Fotoepilacija">Laserska epilacija diodnim laserom</option>
-                            <option value="Fotopodmlađivanje">Fotoepilacija sa IPL SHR</option>
-                            <option value="Fotopodmlađivanje">Pregled lica Woodovom lampom</option>
-                        </select>
                         </div>
                         <div className="select column is-12">
-                        <select onChange={ handleOnChange } required name="5">
-                            <option className="first">Odaberite željeni centar*</option>
-                            <option value="Sarajevo - Novo Sarajevo">Sarajevo - Novo Sarajevo</option>
-                            <option value="Sarajevo - Stari Grad">Sarajevo - Stari Grad</option>
-                            <option value="Sarajevo - Novi Grad">Sarajevo - Novi Grad</option>
-                            <option value="Sarajevo - Ilidža">Sarajevo - Ilidža</option>
-                            <option value="Banja Luka">Banja Luka</option>
-                            <option value="Zenica">Zenica</option>
-                            <option value="Tuzla">Tuzla</option>
-                            <option value="Doboj">Doboj</option>
-                            <option value="Brčko">Brčko</option>
+                        <select onChange={ handleOnChange } required name="4">
+                            <option className="first">Odaberite željeni centar</option>
+                                                <option value="Sarajevo - Novo Sarajevo">Sarajevo - Novo Sarajevo</option>
+                                                <option value="Sarajevo - Stari Grad">Sarajevo - Stari Grad</option>
+                                                <option value="Sarajevo - Novi Grad">Sarajevo - Novi Grad</option>
+                                                <option value="Sarajevo - Ilidža">Sarajevo - Ilidža</option>
+                                                <option value="Banja Luka">Banja Luka</option>
+                                                <option value="Zenica">Zenica</option>
+                                                <option value="Tuzla">Tuzla</option>
+                                                <option value="Doboj">Doboj</option>
+                                                <option value="Brčko">Brčko</option>
                         </select>
                         </div>
                         <div className="column is-12 terminKontakta">
-                            <input onChange={ handleOnChange } className="input" type="text" placeholder="Termin u kojem želite biti kontaktirani" name="6"/>
+                            <input onChange={ handleOnChange } className="input" type="text" placeholder="Termin u kojem želite biti kontaktirani" name="5"/>
                         </div>
                         <div className="column is-12">
                             <button className="button submit-form" type="submit">POŠALJI</button>

@@ -1,13 +1,14 @@
 import styles from '../styles/PonudePromocije.module.scss';
 import leftImg from '../public/images/Promocija-mladenka-2.jpg';
 import greenCheck from '../public/images/greenCheck.svg';
+import PackMladenkaPopup from '../Components/popups/PackMladenkaPopup';
 // import NajboljiPlanoviPopup from '../Components/popups/NajboljiPlanoviPopup';
 
 
 export default function PackMladenka() {
     return (
     
-        <>
+        <> 
         
         <section id="heroTitlePromocije" className="hero is-medium">
             <div className="hero-body">
@@ -38,7 +39,7 @@ export default function PackMladenka() {
                             <p className="planoviItems"><span className='planoviItemsBullet'><img src={greenCheck} alt="" /></span> Kuponi se moraju realizovati prije nego što istekne navedeni rok važenja.</p>
                             <p className="planoviItems"><span className='planoviItemsBullet'><img src={greenCheck} alt="" /></span> Kuponi se ne mogu zamijeniti za druge usluge ili za novac u centrima.</p>
                             
-                            {/* <NajboljiPlanoviPopup/> */}
+                            <PackMladenkaPopup/>
                         </div>
                     </div>
                 </div>

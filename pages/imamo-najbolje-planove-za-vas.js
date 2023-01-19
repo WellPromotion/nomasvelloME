@@ -15,7 +15,7 @@ export default function PonudePromocije() {
                         <h5 className='preTitle'>
                         Otkrijte naše ponude i promocije
                         </h5>
-                    <h1 className=" title">
+                    <h1 className=" title"> 
                        Imamo najbolje planove za vas
                     </h1>
                 </div>

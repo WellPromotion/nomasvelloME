@@ -1,6 +1,7 @@
 import styles from '../styles/PonudePromocije.module.scss';
 import leftImg from '../public/images/Plan-Esthetic-2022.jpg';
 import greenCheck from '../public/images/greenCheck.svg';
+import PlanEstheticPopup from '../Components/popups/PlanEstheticPopup';
 // import NajboljiPlanoviPopup from '../Components/popups/NajboljiPlanoviPopup';
 
 
@@ -38,7 +39,7 @@ export default function PlanEstheticNovello() {
                             <p className="planoviItems"><span className='planoviItemsBullet'><img src={greenCheck} alt="" /></span> Promocija vrijedi do daljnjeg.</p>
                         
                             
-                            {/* <NajboljiPlanoviPopup/> */}
+                            <PlanEstheticPopup/>
                         </div>
                     </div>
                 </div>
