@@ -1,11 +1,5 @@
 import React, { useState } from 'react'
-// import HeadTags from '../Components/HeadTags'
-// import Nav from '../Components/Nav'
-// import Footer from '../Components/Footer'
-// import Widgets from '../Components/Widgets'
 import GoogleMapReact from 'google-map-react';
-// import GET_SEO from '../queries/seo/seo-location'
-// import client from '../Components/ApolloClient'
 import mapLogo from '../public/images/mapLogo.svg'
 import locationIcon from '../public/images/locationIcon.svg'
 import downArrow from '../public/images/down-arrow.svg'
@@ -37,7 +31,7 @@ export default function lokacija(props) {
             lat: 43.85421427202709, 
             long: 18.390190383133785,
             address: "Kolodvorska 3B",
-            phone: "+033 718 555",
+            phone: "033 718 555 | 061 134 946",
             email: "info@nomasvello.ba",
         },
         {
@@ -48,7 +42,7 @@ export default function lokacija(props) {
             lat: 43.860144599935474, 
             long: 18.427049679415575,
             address: "Edhema Mulabdića 2",
-            phone: "+033 447 351",
+            phone: "033 447 351 | 061 135 072",
             email: "starigrad@nomasvello.ba",
         },
         {
@@ -59,7 +53,7 @@ export default function lokacija(props) {
             lat: 43.826073680387616, 
             long: 18.35323238701965,
             address: "Hamdije Kapidžića 11",
-            phone: "+033 766 130",
+            phone: "033 766 130 | 061 136 373",
             email: "dobrinja@nomasvello.ba",
         },
         {
@@ -69,8 +63,8 @@ export default function lokacija(props) {
             img: mapLogo, 
             lat: 43.83108391485479, 
             long: 18.30768914160114,
-            address: "Rustem-pašina 1, Ilidža",
-            phone: "+033 620 077",
+            address: "Rustem-pašina 1 – TC SARA",
+            phone: "033 620 077 | 062 022 019",
             email: "ilidza@nomasvello.ba",
         },
         {
@@ -81,7 +75,7 @@ export default function lokacija(props) {
             lat: 44.769029076816324, 
             long: 17.185361934757125,
             address: "Bulevar cara Dušana 15",
-            phone: " +051 258 150 | 066 486 645",
+            phone: "051 258 150 | 066 486 645",
             email: "banjaluka@nomasvello.ba",
       },
       {
@@ -103,7 +97,7 @@ export default function lokacija(props) {
             lat: 44.200100661438874,    
             long: 17.909923994094555,
             address: "Kamberovića čikma bb",
-            phone: " +032 40 40 50 | 061 02 67 00",
+            phone: "032 40 40 50 | 061 02 67 00",
             email: "zenica@nomasvello.ba",
       },
       {
@@ -113,7 +107,7 @@ export default function lokacija(props) {
         img: mapLogo, 
         lat: 44.534124, 
         long: 18.683063,
-        address: "Maršala Tita br. 2",
+        address: "ZGRADA AVAZ – Maršala Tita br. 2",
         phone: "061 75 20 20",
         email: "tuzla@nomasvello.ba",
       },

@@ -4,9 +4,7 @@ import styles from '../styles/Home.module.scss'
 import bellowTitleImg from "../public/images/belowTitle.png"
 import { Gallery } from '../Components/Carousel';
 import { TestimonialCarousel } from '../Components/TestimonialsMain';
-import womanImg from "../public/images/homepage/plan-si-quiero-nomasvello.png"
 import threeHeads from "../public/images/homepage/three-heads.png"
-import partnerBg from "../public/images/homepage/partner-bg.png"
 import logoWhite from "../public/images/homepage/white-logo.png"
 import priceTag from "../public/images/homepage/priceTag.png"
 import HeadSlider from '../Components/HeadSlider';
@@ -33,13 +31,7 @@ export default function Home() {
       <Head>
         <title>No+Vello® - Svjetski lider u laserskoj epilaciji</title>
         <link rel="icon" href="/favico.ico" type="image/x-icon" />
-        {/* <meta name="viewport" content="width=device-width"/> */}
-        {/* <meta name="viewport" content="width=970, maximum-scale=1.0"></meta> */}
-       
-        {/* <meta name="viewport" content="width=device-width"/> */}
-        {/* <meta name="viewport" content="width=device-width, initial-scale=1.0"></meta> */}
         <link href="//db.onlinewebfonts.com/c/aad1dafbe5df4c78ab2f1396cf213de3?family=BowlingScriptW01-Regular" rel="stylesheet" type="text/css" /> 
-        {/* <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" /> */}
         <meta name="viewport" content="width=device-width"/>
       </Head>
 

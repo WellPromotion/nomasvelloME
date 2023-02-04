@@ -120,26 +120,26 @@ Iskrene preporuke za sve one koji muku muče s dlakama. </p>
             <Carousel.Item>
             <div className="testimonialSlide">
                 <div className="testimonialInner">
-                <p className="testimonialTitle">Toplo preporucujem!</p>
-                    <p className="testimonialSubtitle">Imala sam problema sa rastom dlaka kao i sa urastanjem, a sve je to nestalo redovnim tretmanima u No-Vellu. Sada nakon što sam postigla željeni rezultat, idem samo 1 ili 2 puta godišnje na održavanje. Osim što je na duže staze ekonomičnija opcija, mogu iskreno reći da je tretman fotoepilacijom i dosta manje bolan od običnih depilacija. Toplo preporučujem!</p>
+                <p className="testimonialTitle">Toplo preporučujem!</p>
+                    <p className="testimonialSubtitle">Profesionalna, kvalitetna usluga, uz preljubazno osoblje. Toplo preporučujem svima.</p>
                 </div>
                 <div className="testimonialBellow">
                     <img className="testionialImg" src={testionialImg} alt="" />
-                    <p className="testimonialName">Majda Vuk</p>
-                    <p className="testimonialTown">Mostar</p>
+                    <p className="testimonialName">Jasmina Buljić</p>
+                    <p className="testimonialTown">Sarajevo</p>
                 </div>
             </div>
             </Carousel.Item>
             <Carousel.Item>
             <div className="testimonialSlide">
                 <div className="testimonialInner">
-                <p className="testimonialTitle">Toplo preporucujem!</p>
-                    <p className="testimonialSubtitle">Imala sam problema sa rastom dlaka kao i sa urastanjem, a sve je to nestalo redovnim tretmanima u No-Vellu. Sada nakon što sam postigla željeni rezultat, idem samo 1 ili 2 puta godišnje na održavanje. Osim što je na duže staze ekonomičnija opcija, mogu iskreno reći da je tretman fotoepilacijom i dosta manje bolan od običnih depilacija. Toplo preporučujem!</p>
+                <p className="testimonialTitle">Sve preporuke.</p>
+                    <p className="testimonialSubtitle">Prezadovoljna kvalitetom usluga, rezultatima istih, kao i profesionalnošću i ljubaznošću osoblja. Zasigurno ostajem vjerni klijent. Preporuke od srca!</p>
                 </div>
                 <div className="testimonialBellow">
                     <img className="testionialImg" src={testionialImg} alt="" />
-                    <p className="testimonialName">Majda Vuk</p>
-                    <p className="testimonialTown">Mostar</p>
+                    <p className="testimonialName">Hana Vejo</p>
+                    <p className="testimonialTown">Sarajevo</p>
                 </div>
             </div>
         </Carousel.Item>
