@@ -497,6 +497,7 @@
                          font-size: 1.1rem;
                          line-height: 1.172rem;
                          color: #fff;
+                         
                      }
                  }
                  .singleItem{
@@ -559,6 +560,7 @@
                      font-size: 1.125rem;
                      line-height: 1.688rem;
                      color: $primaryGreen;
+                     white-space: nowrap;
                      @media only screen and (min-device-width : 320px) and (max-device-width : 480px) {
                         font-size: 1rem;
                      }

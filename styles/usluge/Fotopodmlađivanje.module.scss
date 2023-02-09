@@ -45,6 +45,9 @@
 
 #principFoto{
     padding-top: 5.5rem;
+    @media only screen and (min-device-width : 320px) and (max-device-width : 480px) {
+       padding-bottom: 1rem;
+         }
     
     .leftCol{
         margin-right: 7.5rem;
@@ -68,7 +71,7 @@
 }
 
 #rezultati{
-    padding-top: 5.5rem;
+    padding-top: 2rem;
     
     .columns{
         display: flex;
@@ -228,6 +231,7 @@
                 font-size: 1.125rem;
                 line-height: 1.688rem;
                 color: $primaryGreen;
+                white-space: nowrap;
             }
         }
        }

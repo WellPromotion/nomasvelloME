@@ -317,7 +317,7 @@ Broj sesija će zavisiti od nekoliko faktora, kao što su: starosna dob, tretira
                             <div className="singleItem upperItem">
                                     <div className="inner">
                                         <p className="title">Facijalni anti-age</p>
-                                        <p className="price">30 KM</p>
+                                        <p className="price">40 KM</p>
                                     </div>
                                 </div>
                                 

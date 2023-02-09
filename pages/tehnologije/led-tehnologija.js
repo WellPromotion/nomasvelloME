@@ -274,7 +274,7 @@ const LedTehnologija = () => {
                                            <img className='is-right' src={tarifeLice} alt="" />
                                        </div>
                                        <p className='tarifePrice'>
-                                           30KM
+                                           49KM
                                        </p>
                                        <p className='tarifeDesc'>
                                            Cijena tretmana lica i tijela

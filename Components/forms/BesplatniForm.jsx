@@ -130,7 +130,7 @@ const handleOnChange = ( event ) => {
                         <div className="column is-12">
                             <input onChange={ handleOnChange } className="input" type="email" placeholder="Email*" required name="3"/>
                                         </div>
-                        <div className="select column is-12">
+                        <div className="select column is-12 odaberiteLineForm">
                         <select onChange={ handleOnChange } required name="4">
                             <option className="first">Odaberite besplatan probni tretman*</option>
                             <option value="Fotoepilacija">Laserska epilacija diodnim laserom</option>

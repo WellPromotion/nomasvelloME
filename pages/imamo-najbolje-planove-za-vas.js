@@ -38,7 +38,7 @@ export default function PonudePromocije() {
                             <p className="planoviItems"><span className='planoviItemsBullet'><img src={greenCheck} alt="" /></span> Dati na uvid karticu za plan na svakoj sesiji.</p>
                             <p className="planoviItems"><span className='planoviItemsBullet'><img src={greenCheck} alt="" /></span> Dati na uvid račun kao dokaz o kupovini.</p>
                             <p className="planoviItems"><span className='planoviItemsBullet'><img src={greenCheck} alt="" /></span> Važi samo u centrima u kojima je aktivna ova promocija.</p>
-                            
+                                  
                             <NajboljiPlanoviPopup/>
                         </div>
                     </div>

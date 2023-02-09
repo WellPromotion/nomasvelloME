@@ -8,7 +8,7 @@
 }
 
 
-.definicijaTjelesni{
+.definicijaTjelesni{ 
     
     .contentGreenTjelesni{
         font-weight: 500;
@@ -89,6 +89,7 @@
 }
 
 .cijenaTjelesni{
+    padding-top: 3rem !important;
     .singleItemTop, .upperItem{
         width: 30.063rem !important;
         @media only screen and (min-device-width : 320px) and (max-device-width : 480px) {

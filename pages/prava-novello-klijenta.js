@@ -9,15 +9,7 @@ export default function PravaKlijenta() {
     
         <>
         
-        {/* <section id="heroTitlePromocije" className="hero is-medium">
-            <div className="hero-body">
-                    <div className="container has-text-centered">
-                    <h1 className=" title">
-                       Poklonite ljepotu
-                    </h1>
-                </div>
-            </div>
-        </section> */}
+            
             
             
         <section id="pokloniteMid" className="section klijentiSection">

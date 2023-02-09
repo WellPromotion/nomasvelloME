@@ -22,9 +22,9 @@ const MyDot = ({ isActive }) => (
 export const TestimonialCarousel = () => {
     return (
       
-
+   
         <Carousel dot={MyDot} cols={3} rows={1} gap={10} loop showDots>
-            
+             
         <Carousel.Item>
             <div className="testimonialSlide">
                 <div className="testimonialInner">
@@ -107,8 +107,7 @@ export const TestimonialCarousel = () => {
             <div className="testimonialSlide">
                 <div className="testimonialInner">
                 <p className="testimonialTitle">Iskrene preporuke</p>
-                    <p className="testimonialSubtitle">Jedino mjesto gdje rado ostavljam svoj novac i svoje vrijeme.Hvala vam što postojite.Riješiti se dlaka više nije mit i nije nemoguća misija uz vas.
-Iskrene preporuke za sve one koji muku muče s dlakama. </p>
+                    <p className="testimonialSubtitle">Jedino mjesto gdje rado ostavljam svoj novac i svoje vrijeme.Hvala vam što postojite.Riješiti se dlaka više nije mit i nije nemoguća misija uz vas. Iskrene preporuke za sve one koji muku muče s dlakama. </p>
                 </div>
                 <div className="testimonialBellow">
                     <img className="testionialImg" src={testionialImg} alt="" />

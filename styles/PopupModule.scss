@@ -97,5 +97,21 @@
         color: rgb(54, 54, 54);
     }
     
+    .terminKontakta{
+        input{
+            @media only screen and (min-device-width : 320px) and (max-device-width : 400px) {
+                font-size: .83rem;
+                height: 2.5rem;
+                }
+        }
+    }
+    .odaberiteLineForm{
+        select{
+            @media only screen and (min-device-width : 320px) and (max-device-width : 400px) {
+                font-size: .83rem;
+                height: 2.5rem;
+                }
+        }
+    }
     
 }

@@ -52,7 +52,7 @@ const PersonalizovaniTretmanLica = () => {
                 </div>
             </section>
             
-            <section id="subHeader" className="subHeader">
+            <section id="subHeader" className="subHeader section">
                 <div className="containe">
                     <div className="columns subHeaderCols">
                         <div className="column is-5 has-text-centered">
@@ -68,7 +68,7 @@ potpuno besplatne profesionalne procjene!
                 </div>
             </section>
             
-            <section id="njegaKoze" className="njegaKoze">
+            <section id="njegaKoze" className="njegaKoze section">
                 <div className="container">
                     <div className="columns njegaKozeCols level">
                         <div className="column imgCol is-4">
@@ -91,7 +91,7 @@ osnova da se održimo mladima u budućnosti. </p>
                 </div>
             </section>
             
-            <section id="threeCols" className="threeCols">
+            <section id="threeCols" className="threeCols section">
                 <div className="container">
                     <div className="columns">
                         <div className="column has-text-centered is-3">
@@ -113,7 +113,7 @@ osnova da se održimo mladima u budućnosti. </p>
                 </div>
             </section>
 
-            <section id="threePars" className="threePars">
+            <section id="threePars" className="threePars section">
                 <div className="container">
                     <div className="columns">
                         <div className="column has-text-centered firstCol">
@@ -134,7 +134,7 @@ osnova da se održimo mladima u budućnosti. </p>
             </section>
 
             
-            <section id="threeColsGreen" className="threeColsGreen">
+            <section id="threeColsGreen" className="threeColsGreen section">
                 <div className="container">
                     <div className="columns titleCols">
                         <div className="column has-text-centered">
@@ -163,7 +163,7 @@ osnova da se održimo mladima u budućnosti. </p>
                 </div>
             </section>
             
-            <section id="pozivamoVas" className="pozivamoVas">
+            <section id="pozivamoVas" className="pozivamoVas section">
                 <div className="container">
                     <div className="columns">
                         <div className="column">
@@ -175,11 +175,11 @@ osnova da se održimo mladima u budućnosti. </p>
                                     <div className="inner">
                                         <div className="titlePart">
                                             <img src={doctorIcon} className="doctorIcon" alt="besplatan_pregled_lica" />
-                                            <p className="doctorTitle">Pozivamo vas da dodjete u nas centar na
+                                            <p className="doctorTitle">Pozivamo vas da dođete u naš centar na
 potpuno besplatan pregled lica</p>
                                         </div>
-                                        <p className='doctorSub'>Radi vase sigurnosti, Centri No+Vello <br />
-                                            raspolazu ljekarskom podrskom</p>
+                                        <p className='doctorSub'>Radi vaše sigurnosti, Centri No+Vello <br />
+                                            raspolažu ljekarskom podrškom</p>
                                         <a href="/centri" className="doctorButton">Pogledaj lokacije centara</a>
                                     </div>
                                 </div>
@@ -189,7 +189,7 @@ potpuno besplatan pregled lica</p>
                 </div>
             </section>
             
-            <section id="cijenaFotopod" className="cijenaFotopod cijenaFacijalni cijenaTjelesni cijenaPersonalizovani">
+            <section id="cijenaFotopod" className="cijenaFotopod cijenaFacijalni cijenaTjelesni cijenaPersonalizovani section">
                 <div className="container">
                     <div className="columns padMinusCols">
                         <div className="column has-text-centered padMinus">
@@ -212,7 +212,7 @@ potpuno besplatan pregled lica</p>
                 </div>
             </section>
             
-            <section id="naruciteBottom" className="naruciteBottom naruciteFoto naruciteTjelesni">
+            <section id="naruciteBottom" className="naruciteBottom naruciteFoto naruciteTjelesni section">
                 <div className="container">
                     <div className="columns is-gapless">
                         <div className="column imgCol">

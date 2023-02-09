@@ -3,10 +3,14 @@
 .personalizovaniTretman{
      background-image: url('../../public/images/usluge/personalizovani-tretman-lica/header.png') !important;
      background-repeat: no-repeat;
+     
+    //  @media only screen and (min-device-width : 320px) and (max-device-width : 480px) {
+    //     background-position-x: 60%;
+    //      }
 }
 
 #subHeader{
-    padding-top: 4rem;
+    padding-top: 3rem;
     
     .subHeaderCols{
         justify-content: center;
@@ -27,13 +31,13 @@
 }
 
 #njegaKoze{
-    padding-top: 4rem;
+    padding-top: 1rem;
     
     .njegaKozeCols{
         justify-content: center;
     }
     .singleCols{
-        padding-top: 3rem;
+        padding-top: 1rem;
         justify-content: center;
         .singlePar{
             font-weight: 400;
@@ -72,7 +76,7 @@
 }
 
 #threeCols{
-    padding-top: 3rem;
+    padding-top: 1rem;
     
     .columns{
         justify-content: center;
@@ -96,7 +100,7 @@
 }
 
 #threePars{
-    padding-top: 4rem;
+    padding-top: 1rem;
     .firstCol{
         display: flex;
         justify-content: center;
@@ -111,7 +115,7 @@
     }
     
     .singlePar{
-        padding-top: 2rem;
+        padding-top: 1rem;
         justify-content: center;
         .defaultText{
             color: #59636C;
@@ -119,12 +123,12 @@
         }
     }
     .imgCols{
-        padding-top: 3rem;
+        padding-top: 2rem;
     }
 }
 
 #threeColsGreen{
-    padding-top: 3rem;
+    padding-top: 1rem;
     
     .titleCols{
         .threeColsGreenTitle{
@@ -156,7 +160,7 @@
 }
 
 #pozivamoVas{
-    padding-top: 5.5rem;
+    padding-top: 2.5rem;
     
     .boxCols{
         border-radius: 0.75rem;
@@ -217,6 +221,7 @@
 }
 
 .cijenaPersonalizovani{
+    padding-top: 2.5rem !important;
     .pozivamoVas{
         font-weight: 400;
         color: $titleColor;
