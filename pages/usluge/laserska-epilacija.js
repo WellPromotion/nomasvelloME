@@ -8,7 +8,7 @@ import sample2 from '../../public/images/usluge/laserska-epilacija/sample2.png'
 import cijenaIcon from '../../public/images/usluge/cijenaIcon.svg'
 import priceTag from '../../public/images/usluge/priceIcon.svg'
 import priceTwo from '../../public/images/usluge/laserskaCijene.png'
-import naruciteSe from '../../public/images/usluge/laserska-epilacija/laserska-epilacija-ponuda.jpg'
+import naruciteSe from '../../public/images/usluge/laserska-epilacija/laserska-epilacija-narucite.jpg'
 import LaserskaEpilacijaPopup from '../../Components/popups/LaserskaEpilacijaPopup';
 import LaserskaEpilacijaPopupBottom from '../../Components/popups/LaserskaEpilacijaPopupBottom';
 import pravaKlijenata from '../../public/images/prava-klijenata1.png'
@@ -33,7 +33,7 @@ const LaserskaEpilacija = () => {
                             <div className="column">
                                 <Example></Example>
                             </div>
-                        </div>
+                        </div> 
                     </div>
                 </div>
                 <div className="container">

@@ -87,18 +87,20 @@ return (
 
             <div className="mediaWrap">
                 <ul className='mediaIconsList'>
-                    <a href="https://www.youtube.com/user/NomasVelloBiH/featured">
-                        <li><img src={youtubeIcon} alt="" /></li>
+                    <a href="https://www.facebook.com/NomasvelloSarajevo">
+                        <li><img src={facebookIcon} alt="" /></li>
                     </a>
                     <a href="https://www.instagram.com/nomasvello.ba/?hl=en">
                         <li><img src={instagramIcon} alt="" /></li>
                     </a>
+                    <a href="https://www.youtube.com/user/NomasVelloBiH/featured">
+                        <li><img src={youtubeIcon} alt="" /></li>
+                    </a>
+                    
                     {/* <a href="https://twitter.com/novellobih">
                         <li><img src={twitterIcon} alt="" /></li>
                     </a> */}
-                    <a href="https://www.facebook.com/NomasvelloSarajevo">
-                        <li><img src={facebookIcon} alt="" /></li>
-                    </a>
+                   
                 </ul>
                     </div>
                 </div>

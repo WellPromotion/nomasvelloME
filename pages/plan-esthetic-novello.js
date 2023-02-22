@@ -1,5 +1,5 @@
 import styles from '../styles/PonudePromocije.module.scss';
-import leftImg from '../public/images/Plan-Esthetic-2022.jpg';
+import leftImg from '../public/images/Plan-Esthetic-2023.jpg';
 import greenCheck from '../public/images/greenCheck.svg';
 import PlanEstheticPopup from '../Components/popups/PlanEstheticPopup';
 // import NajboljiPlanoviPopup from '../Components/popups/NajboljiPlanoviPopup';
