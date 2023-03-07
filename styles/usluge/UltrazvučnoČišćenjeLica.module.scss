@@ -2,10 +2,15 @@
 @font-face {font-family: "BowlingScriptW01-Regular"; src: url("//db.onlinewebfonts.com/t/aad1dafbe5df4c78ab2f1396cf213de3.eot"); src: url("//db.onlinewebfonts.com/t/aad1dafbe5df4c78ab2f1396cf213de3.eot?#iefix") format("embedded-opentype"), url("//db.onlinewebfonts.com/t/aad1dafbe5df4c78ab2f1396cf213de3.woff2") format("woff2"), url("//db.onlinewebfonts.com/t/aad1dafbe5df4c78ab2f1396cf213de3.woff") format("woff"), url("//db.onlinewebfonts.com/t/aad1dafbe5df4c78ab2f1396cf213de3.ttf") format("truetype"), url("//db.onlinewebfonts.com/t/aad1dafbe5df4c78ab2f1396cf213de3.svg#BowlingScriptW01-Regular") format("svg"); } 
 
 .ultrazvucnoHeader{
-     background-image: url('../../public/images/usluge/ultrazvucno-ciscenje-lica/header.png') !important;
-     background-repeat: no-repeat;
+    background-image: linear-gradient(0deg, rgba(172, 199, 110, 0.75), rgba(172, 199, 110, 0.75)), url('../../public/images/usluge/ultrazvucno-ciscenje-lica/ultrazvucno-ciscenje-desk.jpg') !important;
+    background-repeat: no-repeat;
+    background-position-y: 70%;
+    background-size: cover;
      @media only screen and (min-device-width : 320px) and (max-device-width : 480px) {
-        background-position-x: 30%;
+        background-image: linear-gradient(0deg, rgba(172, 199, 110, 0.75), rgba(172, 199, 110, 0.75)), url('../../public/images/usluge/ultrazvucno-ciscenje-lica/ultrazvucno-ciscenje-mob.jpg') !important;
+        background-repeat: no-repeat;
+        background-position: center;
+        background-size: cover;
         }
 }
 

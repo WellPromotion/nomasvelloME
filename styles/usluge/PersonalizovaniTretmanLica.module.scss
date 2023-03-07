@@ -3,10 +3,14 @@
 .personalizovaniTretman{
      background-image: url('../../public/images/usluge/personalizovani-tretman-lica/header.png') !important;
      background-repeat: no-repeat;
-     
-    //  @media only screen and (min-device-width : 320px) and (max-device-width : 480px) {
-    //     background-position-x: 60%;
-    //      }
+     background-size: cover;
+     background-position: center !important;
+     @media only screen and (min-device-width : 320px) and (max-device-width : 480px) {
+        background-image: linear-gradient(0deg, rgba(172, 199, 110, 0.6), rgba(172, 199, 110, 0.6)), url('../../public/images/usluge/personalizovani-tretman-lica/personalizovani-tretman-mob.jpg') !important;
+        background-repeat: no-repeat;
+        background-position: center;
+        background-size: cover;
+         }
 }
 
 #subHeader{
