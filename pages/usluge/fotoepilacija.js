@@ -325,7 +325,7 @@ svjetlost
                                 <div className="singleItem upperItem">
                                     <div className="inner">
                                         <p className="title">Noge (svaka noga, pola noge ili kompletna)</p>
-                                        <p className="price">49 KM</p>
+                                        <p className="price">55 KM</p>
                                     </div>
                                 </div>
                                 <div className="singleItem upperItem">

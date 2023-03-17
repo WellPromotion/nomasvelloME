@@ -24,7 +24,7 @@ export default function Main(props) {
     },
     { id: 3, title: "Stomak", price: 49, selected: false, sidebar: false },
     { id: 4, title: "Bikini", price: 49, selected: false, sidebar: false },
-    { id: 5, title: "Noge", price: 98, selected: false, sidebar: false },
+    { id: 5, title: "Noge", price: 110, selected: false, sidebar: false },
     { id: 6, title: "Stopala", price: 25, selected: false, sidebar: false },
     { id: 7, title: "Ramena", price: 49, selected: false, sidebar: false },
     { id: 8, title: "Ruke", price: 98, selected: false, sidebar: false },
@@ -385,7 +385,7 @@ export default function Main(props) {
                 />
               </Tippy>
               <Tippy
-                content="Noge (98 KM)"
+                content="Noge (110 KM)"
                 followCursor={true}
                 plugins={[followCursor]}
               >
@@ -751,7 +751,7 @@ export default function Main(props) {
                 />
               </Tippy>
               <Tippy
-                content="Noge (98 KM)"
+                content="Noge (110 KM)"
                 followCursor={true}
                 plugins={[followCursor]}
               >
@@ -1644,7 +1644,7 @@ export default function Main(props) {
                 />
               </Tippy>
               <Tippy
-                content="Noge (98 KM)"
+                content="Noge (110 KM)"
                 followCursor={true}
                 plugins={[followCursor]}
               >
@@ -1830,7 +1830,7 @@ export default function Main(props) {
                 />
               </Tippy>
               <Tippy
-                content="Noge (98 KM)"
+                content="Noge (110 KM)"
                 followCursor={true}
                 plugins={[followCursor]}
               >
