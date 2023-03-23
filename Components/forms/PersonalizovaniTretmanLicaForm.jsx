@@ -124,7 +124,7 @@ const handleOnChange = ( event ) => {
                         </div>
                         <div className="select column is-12">
                         <select onChange={ handleOnChange } required name="4">
-                            <option className="first" value="">Odaberite željeni centar</option>
+                            <option className="first" value="">Odaberite željeni centar*</option>
                                                 <option value="Sarajevo - Novo Sarajevo">Sarajevo - Novo Sarajevo</option>
                                                 <option value="Sarajevo - Stari Grad">Sarajevo - Stari Grad</option>
                                                 <option value="Sarajevo - Novi Grad">Sarajevo - Novi Grad</option>
