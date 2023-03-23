@@ -111,7 +111,7 @@ const handleOnChange = ( event ) => {
                         </select>
                         </div> */}
                     
-
+ 
                         <div className="columns is-multiline form-column">
                         <div className="column is-12">
                             <input onChange={ handleOnChange } className="input" type="text" placeholder="Ime i prezime*" required name="1"/>
@@ -124,7 +124,7 @@ const handleOnChange = ( event ) => {
                         </div>
                         <div className="select column is-12">
                         <select onChange={ handleOnChange } required name="4">
-                            <option className="first">Odaberite željeni tretman</option>
+                            <option className="first" value="">Odaberite željeni tretman</option>
                             <option value="Fotoepilacija">Fotoepilacija</option>
                             <option value="Fotopodmlađivanje">Fotopodmlađivanje</option>
                             <option value="Tjelesni učvršćivač">Tjelesni učvršćivač</option>

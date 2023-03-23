@@ -132,7 +132,7 @@ const handleOnChange = ( event ) => {
                                         </div>
                         <div className="select column is-12 odaberiteLineForm">
                         <select onChange={ handleOnChange } name="4" required>
-                            <option className="first">Odaberite besplatan probni tretman*</option>
+                            <option className="first" value="">Odaberite besplatan probni tretman*</option>
                             <option value="Fotoepilacija">Laserska epilacija diodnim laserom</option>
                             <option value="Fotopodmlađivanje">Fotoepilacija sa IPL SHR</option>
                             <option value="Fotopodmlađivanje">Pregled lica Woodovom lampom</option>
@@ -140,7 +140,7 @@ const handleOnChange = ( event ) => {
                         </div>
                         <div className="select column is-12">
                         <select onChange={ handleOnChange } name="5" required>
-                            <option className="first">Odaberite željeni centar*</option>
+                            <option className="first" value="">Odaberite željeni centar*</option>
                             <option value="Sarajevo - Novo Sarajevo">Sarajevo - Novo Sarajevo</option>
                             <option value="Sarajevo - Stari Grad">Sarajevo - Stari Grad</option>
                             <option value="Sarajevo - Novi Grad">Sarajevo - Novi Grad</option>
