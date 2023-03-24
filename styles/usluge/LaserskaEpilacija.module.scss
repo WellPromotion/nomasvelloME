@@ -17,6 +17,7 @@
    
     background-repeat: no-repeat;
     height: 26.125rem;
+    background-size: cover;
     
     &::before{
         content: url('../../public/images/usluge/whiteLeft.svg');
@@ -273,7 +274,7 @@
         max-height: 15.063rem;
     }
 }
-#diodniZone{
+.diodniZone{
     padding-top: 3rem;
     
     .container{

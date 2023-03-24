@@ -21,7 +21,7 @@ import sjaj from '../../public/images/usluge/fotopodmladjivanje/sjaj.jpg';
 const Example = () => {
     return <Breadcrumbs useDefaultStyle rootLabel="Početna"
     />;
-};
+}; 
 
 const Fotopodmlađivanje = () => {
     return (
@@ -198,7 +198,7 @@ Ne postoji ni minimalna ni maksimalna dobna starost za ovu vrstu tretmana.</p>
                 </div>
             </section>
             
-            <section id="cijenaFotopod" className="cijenaFotopod">
+            <section id="cijena" className="cijenaFotopod">
                 <div className="container">
                     <div className="columns padMinusCols">
                         <div className="column has-text-centered padMinus">

@@ -24,7 +24,7 @@ const Example = () => {
 };
 
 const IzbjeljivanjeZuba = () => {
-    return (
+    return ( 
         
         <>
             
@@ -202,7 +202,7 @@ kafe i pića sa kolorantima.</p>
                 </div>
             </section>
             
-            <section id="cijenaFotopod" className="cijenaFotopod cijenaIzbjeljivanje">
+            <section id="cijena" className="cijenaFotopod cijenaIzbjeljivanje">
                 <div className="container">
                     <div className="columns padMinusCols">
                         <div className="column has-text-centered padMinus">

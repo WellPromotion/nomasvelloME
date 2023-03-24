@@ -343,7 +343,7 @@ No+Vello vam nudi visoko kvalitetnu kozmetiku za vašu kožu. Otkrijte naše pro
             </section>
             
             
-            <section id="cijenaUltra" className="cijenaUltra">
+            <section id="cijena" className="cijenaUltra">
                 <div className="container">
                     <div className="columns padMinusCols">
                         <div className="column has-text-centered padMinus">
@@ -533,7 +533,7 @@ sa C vitaminom</p>
                        
                     </div>
                 </div>
-            </section>
+            </section> 
             
             <section id="pogledajtePromocije" className="section">
                 <div className="container">

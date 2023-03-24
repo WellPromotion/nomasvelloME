@@ -24,7 +24,7 @@ const Example = () => {
 };
 
 const TretmanAkni = () => {
-    return (
+    return ( 
         
         <>
         
@@ -159,7 +159,7 @@ potpuno besplatan pregled lica</p>
                 </div>
             </section>
             
-            <section id="cijenaFotopod" className="cijenaFotopod cijenaFacijalni cijenaTjelesni cijenaPersonalizovani cijenaTretmanAkni">
+            <section id="cijena" className="cijenaFotopod cijenaFacijalni cijenaTjelesni cijenaPersonalizovani cijenaTretmanAkni">
                 <div className="container">
                     <div className="columns padMinusCols">
                         <div className="column has-text-centered padMinus">

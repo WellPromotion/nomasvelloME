@@ -187,7 +187,7 @@ svjetlost
                 </div>
             </section>
             
-            <section id="diodniZone" className="diodniZone fotoepilacijaZone">
+            <section id="cijena" className="diodniZone fotoepilacijaZone">
                 <div className="container">
                     <div className="columns padMinusCols">
                         <div className="column has-text-centered padMinus">
@@ -240,7 +240,7 @@ svjetlost
           </div>
                 </div>
                 
-                <div className="container pricingTable">
+                <div className="container pricingTable"> 
                 <div className="columns priceTagCols level">
                         <div className="column txtCol">
                             <div className="list">

@@ -233,7 +233,7 @@ VELIKE SNAGE</p>
                 </div>
             </section>
             
-            <section id="diodniZone" className="diodniZone">
+            <section id="cijena" className="diodniZone">
                 <div className="container">
                     <div className="columns padMinusCols">
                         <div className="column has-text-centered padMinus">
@@ -264,7 +264,7 @@ VELIKE SNAGE</p>
                     <div className="column">
                         <img className='diodniIMG' src={priceTwo} alt="59 KM - Cijena laserske epilacije po zoni" />
                     </div>
-                    </div>
+                    </div> 
                     
                     {/* <div className="columns txtCols">
                         <div className="column txtCol">

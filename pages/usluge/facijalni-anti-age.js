@@ -289,7 +289,7 @@ Broj sesija će zavisiti od nekoliko faktora, kao što su: starosna dob, tretira
                 </div>
             </section>
             
-            <section id="cijenaFotopod" className="cijenaFotopod cijenaFacijalni">
+            <section id="cijena" className="cijenaFotopod cijenaFacijalni">
                 <div className="container">
                     <div className="columns padMinusCols">
                         <div className="column has-text-centered padMinus">
@@ -299,7 +299,7 @@ Broj sesija će zavisiti od nekoliko faktora, kao što su: starosna dob, tretira
                     <div className="columns">
                         <div className="column has-text-centered">
                             <p className="titleCijena">Cijena facijalnog Anti-Age tretmana</p>
-                            {/* <p className="subtitleCijena">Želimo da se istaknete! <br />
+                            {/* <p className="subtitleCijena">Želimo da se istaknete! <br /> 
                                 Savršena koža i najbolji osmijeh po najboljoj cijeni!</p> */}
                             {/* <p className="contentCijena">A ako ste već naš klijent, uživajte uz nevjerovatan popust!</p> */}
                         </div>

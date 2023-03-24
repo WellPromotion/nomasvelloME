@@ -250,7 +250,7 @@ lokalizovanih masnih naslaga.</p>
                 </div>
             </section>
             
-            <section id="cijenaFotopod" className="cijenaFotopod cijenaFacijalni cijenaTjelesni">
+            <section id="cijena" className="cijenaFotopod cijenaFacijalni cijenaTjelesni">
                 <div className="container">
                     <div className="columns padMinusCols">
                         <div className="column has-text-centered padMinus">
@@ -282,7 +282,7 @@ lokalizovanih masnih naslaga.</p>
                                 
                             </div>
                         </div>
-                        
+                         
                     </div>
                     
                     

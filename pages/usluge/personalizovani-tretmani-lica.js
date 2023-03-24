@@ -189,7 +189,7 @@ potpuno besplatan pregled lica</p>
                 </div>
             </section>
             
-            <section id="cijenaFotopod" className="cijenaFotopod cijenaFacijalni cijenaTjelesni cijenaPersonalizovani section">
+            <section id="cijena" className="cijenaFotopod cijenaFacijalni cijenaTjelesni cijenaPersonalizovani section">
                 <div className="container">
                     <div className="columns padMinusCols">
                         <div className="column has-text-centered padMinus">
@@ -209,7 +209,7 @@ potpuno besplatan pregled lica</p>
                             </p>
                         </div>
                     </div>
-                </div>
+                </div> 
             </section>
             
             <section id="naruciteBottom" className="naruciteBottom naruciteFoto naruciteTjelesni section">
