@@ -33,7 +33,8 @@ export default function Home() {
         <title>No+Vello® - Svjetski lider u laserskoj epilaciji</title>
         <link rel="icon" href="/favico.ico" type="image/x-icon" />
         {/* <link href="https://db.onlinewebfonts.com/c/aad1dafbe5df4c78ab2f1396cf213de3?family=BowlingScriptW01-Regular" rel="stylesheet" type="text/css" />  */}
-        <meta name="viewport" content="width=device-width"/>
+        <meta name="viewport" content="width=device-width" />
+       
       </Head>
 
     <section id="sliderIntro" className="sIntro">

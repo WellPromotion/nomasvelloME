@@ -6,6 +6,19 @@ import twitterIcon from '../../public/images/twitterIcon.png';
 
 
 export default function blog(props) {
+    
+    const shareOnFacebook = () => {
+        const baseUrl = 'https://www.facebook.com/sharer/sharer.php';
+        const shareUrl = `${baseUrl}?u=${encodeURIComponent(`https://nomasvello.ba/blog/${post.slug}`)}`;
+        window.open(shareUrl, '_blank');
+      }
+      
+      const shareOnTwitter = () => {
+        const url = window.location.href;
+        const baseUrl = 'https://twitter.com/share';
+        const shareUrl = `${baseUrl}?url=${encodeURIComponent(`https://nomasvello.ba/blog/${post.slug}`)}`;
+        window.open(shareUrl, '_blank');
+    }
    
     const { post } = props;
     console.log(post)
@@ -51,7 +64,8 @@ export default function blog(props) {
                 <div className="container">
                     <div className="columns">
                         <div className="column">
-                            <p className='shareOnlinePar'>Podijelite članak na socijalnim mrežama <span className='shareFacebook'><img src={facebookIcon} alt="" /></span> <span className='shareTwitter'><img src={twitterIcon} alt="" /></span> </p>
+                            <p className='shareOnlinePar'>Podijelite članak na socijalnim mrežama <span className='shareFacebook' onClick={shareOnFacebook}><img src={facebookIcon} alt="" /></span>
+ <span className='shareTwitter' onClick={shareOnTwitter}><img src={twitterIcon} alt=""  /></span> </p>
                         </div>
                     </div>
                 </div>

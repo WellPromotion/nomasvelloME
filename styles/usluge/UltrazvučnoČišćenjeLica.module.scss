@@ -1,9 +1,18 @@
 @import '../variables';
-@font-face {
-    font-family: "BowlingScriptW01-Regular"; 
-    font-display: swap;
-    src: url("https://db.onlinewebfonts.com/t/aad1dafbe5df4c78ab2f1396cf213de3.eot"); 
-    src: url("https://db.onlinewebfonts.com/t/aad1dafbe5df4c78ab2f1396cf213de3.eot?#iefix") format("embedded-opentype"), url("https://db.onlinewebfonts.com/t/aad1dafbe5df4c78ab2f1396cf213de3.woff2") format("woff2"), url("https://db.onlinewebfonts.com/t/aad1dafbe5df4c78ab2f1396cf213de3.woff") format("woff"), url("https://db.onlinewebfonts.com/t/aad1dafbe5df4c78ab2f1396cf213de3.ttf") format("truetype"), url("https://db.onlinewebfonts.com/t/aad1dafbe5df4c78ab2f1396cf213de3.svg#BowlingScriptW01-Regular") format("svg"); } 
+@import '../fonts';
+
+// @font-face {
+//     font-family: "BowlingScriptW01-Regular"; 
+//     font-display: swap;
+//     // src: url("https://db.onlinewebfonts.com/t/aad1dafbe5df4c78ab2f1396cf213de3.eot"); 
+//     src: 
+//     // url("https://db.onlinewebfonts.com/t/aad1dafbe5df4c78ab2f1396cf213de3.eot?#iefix") format("embedded-opentype"), 
+//     url("https://db.onlinewebfonts.com/t/aad1dafbe5df4c78ab2f1396cf213de3.woff2") format("woff2"), 
+//     url("https://db.onlinewebfonts.com/t/aad1dafbe5df4c78ab2f1396cf213de3.woff") format("woff"), 
+//     // url("https://db.onlinewebfonts.com/t/aad1dafbe5df4c78ab2f1396cf213de3.ttf") format("truetype"), 
+//     // url("https://db.onlinewebfonts.com/t/aad1dafbe5df4c78ab2f1396cf213de3.svg#BowlingScriptW01-Regular") format("svg"); 
+//     } 
+
 
 .ultrazvucnoHeader{
     background-image: linear-gradient(0deg, rgba(172, 199, 110, 0.75), rgba(172, 199, 110, 0.75)), url('../../public/images/usluge/ultrazvucno-ciscenje-lica/ultrazvucno-ciscenje-desk.jpg') !important;
@@ -228,7 +237,8 @@
                 line-height: 3.25rem;
                 color: #EC268E;
                 margin-bottom: 1rem;
-                font-family: BowlingScriptW01-Regular;
+                font-family: 'Shrikhand', cursive;
+                font-weight: 700;
             }
             .basicTitle{
                 font-size: 2.25rem !important;

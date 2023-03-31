@@ -98,6 +98,9 @@
                 width: 2rem;
                 height: 2rem;
                 border-radius: 100px;
+                &:hover{
+                    cursor: pointer;
+                }
             }
             .shareFacebook{
                 margin-left: 1rem;

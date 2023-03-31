@@ -23,7 +23,7 @@ import stresImg from '../../public/images/usluge/ultrazvucno-ciscenje-lica/uklan
 // import bottomImage from '../../public/images/usluge/ultrazvucno-ciscenje-lica/Proskin_last_Aggiornato.jpg';
 import bottomImage from '../../public/images/usluge/ultrazvucno-ciscenje-lica/10minuta-pregled.jpg';
 
-
+ 
 
 const Example = () => {
     return <Breadcrumbs useDefaultStyle rootLabel="Početna"
