@@ -1,13 +1,7 @@
 @import '../variables.scss';
 
 #titleSunandsafe{
-    // background: url("../../public/images/tehnologije/laserTehnologija/laserBackground.png") no-repeat;
-    // background-image: linear-gradient(0deg, rgba(172, 199, 110, 0.6), rgba(172, 199, 110, 0.6)), url("../../public/images/tehnologije/sunandsafeTehnologija/sun-safe-header.jpg");
-    // position: relative;
-    // background-size: cover;
-    // background-position: center;
-    // background-repeat: no-repeat;
-    // background-position-y: 50%;
+   
     background-color: $primaryGreen;
     
     .hero-body{
@@ -79,7 +73,7 @@
     .ponudaColumn{
         display: flex;
         justify-content: left;
-        // max-width: 660px;
+       
         background-color: #fff;
         border-radius: 0px 6px 6px 0px;
         padding: 0;

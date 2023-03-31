@@ -2,7 +2,7 @@
 
  
 #titleLedTehnologija{
-    // background: url("../../public/images/tehnologije/laserTehnologija/laserBackground.png") no-repeat;
+    
     background-color: $primaryGreen;
 
     .hero-body{
@@ -36,9 +36,7 @@
 
 #ledAbout{
     padding-top: 3rem;
-    .container{
-        // max-width: 69.75rem;
-    }
+   
     .columns{
         display: flex;
         justify-content: center;
@@ -82,7 +80,7 @@
         line-height: 1.875rem;
         text-align: center;
         color: $titleColor;
-        // width: 41.25rem;
+        
         @media only screen and (min-device-width : 320px) and (max-device-width : 480px) {
            width: auto;
             }
@@ -90,7 +88,7 @@
 
     .ledColorsContainer{
         padding-top: 3rem;
-        // width: 84.125rem;
+      
         @media only screen and (min-device-width : 320px) and (max-device-width : 480px) {
            width: auto;
             }
@@ -99,7 +97,7 @@
             margin-bottom: 1rem;
         }
         ._innerLeft{
-            // width: 27rem;
+            
             height: 18.563rem;
             border-radius: 0.5rem;
             background-color:  rgba(255, 255, 255, 0.95);
@@ -147,7 +145,7 @@
         }
 
         ._innerRight{
-            // width: 55.5rem;
+           
             height: 26.063rem;
             border-radius: 0.5rem;
             background-color:  rgba(255, 255, 255, 0.95);
@@ -178,7 +176,7 @@
            
         }
         .innerRightDown{
-            // width: 55.5rem;
+           
             height: 11rem;
             background-color: #EBEBEB;
             border-radius: 0.5rem;
@@ -209,7 +207,7 @@
     padding-top: 2.125rem;
 
     .container{
-        // width: 69.75rem;
+       
         display: flex;
         justify-content: center;
         @media only screen and (min-device-width : 320px) and (max-device-width : 480px) {
@@ -300,7 +298,7 @@
         justify-content: center;
     }
     .columnsKorisnici{
-        // width: 55.5rem;
+      
         display: flex;
         justify-content: center;
         @media only screen and (min-device-width : 320px) and (max-device-width : 480px) {
@@ -315,9 +313,7 @@
     .colTarife{
         display: flex;
         justify-content: center;
-        // @media only screen and (min-device-width : 320px) and (max-device-width : 480px) {
-        //    display: block;
-        //     }
+       
     }
     .subtitleTarife{
         font-weight: 500;
@@ -345,7 +341,7 @@
         }
     }
     .leftTarife, .rightTarife{
-        // width: 19.875rem;
+       
         width: auto;
         border-radius: 7px;
         background-color: $titleColor;
@@ -441,14 +437,13 @@
     .ponudaColumn{
         display: flex;
         justify-content: center;
-        // max-width: 41.25rem;
+        
         background-color: #fff;
         border-radius: 6px;
         padding: 0;
     }
     ._inner{
-        // padding-top: 1.75rem;
-        // padding-bottom: 1.75rem;
+       
         width: auto;
         @media only screen and (min-device-width : 320px) and (max-device-width : 480px) {
             width: auto;
@@ -460,7 +455,7 @@
             line-height: 2.5rem;
             color: $titleColor;
             margin-bottom: 1rem;
-            // max-width: 25.375rem;
+           
             @media only screen and (min-device-width : 320px) and (max-device-width : 480px) {
                 font-size: 1.75rem;
                  }
@@ -492,7 +487,7 @@
         .singleItem{
             display: flex;
             align-items: center;
-            // justify-content: center;
+           
             left: 25%;
             position: relative;
             @media only screen and (min-device-width : 320px) and (max-device-width : 480px) {

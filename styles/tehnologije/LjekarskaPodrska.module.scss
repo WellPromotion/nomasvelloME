@@ -2,7 +2,7 @@
 
 
 #titleLjekarska{
-    // background: url("../../public/images/tehnologije/ljekarskaPodrska/ljekarskaBackground.png") no-repeat;
+    
     background-color: $primaryGreen;
 
     .hero-body{
@@ -101,11 +101,7 @@
     .colsPreporukeLjekarskaFirst{
         padding-top: 3rem;      
     }
-    .colsPreporukeLjekarskaLast{
-        // display: flex;
-        // justify-content: center;
-        
-    }
+    
     .blankCol{
         @media only screen and (min-device-width : 320px) and (max-device-width : 480px) {
            display: none;
@@ -202,7 +198,7 @@
                 }
                 .inner{
                     display: block;
-                    // width: 85%;
+                  
                 }
             }
             content{

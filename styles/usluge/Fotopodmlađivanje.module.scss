@@ -141,9 +141,7 @@
            width: auto;
             }
     }
-    .cijenaIcon{
-        // margin-bottom: 1rem;
-    }
+   
    .titleCijena{
        font-weight: 700;
        font-size: 2rem;
@@ -236,8 +234,7 @@
         }
        }
        .leftCol{
-        //    display: flex;
-        //    justify-content: left;
+       
         @media only screen and (min-device-width : 320px) and (max-device-width : 480px) {
             display: flex;
             justify-content: center;

@@ -2,7 +2,7 @@
 
 
 #heroTitleBesplatni{
-    // background-image: url("../public/images/faq/laser.png");
+  
     background-image: linear-gradient(0deg, rgba(172, 199, 110, 0.6), rgba(172, 199, 110, 0.6)), url("../public/images/probni-tretman.jpg");
     position: relative;
     background-size: cover;
@@ -64,7 +64,7 @@
     
     .titlebespMid{
         text-align: center;
-        // padding-bottom: 2rem;
+        
         color: #fff;
         font-weight: 600;
         @media only screen and (min-device-width : 320px) and (max-device-width : 480px) {
@@ -101,7 +101,7 @@
         .titlePro{
             font-weight: 500;
     font-size: 1.5rem;
-    // line-height: 3rem;
+  
     color: $titleColor;
         }
         .subtitlePro{

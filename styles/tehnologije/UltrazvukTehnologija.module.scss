@@ -1,7 +1,7 @@
 @import '../variables.scss';
 
 #titleUltrazvuk{
-    // background: url("../../public/images/tehnologije/laserTehnologija/laserBackground.png") no-repeat;
+  
     background-color: $primaryGreen;
     
     .hero-body{
@@ -62,16 +62,14 @@
         span{
             padding-right: 0.875rem;
             display: flex;
-            // flex: 1 0 auto;
+           
            flex-shrink: 0;
         }
     }
     .secColImg{
         float: right;
     }
-    .lastItem{
-        // margin-bottom: 1.5rem;
-    }
+   
     .uzvTitle{
         margin-bottom: 1.5rem;
     }

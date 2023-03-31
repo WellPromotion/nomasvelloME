@@ -1,7 +1,7 @@
 @import '../variables.scss';
 
 #titleIPLTehnologija{
-    // background: url("../../public/images/tehnologije/laserTehnologija/laserBackground.png") no-repeat;
+    
     background-color: $primaryGreen;
 
     .hero-body{
@@ -39,9 +39,7 @@
     align-items: center;
     padding-top: 4rem;
 
-    .container{
-        // max-width: 69.75rem;
-    }
+   
     .columns{
         display: flex;
         justify-content: center;
@@ -55,8 +53,7 @@
         justify-content: center;
     }
     .is-left{
-        // display: flex;
-        // justify-content: right;
+       
         .laserSubtitle, .laserTitle{
             text-align: left;
         }
@@ -89,9 +86,7 @@
     padding-top: 3rem;
     display: flex;
     justify-content: center;
-    .container{
-        // max-width: 41.25rem;
-    }
+   
     .columns{
         display: flex;
         justify-content: center;
@@ -122,9 +117,7 @@
 
 #iplAparati{
     padding-top: 3rem;
-    .container{
-        // max-width: 69.75rem;
-    }
+   
     .columns{
         display: flex;
         justify-content: center;
@@ -178,7 +171,7 @@
         justify-content: center;
         }
         .columns{
-            // width: 69.75rem;
+           
             @media only screen and (min-device-width : 320px) and (max-device-width : 480px) {
                 width: auto;
                   }
@@ -216,7 +209,7 @@
     .ponudaColumn{
         display: flex;
         justify-content: center;
-        // max-width: 41.25rem;
+      
         background-color: #fff;
         border-radius: 6px;
         padding: 0;
@@ -231,7 +224,7 @@
             line-height: 2.5rem;
             color: $titleColor;
             margin-bottom: 1rem;
-            // max-width: 25.375rem;
+           
             padding-right: 3rem;
             padding-left: 3rem;
             @media only screen and (min-device-width : 320px) and (max-device-width : 480px) {

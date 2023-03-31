@@ -1,7 +1,8 @@
 import Head from 'next/head'
 import Footer from '../Components/Footer'
 import styles from '../styles/Home.module.scss'
-import bellowTitleImg from "../public/images/belowTitle.png"
+import Image from 'next/image';
+import bellowTitleImg from '../public/images/belowTitle.png'
 import { Gallery } from '../Components/Carousel';
 import { TestimonialCarousel } from '../Components/TestimonialsMain';
 import threeHeads from "../public/images/homepage/three-heads.png"
@@ -31,7 +32,7 @@ export default function Home() {
       <Head>
         <title>No+Vello® - Svjetski lider u laserskoj epilaciji</title>
         <link rel="icon" href="/favico.ico" type="image/x-icon" />
-        <link href="//db.onlinewebfonts.com/c/aad1dafbe5df4c78ab2f1396cf213de3?family=BowlingScriptW01-Regular" rel="stylesheet" type="text/css" /> 
+        {/* <link href="https://db.onlinewebfonts.com/c/aad1dafbe5df4c78ab2f1396cf213de3?family=BowlingScriptW01-Regular" rel="stylesheet" type="text/css" />  */}
         <meta name="viewport" content="width=device-width"/>
       </Head>
 
@@ -51,7 +52,7 @@ export default function Home() {
                 </h1>
               </div>
               <div className={styles.bellowTitle}>
-                <img src={bellowTitleImg} alt="" />
+                <img src={bellowTitleImg} alt="." />
               </div>
               <div className="textProfesionalnaKozmetika">
                 <p>
