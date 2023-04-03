@@ -46,7 +46,7 @@ export default function Main1(props) {
     },
     {
       id: 13,
-      title: "Zadnjica + Između stražnjice",
+      title: "Zadnjica + Perianalna zona",
       price: 59,
       selected: false,
       sidebar: false,
@@ -83,7 +83,7 @@ export default function Main1(props) {
     },
     {
       id: 20,
-      title: "Između stražnjice",
+      title: "Perianalna zona",
       price: 30,
       selected: false,
       sidebar: false,
@@ -625,7 +625,7 @@ export default function Main1(props) {
                 />
               </Tippy>
               <Tippy
-                content="Zadnjica + Između stražnjice (59 KM)"
+                content="Zadnjica + Perianalna zona (59 KM)"
                 followCursor={true}
                 plugins={[followCursor]}
               >
@@ -1325,7 +1325,7 @@ export default function Main1(props) {
                 />
               </Tippy>
               <Tippy
-                content="Između stražnjice (30 KM)"
+                content="Perianalna zona (30 KM)"
                 followCursor={true}
                 plugins={[followCursor]}
               >
@@ -1794,7 +1794,7 @@ export default function Main1(props) {
                 />
               </Tippy>
               <Tippy
-                content="Zadnjica + Između stražnjice (59 KM)"
+                content="Zadnjica + Perianalna zona (59 KM)"
                 followCursor={true}
                 plugins={[followCursor]}
               >
@@ -2174,7 +2174,7 @@ export default function Main1(props) {
                 </g>
               </g>
               <Tippy
-                content="Između stražnjice (30 KM)"
+                content="Perianalna zona (30 KM)"
                 followCursor={true}
                 plugins={[followCursor]}
               >
