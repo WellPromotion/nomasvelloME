@@ -6,7 +6,7 @@ import sarajevo3 from '../../public/images/centri/sarajevo-ii/starigrad_centar_0
 import sarajevo4 from '../../public/images/centri/sarajevo-ii/starigrad_centar_04.jpg'
 import sarajevo5 from '../../public/images/centri/sarajevo-ii/starigrad_centar_05.jpg'
 import sarajevo6 from '../../public/images/centri/sarajevo-ii/starigrad_centar_06.jpg'
-import sarajevo7 from '../../public/images/centri/sarajevo-ii/viber_image_2023-04-07_13-05-41-554.jpg'
+import sarajevo7 from 'nommasvello/public/images/centri/sarajevo-ii/viber_image_2023-04-07_13-05-42-679.jpg'
 
 
 
