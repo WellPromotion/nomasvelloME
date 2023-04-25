@@ -1,6 +1,6 @@
 import React from 'react'
 import Carousel from 'react-grid-carousel'
-import sarajevo1 from '../../public/images/centri/sarajevo-ii/starigrad_centar_01.jpg'
+import sarajevo1 from '../../public/images/centri/sarajevo-ii/viber_image_2023-04-07_13-05-42-679.jpg'
 import sarajevo2 from '../../public/images/centri/sarajevo-ii/starigrad_centar_02.jpg'
 import sarajevo3 from '../../public/images/centri/sarajevo-ii/starigrad_centar_03.jpg'
 import sarajevo4 from '../../public/images/centri/sarajevo-ii/starigrad_centar_04.jpg'
