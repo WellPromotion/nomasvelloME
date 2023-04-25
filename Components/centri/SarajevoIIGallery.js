@@ -71,6 +71,13 @@ export const SarajevoIIGallery = () => {
                 </a>
             </div>
         </Carousel.Item>
+        <Carousel.Item>
+                <div className="centarSlide">
+                <a href="">
+                <img className="sliderCentarImage" src={sarajevo7} alt="" />
+                </a>
+            </div>
+        </Carousel.Item>
         {/* ... */}
     </Carousel>
 
