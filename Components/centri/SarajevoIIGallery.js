@@ -62,7 +62,6 @@ export const SarajevoIIGallery = () => {
                 </a>
             </div>
         </Carousel.Item>
-       
         {/* ... */}
     </Carousel>
 
