@@ -67,31 +67,31 @@ const Menu = ({ open }) => {
             <a href="/">
                     Cijene
             </a>
-            <a href="/usluge/laserska-epilacija#diodniZone">
+            <a href="/usluge/laserska-epilacija#cijena">
                                             <li>Laserska epilacija</li>
                                         </a>
-                                        <a href="/usluge/fotoepilacija#diodniZone">
+                                        <a href="/usluge/fotoepilacija#cijena">
                                             <li>Fotoepilacija IPL SHR</li>
                                         </a>
-                                        <a href="/usluge/fotopodmladjivanje#cijenaFotopod">
+                                        <a href="/usluge/fotopodmladjivanje#cijena">
                                             <li>Fotopodmlađivanje</li>
                                         </a>
-                                        <a href="/usluge/ultrazvucno-ciscenje-lica#cijenaUltra">
+                                        <a href="/usluge/ultrazvucno-ciscenje-lica#cijena">
                                             <li>Ultrazvučno čišćenje lica</li>
                                         </a>
-                                        <a href="/usluge/facijalni-anti-age#cijenaFotopod">
+                                        <a href="/usluge/facijalni-anti-age#cijena">
                                             <li>Facijalni anti-age</li>
                                         </a>
-                                        <a href="/usluge/izbjeljivanje-zuba#cijenaFotopod">
+                                        <a href="/usluge/izbjeljivanje-zuba#cijena">
                                             <li>Izbjeljivanje zuba</li>
                                         </a>
-                                        <a href="/usluge/tjelesni-ucvrscivac#cijenaFotopod">
+                                        <a href="/usluge/tjelesni-ucvrscivac#cijena">
                                             <li>Tjelesni učvrščivać</li>
                                         </a>
                                         {/* <a href="/usluge/personalizovani-tretmani-lica#cijenaFotopod">
                                             <li>Personalizovani tretman lica</li>
                                         </a> */}
-                                        <a href="/usluge/tretman-akni#cijenaFotopod">
+                                        <a href="/usluge/tretman-akni#cijena">
                                             <li>Tretman akni</li>
                                         </a>
        </ul>

@@ -289,7 +289,7 @@ Broj sesija će zavisiti od nekoliko faktora, kao što su: starosna dob, tretira
                 </div>
             </section>
             
-            <section id="cijena" className="cijenaFotopod cijenaFacijalni">
+            <section id="cijena" name="cijena" className="cijenaFotopod cijenaFacijalni">
                 <div className="container">
                     <div className="columns padMinusCols">
                         <div className="column has-text-centered padMinus">
