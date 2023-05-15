@@ -207,7 +207,7 @@ svjetlost
                             <div className="inner">
                                 <img src={priceTag} className="priceTag" alt="55 KM - Cijena laserske epilacije po zoni" />
                                 <p className="priceTitle">
-                                49KM Zona
+                                55KM Zona
                                 </p>
                                 <p className="priceSubtitle">
                                 Unisex tarifa
@@ -216,7 +216,7 @@ svjetlost
                         </div>
                     </div>
                     <div className="column diodniCol">
-                        <img className='diodniIMG' src={priceTwo} alt="55 KM - Cijena laserske epilacije po zoni" />
+                        <img className='Naljepnica krug fotoepilacija 55 KM malaIMG' src={priceTwo} alt="55 KM - Cijena laserske epilacije po zoni" />
                     </div>
                     </div>
                     
