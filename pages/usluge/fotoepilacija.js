@@ -216,7 +216,7 @@ svjetlost
                         </div>
                     </div>
                     <div className="column diodniCol">
-                        <img className='Naljepnica krug fotoepilacija 55 KM malaIMG' src={priceTwo} alt="55 KM - Cijena laserske epilacije po zoni" />
+                        <img className='FotoepilacijaIMG' src={priceTwo} alt="55 KM - Cijena laserske epilacije po zoni" />
                     </div>
                     </div>
                     
