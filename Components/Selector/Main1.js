@@ -211,7 +211,7 @@ export default function Main1(props) {
           >
             <g>
               <Tippy
-                content="Lice (59 KM)"
+                content="Lice (49 KM)"
                 followCursor={true}
                 plugins={[followCursor]}
               >
