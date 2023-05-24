@@ -10,44 +10,44 @@ export default function Main1(props) {
     {
       id: 0,
       title: "Lice + Nausnice",
-      price: 55,
+      price: 59,
       selected: false,
       sidebar: false,
     },
-    { id: 1, title: "Vrat", price: 55, selected: false, sidebar: false },
+    { id: 1, title: "Vrat", price: 59, selected: false, sidebar: false },
     {
       id: 2,
       title: "Grudi + Između grudi + Trbušna linija",
-      price: 55,
+      price: 59,
       selected: false,
       sidebar: false,
     },
-    { id: 3, title: "Stomak", price: 55, selected: false, sidebar: false },
-    { id: 4, title: "Bikini", price: 55, selected: false, sidebar: false },
-    { id: 5, title: "Noge", price: 110, selected: false, sidebar: false },
+    { id: 3, title: "Stomak", price: 59, selected: false, sidebar: false },
+    { id: 4, title: "Bikini", price: 59, selected: false, sidebar: false },
+    { id: 5, title: "Noge", price: 118, selected: false, sidebar: false },
     { id: 6, title: "Stopala", price: 30, selected: false, sidebar: false },
     { id: 7, title: "Ramena", price: 55, selected: false, sidebar: false },
-    { id: 8, title: "Ruke", price: 110, selected: false, sidebar: false },
+    { id: 8, title: "Ruke", price: 118, selected: false, sidebar: false },
     { id: 9, title: "Šake", price: 30, selected: false, sidebar: false },
-    { id: 10, title: "Potiljak", price: 55, selected: false, sidebar: false },
+    { id: 10, title: "Potiljak", price: 59, selected: false, sidebar: false },
     {
       id: 11,
       title: "Gornji dio leđa",
-      price: 55,
+      price: 59,
       selected: false,
       sidebar: false,
     },
     {
       id: 12,
       title: "Donji dio leđa",
-      price: 55,
+      price: 59,
       selected: false,
       sidebar: false,
     },
     {
       id: 13,
       title: "Zadnjica + Perianalna zona",
-      price: 55,
+      price: 59,
       selected: false,
       sidebar: false,
     },
@@ -59,7 +59,7 @@ export default function Main1(props) {
       selected: false,
       sidebar: false,
     },
-    { id: 16, title: "Pazusi", price: 55, selected: false, sidebar: false },
+    { id: 16, title: "Pazusi", price: 59, selected: false, sidebar: false },
     {
       id: 17,
       title: "Oko bradavica",
@@ -211,7 +211,7 @@ export default function Main1(props) {
           >
             <g>
               <Tippy
-                content="Lice (55 KM)"
+                content="Lice (59 KM)"
                 followCursor={true}
                 plugins={[followCursor]}
               >
@@ -253,7 +253,7 @@ export default function Main1(props) {
                 />
               </Tippy>
               <Tippy
-                content="Vrat (55 KM)"
+                content="Vrat (59 KM)"
                 followCursor={true}
                 plugins={[followCursor]}
               >
@@ -283,7 +283,7 @@ export default function Main1(props) {
                 />
               </Tippy>
               <Tippy
-                content="Grudi + Između grudi + Trbušna linija (55 KM)"
+                content="Grudi + Između grudi + Trbušna linija (59 KM)"
                 followCursor={true}
                 plugins={[followCursor]}
               >
@@ -325,7 +325,7 @@ export default function Main1(props) {
                 />
               </Tippy>
               <Tippy
-                content="Stomak (55 KM)"
+                content="Stomak (59 KM)"
                 followCursor={true}
                 plugins={[followCursor]}
               >
@@ -355,7 +355,7 @@ export default function Main1(props) {
                 />
               </Tippy>
               <Tippy
-                content="Bikini (55 KM)"
+                content="Bikini (59 KM)"
                 followCursor={true}
                 plugins={[followCursor]}
               >
@@ -385,7 +385,7 @@ export default function Main1(props) {
                 />
               </Tippy>
               <Tippy
-                content="Noge (110 KM)"
+                content="Noge (118 KM)"
                 followCursor={true}
                 plugins={[followCursor]}
               >
@@ -445,7 +445,7 @@ export default function Main1(props) {
                 />
               </Tippy>
               <Tippy
-                content="Ramena (55 KM)"
+                content="Ramena (59 KM)"
                 followCursor={true}
                 plugins={[followCursor]}
               >
@@ -565,7 +565,7 @@ export default function Main1(props) {
                 />
               </Tippy>
               <Tippy
-                content="Gornji dio leđa (55 KM)"
+                content="Gornji dio leđa (59 KM)"
                 followCursor={true}
                 plugins={[followCursor]}
               >
@@ -595,7 +595,7 @@ export default function Main1(props) {
                 />
               </Tippy>
               <Tippy
-                content="Donji dio leđa (55 KM)"
+                content="Donji dio leđa (59 KM)"
                 followCursor={true}
                 plugins={[followCursor]}
               >
@@ -625,7 +625,7 @@ export default function Main1(props) {
                 />
               </Tippy>
               <Tippy
-                content="Zadnjica + Perianalna zona (55 KM)"
+                content="Zadnjica + Perianalna zona (59 KM)"
                 followCursor={true}
                 plugins={[followCursor]}
               >
@@ -661,7 +661,7 @@ export default function Main1(props) {
                 />
               </Tippy>
               <Tippy
-                content="Ramena (55 KM)"
+                content="Ramena (59 KM)"
                 followCursor={true}
                 plugins={[followCursor]}
               >
@@ -691,7 +691,7 @@ export default function Main1(props) {
                 />
               </Tippy>
               <Tippy
-                content="Ruke (110 KM)"
+                content="Ruke (118 KM)"
                 followCursor={true}
                 plugins={[followCursor]}
               >
@@ -751,7 +751,7 @@ export default function Main1(props) {
                 />
               </Tippy>
               <Tippy
-                content="Noge (110 KM)"
+                content="Noge (118 KM)"
                 followCursor={true}
                 plugins={[followCursor]}
               >
@@ -1107,7 +1107,7 @@ export default function Main1(props) {
                 r="23.898"
               /> */}
               <Tippy
-                content="Pazusi (55 KM)"
+                content="Pazusi (59 KM)"
                 followCursor={true}
                 plugins={[followCursor]}
               >
@@ -1143,7 +1143,7 @@ export default function Main1(props) {
                 />
               </Tippy>
               <Tippy
-                content="Pazusi (55 KM)"
+                content="Pazusi (59 KM)"
                 followCursor={true}
                 plugins={[followCursor]}
               >
@@ -1380,7 +1380,7 @@ export default function Main1(props) {
           >
             <g>
               <Tippy
-                content="Lice + Nausnice 55 KM)"
+                content="Lice + Nausnice 59 KM)"
                 followCursor={true}
                 plugins={[followCursor]}
               >
@@ -1452,7 +1452,7 @@ export default function Main1(props) {
                 />
               </Tippy>
               <Tippy
-                content="Grudi + Između grudi + Trbušna linija (55 KM)"
+                content="Grudi + Između grudi + Trbušna linija (59 KM)"
                 followCursor={true}
                 plugins={[followCursor]}
               >
@@ -1494,7 +1494,7 @@ export default function Main1(props) {
                 />
               </Tippy>
               <Tippy
-                content="Ramena (55 KM)"
+                content="Ramena (59 KM)"
                 followCursor={true}
                 plugins={[followCursor]}
               >
@@ -1524,7 +1524,7 @@ export default function Main1(props) {
                 />
               </Tippy>
               <Tippy
-                content="Ruke (110 KM)"
+                content="Ruke (118 KM)"
                 followCursor={true}
                 plugins={[followCursor]}
               >
@@ -1554,7 +1554,7 @@ export default function Main1(props) {
                 />
               </Tippy>
               <Tippy
-                content="Stomak (55 KM)"
+                content="Stomak (59 KM)"
                 followCursor={true}
                 plugins={[followCursor]}
               >
@@ -1584,7 +1584,7 @@ export default function Main1(props) {
                 />
               </Tippy>
               <Tippy
-                content="Bikini zona (55 KM)"
+                content="Bikini zona (59 KM)"
                 followCursor={true}
                 plugins={[followCursor]}
               >
@@ -1644,7 +1644,7 @@ export default function Main1(props) {
                 />
               </Tippy>
               <Tippy
-                content="Noge (110 KM)"
+                content="Noge (118 KM)"
                 followCursor={true}
                 plugins={[followCursor]}
               >
@@ -1704,7 +1704,7 @@ export default function Main1(props) {
                 />
               </Tippy>
               <Tippy
-                content="Potiljak (55 KM)"
+                content="Potiljak (59 KM)"
                 followCursor={true}
                 plugins={[followCursor]}
               >
@@ -1734,7 +1734,7 @@ export default function Main1(props) {
                 />
               </Tippy>
               <Tippy
-                content="Gornji dio leđa (55 KM)"
+                content="Gornji dio leđa (59 KM)"
                 followCursor={true}
                 plugins={[followCursor]}
               >
@@ -1764,7 +1764,7 @@ export default function Main1(props) {
                 />
               </Tippy>
               <Tippy
-                content="Donji dio leđa (55 KM)"
+                content="Donji dio leđa (59 KM)"
                 followCursor={true}
                 plugins={[followCursor]}
               >
@@ -1794,7 +1794,7 @@ export default function Main1(props) {
                 />
               </Tippy>
               <Tippy
-                content="Zadnjica + Perianalna zona (55 KM)"
+                content="Zadnjica + Perianalna zona (59 KM)"
                 followCursor={true}
                 plugins={[followCursor]}
               >
@@ -1830,7 +1830,7 @@ export default function Main1(props) {
                 />
               </Tippy>
               <Tippy
-                content="Noge (110 KM)"
+                content="Noge (118 KM)"
                 followCursor={true}
                 plugins={[followCursor]}
               >
@@ -1890,7 +1890,7 @@ export default function Main1(props) {
                 />
               </Tippy>
               <Tippy
-                content="Ruke (110 KM)"
+                content="Ruke (118 KM)"
                 followCursor={true}
                 plugins={[followCursor]}
               >
@@ -1920,7 +1920,7 @@ export default function Main1(props) {
                 />
               </Tippy>
               <Tippy
-                content="Ramena (55 KM)"
+                content="Ramena (59 KM)"
                 followCursor={true}
                 plugins={[followCursor]}
               >
@@ -2272,7 +2272,7 @@ export default function Main1(props) {
                 r="23.898"
               /> */}
               <Tippy
-                content="Pazusi (55 KM)"
+                content="Pazusi (59 KM)"
                 followCursor={true}
                 plugins={[followCursor]}
               >
@@ -2308,7 +2308,7 @@ export default function Main1(props) {
                 />
               </Tippy>
               <Tippy
-                content="Pazusi (55 KM)"
+                content="Pazusi (59 KM)"
                 followCursor={true}
                 plugins={[followCursor]}
               >
