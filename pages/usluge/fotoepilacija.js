@@ -5,7 +5,7 @@ import sample1 from '../../public/images/usluge/fotoepilacija/sample1.png'
 import turqSphere from '../../public/images/usluge/turqSphere.svg'
 import cijenaIcon from '../../public/images/usluge/cijenaIcon.svg'
 import priceTag from '../../public/images/usluge/priceIcon.svg'
-import priceTwo from '../../public/images/usluge/Naljepnica krug fotoepilacija 55 KM mala.png'
+import priceTwo from '../../public/images/usluge/diodniLasera.png'
 import naruciteSe from '../../public/images/usluge/fotoepilacija/fotoepilacija.jpg'
 import ReactPlayer from 'react-player';
 import greenCircle from '../../public/images/usluge/fotoepilacija/greenCircle.svg'
@@ -216,7 +216,7 @@ svjetlost
                         </div>
                     </div>
                     <div className="column diodniCol">
-                        <img className='Naljepnica krug fotoepilacija 55 KM malaPNG' src={priceTwo} alt="55 KM - Cijena laserske epilacije po zoni" />
+                        <img className='diodniIMG' src={priceTwo} alt="55 KM - Cijena laserske epilacije po zoni" />
                     </div>
                     </div>
                     
