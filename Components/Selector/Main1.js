@@ -1380,7 +1380,7 @@ export default function Main1(props) {
           >
             <g>
               <Tippy
-                content="Lice + Nausnice 59 KM)"
+                content="Lice + Nausnice 49 KM)"
                 followCursor={true}
                 plugins={[followCursor]}
               >
