@@ -10,7 +10,7 @@ export default function Main1(props) {
     {
       id: 0,
       title: "Lice + Nausnice",
-      price: 59,
+      price: 49,
       selected: false,
       sidebar: false,
     },
