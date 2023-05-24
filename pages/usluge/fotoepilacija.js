@@ -235,7 +235,7 @@ svjetlost
           <div className="columns">
                         <div className="column is-12">
                         <p className="titleCijena titleCijenaPad">Izaberite zone koje želite tretirati</p>
-              <Main1 />
+              <Main />
             </div>
           </div>
                 </div>
