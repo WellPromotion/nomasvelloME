@@ -26,7 +26,7 @@ export default function Main1(props) {
     { id: 4, title: "Bikini", price: 59, selected: false, sidebar: false },
     { id: 5, title: "Noge", price: 118, selected: false, sidebar: false },
     { id: 6, title: "Stopala", price: 30, selected: false, sidebar: false },
-    { id: 7, title: "Ramena", price: 55, selected: false, sidebar: false },
+    { id: 7, title: "Ramena", price: 59, selected: false, sidebar: false },
     { id: 8, title: "Ruke", price: 118, selected: false, sidebar: false },
     { id: 9, title: "Šake", price: 30, selected: false, sidebar: false },
     { id: 10, title: "Potiljak", price: 59, selected: false, sidebar: false },
