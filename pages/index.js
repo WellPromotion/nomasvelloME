@@ -135,7 +135,7 @@ export default function Home() {
                   <br />
                   Dio ove uspješne priče je i No+Vello® Bosna i Hercegovina, koji se može pohvaliti sa <b>9 centara u Bosni i Hercegovini</b>, <u>specijaliziranih za područje laserske epilacije i fotoepilacije</u> - dugotrajnog uklanjanja dlačica uz pomoć svjetla. 
                   <br /><br />
-                  Naša inovativna i pristupačna <b>unisex cijena od 49KM po zoni i sesiji</b> napravila je revoluciju na tržištu u području dugotrajnog uklanjanja dlačica. Ključ našeg uspjeha je <b>najsavremenija tehnologija</b> i najbolji protokoli rada koji nam zahvaljujući globalnoj prisutnosti omogućuju <b>pružanje visokokvalitetnih usluga epilacije po vrlo pristupačnoj cijeni.</b>
+                  Naša inovativna i pristupačna <b>unisex cijena od 55KM po zoni i sesiji</b> napravila je revoluciju na tržištu u području dugotrajnog uklanjanja dlačica. Ključ našeg uspjeha je <b>najsavremenija tehnologija</b> i najbolji protokoli rada koji nam zahvaljujući globalnoj prisutnosti omogućuju <b>pružanje visokokvalitetnih usluga epilacije po vrlo pristupačnoj cijeni.</b>
                   
                 </p>
               </div>
@@ -258,7 +258,7 @@ export default function Home() {
                 <div className="thirdBox">
                   <a href="/usluge/fotoepilacija#diodniZone"><div className="inner">
                     <img src={priceTag} alt="" />
-                    <p className="numberEleven">49KM</p>
+                    <p className="numberEleven">55KM</p>
                     <p className="firstText">Cijena po zoni i sesiji</p>
                   </div></a>
                 </div>
