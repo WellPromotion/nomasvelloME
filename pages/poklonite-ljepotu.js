@@ -27,7 +27,7 @@ export default function PokloniteLjepotu() {
                             <h2 className="pokloniteTitle">Poklonite No+Vello Giftcard i obradujte Vama najdraže dame</h2>
                             <p className="defaultText">
                             Savršen poklon za supruge, kčerke, mame, koleginice, prijateljice pa čak i poslovne partnerice.
-Giftcard možete napuniti sa iznosom po želji počev od 49KM a dobitnica poklona može isti da iskoristi na tretmane epilacije, tretmane lica ili tijela… Kada god to poželi.
+Giftcard možete napuniti sa iznosom po želji počev od 55KM a dobitnica poklona može isti da iskoristi na tretmane epilacije, tretmane lica ili tijela… Kada god to poželi.
                             </p>
                             <p className="defaultText">
                             Ukoliko ne može stići do naših salona… Mi ćemo Vam dostaviti Giftcard gdje god poželite u Bosni i Hercegovini.
