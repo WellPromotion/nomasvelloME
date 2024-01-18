@@ -26,7 +26,7 @@ export default function PokloniteLjepotu() {
                         <div className="column">
                             <h2 className="pokloniteTitle">Poklonite No+Vello Giftcard i obradujte Vama najdraže dame</h2>
                             <p className="defaultText">
-                            Savršen poklon za supruge, kčerke, mame, koleginice, prijateljice pa čak i poslovne partnerice.
+                            Savršen poklon za supruge, kćerke, mame, koleginice, prijateljice, pa čak i poslovne partnerice.
 Giftcard možete napuniti sa iznosom po želji počev od 55KM a dobitnica poklona može isti da iskoristi na tretmane epilacije, tretmane lica ili tijela… Kada god to poželi.
                             </p>
                             <p className="defaultText">
