@@ -76,7 +76,7 @@ Plaćanje možete izvršiti gotovinski, preko računa ili karticom ukoliko isti 
                         <div className="column">
                         <div className="fransBox">
                                 <div className="inner">
-                                    <p className="fransBroj">49KM</p>
+                                    <p className="fransBroj">55KM</p>
                                     <p className="fransSub">zona/sesija unisex tarifa</p>
                                 </div>
                             </div>
