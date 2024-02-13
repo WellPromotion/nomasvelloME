@@ -118,7 +118,7 @@ export default function DovediPrijatelja() {
                         <div className="column">
                         <div className="singleItem">
                                 <p className="numberGreen">5</p>
-                                <p className="defaultText">Otiđite u svoj centar ili kontaktirajte isti putem telefona da rezervišete termin za sesiju koju ste dobili na poklon.</p>
+                                <p className="defaultText">Otiđite u svoj centar ili kontaktirajte isti putem telefona da rezervišete termin za sesiju koju ste dobili na poklon. </p>
                             </div>
                         </div>
                         <div className="column blankCol">
