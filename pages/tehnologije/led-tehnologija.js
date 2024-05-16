@@ -274,7 +274,7 @@ const LedTehnologija = () => {
                                            <img className='is-right' src={tarifeLice} alt="" />
                                        </div>
                                        <p className='tarifePrice'>
-                                           49KM
+                                           od 40KM
                                        </p>
                                        <p className='tarifeDesc'>
                                            Cijena tretmana lica i tijela
@@ -290,7 +290,7 @@ const LedTehnologija = () => {
                                            <img className='is-right' src={tarifeZubi} alt="" />
                                        </div>
                                        <p className='tarifePrice'>
-                                           59KM
+                                           od 99KM
                                        </p>
                                        <p className='tarifeDesc'>
                                            Izbjeljivanje zuba

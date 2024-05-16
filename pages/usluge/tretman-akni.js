@@ -190,7 +190,7 @@ potpuno besplatan pregled lica</p>
                             <div className="singleItem upperItem">
                                     <div className="inner">
                                         <p className="title">Lice</p>
-                                        <p className="price">49 KM</p>
+                                        <p className="price">55 KM</p>
                                     </div>
                                 </div>
                                 
