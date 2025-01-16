@@ -39,12 +39,22 @@ const Brcko = () => {
                                 <p className="cityInfoTitle">Radno vrijeme:</p>
                                 <div className="columns">
                                     <div className="column">
-                                        <p className="cityInfoTitle strong">Ponedjeljak - petak:</p>
+                                        <p className="cityInfoTitle strong">Ponedjeljak:</p>
                                         <p><span className="cityInfoContent strong workHours">09:00 - 17:00h</span></p>
+                                        <p className="cityInfoTitle strong">Utorak:</p>
+                                        <p><span className="cityInfoContent strong workHours">12:00 - 20:00h</span></p>
+                                        <p className="cityInfoTitle strong">Srijeda:</p>
+                                        <p><span className="cityInfoContent strong workHours">11:00 - 19:00h</span></p>
+                                        <p className="cityInfoTitle strong">Četvrtak:</p>
+                                        <p><span className="cityInfoContent strong workHours">11:00 - 19:00h</span></p>
+                                        <p className="cityInfoTitle strong">Petak:</p>
+                                        <p><span className="cityInfoContent strong workHours">09:00 - 17:00h</span></p>
+                                        <p className="cityInfoTitle strong">Subota:</p>
+                                        <p><span className="cityInfoContent strong workHours">09:00 - 15:00h</span></p>
                                     </div>
                                     <div className="column">
-                                    <p className="cityInfoTitle strong">Subota:</p>
-                                        <p><span className="cityInfoContent strong workHours">09:00 - 15:00h</span></p>
+                                    {/* <p className="cityInfoTitle strong">Subota:</p>
+                                        <p><span className="cityInfoContent strong workHours">09:00 - 15:00h</span></p> */}
                                     </div>
                                 </div>
                             </div>
