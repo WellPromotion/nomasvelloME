@@ -13,7 +13,7 @@ export default function PackMladenka() {
         <section id="heroTitlePromocije" className="hero is-medium">
             <div className="hero-body">
                     <div className="container has-text-centered">
-                        <h5 className='preTitle'>
+                        <h5 className='preTitle'>  
                         Otkrijte naše ponude i promocije
                         </h5> 
                     <h1 className=" title">
