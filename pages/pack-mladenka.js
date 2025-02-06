@@ -15,7 +15,7 @@ export default function PackMladenka() {
                     <div className="container has-text-centered">
                         <h5 className='preTitle'>
                         Otkrijte naše ponude i promocije
-                        </h5>
+                        </h5> 
                     <h1 className=" title">
                        Pack Mladenka
                     </h1>
