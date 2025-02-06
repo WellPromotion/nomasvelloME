@@ -224,25 +224,25 @@ Ne postoji ni minimalna ni maksimalna dobna starost za ovu vrstu tretmana.</p>
                             <div className="singleItem upperItem">
                                     <div className="inner">
                                         <p className="title">Lice</p>
-                                        <p className="price">55KM</p>
+                                        <p className="price">59KM</p>
                                     </div>
                                 </div>
                                 <div className="singleItem">
                                     <div className="inner">
                                         <p className="title">Dekolte</p>
-                                        <p className="price">55KM</p>
+                                        <p className="price">59KM</p>
                                     </div>
                                 </div>
                                 <div className="singleItem">
                                     <div className="inner">
                                         <p className="title">Šake (obje)</p>
-                                        <p className="price">55KM</p>
+                                        <p className="price">59KM</p>
                                     </div>
                                 </div>
                                 <div className="singleItem">
                                     <div className="inner">
                                         <p className="title">Vrat</p>
-                                        <p className="price">55KM</p>
+                                        <p className="price">59KM</p>
                                     </div>
                                 </div>
                             </div>
@@ -252,7 +252,7 @@ Ne postoji ni minimalna ni maksimalna dobna starost za ovu vrstu tretmana.</p>
                                 <div className="inner">
                                     <img src={priceTag} className="priceTag" alt="" />
                                     <p className="priceTitle">
-                                        55KM Zona
+                                        59KM Zona
                                     </p>
                                     <p className="priceSubtitle">
                                         Unisex tarifa

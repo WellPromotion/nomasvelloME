@@ -117,7 +117,7 @@ svjetlost
                             Više od milion
                             </p>
                             <p className="defaultText defaultWhitegreen">
-                            osoba nam je poklonilo svoje povjerenje jer samo No+Vello daje najbolje rezultate u borbi protiv neželjenih dlačica <br /> za samo 55 KM po zoni.
+                            osoba nam je poklonilo svoje povjerenje jer samo No+Vello daje najbolje rezultate u borbi protiv neželjenih dlačica <br /> za samo 59 KM po zoni.
                             </p>
                         </div>
                     </div>
@@ -205,9 +205,9 @@ svjetlost
                     <div className="column leftCol">
                         <div className="priceBox">
                             <div className="inner">
-                                <img src={priceTag} className="priceTag" alt="55 KM - Cijena laserske epilacije po zoni" />
+                                <img src={priceTag} className="priceTag" alt="59 KM - Cijena laserske epilacije po zoni" />
                                 <p className="priceTitle">
-                                55KM Zona
+                                59KM Zona
                                 </p>
                                 <p className="priceSubtitle">
                                 Unisex tarifa
@@ -216,7 +216,7 @@ svjetlost
                         </div>
                     </div>
                     <div className="column diodniCol">
-                        <img className='diodniIMG' src={priceTwo} alt="55 KM - Cijena laserske epilacije po zoni" />
+                        <img className='diodniIMG' src={priceTwo} alt="59 KM - Cijena laserske epilacije po zoni" />
                     </div>
                     </div>
                     
@@ -253,121 +253,121 @@ svjetlost
                                 <div className="singleItem upperItem">
                                     <div className="inner">
                                         <p className="title">Lice (nausnica+brada+obrazi)</p>
-                                        <p className="price">55 KM</p>
+                                        <p className="price">59 KM</p>
                                     </div>
                                 </div>
                                 <div className="singleItem upperItem">
                                     <div className="inner">
                                         <p className="title">Vrat</p>
-                                        <p className="price">55 KM</p>
+                                        <p className="price">59 KM</p>
                                     </div>
                                 </div>
                                 <div className="singleItem upperItem">
                                     <div className="inner">
                                         <p className="title">Ramena (oba ramena)</p>
-                                        <p className="price">55 KM</p>
+                                        <p className="price">59 KM</p>
                                     </div>
                                 </div>
                                 <div className="singleItem upperItem">
                                     <div className="inner">
                                         <p className="title">Pazuh (oba pazuha)</p>
-                                        <p className="price">55 KM</p>
+                                        <p className="price">59 KM</p>
                                     </div>
                                 </div>
                                 <div className="singleItem upperItem">
                                     <div className="inner">
                                         <p className="title">Ruke (svaka ruka, pola ili cijele)</p>
-                                        <p className="price">55 KM</p>
+                                        <p className="price">59 KM</p>
                                     </div>
                                 </div>
                                 <div className="singleItem upperItem">
                                     <div className="inner">
                                         <p className="title">Zatiljak</p>
-                                        <p className="price">55 KM</p>
+                                        <p className="price">59 KM</p>
                                     </div>
                                 </div>
                                 <div className="singleItem upperItem">
                                     <div className="inner">
                                         <p className="title">Leđa (dorzal) (od završetka vrata do pola leđa)</p>
-                                        <p className="price">55 KM</p>
+                                        <p className="price">59 KM</p>
                                     </div>
                                 </div>
                                 <div className="singleItem upperItem">
                                     <div className="inner">
                                         <p className="title">Lumbago (krsta) (od pola leđa do početka stražnjice)</p>
-                                        <p className="price">55 KM</p>
+                                        <p className="price">59 KM</p>
                                     </div>
                                 </div>
                                 <div className="singleItem upperItem">
                                     <div className="inner">
                                         <p className="title">Stražnjica</p>
-                                        <p className="price">55 KM</p>
+                                        <p className="price">59 KM</p>
                                     </div>
                                 </div>
                                 <div className="singleItem upperItem">
                                     <div className="inner">
                                         <p className="title">Prsa (od kraja vrata do ispod prsa)</p>
-                                        <p className="price">55 KM</p>
+                                        <p className="price">59 KM</p>
                                     </div>
                                 </div>
                                 <div className="singleItem upperItem">
                                     <div className="inner">
                                         <p className="title">Stomak</p>
-                                        <p className="price">55 KM</p>
+                                        <p className="price">59 KM</p>
                                     </div>
                                 </div>
                                 <div className="singleItem upperItem">
                                     <div className="inner">
                                         <p className="title">Bikini</p>
-                                        <p className="price">55 KM</p>
+                                        <p className="price">59 KM</p>
                                     </div>
                                 </div>
                                 <div className="singleItem upperItem">
                                     <div className="inner">
                                         <p className="title">Noge (svaka noga, pola noge ili kompletna)</p>
-                                        <p className="price">55 KM</p>
+                                        <p className="price">59 KM</p>
                                     </div>
                                 </div>
                                 <div className="singleItem upperItem">
                                     <div className="inner">
                                         <p className="title">Nausnice</p>
-                                        <p className="price">25 KM</p>
+                                        <p className="price">30 KM</p>
                                     </div>
                                 </div>
                                 <div className="singleItem upperItem">
                                     <div className="inner">
                                         <p className="title">Stopala (oba stopala)</p>
-                                        <p className="price">25 KM</p>
+                                        <p className="price">30 KM</p>
                                     </div>
                                 </div>
                                 <div className="singleItem upperItem">
                                     <div className="inner">
                                         <p className="title">Između grudi</p>
-                                        <p className="price">25 KM</p>
+                                        <p className="price">30 KM</p>
                                     </div>
                                 </div>
                                 <div className="singleItem upperItem">
                                     <div className="inner">
                                         <p className="title">Oko bradavica</p>
-                                        <p className="price">25 KM</p>
+                                        <p className="price">30 KM</p>
                                     </div>
                                 </div>
                                 <div className="singleItem upperItem">
                                     <div className="inner">
                                         <p className="title">Trbušna linija</p>
-                                        <p className="price">25 KM</p>
+                                        <p className="price">30 KM</p>
                                     </div>
                                 </div>
                                 <div className="singleItem upperItem">
                                     <div className="inner">
                                         <p className="title">Šake (obje šake)</p>
-                                        <p className="price">25 KM</p>
+                                        <p className="price">30 KM</p>
                                     </div>
                                 </div>
                                 <div className="singleItem upperItem">
                                     <div className="inner">
                                         <p className="title">Perianalna zona</p>
-                                        <p className="price">25 KM</p>
+                                        <p className="price">30 KM</p>
                                     </div>
                                 </div>
                                 

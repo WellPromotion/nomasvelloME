@@ -1,5 +1,5 @@
 import styles from '../styles/PonudePromocije.module.scss';
-import leftImg from '../public/images/Promocija-mladenka-2.jpg';
+import leftImg from '../public/images/Promocija-mladenka-4.jpg';
 import greenCheck from '../public/images/greenCheck.svg';
 import PackMladenkaPopup from '../Components/popups/PackMladenkaPopup';
 // import NajboljiPlanoviPopup from '../Components/popups/NajboljiPlanoviPopup';
