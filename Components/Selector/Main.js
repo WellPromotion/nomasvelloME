@@ -24,10 +24,10 @@ export default function Main(props) {
     },
     { id: 3, title: "Stomak", price: 59, selected: false, sidebar: false },
     { id: 4, title: "Bikini", price: 59, selected: false, sidebar: false },
-    { id: 5, title: "Noge", price: 110, selected: false, sidebar: false },
+    { id: 5, title: "Noge", price: 118, selected: false, sidebar: false },
     { id: 6, title: "Stopala", price: 30, selected: false, sidebar: false },
     { id: 7, title: "Ramena", price: 59, selected: false, sidebar: false },
-    { id: 8, title: "Ruke", price: 110, selected: false, sidebar: false },
+    { id: 8, title: "Ruke", price: 118, selected: false, sidebar: false },
     { id: 9, title: "Šake", price: 30, selected: false, sidebar: false },
     { id: 10, title: "Potiljak", price: 59, selected: false, sidebar: false },
     {
@@ -385,7 +385,7 @@ export default function Main(props) {
                 />
               </Tippy>
               <Tippy
-                content="Noge (110 KM)"
+                content="Noge (118 KM)"
                 followCursor={true}
                 plugins={[followCursor]}
               >
@@ -475,7 +475,7 @@ export default function Main(props) {
                 />
               </Tippy>
               <Tippy
-                content="Ruke (110 KM)"
+                content="Ruke (118 KM)"
                 followCursor={true}
                 plugins={[followCursor]}
               >
@@ -691,7 +691,7 @@ export default function Main(props) {
                 />
               </Tippy>
               <Tippy
-                content="Ruke (110 KM)"
+                content="Ruke (118 KM)"
                 followCursor={true}
                 plugins={[followCursor]}
               >
@@ -751,7 +751,7 @@ export default function Main(props) {
                 />
               </Tippy>
               <Tippy
-                content="Noge (110 KM)"
+                content="Noge (118 KM)"
                 followCursor={true}
                 plugins={[followCursor]}
               >
@@ -1524,7 +1524,7 @@ export default function Main(props) {
                 />
               </Tippy>
               <Tippy
-                content="Ruke (110 KM)"
+                content="Ruke (118 KM)"
                 followCursor={true}
                 plugins={[followCursor]}
               >
@@ -1644,7 +1644,7 @@ export default function Main(props) {
                 />
               </Tippy>
               <Tippy
-                content="Noge (110 KM)"
+                content="Noge (118 KM)"
                 followCursor={true}
                 plugins={[followCursor]}
               >
@@ -1830,7 +1830,7 @@ export default function Main(props) {
                 />
               </Tippy>
               <Tippy
-                content="Noge (110 KM)"
+                content="Noge (118 KM)"
                 followCursor={true}
                 plugins={[followCursor]}
               >
@@ -1890,7 +1890,7 @@ export default function Main(props) {
                 />
               </Tippy>
               <Tippy
-                content="Ruke (110 KM)"
+                content="Ruke (118 KM)"
                 followCursor={true}
                 plugins={[followCursor]}
               >
