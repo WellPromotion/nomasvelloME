@@ -301,7 +301,7 @@ VELIKE SNAGE</p>
                                 <div className="singleItem upperItem">
                                     <div className="inner">
                                         <p className="title">Lice (nausnica+brada+obrazi)</p>
-                                        <p className="price">49 KM</p>
+                                        <p className="price">59 KM</p>
                                     </div>
                                 </div>
                                 <div className="singleItem upperItem">
@@ -379,7 +379,7 @@ VELIKE SNAGE</p>
                                 <div className="singleItem upperItem">
                                     <div className="inner">
                                         <p className="title">Nausnice</p>
-                                        <p className="price">25 KM</p>
+                                        <p className="price">30 KM</p>
                                     </div>
                                 </div>
                                 <div className="singleItem upperItem">
