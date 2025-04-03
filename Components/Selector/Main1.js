@@ -10,7 +10,7 @@ export default function Main1(props) {
     {
       id: 0,
       title: "Lice + Nausnice",
-      price: 49,
+      price: 59,
       selected: false,
       sidebar: false,
     },
@@ -51,7 +51,7 @@ export default function Main1(props) {
       selected: false,
       sidebar: false,
     },
-    { id: 14, title: "Nausnice", price: 25, selected: false, sidebar: false },
+    { id: 14, title: "Nausnice", price: 30, selected: false, sidebar: false },
     {
       id: 15,
       title: "Između obrva",
@@ -211,7 +211,7 @@ export default function Main1(props) {
           >
             <g>
               <Tippy
-                content="Lice (49 KM)"
+                content="Lice (59 KM)"
                 followCursor={true}
                 plugins={[followCursor]}
               >
@@ -1380,7 +1380,7 @@ export default function Main1(props) {
           >
             <g>
               <Tippy
-                content="Lice + Nausnice 49 KM)"
+                content="Lice + Nausnice 59 KM)"
                 followCursor={true}
                 plugins={[followCursor]}
               >
@@ -2210,7 +2210,7 @@ export default function Main1(props) {
                 />
               </Tippy>
               <Tippy
-                content="Nausnice (25 KM)"
+                content="Nausnice (30 KM)"
                 followCursor={true}
                 plugins={[followCursor]}
               >
