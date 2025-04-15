@@ -142,56 +142,56 @@ export const SarajevoVGallery = () => {
       <Carousel.Item>
         <div className="centarSlide">
           <a href="">
-            <img className="sliderCentarImage" src="/images/centri/sarajevo-v/centar1.jpg" alt="" />
+            <img className="sliderCentarImage" src="/images/centri/sarajevo-v/centar1.JPG" alt="" />
           </a>
         </div>
       </Carousel.Item>
       <Carousel.Item>
         <div className="centarSlide">
           <a href="">
-            <img className="sliderCentarImage" src="/images/centri/sarajevo-v/centar2.jpg" alt="" />
+            <img className="sliderCentarImage" src="/images/centri/sarajevo-v/centar2.JPG" alt="" />
           </a>
         </div>
       </Carousel.Item>
       <Carousel.Item>
         <div className="centarSlide">
           <a href="">
-            <img className="sliderCentarImage" src="/images/centri/sarajevo-v/centar3.jpg" alt="" />
+            <img className="sliderCentarImage" src="/images/centri/sarajevo-v/centar3.JPG" alt="" />
           </a>
         </div>
       </Carousel.Item>
       <Carousel.Item>
         <div className="centarSlide">
           <a href="">
-            <img className="sliderCentarImage" src="/images/centri/sarajevo-v/centar4.jpg" alt="" />
+            <img className="sliderCentarImage" src="/images/centri/sarajevo-v/centar4.JPG" alt="" />
           </a>
         </div>
       </Carousel.Item>
       <Carousel.Item>
         <div className="centarSlide">
           <a href="">
-            <img className="sliderCentarImage" src="/images/centri/sarajevo-v/centar5.jpg" alt="" />
+            <img className="sliderCentarImage" src="/images/centri/sarajevo-v/centar5.JPG" alt="" />
           </a>
         </div>
       </Carousel.Item>
       <Carousel.Item>
         <div className="centarSlide">
           <a href="">
-            <img className="sliderCentarImage" src="/images/centri/sarajevo-v/centar6.jpg" alt="" />
+            <img className="sliderCentarImage" src="/images/centri/sarajevo-v/centar6.JPG" alt="" />
           </a>
         </div>
       </Carousel.Item>
       <Carousel.Item>
         <div className="centarSlide">
           <a href="">
-            <img className="sliderCentarImage" src="/images/centri/sarajevo-v/centar7.jpg" alt="" />
+            <img className="sliderCentarImage" src="/images/centri/sarajevo-v/centar7.JPG" alt="" />
           </a>
         </div>
       </Carousel.Item>
       <Carousel.Item>
         <div className="centarSlide">
           <a href="">
-            <img className="sliderCentarImage" src="/images/centri/sarajevo-v/centar8.jpg" alt="" />
+            <img className="sliderCentarImage" src="/images/centri/sarajevo-v/centar8.JPG" alt="" />
           </a>
         </div>
       </Carousel.Item>
