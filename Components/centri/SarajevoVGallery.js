@@ -13,7 +13,7 @@ import centar9 from '../../public/images/centri/sarajevo-v/centar9.jpg'
 
 // your custom dot component with prop `isActive`
 const MyDot1 = ({ isActive }) => (
-    <span
+    <span 
       style={{
         display: 'inline-block',
         height: isActive ? '10px' : '8px',
