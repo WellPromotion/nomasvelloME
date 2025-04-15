@@ -133,7 +133,7 @@ export default function Home() {
                 <p>
                 <b>No+Vello®</b>  je prva i globalno najuspješnija franšiza na području dugotrajne epilacije, čemu svjedoči više od 1000 centara i više od 1.000.000 zadovoljnih korisnika u 16 zemalja.
                   <br />
-                  Dio ove uspješne priče je i No+Vello® Bosna i Hercegovina, koji se može pohvaliti sa <b>9 centara u Bosni i Hercegovini</b>, <u>specijaliziranih za područje laserske epilacije i fotoepilacije</u> - dugotrajnog uklanjanja dlačica uz pomoć svjetla. 
+                  Dio ove uspješne priče je i No+Vello® Bosna i Hercegovina, koji se može pohvaliti sa <b>10 centara u Bosni i Hercegovini</b>, <u>specijaliziranih za područje laserske epilacije i fotoepilacije</u> - dugotrajnog uklanjanja dlačica uz pomoć svjetla. 
                   <br /><br />
                   Naša inovativna i pristupačna <b>unisex cijena od 55KM po zoni i sesiji</b> napravila je revoluciju na tržištu u području dugotrajnog uklanjanja dlačica. Ključ našeg uspjeha je <b>najsavremenija tehnologija</b> i najbolji protokoli rada koji nam zahvaljujući globalnoj prisutnosti omogućuju <b>pružanje visokokvalitetnih usluga epilacije po vrlo pristupačnoj cijeni.</b>
                   
@@ -241,7 +241,7 @@ export default function Home() {
                 <div className="firstBox">
                   <a href="/centri"><div className="inner">
                     <img src={threeHeads} alt="" />
-                    <p className="numberEleven">9</p>
+                    <p className="numberEleven">10</p>
                     <p className="firstText">NO+VELLO centara za savremenu depilaciju i epilaciiju u Bosni i Hercegovini</p>
                   </div></a>
                 </div>

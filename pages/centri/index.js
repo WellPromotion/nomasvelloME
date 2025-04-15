@@ -178,6 +178,33 @@ const Centri = () => {
                                     </div>
                                 </div>
                             </div>
+                            
+                            <div className="boxCity">
+                                <div className="boxOuter">
+                                    <div className="boxInner">
+                                        <img src={greenSphere} alt="" />
+                                        <p className="centriCityTitle">Sarajevo - V</p>
+                                        <p className="centriCitySubtitle">Centar - Sarajevo Centar</p>
+                                        <div className="adressInfo">
+                                            <div className="columns">
+                                                <div className="column">
+                                                    <p className="cityInfoTitle">Adresa: </p>
+                                                    <p className="cityInfoTitle">Telefon:</p>
+                                                    <p className="cityInfoTitle">Email: </p>
+                                                </div>
+                                                <div className="column is-10">
+                                                    <p><span className="cityInfoContent">Hamdije Kreševljakovića 7C</span></p>
+                                                    <p> <span className="cityInfoContent">033 671 100 | 062 209 979</span></p>
+                                                    <p><span className="cityInfoContent">centar@nomasvello.ba</span></p>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <Link href="/centri/sarajevo-v">
+                                        <a className="cityDetailsBtn turqButton">Vidi sve detalje</a>
+                                        </Link>
+                                    </div>
+                                </div>
+                            </div>
                           
                             <div className="boxCity">
                                 <div className="boxOuter">
@@ -209,7 +236,15 @@ const Centri = () => {
                                 </div>
                             </div>
                             
-                            <div className="boxCity">
+                           
+                           
+                        </div>
+                    </div>
+                    
+                    <div className="columns">
+                    <div className="column">
+                           
+                    <div className="boxCity">
                                 <div className="boxOuter">
                                     <div className="boxInner">
                                         <img src={greenSphere} alt="" />
@@ -235,13 +270,7 @@ const Centri = () => {
                                     </div>
                                 </div>
                             </div>
-                           
-                        </div>
-                    </div>
-                    
-                    <div className="columns">
-                    <div className="column">
-                           
+                            
                            <div className="boxCity">
                                    <div className="boxOuter">
                                        <div className="boxInner">
@@ -296,7 +325,14 @@ const Centri = () => {
                                        </div>
                                    </div>
                                </div>
-                               <div className="boxCity">
+                              
+                              
+                           </div>
+                    </div>
+                    
+                    <div className="columns">
+                        <div className="column">
+                        <div className="boxCity">
                                    <div className="boxOuter">
                                        <div className="boxInner">
                                            <img src={greenSphere} alt="" />
@@ -323,8 +359,7 @@ const Centri = () => {
                                        </div>
                                    </div>
                                </div>
-                              
-                           </div>
+                        </div>
                     </div>
                     
                 </div>

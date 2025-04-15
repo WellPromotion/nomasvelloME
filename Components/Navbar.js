@@ -51,6 +51,9 @@ return (
                                 <a href="/centri/sarajevo-iv">
                                     <li>Ilidža</li>
                                 </a>
+                                <a href="/centri/sarajevo-v">
+                                    <li>Sarajevo Centar</li>
+                                </a>        
                             </ul>
                         </li>
                     </a>
@@ -179,6 +182,9 @@ return (
                             </a>
                             <a href="/centri/sarajevo-iv">
                                 <li>Ilidža</li>
+                            </a>
+                            <a href="/centri/sarajevo-v">
+                                <li>Centar</li>
                             </a>
                             <a href="/centri/banja-luka">
                                 <li>Banja Luka</li>
