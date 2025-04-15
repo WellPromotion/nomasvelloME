@@ -1,5 +1,7 @@
 import React from 'react'
 import Carousel from 'react-grid-carousel'
+
+
 import centar from '../../public/images/centri/sarajevo-v/centar.jpg'
 import centar1 from '../../public/images/centri/sarajevo-v/centar1.jpg'
 import centar2 from '../../public/images/centri/sarajevo-v/centar2.jpg'
