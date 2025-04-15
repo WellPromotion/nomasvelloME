@@ -1,5 +1,4 @@
-@import './variables';
-
+@use './variables' as *;
 
 .pokloniteLjepotuBottom{
     padding-bottom: 5rem;

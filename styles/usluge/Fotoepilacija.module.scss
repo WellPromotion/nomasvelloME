@@ -1,4 +1,4 @@
-@import '../variables';
+@use '../variables' as *;
 
 .fotoepilacijaHeader{
      background-image: url('../../public/images/usluge/fotoepilacija/header.png') !important;

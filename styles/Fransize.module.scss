@@ -1,4 +1,4 @@
-@import './variables';
+@use './variables' as *;
 
 #heroTitleFransize{
     background-image: url("../public/images/faq/laser.png");

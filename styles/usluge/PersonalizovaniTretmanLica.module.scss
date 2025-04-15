@@ -1,4 +1,4 @@
-@import '../variables';
+@use '../variables' as *;
 
 .personalizovaniTretman{
      background-image: url('../../public/images/usluge/personalizovani-tretman-lica/header.png') !important;

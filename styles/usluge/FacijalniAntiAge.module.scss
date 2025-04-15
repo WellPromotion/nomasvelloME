@@ -1,4 +1,4 @@
-@import '../variables';
+@use '../variables' as *;
 
 .facijalni{
     background-image: url('../../public/images/usluge/facijalni-anti-age/header.png') !important;

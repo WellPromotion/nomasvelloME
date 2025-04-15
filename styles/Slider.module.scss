@@ -1,4 +1,4 @@
-@import './variables';
+@use './variables' as *;
 
 .slickSlide{
     height: 23.063rem;

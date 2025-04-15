@@ -1,4 +1,4 @@
-@import './variables';
+@use './variables' as *;
 
 #titleTehnologije{
     // background: url("../public/images/tehnologije/headerImg.png") no-repeat;
