@@ -130,6 +130,7 @@ const handleOnChange = ( event ) => {
                             <option value="Sarajevo - Stari Grad">Sarajevo - Stari Grad</option>
                             <option value="Sarajevo - Novi Grad">Sarajevo - Novi Grad</option>
                             <option value="Sarajevo - Ilidža">Sarajevo - Ilidža</option>
+                            <option value="Sarajevo - Ilidža">Sarajevo - Centar</option>
                             <option value="Banja Luka">Banja Luka</option>
                             <option value="Zenica">Zenica</option>
                             <option value="Tuzla">Tuzla</option>

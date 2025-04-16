@@ -155,7 +155,7 @@ return (
                                 <li>Izbjeljivanje zuba</li>
                             </a>
                             <a href="/usluge/tjelesni-ucvrscivac">
-                                <li>Tjelesni učvrščivać</li>
+                                <li>Tjelesni učvršćivač</li>
                             </a>
                             <a href="/usluge/personalizovani-tretmani-lica">
                                 <li>Personalizovani tretman lica</li>
@@ -275,7 +275,7 @@ return (
                                             <li>Izbjeljivanje zuba</li>
                                         </a>
                                         <a href="/usluge/tjelesni-ucvrscivac#cijena">
-                                            <li>Tjelesni učvrščivać</li>
+                                            <li>Tjelesni učvršćivač</li>
                                         </a>
                                         {/* <a href="/usluge/personalizovani-tretmani-lica#cijena">
                                             <li>Personalizovani tretman lica</li>
