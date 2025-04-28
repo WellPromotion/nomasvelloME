@@ -82,7 +82,7 @@ const SarajevoIV = () => {
                             <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2878.169233116373!2d18.306157615411067!3d43.831588848895194!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x4758ca407377cba5%3A0x49bbf539b893691d!2sSara%20Centar!5e0!3m2!1sbs!2sba!4v1643900880168!5m2!1sbs!2sba" width="888" height="340" allowfullscreen="" loading="lazy"></iframe>
                             </div>
                             <Link href="https://www.google.ba/maps/place/Sara+Centar/@43.8315888,18.3061576,17z/data=!3m1!4b1!4m5!3m4!1s0x4758ca407377cba5:0x49bbf539b893691d!8m2!3d43.8316265!4d18.3081326">
-                            <a className="pogledajMapuBtn greyButton">Pogledaj na Google Maps</a>
+                            <a className="pogledajMapuBtn greyButton" target='_blank'>Pogledaj na Google Maps</a>
                             </Link>
                         </div>
                     </div>

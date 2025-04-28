@@ -77,7 +77,7 @@ const Doboj = () => {
                             <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d10003.048745726035!2d18.051148498878657!3d44.70880727729504!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x475e82300b2e85f3%3A0xddd2575dc7865a6e!2sNo%2BVello%C2%AE%20Doboj%20-%20Svjetski%20lider%20u%20laserskoj%20epilaciji!5e0!3m2!1sen!2sba!4v1643962663124!5m2!1sen!2sba" width="888" height="340" allowfullscreen="" loading="lazy"></iframe>
                             </div>
                             <Link href="https://www.google.com/maps/place/No%2BVello%C2%AE+Doboj+-+Svjetski+lider+u+laserskoj+epilaciji/@44.7088073,18.0511485,15.18z/data=!4m5!3m4!1s0x475e82300b2e85f3:0xddd2575dc7865a6e!8m2!3d44.708775!4d18.0583001">
-                            <a className="pogledajMapuBtn greyButton">Pogledaj na Google Maps</a>
+                            <a className="pogledajMapuBtn greyButton" target='_blank'>Pogledaj na Google Maps</a>
                             </Link>
                         </div>
                     </div>

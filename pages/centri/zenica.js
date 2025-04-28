@@ -84,7 +84,7 @@ const Zenica = () => {
                             <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2860.1797228271644!2d17.910856615786727!3d44.203364724697735!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x475ee240ee6a6ee5%3A0xe3f83cfa2ca8b972!2sNo%2BVello%C2%AE%20Zenica%20-%20Svjetski%20lider%20u%20laserskoj%20epilaciji!5e0!3m2!1sen!2sba!4v1663759096485!5m2!1sen!2sba" width="888" height="340" allowfullscreen="" loading="lazy"></iframe>
                             </div>
                             <Link href="https://www.google.com/maps/place/No%2BVello%C2%AE+Zenica+-+Svjetski+lider+u+laserskoj+epilaciji/@44.2033647,17.9108566,17z/data=!3m1!4b1!4m5!3m4!1s0x475ee240ee6a6ee5:0xe3f83cfa2ca8b972!8m2!3d44.2033609!4d17.9130453">
-                            <a className="pogledajMapuBtn greyButton">Pogledaj na Google Maps</a>
+                            <a className="pogledajMapuBtn greyButton" target='_blank'>Pogledaj na Google Maps</a>
                             </Link>
                         </div>
                     </div>

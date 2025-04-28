@@ -82,7 +82,7 @@ const Tuzla = () => {
                             <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2844.0678965631914!2d18.68188331025438!3d44.53424232584796!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0xf4c7aa87a7548b95!2zNDTCsDMyJzAzLjMiTiAxOMKwNDAnNTkuNiJF!5e0!3m2!1sen!2sba!4v1667856444120!5m2!1sen!2sba" width="888" height="340" allowfullscreen="" loading="lazy"></iframe>
                             </div>
                             <Link href="https://www.google.com/maps/place/44%C2%B032'03.3%22N+18%C2%B040'59.6%22E/@44.5342423,18.6818833,17z/data=!3m1!4b1!4m6!3m5!1s0x0:0xf4c7aa87a7548b95!7e2!8m2!3d44.5342403!4d18.6832191">
-                            <a className="pogledajMapuBtn greyButton">Pogledaj na Google Maps</a>
+                            <a className="pogledajMapuBtn greyButton" target='_blank'>Pogledaj na Google Maps</a>
                             </Link>
                         </div>
                     </div>

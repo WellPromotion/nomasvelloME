@@ -82,7 +82,7 @@ const BanjaLuka = () => {
                             <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2832.577086358012!2d17.183110215438564!3d44.769039087578335!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x475e031f1a21ca2d%3A0x521fd0c4882721c7!2sNo%2BVello!5e0!3m2!1sbs!2sba!4v1643903018060!5m2!1sbs!2sba" width="888" height="340" allowfullscreen="" loading="lazy"></iframe>
                             </div>
                             <Link href="https://www.google.ba/maps/place/No%2BVello/@44.7690391,17.1831102,17z/data=!3m1!4b1!4m5!3m4!1s0x475e031f1a21ca2d:0x521fd0c4882721c7!8m2!3d44.7692946!4d17.1855314">
-                            <a className="pogledajMapuBtn greyButton">Pogledaj na Google Maps</a>
+                            <a className="pogledajMapuBtn greyButton" target='_blank'>Pogledaj na Google Maps</a>
                             </Link>
                         </div>
                     </div>

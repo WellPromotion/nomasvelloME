@@ -82,7 +82,7 @@ const SarajevoIII = () => {
                             <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2878.4361714518977!2d18.35096761541074!3d43.82605334925419!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x4758c993c1ec6463%3A0x17805edcf5b7431!2sNo%2BVello%20Novi%20Grad!5e0!3m2!1sbs!2sba!4v1643899732205!5m2!1sbs!2sba" width="888" height="340" allowfullscreen="" loading="lazy"></iframe>
                             </div>
                             <Link href="https://www.google.ba/maps/place/No%2BVello+Novi+Grad/@43.8260533,18.3509676,17z/data=!3m1!4b1!4m5!3m4!1s0x4758c993c1ec6463:0x17805edcf5b7431!8m2!3d43.8260543!4d18.353159">
-                            <a className="pogledajMapuBtn greyButton">Pogledaj na Google Maps</a>
+                            <a className="pogledajMapuBtn greyButton" target='_blank'>Pogledaj na Google Maps</a>
                             </Link>
                         </div>
                     </div>

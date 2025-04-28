@@ -91,7 +91,7 @@ const SarajevoI = () => {
                             <iframe src="https://www.google.com/maps/embed?pb=!1m23!1m12!1m3!1d1981.1901006630171!2d18.388858714880683!3d43.85351886320726!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!4m8!3e2!4m0!4m5!1s0x4758c9c0e11ee2b9%3A0xe39d30e18cdebaf3!2sNo%2BVello%20Novo%20Sarajevo%2C%20Kolodvorska%203b%2C%20Sarajevo%2071000!3m2!1d43.8541149!2d18.3898045!5e0!3m2!1sen!2sba!4v1636027235470!5m2!1sen!2sba" width="888" height="340" allowfullscreen="" loading="lazy"></iframe>
                             </div>
                             <Link href="https://www.google.com/maps/dir//No%2BVello+Novo+Sarajevo,+Kolodvorska+3b,+Sarajevo+71000/@43.8541672,18.3547635,13z/data=!3m1!4b1!4m9!4m8!1m0!1m5!1m1!1s0x4758c9c0e11ee2b9:0xe39d30e18cdebaf3!2m2!1d18.3898045!2d43.8541149!3e2">
-                            <a className="pogledajMapuBtn greyButton">Pogledaj na Google Maps</a>
+                            <a className="pogledajMapuBtn greyButton" target='_blank'>Pogledaj na Google Maps</a>
                             </Link>
                         </div>
                     </div>

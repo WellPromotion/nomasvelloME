@@ -86,7 +86,7 @@ const Brcko = () => {
                             <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2827.618734766892!2d18.80742251580235!3d44.87005598091067!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x475c0c10206bca77%3A0xd00073b9dc0c01ed!2sNo%2BVello%C2%AE%20Br%C4%8Dko%20-%20Svjetski%20lider%20u%20laserskoj%20epilaciji!5e0!3m2!1sen!2sba!4v1643963100809!5m2!1sen!2sba" width="888" height="340" allowfullscreen="" loading="lazy"></iframe>
                             </div>
                             <Link href="https://www.google.com/maps/place/No%2BVello%C2%AE+Br%C4%8Dko+-+Svjetski+lider+u+laserskoj+epilaciji/@44.870056,18.8074225,17z/data=!3m1!4b1!4m5!3m4!1s0x475c0c10206bca77:0xd00073b9dc0c01ed!8m2!3d44.8700522!4d18.8096112">
-                            <a className="pogledajMapuBtn greyButton">Pogledaj na Google Maps</a>
+                            <a className="pogledajMapuBtn greyButton" target='_blank'>Pogledaj na Google Maps</a>
                             </Link>
                         </div>
                     </div>

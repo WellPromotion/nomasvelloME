@@ -78,12 +78,12 @@ const SarajevoV = () => {
                                     </div>
                                 </div>
                             </div>
-                            {/* <div className="mapaCentra">
-                            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2878.169233116373!2d18.306157615411067!3d43.831588848895194!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x4758ca407377cba5%3A0x49bbf539b893691d!2sSara%20Centar!5e0!3m2!1sbs!2sba!4v1643900880168!5m2!1sbs!2sba" width="888" height="340" allowfullscreen="" loading="lazy"></iframe>
-                            </div> */}
-                            {/* <Link href="https://www.google.ba/maps/place/Sara+Centar/@43.8315888,18.3061576,17z/data=!3m1!4b1!4m5!3m4!1s0x4758ca407377cba5:0x49bbf539b893691d!8m2!3d43.8316265!4d18.3081326">
-                            <a className="pogledajMapuBtn greyButton">Pogledaj na Google Maps</a>
-                            </Link> */}
+                            <div className="mapaCentra">
+                                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d333.42652353917737!2d18.41765993834887!3d43.85556346402666!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x4758c9eadcebaf37%3A0xfae4116361baa340!2sNo%2BVello%20Centar%20-%20Svjetski%20lider%20u%20laserskoj%20epilaciji!5e0!3m2!1sen!2sba!4v1745841164832!5m2!1sen!2sba" width="888" height="340" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                            </div>
+                            <Link href="https://www.google.com/maps/place/No%2BVello+Centar+-+Svjetski+lider+u+laserskoj+epilaciji/@43.8555635,18.4176599,20.11z/data=!4m6!3m5!1s0x4758c9eadcebaf37:0xfae4116361baa340!8m2!3d43.8557522!4d18.4175043!16s%2Fg%2F11x73bvk24?entry=ttu&g_ep=EgoyMDI1MDQyMy4wIKXMDSoJLDEwMjExNjM5SAFQAw%3D%3D">
+                            <a className="pogledajMapuBtn greyButton" target='_blank'>Pogledaj na Google Maps</a>
+                            </Link>
                         </div>
                     </div>
                 </div>
