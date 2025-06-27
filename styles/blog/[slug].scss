@@ -59,6 +59,15 @@
     @media only screen and (min-device-width : 320px) and (max-device-width : 480px) {
         width: auto;
          } 
+         
+    strong{
+        font-weight: bold;
+        color: $primaryGreen;
+    }
+    h1, h2, h3, h4, h5, h6{
+        font-weight: bold;
+        color: $primaryGreen;
+    }
 }
 
 .titlePost, .datePost, .imgPost, .contentPost{
