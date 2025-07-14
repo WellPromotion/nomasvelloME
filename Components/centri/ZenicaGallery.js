@@ -10,6 +10,10 @@ import zenica7 from '../../public/images/centri/zenica/zenica7.jpg'
 import zenica8 from '../../public/images/centri/zenica/zenica8.jpg'
 import zenica9 from '../../public/images/centri/zenica/zenica9.jpg'
 
+import zenicaa from '../../public/images/centri/zenica/centarZenica1.jpg'
+import zenicab from '../../public/images/centri/zenica/centarZenica2.jpg'
+
+
 
 // your custom dot component with prop `isActive`
 const MyDot1 = ({ isActive }) => (
@@ -33,18 +37,18 @@ export const ZenicaGallery = () => {
         <Carousel.Item>
             <div className="centarSlide">
                 <a href="">
-                <img className="sliderCentarImage" src={zenica1} alt="" />
+                <img className="sliderCentarImage" src={zenicaa} alt="" />
                 </a>
             </div>
         </Carousel.Item>
         <Carousel.Item>
                 <div className="centarSlide">
                 <a href="">
-                <img className="sliderCentarImage" src={zenica2} alt="" />
+                <img className="sliderCentarImage" src={zenicab} alt="" />
                 </a>
             </div>
         </Carousel.Item>
-        <Carousel.Item>
+        {/* <Carousel.Item>
                 <div className="centarSlide">
                 <a href="">
                 <img className="sliderCentarImage" src={zenica3} alt="" />
@@ -92,7 +96,7 @@ export const ZenicaGallery = () => {
                 <img className="sliderCentarImage" src={zenica9} alt="" />
                 </a>
             </div>
-        </Carousel.Item>
+        </Carousel.Item> */}
         {/* ... */}
     </Carousel>
 
