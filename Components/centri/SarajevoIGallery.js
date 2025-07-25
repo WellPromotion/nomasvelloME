@@ -7,6 +7,8 @@ import sarajevo4 from '../../public/images/centri/sarajevo-i/novosarajevo_4.jpg'
 import sarajevo5 from '../../public/images/centri/sarajevo-i/novosarajevo_5.jpg'
 import sarajevo6 from '../../public/images/centri/sarajevo-i/novosarajevo_6.jpg'
 import sarajevo7 from '../../public/images/centri/sarajevo-i/novosarajevo_7.jpg'
+import sarajevoa from '../../public/images/centri/sarajevo-i/20250724_102301.jpg'
+import sarajevob from '../../public/images/centri/sarajevo-i/20250724_102327.jpg'
 
 
 // your custom dot component with prop `isActive`
@@ -31,7 +33,14 @@ export const SarajevoIGallery = () => {
         <Carousel.Item>
             <div className="centarSlide">
                 <a href="">
-                <img className="sliderCentarImage" src={sarajevo1} alt="" />
+                <img className="sliderCentarImage" src={sarajevoa} alt="" />
+                </a>
+            </div>
+            </Carousel.Item>
+            <Carousel.Item>
+            <div className="centarSlide">
+                <a href="">
+                <img className="sliderCentarImage" src={sarajevob} alt="" />
                 </a>
             </div>
         </Carousel.Item>
