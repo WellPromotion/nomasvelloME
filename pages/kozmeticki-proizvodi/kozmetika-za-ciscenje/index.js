@@ -76,7 +76,7 @@ const KozmetikaCiscenje = () => {
                     </div>
                 </div>
                 <div className="container productsContainer">
-                    <div className="columns threeProductsBox">
+                    <div className="columns threeProductsBox"> 
                     <div className="column">
                             <div className="kozmetikeProductBox kozmetikeProductBoxPiling">
                                 <div className="_inner">
