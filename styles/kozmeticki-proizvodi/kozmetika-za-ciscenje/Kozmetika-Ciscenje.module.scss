@@ -165,6 +165,15 @@
                     }
                 }
             }
+            .kozmetikeProductBoxPiling{
+                .productImg{
+                    max-height: 180px;
+                    display: flex;
+                    justify-content: center;
+                    margin: auto;
+                    margin-bottom: 1rem;
+                }
+            }
            
         }
 }

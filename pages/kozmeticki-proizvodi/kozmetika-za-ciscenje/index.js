@@ -4,6 +4,9 @@ import Breadcrumbs from 'nextjs-breadcrumbs';
 import sampleImage1 from '../../../public/images/kozmeticki-proizvodi/kozmetikaCiscenje/sample1.png'
 import sampleImage2 from '../../../public/images/kozmeticki-proizvodi/kozmetikaCiscenje/sample2.png'
 import sampleImage3 from '../../../public/images/kozmeticki-proizvodi/kozmetikaCiscenje/sample3.png'
+import sampleImage4 from '../../../public/images/kozmeticki-proizvodi/kozmetikaCiscenje/piling-lice/0.png'
+import sampleImage5 from '../../../public/images/kozmeticki-proizvodi/kozmetikaCiscenje/piling-tijelo/1.png'
+
 import eyeIcon from '../../../public/images/eyeIcon.svg'
 import checkGreen from '../../../public/images/greenCheckmark.svg';
 import sampleBottom from '../../../public/images/kozmeticki-proizvodi/kozmetikaCiscenje/kozmetika-za-ciscenje.png';
@@ -73,7 +76,29 @@ const KozmetikaCiscenje = () => {
                     </div>
                 </div>
                 <div className="container productsContainer">
-                <div className="columns threeProductsBox">
+                    <div className="columns threeProductsBox">
+                    <div className="column">
+                            <div className="kozmetikeProductBox kozmetikeProductBoxPiling">
+                                <div className="_inner">
+                                    <img className='productImg' src={sampleImage4} alt="" />
+                                    <p className='productBoxTitle'>NoMasVello piling za <br />lice</p>
+                                    <p className='productBoxSubtitle'>Idealan tretman za pripremu kože, osiguravajući dubinsko čišćenje. Također je savršen i za osjetljivu kožu.</p>
+                                    <a className='productBoxButton' href="/kozmeticki-proizvodi/kozmetika-za-ciscenje/nomasvello-piling-za-lice"><span><img src={eyeIcon} alt="" /></span>Pogledaj detaljnije</a>
+                                </div>
+                            </div>
+                        </div>
+                        <div className="column">
+                            <div className="kozmetikeProductBox kozmetikeProductBoxPiling">
+                                <div className="_inner">
+                                    <img className='productImg' src={sampleImage5} alt="" />
+                                    <p className='productBoxTitle'>NoMasVello piling za tijelo</p>
+                                    <p className='productBoxSubtitle'>Osmišljen je za dubinski, ali nježan tretman eksfolijacije uz korištenje visokokvalitetnih sastojaka.</p>
+                                    <a className='productBoxButton' href="/kozmeticki-proizvodi/kozmetika-za-ciscenje/nomasvello-piling-za-tijelo"><span><img src={eyeIcon} alt="" /></span>Pogledaj detaljnije</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div className="columns threeProductsBox">
                         <div className="column">
                             <div className="kozmetikeProductBox">
                                 <div className="_inner">

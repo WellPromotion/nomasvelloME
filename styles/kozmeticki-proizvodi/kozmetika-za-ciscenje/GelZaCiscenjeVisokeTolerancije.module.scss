@@ -138,6 +138,9 @@
         }
     }
     .rightColumn{
+        .odlikeTitle{
+            color: $titleColor;
+        }
         .odlikeItem{
             font-weight: 700;
             font-size: 1.125rem;
@@ -145,6 +148,14 @@
             color: $titleColor;
         }
         
+    }
+    .rightColumnPiling{
+        .odlikeItem{
+            font-weight: 400;
+            font-size: 1.125rem;
+            line-height: 1.688rem;
+            color: $titleColor;
+        }
     }
 }
 
