@@ -134,7 +134,7 @@ const handleOnChange = ( event ) => {
                         </div>
                         <div className="column is-12">
                             <button className="button submit-form" type="submit">POŠALJI</button>
-                        </div>
+                        </div> 
                         </div>
                         </form>
 
