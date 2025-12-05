@@ -30,7 +30,7 @@ export default function PokloniteLjepotu() {
 Giftcard možete napuniti sa iznosom po želji počev od 33 € a dobitnica poklona može isti da iskoristi na tretmane epilacije, tretmane lica ili tijela… Kada god to poželi.
                             </p>
                             <p className="defaultText">
-                            Ukoliko ne može stići do naših salona… Mi ćemo Vam dostaviti Giftcard gdje god poželite u Bosni i Hercegovini.
+                            Ukoliko ne može stići do naših salona… Mi ćemo Vam dostaviti Giftcard gdje god poželite u Crnoj Gori.
                             </p>
                             <p className="defaultText">
 Plaćanje možete izvršiti gotovinski, preko računa ili karticom ukoliko isti preuzmete u salonu.
