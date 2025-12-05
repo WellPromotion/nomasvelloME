@@ -47,10 +47,10 @@ const StaFotoepilacija = () => {
                 </p>
             </div>
             <div className="column videoCol">
-                <div className="videoInner">
+                {/* <div className="videoInner">
                     <ReactPlayer className="videoPl" url="https://www.youtube.com/watch?v=ayP3TLmiWyA&ab_channel=NomasVelloBiH"
                         width='641px' height='368px' controls />
-                </div>
+                </div> */}
             </div>
         </div>
     </div>
@@ -65,7 +65,7 @@ const StaFotoepilacija = () => {
                     <p className="prijeTitle">Prije fotoepilacije</p>
                     <div className="singleItem">
                         <img src={turqCircle} className="turqCircle" alt="" />
-                        <p className='singleText'>Ne uzimati nikakve fotosenzibilne lijekove prije tretmana. Obavijestiti svoj centar no+vello© ako se podvrgavate nekom medicinskom tretmanu.</p>
+                        <p className='singleText'>Ne uzimati nikakve fotosenzibilne lijekove prije tretmana. Obavijestiti svoj centar No+Vello© ako se podvrgavate nekom medicinskom tretmanu.</p>
                     </div>
                     <div className="singleItem">
                         <img src={turqCircle} className="turqCircle" alt="" />

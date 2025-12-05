@@ -5,8 +5,8 @@ import TrzistePop from '../Components/fransizePop/TrzistePop';
 import OnamaPop from '../Components/fransizePop/OnamaPop';
 import UsloviPop from '../Components/fransizePop/UsloviPop';
 
-import priceTwo from '../public/images/usluge/laserskaCijene.png'
-import priceThree from '../public/images/usluge/diodniLaser.png'
+import priceTwo from '../public/images/usluge/FUSION.png'
+import priceThree from '../public/images/usluge/FOTOEPILACIJA.png'
 
 
 
@@ -50,8 +50,8 @@ export default function Fransize() {
                         <div className="column">
                         <div className="fransBox">
                                 <div className="inner">
-                                    <p className="fransBroj">10</p>
-                                    <p className="fransSub">centara u BiH</p>
+                                    <p className="fransBroj">2</p>
+                                    <p className="fransSub">centra u CG</p>
                                 </div>
                             </div>
                         </div>
@@ -75,7 +75,7 @@ export default function Fransize() {
                             <p className="parHigh">
                             Jedna od najboljih franšiza u sektoru depilacije koja nudi tretmane laserske epilacije i fotoepilacije sa IPL tehnologijom.
                             </p>
-                            <p className="parTxt">Kompanija No+Vello je mreža specijalizovanih centara za lasersku epilaciju, fotoepilaciju i fotopodmlađivanje, koja je postala neosporni lider u tom sektoru na svjetskom nivou. Nakon njenog osnivanja u novembru 2007. godine, počela je svoje širenje i otvoreno je 150 centara za samo 6 mjeseci zahvaljujući brzom prihvaćanju poslovnog koncepta i velikom potražnjom za njenim tretmanima. Naša pionirska, inovativna i atraktivna jedinstvena tarifa od 49KM po zoni i sesiji revolucionirala je tržište fotoepilacije.
+                            <p className="parTxt">Kompanija No+Vello je mreža specijalizovanih centara za lasersku epilaciju, fotoepilaciju i fotopodmlađivanje, koja je postala neosporni lider u tom sektoru na svjetskom nivou. Nakon njenog osnivanja u novembru 2007. godine, počela je svoje širenje i otvoreno je 150 centara za samo 6 mjeseci zahvaljujući brzom prihvaćanju poslovnog koncepta i velikom potražnjom za njenim tretmanima. Naša pionirska, inovativna i atraktivna jedinstvena tarifa od 33 € po zoni i sesiji revolucionirala je tržište fotoepilacije.
                                 <br /><br />
                                 No+Vello je prvi brend koji je na međunarodnoj razini primijenio koncept jedinstvene tarife za lasersku epilaciju,  IPL fotoepilaciju i fotopodmlađivanje kože, te predstavlja prvu i najbolju franšizu. Tretmani laserske epilacije i fotoepilacije su prije bili namijenjeni samo visoko pozicioniranom društvu zbog njene cijene i pojavljivanje No+Vello modela je značilo prekretnicu na tržištu. Ključ uspjeha našeg modela leži u demokratizaciji usluga, čineći ih dostupnim svima što je dovelo do toga da smo danas jedna od najprofitabilnijih franšiza.
                                 <br /><br />
@@ -102,17 +102,7 @@ export default function Fransize() {
                                 </div>
                         </div>
                         </div>
-                        <div className="column">
-                        <div className="singleBox">
-                                <div className="inner">
-                                    <p className="titleInner">
-                                       O nama
-                                    </p>
-                                    <a className='button naruciBtnCentri greenButton fransizeBtn' target="_blank" href="https://administracija.nomasvello.ba/wp-content/uploads/2022/12/prezentacija_no_vello.pdf">Pogledajte <br /> prezentaciju</a>
-                                    {/* <TrzistePop/> */}
-                                </div>
-                        </div>
-                        </div>
+                       
                         <div className="column"> <div className="singleBox">
                                 <div className="inner">
                                     <p className="titleInner">

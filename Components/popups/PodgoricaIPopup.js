@@ -1,6 +1,6 @@
 import React from 'react';
 import Popup from 'reactjs-popup';
-import BanjaLukaForm from '../forms/BanjaLukaForm'
+import PodgoricaIForm from '../forms/PodgoricaIForm'
 
 
 export default () => (
@@ -17,7 +17,7 @@ export default () => (
           </button>
           
     
-          < BanjaLukaForm />
+          < PodgoricaIForm />
           
                 </div>
             </div>

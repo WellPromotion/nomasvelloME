@@ -51,12 +51,8 @@ export const Footer = () => {
                                 </p>
                             </div>
                             <div className="secondRow">
-                                <a href="/centri/sarajevo-i" className="footerLink isGreen">Sarajevo</a> <span> / </span>
-                                <a href="/centri/banja-luka" className="footerLink isGreen">Banja Luka</a><span> / </span>
-                                <a href="/centri/brcko" className="footerLink isGreen">Brčko</a> <span> / </span>
-                                <a href="/centri/tuzla" className="footerLink isGreen">Tuzla</a><span> / </span>
-                                <a href="/centri/zenica" className="footerLink isGreen">Zenica</a><span> / </span>
-                                <a href="/centri/doboj" className="footerLink isGreen">Doboj</a>
+                                <a href="/centri/podgorica-I" className="footerLink isGreen">Podgorica I - Siva Zetagradnja</a> <span> / </span>
+                                <a href="/centri/podgorica-II" className="footerLink isGreen">Podgorica II - Kod Krivog Mosta</a>
                                 
                             </div>
                             
@@ -75,12 +71,12 @@ export const Footer = () => {
                                     Kontakt
                                 </p>
                                 <p>
-                                    <a href="tel:+38733718555" className="kontaktLinks isGreen footerLink"> <span><img src={phoneLogo}
-                                                alt="" /></span> 033 718 555</a>
+                                    <a href="tel:38267820437" className="kontaktLinks isGreen footerLink"> <span><img src={phoneLogo}
+                                                alt="" /></span> 067 820 437</a>
                                 </p>
                                 <p>
-                                    <a href="mail:bih@nomasvello.com" className="kontaktLinks isGreen footerLink"> <span><img src={inboxLogo}
-                                                alt="" /></span> bih@nomasvello.com</a>
+                                    <a href="mail:info@nomasvello.me" className="kontaktLinks isGreen footerLink"> <span><img src={inboxLogo}
+                                                alt="" /></span> info@nomasvello.me</a>
                                 </p>
                             </div>
                             <div className="secondRow">
@@ -102,7 +98,7 @@ export const Footer = () => {
                         <div className="column colCredits">
                             
                             <p className="footerCopyright">
-                                Copyright <span>{today.getFullYear()}</span> Nomasvello Bosna i Hercegovina | Sva prava pridržana
+                                Copyright <span>{today.getFullYear()}</span> Nomasvello Crna Gora | Sva prava pridržana
                             </p>
                             <p className="footerCopyright createdBy">
                                 Created by <a href="https://wellpromotion.ba" target="_blank">Well Business Promotion</a>

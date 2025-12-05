@@ -3,7 +3,7 @@ import { useState, useEffect } from 'react';
 import CONTACT_MUTATION from "../../mutations/contact-form";
 import { useMutation } from '@apollo/client';
 
-export default function BanjaLukaForm(props) {
+export default function PodgoricaIIForm(props) {
 
     const { projects, map } = props;
 
@@ -22,7 +22,7 @@ export default function BanjaLukaForm(props) {
 
   const createContactData = ( contactInfo ) => {
         const contactData = {
-        id: 5,
+        id: 31,
         fieldValues: [
 
             {id : 1, value: contactInfo[1] },
@@ -78,7 +78,7 @@ const handleOnChange = ( event ) => {
                 <div className="columns">
                     <div className="column is-6">
                     <div className="info-wrap">
-                        <h2 className='naruciteTermin'>Naručite se - Banja Luka</h2>
+                        <h2 className='naruciteTermin'>Naručite se - Kod Krivog Mosta</h2>
                         
                     </div>
                     
@@ -125,11 +125,12 @@ const handleOnChange = ( event ) => {
                         <div className="select column is-12">
                         <select onChange={ handleOnChange } required name="4">
                             <option className="first" value="">Odaberite željeni tretman*</option>
+                            <option value="Laserska epilacija diodnim laserom">Laserska epilacija diodnim laserom</option>
                             <option value="Fotoepilacija">Fotoepilacija</option>
                             <option value="Fotopodmlađivanje">Fotopodmlađivanje</option>
                             <option value="Tjelesni učvršćivač">Tjelesni učvršćivač</option>
                             <option value="Anticelulitni reduktor">Anticelulitni reduktor</option>
-                            <option value="Facijalni anti-age">Facijalni anti-age</option>
+                            <option value="Facijalni anti age">Facijalni anti age</option>
                             <option value="Izbjeljivanje zuba">Izbjeljivanje zuba</option>
                             <option value="Ultrazvučno čišćenje lica">Ultrazvučno čišćenje lica</option>
                             <option value="Čišćenje lica galvanskom energijom">Čišćenje lica galvanskom energijom</option>

@@ -287,7 +287,7 @@ No+Vello vam nudi visoko kvalitetnu kozmetiku za vašu kožu. Otkrijte naše pro
                                 <img src={ekonomicnoImg} alt="" />
                                 <h4 className="imgTitle">EKONOMIČNO</h4>
                                 <p className="defaultText">
-                                Sa 40KM za Basic tretman uživaj u svim ProSkin pogodnostima.
+                                Sa 25 € za Basic tretman uživaj u svim ProSkin pogodnostima.
                                 </p>
                             </div>
                            
@@ -372,7 +372,7 @@ No+Vello vam nudi visoko kvalitetnu kozmetiku za vašu kožu. Otkrijte naše pro
                                         <img src={greenLines} alt="" />
                                        </div>
                                         <div className="right">
-                                        <p className="singlePrice">40KM</p>
+                                        <p className="singlePrice">25 €</p>
                                         </div>
                                     </div>
                                     <div className="greenItem">
@@ -404,7 +404,7 @@ i hijaluronskom kiselinom</p>
                                         <img src={greenLines} alt="" />
                                        </div>
                                         <div className="right">
-                                        <p className="singlePrice">49KM</p>
+                                        <p className="singlePrice">29 €</p>
                                         </div>
                                     </div>
                                     <div className="greenItem">
@@ -441,7 +441,7 @@ galvanskom energijom</p>
                                         <img src={greenLines} alt="" />
                                        </div>
                                         <div className="right">
-                                        <p className="singlePrice">49KM</p>
+                                        <p className="singlePrice">29 €</p>
                                         </div>
                                     </div>
                                     <div className="greenItem">
@@ -468,7 +468,7 @@ galvanskom energijom</p>
                                         <img src={greenLines} alt="" />
                                        </div>
                                         <div className="right">
-                                        <p className="singlePrice">65KM</p>
+                                        <p className="singlePrice">35 €</p>
                                         </div>
                                     </div>
                                     <div className="greenItem">
@@ -502,7 +502,7 @@ sa C vitaminom</p>
                                         <img src={greenLines} alt="" />
                                        </div>
                                         <div className="right">
-                                        <p className="singlePrice">70KM</p>
+                                        <p className="singlePrice">39 €</p>
                                         </div>
                                     </div>
                                     <div className="columns lowerCols">

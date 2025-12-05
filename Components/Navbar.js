@@ -36,7 +36,7 @@ return (
                 
             <div className="centriWrap">
                 <ul className="centriList">
-                    <a href="/centri/sarajevo-i" className='sarajevoDrop'>
+                    {/* <a href="/centri/sarajevo-i" className='sarajevoDrop'>
                         <li>Sarajevo <span className='downCarretMenu'><img src={dropDown} alt="" /></span>
                             <ul className='sarajevoDropdown'>
                                 <a href="/centri/sarajevo-i">
@@ -56,14 +56,14 @@ return (
                                 </a>        
                             </ul>
                         </li>
-                    </a>
-                    <a href="/centri/banja-luka">
-                        <li>Banja Luka</li>
+                    </a> */}
+                    <a href="/centri/podgorica-I">
+                        <li>Podgorica I - Siva Zetagradnja</li>
                             </a>
-                    <a href="/centri/brcko">
-                        <li>Brčko</li>
+                    <a href="/centri/podgorica-II">
+                        <li>Podgorica II - Kod Krivog Mosta</li>
                     </a>
-                    <a href="/centri/zenica">
+                    {/* <a href="/centri/zenica">
                         <li>Zenica</li>
                     </a>
                     <a href="/centri/tuzla">
@@ -71,7 +71,7 @@ return (
                     </a>
                     <a href="/centri/doboj">
                         <li>Doboj</li>
-                    </a>
+                    </a> */}
                     
                 </ul>
                     </div>
@@ -171,36 +171,13 @@ return (
                 <a href="/centri" className='centriDrop'>
                     <li>Centri<span className='downCarretMenu'><img src={dropDownGrey} alt="" /></span>
                         <ul className='centriDropdown'>
-                            <a href="/centri/sarajevo-i">
-                                <li>Novo Sarajevo</li>
+                            <a href="/centri/podgorica-I">
+                                <li>Podgorica - Siva Zetagradnja</li>
                             </a>
-                            <a href="/centri/sarajevo-ii">
-                                <li>Stari Grad</li>
+                            <a href="/centri/podgorica-II">
+                                <li>Podgorica - Kod Krivog Mosta</li>
                             </a>
-                            <a href="/centri/sarajevo-iii">
-                                <li> Novi Grad</li>
-                            </a>
-                            <a href="/centri/sarajevo-iv">
-                                <li>Ilidža</li>
-                            </a>
-                            <a href="/centri/sarajevo-v">
-                                <li>Centar</li>
-                            </a>
-                            <a href="/centri/banja-luka">
-                                <li>Banja Luka</li>
-                            </a>
-                            <a href="/centri/brcko">
-                                <li>Brčko</li>
-                            </a>
-                            <a href="/centri/doboj">
-                                <li>Doboj</li>
-                            </a>
-                            <a href="/centri/tuzla">
-                                <li>Tuzla</li>
-                            </a>
-                            <a href="/centri/zenica">
-                                <li>Zenica</li>
-                            </a>
+                            
                         </ul>
 
 

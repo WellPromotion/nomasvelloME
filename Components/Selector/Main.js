@@ -10,81 +10,81 @@ export default function Main(props) {
     {
       id: 0,
       title: "Lice + Nausnice",
-      price: 55,
+      price: 33,
       selected: false,
       sidebar: false,
     },
-    { id: 1, title: "Vrat", price: 55, selected: false, sidebar: false },
+    { id: 1, title: "Vrat", price: 33, selected: false, sidebar: false },
     {
       id: 2,
       title: "Grudi + Između grudi + Trbušna linija",
-      price: 59,
+      price: 33,
       selected: false,
       sidebar: false,
     },
-    { id: 3, title: "Stomak", price: 59, selected: false, sidebar: false },
-    { id: 4, title: "Bikini", price: 59, selected: false, sidebar: false },
-    { id: 5, title: "Noge", price: 118, selected: false, sidebar: false },
-    { id: 6, title: "Stopala", price: 30, selected: false, sidebar: false },
-    { id: 7, title: "Ramena", price: 59, selected: false, sidebar: false },
-    { id: 8, title: "Ruke", price: 118, selected: false, sidebar: false },
-    { id: 9, title: "Šake", price: 30, selected: false, sidebar: false },
-    { id: 10, title: "Potiljak", price: 59, selected: false, sidebar: false },
+    { id: 3, title: "Stomak", price: 33, selected: false, sidebar: false },
+    { id: 4, title: "Bikini", price: 33, selected: false, sidebar: false },
+    { id: 5, title: "Noge", price: 33, selected: false, sidebar: false },
+    { id: 6, title: "Stopala", price: 16, selected: false, sidebar: false },
+    { id: 7, title: "Ramena", price: 33, selected: false, sidebar: false },
+    { id: 8, title: "Ruke", price: 33, selected: false, sidebar: false },
+    { id: 9, title: "Šake", price: 16, selected: false, sidebar: false },
+    { id: 10, title: "Potiljak", price: 33, selected: false, sidebar: false },
     {
       id: 11,
       title: "Gornji dio leđa",
-      price: 59,
+      price: 33,
       selected: false,
       sidebar: false,
     },
     {
       id: 12,
       title: "Donji dio leđa",
-      price: 59,
+      price: 33,
       selected: false,
       sidebar: false,
     },
     {
       id: 13,
       title: "Zadnjica + Perianalna zona",
-      price: 59,
+      price: 33,
       selected: false,
       sidebar: false,
     },
-    { id: 14, title: "Nausnice", price: 30, selected: false, sidebar: false },
+    { id: 14, title: "Nausnice", price: 16, selected: false, sidebar: false },
     {
       id: 15,
       title: "Između obrva",
-      price: 30,
+      price: 16,
       selected: false,
       sidebar: false,
     },
-    { id: 16, title: "Pazusi", price: 59, selected: false, sidebar: false },
+    { id: 16, title: "Pazusi", price: 33, selected: false, sidebar: false },
     {
       id: 17,
       title: "Oko bradavica",
-      price: 30,
+      price: 16,
       selected: false,
       sidebar: false,
     },
     {
       id: 18,
       title: "Između grudi",
-      price: 30,
+      price: 16,
       selected: false,
       sidebar: false,
     },
     {
       id: 19,
       title: "Trbušna linija",
-      price: 30,
+      price: 16,
       selected: false,
       sidebar: false,
     },
     {
       id: 20,
       title: "Perianalna zona",
-      price: 30,
+      price: 16,
       selected: false,
       sidebar: false,
     },
@@ -169,14 +169,14 @@ export default function Main(props) {
             .map((service) => (
               <div className={styles.box__elem} key={service.id}>
                 <span>{service.title}</span>
-                <span>{service.price} KM</span>
+                <span>{service.price} €</span>
               </div>
             ))}
         </div>
         <div className={styles.sidebar__footer}>
           <div className={styles.total__elem}>
             <span>UKUPNO:</span>
-            <span>{totalPrice} KM</span>
+            <span>{totalPrice} €</span>
           </div>
           <button
             className={styles.btn__reset}
@@ -211,7 +211,7 @@ export default function Main(props) {
           >
             <g>
               <Tippy
-                content="Lice + Nausnice (49 KM)"
+                content="Lice + Nausnice (33 €)"
                 followCursor={true}
                 plugins={[followCursor]}
               >
@@ -253,7 +253,7 @@ export default function Main(props) {
                 />
               </Tippy>
               <Tippy
-                content="Vrat (59 KM)"
+                content="Vrat (33 €)"
                 followCursor={true}
                 plugins={[followCursor]}
               >
@@ -283,7 +283,7 @@ export default function Main(props) {
                 />
               </Tippy>
               <Tippy
-                content="Grudi + Između grudi + Trbušna linija (59 KM)"
+                content="Grudi + Između grudi + Trbušna linija (33 €)"
                 followCursor={true}
                 plugins={[followCursor]}
               >
@@ -325,7 +325,7 @@ export default function Main(props) {
                 />
               </Tippy>
               <Tippy
-                content="Stomak (59 KM)"
+                content="Stomak (33 €)"
                 followCursor={true}
                 plugins={[followCursor]}
               >
@@ -355,7 +355,7 @@ export default function Main(props) {
                 />
               </Tippy>
               <Tippy
-                content="Bikini (59 KM)"
+                content="Bikini (33 €)"
                 followCursor={true}
                 plugins={[followCursor]}
               >
@@ -385,7 +385,7 @@ export default function Main(props) {
                 />
               </Tippy>
               <Tippy
-                content="Noge (118 KM)"
+                content="Noge (33 €)"
                 followCursor={true}
                 plugins={[followCursor]}
               >
@@ -415,7 +415,7 @@ export default function Main(props) {
                 />
               </Tippy>
               <Tippy
-                content="Stopala (30 KM)"
+                content="Stopala (16 €)"
                 followCursor={true}
                 plugins={[followCursor]}
               >
@@ -445,7 +445,7 @@ export default function Main(props) {
                 />
               </Tippy>
               <Tippy
-                content="Ramena (59 KM)"
+                content="Ramena (33 €)"
                 followCursor={true}
                 plugins={[followCursor]}
               >
@@ -475,7 +475,7 @@ export default function Main(props) {
                 />
               </Tippy>
               <Tippy
-                content="Ruke (118 KM)"
+                content="Ruke (33 €)"
                 followCursor={true}
                 plugins={[followCursor]}
               >
@@ -505,7 +505,7 @@ export default function Main(props) {
                 />
               </Tippy>
               <Tippy
-                content="Šake (30 KM)"
+                content="Šake (16 €)"
                 followCursor={true}
                 plugins={[followCursor]}
               >
@@ -535,7 +535,7 @@ export default function Main(props) {
                 />
               </Tippy>
               <Tippy
-                content="Potiljak (59 KM)"
+                content="Potiljak (33 €)"
                 followCursor={true}
                 plugins={[followCursor]}
               >
@@ -565,7 +565,7 @@ export default function Main(props) {
                 />
               </Tippy>
               <Tippy
-                content="Gornji dio leđa (59 KM)"
+                content="Gornji dio leđa (33 €)"
                 followCursor={true}
                 plugins={[followCursor]}
               >
@@ -595,7 +595,7 @@ export default function Main(props) {
                 />
               </Tippy>
               <Tippy
-                content="Donji dio leđa (59 KM)"
+                content="Donji dio leđa (33 €)"
                 followCursor={true}
                 plugins={[followCursor]}
               >
@@ -625,7 +625,7 @@ export default function Main(props) {
                 />
               </Tippy>
               <Tippy
-                content="Zadnjica + Perianalna zona (59 KM)"
+                content="Zadnjica + Perianalna zona (33 €)"
                 followCursor={true}
                 plugins={[followCursor]}
               >
@@ -661,7 +661,7 @@ export default function Main(props) {
                 />
               </Tippy>
               <Tippy
-                content="Ramena (59 KM)"
+                content="Ramena (33 €)"
                 followCursor={true}
                 plugins={[followCursor]}
               >
@@ -691,7 +691,7 @@ export default function Main(props) {
                 />
               </Tippy>
               <Tippy
-                content="Ruke (118 KM)"
+                content="Ruke (33 €)"
                 followCursor={true}
                 plugins={[followCursor]}
               >
@@ -721,7 +721,7 @@ export default function Main(props) {
                 />
               </Tippy>
               <Tippy
-                content="Šake (30 KM)"
+                content="Šake (16 €)"
                 followCursor={true}
                 plugins={[followCursor]}
               >
@@ -751,7 +751,7 @@ export default function Main(props) {
                 />
               </Tippy>
               <Tippy
-                content="Noge (118 KM)"
+                content="Noge (33 €)"
                 followCursor={true}
                 plugins={[followCursor]}
               >
@@ -781,7 +781,7 @@ export default function Main(props) {
                 />
               </Tippy>
               <Tippy
-                content="Stopala (30 KM)"
+                content="Stopala (16 €)"
                 followCursor={true}
                 plugins={[followCursor]}
               >
@@ -1045,7 +1045,7 @@ export default function Main(props) {
                 </g>
               </g>
               <Tippy
-                content="Nausnice (30 KM)"
+                content="Nausnice (16 €)"
                 followCursor={true}
                 plugins={[followCursor]}
               >
@@ -1107,7 +1107,7 @@ export default function Main(props) {
                 r="23.898"
               /> */}
               <Tippy
-                content="Pazusi (59 KM)"
+                content="Pazusi (33 €)"
                 followCursor={true}
                 plugins={[followCursor]}
               >
@@ -1143,7 +1143,7 @@ export default function Main(props) {
                 />
               </Tippy>
               <Tippy
-                content="Pazusi (59 KM)"
+                content="Pazusi (33 €)"
                 followCursor={true}
                 plugins={[followCursor]}
               >
@@ -1179,7 +1179,7 @@ export default function Main(props) {
                 />
               </Tippy>
               <Tippy
-                content="Oko bradavica (30 KM)"
+                content="Oko bradavica (16 €)"
                 followCursor={true}
                 plugins={[followCursor]}
               >
@@ -1215,7 +1215,7 @@ export default function Main(props) {
                 />
               </Tippy>
               <Tippy
-                content="Oko bradavica (30 KM)"
+                content="Oko bradavica (16 €)"
                 followCursor={true}
                 plugins={[followCursor]}
               >
@@ -1251,7 +1251,7 @@ export default function Main(props) {
                 />
               </Tippy>
               <Tippy
-                content="Između grudi (30 KM)"
+                content="Između grudi (16 €)"
                 followCursor={true}
                 plugins={[followCursor]}
               >
@@ -1288,7 +1288,7 @@ export default function Main(props) {
                 />
               </Tippy>
               <Tippy
-                content="Trbušna linija (30 KM)"
+                content="Trbušna linija (16 €)"
                 followCursor={true}
                 plugins={[followCursor]}
               >
@@ -1325,7 +1325,7 @@ export default function Main(props) {
                 />
               </Tippy>
               <Tippy
-                content="Perianalna zona (30 KM)"
+                content="Perianalna zona (16 €)"
                 followCursor={true}
                 plugins={[followCursor]}
               >
@@ -1380,7 +1380,7 @@ export default function Main(props) {
           >
             <g>
               <Tippy
-                content="Lice + Nausnice (59 KM)"
+                content="Lice + Nausnice (33 €)"
                 followCursor={true}
                 plugins={[followCursor]}
               >
@@ -1422,7 +1422,7 @@ export default function Main(props) {
                 />
               </Tippy>
               <Tippy
-                content="Vrat (59 KM)"
+                content="Vrat (33 €)"
                 followCursor={true}
                 plugins={[followCursor]}
               >
@@ -1452,7 +1452,7 @@ export default function Main(props) {
                 />
               </Tippy>
               <Tippy
-                content="Grudi + Između grudi + Trbušna linija (59 KM)"
+                content="Grudi + Između grudi + Trbušna linija (33 €)"
                 followCursor={true}
                 plugins={[followCursor]}
               >
@@ -1494,7 +1494,7 @@ export default function Main(props) {
                 />
               </Tippy>
               <Tippy
-                content="Ramena (59 KM)"
+                content="Ramena (33 €)"
                 followCursor={true}
                 plugins={[followCursor]}
               >
@@ -1524,7 +1524,7 @@ export default function Main(props) {
                 />
               </Tippy>
               <Tippy
-                content="Ruke (118 KM)"
+                content="Ruke (33 €)"
                 followCursor={true}
                 plugins={[followCursor]}
               >
@@ -1554,7 +1554,7 @@ export default function Main(props) {
                 />
               </Tippy>
               <Tippy
-                content="Stomak (59 KM)"
+                content="Stomak (33 €)"
                 followCursor={true}
                 plugins={[followCursor]}
               >
@@ -1584,7 +1584,7 @@ export default function Main(props) {
                 />
               </Tippy>
               <Tippy
-                content="Bikini zona (59 KM)"
+                content="Bikini zona (33 €)"
                 followCursor={true}
                 plugins={[followCursor]}
               >
@@ -1614,7 +1614,7 @@ export default function Main(props) {
                 />
               </Tippy>
               <Tippy
-                content="Šake (30 KM)"
+                content="Šake (16 €)"
                 followCursor={true}
                 plugins={[followCursor]}
               >
@@ -1644,7 +1644,7 @@ export default function Main(props) {
                 />
               </Tippy>
               <Tippy
-                content="Noge (118 KM)"
+                content="Noge (33 €)"
                 followCursor={true}
                 plugins={[followCursor]}
               >
@@ -1674,7 +1674,7 @@ export default function Main(props) {
                 />
               </Tippy>
               <Tippy
-                content="Stopala (30 KM)"
+                content="Stopala (16 €)"
                 followCursor={true}
                 plugins={[followCursor]}
               >
@@ -1704,7 +1704,7 @@ export default function Main(props) {
                 />
               </Tippy>
               <Tippy
-                content="Potiljak (59 KM)"
+                content="Potiljak (33 €)"
                 followCursor={true}
                 plugins={[followCursor]}
               >
@@ -1734,7 +1734,7 @@ export default function Main(props) {
                 />
               </Tippy>
               <Tippy
-                content="Gornji dio leđa (59 KM)"
+                content="Gornji dio leđa (33 €)"
                 followCursor={true}
                 plugins={[followCursor]}
               >
@@ -1764,7 +1764,7 @@ export default function Main(props) {
                 />
               </Tippy>
               <Tippy
-                content="Donji dio leđa (59 KM)"
+                content="Donji dio leđa (33 €)"
                 followCursor={true}
                 plugins={[followCursor]}
               >
@@ -1794,7 +1794,7 @@ export default function Main(props) {
                 />
               </Tippy>
               <Tippy
-                content="Zadnjica + Perianalna zona (59 KM)"
+                content="Zadnjica + Perianalna zona (33 €)"
                 followCursor={true}
                 plugins={[followCursor]}
               >
@@ -1830,7 +1830,7 @@ export default function Main(props) {
                 />
               </Tippy>
               <Tippy
-                content="Noge (118 KM)"
+                content="Noge (33 €)"
                 followCursor={true}
                 plugins={[followCursor]}
               >
@@ -1860,7 +1860,7 @@ export default function Main(props) {
                 />
               </Tippy>
               <Tippy
-                content="Stopala (30 KM)"
+                content="Stopala (16 €)"
                 followCursor={true}
                 plugins={[followCursor]}
               >
@@ -1890,7 +1890,7 @@ export default function Main(props) {
                 />
               </Tippy>
               <Tippy
-                content="Ruke (118 KM)"
+                content="Ruke (33 €)"
                 followCursor={true}
                 plugins={[followCursor]}
               >
@@ -1920,7 +1920,7 @@ export default function Main(props) {
                 />
               </Tippy>
               <Tippy
-                content="Ramena (59 KM)"
+                content="Ramena (33 €)"
                 followCursor={true}
                 plugins={[followCursor]}
               >
@@ -1950,7 +1950,7 @@ export default function Main(props) {
                 />
               </Tippy>
               <Tippy
-                content="Šake (30 KM)"
+                content="Šake (16 €)"
                 followCursor={true}
                 plugins={[followCursor]}
               >
@@ -2174,7 +2174,7 @@ export default function Main(props) {
                 </g>
               </g>
               <Tippy
-                content="Perianalna zona (30 KM)"
+                content="Perianalna zona (16 €)"
                 followCursor={true}
                 plugins={[followCursor]}
               >
@@ -2210,7 +2210,7 @@ export default function Main(props) {
                 />
               </Tippy>
               <Tippy
-                content="Nausnice (30 KM)"
+                content="Nausnice (16 €)"
                 followCursor={true}
                 plugins={[followCursor]}
               >
@@ -2272,7 +2272,7 @@ export default function Main(props) {
                 r="23.898"
               /> */}
               <Tippy
-                content="Pazusi (49 KM)"
+                content="Pazusi (33 €)"
                 followCursor={true}
                 plugins={[followCursor]}
               >
@@ -2308,7 +2308,7 @@ export default function Main(props) {
                 />
               </Tippy>
               <Tippy
-                content="Pazusi (59 KM)"
+                content="Pazusi (33 €)"
                 followCursor={true}
                 plugins={[followCursor]}
               >
@@ -2344,7 +2344,7 @@ export default function Main(props) {
                 />
               </Tippy>
               <Tippy
-                content="Oko bradavica (30 KM)"
+                content="Oko bradavica (16 €)"
                 followCursor={true}
                 plugins={[followCursor]}
               >
@@ -2380,7 +2380,7 @@ export default function Main(props) {
                 />
               </Tippy>
               <Tippy
-                content="Oko bradavica (30 KM)"
+                content="Oko bradavica (16 €)"
                 followCursor={true}
                 plugins={[followCursor]}
               >
@@ -2416,7 +2416,7 @@ export default function Main(props) {
                 />
               </Tippy>
               <Tippy
-                content="Između grudi (30 KM)"
+                content="Između grudi (16 €)"
                 followCursor={true}
                 plugins={[followCursor]}
               >
@@ -2453,7 +2453,7 @@ export default function Main(props) {
                 />
               </Tippy>
               <Tippy
-                content="Trbušna linija (30 KM)"
+                content="Trbušna linija (16 €)"
                 followCursor={true}
                 plugins={[followCursor]}
               >

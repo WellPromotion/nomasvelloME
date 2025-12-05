@@ -1,5 +1,5 @@
 import styles from '../styles/PonudePromocije.module.scss';
-import leftImg from '../public/images/Promocija-mladenka-4.jpg';
+import leftImg from '../public/images/Promocija-mladenka-3.jpg';
 import greenCheck from '../public/images/greenCheck.svg';
 import PackMladenkaPopup from '../Components/popups/PackMladenkaPopup';
 // import NajboljiPlanoviPopup from '../Components/popups/NajboljiPlanoviPopup';
@@ -36,8 +36,9 @@ export default function PackMladenka() {
                             <p className="planoviItems"><span className='planoviItemsBullet'><img src={greenCheck} alt="" /></span> U cijenu je uključen PDV.</p>
                             <p className="planoviItems"><span className='planoviItemsBullet'><img src={greenCheck} alt="" /></span> Plaćene sesije se moraju realizovati u centru u kojem su kupljene.</p>
                             <p className="planoviItems"><span className='planoviItemsBullet'><img src={greenCheck} alt="" /></span> Ovu ponudu nije moguće kombinovati s drugim ponudama i promocijama.</p>
-                            <p className="planoviItems"><span className='planoviItemsBullet'><img src={greenCheck} alt="" /></span> Kuponi se moraju realizovati prije nego što istekne navedeni rok važenja.</p>
+                            <p className="planoviItems"><span className='planoviItemsBullet'><img src={greenCheck} alt="" /></span> Kuponi se mogu realizovati najkasnije 2 mjeseca od kupovine.</p>
                             <p className="planoviItems"><span className='planoviItemsBullet'><img src={greenCheck} alt="" /></span> Kuponi se ne mogu zamijeniti za druge usluge ili za novac u centrima.</p>
+                            <p className="planoviItems"><span className='planoviItemsBullet'><img src={greenCheck} alt="" /></span> Promocija je osobne prirode i ne može se prenositi na druga lica.</p>
                             
                             <PackMladenkaPopup/>
                         </div>

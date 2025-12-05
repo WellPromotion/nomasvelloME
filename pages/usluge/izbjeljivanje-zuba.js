@@ -230,13 +230,13 @@ kafe i pića sa kolorantima.</p>
                             <div className="singleItem middleItem">
                                     <div className="inner">
                                         <p className="title">Izbjeljivanje zuba: 1 sesija od 20 minuta</p>
-                                        <p className="price">99 KM</p>
+                                        <p className="price">45 €</p>
                                     </div>
                                 </div>
                                 <div className="singleItem bottomItem">
                                     <div className="inner">
                                         <p className="title">Izbjeljivanje zuba: 3 sesije od 20 minuta</p>
-                                        <p className="price">149 KM</p>
+                                        <p className="price">115 €</p>
                                     </div>
                                 </div>
                             </div>

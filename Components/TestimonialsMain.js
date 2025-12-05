@@ -33,8 +33,8 @@ export const TestimonialCarousel = () => {
                 </div>
                 <div className="testimonialBellow">
                     <img className="testionialImg" src={testionialImg} alt="" />
-                    <p className="testimonialName">Majda Vuk</p>
-                    <p className="testimonialTown">Mostar</p>
+                    <p className="testimonialName">Milena Marković</p>
+                    {/* <p className="testimonialTown">Mostar</p> */}
                 </div>
             </div>
             </Carousel.Item>
@@ -46,8 +46,8 @@ export const TestimonialCarousel = () => {
                 </div>
                 <div className="testimonialBellow">
                     <img className="testionialImg" src={testionialImg} alt="" />
-                    <p className="testimonialName">Eldina Zukić</p>
-                    <p className="testimonialTown">Sarajevo</p>
+                    <p className="testimonialName">Tijana Rasović</p>
+                    {/* <p className="testimonialTown">Sarajevo</p> */}
                 </div>
             </div>
             </Carousel.Item>
@@ -60,7 +60,7 @@ export const TestimonialCarousel = () => {
                 <div className="testimonialBellow">
                     <img className="testionialImg" src={testionialImg} alt="" />
                     <p className="testimonialName">Ivana Vujaković</p>
-                    <p className="testimonialTown">Banja Luka</p>
+                    {/* <p className="testimonialTown">Banja Luka</p> */}
                 </div>
             </div>
             </Carousel.Item>
@@ -73,7 +73,7 @@ export const TestimonialCarousel = () => {
                 <div className="testimonialBellow">
                     <img className="testionialImg" src={testionialImg} alt="" />
                     <p className="testimonialName">Ana Milidrag</p>
-                    <p className="testimonialTown">Sarajevo</p>
+                    {/* <p className="testimonialTown">Sarajevo</p> */}
                 </div>
             </div>
             </Carousel.Item>
@@ -85,8 +85,8 @@ export const TestimonialCarousel = () => {
                 </div>
                 <div className="testimonialBellow">
                     <img className="testionialImg" src={testionialImg} alt="" />
-                    <p className="testimonialName">Maida Kovač</p>
-                    <p className="testimonialTown">Sarajevo</p>
+                    <p className="testimonialName">Dijana Tomić</p>
+                    {/* <p className="testimonialTown">Sarajevo</p> */}
                 </div>
             </div>
             </Carousel.Item>
@@ -98,8 +98,8 @@ export const TestimonialCarousel = () => {
                 </div>
                 <div className="testimonialBellow">
                     <img className="testionialImg" src={testionialImg} alt="" />
-                    <p className="testimonialName">Elmedina Oruli</p>
-                    <p className="testimonialTown">Sarajevo</p>
+                    <p className="testimonialName">Ivana Vuković</p>
+                    {/* <p className="testimonialTown">Sarajevo</p> */}
                 </div>
             </div>
             </Carousel.Item>
@@ -111,8 +111,8 @@ export const TestimonialCarousel = () => {
                 </div>
                 <div className="testimonialBellow">
                     <img className="testionialImg" src={testionialImg} alt="" />
-                    <p className="testimonialName">Amra Mrkonja</p>
-                    <p className="testimonialTown">Sarajevo</p>
+                    <p className="testimonialName">Ana Mrkonja</p>
+                    {/* <p className="testimonialTown">Sarajevo</p> */}
                 </div>
             </div>
             </Carousel.Item>
@@ -124,8 +124,8 @@ export const TestimonialCarousel = () => {
                 </div>
                 <div className="testimonialBellow">
                     <img className="testionialImg" src={testionialImg} alt="" />
-                    <p className="testimonialName">Jasmina Buljić</p>
-                    <p className="testimonialTown">Sarajevo</p>
+                    <p className="testimonialName">Ana Djukovic</p>
+                    {/* <p className="testimonialTown">Sarajevo</p> */}
                 </div>
             </div>
             </Carousel.Item>
@@ -138,7 +138,7 @@ export const TestimonialCarousel = () => {
                 <div className="testimonialBellow">
                     <img className="testionialImg" src={testionialImg} alt="" />
                     <p className="testimonialName">Hana Vejo</p>
-                    <p className="testimonialTown">Sarajevo</p>
+                    {/* <p className="testimonialTown">Sarajevo</p> */}
                 </div>
             </div>
         </Carousel.Item>

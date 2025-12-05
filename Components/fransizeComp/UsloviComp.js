@@ -28,7 +28,7 @@ return (
                         </p>
                         <br />
                         <p className="greenTitle">
-                            Nositelj franšize za Bosnu i Hercegovinu:
+                            Nositelj franšize za Bosnu i Hercegovinu i Crnu Goru:
                         </p>
                         <p className="defaultText">
                             ZIOM d.o.o. <br />
@@ -40,7 +40,7 @@ return (
                         </p>
                         <p className="defaultText">
 
-                            Tel: 033 718 556 <br />
+                            Tel: 00 38 733 718 556 <br />
 
                             e-mail: bih@nomasvello.com <br /> </p>
                         <br />

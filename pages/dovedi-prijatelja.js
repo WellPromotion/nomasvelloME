@@ -38,7 +38,7 @@ export default function DovediPrijatelja() {
                     <div className="columns">
                         <div className="column topCol">
                             <p className="defaultText">
-                            Nomasvello nagrađuje prijateljstvo … ljepotom! Recite prijateljima o svom pozitivnom iskustvu u centru No+Vello. Za svakog vašeg prijatelja ili prijateljicu koji započne tretman dobijate 1 besplatnu zonu na poklon! Kao znak zahvalnosti, vaši prijatelji će također dobiti poklon: nakon što završe najmanje 1 zonu od 59 KM, dobit će 50% popusta na drugu sesiju. Šta čekate?! Odmah pozovite svoje prijatelje!
+                            Nomasvello nagrađuje prijateljstvo … ljepotom! Recite prijateljima o svom pozitivnom iskustvu u centru No+Vello. Za svakog vašeg prijatelja ili prijateljicu koji započne tretman dobijate 1 besplatnu zonu na poklon! Kao znak zahvalnosti, vaši prijatelji će također dobiti poklon: nakon što završe najmanje 1 zonu od 33 €, dobit će 50% popusta na drugu sesiju. Šta čekate?! Odmah pozovite svoje prijatelje!
                             </p>
                             <div className="buttonWrap">
                             <PravilaPromocijePopup />
@@ -104,7 +104,7 @@ export default function DovediPrijatelja() {
                         <div className="column">
                         <div className="singleItem">
                                 <p className="numberGreen">3</p>
-                                <p className="defaultText">Svaki prijatelj koji dođe mora postati No+Vello klijent kupovinom jedne sesije laserske epilacije ili epilacije IPL tehnologijom od 59 KM. Tako automatski dobija kupon za popust od 50% za drugu sesiju.</p>
+                                <p className="defaultText">Svaki prijatelj koji dođe mora postati No+Vello klijent kupovinom jedne sesije laserske epilacije ili epilacije IPL tehnologijom od €33. Tako automatski dobija kupon za popust od 50% za drugu sesiju.</p>
                             </div>
                         </div>
                         <div className="column">

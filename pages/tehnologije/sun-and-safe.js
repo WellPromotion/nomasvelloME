@@ -51,7 +51,7 @@ Sun&Safe tehnologija je bezbolna, učinkovita, a rezultati su vidljivi već od p
 <br /><br />
 Ova poboljšanja prije svega utiču na profesionalne aparate za fotoepilaciju No+Vello©. Također su uspostavljeni novi protokoli za tretmane koji garantuju fotoepilaciju na preplanuloj koži, eliminirajući postojeće kontraindikacije na istoj.
 <br /><br />
-No+Vello© zadržava svoju jedinstvenu uniseks tarifu od 49 KM po zoni/sesiji.</p>
+No+Vello© zadržava svoju jedinstvenu uniseks tarifu od 33 € po zoni/sesiji.</p>
                         </div>
                     </div>
                 </div>

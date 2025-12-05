@@ -1,5 +1,5 @@
 import styles from '../styles/PonudePromocije.module.scss';
-import leftImg from '../public/images/Planovi-Cijeli-2023-Esthetic.jpg';
+import leftImg from '../public/images/PlanoviCG2.jpg';
 import greenCheck from '../public/images/greenCheck.svg';
 import NajboljiPlanoviPopup from '../Components/popups/NajboljiPlanoviPopup';
 

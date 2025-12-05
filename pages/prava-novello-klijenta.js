@@ -35,7 +35,7 @@ export default function PravaKlijenta() {
                             Želimo istaći da brend <b>No+Vello©</b> vrši praćenje i kontrolu kvaliteta u centrima No+Vello© koji posluju po franšiznom principu.
                             </p>
                             <p className="defaultText">
-                            U tom smislu, bit ćemo zahvalni na svim komentarima koje nam pošalju klijenti kako bismo poboljšali usluge u centrima i kako bismo ih učinili vrhunskim. Za bilo koje objašnjenje ili komentar, molimo vas da nam se obratite putem sljedeće elektronske adrese <a class="novellopink" href="mailto:bih@nomasvello.com">bih@nomasvello.com</a>
+                            U tom smislu, bit ćemo zahvalni na svim komentarima koje nam pošalju klijenti kako bismo poboljšali usluge u centrima i kako bismo ih učinili vrhunskim. Za bilo koje objašnjenje ili komentar, molimo vas da nam se obratite putem sljedeće elektronske adrese: <a class="novellopink" href="mailto:info@nomasvello.me">info@nomasvello.me</a>
                             </p>
                         </div>
                         <div className="column imgCol">

@@ -133,9 +133,9 @@ export default function Home() {
                 <p>
                 <b>No+Vello®</b>  je prva i globalno najuspješnija franšiza na području dugotrajne epilacije, čemu svjedoči više od 1000 centara i više od 1.000.000 zadovoljnih korisnika u 16 zemalja.
                   <br />
-                  Dio ove uspješne priče je i No+Vello® Bosna i Hercegovina, koji se može pohvaliti sa <b>10 centara u Bosni i Hercegovini</b>, <u>specijaliziranih za područje laserske epilacije i fotoepilacije</u> - dugotrajnog uklanjanja dlačica uz pomoć svjetla. 
+                  Dio ove uspješne priče je i No+Vello® Crna Gora, koji se može pohvaliti sa <b>2 centra u Crnoj Gori</b>, <u>specijaliziranih za područje laserske epilacije i fotoepilacije</u> - dugotrajnog uklanjanja dlačica uz pomoć svjetla. 
                   <br /><br />
-                  Naša inovativna i pristupačna <b>unisex cijena od 59KM po zoni i sesiji</b> napravila je revoluciju na tržištu u području dugotrajnog uklanjanja dlačica. Ključ našeg uspjeha je <b>najsavremenija tehnologija</b> i najbolji protokoli rada koji nam zahvaljujući globalnoj prisutnosti omogućuju <b>pružanje visokokvalitetnih usluga epilacije po vrlo pristupačnoj cijeni.</b>
+                  Naša inovativna i pristupačna <b>unisex cijena od 33 € po zoni i sesiji</b> napravila je revoluciju na tržištu u području dugotrajnog uklanjanja dlačica. Ključ našeg uspjeha je <b>najsavremenija tehnologija</b> i najbolji protokoli rada koji nam zahvaljujući globalnoj prisutnosti omogućuju <b>pružanje visokokvalitetnih usluga epilacije po vrlo pristupačnoj cijeni.</b>
                   
                 </p>
               </div>
@@ -162,7 +162,7 @@ export default function Home() {
                   i <br /> fotopodmlađivanje.
                   <br />
                   <br />
-                  Usluge koje se nude u našim centrima u BiH: </p>
+                  Usluge koje se nude u našim centrima u CG: </p>
               </div>
               <div className="depilacijaTextbox">
                 <div className="depilacijaBox">
@@ -241,8 +241,8 @@ export default function Home() {
                 <div className="firstBox">
                   <a href="/centri"><div className="inner">
                     <img src={threeHeads} alt="" />
-                    <p className="numberEleven">10</p>
-                    <p className="firstText">NO+VELLO centara za savremenu depilaciju i epilaciiju u Bosni i Hercegovini</p>
+                    <p className="numberEleven">2</p>
+                    <p className="firstText">NO+VELLO centra za savremenu depilaciju i epilaciiju u Crnoj Gori</p>
                   </div></a>
                 </div>
                 <div className="secondBox">
@@ -258,7 +258,7 @@ export default function Home() {
                 <div className="thirdBox">
                   <a href="/usluge/fotoepilacija#diodniZone"><div className="inner">
                     <img src={priceTag} alt="" />
-                    <p className="numberEleven">59KM</p>
+                    <p className="numberEleven">€33</p>
                     <p className="firstText">Cijena po zoni i sesiji</p>
                   </div></a>
                 </div>

@@ -54,13 +54,13 @@ export default function PonudePromocije() {
                             </div>
                             </a>
                             <a href="/plan-esthetic-novello">
-                            <div className="singlePromocija">
+                            {/* <div className="singlePromocija">
                                 <div className="inner">
                                     <p className="titlePromocija">Plan esthetic no+vello</p>
                                     <img className='imgPromocija' src={planImg} alt="" />
                                     <a href="/plan-esthetic-novello" className="promocijaButt button">Saznajte više!</a>
                                 </div>
-                            </div>
+                            </div> */}
                            </a>
                         </div>
                     </div>

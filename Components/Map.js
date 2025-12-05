@@ -25,126 +25,38 @@ export default function lokacija(props) {
     const projectInformation = [
         {
             id: "sarajevo-1",
-            name: "Novo Sarajevo - Detalji",
+            name: "Podgorica I - Detalji",
             class: "_sarajevo-i",
             img: mapLogo, 
-            lat: 43.85421427202709, 
-            long: 18.390190383133785,
-            address: "Kolodvorska 3B",
-            phone: "033 718 555 | 061 134 946",
-            email: "info@nomasvello.ba",
+            lat: 42.42575532069287, 
+            long: 19.257080373919422,
+            address: "4. jula br. 107/14",
+            phone: "+382 (0)67 03 83 03",
+            email: "montenegro@nomasvello.me",
         },
         {
             id: "sarajevo-2",
-            name: "Stari Grad - Detalji",
+            name: "Podgorica II - Detalji",
             class: "_sarajevo-2",
             img: mapLogo,
-            lat: 43.860144599935474, 
-            long: 18.427049679415575,
-            address: "Edhema Mulabdića 2",
-            phone: "033 447 351 | 061 135 072",
-            email: "starigrad@nomasvello.ba",
+            lat: 42.43627448831343, 
+            long: 19.239210525632874,
+            address: "Dr. Vukašina Markovića bb",
+            phone: "+382 (0)67 820 437",
+            email: "krusevac@nomasvello.me",
         },
-        {
-            id: "sarajevo-3",
-            name: "Novi Grad - Detalji",
-            class: "_sarajevo3",
-            img: mapLogo, 
-            lat: 43.826073680387616, 
-            long: 18.35323238701965,
-            address: "Hamdije Kapidžića 11",
-            phone: "033 766 130 | 061 136 373",
-            email: "dobrinja@nomasvello.ba",
-        },
-        {
-            id: "sarajevo-4",
-            name: "Ilidža - Detalji",
-            class: "_sarajevo-4",
-            img: mapLogo, 
-            lat: 43.83108391485479, 
-            long: 18.30768914160114,
-            address: "Rustem-pašina 1 – TC SARA",
-            phone: "033 620 077 | 062 022 019",
-            email: "ilidza@nomasvello.ba",
-      },
-      {
-        id: "sarajevo-5",
-        name: "Centar - Detalji",
-        class: "_sarajevo-5",
-        img: mapLogo, 
-        lat: 43.855721376795394, 
-        long: 18.417366057809605,
-        address: "Hamdije Kreševljakovića 7C",
-        phone: "033 671 100 | 062 209 979",
-        email: "centar@nomasvello.ba",
-    },
-        {
-            id: "banjaluka-1",
-            name: "Banja Luka - Detalji",
-            class: "_banjaluka-1",
-            img: mapLogo, 
-            lat: 44.769029076816324, 
-            long: 17.185361934757125,
-            address: "Bulevar cara Dušana 15",
-            phone: "051 258 150 | 066 486 645",
-            email: "banjaluka@nomasvello.ba",
-      },
-      {
-        id: "brcko",
-        name: "Brčko - Detalji",
-        class: "_brcko",
-        img: mapLogo, 
-        lat: 44.87005873701408, 
-        long: 18.809639424178854,
-        address: "Studentska 3",
-            phone: "066 326 505",
-            email: "brcko@nomasvello.ba",
-      },
-        {
-            id: "zenica",
-            name: "Zenica - Detalji",
-            class: "_zenica",
-            img: mapLogo, 
-            lat: 44.200100661438874,    
-            long: 17.909923994094555,
-            address: "Kamberovića čikma bb",
-            phone: "032 40 40 50 | 061 02 67 00",
-            email: "zenica@nomasvello.ba",
-      },
-      {
-        id: "tuzla",
-        name: "Tuzla - Detalji",
-        class: "_tuzla",
-        img: mapLogo, 
-        lat: 44.534124, 
-        long: 18.683063,
-        address: "ZGRADA AVAZ – Maršala Tita br. 2",
-        phone: "061 75 20 20",
-        email: "tuzla@nomasvello.ba",
-      },
-      {
-        id: "doboj",
-        name: "Doboj - Detalji",
-        class: "_doboj",
-        img: mapLogo, 
-        lat: 44.708790355073276, 
-        long: 18.05836607589864,
-        address: "Makljenovac b.b.",
-            phone: "061 888 595",
-            email: "doboj@nomasvello.ba",
-      },
       
     ]
 
     const projectSettings = {
         center: {
-            lat: 43.854245798806055, 
-            lng: 18.390102952285982
+            lat: 42.42575532069287, 
+            lng: 19.257080373919422
         },
         zoom: 16
     };
 
-    const [dynCenter, setDynCenter] = useState({lat: 43.854245798806055, lng: 18.390102952285982})
+    const [dynCenter, setDynCenter] = useState({lat: 42.42575532069287, lng: 19.257080373919422})
 
     const [dynZoom, setDynZoom] = useState(16)
 
@@ -185,7 +97,7 @@ export default function lokacija(props) {
               <div className="inner">
               <div className="titleBox">
                 <p>Naši centri u
-                  Bosni i Hercegovini</p>
+                  Crnoj Gori</p>
               </div>
                 <div className="locationBox">
                   <div className="innerLocations">
@@ -261,8 +173,8 @@ export default function lokacija(props) {
                             ""
                         }
                         <MapMarkerMain
-                            lat={43.854189055457304}
-                            lng={18.390102948315203}
+                            lat={42.42575532069287}
+                            lng={19.257080373919422}
                             image={mapLogo}
                         />
                     </GoogleMapReact></div>

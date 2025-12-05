@@ -276,7 +276,7 @@ lokalizovanih masnih naslaga.</p>
                             <div className="singleItem upperItem">
                                     <div className="inner">
                                         <p className="title">Tjelesni učvršćivač</p>
-                                        <p className="price">40 KM</p>
+                                        <p className="price">25 €</p>
                                     </div>
                                 </div>
                                 

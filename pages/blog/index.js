@@ -82,15 +82,8 @@ export default function Test(props) {
                               </p>
                               <img className='greenLinesRight' src={greenLines} alt="" />
                               <div className="listCentri">
-                                  <a className='singleCent' href="/centri/sarajevo-i">Novo Sarajevo</a>
-                                  <a className='singleCent' href="/centri/sarajevo-ii">Stari Grad</a>
-                                  <a className='singleCent' href="/centri/sarajevo-iii">Dobrinja</a>
-                                  <a className='singleCent' href="/centri/sarajevo-iv">Ilidža</a>
-                                  <a className='singleCent' href="/centri/banja-luka">Banja Luka</a> 
-                                  <a className='singleCent' href="/centri/brcko">Brčko</a>
-                                  <a className='singleCent' href="/centri/zenica">Zenica</a>
-                                  <a className='singleCent' href="/centri/tuzla">Tuzla</a>
-                                  <a className='singleCent' href="/centri/doboj">Doboj</a>
+                                  <a className='singleCent' href="/centri/podgorica-I">Podgorica I - Siva Zetagradnja</a>
+                                  <a className='singleCent' href="/centri/podgorica-II">Podgorica II - Kod Krivog Mosta</a>
                               </div>
                           </div>
                       </div>

@@ -1,12 +1,12 @@
 import React from 'react'
 import Link from 'next/link';
 import pointImg from '../../public/images/centri/point.png';
-import { BrckoGallery } from '../../Components/centri/BrckoGallery';
+import { PodgoricaIIGallery } from '../../Components/centri/PodgoricaIIGallery';
 import checkGreen from '../../public/images/centri/check.png';
 import greenSphere from '../../public/images/centri/sphere.png';
-import BrckoPopup from '../../Components/popups/BrckoPopup';
+import PodgoricaIIPopup from '../../Components/popups/PodgoricaIIPopup';
 
-const Brcko = () => {
+const PodgoricaII = () => {
     return (
         <>
             
@@ -17,7 +17,7 @@ const Brcko = () => {
                         <div className="column is-4">
                             <div className="titleTopCentri">
                                 <img src={pointImg} alt="" />
-                                <h1 className="title singleCentarTitle">Centar u Brčkom</h1>
+                                <h1 className="title singleCentarTitle">Centar u Podgorici II</h1>
                             </div>
                             <div className="infoCentar">
                                 <div className="columns adressCols">
@@ -27,10 +27,10 @@ const Brcko = () => {
                                 <p className="cityInfoTitle">Email:</p>
                                     </div>
                                     <div className="column is-10">
-                                        <p><span className="cityInfoContent">Studentska 3</span></p>
-                                        <p><span className="cityInfoContent">066 326 505</span></p>
+                                        <p><span className="cityInfoContent">Dr. Vukašina Markovića bb</span></p>
+                                        <p><span className="cityInfoContent">+382 (0)67 820 437</span></p>
                                         <p><span
-                                        className="cityInfoContent">brcko@nomasvello.ba</span></p>
+                                        className="cityInfoContent">krusevac@nomasvello.me</span></p>
                                     </div>
                                 </div>
                             </div>
@@ -54,26 +54,33 @@ const Brcko = () => {
                                     </div>
                                     <div className="column">
                                     <p className="cityInfoTitle strong">Subota:</p>
-                                        <p><span className="cityInfoContent strong workHours">09:00 - 15:00h</span></p>
+                                        <p><span className="cityInfoContent strong workHours">09:00 - 18:00h</span></p>
                                     </div>
                                 </div>
                             </div>
                             {/* <Link href="https://nextjs.org/docs/api-reference/next/link">
                             <a className="naruciBtnCentri greenButton">Naručite se</a>
                             </Link> */}
-                            <BrckoPopup />
+                            <PodgoricaIIPopup />
                         </div>
                         <div className="column is-8">
                             <div className="sliderCentar">
-                           <BrckoGallery />
+                           <PodgoricaIIGallery />
                             </div>
                             <div className="centarPonuda">
                                 <div className="centarPonudaInner">
                                 <p className="ponudaTitle">U ovom centru nudimo:</p>
                                 <div className="columns">
                                     <div className="column padNone is-6">
+                                            <p className="ponudaItem"> <span className="greenCheckSpacing"><img src={checkGreen} alt="" /></span>Laserska epilacija diodnim laserom</p>
                                             <p className="ponudaItem"> <span className="greenCheckSpacing"><img src={checkGreen} alt="" /></span>Fotoepilacija IPL SHR</p>
                                             <p className="ponudaItem"> <span className="greenCheckSpacing"><img src={checkGreen} alt="" /></span>Fotopodmlađivanje</p>
+                                            <p className="ponudaItem"> <span className="greenCheckSpacing"><img src={checkGreen} alt="" /></span>Tjelesni učvršćivač</p>
+                                            <p className="ponudaItem"> <span className="greenCheckSpacing"><img src={checkGreen} alt="" /></span>Anticelulitni reduktor</p>
+                                            <p className="ponudaItem"> <span className="greenCheckSpacing"><img src={checkGreen} alt="" /></span>Facijalni anti-age</p>
+                                    </div>
+                                    <div className="column padNone">
+                                            <p className="ponudaItem"> <span className="greenCheckSpacing"><img src={checkGreen} alt="" /></span>Izbjeljivanje zuba</p>
                                             <p className="ponudaItem"> <span className="greenCheckSpacing"><img src={checkGreen} alt="" /></span>Ultrazvučno čišćenje lica</p>
                                             <p className="ponudaItem"> <span className="greenCheckSpacing"><img src={checkGreen} alt="" /></span>Čišćenje lica galvanskom energijom</p>
                                             <p className="ponudaItem"> <span className="greenCheckSpacing"><img src={checkGreen} alt="" /></span>Personalizovani tretmani lica</p>
@@ -83,9 +90,10 @@ const Brcko = () => {
                                 </div>
                             </div>
                             <div className="mapaCentra">
-                            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2827.618734766892!2d18.80742251580235!3d44.87005598091067!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x475c0c10206bca77%3A0xd00073b9dc0c01ed!2sNo%2BVello%C2%AE%20Br%C4%8Dko%20-%20Svjetski%20lider%20u%20laserskoj%20epilaciji!5e0!3m2!1sen!2sba!4v1643963100809!5m2!1sen!2sba" width="888" height="340" allowfullscreen="" loading="lazy"></iframe>
+                            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3021.299999685903!2d19.237690576199693!3d42.43587927118595!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x134deb2185579bc1%3A0x903f8f72e203efc!2sDr%20Vuka%C5%A1ina%20Markovi%C4%87a%2C%20Podgorica%2C%20Montenegro!5e1!3m2!1sen!2sba!4v1764524822739!5m2!1sen!2sba" width="888" height="340"  allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                            
                             </div>
-                            <Link href="https://www.google.com/maps/place/No%2BVello%C2%AE+Br%C4%8Dko+-+Svjetski+lider+u+laserskoj+epilaciji/@44.870056,18.8074225,17z/data=!3m1!4b1!4m5!3m4!1s0x475c0c10206bca77:0xd00073b9dc0c01ed!8m2!3d44.8700522!4d18.8096112">
+                            <Link href="https://www.google.com/maps/place/Dr+Vuka%C5%A1ina+Markovi%C4%87a,+Podgorica,+Montenegro/@42.4358793,19.2376906,694m/data=!3m2!1e3!4b1!4m6!3m5!1s0x134deb2185579bc1:0x903f8f72e203efc!8m2!3d42.4358793!4d19.2402655!16s%2Fg%2F1hhjxkq1d?entry=ttu&g_ep=EgoyMDI1MTEyMy4xIKXMDSoASAFQAw%3D%3D">
                             <a className="pogledajMapuBtn greyButton" target='_blank'>Pogledaj na Google Maps</a>
                             </Link>
                         </div>
@@ -109,8 +117,8 @@ const Brcko = () => {
                                 <div className="boxOuter">
                                     <div className="boxInner">
                                         <img src={greenSphere} alt="" />
-                                        <p className="centriCityTitle">Tuzla</p>
-                                        <p className="centriCitySubtitle">Centar u zgradi Avaza</p>
+                                        <p className="centriCityTitle">Podgorica I</p>
+                                        <p className="centriCitySubtitle">Siva Zetagradnja</p>
                                         <div className="adressInfo">
                                             <div className="columns">
                                                 <div className="column">
@@ -119,79 +127,22 @@ const Brcko = () => {
                                                     <p className="cityInfoTitle">Email: </p>
                                                 </div>
                                                 <div className="column is-10">
-                                                    <p><span className="cityInfoContent">Maršala Tita br. 2</span></p>
-                                                    <p> <span className="cityInfoContent">061 75 20 20</span></p>
-                                                    <p><span className="cityInfoContent">tuzla@nomasvello.ba</span></p>
+                                                    <p><span className="cityInfoContent">4. jula br. 107/14</span></p>
+                                                    <p> <span className="cityInfoContent">+382 (0)67 03 83 03</span></p>
+                                                    <p><span className="cityInfoContent">montenegro@nomasvello.me</span></p>
                                                 </div>
                                             </div>
                                         </div>
 
-                                        <Link href="/centri/tuzla">
+                                        <Link href="/centri/podgorica-I">
                                         <a className="cityDetailsBtn turqButton">Vidi sve detalje</a>
                                         </Link>
                                     </div>
                                 </div>
                             </div>
                         </div>
-                        <div className="column">
-                        <div className="boxCityOstale">
-                                <div className="boxOuter">
-                                    <div className="boxInner">
-                                        <img src={greenSphere} alt="" />
-                                        <p className="centriCityTitle">Doboj</p>
-                                        <p className="centriCitySubtitle">Centar u Frizersko Kozmetickom Studiju “Mia”</p>
-                                        <div className="adressInfo">
-                                            <div className="columns">
-                                                <div className="column">
-                                                    <p className="cityInfoTitle">Adresa: </p>
-                                                    <p className="cityInfoTitle">Telefon:</p>
-                                                    <p className="cityInfoTitle">Email: </p>
-                                                </div>
-                                                <div className="column is-10">
-                                                    <p><span className="cityInfoContent">Makljenovac b.b.</span></p>
-                                                    <p> <span className="cityInfoContent">061 888 595</span></p>
-                                                    <p><span className="cityInfoContent">doboj@nomasvello.ba</span>
-                                                    </p>
-                                                </div>
-                                            </div>
-                                        </div>
-                                        <Link href="/centri/doboj">
-                                        <a className="cityDetailsBtn turqButton">Vidi sve detalje</a>
-                                        </Link>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                        <div className="column">
-                        <div className="boxCityOstale">
-                                <div className="boxOuter">
-                                    <div className="boxInner">
-                                        <img src={greenSphere} alt="" />
-                                        <p className="centriCityTitle">Banja Luka</p>
-                                        <p className="centriCitySubtitle">Centar u Banja Luci</p>
-                                        <div className="adressInfo">
-                                            <div className="columns">
-                                                <div className="column">
-                                                    <p className="cityInfoTitle">Adresa: </p>
-                                                    <p className="cityInfoTitle">Telefon:</p>
-                                                    <p className="cityInfoTitle">Email: </p>
-                                                </div>
-                                                <div className="column is-10">
-                                                    <p><span className="cityInfoContent">Bulevar cara Dušana 15</span>
-                                                    </p>
-                                                    <p> <span className="cityInfoContent">+051 258 150 | 066 486 645</span></p>
-                                                    <p><span className="cityInfoContent">banjaluka@nomasvello.ba</span>
-                                                    </p>
-                                                </div>
-                                            </div>
-                                        </div>
-                                        <Link href="/centri/banja-luka">
-                                        <a className="cityDetailsBtn turqButton">Vidi sve detalje</a>
-                                        </Link>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
+                       
+                       
                     </div>
                 </div>
 
@@ -208,4 +159,4 @@ const Brcko = () => {
     )
 }
 
-export default Brcko
+export default PodgoricaII

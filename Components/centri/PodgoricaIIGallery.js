@@ -1,9 +1,9 @@
 import React from 'react'
 import Carousel from 'react-grid-carousel'
-import brcko1 from '../../public/images/centri/brcko/brcko1.jpg'
-import brcko2 from '../../public/images/centri/brcko/brcko2.jpg'
+import brcko1 from '../../public/images/centri/podgoricaII/podgorica1.jpg'
+import brcko2 from '../../public/images/centri/podgoricaII/podgorica2.jpg'
 
-
+ 
 
 // your custom dot component with prop `isActive`
 const MyDot1 = ({ isActive }) => (
@@ -19,7 +19,7 @@ const MyDot1 = ({ isActive }) => (
     ></span>
   )
 
-export const BrckoGallery = () => {
+export const PodgoricaIIGallery = () => {
     return (
       
 

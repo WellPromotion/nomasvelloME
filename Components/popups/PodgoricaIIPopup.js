@@ -1,6 +1,6 @@
 import React from 'react';
 import Popup from 'reactjs-popup';
-import BrckoForm from '../forms/BrckoForm'
+import PodgoricaIIForm from '../forms/PodgoricaIIForm'
 
 
 export default () => (
@@ -17,7 +17,7 @@ export default () => (
           </button>
           
     
-          < BrckoForm />
+          < PodgoricaIIForm />
           
                 </div>
             </div>

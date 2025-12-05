@@ -23,7 +23,7 @@ export default function BesplatniForm(props) {
 
   const createContactData = ( contactInfo ) => {
         const contactData = {
-        id: 19,
+        id: 26,
         fieldValues: [
 
             {id : 1, value: contactInfo[1] },
@@ -141,16 +141,8 @@ const handleOnChange = ( event ) => {
                         <div className="select column is-12">
                         <select onChange={ handleOnChange } name="5" required>
                             <option className="first" value="">Odaberite željeni centar*</option>
-                            <option value="Sarajevo - Novo Sarajevo">Sarajevo - Novo Sarajevo</option>
-                            <option value="Sarajevo - Stari Grad">Sarajevo - Stari Grad</option>
-                            <option value="Sarajevo - Novi Grad">Sarajevo - Novi Grad</option>
-                            <option value="Sarajevo - Ilidža">Sarajevo - Ilidža</option>
-                            <option value="Sarajevo - Ilidža">Sarajevo - Centar</option>
-                            <option value="Banja Luka">Banja Luka</option>
-                            <option value="Zenica">Zenica</option>
-                            <option value="Tuzla">Tuzla</option>
-                            <option value="Doboj">Doboj</option>
-                            <option value="Brčko">Brčko</option>
+                            <option value="Podgorica - Siva Zetagradnja">Podgorica - Siva Zetagradnja</option>
+                            <option value="Podgorica - Kod Krivog Mosta">Podgorica  - Kod Krivog Mosta</option>
                         </select>
                         </div>
                         <div className="column is-12 terminKontakta">
