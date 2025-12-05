@@ -1,6 +1,6 @@
 import React from 'react'
 import Carousel from 'react-grid-carousel'
-import brcko1 from '../../public/images/centri/podgoricaII/podgorica1.jpg'
+import brcko1 from '../../public/images/centri/podgoricaII/jedinica.jpg'
 import brcko2 from '../../public/images/centri/podgoricaII/podgorica2.jpg'
  
   
