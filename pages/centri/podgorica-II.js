@@ -90,10 +90,10 @@ const PodgoricaII = () => {
                                 </div>
                             </div>
                             <div className="mapaCentra">
-                            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3021.299999685903!2d19.237690576199693!3d42.43587927118595!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x134deb2185579bc1%3A0x903f8f72e203efc!2sDr%20Vuka%C5%A1ina%20Markovi%C4%87a%2C%20Podgorica%2C%20Montenegro!5e1!3m2!1sen!2sba!4v1764524822739!5m2!1sen!2sba" width="888" height="340"  allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                                <iframe src="https://www.google.com/maps/embed?pb=!1m17!1m12!1m3!1d1930.9561409720568!2d19.240811928602607!3d42.43548588008548!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m2!1m1!2zNDLCsDI2JzA3LjYiTiAxOcKwMTQnMjcuNiJF!5e0!3m2!1sen!2sba!4v1765270810993!5m2!1sen!2sba" width="888" height="340" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
                             
                             </div>
-                            <Link href="https://www.google.com/maps/place/Dr+Vuka%C5%A1ina+Markovi%C4%87a,+Podgorica,+Montenegro/@42.4358793,19.2376906,694m/data=!3m2!1e3!4b1!4m6!3m5!1s0x134deb2185579bc1:0x903f8f72e203efc!8m2!3d42.4358793!4d19.2402655!16s%2Fg%2F1hhjxkq1d?entry=ttu&g_ep=EgoyMDI1MTEyMy4xIKXMDSoASAFQAw%3D%3D">
+                            <Link href="https://www.google.com/maps/place/42%C2%B026'07.6%22N+19%C2%B014'27.6%22E/@42.4354859,19.2408119,17.61z/data=!4m4!3m3!8m2!3d42.435433!4d19.240986?entry=ttu&g_ep=EgoyMDI1MTIwNy4wIKXMDSoASAFQAw%3D%3D">
                             <a className="pogledajMapuBtn greyButton" target='_blank'>Pogledaj na Google Maps</a>
                             </Link>
                         </div>

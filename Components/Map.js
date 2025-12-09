@@ -28,8 +28,8 @@ export default function lokacija(props) {
             name: "Podgorica I - Detalji",
             class: "_sarajevo-i",
             img: mapLogo, 
-            lat: 42.42575532069287, 
-            long: 19.257080373919422,
+            lat: 42.4258056, 
+            long: 19.2596389,
             address: "4. jula br. 107/14",
             phone: "+382 (0)67 03 83 03",
             email: "montenegro@nomasvello.me",
@@ -39,24 +39,26 @@ export default function lokacija(props) {
             name: "Podgorica II - Detalji",
             class: "_sarajevo-2",
             img: mapLogo,
-            lat: 42.43627448831343, 
-            long: 19.239210525632874,
+            lat: 42.43548588008548, 
+            long: 19.240811928602607,
             address: "Dr. Vukašina Markovića bb",
             phone: "+382 (0)67 820 437",
             email: "krusevac@nomasvello.me",
         },
       
     ]
+  
+   
 
     const projectSettings = {
         center: {
-            lat: 42.42575532069287, 
-            lng: 19.257080373919422
+            lat: 42.4258056, 
+            lng: 19.2596389
         },
         zoom: 16
     };
 
-    const [dynCenter, setDynCenter] = useState({lat: 42.42575532069287, lng: 19.257080373919422})
+    const [dynCenter, setDynCenter] = useState({lat: 42.4258056, lng: 19.2596389})
 
     const [dynZoom, setDynZoom] = useState(16)
 
@@ -173,8 +175,8 @@ export default function lokacija(props) {
                             ""
                         }
                         <MapMarkerMain
-                            lat={42.42575532069287}
-                            lng={19.257080373919422}
+                            lat={42.4258056}
+                            lng={19.2596389}
                             image={mapLogo}
                         />
                     </GoogleMapReact></div>

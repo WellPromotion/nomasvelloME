@@ -90,10 +90,10 @@ return (
 
             <div className="mediaWrap">
                 <ul className='mediaIconsList'>
-                    <a href="https://www.facebook.com/NomasvelloSarajevo">
+                    <a href="https://www.facebook.com/profile.php?id=61583497176331">
                         <li><img src={facebookIcon} alt="" /></li>
                     </a>
-                    <a href="https://www.instagram.com/nomasvello.ba/?hl=en">
+                    <a href="https://www.instagram.com/nomasvello.podgorica/?hl=en">
                         <li><img src={instagramIcon} alt="" /></li>
                     </a>
                     <a href="https://www.youtube.com/user/NomasVelloBiH/featured">
@@ -171,11 +171,12 @@ return (
                 <a href="/centri" className='centriDrop'>
                     <li>Centri<span className='downCarretMenu'><img src={dropDownGrey} alt="" /></span>
                         <ul className='centriDropdown'>
-                            <a href="/centri/podgorica-I">
-                                <li>Podgorica - Siva Zetagradnja</li>
-                            </a>
+                           
                             <a href="/centri/podgorica-II">
                                 <li>Podgorica - Kod Krivog Mosta</li>
+                                </a>
+                                <a href="/centri/podgorica-I">
+                                <li>Podgorica - Siva Zetagradnja</li>
                             </a>
                             
                         </ul>

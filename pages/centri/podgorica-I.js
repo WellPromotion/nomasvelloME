@@ -80,10 +80,10 @@ const PodgoricaI = () => {
                                 </div>
                             </div>
                             <div className="mapaCentra">
-                            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1216.2353831408177!2d19.258321035486798!3d42.4276909631382!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x134deb13561dde07%3A0x5667ba37b1cd223b!2s14%2C%20Zetagradnja%2C%20107%204.%20Jul%2C%20Podgorica%2081101%2C%20Montenegro!5e1!3m2!1sen!2sba!4v1764442001685!5m2!1sen!2sba" width="888" height="340" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                                <iframe src="https://www.google.com/maps/embed?pb=!1m17!1m12!1m3!1d669.883988472621!2d19.258412599999993!3d42.4257223!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m2!1m1!2zNDLCsDI1JzMyLjkiTiAxOcKwMTUnMzQuNyJF!5e0!3m2!1sen!2sba!4v1765271328813!5m2!1sen!2sba" width="888" height="340" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
                             
                             </div>
-                            <Link href="https://www.google.com/maps/place/14,+Zetagradnja,+107+4.+Jul,+Podgorica+81101,+Montenegro/@42.427691,19.258321,279m/data=!3m1!1e3!4m5!3m4!1s0x134deb13561dde07:0x5667ba37b1cd223b!8m2!3d42.4257525!4d19.2589242?entry=ttu&g_ep=EgoyMDI1MTEyMy4xIKXMDSoASAFQAw%3D%3D">
+                            <Link href="https://www.google.com/maps/place/42%C2%B025'32.9%22N+19%C2%B015'34.7%22E/@42.4257223,19.2584126,19.14z/data=!4m4!3m3!8m2!3d42.4258056!4d19.2596389?entry=ttu&g_ep=EgoyMDI1MTIwNy4wIKXMDSoASAFQAw%3D%3D">
                             <a className="pogledajMapuBtn greyButton" target='_blank'>Pogledaj na Google Maps</a>
                             </Link>
                         </div>

@@ -1,6 +1,8 @@
 import React from 'react'
 import Carousel from 'react-grid-carousel'
 import brcko1 from '../../public/images/centri/podgoricaII/jedinica.jpg'
+import druga from '../../public/images/centri/podgoricaII/druga.jpg'
+import treca from '../../public/images/centri/podgoricaII/treca.jpg'
 import brcko2 from '../../public/images/centri/podgoricaII/podgorica2.jpg'
  
   
@@ -28,6 +30,20 @@ export const PodgoricaIIGallery = () => {
             <div className="centarSlide">
                 <a href="">
                 <img className="sliderCentarImage" src={brcko1} alt="" />
+                </a>
+            </div>
+        </Carousel.Item>
+        <Carousel.Item>
+                <div className="centarSlide">
+                <a href="">
+                <img className="sliderCentarImage" src={druga} alt="" />
+                </a>
+            </div>
+        </Carousel.Item>
+        <Carousel.Item>
+                <div className="centarSlide">
+                <a href="">
+                <img className="sliderCentarImage" src={treca} alt="" />
                 </a>
             </div>
         </Carousel.Item>

@@ -141,8 +141,9 @@ const handleOnChange = ( event ) => {
                         <div className="select column is-12">
                         <select onChange={ handleOnChange } name="5" required>
                             <option className="first" value="">Odaberite željeni centar*</option>
-                            <option value="Podgorica - Siva Zetagradnja">Podgorica - Siva Zetagradnja</option>
-                            <option value="Podgorica - Kod Krivog Mosta">Podgorica  - Kod Krivog Mosta</option>
+                            
+                                                <option value="Podgorica - Kod Krivog Mosta">Podgorica  - Kod Krivog Mosta</option>
+                                                <option value="Podgorica - Siva Zetagradnja">Podgorica - Siva Zetagradnja</option>
                         </select>
                         </div>
                         <div className="column is-12 terminKontakta">
