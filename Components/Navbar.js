@@ -96,9 +96,9 @@ return (
                     <a href="https://www.instagram.com/nomasvello.podgorica/?hl=en">
                         <li><img src={instagramIcon} alt="" /></li>
                     </a>
-                    <a href="https://www.youtube.com/user/NomasVelloBiH/featured">
+                    {/* <a href="https://www.youtube.com/user/NomasVelloBiH/featured">
                         <li><img src={youtubeIcon} alt="" /></li>
-                    </a>
+                    </a> */}
                     
                     {/* <a href="https://twitter.com/novellobih">
                         <li><img src={twitterIcon} alt="" /></li>
