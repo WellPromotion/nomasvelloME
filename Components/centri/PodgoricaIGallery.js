@@ -1,8 +1,9 @@
 import React from 'react'
 import Carousel from 'react-grid-carousel'
-import podgorica1 from '../../public/images/centri/podgoricaI/Podgorica-1.jpg'
-import podgorica2 from '../../public/images/centri/podgoricaI/Podgorica-12.jpg'
-import podgorica3 from '../../public/images/centri/podgoricaI/Podgorica-123.jpg'
+import podgorica1 from '../../public/images/centri/podgoricaI/podgorica1.jpg'
+import podgorica2 from '../../public/images/centri/podgoricaI/podgorica2.jpg'
+import podgorica3 from '../../public/images/centri/podgoricaI/podgorica3.jpg'
+import podgorica4 from '../../public/images/centri/podgoricaI/podgorica4.jpg'
 // import banjaluka4 from '../../public/images/centri/banja-luka/BL4.jpg'
 // import banjaluka5 from '../../public/images/centri/banja-luka/BL5.jpg'
 
@@ -45,6 +46,13 @@ export const PodgoricaIGallery = () => {
                 <div className="centarSlide">
                 <a href="">
                 <img className="sliderCentarImage" src={podgorica3} alt="" />
+                </a>
+            </div>
+        </Carousel.Item>
+        <Carousel.Item>
+                <div className="centarSlide">
+                <a href="">
+                <img className="sliderCentarImage" src={podgorica4} alt="" />
                 </a>
             </div>
         </Carousel.Item>
