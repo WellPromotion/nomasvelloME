@@ -68,6 +68,12 @@
         font-weight: bold;
         color: $primaryGreen;
     }
+    h4{
+        color: #363636 !important;
+    }
+    h4 strong{
+        color: #363636 !important;
+    }
 }
 
 .titlePost, .datePost, .imgPost, .contentPost{
