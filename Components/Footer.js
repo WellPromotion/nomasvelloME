@@ -70,10 +70,10 @@ export const Footer = () => {
                                 <p className="footerTitle">
                                     Kontakt
                                 </p>
-                                <p>
+                                {/* <p>
                                     <a href="tel:38267820437" className="kontaktLinks isGreen footerLink"> <span><img src={phoneLogo}
                                                 alt="" /></span> 067 820 437</a>
-                                </p>
+                                </p> */}
                                 <p>
                                     <a href="mail:info@nomasvello.me" className="kontaktLinks isGreen footerLink"> <span><img src={inboxLogo}
                                                 alt="" /></span> info@nomasvello.me</a>
